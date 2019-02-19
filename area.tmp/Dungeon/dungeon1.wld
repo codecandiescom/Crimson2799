@@ -1,0 +1,1386 @@
+#6000
+Resting Room~
+  Just a home-away-from-home for the Builder-type personality. 
+~
+22 PRIVATE INDOORS
+S
+#6001
+Access Tunnel~
+  You are in a round access tunnel going straight down. I hope you have a 
+light source because it's looking awfully dark down there. 
+~
+22 NOMOB INDOORS
+D4
+sewer grate leading up
+~
+sewer grate system~
+ISDOOR|CLOSED -1 5005
+D5
+~
+~
+0 -1 6002
+S
+#6002
+Smelly Tunnel~
+  You are knee deep in seeping sewage from Anomaly Settlement above you... 
+and OY! Does it SMELL! Bleh. It's a good think this game doesn't make you 
+take damage due to corrosive odours or you'd be dead right now. 
+~
+22 0 INDOORS
+D4
+~
+~
+0 -1 6001
+D0
+~
+~
+0 -1 6003
+D1
+~
+~
+0 -1 6004
+D2
+~
+~
+0 -1 6013
+D5
+~
+~
+0 -1 6005
+S
+#6003
+Smelly Tunnel~
+  You are in a sewer tunnel. Mounted on the edge of the tunnel is a cleaner 
+bot replicator. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6002
+D3
+~
+~
+0 -1 6014
+E
+cleaner bot replicator~
+The replicator periodically creates a new tunnel cleaner robot.
+Unfortunately, it's pretty industrial strength... it doesn't look
+like you can break off any parts to scavenge. ~
+S
+#6004
+Smelly Tunnel~
+  You are in a sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6002
+D0
+~
+~
+0 -1 6012
+D2
+~
+~
+0 -1 6016
+S
+#6005
+Vertical Sewer Tunnel~
+  You are in a vertical sewer tunnel. There is some light filtering in from 
+high above. 
+~
+22 NOMOB INDOORS
+D4
+~
+~
+0 -1 6002
+D5
+~
+~
+0 -1 6006
+S
+#6006
+Smelly Tunnel~
+  You are in a sewer. There is some light filtering in from high above. 
+Someone scratched a large "2" on the wall. 
+~
+22 0 INDOORS
+D4
+~
+~
+0 -1 6005
+D5
+~
+~
+0 -1 6007
+D0
+~
+~
+0 -1 6009
+S
+#6007
+Vertical Sewer Tunnel~
+  You are in a vertical sewer tunnel. There is some light filtering in from 
+high above. 
+~
+22 NOMOB INDOORS
+D4
+~
+~
+0 -1 6006
+D5
+~
+~
+0 -1 6008
+S
+#6008
+Smelly Tunnel~
+  You are in a sewer. There is some light filtering in from high above. 
+Someone scratched a large "3" on the wall. 
+~
+22 0 INDOORS
+D2
+~
+~
+0 -1 6055
+D4
+~
+~
+0 -1 6007
+D0
+~
+~
+0 -1 6010
+S
+#6009
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6006
+S
+#6010
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D1
+~
+~
+0 -1 6069
+D0
+~
+~
+0 -1 6054
+D2
+~
+~
+0 -1 6008
+D3
+~
+~
+0 -1 6011
+S
+#6011
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6042
+D0
+~
+~
+0 -1 6041
+D1
+~
+~
+0 -1 6010
+S
+#6012
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 0 INDOORS
+D1
+~
+~
+0 -1 6031
+D2
+~
+~
+0 -1 6004
+S
+#6013
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 0 INDOORS
+D2
+~
+~
+0 -1 6023
+D0
+~
+~
+0 -1 6002
+D1
+~
+~
+0 -1 6016
+S
+#6014
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 0 INDOORS
+D0
+~
+~
+0 -1 6015
+D1
+~
+~
+0 -1 6003
+S
+#6015
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 0 INDOORS
+D3
+~
+~
+0 -1 6021
+D0
+~
+~
+0 -1 6020
+D2
+~
+~
+0 -1 6014
+S
+#6016
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 0 INDOORS
+D2
+~
+~
+0 -1 6024
+D0
+~
+~
+0 -1 6004
+D3
+~
+~
+0 -1 6013
+S
+#6017
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6019
+S
+#6018
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6020
+S
+#6019
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6021
+D1
+~
+~
+0 -1 6020
+D0
+~
+~
+0 -1 6017
+S
+#6020
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6019
+D2
+~
+~
+0 -1 6015
+D0
+~
+~
+0 -1 6018
+S
+#6021
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6022
+D1
+~
+~
+0 -1 6015
+D0
+~
+~
+0 -1 6019
+S
+#6022
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6021
+S
+#6023
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6013
+S
+#6024
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6016
+S
+#6025
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6027
+S
+#6026
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6028
+S
+#6027
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6029
+D1
+~
+~
+0 -1 6028
+D0
+~
+~
+0 -1 6025
+S
+#6028
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6027
+D2
+~
+~
+0 -1 6030
+D0
+~
+~
+0 -1 6026
+S
+#6029
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6031
+D1
+~
+~
+0 -1 6030
+D0
+~
+~
+0 -1 6027
+S
+#6030
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6029
+D2
+~
+~
+0 -1 6032
+D0
+~
+~
+0 -1 6028
+S
+#6031
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6012
+D0
+~
+~
+0 -1 6029
+S
+#6032
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D1
+~
+~
+0 -1 6033
+D0
+~
+~
+0 -1 6030
+S
+#6033
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6032
+D2
+~
+~
+0 -1 6035
+S
+#6034
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6036
+S
+#6035
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6037
+D1
+~
+~
+0 -1 6036
+D0
+~
+~
+0 -1 6033
+S
+#6036
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6035
+D2
+~
+~
+0 -1 6038
+D0
+~
+~
+0 -1 6034
+S
+#6037
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6039
+D1
+~
+~
+0 -1 6038
+D0
+~
+~
+0 -1 6035
+S
+#6038
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6037
+D2
+~
+~
+0 -1 6040
+D0
+~
+~
+0 -1 6036
+S
+#6039
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6037
+S
+#6040
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6038
+S
+#6041
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6011
+D0
+~
+~
+0 -1 6089
+S
+#6042
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6011
+D2
+~
+~
+0 -1 6043
+S
+#6043
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6042
+D2
+~
+~
+0 -1 6044
+S
+#6044
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6043
+D2
+~
+~
+0 -1 6045
+S
+#6045
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6044
+D2
+~
+~
+0 -1 6046
+S
+#6046
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6045
+D1
+~
+~
+0 -1 6058
+D2
+~
+~
+0 -1 6047
+S
+#6047
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6046
+D2
+~
+~
+0 -1 6048
+S
+#6048
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6047
+D2
+~
+~
+0 -1 6049
+S
+#6049
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6048
+D2
+~
+~
+0 -1 6091
+S
+#6050
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D1
+~
+~
+0 -1 6064
+D2
+~
+~
+0 -1 6051
+D0
+~
+~
+0 -1 6090
+S
+#6051
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6050
+D2
+~
+~
+0 -1 6052
+S
+#6052
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6051
+D2
+~
+~
+0 -1 6053
+S
+#6053
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6052
+D2
+~
+~
+0 -1 6054
+S
+#6054
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6053
+D2
+~
+~
+0 -1 6010
+S
+#6055
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6008
+D2
+~
+~
+0 -1 6056
+S
+#6056
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6055
+S
+#6057
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D2
+~
+~
+0 -1 6058
+S
+#6058
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6057
+D1
+~
+~
+0 -1 6074
+D2
+~
+~
+0 -1 6059
+D3
+~
+~
+0 -1 6046
+S
+#6059
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6058
+D2
+~
+~
+0 -1 6060
+S
+#6060
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6059
+D2
+~
+~
+0 -1 6061
+S
+#6061
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D1
+Debris covered crack in the wall
+~
+debris crack wall~
+ISDOOR|CLOSED|HIDDEN -1 6077
+D0
+~
+~
+0 -1 6060
+D2
+~
+~
+0 -1 6062
+S
+#6062
+Smelly Tunnel~
+  You are in a smelly sewer tunnel. 
+~
+22 DARK INDOORS
+D0
+~
+~
+0 -1 6061
+S
+#6063
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6064
+S
+#6064
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D3
+~
+~
+0 -1 6050
+D2
+~
+~
+0 -1 6065
+D0
+~
+~
+0 -1 6063
+S
+#6065
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6064
+S
+#6066
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6067
+S
+#6067
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6068
+D0
+~
+~
+0 -1 6066
+S
+#6068
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6069
+D0
+~
+~
+0 -1 6067
+S
+#6069
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D3
+~
+~
+0 -1 6010
+D2
+~
+~
+0 -1 6070
+D0
+~
+~
+0 -1 6068
+S
+#6070
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6071
+D0
+~
+~
+0 -1 6069
+S
+#6071
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6072
+D1
+~
+~
+0 -1 6079
+D0
+~
+~
+0 -1 6070
+S
+#6072
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6073
+D0
+~
+~
+0 -1 6071
+S
+#6073
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6074
+D0
+~
+~
+0 -1 6072
+S
+#6074
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D3
+~
+~
+0 -1 6058
+D2
+~
+~
+0 -1 6075
+D0
+~
+~
+0 -1 6073
+S
+#6075
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D2
+~
+~
+0 -1 6076
+D0
+~
+~
+0 -1 6074
+S
+#6076
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6075
+S
+#6077
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D3
+~
+~
+0 -1 6061
+D2
+~
+~
+0 -1 6078
+S
+#6078
+Huge Smelly Tunnel~
+  You are in a huge, cavernous tunnel running north/south. About a foot of 
+sewer water sits stagnant about your feet. 
+~
+22 DARK CITY-OUTSIDE
+D0
+~
+~
+0 -1 6077
+S
+#6079
+Small crawlway~
+  You are in a very small, tight passage leading east/west through the 
+broken wall. You have to crawl to get through. You delight in the fact it 
+doesn't stink so bad in here. 
+~
+22 DARK|SMALL INDOORS
+D3
+~
+~
+0 -1 6071
+D1
+~
+~
+0 -1 6080
+S
+#6080
+Small crawlway~
+  You are in a very small, tight passage leading east/west through the 
+broken wall. You have to crawl to get through. You delight in the fact it 
+doesn't stink so bad in here. 
+~
+22 DARK|SMALL INDOORS
+D3
+~
+~
+0 -1 6079
+D1
+~
+~
+0 -1 6081
+S
+#6081
+Cavern Pocket~
+  This area looks like a small pocket of space formed when the caverns below 
+caved in. The terrain is very unsettled and dangerous. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6080
+D2
+~
+~
+0 -1 6083
+D1
+~
+~
+0 -1 6082
+S
+#6082
+Cavern Pocket~
+  This area looks like a small pocket of space formed when the caverns below 
+caved in. The terrain is very unsettled and dangerous. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6081
+D2
+~
+~
+0 -1 6084
+S
+#6083
+Cavern Pocket~
+  This area looks like a small pocket of space formed when the caverns below 
+caved in. The terrain is very unsettled and dangerous. 
+~
+22 DARK INDOORS
+D1
+~
+~
+0 -1 6084
+D0
+~
+~
+0 -1 6081
+S
+#6084
+Cavern Pocket~
+  This area looks like a small pocket of space formed when the caverns below 
+caved in. The terrain is very unsettled and dangerous. 
+~
+22 DARK INDOORS
+D3
+~
+~
+0 -1 6083
+D0
+~
+~
+0 -1 6082
+S
+#6085
+Huge flooded tunnel~
+  You are in a huge flooded tunnel. It appears you're swimming in sewage; 
+mega-yuk. The north end of the tunnel comes to an abrupt halt at a smooth 
+wall. 
+~
+22 DARK UNDERWATER
+D2
+~
+~
+0 -1 6086
+S
+#6086
+Huge flooded tunnel~
+  You are in a huge flooded tunnel. It appears you're swimming in sewage; 
+mega-yuk.
+~
+22 DARK UNDERWATER
+D0
+~
+~
+0 -1 6085
+D2
+~
+~
+0 -1 6087
+S
+#6087
+Huge flooded tunnel~
+  You are in a huge flooded tunnel. It appears you're swimming in sewage; 
+mega-yuk.
+~
+22 DARK UNDERWATER
+D0
+~
+~
+0 -1 6086
+D2
+~
+~
+0 -1 6088
+S
+#6088
+Huge flooded tunnel~
+  You are in a huge flooded tunnel. It appears you're swimming in sewage; 
+mega-yuk.
+~
+22 DARK UNDERWATER
+D0
+~
+~
+0 -1 6087
+D2
+~
+~
+0 -1 6089
+S
+#6089
+Huge flooded tunnel~
+  You are in a huge flooded tunnel. It appears you're swimming in sewage; 
+mega-yuk. 
+~
+22 DARK UNDERWATER
+D0
+~
+~
+0 -1 6088
+D2
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|HIDDEN -1 6041
+S
+#6090
+Huge dusty tunnel~
+  You are in a huge dusty tunnel. The tunnel to the south is blocked by a 
+cave-in and it completely impassable. The tunnel appears to originally ended 
+here; the north end of the tunnel comes to an abrupt end at a smooth rock 
+wall.
+~
+22 DARK CITY-OUTSIDE
+D2
+Cave-in debris
+~
+cave-in debris~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|HIDDEN -1 6050
+S
+#6091
+Huge dusty tunnel~
+  You are in a huge dusty tunnel. It doesn't look like anything has been in 
+here for a few thousand million trillion zillion years... give or take a 
+millenium. Of course, that's only your expert opinion; you'd need carbon 
+dating to verify such a claim. 
+~
+22 DARK CITY-OUTSIDE
+D0
+Cave-in debris 
+~
+cave-in debris~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|HIDDEN -1 6049
+S

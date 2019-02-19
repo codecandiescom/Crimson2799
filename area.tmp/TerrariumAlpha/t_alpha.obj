@@ -1,0 +1,442 @@
+#700
+object piece moldy fungus~
+a piece of fungus~
+A strangely appetizing looking piece of fungus is lying here.~
+  Although it is just a piece of moly unidentifiable fungus, something about 
+it makes it look like it would be pretty good to eat. 
+~
+FOOD 0 NOWEAR
+10 0 0 0
+1 1 0
+#701
+leaf pod~
+a leaf pod~
+A leaf pod is lying here~
+  The leaf pod is from some sort of a large tree.  It is about a foot in
+diameter and has a dull green color to it.  It looks like someone has taken
+quite a bit of time to hollow it out to use as a liquid container.
+~
+DRINKCON 0 NOWEAR
+50 50 0 0
+2 1 0
+#702
+object wasp sting~
+a sting~
+A sting of a wasp is lying here.~
+  It is what's left from a dead wasp.  It is a perfect souvenier to make
+a necklace or something, as long as you don't prick yourself by accident.
+~
+OTHER 0 HELD
+0 0 0 0
+1 2 0
+A
+DAMROLL 1
+#703
+object tail scorpion~
+a scorpion's tail~
+a tail of a scorpion is rotting here.~
+  The scorpion may be dead, but the tail is still dangerous.  A mistake
+in handling can cause severe paralysis, so be careful.
+~
+TREASURE 0 HELD
+0 0 0 0
+2 3 0
+A
+DAMROLL 1
+A
+HITROLL 1
+#704
+object delicious fruit red~
+a delicious fruit~
+A delicious looking red fruit is lying here.~
+  It is the fruit from the center of the carnivorous plant.  Many life
+forms have become a meal of the monstrous plant in search for this sweet
+and bitter fruit.
+~
+FOOD 0 NOWEAR
+75 0 0 0
+1 40 0
+A
+USE-SELF-REVITALIZE 20
+A
+USE-SELF-CELLREPAIR 40
+A
+USE-SELF-REFRESH 20
+#705
+object gizzard bear~
+bear's gizzard~
+Bear's gizzard is rotting here on the ground.~
+  Ewww...what's left of a once living bear.  You have no idea what you
+are going to do with this thing, but I guess it doesn't hurt to lug it
+around as long as you have room.
+~
+TREASURE 0 NOWEAR
+0 0 0 0
+2 55 0
+#706
+object tiger claw~
+a tiger's claw~
+sharp-looking claws of an animal is lying here.~
+  The claws belonged to once a ferocious tiger.  Appearantly, it wasn't 
+ferocious enough to hold on to it, but the feel of the claws is good on your 
+grubby hands. 
+~
+WEAPON 0 HELD
+0 512 33620736 0
+2 175 0
+#707
+object zarg shell~
+Zarg's shell~
+Hollow shell of a zarg is littering the ground.~
+  The corpse has decayed long ago, but the tough shell of zarg remains
+untouched. Zarg is known for it's think shell, perhaps this will come in
+handy.
+~
+ARMOR 0 SHIRT
+7 393987 0 0
+9 285 5
+#708
+object snake skin~
+a snake skin~
+a long strip of skin lies coiled on the ground.~
+  It appears to be a snake skin.  You have no idea whether this snake
+was killed or it just molted to become a bigger, meaner snake.
+~
+ARMOR 0 WAIST
+2 50331648 50331904 0
+1 15 0
+#709
+object squirrel fur~
+a piece of squirrel fur~
+Fur from the squirrel lies here, undigested by a predator.~
+  It's what's left of a cute little flying squirrel.  It looks very
+warm, but I think you should have it cleaned before grabbing it.
+~
+ARMOR 0 FEET
+2 50332162 0 0
+0 12 0
+#710
+object horns pair~
+a pair of horns~
+Horns of a large animal is discarded here.~
+  These horns must be the remains of some monsterous beast.  The horns look
+awsome and intimidating on your head.  This is a keeper!
+~
+ARMOR 0 HEAD
+5 50660099 0 0
+2 225 4
+#711
+object loincloth pile cloth~
+a loincloth~
+a pile of cloth lies here on the floor.~
+  It is a loincloth.  This is a clothing fashion that went out of style
+about 1500 years ago, and it's also too big for you.  But it's made of a
+tiger skin, and you would rather be wearing this than be naked.
+~
+ARMOR 0 OVERBODY
+4 768 50331648 0
+2 35 0
+#712
+object bracelet gold~
+a bracelet~
+a sparkling gold bracelet is lying here.~
+  The bracelet is made of gold.  What kind of person will adorn oneself
+with a precious metal instead of donating it to the goverment so it can
+be used as conductors?  You think this will go nicely with your diamond
+collection.
+~
+ARMOR 0 WRIST
+0 257 1 0
+1 25 0
+#713
+object chieftain shield~
+chieftain's shield~
+A highly decorated shield is forgotten on the ground.~
+  This has a mark of an ape-chieftain.  It looks sturdy enough to hold off
+several ape-men.  You particularily like the picture on it's front, a huge
+yellow reptilian creature with its jaws wide open.
+~
+ARMOR 0 HELD
+7 328192 512 0
+3 200 2
+#714
+object vampire fangs~
+vampire fangs~
+dangerous looking pair of fangs are dropped on the ground.~
+  It is basically a set of teeth with sharp, enlarged fangs.  Wear them
+and scare your friends!  Scare your progenitors!  Only 1 credit with
+this special offer (with s&h charge of 1 million credits)!  Hrm....
+something tells you that you've been staring at the holovision shopping
+channel way too long.
+~
+TREASURE 0 NOWEAR
+0 0 0 0
+1 1 0
+#715
+object mangled corpse~
+a mangled corpse~
+tsk..tsk..a poor idiot jumped the cliff and ended up dead.~
+  A poor soul who thought a 200 feet drop wouldn't hurt him.  Well, any
+stuff he was carrying can be best put to use by yours truly.
+~
+CONTAINER 0 NOWEAR
+0 5 0 0
+-1 0 0
+#716
+object ring neutronium red dense~
+a neutronium ring~
+A dense ring glowing in deep shade of red is lying here.~
+  The ring glows in deep shade of red.  The ring is very dense for its size,
+but that is of no surprise knowing that it's composed of neutronium.  This
+rare metal is forged by sub-atomatically fusing extra neutrons to depleted
+uranium.  Neutronium has been rumoured to have special spiritual properties,
+but GalCiv Health authority reports that it causes severe brain damage,
+causing mental degeneration with frequent exposure.  Humans like to adorn
+themselves with this item because its shiny and rare, another nail on the
+coffin on the theory of their craziness.
+~
+ARMOR GLOW|DARK FINGER
+2 0 262150 0
+5 10 5
+A
+POWER 10
+#717
+object builder couch~
+a builder couch~
+A builder couch is here, covered in dust.~
+  One of the most important discoveries from the anomaly is this piece
+of technology.  This is the equipment that enhances the psionic and
+spiritual abilities of the user.  Finding this equipment is never an
+easy task, for most of the anomaly is uncharted.  Well, you have found
+it.  Let's see how it works.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@COMMAND~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PSYCHIC,0,25)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#718
+object wooden chest~
+a wooden chest~
+There is a wooden chest by the foot of the large bed.~
+  Looks like a sturdy wooden chest.  There is a small metal lock on it.
+~
+CONTAINER 0 NOWEAR
+20 15 719 0
+-1 0 0
+#719
+object small metal key~
+a small metal key~
+A small key is discarded here.~
+  It's a key.  You open stuff with it.  You put it in a lock, jiggle it,
+and if the lock unlocks, you found the lock that this key goes to.  I'm
+sure this is a different concept from simply scanning a keycard, but you
+are bright enough, figure it out.
+~
+KEY 0 NOWEAR
+719 0 0 0
+1 0 10000
+#720
+chitinous armor plate object~
+a chitinous armor plate~
+part of an insect armor is left here.~
+  It's a remnant of some insect.  The chitinous armor plate looks perfect
+thing to cover the interior of a bug.  Perhaps it'll help you cover some
+of your body.
+~
+ARMOR 0 ARM
+4 131584 50331648 0
+2 35 0
+#721
+object colorful feather~
+a colorful feather~
+A small colorful feather has been dropped here.~
+  It is a beautiful feather from a beautiful bird.  Other than it's beauty,
+it's totally unremarkable.  Your enterpreneural side quickly attempts to
+find a possible buyer for this object.  Good thing you gave up on being
+a stockbroker.
+~
+ARMOR 0 HEAD
+1 0 0 0
+1 2 0
+#722
+object slimy delicious flesh~
+delicious flesh~
+a small piece of slimy flesh is here.~
+  It is a delicious looking flesh from a mussel.  I bet it took you some
+effort to get at this, what with the shell being hard to crack and all.
+Would you like some raw fish with that, or some mustard sauce?
+~
+FOOD 0 NOWEAR
+15 0 0 0
+1 0 0
+#723
+object wooden spear~
+a wooden spear~
+An wooden spear is here, forgotten by its owner.~
+  Its a simple weapon.  A strong stick sharpened at one edge for purpose of 
+piercing a target.  With all the advancement in the wield of weaponry, this 
+ancient weapon can still get the job done. 
+~
+WEAPON 0 HELD
+0 512 33554944 0
+4 10 0
+#724
+object weaved basket~
+a weaved basket~
+A beautifully weaved basket is carelessly set aside here.~
+  It is a beautiful basket woven from the barks of a local tree.
+The basket looks large enough to hold many fruits and vegetables.
+~
+CONTAINER 0 NOWEAR
+50 0 0 0
+4 5 0
+#725
+object rat's tail~
+a rat's tail~
+A severed rodent's tail is rotting here.~
+  It's part of the remains of a rat.  Disgusting!  While you have no use
+for a tail, you decide to hold on to it cuz you are one sick puppy.
+~
+TREASURE 0 NOWEAR
+0 0 0 0
+1 5 0
+#726
+object used laser rifle~
+a used laser rifle~
+A used laser rifle lies here forgotten by its previous owner.~
+  This is a GalCiv United Militia's (G.U.M) issue laser assault rifle. This 
+particular model, GALR-1, is a single stream rifle preferred by the 
+militia's special divisions.  It is illegal for non-military personnel to 
+posess this rifle, so the demand for the assault rifle is high in the black 
+market.  If you are an outlaw, you will most likely have the honor of having 
+your brain vaporized by this laser from 300-400 feet away.   ^cHrm..  there 
+seems to be something different about this rifle, someone has attached a 
+magnetic accelerator to the pulse generator housing.  You wonder at the 
+point of trying to make the rifle more powerful, it can slice through just 
+about any metal. 
+~
+WEAPON 0 TWO-HANDED
+0 512 33686272 17237253
+55 390 4
+#727
+object GALR energy cell ammo clip~
+a GALR energy cell~
+An energy cell is dropped on the ground here.~
+  It is a energy cell pack for medium laser assault rifles.  There is a 
+label on the cell, it reads, "Property of G.U.M.  Posession of this object 
+is restricted to GCM2 Status under GalCiv 14826.45.  Violators will be 
+persecuted with extreme prejudice."  Hrm...What a perfect mother's day gift. 
+~
+AMMO 0 NOWEAR
+7 150 65536 512
+1 35 0
+#728
+object white pill~
+a white pill~
+a white pill of indeterminate nature is dropped here.~
+  It is a small white pill.  You can't figure out what it's made of or
+who made it.  Did your progenitors ever cautioned you against intaking
+unknown material?
+~
+DRUG 0 NOWEAR
+5 0 0 0
+1 100 0
+A
+USE-SELF-HEAL-MAJOR 50
+#729
+object diary book~
+diary~
+a worn out book is lying here.~
+  It's a diary.  Here are some interesting entries.
+
+Entry 1
+
+   Just like that, my service in the GalCiv United Military was over.
+I still cannot believe they court-martialled me for diciplining my
+men.  I'm on board the Shuttle Genova, heading for the Anomaly Station.
+It is my hope that I can get hired as a bodyguard, where I can kill and
+get paid.
+.........
+Entry 9
+   Well, that was just great.  The Artificer I got hooked up with, who
+was looking to further his intellegence through builder-tech, just fell
+off a cliff while I was taking a little nap in the clearing.  I'm going
+to look for his body tomorrow, hoping that I can lift some useful items
+from his dead body.
+.........
+Entry 15
+   Well, life is grand.  I have found my perfect army.  Too stupid to
+question orders, and with the willpower to do anything they are told.
+It took me a bit of time to understand their language, thank god the
+Artificer had a translator.  I plan to train my army and defend what is
+my TERRARIUM!
+~
+OTHER 0 NOWEAR
+0 0 0 0
+1 10 0
+#730
+object purple pill~
+a purple pill~
+a purple pill of indeterminate nature is dropped here.~
+  It is a small purple pill.  You can't figure out what it's made of or
+who made it.  Did your progenitors ever cautioned you against intaking
+unknown pharmaceuticals?
+~
+DRUG 0 NOWEAR
+5 0 0 0
+1 100 0
+A
+USE-SELF-REVITALIZE 120
+#731
+object brown pill~
+a brown pill~
+a brown pill of indeterminate nature is dropped here.~
+  It is a small brown pill.  You can't figure out what it's made of or
+who made it.  Did your progenitors ever cautioned you against intaking
+unknown pharmaceuticals?
+~
+DRUG 0 NOWEAR
+5 0 0 0
+1 100 0
+A
+USE-SELF-REFRESH 120
+#732
+advanced scanner bio-scanner~
+Advanced Bio-Scanner~
+An advanced bio-scanner has been left here~
+Serial #:5928-4816. Warning :Usage of this mechanism is limited to the 
+regulations described in the GalCiv 14825.17.  Any illegal usage of this 
+product will be prosecuted with extreme prejudice. Hrm...Leave it to the 
+GalCiv to incriminate someone for using a simple scanner.  This one is an 
+advanced scanner for scanning biological patterns.  Adventurers and 
+Xenobiologists carry this to collect samples of alien life forms for study.  
+There should be a place on the station that you can sell off the collected 
+pattern.  
+~
+SCANNER 0 HELD
+17170433 10000 0 0
+5 200 1
+#733
+god's pill~
+God's Pill~
+a small pill is lying here.~
+Gift or (joke) from the gods.  Who knows what it will do? 
+~
+DRUG BLESS NOWEAR
+0 0 0 0
+0 1000 0
+A
+USE-SELF-STRENGTH 10
+A
+USE-SELF-ENDURANCE 10
+A
+USE-SELF-BERSERK 10
+A
+USE-SELF-REGENERATION 10
+$

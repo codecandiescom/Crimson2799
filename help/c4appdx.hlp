@@ -1,0 +1,1822 @@
+C4 Function Reference~
+#
+c4index c4a1.2~
+^a^vAppendix 1.2: C4 Function Library Reference Index^V
+
+^CThe function listing found below is an index for the available 
+function groups. Detailed information on the individual functions
+can be accessed by typing help on the function name itself preceeded
+with a "_" (ie: "help _ThingGetExtra"). 
+
+^rKeyword         C4 Function Group
+^b------------    ---------------------------- 
+^Gc4system        ^cSystem Functions                 ^C           THING
+^Gc4string        ^cString processing                ^C         Hierarchy:
+^Gc4send          ^cSend message / communication                   
+^Gc4thing         ^cTHING manipulations              ^a           THING
+^Gc4world         ^cWLD functions                    ^a   .---------`---------.
+^Gc4exit          ^cEXIT functions                   ^a  WLD                BASE
+^Gc4base          ^cBASE functions                   ^a             .---------|
+^Gc4object        ^cOBJ manipulations                ^a            CHR       OBJ
+^Gc4character     ^cCHR functions                    ^a         .---`---.
+^Gc4player        ^cPLR functions                    ^a        PLR     MOB
+^Gc4extra         ^cEXTRA manipulations              ^a
+^Gc4property      ^cProperty minipulations           ^a
+^Gc4misc          ^cMiscellaneous functions          ^a
+~
+#
+c4exit c4iexit~
+^rExit Functions
+^b--------------
+^gexit  ^rExitFind        ^a(^gthing WLD ^proom^a, ^gstr ^pkey^a)
+^gexit  ^rExitDir         ^a(^gthing WLD ^proom^a, ^gint ^pdir^a)
+^gexit  ^rExitReverse     ^a(^gthing WLD ^proom^a, ^gexit ^pex^a)
+^gint   ^rExitGetDir      ^a(^gexit ^pex^a)
+^gint   ^rExitSetDir      ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, 
+                       ^gint ^pdir^a)
+^gint   ^rExitIsCorner    ^a(^gexit ^pex1^a, ^gexit ^pex2^a)
+^gexit  ^rExitCreate      ^a(^gthing WLD ^pfromroom^a, ^gint ^pdir^a, 
+                       ^gstr ^pkey^a, ^gstr ^pdesc^a, ^gint ^pflag^a,
+                       ^gint ^pKeyObj^a, ^gthing WLD ^ptoroom^a)
+^gint   ^rExitFree        ^a(^gthing WLD ^proom^a, ^gexit ^pex^a)
+^gint   ^rExitGetFlag     ^a(^gexit ^pex^a)
+^gint   ^rExitSetFlag     ^a(^gexit ^pex^a, ^gint ^pflag^a)
+^gint   ^rDoorSetFlag     ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pflag^a)
+^gint   ^rExitGetFlagBit  ^a(^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rExitSetFlagBit  ^a(^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rExitClearFlagBit^a(^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rDoorSetFlagBit  ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rDoorClearFlagBit^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rExitGetKeyObj   ^a(^gexit ^pex^a)
+^gint   ^rExitSetKeyObj   ^a(^gexit ^pex^a, ^gint ^pKeyObj^a)
+^gint   ^rDoorSetKeyObj   ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pKeyObj^a)
+^gstr   ^rExitGetKey      ^a(^gexit ^pex^a)
+^gint   ^rExitSetKey      ^a(^gexit ^pex^a, ^gstr ^pkey^a)
+^gstr   ^rExitGetDesc     ^a(^gexit ^pex^a)
+^gint   ^rExitSetDesc     ^a(^gexit ^pex^a, ^gstr ^pdesc^a)
+^gthing ^rExitGetWorld    ^a(^gexit ^pex^a)
+^gint   ^rExitSetWorld    ^a(^gexit ^pex^a, ^gthing WLD ^proom^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _ExitFind
+~
+#
+c4player c4iplayer~
+^rPlayer Functions
+^b------ ---------
+^g<null>^rPlayerWrite       ^a(^gthing PLR ^pplayer^a)
+^gint   ^rPlayerGetBank     ^a(^gthing PLR ^pplayer^a)
+^gint   ^rPlayerSetBank     ^a(^gthing PLR ^pplayer^a, ^gint ^pcredits^a)
+^gint   ^rPlayerBank        ^a(^gthing MOB/OBJ teller^a, ^gthing PLR ^pplayer^a, 
+                       ^gstr ^pcmd^a)
+^gint   ^rPlayerGainFame    ^a(^gthing PLR ^pplayer^a, ^gint ^pfame^a)
+^gint   ^rPlayerGainInfamy  ^a(^gthing PLR ^pplayer^a, ^gint ^pinfamy^a)
+^gint   ^rPlayerSolvedQuest ^a(^gthing PLR ^pplayer^a, ^gstr ^pmessage^a
+                       ^gint ^pexp^a, ^gint ^pfame^a, ^gstr ^pproperty^a, ^gint ^ppvalue^a)
+^gint   ^rPlayerGetRace     ^a(^gthing PLR ^pplayer^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _PlayerWrite
+~
+#
+c4system c4isystem~
+^rSystem Functions
+^b----------------
+^gint   ^rNumber          ^a(^gint ^plow^a,^gint ^phi^a)
+^gint   ^rDice            ^a(^gint ^proll^a,^gint ^pdice^a)
+^gint   ^rVersion         ^a()
+^gint   ^rC4Version       ^a()
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _Number
+~
+#
+c4string~
+^rString Functions
+^b----------------
+^gint   ^rHello           ^a(^gstr ^phellostr^a)
+^gint   ^rYesNo           ^a(^gstr ^pyesnostr^a)
+^gint   ^rStrLen          ^a(^gstr ^ps1^a)
+^gint   ^rStrIn           ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^gint   ^rStrAt           ^a(^gstr ^ps1^a, ^gstr ^ps2^a, ^gint ^pword^a)
+^gint   ^rStrAtExact      ^a(^gstr ^ps1^a, ^gstr ^ps2^a, ^gint ^pword^a)
+^gint   ^rStrIsCmd        ^a(^gstr ^pstring^a, ^gstr ^pcommand^a)
+^gint   ^rStrExact        ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^gint   ^rStrCmp          ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^gint   ^rStrICmp         ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^gint   ^rStrNCmp         ^a(^gstr ^ps1^a, ^gstr ^ps2, ^gint ^pmaxlen^a)
+^gint   ^rStrNICmp        ^a(^gstr ^ps1^a, ^gstr ^ps2, ^gint ^pmaxlen^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _StrLen
+~
+#
+c4send~
+^rSend Functions
+^b--------------
+^g<null>^rSendAction      ^a(^gthing WLD/PLR/MOB/OBJ ^psource^a, 
+                       ^gthing WLD/PLR/MOB/OBJ ^pdestination^a,
+                       ^gint ^pflags^a, ^gstr ^pstring^a)
+^g<null>^rSendActionStr   ^a(^gthing WLD/PLR/MOB/OBJ ^psource^a, 
+                       ^gthing WLD/PLR/MOB/OBJ ^pdestination^a,
+                       ^gint ^pflags^a, ^gstr ^pstring^a, ^getc ^pp1^a... )
+^g<null>^rSendThing       ^a(^gthing PLR ^pdestination^a, ^gstr ^pmessage^a)
+^g<null>^rSendThingStr    ^a(^gthing PLR ^pdestination^a, ^gstr ^pmessage^a, ^getc ^pp1^a, ^getc ^pp2...^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _SendAction
+~
+#
+c4extra~
+^rExtra Functions
+^b---------------
+^gextra ^rExtraGetNext    ^a(^gextra ^pextralist^a)
+^gstr   ^rExtraGetKey     ^a(^gextra ^pe^a)
+^gstr   ^rExtraGetDesc    ^a(^gextra ^pe^a)
+^gstr   ^rExtraFind       ^a(^gextra ^pextralist^a, ^gstr ^pkey^a)
+^gstr   ^rExtraFree       ^a(^gthing ^psomething^a, ^gextra ^pe^a)
+^aextra ExtraCreate     (thing something, str key, str desc)
+^aextra ExtraSetKey     (extra someextra, str newkey)
+^aextra ExtraSetDesc    (extra someextra, str newdesc)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _ExtraGetNext
+~
+#
+c4thing~
+^rThing Functions
+^b---------------
+^gstr   ^rThingGetName    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gint   ^rThingGetType    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gstr   ^rThingGetDesc    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gthing ^rThingGetContain ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gthing ^rThingGetNext    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gextra ^rThingGetExtra   ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gint   ^rThingTo         ^a(^gthing PLR/MOB/OBJ ^pit^a, ^gthing WLD/PLR/MOB/OBJ ^pto^a)
+^gthing ^rThingFind       ^a(^gstr ^pkey^a, ^gint ^pvirtual^a, ^gthing ^psearch_thing^a, 
+                       ^gint ^pflags^a, ^gint ^poffset^a)
+^gint   ^rThingGetWait    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gint   ^rThingSetWait    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a, ^gint ^pwaitval^a)
+^gint   ^rThingGetIdleWait^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gint   ^rThingSetIdleWait^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a, ^gint ^pwaitval^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _ThingGetName
+~
+#
+c4world~
+^rWorld Functions
+^b---------------
+^gthing ^rWorldOf         ^a(^gint ^pvirtual_num^a)
+^gint   ^rWorldGetVirtual ^a(^gthing WLD ^pworld^a)
+^gint   ^rWorldGetType    ^a(^gthing WLD ^pworld^a)
+^gint   ^rWorldSetType    ^a(^gthing WLD ^pworld^a, ^gint ^ptype^a)
+^gint   ^rWorldGetFlag    ^a(^gthing WLD ^pworld^a)
+^gint   ^rWorldSetFlag    ^a(^gthing WLD ^pworld^a, ^gint ^pflag^a)
+^gint   ^rWorldGetFlagBit ^a(^gthing WLD ^pworld^a, ^gint ^pbit^a)
+^gint   ^rWorldSetFlagBit ^a(^gthing WLD ^pworld^a, ^gint ^pbit^a)
+^gint   ^rWorldClearFlagBit ^a(^gthing WLD ^pworld^a, ^gint ^pbit^a)
+
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _WorldOf
+~
+#
+c4base~
+^rBase Functions
+^b--------------
+^gstr   ^rBaseGetKey      ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^gstr   ^rBaseGetLDesc    ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^gthing ^rBaseGetInside   ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^gint   ^rBaseGetConWeight^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^gint   ^rBaseGetWeight   ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _BaseGetKey
+~
+#
+c4object~
+^rObject Functions
+^b----------------
+^gthing ^rObjectCreate    ^a(^gthing WLD/PLR/MOB/OBJ ^pdstthing^a, ^gint ^pvirtual^a)
+^gthing ^rObjectCreateNum ^a(^gthing WLD/PLR/MOB/OBJ ^pdstthing^a, ^gint ^pvirtual^a,
+                       ^gint ^pnumber^a))
+^gint   ^rObjectFree      ^a(^gthing OBJ ^pobject^a)
+^gint   ^rObjectRemove    ^a(^gthing WLD/PLR/MOB/OBJ ^pdstthing^a, ^gint ^pvirtual^a)
+^gint   ^rObjectStrip     ^a(^gthing WLD/PLR/MOB/OBJ ^psrcthing^a, ^gint ^pvirtual_low^a,
+                       ^gint ^pvirtual_high^a, ^gthing WLD/PLR/MOB/OBJ ^pdstthing^a)
+^gint   ^rObjectStripInv  ^a(^gthing WLD/PLR/MOB/OBJ ^psrcthing^a, ^gint ^pvirtual_low^a,
+                       ^gint ^pvirtual_high^a, ^gthing WLD/PLR/MOB/OBJ ^pdstthing^a)
+^gint   ^rObjectStripEqu  ^a(^gthing WLD/PLR/MOB/OBJ ^psrcthing^a, ^gint ^pvirtual_low^a,
+                       ^gint ^pvirtual_high^a, ^gthing WLD/PLR/MOB/OBJ ^pdstthing^a)
+^gthing ^rObjectContain   ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^gint   ^rObjectCount     ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^gint   ^rObjectCountInv  ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^gint   ^rObjectCountEqu  ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^gint   ^rObjectBuy       ^a(^gthing MOB ^pmerchant^a, ^gthing PLR/MOB ^pbuyer^a,
+                       ^gstr ^pcommand^a, ^gint ^pmarkup^a, ^getc ^pv1...^a)
+^yint   ^yObjectSell      ^a(^gthing MOB ^pmerchant^a, ^gthing PLR/MOB ^pseller^a,
+                       ^gstr ^pcommand^a, ^gint ^pmarkdown^a, ^getc ^pvs1...^a)
+^gint   ^rObjectRedeem    ^a(^gthing MOB ^pmerchant^a, ^gthing PLR/MOB ^pcustomer^a,
+                       ^gstr ^pcommand^a, ^gint ^pmarkdown^a, ^gint ^pflag^a)
+^gint   ^rObjectGetVirtual^a(^gthing OBJ ^pobject^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _ObjectCreate
+~
+#
+c4character~
+^rCharacter Functions
+^b-------------------
+^gthing ^rCharThingFind   ^a(^gthing PLR ^pcharacter^a, ^gstr ^pkey^a, ^gint ^pvirtual^a, 
+                       ^gthing ^psearch_thing^a, ^gint ^pflags^a, ^gint ^poffset^a)
+^gint   ^rCharAction      ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^paction^a)
+^gint   ^rCharActionStr   ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^paction^a, ^getc^p p1...^a)
+^gint   ^rCharActionStrip ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^paction^a)
+^gint   ^rCharGetLevel    ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharGetHitP     ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharSetHitP     ^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^phitpoints^a)
+^gint   ^rCharGetHitPMax  ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharGetMovePMax ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharGetPowerPMax^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharGetMoney    ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharSetMoney    ^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^pmoney^a)
+^gint   ^rCharGetExp      ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharGainExp     ^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^pexp^a)
+^gint   ^rCharGainExpGroup^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^pexp^a)
+^gint   ^rCharPractice    ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^pcommand^a,
+                       ^gint ^ppracflag^a, ^gint ^pnopracflag^a, ^gint ^pmaxlevel^a)
+^gthing ^rCharGetFighting ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharIsLeader    ^a(^gthing PLR/MOB ^pcharacter^a)
+^gthing ^rCharGetLeader   ^a(^gthing PLR/MOB ^pcharacter^a)
+^gthing ^rCharGetFollower ^a(^gthing PLR/MOB ^pcharacter^a)
+^g<null>^rCharAddFollower ^a(^gthing PLR/MOB ^pfollower^a,^gthing PLR/MOB ^pgroupMember^a)
+^g<null>^rCharRemoveFollower ^a(^gthing PLR/MOB ^pcharacter^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _CharAction
+~
+#
+c4property~
+^rProperty Functions
+^b------------------
+^gint   ^rPropertySetStr  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a, ^gstr ^ppValue^a)
+^gint   ^rPropertySetInt  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a, ^gint ^ppValue^a)
+^gint   ^rPropertyExist   ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+^gint   ^rPropertyGetInt  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+^gstr   ^rPropertyGetStr  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+^gstr   ^rPropertyFree    ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _Number
+~
+#
+c4miscellaneous c4fight c4mobile~
+^rMiscellaneous Functions
+^b-----------------------
+^g<null>^rFightStart      ^a(^gthing PLR/MOB ^paggressor^a, ^gthing PLR/MOB ^ptarget^a)
+^g<null>^rFightStop       ^a(^gthing PLR/MOB ^pparticipant^a)
+^gint   ^rFightDamage     ^a(^gthing PLR/MOB ^paggressor^a, ^gint ^pdamage^a, 
+                       ^gint ^phitNum^a, ^gint ^pdamFlag^a, ^gint ^pdamType^a, 
+                       ^gstr ^pweaponName^a)
+^gint   ^rFightDamageRaw  ^a(^gthing PLR/MOB ^paggressor^a, ^gthing PLR/MOB ^ptarget^a,
+                       ^gint ^pdamage^a)
+^gthing ^rMobileCreate    ^a(^gthing WLD ^pdstthing^a, ^gint ^pvirtual^a)
+^gthing ^rMobileCreateNum ^a(^gthing WLD ^pdstthing^a, ^gint ^pvirtual^a,
+                       ^gint ^pnumber^a))
+^gint   ^rMobileGetVirtual^a(^gthing MOB ^pmobthing^a)
+^gint   ^rMobileFree      ^a(^gthing MOB ^pmobthing^a)
+
+
+^anote: to get help on a specific function, preceed the function with a "_".
+^a      eg:   help _FightStart
+~
+#
+_Version _CVersion~
+^gint   ^rVersion         ^a()
+^gint   ^rC4Version       ^a()
+^C      Version() returns the version number for Crimson II. C4Version()
+       returns the version number for the C4 language. 
+
+      The lowest 8-bits represent the minor version. The next 8-bits 
+       (bits 8-15) represent the major version. The remaining bits are 
+       set to zero. 
+
+      Example:
+^a        {
+        int Major,Minor;
+        Major=Version()>>8;    
+        Minor=Version()&255;
+        SendThingStr(EVENT_THING,"Major=%i Minor=%i\n",Major,Minor);
+        }
+
+^C      See also: ^Gc4system
+~
+#
+_Number~
+^gint   ^rNumber          ^a(^gint ^plow^a,^gint ^phi^a)
+^C      Returns a random number between <^plow^C> and <^phi^C>. The random number
+       may take the values of <^plow^C> or <^phi^C>.
+
+^C      See also: ^Gc4system ^rDice
+~
+#
+_Dice~
+^gint   ^rDice            ^a(^gint ^proll^a,^gint ^pdice^a)
+^C      Returns the result of a random rolling of dice. <^pdice^C> specifies the
+       number of sides on the dice. <^proll^C> specifies how many times the dice
+       are rolled. 
+
+^C      Example:
+^a        {
+        int Roll;
+        /* I want to roll a 6-sided dice, 3 times, and add the results. */
+        Roll=Dice(3,6);
+        }
+
+^C      See also: ^Gc4system ^rNumber
+~
+#
+_StrCmp _StrICmp _StrNCmp _StrNICmp~
+^gint   ^rStrCmp          ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^gint   ^rStrICmp         ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^gint   ^rStrNCmp         ^a(^gstr ^ps1^a, ^gstr ^ps2, ^gint ^pmaxlen^a)
+^gint   ^rStrNICmp        ^a(^gstr ^ps1^a, ^gstr ^ps2, ^gint ^pmaxlen^a)
+^C      Compares <^ps1^C> and <^ps2^C>. Returns:
+^a        < 0 if s1 is less than s2
+^a       == 0 if s1 is the same as s2
+^a        > 0 if s1 is greater than s2.
+^C      Returns 0 on error.
+
+      StrCmp() does a simple comparrison until the end of one or both of the 
+       strings is reached. It is preferable to use ^rStrExact^C.
+
+      StrICmp() is the same as StrCmp() except it does a case-insensitive 
+       comparrison.
+
+      StrNCmp() makes the same comparison as StrCmp(), but looks at no
+       more than <^pmaxlen^C> characters.
+
+      StrNICmp() makes the same comparrison as StrICmp(), but looks at no
+       more than <^pmaxlen^C> characters.
+
+^C      See also: ^Gc4string ^rStrExact StrAt StrIn StrIsCmd StrLen Hello
+~
+#
+_Hello~
+^gint   ^rHello           ^a(^gstr ^phellostr^a)
+^C      Returns 1 (TRUE) if the <^phellostr^C> consists of a str in the
+       form "say hello" or "say hi" or similar salutations. Return 0 if
+       <^phellostr^C> is not a system-compatible salutations string.
+      Basically, use this function if you want players to be able to walk
+       up and say "hi" to start a conversation with an MOB/OBJ/whatever.
+      This function is the system-supported and recommended salutation-parser 
+       so that the salutation-interface remains consistent.
+      Example:
+^a        Hello(COMMAND) /* returns 1 if salutation, 0 otherwise */
+
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4string ^rStrIsCmd StrExact StrIn StrAt
+~
+#
+_YesNo~
+^gint   ^rYesNo           ^a(^gstr ^pyesnostr^a)
+^C      Returns 1 if the <^pyesnostr^C> consists of a str in the
+       form "say yes". Returns -1 if <^pyesnostr^C> is in the form 
+       "say no". Returns 0 if <^pyesnostr^C> is not a system-compatible 
+       YesNo string.
+      Example:
+^a        YesNo(COMMAND) /* returns 1 if YES, -1 if NO, 0 otherwise */
+
+      Returns 0 on error.
+
+^C      See also: ^Gc4string ^rStrIsCmd StrExact StrIn StrAt Hello
+~
+#
+_StrLen~
+^gint   ^rStrLen          ^a(^gstr ^ps1^a)
+^C      Returns the number of characters in <^ps1^C>, including spaces,
+       return characters, etc.
+      Returns 0 on error.
+
+^C      See also: ^Gc4string
+~
+#
+_StrIn~
+^gint   ^rStrIn           ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^C      Returns 1 (TRUE) if <^ps2^C> can be found anywhere in <^ps1^C>. Comparisons
+       are case-insensitive. Returns 0 (FALSE) if <^ps2^C> is nowhere in <^ps1^C>.
+
+      Examples:
+^a        StrIn("hello there","hello");   /* returns 1 */
+        StrIn("Why, hELLo there!","ell"); /* returns 1 */
+        StrIn("nobody is here","boo");    /* returns 0 */
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4string ^rStrExact StrAt StrIsCmd StrCmp Hello
+~
+#
+_StrAt~
+^gint   ^rStrAt           ^a(^gstr ^ps1^a, ^gstr ^ps2^a, ^gint ^pword^a)
+^C      Returns 1 (TRUE) if <^ps1^C> is at location <^pword^C> of <^ps2^C>. NOTE: <^pword^C>
+       of <^ps2^C> only has to START with <^ps1^C>! Returns 0 (FALSE) if <^pword^C>
+       location of <^ps2^C> does not start with <^ps1^C>. Comparisons are case 
+       insensitive.  
+      Examples:
+^a        StrAt("hi","say hi there", 0);   /* returns 0 */
+^a        StrAt("hi","say hi there", 1);   /* returns 1 */
+^a        StrAt("hi","say hi there", 2);   /* returns 0 */
+^a        StrAt("john","then there was Johnathon the bear", 3); /* returns 1 */
+^C      NOTE: the function "Hello" is the recommended salutation-parser
+       to handle generic "say hi" and "say hello" type commands.
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4string ^rStrAtExact StrExact StrIn StrIsCmd StrCmp Hello
+~
+#
+_StrAtExact~
+^gint   ^rStrAtExact      ^a(^gstr ^ps1^a, ^gstr ^ps2^a, ^gint ^pword^a)
+^C      Returns 1 (TRUE) if <^ps1^C> is at location <^pword^C> of <^ps2^C>. NOTE: <^pword^C>
+       of <^ps2^C> has to MATCH <^ps1^C>! If <^pword^C> of <^ps2^C> isn't followed by a space 
+       or end-of-string marker, 0 (FALSE) is returned. Comparisons are case insensitive.  
+      Examples:
+^a        StrAt("hi","say hi there", 0);   /* returns 0 */
+^a        StrAt("hi","say hi there", 1);   /* returns 1 */
+^a        StrAt("hi","say hi there", 2);   /* returns 0 */
+^a        StrAt("john","then there was Johnathon the bear", 3); /* returns 0 */
+^C      NOTE: the function "Hello" is the recommended salutation-parser
+       to handle generic "say hi" and "say hello" type commands.
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4string ^rStrAt StrExact StrIn StrIsCmd StrCmp Hello
+~
+#
+_StrIsCmd~
+^gint   ^rStrIsCmd        ^a(^gstr ^pstring^a, ^gstr ^pcommand^a)
+^C      Returns 1 (TRUE) if <^pstring^C> is either equal to, or an abreviation
+       of <^pcommand^C>. This command emulates the parsing functionality of
+       the MUD and is the preferred way to determine if a specific command
+       has been typed. 
+      Examples:
+^a        StrIsCmd("sa","say");   /* returns 1 */
+^a        StrIsCmd("LOOK","look");   /* returns 1 */
+^a        StrIsCmd("listing","list");   /* returns 0 */
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4string ^rStrExact StrIn StrAt StrCmp Hello
+~
+#
+_StrExact~
+^gint   ^rStrExact        ^a(^gstr ^ps1^a, ^gstr ^ps2^a)
+^C      Returns 1 (TRUE) if <^ps1^C> is exactly equal (case insensitive) 
+       to <^ps2^C>. This is the preferred function to do exact string matching 
+       because it directly uses the string functionality of the MUD.
+
+^C      See also: ^Gc4string ^rStrIsCmd StrIn StrAt StrCmp Hello
+~
+#
+_SendThing _SendThingStr~
+^g<null>^rSendThing       ^a(^gthing PLR ^pdestination^a, ^gstr ^pmessage^a)
+^g<null>^rSendThingStr    ^a(^gthing PLR ^pdestination^a, ^gstr ^pmessage^a, ^getc ^pp1^a, ^getc ^pp2...^a)
+^C      Sends <^pmessage^C> to <^pdestination^C> thing exclusively. This is 
+       a good procedure to send information to a single player, keeping 
+       the <^pmessage^C> private to that player.
+
+      SendThing() sends an untouched string 
+      SendThingStr() sends a substitute string 
+
+      NOTE: normally, for sending information to players, it is 
+            ^ySTRONGLY^C recommended that ^rSendAction^C be used.
+
+^C      See also: ^Gc4send c4preface ^rSendAction
+~
+#
+_SendAction _SendActionStr~
+^g<null>^rSendAction      ^a(^gthing WLD/PLR/MOB/OBJ ^psource^a, 
+                       ^gthing WLD/PLR/MOB/OBJ ^pdestination^a,
+                       ^gint ^pflags^a, ^gstr ^pstring^a)
+^g<null>^rSendActionStr   ^a(^gthing WLD/PLR/MOB/OBJ ^psource^a, 
+                       ^gthing WLD/PLR/MOB/OBJ ^pdestination^a,
+                       ^gint ^pflags^a, ^gstr ^pstring^a, ^getc ^pp1^a... )
+^C      These functions are the general-purpose message-sending functions used
+       in C4. <^psource^C> and <^pdestination^C> specify any two things, and
+       can be TNULL. Unlike the ^rCharAction^C and similar commands, the 
+       ^rSendAction^C commands send raw strings and thus require terminating
+       "\n" characters to generate line feeds.
+
+      The message <^pstring^C> is sent to one or more things, depending on 
+       the value of <^pflags^C>:
+^a        value of <^pflags^a>  effect
+        ----------------  ------
+        SEND_ROOM         All characters in the same room as <^psource^a> recieve
+                          <^pstring^a>. If <^psource^a> is type WLD (room), all
+                          characters inside the room recieve <^pstring^a>.
+        SEND_SRC          <^psource^a> thing will recieve <^pstring^a>.
+        SEND_DST          <^pdestination^a> thing will recieve <^pstring^a>.
+        SEND_VISIBLE      If a character receiving <^pstring^a> has had their 
+                          vision affected (eg blindness), <^pstring^a> will 
+                          be modified accordingly.
+        SEND_AUDIBLE      If a character receiving <^pstring^a> has had their
+                          hearing affected (eg deaf), <^pstring^a> will be 
+                          modified accordingly.
+        SEND_CAPFIRST     $n and $N substitution values will be capitalized
+                          (ie: thing names will be capitalized). See below.
+        Note: these values can be ORed (|) together to form multiple affects.
+
+^C      ^rSendAction ^Cand ^rSendActionStr^C are capable of parser-level
+       substitutions. This means that information about <^psource^C> and
+       <^pdestination^C> can be inserted into <^pstring^C> automatically
+       using reserved escape sequences. For the escape sequences, small 
+       letters operate on <^psource^C> and capital letters operate on 
+       <^pdestination^C>.
+
+^C      Reserved escape sequences:
+^a        $n, $N    Name of <^psource^a> and <^pdestination^a>, respectively
+^a        $l, $L    Long description
+^a        $d, $D    Description
+^a        $a, $A    "a" or "an", as appropriate
+^a        $s, $S    "his", "hers", or "its", as appropriate
+^a        $m, $M    "him", "her", or "it", as appropriate
+
+^C      Examples: assume EVENT_THING is "Mary" (PLR), CODE_THING is "Tom" (PLR), 
+                and SPARE_THING is "knife" (OBJ).
+^a        SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_VISIBLE|
+          SEND_CAPFIRST, "$n waves $m arm behind $N, without $N seeing it.\n");
+        SendAction(CODE_THING,SPARE_THING,SEND_ROOM|SEND_AUDIBLE,
+          "You hear a loud CLANG as $n drops $A $N on the floor.\n");
+^C      will print out:
+^a        "Mary waves her arm behind Tom, without Tom seeing it." to everyone
+        in the same room as Mary, including Mary, but NOT to Tom.
+
+        "You hear a loud CLANG as tom drops a knife on the floor.\n" to 
+        everyone in the same room as Tom, but NOT to Tom.
+^C      Notice in the above examples the effect of the SEND_CAPFIRST.
+
+^C      See also: ^Gc4send c4preface ^rSendThing CharAction
+~
+#
+_ExtraGetNext~
+^gextra ^rExtraGetNext    ^a(^gextra ^pextralist^a)
+^C      Returns the next extra in <^pextralist^C>.
+      Returns ENULL on error or end of extra list.
+
+^C      See also: ^Gc4extra ^rThingGetExtra ExtraFind
+~
+#
+_ExtraGetKey~
+^gstr   ^rExtraGetKey     ^a(^gextra ^pe^a)
+^C      Returns the key list for <^pe^C>. 
+      Returns NULL on error.
+
+^C      See also: ^Gc4extra ^rExtraFind ExtraGetDesc
+~
+#
+_ExtraGetDesc~
+^gstr   ^rExtraGetDesc    ^a(^gextra ^pe^a)
+^C      Returns the description for <^pe^C>. 
+      Returns NULL on error.
+
+^C      See also: ^Gc4extra ^rExtraFind ExtraGetDesc
+~
+#
+_ExtraFind~
+^gstr   ^rExtraFind       ^a(^gextra ^pextralist^a, ^gstr ^pkey^a)
+^C      Returns the extra in <^pextralist^C> with a keyword 
+       matching <^pkey^C>. <^pextralist^C> is usually the first extra
+       in an extra list returned by ^rThingGetExtra.
+^C      Returns ENULL on error.
+
+^C      See also: ^Gc4extra ^rThingGetExtra ExtraGetNext ExtraGetKey
+~
+#
+_ExtraFree~
+^gstr   ^rExtraFree       ^a(^gthing ^psomething^a, ^gextra ^pe^a)
+^C      Deletes (removes) the extra <^pe^C> from <^psomething^C>'s 
+       extra list. 
+
+^C      WARNING: Don't refer to an extra once it's free'ed. Refer to
+       c4ov_pointers for more information.
+
+^C      See also: ^Gc4extra ^rExtraFind
+~
+#
+_ThingGetType~
+^gint   ^rThingGetType    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns the type of thing <^psomething^C>. Returns the following values:
+^a        TTYPE_UNDEF
+^a        TTYPE_WLD
+^a        TTYPE_OBJ
+^a        TTYPE_PLR
+^a        TTYPE_MOB
+^C      Returns 0 on error.
+
+^a      See also: ^Gc4thing ^rSendAction SendThing
+~
+#
+_ThingGetName~
+^gstr   ^rThingGetName    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns the tSDesc field of <^psomething^C>, usually the thing's name.
+^C      Returns NULL on error.
+
+^a      See also: ^Gc4thing ^rBaseGetKey
+~
+#
+_ThingGetDesc~
+^gstr   ^rThingGetDesc    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns the tDesc field of <^psomething^C>, usually the thing's description
+      Returns NULL on error.
+
+^a      See also: ^Gc4thing ^rThingGetKey
+~
+#
+_ThingGetExtra~
+^gextra ^rThingGetExtra   ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns the first extra in the extra list for <^psomething^C>.
+      Returns ENULL on error or empty extra list.
+
+^a      See also: ^Gc4thing ^rExtraFind ExtraGetNext ExtraGetKey
+~
+#
+_ThingGetNext~
+^gthing ^rThingGetNext    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns the next thing contained in the same container as <^psomething^C>.
+       The container could be an object containing objects, or a MOB/PLR
+       containing objects, or a WLD containing MOB/PLR/OBJ.
+      Returns TNULL on error or end of list.
+
+^a      See also: ^Gc4thing ^rThingFind ThingGetContain
+~
+#
+_ThingGetWait~
+^gint   ^rThingGetWait    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns <^psomething^C>'s tWait value. 
+      The tWait value, if >0, is decremented each segment (about 1 second or 
+       'round' of play). <^psomething^C> is allowed to move or perform 
+       actions if the tWait value is zero. If tWait is >0, <^psomething^C> 
+       is essentially 'frozen' until tWait reaches zero. When 'frozen', 
+       <^psomething^C> will still receive messages and be able to see and 
+       hear what's going on. However, any commands entered/typed by 
+       <^psomething^C> will not be parsed (ie happen) until tWait reaches zero.
+      Setting tWait to a negative number will allow <^psomething^C> to
+       'speed up' commands which would otherwise take a segment to complete.
+       For example, suppose <^psomething^C> has a negative tWait value, and
+       <^psomething^C> tries picking a lock. Picking a lock takes 1 segment to 
+       accomplish. Essentially, <^psomething^C> normally cannot move or 
+       otherwise take any action for 1 segment. However, since <^psomething^C>
+       has a negative tWait value, picking the lock will only increment
+       tWait by 1, resulting in a negative or zero tWait value, and thus
+       <^psomething^C> may immediately make another action.
+      Currently, the operations which act upon tWait and require a segment
+       (ie a round of play) to accomplish are:
+^a        Casting spells
+^a        Fleeing from a fight
+^a        Movement
+^a        Picking mechanical locks
+^a        Hacking electronic locks
+^C      Note that the tWait value has no affect on fighting. A PLR/MOB
+^C       'frozen' with a tWait value >0 still gets their normal fighting 
+         rounds, and a PLR/MOB with tWait <0 doesn't get any extra rounds.
+         The execution of C4 scripts also does not depend in any way on 
+         the tWait value.
+^C      Returns 0 on error.
+
+^a      See also: ^Gc4thing ^rThingSetWait ThingGetIdleWait ThingSetIdleWait
+~
+#
+_ThingSetWait~
+^gint   ^rThingSetWait    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a, ^gint ^pwaitval^a)
+^C      Sets <^psomething^C>'s tWait value to <^pwaitval^C>. 
+^C      For a detailed description of the tWait value, refer to ThingGetWait.
+^C      Returns <^psomething^C>'s previous tWait value, or 0 on error.
+
+^a      See also: ^Gc4thing ^rThingGetWait ThingGetIdleWait ThingSetIdleWait
+~
+#
+_ThingGetIdleWait _ThingSetIdleWait~
+^gint   ^rThingGetIdleWait    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^gint   ^rThingSetIdleWait    ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a, ^gint ^pwaitval^a)
+^C      ThingGetIdleWait  returns <^psomething^C>'s tIdleWait value. @IDLE 
+       events occur every four segments (rounds). However, it is not 
+       always desireable to have @IDLE events run so frequently. 
+^C      If <^psomething^C> has an attached @IDLE event, each time its 
+       @IDLE event is called, and tIdleWait=0, the C4 events runs. If
+       tIdleWait>0, however, then tIdleWait is decremented by 1 and 
+       the @IDLE event does not occur.
+^C      If tIdleWait <0 then @IDLE will never occur. This "turns off" the
+       @IDLE event.
+      ThingSetIdleWait sets <^psomething^C>'s tIdleWait to <^pwaitval^C>.
+^C      Returns 0 on error.
+^a      See also: ^Gc4thing ^rThingGetWait ThingSetWait
+~
+#
+_ThingGetContain~
+^gthing ^rThingGetContain ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns the first thing that <^psomething^C> contains.
+      Returns TNULL on error.
+
+^a      See also: ^Gc4thing ^rThingGetNext ThingFind
+~
+#
+_ThingTo~
+^gint   ^rThingTo         ^a(^gthing PLR/MOB/OBJ ^pit^a, ^gthing WLD/PLR/MOB/OBJ ^pto^a)
+^C      Sends the thing <^pit^C> into the thing <^pto^C>. If <^pit^C> is PLR/MOB, then
+       <^pto^C> must be WLD (You can't stuff JoePlayer(PLR) into a bag(OBJ) for
+       example). If <^pit^C> is OBJ, <^pto^C> can be anything. Use this function
+       to transfer an item from one PLR/MOB to another, or to transfer 
+       a PLR/MOB to a new room, or just about anything inbetween.
+      If two characters are fighting, and you move one to another room, the
+       fighting will be stopped.
+      Returns 1 (TRUE) if successful, otherwise 0 (FALSE).
+
+^a      See also: ^Gc4thing ^rThingFind ThingGetContain BaseGetInside
+~
+#
+_ThingFind~
+^gthing ^rThingFind       ^a(^gstr ^pkey^a, ^gint ^pvirtual^a, ^gthing WLD/PLR/MOB/OBJ ^psearch_thing^a, 
+                       ^gint ^pflags^a, ^gint ^poffset^a)
+^C      General-purpose search engine. Will search <^psearch_thing^C> for 
+       a THING with a keyword list containing <^pkey^C> or virtual number
+       <^pvirtual^C>. Only one of <^pkey^C> or <^pvirtual^C> is required;
+       if both are specified, both will be used and searched for. The
+       <^pflags^C> parameter specifies the operation of the search and
+       can be one or more flags as specified below, or-ed together. The
+       parameter <^poffset^C> forces the search to continue until the
+       <^poffset^C>th THING is found. 
+
+^C      NOTE: If you are searching for things which are visible by a
+      character, use CharThingFind which will only return things visible
+      by a character.
+
+      If no <^pkey^C> is desired, use NULL. If no <^Pvirtual^C> is desired,
+       use -1. If no <^psearch_thing^C> is specified, use TNULL. If <^pflags^C>
+       is equal to 0, ThingFind will always return TNULL. If <^poffset^C> is
+       not desired, use 0 for ThingFind to return the first object found.
+
+      Flag values (multiple flags may be or'ed (|) together:
+^a        TF_PLR           search for a PLR
+^a        TF_OBJ           search for an OBJ
+^a        TF_MOB           search for a MOB
+^a        TF_PLR_ANYWHERE  search for PLR *anywhere* in game
+^a        TF_MOB_ANYWHERE  search for MOB *anywhere* in game
+^a        TF_OBJ_ANYWHERE  search for OBJ *anywhere* in game
+^a        TF_PLR_WLD       search for PLR inside a WLD(room)
+^a        TF_MOB_WLD       search for MOB inside a WLD(room)
+^a        TF_OBJ_WLD       search for OBJ inside a WLD(room)
+^a        TF_WLD           search for WLD, treat <^pkey^a> as keylist
+^a        TF_OBJINV        search for OBJ in a PLR/MOB inventory
+^a        TF_OBJEQUIP      search for OBJ in a PLR/MOB equipment list
+^a        TF_CONTINUE      continue last search
+^a        TF_ALLMATCH      find everything - overrides all other flags
+
+^C      Example:
+^a        t=ThingFind("dude",162,WorldOf(184),TF_MOB|TF_PLR,2)
+^C      t will point to the second MOB/PLR found in room #184 whose virtual 
+       number is 162 OR whose keylist includes "dude".
+^C      Returns thing found, TNULL if nothing is found or on error.
+
+^a      See also: ^Gc4thing ^rThingTo ThingGetContain BaseGetInside 
+                CharThingFind WorldOf
+~
+#
+_CharThingFind~
+^gthing ^rCharThingFind   ^a(^gthing PLR ^pcharacter^a, ^gstr ^pkey^a, ^gint ^pvirtual^a, 
+                       ^gthing ^psearch_thing^a, ^gint ^pflags^a, ^gint ^poffset^a)
+^C      This function operates exactly the same as ThingFind, except this 
+       function will not return any thing which <^pcharacter^C> cannot see
+       (because it's invisible, room is dark, etc). 
+
+       Refer to ThingFind for further documentation.
+
+^a      See also: ^Gc4thing c4character ^rThingFind ThingTo BaseGetInside 
+                WorldOf ThingGetContain
+~
+#
+_WorldOf~
+^gthing ^rWorldOf         ^a(^gint ^pvirtual_num^a)
+^C      Returns the room with the virtual number specified by <^pvirtual_num^C>.
+      Returns TNULL on error (ie room doesn't exist).
+
+^a      See also: ^Gc4world ^rWorldGetVirtual BaseGetInside ThingTo 
+~
+#
+_WorldGetVirtual~
+^gint   ^rWorldGetVirtual ^a(^gthing WLD ^pworld^a)
+^C      Returns the virtual number of <^pworld^C>.
+      Returns 0 on error.
+
+^a      See also: ^Gc4world ^rWorldOf BaseGetInside ThingTo
+~
+#
+_WorldGetType _WorldSetType~
+^gint   ^rWorldGetType    ^a(^gthing WLD ^pworld^a)
+^gint   ^rWorldSetType    ^a(^gthing WLD ^pworld^a, ^gint ^ptype^a)
+^C      These functions allow you to view and change the type of
+       <^pworld^C>. 
+	  WorldSetType will return the type of <^pworld^C> BEFORE it
+	   is changed to <^ptype^C>.
+
+^C      <^ptype^C> may be one of the following values:
+^C       (note: MP cost is different for each and shown in []'s)
+^a        WT_INDOORS       [1] 
+^a        WT_CITY          [2] 
+^a        WT_FIELD         [3] 
+^a        WT_FOREST        [4] 
+^a        WT_HILLS         [4] 
+^a        WT_MOUNTAIN      [5] 
+^a        WT_WATERSWIM     [4] 
+^a        WT_WATERNOSWIM   [1] cannot cross without boat
+^a        WT_UNDERWATER    [4] can drown 
+^a        WT_VACUUM        [3] explosive decompression
+^a        WT_DESERT        [3] become thirsty faster (forthcoming)
+^a        WT_ARCTIC        [3] 
+^a        WT_ROAD          [1] 
+^a        WT_TRAIL         [2] 
+
+^a      See also: ^Gc4world ^rWorldOf WorldGetFlag
+~
+#
+_WorldGetFlag _WorldSetFlag~
+^gint   ^rWorldGetFlag    ^a(^gthing WLD ^pworld^a)
+^gint   ^rWorldSetFlag    ^a(^gthing WLD ^pworld^a, ^gint ^pflag^a)
+^C      These functions allow you to view and change the flags 
+       affecting <^pworld^C>. 
+	  WorldSetFlag will return the type of <^pworld^C> BEFORE it
+	   is changed to <^pflag^C>.
+
+      Flag values (multiple flags may be or'ed (|) together:
+^a        WF_DARK           Light source required to see
+^a        WF_DEATHTRAP      Instant death for PLR/MOBs
+^a        WF_NOMOB          MOB won't wander in by itself
+^a        WF_VACUUM         Explosive decompression
+^a        WF_NOGOOD         No good PLR/MOB can enter
+^a        WF_NONEUTRAL      No neutral PLR/MOB can enter
+^a        WF_NOEVIL         No evil PLR/MOB can enter
+^a        WF_NOPSIONIC      No psionic abilities will work in room
+^a        WF_SMALL          Only 3 people max can fit in room
+^a        WF_PRIVATE        No snooping allowed (forthcoming)
+^a        WF_DRAINPOWER     Continual PP drain (loss) while in room
+^a        WF_NOTELEPORTOUT  No teleporting out of room allowed
+^a        WF_NOTELEPORTIN   No teleporting into room allowed
+
+^a      See also: ^Gc4world ^rWorldOf WorldGetFlagBit
+~
+#
+_WorldGetFlagBit _WorldSetFlagBit WorldClearFlagBit~
+^gint   ^rWorldGetFlagBit ^a(^gthing WLD ^pworld^a, ^gint ^pbit^a)
+^gint   ^rWorldSetFlagBit ^a(^gthing WLD ^pworld^a, ^gint ^pbit^a)
+^gint   ^rWorldClearFlagBit ^a(^gthing WLD ^pworld^a, ^gint ^pbit^a)
+^C      These functions operate on only the specified <^pbit^C>s in
+       the flag field for <^pworld^C>. 
+	  WorldGetFlagBit will return the status of the <^pbit^C> bits
+	   with all other bits masked out (ie: set to 0).
+	  WorldSetFlagBit will set the <^pbit^C> bits to a value of 1
+	   while leaving any other bits in the flag field unchanged.
+	   WorldSetFlagBit will return the value of these bits BEFORE
+	   they are set, as in the WorldGetFlagBit function. 
+	  WorldClearFlagBit will set the <^pbit^C> bits to a value of 0
+	   while leaving any other bits in the flag field unchanged.
+	   WorldSetFlagBit will return the value of these bits BEFORE
+	   they are set, as in the WorldGetFlagBit function. 
+
+      For a description of the valid values for <^pbit^C>, refer
+	   to WorldGetFlag/WorldSetFlag.
+
+^a      See also: ^Gc4world ^rWorldOf WorldGetFlag
+~
+#
+_BaseGetKey~
+^gstr   ^rBaseGetKey      ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^C      For things of BASE type (ie PLR, MOB, & OBJ), returns <^pbasething^C>'s
+       player name (for PLR), key list for MOB & OBJ.
+      Returns NULL on error.
+~
+#
+_BaseGetLDesc~
+^gstr   ^rBaseGetLDesc    ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^C      For things of BASE type (ie PLR, MOB, & OBJ), returns <^pbasething^C>'s
+       long description; the player title (PLR) or like "A Black Pistol
+       is lying here" for MOB & OBJ.
+      Returns NULL on error.
+~
+#
+_BaseGetInside~
+^gthing ^rBaseGetInside   ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^C      Returns the thing that <^pbasething^C> is inside. If PLR or MOB, this 
+       will be the WLD they are currently in. For OBJ, it coult be a WLD, 
+       a PLR/MOB if it's in that PLR/MOB's inventory, or OBJ if it is inside 
+       something like a container of some sort (eg: binside(bread)=bag  
+       and binside(bag)=JanePlayer)
+      Returns TNULL on error.
+~
+#
+_BaseGetConWeight~
+^gint   ^rBaseGetConWeight^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^C      Returns the total weight of everything inside <^pbasething^C>. For 
+       PLR/MOB, this is the total weight of everything the PLR/MOB is 
+       carying. For OBJ, it's the total weight of everything that's inside 
+       the OBJ
+      Returns 0 on error.
+~
+#
+_BaseGetWeight~
+^gint   ^rBaseGetWeight   ^a(^gthing PLR/MOB/OBJ ^pbasething^a)
+^C      For things of BASE type (ie PLR, MOB, & OBJ), returns <^pbasething^C>'s
+       weight.
+      Returns 0 on error.
+~
+#
+_ObjectCreate _ObjectCreateNum~
+^gthing ^rObjectCreate    ^a(^gthing WLD/PLR/MOB/OBJ ^pdstthing^a, ^gint ^pvirtual^a)
+^gthing ^rObjectCreateNum ^a(^gthing WLD/PLR/MOB/OBJ ^pdstthing^a, ^gint ^pvirtual^a,
+                       ^gint ^pnumber^a))
+^C      Creates the object with the virtual number <^pvirtual^C>, and gives it
+       to the thing <^pdstthing^C>. ObjectCreateNum will create <^pnumber^C>
+       objects, up to a maximum of 200. 
+      ObjectCreate returns a pointer to the newly created object. 
+      ObjectCreateNum returns a pointer to the last object created.
+      Returns TNULL on error.
+~
+#
+_ObjectRemove~
+^gint   ^rObjectRemove    ^a(^gthing WLD/PLR/MOB/OBJ ^pdstthing^a, ^gint ^pvirtual^a)
+^C      Destroys the object with the virtual number <^pvirtual^C> that the 
+       thing <^pdstthing^C> contains. It will destroy only the first object
+       of number <^pvirtual^C> that it finds, and then stop. Returns 1 (TRUE) if
+       an object was successfully destroyed. 
+      Returns 0 error.
+
+^C      WARNING: Don't refer to an object once it's free'ed. Refer to
+       c4ov_pointers for more information.
+~
+#
+_ObjectFree~
+^gint   ^rObjectFree      ^a(^gthing OBJ ^pobject^a)
+^C      Destroys the object <^pobject^C>. Returns 1 (TRUE) if successful.
+      Returns 0 on error.
+
+^C      WARNING: Don't refer to an object once it's free'ed. Refer to
+       c4ov_pointers for more information.
+
+~
+#
+_ObjectContain~
+^gthing ^rObjectContain   ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^C      Returns the first object <^pvirtual^C> that is found being contained
+       by <^pcontainthing>. <^pvirtual^C> is the object's virtual object 
+       number. Returns TNULL if no object is found being contained by 
+       <^pcontainthing^C> with a virtual object number <^pvirtual^C>.
+      Returns TNULL on error.
+~
+#
+_ObjectCount _ObjectCountInv _ObjectCountEqu~
+^gint   ^rObjectCount     ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^gint   ^rObjectCountInv  ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^gint   ^rObjectCountEqu  ^a(^gthing WLD/PLR/MOB/OBJ ^pcontainthing^a, ^gint ^pvirtual^a)
+^C      Returns the number of objects that are found being contained
+       by <^pcontainthing^C> with virtual number <^pvirtual^C>. Returns
+       0 if no object is found being contained by <^pcontainthing^C> with a 
+       virtual object number <^pvirtual^C>.
+      ObjectCount counts ALL objects, whether they are equipped or not.
+      ObjectCountInv only counts inventory items (ie: NOT equipped objects).
+      ObjectCountEqu only counts equipped items (ie: NOT inventory objects).
+      Returns 0 on error.
+
+      See also: ^Gc4object ^rObjectContain ObjectFree ObjectStrip
+~
+#
+_ObjectStrip _ObjectStripInv _ObjectStripEqu~
+^gint   ^rObjectStrip     ^a(^gthing WLD/PLR/MOB/OBJ ^psrcthing^a, ^gint ^pvirtual_low^a,
+                       ^gint ^pvirtual_high^a, ^gthing WLD/PLR/MOB/OBJ ^pdstthing^a)
+^gint   ^rObjectStripInv  ^a(^gthing WLD/PLR/MOB/OBJ ^psrcthing^a, ^gint ^pvirtual_low^a,
+                       ^gint ^pvirtual_high^a, ^gthing WLD/PLR/MOB/OBJ ^pdstthing^a)
+^gint   ^rObjectStripEqu  ^a(^gthing WLD/PLR/MOB/OBJ ^psrcthing^a, ^gint ^pvirtual_low^a,
+                       ^gint ^pvirtual_high^a, ^gthing WLD/PLR/MOB/OBJ ^pdstthing^a)
+
+^C      Moves all objects with virtual numbers between <^pvirtual_low^C> 
+       and <^pvirtual_high^C> (including <^pvirtual_low^C> and 
+       <^pvirtual_high^C>) from <^psrcthing^C> to <^pdstthing^C>. If
+       <^pdstthing^C> is TNULL, the objects are deleted (free'ed).
+      ObjectStrip removes items whether they are in the inventory or equipped.
+      ObjectStripInv only removes items in the inventory (unequipped).
+      ObjectStripEqu only removes items if they are equipped. 
+      Returns the number of objects moved, or 0 on error.
+
+^C      WARNING: Don't refer to an object once it's free'ed. Refer to
+       c4ov_pointers for more information.
+
+^C      See also: ^Gc4object c4character ^rObjectFree ObjectCount
+~
+#
+_ObjectBuy~
+^gint   ^rObjectBuy       ^a(^gthing MOB ^pmerchant^a, ^gthing PLR/MOB ^pbuyer^a,
+                       ^gstr ^pcommand^a, ^gint ^pmarkup^a, ^getc ^pv1...^a)
+^C      This function is an all-in-one shop-keeper function for implementing
+       the "buy" and "list" commands. The most common call for this function 
+       is for a shop-owner MOB to call this with a line similar to:
+
+^a         if (ObjectBuy(CODE_THING,EVENT_THING,COMMAND,110,...))
+             stop;
+^a         else if (ObjectSell(CODE_THING,EVENT_THING,COMMAND,80,...)) etc.
+
+^C       <^pmerchant^C> represents the "seller" of the object(s). 
+       <^pbuyer^C> represents a MOB/PLR which as issued a command similar to:
+
+^a         buy 10.stockings
+
+^C     or
+
+^a         list
+
+^C      ObjectBuy will parse <^pcommand^C> for the buy and list commands, 
+       assuming "bu","b","lis","li", and "l" are all matches. 
+      <^pmarkup^C> represents how much the merchant will mark-up the 
+       item price, based on the price of the object's price in the 
+       object's template. <^pmarkup^C> is a percentage value; 100 equals
+       100% markup (no markup) -- item is sold for the price listed in the
+       object template -- 145 equals 145% markup, and so on. Values for
+       <^pmarkup^C> UNDER 100 will be converted to 100 to avoid the situation
+       whereby a merchant could sell an object for less that it would buy it
+       back (producing a great money-making situation).
+      <^pv1^C> etc. represent a list of object virtual numbers; these 
+       are the items which the merchant has unlimited stock of. For example, 
+       if <^pv1^C>=100, the merchant will never "run out" of object #100's.
+       <^pv1^C> etc, MUST be of type INT.
+      <^pmerchant^C> will also sell any items in its inventory (NOT 
+       equipped).
+      This function also searches the inventory list of <^pmerchant^C> 
+       and removes any items found which the merchant has an "unlimited" 
+       supply of. 
+      This function returns the number of objects bought. -1 is returned
+       if the command was processed, but no purchases were made (eg: if
+       the "list" command was issued). 0 is returned if the command was
+       NOT processed, or an error occurred.
+
+^C      See also: ^Gc4object ^rObjectSell CharGetMoney CharSetMoney
+~
+#
+_ObjectSell~
+^gint   ^rObjectSell      ^a(^gthing MOB ^pmerchant^a, ^gthing PLR/MOB ^pseller^a,
+                       ^gstr ^pcommand^a, ^gint ^pmarkdown^a, ^getc ^pvs1...^a)
+^C      This function is an all-in-one shop-keeper function for implementing
+       the "sell" and "value" commands. The most common call for this function 
+       is for a shop-owner MOB to call this with lines similar to:
+
+^a         if (ObjectSell(CODE_THING,EVENT_THING,COMMAND,80,...))
+             stop;
+           else if (ObjectBuy(CODE_THING,EVENT_THING,COMMAND,110,etc...
+
+^C       <^pmerchant^C> represents the "buyer" of the object(s). 
+       <^pseller^C> represents a MOB/PLR which as issued a command similar to:
+
+^a         sell rifle
+
+^C      or
+
+^a         value pistol
+
+^C      ObjectSell will parse <^pcommand^C> for the sell commands, 
+       assuming "sel","se", "s", "valu", "va", etc,  are all matches. 
+      <^pmarkdown^C> represents how much the merchant will mark-down the 
+       item price, based on the price of the object's price in the 
+       object's template. <^pmarkdown^C> is a percentage value; 100 equals
+       100% markdown (no markdown) -- item is bought for the price listed in 
+       the object template -- 80 equals 80% markdown -- item is bought for
+       80% of the price listed in the object template, and so on. Values for
+       <^pmarkdown^C> ABOVE 100 will be converted to 100 to avoid the situation
+       whereby a merchant could sell an object for less that it would buy it
+       back (producing a great money-making situation).
+      <^pvs1^C> etc. represent a list of object virtual numbers or object
+       category types; these are the items which the merchant will purchase.
+      For example: if <^pvs1^C>=100, the merchant will purchase object #100's.
+       If <^pvs2^C>="WEAPON", the merchant will purchase any object from 
+       type "WEAPON" type. See below for a list of weapon types. <^pvs1^C>
+       etc. MUST be of either type INT or STR. INT parameters are assumed
+       to be object virtual numbers. STR parameters are assumed to be 
+       string object types.
+      This function returns 1(TRUE) if the command was processed, or
+       0(FALSE) if the command was NOT processed or if an error occurred.
+
+^C      List of object types:
+^a         LIGHT SCANNER WEAPON BOARD AMMO TREASURE ARMOR DRUG
+^a         WORN OTHER TRASH CONTAINER DRINKCON KEY FOOD MONEY
+^C      (More may be added by the sysadmin)
+
+^C      See also: ^Gc4object ^rObjectBuy CharGetMoney CharSetMoney
+~
+#
+_ObjectRedeem~
+^gint   ^rObjectRedeem    ^a(^gthing MOB ^pmerchant^a, ^gthing PLR/MOB ^pcustomer^a,
+                       ^gstr ^pcommand^a, ^gint ^pmarkdown^a, ^gint ^pflag^a)
+^C      This is a general-purpose bio- or chip- sample redeeming function.
+       The idea is that <^pcustomer^C> has given the "redeem" request to
+       <^pmerchant^C> in their <^pcommand^C>. The <^pmerchant^C> will then
+       check the <^pcustomer^C> for biological or technical (chip) scans. If
+       scans are found, the <^pcustomer^C> will be given money and the scans
+       removed. The scans will me marked down to <^pmarkdown^C>%. 
+       IE: <^pmarkdown^C> can be 0-100.
+
+^C      The <^pflag^C> can be one or more of the following:
+^a         OR_BIO      - redeems BIOLOGICAL scans
+^a         OR_CHIP     - redeems TECHNOLOGICAL (chip) scans
+^a         OR_RICH     - will generate money in order to buy scans. 
+                       WITHOUT OR_RICH, the mob will only buy scans
+                       if it has enough money itself to cover the cost.
+
+^C      See also: ^Gc4object ^rObjectBuy CharGetMoney CharSetMoney
+~
+#
+_ObjectGetVirtual~
+^gint   ^rObjectGetVirtual^a(^gthing OBJ ^pobject^a)
+~
+#
+_CharAction _CharActionStr~
+^gint   ^rCharAction      ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^paction^a)
+^gint   ^rCharActionStr   ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^paction^a, ^getc^p p1...^a)
+^C      Forces <^pcharacter^C> to take action <^paction^C>, as though they had typed
+       it in from their keyboard, with one big difference; When someone types
+       something in at their keyboard, it may cause a C4 script to execute,
+       such as an @COMMAND event. With the `force' function, the <^paction^C> 
+       will NOT, I repeat NOT, cause a C4 action to be taken. 
+       So say two MOBs, m1 and m2, are in a room. m1 is programed with C4 to
+       respond to someone saying "hi" (ie typing "say hi" on their keyboard).
+       If m2 is forced to say hi (ie CharAction(m2,"say hi")), m1 will NOT 
+       respond.  You see, that would cause C4 scripts to be called recursively, 
+       and that might just lead to problems; imagine two MOBs programmed to 
+       respond to someone saying "hi" by responding with "hi". They would have 
+       a wonderful conversation - indefinately - forever - can we say "crash".
+       The function returns 1 (TRUE) if the action was successfully executed.
+      Examples:
+^a        CharAction(JoePlayer,"fight guard") 
+^a        This will force JoePlayer to attack the PLR/MOB "guard"
+^C      Returns 0 on error.
+~
+#
+_CharGetLevel~
+^gint   ^rCharGetLevel    ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Returns <^pcharacter^C>'s current level.
+      Returns 0 on error.
+
+^C      See also: ^Gc4char ^r
+~
+#
+_CharGetHitP _CharGetHitPMax~
+^gint   ^rCharGetHitP     ^a(^gthing PLR/MOB ^pcharacter^a)
+^gint   ^rCharGetHitPMax  ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      CharGetHitP() returns the <^pcharacter^C>'s hit points. 
+      CharGetHitPMax() returns the <^pcharacter^C>'s maximum hit points. 
+      Returns 0 on error.
+~
+#
+_CharGetMovePMax~
+^gint   ^rCharGetMovePMax ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      CharGetMovePMax() returns the <^pcharacter^C>'s maximum movement points. 
+      Returns 0 on error.
+~
+#
+_CharGetPowerPMax~
+^gint   ^rCharGetPowerPMax^a(^gthing PLR/MOB ^pcharacter^a)
+^C      CharGetPowerPMax() returns the <^pcharacter^C>'s maximum power points. 
+      Returns 0 on error.
+~
+#
+_CharSetHitP~
+^gint   ^rCharSetHitP     ^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^phitpoints^a)
+^C      Sets the <^pcharacter^C>'s hit points to <^phitpoints^C>. If successful, 
+       returns <^pcharacter^C>'s previous hit points. If you try to set the 
+       hit points beyond the <^pcharacter^C>'s maximum hit points, the hit 
+       points will be set to <^pcharacter^C>'s max hit points.
+      Returns 0 on error.
+~
+#
+_CharGetMoney~
+^gint   ^rCharGetMoney    ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Returns the <^pcharacter^C>'s money. 
+^C      Returns 0 on error.
+~
+#
+_CharSetMoney~
+^gint   ^rCharSetMoney    ^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^pmoney^a)
+^C      Sets the <^pcharacter^C>'s money to <^pmoney^C>. If successful, 
+       returns <^pcharacter^C>'s previous amount.
+      Returns 0 on error.
+~
+#
+_CharGetExp~
+^gint   ^rCharGetExp      ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Returns the <^pcharacter^C>'s experience. 
+^C      Returns 0 on error.
+~
+#
+_CharGainExp~
+^gint   ^rCharGainExp     ^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^pexp^a)
+^C      Increments <^pcharacter^C>'s experience by <^pexp^C>. If successful, 
+       returns <^pcharacter^C>'s previous experience.
+      A function directly setting the experience level is not provided because
+       the function ^rCharGainExp^C does level/practice/etc. modification
+       processing as well as experience processing, which requires both the
+       current experience and skill levels, and the new experience points.
+      Moral: use this function and don't bitch - it's complicated.
+~
+#
+_CharGainExpGroup~
+^gint   ^rCharGainExpGroup^a(^gthing PLR/MOB ^pcharacter^a, ^gint ^pexp^a)
+^C      A group is a bunch of things tied together internally. <^pcharacter^C> 
+        should point to any PLR/MOB in the group. This function gives the 
+        group <^pexp^C> experience points, distributing it accordingly.
+^C       Returns 0, always.
+
+^C       See also: ^Gc4character ^rCharGainExp CharPractice
+~
+#
+_CharFind~
+^athing CharFind        (thing WLD room, int mob_virtual)
+^C      Use of this function is not advised. This function is slated
+       to be phased out. Use ThingFind instead.
+
+~
+#
+_CharPractice~
+^gint   ^rCharPractice    ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^pcommand^a,
+                       ^gint ^ppracflag^a, ^gint ^pnopracflag^a, ^gint ^pmaxlevel^a)
+^C      This function evaluates the command line <^pcommand^C> and, if found
+       to be a valid practice command, processes the command accordingly.
+       The skills available for practice are defined by <^ppracflag^C>, and
+       explicit exclusions may be included in <^pnopracflag^C>. The 
+       practice level will not exceed <^pmaxlevel^C>. The flags
+       <^ppracflag^C> and <^pnopracflag^C> may be one or more of the 
+       following, or-ed together:
+
+^a        SF_WEAPON      SF_MELEE       SF_LASER       SF_SLUG
+^a        SF_BLASTER     SF_ION         SF_SUPPORT     SF_PLASMA
+^a        SF_OFFENSE     SF_DEFENSE     SF_PSYCHIC     SF_BODY
+^a        SF_TELEKINETIC SF_APPORTATION SF_SPIRIT      SF_PYROKINETIC
+^a        SF_TELEPATHY   SF_GENERAL
+
+^C      Returns 1 if command is process as practice command, otherwise 0.
+
+^C      More on this function later. 
+
+^C      See also: ^Gc4character ^rCharGainExp CharGainExpGroup
+~
+#
+_CharGetFighting~
+^gthing ^rCharGetFighting ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Returns the thing <^pcharacter^C> is currently fighting. 
+       NOTE that this returns the thing <^pcharacter^C> is trying to hit;
+       the thing returned isn't necessarily fighting <^pcharacter^C>. 
+       Example: 
+^a        suppose: player 'a' is fighting player 'b'
+^a                 player 'b' is fighting player 'c'
+^a        CharGetFighting('a') returns 'b'
+^a        CharGetFighting('b') returns 'c'  
+       Returns TNULL on error.
+
+^C      See also: ^Gc4character 
+~
+#
+_CharIsLeader~
+^gint   ^rCharIsLeader    ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Returns 1(TRUE) if <^pcharacter^C> is the leader of the party
+       <^pcharacter^C> belongs to.
+      Returns 0 on error. 
+
+^C      See also: ^Gc4character ^rCharGetLeader CharGetFollower
+~
+#
+_CharGetLeader~
+^gthing ^rCharGetLeader   ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Returns the thing leading the party <^pcharacter^C> is 
+       currently a member of.
+^C      Returns TNULL on error.
+
+^C      See also: ^Gc4character ^rCharIsLeader CharGetFollower
+~
+#
+_CharGetFollower~
+^gthing ^rCharGetFollower ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Returns the thing following <^pcharacter^C>. Characters in a party
+       are arranged in a linked-follow-chain; starting with the leader, 
+       each member in the party points to the next member of the party. 
+       Use this function to loop through all of the members of the party.
+^C      Returns TNULL on error or if <^pcharacter^C> is the last member
+      of the party.
+
+^C      See also: ^Gc4character ^rCharGetLeader CharIsLeader
+~
+#
+_FightStart~
+^g<null>^rFightStart      ^a(^gthing PLR/MOB ^paggressor^a, ^gthing PLR/MOB ^ptarget^a)
+^C      Starts a fight between <^paggressor^C> and <^ptarget^C>. 
+^C      If <^paggressor^C> is already fighting someone, the fight will continue, 
+       but <^paggressor^C> will now hit <^ptarget^C> instead of the previous
+       target.
+^C      If <^ptarget^C> is currently fighting something, <^ptarget^C>'s 
+       current fight will contine. Otherwise, <^ptarget^C> will start
+       fighting <^paggressor^C>.
+^C      If <^ptarget^C> has friends (is in a group), any friends not already
+       engaged in a fight themselves will attack <^paggressor^C>.
+
+^C      See also: ^Gc4fight ^rFightStop FightDamage FightDamageRaw CharGetFighting
+~
+#
+_FightDamage~
+^gint   ^rFightDamage     ^a(^gthing PLR/MOB ^paggressor^a, ^gint ^pdamage^a, 
+                       ^gint ^phitNum^a, ^gint ^pdamFlag^a, ^gint ^pdamType^a, 
+                       ^gstr ^pweaponName^a)
+^C      Inflicts <^paggressor^C>'s target with damage. NOTE that for this
+       function to be of any use, <^paggressor^C> must already be engaged
+       in a fight! You can get <^paggressor^C>'s target by calling
+       CharGetFighting().
+^C      The target will be inflicted with <^pdamage^C> points TOTAL of damage,
+       minus any resistances the target may have. 
+^C      The target will be hit <^phitNum^C> times. 
+^C      The type of attack is specified by <^pdamFlag^C> and can be one or more
+       of the following:
+^a        FD_PUNCTURE    FD_SLASH       FD_CONCUSSIVE  FD_HEAT
+^a        FD_EMR         FD_LASER       FD_PSYCHIC     FD_ACID
+^a        FD_POISON
+
+^C      <^pdamType^C> is not currently used and should be left 0. However, 
+       it can take ONE of the following: (DO NOT "OR" (|) THESE TOGETHER)
+^a        FR_PUNCTURE    FR_SLASH       FR_CONCUSSIVE  FR_HEAT
+^a        FR_EMR         FR_LASER       FR_PSYCHIC     FR_ACID
+^a        FR_POISON      FR_NONE
+   
+^C      <^pweaponName^C> is a STR with the type of weapon used.
+
+^C      Example: in an @FIGHTING event, the following adds an extra attack
+               doing 5d10 damage done by a single acid/poison combo attack.
+^a        {
+        FightDamage(CODE_THING,Dice(5,10),1,FD_ACID|FD_POISON,0,"acid cloud");
+        }
+
+^C      Returns TRUE (1) if the target died as a result of this call, 
+       FALSE (0) otherwise.
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4fight ^rFightStart FightDamageRaw FightStop CharGetFighting
+~
+#
+_FightDamageRaw~
+^gint   ^rFightDamageRaw  ^a(^gthing PLR/MOB ^paggressor^a, ^gthing PLR/MOB ^ptarget^a,
+                       ^gint ^pdamage^a)
+^C      Inflicts target with damage. NOTE that the aggressor thing is optional.
+       If present aggressor will be credited with experience in the event that 
+       target is killed by the damage inflicted.
+
+       This function silently inflicts the damage, the script calling this should
+       probably send a message to the player so that they know what is going on!
+
+^C      Example: in an @AFTEREXIT, the following inflicts damage on the exitee.
+^a      {
+        FightDamageRaw(TNULL, EVENT_THING,Dice(5,10));
+        SendThing(EVENT_THING, "^rYou trip and hurt yourself!\n");
+        }
+
+^C      Returns TRUE (1) if the target died as a result of this call,
+       FALSE (0) otherwise.
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4fight ^rFightStart FightDamage FightStop CharGetFighting
+~
+#
+_FightStop~
+^g<null>^rFightStop       ^a(^gthing PLR/MOB ^pparticipant^a)
+^C      If <^pparticipant^C> is currently fighting something, the fight is
+       stopped.
+
+^C      See also: ^Gc4fight ^rFightStart FightDamage CharGetFighting
+~
+#
+_PropertySetStr~
+^gint   ^rPropertySetStr  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a, ^gstr ^ppValue^a)
+^C      Writes <^ppValue^C> into the <^ppKey^C> property of <^ppropthing^C>.
+       If the property <^ppKey^C> does not exist, this function will create it.
+       If the property <^ppKey^C> already exists, this function will overwrite
+       it with the str specified in <^ppValue^C>.
+      Returns 1 if successful, or 0 if there is an error.
+
+^C      See also: ^Gc4property ^rPropertySetInt PropertyGetStr PropertyGetInt
+~
+#
+_MobileCreate _MobileCreateNum~
+^gthing ^rMobileCreate    ^a(^gthing WLD ^pdstthing^a, ^gint ^pvirtual^a)
+^gthing ^rMobileCreateNum ^a(^gthing WLD ^pdstthing^a, ^gint ^pvirtual^a,
+                       ^gint ^pnumber^a))
+^C      Creates the mobile with the virtual number <^pvirtual^C>, and puts it
+       in the room <^pdstthing^C>. MobileCreateNum will create <^pnumber^C>
+       mobiles, up to a maximum of 200. 
+      MobileCreate returns a pointer to the newly created MOB. 
+      MobileCreateNum returns a pointer to the last MOB created.
+      Returns TNULL on error.
+
+^C      See also: ^Gc4mobile c4character ^rObjectCreate
+~
+#
+_PropertySetInt~
+^gint   ^rPropertySetInt  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a, ^gint ^ppValue^a)
+^C      Writes <^ppValue^C> into the <^ppKey^C> property of <^ppropthing^C>.
+       If the property <^ppKey^C> does not exist, this function will create it.
+       If the property <^ppKey^C> already exists, this function will overwrite
+       it with the str specified in <^ppValue^C>.
+      Returns 1 if successful, or 0 if there is an error.
+
+^C      See also: ^Gc4property ^rPropertySetStr PropertyGetStr PropertyGetInt
+~
+#
+_PropertyExist~
+^gint   ^rPropertyExist   ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+^C      This function check to see if the property <^ppKey^C> exists in the
+       property list of <^ppropthing^C>. 
+      Returns 1 if the property <^pKey^C> exists, else 0.
+
+^C      See also: ^Gc4property ^rPropertyGetStr PropertyGetInt PropertyFree
+~
+#
+_PropertyGetInt~
+^gint   ^rPropertyGetInt  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+^C      This function finds the <^ppKey^C> property connected to <^ppropthing^C>
+       and returns the value of the property as a signed integer (int).
+      Returns 0 if the property <^pKey^C> does not exist or if there's an error.
+
+^C      See also: ^Gc4property ^rPropertyGetStr PropertySetInt PropertySetStr
+~
+#
+_PropertyGetStr~
+^gstr   ^rPropertyGetStr  ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+^C      This function finds the <^ppKey^C> property connected to <^ppropthing^C>
+       and returns the value of the property as a str.
+      Returns NULL if the property <^pKey^C> does not exist or if there's an 
+       error.
+
+^C      See also: ^Gc4property ^rPropertyGetInt PropertySetInt PropertySetStr
+~
+#
+_PropertyFree~
+^gstr   ^rPropertyFree    ^a(^gthing WLD/PLR/MOB/OBJ ^ppropthing^a, ^gstr ^ppKey^a)
+^C      This function finds the <^ppKey^C> property connected to <^ppropthing^C>
+       and frees the property (deletes it - removes it from <^ppropthing^C>'s 
+       property list).
+      Returns 1 if successful, or 0 if there's an error.
+
+^C      See also: ^Gc4property ^rPropertyExist PropertySetInt PropertySetStr
+~
+#
+_PlayerWrite~
+^g<null>^rPlayerWrite     ^a(^gthing PLR ^pplayer^a)
+^C      This function causes <^pplayer^C>'s clone stats to be updated.
+       Essentially, this saves the player's stats so that the new stats are
+       restored should the player die. This is essential for areas where
+       "brain dumps" are performed.
+
+^C      See also: ^Gc4player 
+~
+#
+_PlayerGetBank~
+^gint   ^rPlayerGetBank   ^a(^gthing PLR ^pplayer^a)
+^C      Returns the <^pplayer^C>'s bank balance. 
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4player ^rPlayerSetBank PlayerBank CharGetMoney
+~
+#
+_PlayerSetBank~
+^gint   ^rPlayerSetBank   ^a(^gthing PLR ^pplayer^a, ^gint ^pcredits^a)
+^C      Sets the <^pplayer^C>'s bank balance to <^pcredits^C>. 
+^C      Returns the <^pplayer^C>'s previous bank balance. 
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4player ^rPlayerGetBank PlayerBank CharSetMoney
+~
+#
+_PlayerGetRace~
+^gint   ^rPlayerGetRace     ^a(^gthing PLR ^pplayer^a)
+^C      Returns the <^pplayer^C>'s RACE type. The valid types are:
+
+^a        RACE_HUMAN         RACE_ARTIFICER
+^a        RACE_SILICONOID    RACE_SALAMANDER
+
+^C      Returns 0 on error.
+
+^C      See also: ^Gc4player
+~
+#
+_PlayerBank~
+^gint   ^rPlayerBank      ^a(^gthing MOB/OBJ teller^a, ^gthing PLR ^pplayer^a, 
+                       ^gstr ^pcmd^a)
+^C      This function is an all-in-one bank teller function for implementing
+       the "withdraw", "deposit", and "balance" commands. The most common 
+       call for this function is for an OBJ or MOB to call this with lines 
+       similar to:
+
+^a         if (PlayerBank(CODE_THING,EVENT_THING,COMMAND)) {
+             BLOCK_CMD=TRUE;
+             stop;
+           }
+ 
+^C      If <^pteller^C> is of type OBJ, the text shown to the player will be
+       machine-like and cold. If <^pteller^C> is of type MOB, the text
+       will be more personable and warm.
+^C      <^pplayer^C> is the player whose bank account is to be accessed. 
+       <^pcmd^C> is a command line STR to be parsed and checked for a banking
+       command.
+
+^C      Returns 1 if a bank command was processed, othersise 0.
+^C      Returns 0 on error.
+ 
+^C      See also: ^Gc4player ^rPlayerGetBank CharGetMoney
+~
+#
+_PlayerGainFame~
+^gint   ^rPlayerGainFame   ^a(^gthing PLR ^pplayer^a, ^gint ^pfame^a)
+^C      Adds/Subtracts fame to the player in question. Gives them a message
+^C      telling them what happened.
+^C      Returns the <^pplayer^C>'s adjusted fame. 
+^C      You can check their current fame by passing a <^pfame^C> of 0.
+^C      Returns 0 on error.
+
+^C      NOTE: Generally speaking the first time a quest is solved it should
+        award the player with a point of fame. I suppose if it was 
+        inconceivably hard, you MIGHT, *MAYBE* award 2 points.
+
+^C      See also: ^Gc4player ^rPlayerGainInfamy
+~
+#
+_PlayerGainInfamy~
+^gint   ^rPlayerGainInfamy   ^a(^gthing PLR ^pplayer^a, ^gint ^pinfamy^a)
+^C      Adds/Subtracts infamy to the player in question. Gives them a message
+^C      telling them what happened
+^C      Returns the <^pplayer^C>'s adjusted infamy. 
+^C      You can check their current infamy by passing a <^pinfamy^C> of 0.
+^C      Returns 0 on error.
+
+^C      NOTE: Infamy is uniformly a bad thing, something players should try
+        to avoid. So this function should be used very sparingly as 
+        punishment for misdeeds. The mud server itself will award infamy 
+        pts to players caught stealing or killing other players.
+
+^C      See also: ^Gc4player ^rPlayerGainFame
+~
+#
+_PlayerSolvedQuest~
+^gint   ^rPlayerSolvedQuest ^a(^gthing PLR ^pplayer^a, ^gstr ^pmessage^a
+                       ^gint ^pexp^a, ^gint ^pfame^a, ^gstr ^pproperty^a, ^gint ^ppvalue^a)
+^C      The All-in-one, everything but the kitchen sink, player solved a quest
+^C      function, so simple even a poorly-trained, one-eyed, lobotomized monkey
+^C      could figure out how to use it.
+
+^C      This function will let a player solve a quest exactly once and then
+^C      not do anything forever after.
+^C      Returns 0 on error or if they have already solved the quest. 
+^C      (Property <^pproperty^C> is >= <^ppvalue^C>)
+^C      Returns <^ppvalue^C> if they have just solved the quest
+
+^C      Typically you would do something like this with it:
+^C      PlayerSolvedQuest(EVENT_THING, 
+^C                        "You've solved the quest!\n",
+^C                        5000,
+^C                        1,
+^C                        "MyAreaName-QuestName",
+^C                        1);
+
+^C      See also: ^Gc4player
+~
+#
+_ExitFind~
+^gexit  ^rExitFind        ^a(^gthing WLD ^proom^a, ^gstr ^pkey^a)
+^C      Returns the exit from <^proom^C> which has a keyword match with
+       <^pkey^C>. 
+      Returns XNULL if a match is not found or on error.
+
+^C      See also: ^Gc4exit ^rExitDir ExitReverse ExitGetDir ExitGetFlag
+~
+#
+_ExitDir~
+^gexit  ^rExitDir         ^a(^gthing WLD ^proom^a, ^gint ^pdir^a)
+^C      Returns the exit from <^proom^C> which goes in <^pdir^C> direction.
+      Returns XNULL on error.
+
+      Valid Directions are:
+
+^a        EDIR_NORTH    EDIR_EAST     EDIR_SOUTH
+^a        EDIR_WEST     EDIR_UP       EDIR_DOWN
+
+^C      See also: ^Gc4exit ^rExitFind ExitReverse ExitGetDir ExitGetFlag
+~
+#
+_ExitReverse~
+^gexit  ^rExitReverse     ^a(^gthing WLD ^proom^a, ^gexit ^pex^a)
+^C      WLD <^proom^C> has exit <^pex^C>. ExitReverse returns the exit
+       which would lead back from where <^pex^C> points, back to <^proom^C>.
+      Returns XNULL on error.
+
+^C      See also: ^Gc4exit ^rExitFind ExitDir ExitIsCorner
+~
+#
+_ExitGetDir _ExitSetDir~
+^gint   ^rExitGetDir      ^a(^gexit ^pex^a)
+^gint   ^rExitSetDir      ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, 
+                       ^gint ^pdir^a)
+^C      ExitGetDir returns the direction that <^pex^C> takes, 0 on error.
+^C      ExitSetDir sets <^pex^C> to leave from it's parent room <^proom^C>
+       via the direction <^pdir^C>. If <^proom^C> already has an exit leaving
+       in the direction of <^pdir^C>, the function fails and returns 0.
+      ExitSetDir returns 1 if successful, 0 on error.
+
+      Valid Directions are:
+
+^a        EDIR_NORTH    EDIR_EAST     EDIR_SOUTH
+^a        EDIR_WEST     EDIR_UP       EDIR_DOWN
+
+^C      See also: ^Gc4exit ^rExitFind ExitDir ExitIsCorner ExitReverse
+~
+#
+_ExitIsCorner~
+^gint   ^rExitIsCorner    ^a(^gexit ^pex1^a, ^gexit ^pex2^a)
+^C      This esoteric function determines if there is a bend in a
+       pair of exits. IE: if you leave north from one room and com
+       in from the west into the destination, we could reasonably assume
+       that there is a corner in the way. This is important for resolving
+       line-of-sight issues.
+
+^C      See also: ^Gc4exit ^rExitReverse ExitDir ExitFind
+~
+#
+_ExitCreate~
+^gexit  ^rExitCreate      ^a(^gthing WLD ^pfromroom^a, ^gint ^pdir^a, 
+                       ^gstr ^pkey^a, ^gstr ^pdesc^a, ^gint ^pflag^a,
+                       ^gint ^pKeyObj^a, ^gthing WLD ^ptoroom^a)
+^C      ExitCreate creates a new exit from room <^pfromroom^C> to 
+       <^ptoroom^C> via direction <^pdir^C>. The exit will assume 
+       key and desc values of <^pkey^C> and <^pdesc^C> respectively, which
+       may be SNULL if key/desc values are not required or desired.
+       <^pKeyObj^C> is the key reference to the exit; set this to -1 if you
+       don't intend to use a key with the exit. 
+      This function will not succeed if an exit going direction <^pdir^C>
+       already exists.
+
+      Returns the newly created exit if successful, XNULL on error. 
+
+^C      See also: ^Gc4exit ^rExitCreate ExitFind ExitDir
+~
+#
+_ExitFree~
+^gint   ^rExitFree        ^a(^gthing WLD ^proom^a, ^gexit ^pex^a)
+^C      ExitFree frees the exit <^pex^C> from room <^proom^C>. 
+      Returns 1 if successful, 0 on error.
+
+^C      WARNING: Don't refer to an exit once it's free'ed. Refer to
+       c4ov_pointers for more information.
+
+^C      See also: ^Gc4exit ^rExitCreate ExitFind ExitDir
+~
+#
+_ExitGetFlag _ExitSetFlag _DoorSetFlag~
+^gint   ^rExitGetFlag     ^a(^gexit ^pex^a)
+^gint   ^rExitSetFlag     ^a(^gexit ^pex^a, ^gint ^pflag^a)
+^gint   ^rDoorSetFlag     ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pflag^a)
+^C      ExitGetFlag returns <^pex^C>'s eFlag field, 0 on error.
+^C      ExitSetFlag sets <^pex^C>'s eFlag to <^pflag^C>. ExitSetFlag
+       returns the previous eFlag value, 0 on error.
+	  DoorSetFlag acts as ExitSetFlag, except both <^pex^C> and the
+	   reverse exit are affected (see ExitReverse).
+      The eFlag field can be one or more of the following, OR-ed together:
+       
+^a        EF_ISDOOR     - exit is a door users can open/close 
+^a        EF_PICKPROOF  - door cannot be picked 
+^a        EF_LOCKED     - door is currently locked
+^a        EF_CLOSED     - exit is currently closed
+^a        EF_HIDDEN     - exit is hidden
+^a        EF_ELECTRONIC - Players must use hacking skill, not lock picking.
+
+^C      Note: exits and doors are only one-way; if you wish to open/close
+       a door/exit going both ways, you must explicitly call ExitSetFlag
+       on both exits. You can use ExitReverse to find the complementing
+       returning exit associated with an exit.
+
+^C      See also: ^Gc4exit ^rExitFind ExitDir ExitReverse ExitIsCorner
+~
+#
+_ExitGetFlagBit _ExitSetFlagBit _ExitClearFlagBit _DoorSetFlagBit _DoorClearFlagBit~
+^gint   ^rExitGetFlagBit  ^a(^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rExitSetFlagBit  ^a(^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rExitClearFlagBit^a(^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rDoorSetFlagBit  ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pbit^a)
+^gint   ^rDoorClearFlagBit^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pbit^a)
+^C      These functions access and modify the Flag of <^pex^C> 
+       similar to ExitGetFlag, except that only the bits specified
+	   in <^pbit^C> are affected.
+	  ExitGetFlagBit returns the status of ONLY <^pbit^C> bits. Other
+	   bits are set to 0.
+	  ExitSetFlagBit sets <^pbit^C>s to 1. 
+	  ExitClearFlagBit sets <^pbit^C>s to 0.
+	  DoorSetFlagBit and DoorClearFlagBit act similar to 
+	   ExitSetFlagBit and ExitClearFlagBit, except both <^pex^C> and
+	   the reverse exits are affected (see ExitReverse).
+
+^C      See also: ^Gc4exit ^rExitFind ExitDir ExitReverse ExitGetFlag
+~
+#
+_ExitGetKeyObj _ExitSetKeyObj _DoorSetKeyObj~
+^gint   ^rExitGetKeyObj   ^a(^gexit ^pex^a)
+^gint   ^rExitSetKeyObj   ^a(^gexit ^pex^a, ^gint ^pKeyObj^a)
+^gint   ^rDoorSetKeyObj   ^a(^gthing WLD ^proom^a, ^gexit ^pex^a, ^gint ^pKeyObj^a)
+^C      ExitGetKey returns <^pex^C>'s eKeyObj field, 0 on error.
+      The eKeyObj determines the key or code which will open/close
+       the door/exit. The eKeyObj must match the equivalent code
+       in a key object held by a PLR/MOB in order for the PLR/MOB to
+       be able to open/close the door.
+	  DoorSetKeyObj acts as ExitSetKeyObj, except both <^pex^C> and
+	   the reverse exit are affected (see ExitReverse).
+
+^C      ExitSetKey changes <^pex^C>'s eKeyObj to <^pKeyObj^C>.
+      ExitSetKeyObj returns the previous eKeyObj value, 0 on error.
+
+^C      See also: ^Gc4exit ^rExitFind ExitDir ExitGetFlag ExitIsCorner
+~
+#
+_ExitGetKey _ExitSetKey~
+^gstr   ^rExitGetKey      ^a(^gexit ^pex^a)
+^gint   ^rExitSetKey      ^a(^gexit ^pex^a, ^gstr ^pkey^a)
+^C      ExitGetKey returns <^pex^C>'s eKey discription str, NULL
+       on error.
+
+^C      ExitSetKey changes <^pex^C>'s eKey to <^pkey^C>. <^pkey^C>
+       can be SNULL to remove the eDesc.
+      ExitSetKey returns 1 if successful, 0 on error.
+
+^C      For access (ie: key) settings, refer to ExitGetKeyObj.
+
+^C      See also: ^Gc4exit ^rExitGetDesc ExitGetKeyObj ExitFind ExitDir 
+~
+#
+_ExitGetDesc _ExitSetDesc~
+^gstr   ^rExitGetDesc     ^a(^gexit ^pex^a)
+^gint   ^rExitSetDesc     ^a(^gexit ^pex^a, ^gstr ^pdesc^a)
+^C      ExitGetDesc returns <^pex^C>'s eDesc discription str, NULL
+       on error.
+
+^C      ExitSetDesc changes <^pex^C>'s eDesc to <^pdesc^C>. <^pdesc^C>
+       can be SNULL to remove the eDesc.
+      ExitSetDesc returns 1 if successful, 0 on error.
+
+^C      See also: ^Gc4exit ^rExitGetKey ExitSetKey ExitFind ExitDir 
+~
+#
+_ExitGetWorld _ExitSetWorld~
+^gthing ^rExitGetWorld    ^a(^gexit ^pex^a)
+^gint   ^rExitSetWorld    ^a(^gexit ^pex^a, ^gthing WLD ^proom^a)
+^C      ExitGetWorld returns the WLD which <^pex^C> points to, 
+         ENULL on error.
+
+^C      ExitSetWorld changes <^pex^C> to point to WLD <^proom^C>. 
+       ExitSetWorld returns 1 if successful, 0 on error.
+
+^C      See also: ^Gc4exit ^rExitFind ExitDir ExitReverse WorldOf
+~
+#
+_CharAddFollower~
+^g<null>^rCharAddFollower ^a(^gthing PLR/MOB ^pfollower^a,^gthing PLR/MOB ^pgroupMember^a)
+^C      Adds <^pfollower^C> to the group to which <^pgroupMember^C> belongs, 
+
+^C      See also: ^Gc4Char ^rCharRemoveFollower
+~
+#
+_CharRemoveFollower~
+^g<null>^rCharRemoveFollower ^a(^gthing PLR/MOB ^pcharacter^a)
+^C      Removes <^pcharacter^C> from the group to which it belongs, 
+
+^C      See also: ^Gc4Char ^rCharAddFollower
+~
+#
+_MobileGetVirtual~
+^gint   ^rMobileGetVirtual^a(^gthing MOB ^pmobthing^a)
+^C      Returns the virtual number for <^pmobthing^C>.
+
+^C      See also: ^Gc4Misc ^rMobileFree
+~
+#
+_MobileFree~
+^gint   ^rMobileFree      ^a(^gthing MOB ^pmobthing^a)
+^C      Frees <^pmobthing^C>.
+
+^C      See also: ^Gc4Misc ^rMobileGetVirtual
+~
+#
+_CharActionStrip~
+^gint   ^rCharActionStrip ^a(^gthing PLR/MOB ^pcharacter^a, ^gstr ^paction^a)
+^C      This will cause <^pcharacter^C> to perform the command specified
+       in the string <^paction^C>. NOTE that this command will STRIP the
+       first word from <^paction^C> **BEFORE** <^pcharacter^C> performs
+       the action.
+^C      This function is used in circumstances where you want someone to
+       be able to address someone/something. IE: Pets or robot servants.
+       Using this fuction, a player can say "George get gun" or 
+       "sally kill rat"; the C4 program can check CMD_CMD to see if
+       the character was sucessfully addressed, and if so, can call
+       CharActionStrip to perform the action.
+
+^C      See also: ^Gc4Char ^rCharAction CharActionStr
+~
+$

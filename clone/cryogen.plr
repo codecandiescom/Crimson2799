@@ -1,0 +1,62 @@
+Cryogen~
+3coolness~
+$n the Titleless~
+You see nothing special.
+~
+Messages: 
+$n 
+~
+$n 
+~
+~
+~
+Prompt:             ^gH%h/%H ^G-+^C>~
+LastLogin:          localhost [127.0.0.1]~
+Level:              250
+Race:               Human
+Class:              Researcher
+Position:           STANDING
+Sex:                MALE
+AutoAction:         A-LOOK|A-EXIT|A-FLEE|A-EAT|A-DRINK|NOEMAIL|HINT|EXPERT|CONSIDER
+System:             0
+SockPref:           CR|LF|TELNETGA|ANSI|PROMPTHP|PROMPTEX|PROMPTRM|CHANUSUAGE|CHANGOSSIP|CHANGROUP|CHANPRIVATE
+ScreenLines:        23
+ColorPref:          wb AW gA gA GA WA AC wA rA RA pA wA gA 
+Practice:           995
+HitP:               1015
+MoveP:              1080
+PowerP:             1100
+GainPractice:       0
+GainHit:            0
+GainMove:           0
+GainPower:          0
+Fame:               0
+Infamy:             0
+HitPMax:            15
+MovePMax:           80
+PowerPMax:          100
+Hunger:             -1
+Thirst:             -1
+Intox:              1
+Str:                40
+Dex:                90
+Con:                85
+Wis:                92
+Int:                100
+Money:              0
+Bank:               0
+Exp:                0
+TimeTotal:          54110
+TimeLastOn:         896939506
+Attempts:           0
+StartRoom:          123
+RecallRoom:         -1
+DeathRoom:          157
+
+[Skills]
+Burningfist         150
+Flamestrike         7
+[End of Skills]
+
+[Properties]
+[End of Properties]

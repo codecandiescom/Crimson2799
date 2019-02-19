@@ -1,0 +1,162 @@
+#0
+master trainer~
+Master Trainer~
+The Master Trainer stands here, awaiting pupils.~
+The Master Trainer is a demi-god MOB designed to give players unlimited 
+experience. This way, area builders can "pump" up characters to a higher 
+level and test their areas. 
+~
+SENTINEL|STAYAREA BREATHWATER|DARKVISION|SEEINVIS|REGENERATION|ENDURANCE|PHASEWALK|WATERWALK|VACUUMWALK|SNEAK 0 S
+200 900 747 2d14000+28100 3d126+100
+0 168000
+STANDING GALCIV-CITIZEN SEXLESS
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Ye Mortal Addresses The Master Trainer! Behold, and become wise.");
+    CharGainExp(EVENT_THING,999999999);
+  }
+}~
+#1
+Willie Wonka~
+Willie Wonka~
+Willie Wonka is here, munching some chocolate.~
+Willie is a short, fat fellow dressed in all-brown clothes. Well, actually, 
+his shirt could be considered tan. He has a great big grin (and the 
+occasional chocolate smudge) on his face. 
+~
+SENTINEL BREATHWATER|ENDURANCE 1000 S
+199 597 494 2d8950+0 3d500+500
+10000 107400
+STANDING SENTIENT-ROBOT MALE
+P
+@COMMAND~
+{
+  if(ObjectRedeem(CODE_THING,EVENT_THING,COMMAND,100,OR_BIO|OR_CHIP|OR_RICH)) {
+    BLOCK_CMD=TRUE;
+  }
+  else {
+    if(Hello(COMMAND)) {
+      CharAction(EVENT_THING,COMMAND);
+      BLOCK_CMD=TRUE;
+      CharActionStr(CODE_THING,"say Hi-dily-Hoo %s!",ThingGetName(EVENT_THING));
+    }
+    else {
+      if(StrIsCmd(COMMAND,"say")) {
+        if(StrIn(COMMAND,"freeze")) {
+          CharAction(EVENT_THING,COMMAND);
+          BLOCK_CMD=TRUE;
+          ThingSetWait(EVENT_THING,20);
+          CharAction(CODE_THING,"say Bazam! Thou art frozen for 20 rounds.");
+        }
+        else {
+          if(StrIn(COMMAND,"fox")) {
+            CharAction(EVENT_THING,COMMAND);
+            BLOCK_CMD=TRUE;
+            CharAction(CODE_THING,"say You want a fox\? Bit-loopie-zam!");
+            CharAction(MobileCreate(BaseGetInside(CODE_THING),166),"say Yip Yip Yip!");
+          }
+        }
+      }
+    }
+  }
+}~
+P
+@IDLE~
+{
+  thing t;
+  int state;
+  str var;
+  var="IdleState";
+  state=PropertyGetInt(CODE_THING,var)/* will return 0 if 'var' doesn exist */;
+  if(state==0) {/* time to eat a chocolate bar */
+    if(ObjectCount(CODE_THING,153)) {
+      CharAction(CODE_THING,"eat chocolate");
+      ThingSetIdleWait(CODE_THING,Number(30,150));
+    }
+    else {
+      PropertySetInt(CODE_THING,var,1);
+    }
+  }
+  else {
+    if(state==1) {/* All out! Say "I'm all out"! */
+      CharAction(CODE_THING,"say Oh my, I need more chocolate!");
+      PropertySetInt(CODE_THING,var,2);
+    }
+    else {
+      if(state==2) {/* Teleport to Merr */
+        SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^aA brown cloud wisps around $n and... he\'s gone!\n");
+        t=WorldOf(165);
+        ThingTo(CODE_THING,t);
+        SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^aA brown cloud wisps up from the ground and $n appears!\n");
+        CharAction(CODE_THING,"say I have come for chocolate!");
+        PropertySetInt(CODE_THING,var,3);
+      }
+      else {
+        if(state==3) {/* At Merr's shop - buy if possible */
+          t=ThingFind(NULL,165,BaseGetInside(CODE_THING),8,1)/*    t=CharFind(BaseGetInside(CODE_THING),165);
+          
+                    
+                              
+                                        
+                                                  
+                                                            
+                                                                      
+                                                                                
+                                                                                          
+                                                                                                    */;
+          if(t==TNULL) {
+            CharAction(CODE_THING,"say Funny, Merr isn\'t here. Bummer.");
+          }
+          else {
+            if(CharGetMoney(CODE_THING)<2000) {
+              SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_CAPFIRST|SEND_AUDIBLE,"^aYou hear a tinkling sound coming from $n\n");
+              CharSetMoney(CODE_THING,2000);
+            }
+            ObjectBuy(t,CODE_THING,"buy 5 chocolate",0,153);
+          }
+          PropertySetInt(CODE_THING,var,4);
+        }
+        else {
+          if(state==4) {/* Teleport back home */
+            SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^aA brown cloud wisps around $n and... he\'s gone!\n");
+            ThingTo(CODE_THING,WorldOf(5));
+            SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^aA brown cloud wisps up from the ground and $n appears!\n");
+            PropertySetInt(CODE_THING,var,0);
+            ThingSetIdleWait(CODE_THING,Number(30,150));
+          }
+          else {
+            PropertySetInt(CODE_THING,var,0);
+          }
+        }
+      }
+    }
+  }
+}~
+#2
+mortal paying homage~
+Mortal paying homage~
+A Mortal paying homage to Corbin is here, bowing and chanting.~
+The Mortal is finely dressed in red flowing robes. It would seem that he
+has already been blessed by Corbin.
+~
+SENTINEL|STAYAREA 0 1000 S
+5 2 1 10d100+10000 2d5+1
+2838 100
+STANDING GALCIV-CITIZEN FEMALE
+#3
+grim socket reaper~
+Grim Socket-Reaper~
+The Grim Socket-Reaper is here, lording over its collection of lost sockets.~
+The Grim Socket-Reaper is tall and wears a flowing cloak. The cloak casts a shadow over all
+but the Reaper's hands... of which there are none visible!! Oy oh my!
+~
+SENTINEL|STAYAREA 0 0 S
+100 500 400 4d1000+1000 3d6000+5000
+0 1000
+STANDING GALCIV-CITIZEN SEXLESS
+P
+%SPEED~
+100~
+$

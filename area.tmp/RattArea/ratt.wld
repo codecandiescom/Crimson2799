@@ -1,0 +1,386 @@
+#3000
+The Way Out~
+  You are floating in a void. A hole in space-time floats nearby.
+~
+13 NOWEATHER|PRIVATE INDOORS
+D3
+~
+~
+0 -1 4600
+D0
+~
+~
+0 -1 117
+D2
+~
+~
+0 -1 3001
+S
+#3001
+Entrance~
+A dark and twisted path leads down into the depths of the ant colony.
+ 
+~
+13 0 INDOORS
+D4
+the sun bursts in from above
+ 
+~
+~
+0 -1 731
+D5
+a eerie blue light comes from below
+ 
+~
+~
+0 -1 3002
+S
+#3002
+T-junction~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3003
+D4
+Daylight streams in from above
+ 
+~
+~
+0 -1 3001
+D1
+~
+~
+0 -1 3006
+S
+#3003
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3004
+D1
+~
+~
+0 -1 3002
+S
+#3004
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D1
+~
+~
+0 -1 3003
+D3
+~
+~
+0 -1 3005
+S
+#3005
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D5
+~
+~
+0 -1 3010
+D1
+~
+~
+0 -1 3004
+S
+#3006
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D1
+~
+~
+0 -1 3007
+D3
+~
+~
+0 -1 3002
+S
+#3007
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D1
+~
+~
+0 -1 3008
+D3
+~
+~
+0 -1 3006
+D4
+~
+~
+HIDDEN -1 3009
+S
+#3008
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3007
+D5
+~
+~
+0 -1 3012
+S
+#3009
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D5
+~
+~
+0 -1 3007
+S
+#3010
+Decent~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 0 INDOORS
+D5
+~
+~
+0 -1 3014
+D3
+~
+~
+0 -1 3011
+D4
+~
+~
+0 -1 3005
+S
+#3011
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 0 INDOORS
+D1
+~
+~
+0 -1 3010
+S
+#3012
+Decent~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 0 INDOORS
+D5
+~
+~
+0 -1 3020
+D4
+~
+~
+0 -1 3008
+D1
+~
+~
+HIDDEN -1 3013
+S
+#3013
+Cavern~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3012
+S
+#3014
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D1
+~
+~
+0 -1 3015
+D4
+~
+~
+0 -1 3010
+S
+#3015
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3014
+D1
+~
+~
+0 -1 3016
+S
+#3016
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3015
+D1
+~
+~
+0 -1 3017
+S
+#3017
+T-junction~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D5
+~
+~
+0 -1 3021
+D3
+~
+~
+0 -1 3016
+D1
+~
+~
+0 -1 3018
+S
+#3018
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3017
+D1
+~
+~
+0 -1 3019
+S
+#3019
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3018
+D1
+~
+~
+0 -1 3020
+S
+#3020
+tunnel~
+The walls of this cave have a blue glowing moss on them that lets of a faint blue light.
+ 
+~
+13 0 INDOORS
+D3
+~
+~
+0 -1 3019
+D4
+~
+~
+0 -1 3012
+S
+#3021
+conduit~
+The tunnel here seams to transform from the rough cut tunnels of the ants to precision mettle wall plating
+~
+13 NOMOB INDOORS
+D4
+~
+~
+0 -1 3017
+D5
+~
+~
+0 -1 3022
+S
+#3022
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 DRAINPOWER INDOORS
+D4
+~
+~
+0 -1 3021
+S
+#3023
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 0 INDOORS
+S
+#3024
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 0 INDOORS
+S
+#3025
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+13 0 INDOORS
+S

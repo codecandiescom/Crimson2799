@@ -1,0 +1,146 @@
+From Cryogen@unix.infoserve.net Wed Oct 16 11:32:06 1996
+Return-Path: <Cryogen@unix.infoserve.net>
+Received: from beta.iceonline.com by sirius.UVic.CA (4.1/SMI-4.1-Engr.UVic.CA-M3)
+	id AA11018; Wed, 16 Oct 96 11:31:46 PDT
+Received: from unix.infoserve.net (unix.infoserve.net [199.175.157.2]) by beta.iceonline.com (8.7.3/8.7.3) with SMTP id LAA29356 for <crimson2@beta.iceonline.com>; Wed, 16 Oct 1996 11:31:28 -0700 (PDT)
+Received: from LOCALNAME (d160.infoserve.net [199.175.157.160]) by unix.infoserve.net (8.6.5/8.6.5) with SMTP id LAA12909 for <crimson2@beta.iceonline.com>; Wed, 16 Oct 1996 11:34:15 -0700
+Message-Id: <326529CE.2B9@unix.infoserve.net>
+Date: Wed, 16 Oct 1996 11:30:38 -0700
+From: Ryan Haksi <Cryogen@unix.infoserve.net>
+Reply-To: Cryogen@unix.infoserve.net
+X-Mailer: Mozilla 3.0 (Win16; I)
+Mime-Version: 1.0
+To: crimson2@beta.iceonline.com
+Subject: Message 'o' the Day
+Content-Transfer-Encoding: 7bit
+X-Lines: 125
+Status: RO
+Content-Type: text/plain; charset="us-ascii"
+Content-Length: 4894
+
+Hi there, I was looking over Fanatics area, "TerrariumAlpha" and boy
+does it ever look cool, got mobs, objects and the whole deal.
+
+so being constitutionally unable to keep my big mouth shut, I thought
+I'd mention a few things I noticed when I was looking the zone over.
+Namely, that the armor type stuff in the zone is WAAAAYYYY too cool for
+low-level chars (of course Fanatic had no way of knowing this since the
+effects of resistances etc arent really written down anywhere) Anyways I
+thought this would be a good idea to tell you all how resistances/combat
+etc work.
+(PS Fanatic: one of the ape mobs has a description in the ldesc field by
+accident)
+
+First, skills are way to easy to practice currently and thats going to
+have to change. But I digress. Combat in Crimson2 is all based on a
+"open-ended" 100 sided dice (or percentages). The open ended thing is
+tough to explain but it basically means that every once in awhile you
+can roll really bad (ie -50) or really good (+150) even though for the
+most part you get a number between 1 and 100. Fanatic noticed this at
+work when one of his beetles got in a fluke 2 attacks per round once.
+For that matter (although its extremely unlikely) a beetle could roll
++2000 on its #of attacks roll and end up with 20 attacks in one
+particularly lucky round, but again, that is REALLY unlikely. So what
+does this mean to armor, weapons skills, resists etc.
+
+For simplicity of example we're just gonna pretend the open-ended thing
+doesnt happen (its not that common anyway, just keep the fact that every
+once in awhile you can fluke out in the back of your mind)
+
+First a sample combat round:
+You have laser-weapon-accuracy 10
+You have laser-pistol 20
+You have laser-weapon-speed 30
+You have laser-weapon-damage 40
+You have speed 5
+They have Resist-Laser 25
+They have armor 35
+They have Dex 50
+
+First we determine how many attacks per round we get. We'll assume that
+the rate of fire of our laser is 1. So thats are base rate of fire. Now
+we get to see how many extra attacks we can make due to our speed etc.
+So we roll our base, a number between 1 and 100 and get 12, pretty
+lousy.
+add in our bonuses:
++5 from speed = 17
++10 (laser-pistol/3) = 27
+
+in a nifty table:
+number   xtra attacks
+  0-50   0
+ 51-150  1
+151-250  2
+251-350  3
+etc
+
+Rats, we dont get any bonus attacks
+
+Okay now we roll to hit for each attack we get, a number between 1 and
+100... hmm we get 63 not great, not bad.
+Okay then we get to add our bonuses:
+We're using a laser so:
+our roll is 63 + 10 (laseracc) + 20 (laserpistol) = 93
+minus their armor 93 - 35 = 58
+minus their dex/5 58 - 10 = 48
+since 48 isnt >= 51 (the base chance to hit) we missed. jeez we
+suck.....
+
+Lets pretend we did hit though and our weapon does 1d6 damage.
+Okay we do a lousy 4 points of damage
+We dont get a strength bonus since we are using a laser pistol (we would
+if we were using a club say - equal to strength/20)
+We do +4 pts from laser-weapon-damage/10 = 8
+we do +1 pts from laser-pistol/20 = 9
+but wait the lucky SOB's have resist-laser 25 so we have to deduct
+(resist/10) or -2 = 7
+had we hit we would have done 7 pts damage.
+
+The upshot of all this is that resistances are PRETTY DAMN COOL, if they
+had had a resist of 90 or more, they would have taken a measly 1 pt of
+damage (the minimum you can suffer when you are hit) Armor should only
+give you bonus resistances in maybe 3 categories at max, anything more
+is just being too nice. Also when assigning resistances to things keep
+in mind what the item is:
+* If it isnt metal (ie a lead shield) or electronic (some kind of
+jammer/shield) how can it protect you from EMR weapons (ie
+Electromagnetic Radiation e.g. radio, microwave etc). 
+* Anything metal (unless reflective) should not be ResistLaser since
+lasers cut up metals really well (and conversely lasers arent all that
+good against organic things becuz water (and me and you are 98% water)
+can absorb so much heat 
+* etc and so forth
+
+Area Writing Notes:
+The default speed, pursue, flee etc skills for mobs is equal to 2
+(speed) or 3 (mostly everything else) times level depending on the skill
+in question. Default resistance is currently 0, but it will probably be
+equal to level/2 or something eventually, I just havent decided what
+would be reasonable yet.
+
+You can explicitly override the mobs defaults by assigning specific
+properties to the mob, generally starting with %:
+ie
+give the mob a property of "%Speed" that is equal to "200" and bingo you
+have a mob that has a lot of bonus attacks (leave out the " marks....
+and its case insensitive so %SPEED, %speed, and %SpEeD all work)
+a quick list of this properties off the top of my head are:
+
+%speed
+%flee
+%pursue
+%RAcid
+%RLaser
+%REMR
+%RHead
+%RAcid
+%RConcussive
+etc all the resists...
+
+misc. stuff
+%security (give this to objects or rooms so they are harder to picklock
+etc)
+
+thats about it for this email, l8r all
+Cryogen
+

@@ -1,0 +1,197 @@
+#5000
+Anomaly Space Dock 1~
+  You are in a large steel-walled room. This space dock is not being used by
+the Anomaly Station shuttle service.
+~
+17 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 5006
+S
+#5001
+Anomaly Space Dock 2~
+  You are in a large steel-walled room. People are mulling about waiting for
+the next shuttle back to Anomaly Station, or just getting off a shuttle from
+the station. 
+~
+17 0 CITY-OUTSIDE
+D1
+~
+~
+ISDOOR|ELECTRONIC -1 170
+D3
+~
+~
+0 -1 5003
+S
+#5002
+Anomaly Space Dock 3~
+  You are in a large steel-walled room. This space dock is not being used by
+the Anomaly Station shuttle service.
+~
+17 0 CITY-OUTSIDE
+D3
+Anomaly Space Dock Command
+~
+~
+0 -1 5003
+S
+#5003
+Anomaly Space Dock Command~
+  You are in the centre of the Anomaly Space Dock facilities. Space docks
+branch off to the north, east, and south. To the west is the anomaly 
+settlement.
+~
+17 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 5001
+D2
+~
+~
+0 -1 5002
+D3
+~
+~
+0 -1 5004
+D0
+~
+~
+0 -1 5006
+S
+#5004
+Anomaly Settlement~
+  You are in a bustling community thriving just inside the anomaly. Being
+outside any judicial jurisdiction, the community is a haven for less-than-legal
+activites. The space docks are to the east, and the settlement centre is to 
+the west.
+~
+17 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 5003
+D3
+~
+~
+0 -1 5005
+S
+#5005
+Anomaly Settlement Centre~
+  You are at the centre of a bustling community thriving just inside the 
+anomaly. Being outside any judicial jurisdiction, the community is a haven 
+for less-than-legal activites. The space docks are to the east. Anomaly 
+exploration extends off in all directions. 
+~
+17 0 CITY-OUTSIDE
+D5
+sewer grate leading down
+~
+sewer grate~
+ISDOOR|CLOSED -1 6001
+D1
+~
+~
+0 -1 5004
+D3
+~
+~
+0 -1 5007
+D0
+~
+~
+0 -1 5008
+D2
+~
+~
+0 -1 5009
+S
+#5006
+Anomaly Space Dock Corridor~
+  You are standing in a corridor that has been refurbished as part of 
+Anomaly Space Dock. South is Space Dock Command, and to the east is a small 
+refurbished docking bay.  To the north and west lies an unexplored section 
+of the Anomaly. 
+~
+17 0 INDOORS
+D0
+~
+~
+0 -1 433
+D1
+~
+~
+0 -1 5000
+D2
+~
+~
+0 -1 5003
+S
+#5007
+Anomaly Settlement~
+  You're in a dead end. Actually, it wasn't always a dead end.... there's 
+about 20 tonnes of rock which fell into the city here, crushing buildings, 
+people, etc. You notice (by the smell) that nobody has bothered to clean up. 
+~
+17 0 INDOORS
+D1
+~
+~
+0 -1 5005
+D3
+~
+~
+0 -1 1500
+D0
+~
+~
+0 -1 5010
+S
+#5008
+Anomaly Settlement~
+  This is a crowded street winding between sign-clad buildings and
+rock stalagmites reaching decameters high. The lighting is dim here, 
+provided mostly by the neon signs on the buildings.
+  Further north, you can make out some sort of a glass wall.
+~
+17 0 INDOORS
+D0
+Narrowing of the Caves
+~
+~
+0 -1 700
+D2
+~
+~
+0 -1 5005
+S
+#5009
+Anomaly Settlement~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+NOTE: Section south is not yet completed (connect to room 400).
+~
+17 0 INDOORS
+D0
+~
+~
+0 -1 5005
+S
+#5010
+Cave~
+You are in a cave just north of Anomaly Settlement. The light is dim, but 
+you can still see.
+~
+17 0 INDOORS
+D2
+~
+~
+0 -1 5007
+D3
+~
+~
+0 -1 7019
+S

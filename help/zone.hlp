@@ -1,0 +1,320 @@
+Zone creation help~
+#
+zone zone-help zone-contents~
+
+^w^vZone Creation Help Contents^V
+
+^pHelp Keyword  Description
+^G------------  ------------------------------------------------------------
+^czone-builder  ^CBackground information on the "Builder" race and the Anomaly
+^czone-map      ^CClose-up map of Anomay settlement & area.
+^czone-skills   ^CQuick blurb on skills, resistances, & combat 
+~
+#
+zone-builder~
+^w^vZone Creation -- Builder^V
+
+^aThe Builder race lived about 860,000 Earth years ago. The Builder empire, or at 
+least the empire responsible for the Anomaly, lasted for approximately 60,000 
+years. 
+
+The Builders, unlike the human race, ventured into outer space late in their 
+social, cultural, and economic development. Their adaption to the isolation of 
+outer space was an easy one for them; by the time they began colonization of 
+other worlds, they had developed telepathic abilities and formed into a single 
+communal mind. The distances of time and space were of little consequence over 
+a few thousand kilometers of empty space.
+
+Soon after their expansion to a few neighbouring planets, the Builders met a 
+sort of intellectual "critical mass". Their understanding of the universe 
+increased 10-fold in a relatively short amount of time. Shortly after, their
+economic, social, and cultural structure was completely re-organized. 
+
+They left their settlements on their home world and their other colonized 
+worlds. They moved into artifically created and maintained superstructures. 
+Just as human technology has focused on extending their physical abilities 
+(cranes, submarines, space ships), the Builder technology invested in the 
+superstructures focused on extending the spiritual and intellectual abilities 
+of the occupants. 
+
+Of course, physical machinery was used to facilitate the unaided operation of 
+the superstructure, but this was seen by the Builders as little more than the 
+vessle within which they could build their spiritual constructs. However, as 
+the physical  construct of the superstructure was a vital and integral part of 
+their new world, it was built with life as its central theme - not like the 
+great lifeless behemoths that humans usually create.
+
+To be blunt, the superstructures were used to expand and amplify the spiritual 
+abilites of the Builders. Furthermore, the superstructures were themselves, by 
+the very nature of their design, 'alive'. 
+
+The Builders, created many superstructures to house their great population. 
+This time, however, their superstructures were scattered throughout time and 
+space, in contrasting dimentions, and in alternate realities. The 
+superstructures were linked by controlled singularities located close to the 
+superstructures. Through these singularities, travel and communication could 
+be accomplished. In our dimention, the singularity manifests itself as a black 
+hole.
+
+The Builder civilization thrived for nearly 40,000 years, ever expanding and 
+growing in both number and knowedge. It eventually came to pass, however, 
+whereby they overextended themselves and their world began to collapse. They 
+tried to correct for their action, but momentum was working against them. 
+Slowly, bit by bit, their interconnecting links began to fail. Eventually, 
+all of their superstructures were isolated from one another and, for the first
+time in 50,000 years the intellectual and spiritual "whole" was divided. They 
+struggled to suspend disaster, to save what they could of their civilization 
+and try to wait out their problems. Unfortunately for them, their problems 
+outlasted their ability to survive as a cohesive group. 
+
+Within a few short years, their world had collapsed into chaos and death. 
+
+
+The year is now 2799AD by Earth chronology. The Anomaly discovered and 
+investigated by GalCiv is one of the original Builder superstructures. It 
+used to be a squat ovoid, like a ball of dough pushed flat. After 800,000 
+years of being pummled by meteorites and comets, it is a thrashed up wreack. 
+The general shape remains, but little of the original surface remains. 
+
+The Builder race has not died out; descendants of the Builder empire remain 
+spread throughout the Anomaly, forming small, isolated communities. They have 
+retained little of their former power physically, intellectually, or 
+spiritually. 
+
+What has latsted is the Anomaly itself; it continues to this day to operate 
+as a spiritual and intellectual amplifier and aid. Furthermore, the 
+singularity has recovered and is once again operating as a link to other 
+superstructures. Most of the other singularities have also recovered. 
+
+Having said that, I think it's worth a note that, since the anomaly itself 
+is in a sense alive, it too has evolved over 800,000 years - not necessarily 
+for the better.
+
+
+CURRENT STATE OF AFFAIRS - what's important to the zone creator.
+
+The anomaly exploration takes place initially at the surface. The main Anomaly 
+power network (ie: heat, electricity, spirit) runs from a single generation 
+unit located at the centre of the anomaly; it's basically a huge cavern with a 
+ball of controlled who-knows-what in the middle which emits every known form 
+of power - heat, light, radiation, spirit - and a few we don't know. The 
+cavern surrounding this captures this energy and converts it, directs it, and 
+services the entire anomaly's needs with it. Everything from lights and robots 
+to plants and humans feed off this energy, whether they know it or not.
+
+Players gain spiritual skills through interaction with native anomaly 
+components (ie couches). These seemingly non-descript devices are linked 
+directly into the anomaly power system. The point of quests or zones will 
+often be to reach, activate, and lay down (use) these couches. Builder 
+descendants, GalCiv people, and other races who have evolved in the Anomaly
+will all be able to train in various skills. 
+
+Builder technology will also be an asset - to be used or sold to GalCiv 
+governemts for research purposes. In fact, one of the few universal GalCiv 
+laws is that any Builder technology MUST be turned in to the government 
+(whichever government the player belongs to) for money. If a player wants 
+to hold on to something, it'll cost them (bribe money) when they wish to 
+rent a statis chamber. 
+ 
+The Builder weapon-of-choice is the plasma weapon - a superheated stream 
+of particles shot at near-light speed. Damage is by both heat and concussion. 
+No GalCiv technology can figure it out or use it, nor can any GalCiv people 
+teach players how to use plasma weapons (as a general rule). Since the 
+original Builders didn't need or use weapons, plasma weapons are actually 
+Builder tools used for digging, shaping, cutting, and that sort of thing. 
+
+The Anomaly itself was made sort of like head-cheese; they took a bunch of 
+asteroids and other assorted chunks of "stuff" and glued them all together. 
+Therefore, although most of the Anomaly is organized according to some "plan",
+there are parts which are just big hunks of rock (which can be bored into), 
+or huge empty pockets. The Anomaly settlement is one such pocket which was 
+"ignored" by the Builders - in this case a huge cavern squeezed inbetween two 
+Terarriums and a space dock (one of the few places where the original surface 
+remains intact).
+
+For those who care, gravity is provided in a single direction towards the 
+"bottom" of the anomaly. The anomaly is not big enough to generate sufficient
+gravity conditions, so the central power unit provides a uniform gravity 
+field in a single direction. Note that, to the amazement of GalCiv, the 
+gravity field doesn't extend past the surface of the anomaly. Heck, GalCiv 
+is still doesn't know anything about gravity except to say, "yup, it's there".
+
+The anomaly is slowly rotating about its axis; Anomaly Station maintains
+a geosynchronous orbit to the "east" of the Anomaly Settlement. 
+Here's a side view picture:
+
+
+                             __________
+                       _____/          \_____
+                  ____/                      \____
+              ___/               up               \___
+             /                                        \
+            |             west        east             |  +  <-Anomaly Station
+             \___                                  ___/
+                 \____          down          ____/
+                      \_____            _____/
+                            \__________/
+
+
+                              singular
+                            (black hole)
+                                  |
+                                  |
+                                  V
+
+
+North would be into the page, south would be sticking out at the viewer. 
+In cartesian coordinates, east-west is the X-axis, north-south is the Y-axis,
+and up-down is the Z-axis. The anomaly spins about the up-down, or Z-axis.
+The anomaly is positioned with the singularity directly beneath, the 
+anomaly; the singularlity lies on the Z-axis.
+
+If you have any questions concerning some part of Builder past/present
+which you want more info on, ask Corbin and he'll make something up for ya.
+~
+#
+zone-map~
+
+^w^vZone Creation -- MAP^V
+^a
+                        Anomaly   |  Space
+                                  | 
+                          Ore     |               (Anomaly Station spins
+                         Ship     |                to generate gravity)
+            To             |      |                 
+         Terrarium       Dock     |                 __           __
+           Alpha           |      |                /  \    _    /  \
+             |             |       \              | H1 |  | |  | H2 |
+             |             |----- 1 |             |    |__| |__|    |
+             |             |       /              | Anomaly Station |
+             |             |       \              |     __   __     |
+  <-------AnomalySpaceDock-|----- 2 |             |    |  | |  |    |
+      (Anomaly Settlement) |       /               \__/  /   \  \__/
+             |              \      \                     \___/
+             |               ---- 3 |                   Docking 
+             |                     /                     ring
+             |                    |         N
+            To                    |       W + E 
+         Terrarium                |         S
+           Beta                   |
+
+~
+#
+zone-skills~
+
+^w^vZone Creation -- SKILLS^V
+^a
+
+Combat in Crimson2 is all based on a "open-ended" 100 sided 
+dice (or percentages). The open ended thing is tough to explain 
+but it basically means that every once in awhile you
+can roll really bad (ie -50) or really good (+150) even though for the
+most part you get a number between 1 and 100. Fanatic noticed this at
+work when one of his beetles got in a fluke 2 attacks per round once.
+For that matter (although its extremely unlikely) a beetle could roll
++2000 on its #of attacks roll and end up with 20 attacks in one
+particularly lucky round, but again, that is REALLY unlikely. So what
+does this mean to armor, weapons skills, resists etc.
+
+For simplicity of example we're just gonna pretend the open-ended thing
+doesnt happen (its not that common anyway, just keep the fact that every
+once in awhile you can fluke out in the back of your mind)
+
+First a sample combat round:
+You have laser-weapon-accuracy 10
+You have laser-pistol 20
+You have laser-weapon-speed 30
+You have laser-weapon-damage 40
+You have speed 5
+They have Resist-Laser 25
+They have armor 35
+They have Dex 50
+
+First we determine how many attacks per round we get. We'll assume that
+the rate of fire of our laser is 1. So thats are base rate of fire. Now
+we get to see how many extra attacks we can make due to our speed etc.
+So we roll our base, a number between 1 and 100 and get 12, pretty
+lousy.
+add in our bonuses:
++5 from speed = 17
++10 (laser-pistol/3) = 27
+
+in a nifty table:
+number   xtra attacks
+  0-50   0
+ 51-150  1
+151-250  2
+251-350  3
+etc
+
+Rats, we dont get any bonus attacks
+
+Okay now we roll to hit for each attack we get, a number between 1 and
+100... hmm we get 63 not great, not bad.
+Okay then we get to add our bonuses:
+We're using a laser so:
+our roll is 63 + 10 (laseracc) + 20 (laserpistol) = 93
+minus their armor 93 - 35 = 58
+minus their dex/5 58 - 10 = 48
+since 48 isnt >= 51 (the base chance to hit) we missed. jeez we
+suck.....
+
+Lets pretend we did hit though and our weapon does 1d6 damage.
+Okay we do a lousy 4 points of damage
+We dont get a strength bonus since we are using a laser pistol (we would
+if we were using a club say - equal to strength/20)
+We do +4 pts from laser-weapon-damage/10 = 8
+we do +1 pts from laser-pistol/20 = 9
+but wait the lucky SOB's have resist-laser 25 so we have to deduct
+(resist/10) or -2 = 7
+had we hit we would have done 7 pts damage.
+
+The upshot of all this is that resistances are PRETTY DAMN COOL, if they
+had had a resist of 90 or more, they would have taken a measly 1 pt of
+damage (the minimum you can suffer when you are hit) Armor should only
+give you bonus resistances in maybe 3 categories at max, anything more
+is just being too nice. Also when assigning resistances to things keep
+in mind what the item is:
+* If it isnt metal (ie a lead shield) or electronic (some kind of
+jammer/shield) how can it protect you from EMR weapons (ie
+Electromagnetic Radiation e.g. radio, microwave etc). 
+* Anything metal (unless reflective) should not be ResistLaser since
+lasers cut up metals really well (and conversely lasers arent all that
+good against organic things becuz water (and me and you are 98% water)
+can absorb so much heat 
+* etc and so forth
+
+Area Writing Notes:
+The default speed, pursue, flee etc skills for mobs is equal to 2
+(speed) or 3 (mostly everything else) times level depending on the skill
+in question. Default resistance is currently 0, but it will probably be
+equal to level/2 or something eventually, I just havent decided what
+would be reasonable yet.
+
+You can explicitly override the mobs defaults by assigning specific
+properties to the mob, generally starting with %:
+ie
+give the mob a property of "%Speed" that is equal to "200" and bingo you
+have a mob that has a lot of bonus attacks (leave out the " marks....
+and its case insensitive so %SPEED, %speed, and %SpEeD all work)
+a quick list of this properties off the top of my head are:
+
+%speed
+%flee
+%pursue
+%RAcid
+%RLaser
+%REMR
+%RHead
+%RAcid
+%RConcussive
+etc all the resists...
+
+misc. stuff
+%security (give this to objects or rooms so they are harder to picklock
+etc)
+
+thats about it for this email, l8r all
+Cryogen
+~
+$

@@ -1,0 +1,14 @@
+Void/void                     0    99 corbin~
+AnomalyStation/astation     100   300 corbin~
+MiningDock/min_dock         400   499 cryogen~
+StationConduits/stn_cond   1300  1499 corbin~
+TheMaze/maze1              1500  1649 corbin~
+TheMaze/maze2              1650  1799 corbin~
+TheMaze/maze3              1800  1949 corbin~
+TheMaze/maze4              1950  2099 corbin~
+OreTransport/oretran1      2500  2699 cryogen~
+OreTransport/oretran2      2700  2899 cryogen~
+SilverDale/silver_d        4500  4599 cryogen~
+AnomalySpaceDock/spc_dock  5000  5199 corbin~
+PipeSystem/sewer1          6000  6199 corbin~
+$~

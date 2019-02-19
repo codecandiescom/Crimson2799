@@ -1,0 +1,345 @@
+#0
+god crow bar~
+God's Crow Bar~
+A massive crow bar rests on the floor, slowly putting a dent in the floor.~
+A massive, huge, gigantic, glowing crow bar with `God' inscribed on the 
+side. 
+~
+WEAPON GLOW HELD
+0 512 1677789706 2
+100 1000000 1000000
+#1
+chocolate bar~
+a Chocolate Bar~
+A chocolate bar sits melting on the floor.~
+A small milk chocolate bar with a small `Willie Wonka Chocolate Factory' 
+stamped in the middle of it. 
+~
+FOOD 0 HELD
+10 50 1 0
+1 1 0
+#2
+bush plant~
+small bush~
+A small green bush is growing out of the floor here.~
+The air surrounding the bush smells clean and pure.
+~
+OTHER BLESS NOWEAR
+0 0 0 0
+1 1 1
+#3
+god scanner~
+God's Scanner~
+God's Scanner is here... Better grab it fast!~
+Hand-built by God, this puppy has more scanner memory than you can shake
+a stick it. Plus the corpse has not been created that it cant scan!
+~
+SCANNER 0 HELD
+17170435 1000000000 0 0
+0 0 0
+#4
+gods minicell~
+God's MiniCell~
+God's MiniCell is lying here, grab it quick!~
+The best minicell in the universe! 
+~
+AMMO 0 NOWEAR
+6 1000000000 0 512
+0 0 0
+#5
+katana banzai~
+Banzai's Katana ~
+A barely perceptable katana spins lazily in the air.~
+The katana is so transparent that you can barely see it.  The reason for 
+this phenomenon is that it exists on multiple dimensions.  What you see is 
+the part that spills into this dimension. 
+~
+WEAPON 0 HELD
+0 515 167842816 0
+0 0 0
+#6
+gods armor~
+Gods Armor~
+The armor of god is here.~
+It looks like an ordinary T-shirt with the slogan, "Damage Sucks" on 
+it.
+~
+ARMOR 0 HELD
+0 -50462977 -117835013 247
+0 0 0
+A
+WEAR-VACUUMWALK 255
+#7
+portal~
+a Portal~
+A ^ws^ah^ri^ym^gm^be^cr^pi^wn^ag ^gportal floats here~
+Its a hole through space-time. GO PORTAL to walk thorugh it. 
+~
+EXIT 0 NOWEAR
+100 0 0 0
+-1 0 0
+#8
+bag pack~
+huge bag~
+a bag is lying here~
+It's a trial bag, or bial trag, who knows. 
+~
+CONTAINER CARRY2USE HELD
+100 1 0 0
+3 3 0
+#9
+bath robe~
+Bath robe~
+A nice, fluffy, warm-looking bath robe is here.~
+It looks like one of those towel-like bath robes like you get at The Bay. 
+~
+ARMOR 0 OVERBODY
+0 16777216 0 0
+0 0 0
+#10
+corbin wrath~
+Corbin's Wrath~
+Corbin's Wrath is lying on the floor here.~
+Corbin's Wrath looks like a short wand about 20cm long and 1cm in diameter. 
+There are inscriptions all over the object, but you cannot make any sense of 
+them. 
+~
+WEAPON CARRY2USE HELD
+0 511 2021160960 25618
+0 0 0
+#11
+object test TeaTree clay~
+TeaTree's Test OBJ~
+an odd piece of clay is floating here changing forms.~
+theres just no telling what it may do today. 
+~
+AMMO GLOW|HUM|AURA|TRACK-OFFLINE|NODEATHTRAP NOWEAR
+7 99999999 0 0
+0 0 0
+#12
+berry~
+a TeaTree Berry~
+a TeaTree berry.~
+"Quit looking at me!" It screams! 
+~
+LIGHT GLOW|HUM|AURA|BLESS|TRACK-OFFLINE|NODEATHTRAP HELD
+100 0 0 0
+0 0 0
+A
+WEAR-BREATHWATER 255
+A
+WEAR-VACUUMWALK 255
+#13
+spam death~
+Death SPAM~
+^yS^bPAM^g, becons your palet.~
+^bA large red and black can of ^rD^Reath ^yS^bPAM^b eat it because we love 
+you.
+~
+DRUG DARK|TRACK-OFFLINE TWO-HANDED
+200 0 0 0
+15 666 0
+A
+USE-SELF-POISON 15
+#14
+here pill red~
+a HERE pill~
+a small red pill with a white dot.~
+the word HERE is on it. 
+~
+DRUG GLOW|TRACK-OFFLINE NOWEAR
+10 0 0 0
+1 1500 0
+A
+USE-SELF-MARK 0
+#15
+there pill white~
+a THERE pill~
+a small white pill with a red dot.~
+the word THERE is on it. 
+~
+DRUG GLOW|TRACK-OFFLINE NOWEAR
+10 0 0 0
+1 1500 0
+A
+USE-SELF-RECALL 0
+#16
+case ~
+a pill case~
+a small red and white pill case, hovers before you.~
+^g a small ^wY^rin^w-^rY^wang^g patern spins endlesly around, the center of 
+each color holding a pill of opposing color. This doesn't look like 
+something you would want to Hoard.
+~
+CONTAINER GLOW|HUM|AURA|TRACK-OFFLINE|NODEATHTRAP NOWEAR
+2 5 -1 0
+0 0 0
+#17
+leaf~
+a large leaf~
+a two foot leaf of mint is bogleing your mind!~
+  It smells quite strongly of mint, and is ripped in the center it has a 
+long vine wraped around is middle forming a Poncho 
+~
+WORN 0 UPPER-BODY
+0 0 0 0
+0 0 0
+A
+WEAR-BREATHWATER 255
+#18
+Big Kahuna builder couch~
+the Big Kahuna builder couch.~
+That is one big momma couch sitting before you!~
+This coach looks very well used.  In fact you get the feeling that something 
+may be sitting on right now... 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_WEAPON|SF_BLASTER|SF_OFFENSE|SF_TELEKINETIC|SF_TELEPATHY|SF_MELEE|SF_ION|SF_DEFENSE|SF_APPORTATION|SF_GENERAL|SF_LASER|SF_SUPPORT|SF_PSYCHIC|SF_SPIRIT|SF_SLUG|SF_PLASMA|SF_BODY|SF_PYROKINETIC,0,200)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#19
+glowing light sabre~
+a ^yLight ^wSabre~
+a glowing sabre of light hovers before your eyes.~
+ Before you hovers a blade of glowing contained plasma.  This badboy can cut 
+through anything. 
+~
+WEAPON GLOW|HUM HELD
+0 8 671749120 274
+5 10000 0
+A
+HITROLL 100
+A
+HITROLL 100
+A
+DAMROLL 50
+A
+SPEED 100
+#20
+aura~
+a liquid aura~
+a very strange bubble of liquid and air is floating here.~
+ Sheets and globules of liquid float about almost like a sentiant Lavalamp. 
+~
+DRINKCON CARRY2USE OVERBODY
+300 300 0 0
+10 0 0
+#21
+portal flaming~
+a Glowing portal~
+^gA ^wP^co^brt^ca^wl ^yGlows ^gin the sky...~
+You see nothing special 
+~
+EXIT 0 NOWEAR
+133 0 30 0
+10 0 0
+#22
+arch electricity portal~
+a bright arch~
+an arch of electricity is crackling here.~
+  Electricity jumps back and forth creating an almost solid passage the 
+center coverd by hazy skin, mabie with time you can get an idea where it 
+goes.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  thing t;
+  int value;
+  str var;
+  var="TeleportRoom";
+  if(StrIsCmd(COMMAND,"enter")) {
+    if(CharGetFighting(EVENT_THING)==TNULL) {
+      BLOCK_CMD=YES;
+      value=PropertyGetInt(CODE_THING,var);
+      if(value==0) {
+        stop;
+      }
+      t=WorldOf(value);
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"<Flash>\n");
+      ThingTo(EVENT_THING,t);
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"Someone is gone\?!\?\n");
+      SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"<Flash>\n");
+      SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"Someone has just arived!\n");
+    }
+  }
+}~
+P
+@idle~
+{
+  int state;
+  str var;
+  var="TeleportRoom";
+  state=PropertyGetInt(CODE_THING,var);
+  if(state==8194) {
+    PropertySetInt(CODE_THING,var,10);
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^bThere is a ripple in the arch^w,^b followed by a sudden ^y<^aFLASH^y>^w...\n");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^w..^bas the room dims you see a hellish Void in the skin of the portal^w.^b The image slowly fades from view^w.\n");
+  }
+  if(state==10) {
+    PropertySetInt(CODE_THING,var,901);
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^bThere is a ripple in the arch^w,^b followed by a sudden ^y<^YFLASH^y>^w...\n");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^w..^bas the room dims you see beams of light pirceing swirls of sand in the skin of the portal^w.^b The image slowly fades from view^w.\n");
+  }
+  if(state==901) {
+    PropertySetInt(CODE_THING,var,4500);
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^bThere is a ripple in the arch^w,^b followed by a sudden ^y<^GFLASH^y>^w...\n");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^w..^bas the room dims you see a landscape in the skin of the portal^w,^b it has a green gridwork overlay^w.^b The image slowly fades from view^w.\n");
+  }
+  if(state==4500) {
+    PropertySetInt(CODE_THING,var,5049);
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^bThere is a ripple in the arch^w,^b followed by a sudden ^y<^BFLASH^y>^w...\n");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^w..^bas the room dims you see dirty plaza in the skin of the portal^w.^b The image slowly fades from view^w.\n");
+  }
+  if(state==5049) {
+    PropertySetInt(CODE_THING,var,8194);
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^bThere is a ripple in the arch^w,^b followed by a sudden ^y<^wFLASH^y>^w...\n");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^w..^bas the room dims you see a small kitchen in the skin of the portal^w.^b The image slowly fades from view^w.\n");
+  }
+  ThingSetIdleWait(CODE_THING,10);
+}~
+P
+TeleportRoom~
+10
+901
+4500
+5049
+8194~
+#23
+souleater scythe~
+a ^aScythe~
+^aSoul Eater ^gpeers at you wanting nothing more than the power to draw you to battle.~
+   A massave curved blade sits atop an ebiny shaft driping life blood of the 
+Universe. 
+~
+WEAPON DARK|EVIL|AURA TWO-HANDED
+0 67 0 5121
+100 0 0
+#24
+what?~
+What?~
+What is that lying there?~
+  You just CAN'T get a fix on this thing What? Could It Be!?! 
+~
+DEVICE 0 TWO-HANDED
+0 0 0 0
+0 0 0
+#25
+cottonball~
+a cottonball~
+a small ball of cotton floats across the floor...~
+  This little cottonball is drenched in ethinol ... well it will be one day!
+~
+DRINKCON DARK|EVIL NOWEAR
+666 666 12 0
+-1 0 0
+$

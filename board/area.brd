@@ -1,0 +1,44 @@
+area~
+0
+23 0
+#0
+Randor~
+poison~
+Maybe poison affects should be made more apparent - like a message
+reoccurring from time to time about you getting weaker or a message
+that the poison tastes horribly or burns you when you drink it.
+Randor
+~
+889836618 889836618 -1
+#1
+Randor~
+poison vs. VR~
+You can *die* in the VR if you drink poison from the keg.
+~
+889837166 889837166 -1
+#2
+Kassil~
+keg in silverdale~
+Changed poison to whisky in the keg in SilverDale, pending
+some fix to the whole poison stuff.
+~
+889837521 889837521 -1
+#3
+Randor~
+breaking doors~
+Idea: allow players to break some doors. Just as thieves can
+pick and technicians hack (I guess), soldiers could break doors
+with some of their weapons (axe, chain saw).
+We'd prolly need another door flag then - NO_BREAK, for some
+sensitive doors ;)
+Randor
+~
+889871222 889871222 -1
+#4
+Randor~
+vacuumwalk~
+It looks like the vacuumwalk affect doesn't go away immediately
+after the space suit is removed.
+~
+889922784 889922784 -1
+$

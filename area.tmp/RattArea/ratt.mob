@@ -1,0 +1,46 @@
+#3000
+bull ant guard~
+Bull Ant~
+A bull ant is here watching you~
+A large bull ant stands here guarding the colony.
+ 
+~
+SENTINEL|STAYAREA 0 -20 S
+40 80 60 50d15+1200 7d2+0
+2000 680
+STANDING ANIMAL MALE
+#3001
+worker ant~
+Worker Ant~
+A worker ant moves along ignoring you.~
+What you thought must be the King of the Ants is obviously just a worker ant.  
+It looks much larger than the giant ants you been seeing around the jungle but 
+small compared to the bull ant guarding the entrance to the ant hill.  The ant 
+moves on by ignoring your presents.
+ 
+~
+SCAVENGER|PICKPOCKET|STAYAREA|WIMPY SEEINVIS|SENSELIFE -10 S
+38 70 50 40d10+1000 8d2+0
+800 420
+STANDING ANIMAL MALE
+#3002
+guardian ant~
+Guardian ant~
+Type ^wMLDESC^c to give this Mob a better LDesc.~
+Type ^wMDESC^c to give this Mob a better Description.
+~
+SENTINEL|AGGRESSIVE|STAYAREA|HYPERAGGR|RPSYCHIC GROUP|DARKVISION|SEEINVIS|REGENERATION|SENSELIFE -50 S
+50 112 124 10d10+2000 1d50+2
+800 0
+STANDING ANIMAL MALE
+#3003
+test~
+test~
+Type ^wMLDESC^c to give this Mob a better LDesc.~
+Type ^wMDESC^c to give this Mob a better Description.
+~
+STAYAREA 0 0 S
+1 0 0 1d4+0 1d2+0
+0 0
+STANDING NONE MALE
+$

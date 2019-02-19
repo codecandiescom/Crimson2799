@@ -1,0 +1,21 @@
+#0
+builder couch~
+a builder couch~
+A builder couch is here, covered in dust.~
+  One of the most important discoveries from the anomaly is this piece of 
+technology.  This is the equipment that enhances the psionic and spiritual 
+abilities of the user.  Finding this equipment is never an easy task, for 
+most of the anomaly is uncharted.  Well, you have found it. Let's see how it 
+works. (Try PRACTICE'ing) 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,35)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+$

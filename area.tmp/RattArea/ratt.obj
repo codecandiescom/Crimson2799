@@ -1,0 +1,114 @@
+#3000
+boom stick GECAL machine gun~
+Boomb Stick~
+Boom Stick~
+Boom Stick?
+My friend that is not a boom stick it's a .50 Caliber GECAL 50, Six Barrel, Machine Gun!
+ 
+~
+WEAPON 0 HELD
+0 0 676341760 9
+0 0 0
+#3001
+chittion black~
+Black chitin~
+Black chittionis armor~
+It's a remnant of some insect.  The chitinous armor plate looks perfect;thing to cover the interior of a bug.  Perhaps it'll make you look like a bull ant.
+ 
+~
+ARMOR 0 ARM
+8 33686018 33554432 0
+3 100 0
+#3002
+ant head helmet hat~
+Ant Head~
+Ant head~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 HEAD
+10 84411652 327680 0
+1 450 0
+A
+WIS 5
+#3003
+Third arm~
+Third arm~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 WRIST
+400 0 0 0
+0 0 0
+A
+INT 100
+A
+INT 100
+A
+INT 100
+A
+INT 100
+#3004
+blue glowing moss light~
+Blue moss~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+LIGHT GLOW|INVISIBLE FINGER
+40 0 0 0
+0 0 0
+#3005
+builder couch~
+a builder couch~
+A builder couch is here, covered in dust.~
+  One of the most important discoveries from the anomaly is this piece of 
+technology.  This is the equipment that enhances the psionic and spiritual 
+abilities of the user.  Finding this equipment is never an easy task, for 
+most of the anomaly is uncharted.  Well, you have found it. Let's see how it 
+works. (Try PRACTICE'ing) 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@COMMAND~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_BODY,0,30)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#3006
+Helm Brilliance clouds~
+Helm of Brilliance~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+LIGHT GLOW|BLESS HEAD
+1000 0 0 0
+0 0 0
+A
+WIS 100
+A
+DEX 200
+A
+INT 70
+A
+WIS 70
+#3007
+blank object~
+Type ^wONAME^c to give this Obj a better name.~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 NOWEAR
+0 0 0 0
+0 0 0
+#3008
+blank object~
+Type ^wONAME^c to give this Obj a better name.~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 NOWEAR
+0 0 0 0
+0 0 0
+$

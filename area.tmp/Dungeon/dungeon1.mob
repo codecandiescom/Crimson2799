@@ -1,0 +1,72 @@
+#6000
+tunnel cleaner~
+Tunnel cleaner~
+A tunnel cleaner is here, zapping debris~
+The tunnel cleaner is a small bot about 30cm in length and 10cm high. It is 
+running around zapping debris from the side of the tunnel.
+~
+STAYAREA 0 0 S
+12 36 27 1d36+120 3d6+4
+150 180
+STANDING ROBOT SEXLESS
+#6001
+robotic moss~
+Robotic Moss~
+There is a moss covered robot lumbering around here~
+The robotic moss looks like it used to be a tunnel cleaner, but then 
+amalgamated with some moss and became a hybrid robot-moss organism.
+~
+STAYAREA 0 0 S
+14 42 32 1d42+140 3d6+4
+200 210
+STANDING ROBOT SEXLESS
+#6002
+cleaner cyborg~
+Cleaner cyborg~
+A cleaner cyborg is here, collecting biological material.~
+The cyborg looks like its half-machine half-animal. From the look of it, its 
+ancestors used to be tunnel cleaners and measlies. Scary looking thing, to 
+be sure!
+~
+STAYAREA 0 0 S
+16 48 37 1d48+160 3d7+5
+250 240
+STANDING ANIMAL SEXLESS
+#6003
+alarm drone~
+Alarm drone~
+An alarm drone is here, blazing a high-pitched alarm bell!~
+The alarm drone stands about half a meter tall and looks like a can with a 
+rounded top (think R2-D2). It whirs around on some ball-wheels on its 
+bottom. Everytime it comes within sight of something moving, it sounds a 
+high-pitched squeal. Very anoying.
+~
+STAYAREA 0 0 S
+13 39 29 1d39+130 3d6+4
+175 195
+STANDING ROBOT SEXLESS
+#6004
+sewer dortha~
+Sewer dortha~
+A sewer dortha is here scavenging for food~
+The dortha looks kind of like a small earth dog... except with 6 legs and a 
+long, slender snout. They are found on many planets lurking in sewers. Looks 
+like they've invaded the anomaly now too.
+~
+STAYAREA 0 0 S
+15 45 34 1d45+150 3d7+5
+0 225
+STANDING ANIMAL FEMALE
+#6005
+robot recycler~
+Robot Recycler~
+A robot recycler is here, looking for some broken scraps to recycle~
+The recycler is an odd, complicated contraption that runs around grabbing 
+everything it can. It uses mechanical and chemical (acid) methods to 
+decompose and reclaim old broken robotic bodies. 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE 0 0 S
+20 60 47 1d60+600 3d9+6
+450 600
+STANDING ROBOT SEXLESS
+$

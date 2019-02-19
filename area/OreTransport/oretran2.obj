@@ -1,0 +1,260 @@
+#2700
+builder couch~
+a builder couch~
+A beatup looking builder couch has been wired into the ship here~
+  One of the most important discoveries from the anomaly is this piece of
+technology.  This is the equipment that enhances the psionic and spiritual
+abilities of the user.  Finding this equipment is never an easy task, for
+most of the anomaly is uncharted.  Well, you have found it. Let's see how it
+works. (Try PRACTICE'ing)
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,35)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#2701
+laser cutters~
+a laser cutter~
+An industrial laser cutter has been left lying here~
+  Its an extremely powerfully builder-tech laser cutter. Its probably got 
+enough power to even damage the builder hull metal. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+10 0 0
+P
+@use~
+{
+  thing t;
+  t=ThingFind(NULL,2504,BaseGetInside(EVENT_THING),TF_OBJ,0);
+  BLOCK_CMD=TRUE;
+  if(t==TNULL) {
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"^aYou try to use the cutter, but there\'s nothing here to cut!\n");
+    SendAction(EVENT_THING,TNULL,SEND_ROOM,"^a$n tries to use the cutter, but there\'s nothing here to cut!\n");
+  }
+  else {
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"^aYou use the cutter to cut through the grate!\n");
+    SendAction(EVENT_THING,TNULL,SEND_ROOM,"^a$n uses a cutter to cut through a grate!\n");
+    ObjectFree(t);
+    ObjectCreate(BaseGetInside(EVENT_THING),2505);
+  }
+}~
+#2702
+gray moss collar~
+a gray Psi-moss collar~
+A large ring of gray psi-moss is hovering in mid-air here~
+  Its small colony of gray psi-moss. As long as it doesnt get too big it 
+exists in a symbiotic relationship with a host. 
+~
+OTHER 0 NECK
+0 0 0 0
+1 400 0
+A
+WIS 30
+#2703
+large gray woven sheet wiring plastic~
+a large gray woven sheet~
+A large gray sheet of woven wiring and plastic pipe is lying here~
+  Its a thick "skin" of woven electrical wiring and bits of plastic piping. 
+Theres bits of gray fungus growing on it here and there. You could probably 
+wrap it around yourself and wear it as a poncho. 
+~
+ARMOR 0 OVERBODY
+6 1024 1536 0
+2 50 0
+A
+CON 2
+#2704
+orange keycard~
+a orange keycard~
+A orange keycard is collecting dust here~
+  Its a piece of plain orange metal. Its probably some kind of keycard. Its 
+about the same size as a playing card. 
+~
+KEY 0 NOWEAR
+0 0 0 0
+1 0 0
+#2705
+yellow keycard~
+a yellow keycard~
+A yellow keycard is collecting dust here~
+  Its a piece of plain yellow metal. Its probably some kind of keycard. Its 
+about the same size as a playing card. 
+~
+KEY 0 NOWEAR
+0 0 0 0
+1 0 0
+#2706
+green keycard~
+a green keycard~
+A green keycard is collecting dust here~
+  Its a piece of plain green metal. Its probably some kind of keycard. Its 
+about the same size as a playing card. 
+~
+KEY 0 NOWEAR
+0 0 0 0
+1 0 0
+#2707
+blue keycard~
+a blue keycard~
+A blue keycard is collecting dust here~
+  Its a piece of plain blue metal. Its probably some kind of keycard. Its 
+about the same size as a playing card. 
+~
+KEY 0 NOWEAR
+0 0 0 0
+1 0 0
+#2708
+corroded metal lump~
+a corroded lump of metal~
+A corroded lump of metal looks about a million years old here.~
+  Its a corroded lump of metal, its impossible to tell what it used to be. 
+All you can tell is that its covered with the oil, grease, and rust of about 
+a million years of neglect. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+1 0 0
+#2709
+gray gel coil~
+^aa gel covered coil~
+A small coil lies here, its coated with a ^aslimy looking gray gel~
+  Its small colony of ^agray psi-fungus^g feeding off a small electrical 
+coil. Its just about the right size to wear as a ring. 
+~
+OTHER 0 FINGER
+0 0 0 0
+2 1000 0
+A
+STR 5
+#2710
+black pants~
+a pair of black pants~
+A pair of black pants lie in a heap here~
+  Its a tough pair of utilitarian black uniform pants. Theres a few specs
+of gold moss here and there, but the fungus isnt making much headway against
+whatever material the pants are made from.
+~
+ARMOR 0 LEGS
+5 83886080 50331648 0
+2 300 0
+#2711
+tough chunk mossy bark~
+a large chunk of mossy bark~
+A tough looking chunk of bark is here, its covered by azure moss.~
+  Its a large roughly square chunk of tough bark. It is almost completely
+covered by azure moss.
+~
+ARMOR 0 SHIRT
+4 771 0 0
+10 350 0
+#2712
+azure algae skin clinging~
+a thin skin of azure algae~
+A small clinging skin of azure algae is here~
+  Its a small surviving patch of the azure master colony. Its clingy and has 
+small tendrils, you could probably wear it wrapped around the palm of one of 
+your hands. 
+~
+OTHER 0 EITHER-HAND
+0 0 0 0
+2 0 0
+A
+INT 5
+A
+MOVE 20
+#2713
+main sensor console~
+the Sensor Console~
+The main sensor console is here, humming slightly~
+  Its hard to make out the alien language, but luckily radar displays are
+much the same no matter who makes them. Its looks as though sensors are
+picking up a large cloud of objects in space, not too far away from the ore
+transport!
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+#2714
+main engineering console switch toggle~
+the Engineering Console~
+The main engineering console is here, humming slightly~
+  Its looks pretty damaged. The only thing that looks okay is a toggle 
+switch set to one side of the console. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  BLOCK_CMD=TRUE;
+  if(PropertyGetInt(WorldOf(2602),"OreTransFuel")) {
+    PropertySetInt(WorldOf(2602),"OreTransFuel",0);
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"^aYou toggle the console switch. The TOP light is lit.\n");
+    SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^a$n toggles the console switch. The TOP light is lit.\n");
+  }
+  else {
+    PropertySetInt(WorldOf(2602),"OreTransFuel",1);
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"^aYou toggle the console switch. The BOTTOM light is lit.\n");
+    SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^a$n toggles the console switch. The BOTTOM light is lit.\n");
+  }
+}~
+#2715
+captains console switch red toggle~
+the Captains Console~
+The captains personal console is here, humming slightly~
+  Its looks pretty damaged. The only thing that looks okay is a big red 
+toggle switch set to one side of the console. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  thing w;
+  str s;
+  s="OreTransLaser";
+  w=WorldOf(2645);
+  BLOCK_CMD=TRUE;
+  if(PropertyGetInt(w,s)) {
+    PropertySetInt(w,s,0);
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou use the $N; some lights looking like a power display read empty\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^a$n uses the $N; some lights looking like a power display read empty\n");
+  }
+  else {
+    PropertySetInt(w,s,1);
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou use the $N; a power display reads full\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^a$n uses the $N; a power display reads full\n");
+  }
+}~
+#2716
+industrial parts cleaner~
+the Parts Cleaner~
+A large industrial parts cleaner is here.~
+  Its looks much like any large parts cleaner anywhere. Its essentially a 
+great big washing machine used to clean up rust old parts and make them as 
+shiny as when they were new. 
+~
+CONTAINER 0 NOWEAR
+20 0 0 0
+-1 0 0
+P
+@use~
+{
+  int i;
+  i=ObjectCount(CODE_THING,2708);
+  ObjectCreateNum(CODE_THING,2707,i);
+  ObjectStrip(CODE_THING,2708,2708,TNULL);
+  SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou use the $N; the rust is cleaned off everything inside!\n");
+  SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^a$n uses the $N; the rust is cleaned off everything inside!\n");
+  BLOCK_CMD=TRUE;
+}~
+$

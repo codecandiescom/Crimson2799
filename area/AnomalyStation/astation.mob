@@ -1,0 +1,1806 @@
+#100
+customs officer~
+the Customs Officer~
+A Customs Officer is here. Type on your keyboard "look at officer".~
+The Customs Officer seems to be in charge, and is directing people around. 
+Perhaps you should "say hi" to her (type "say hi"), or maybe she could help 
+if you "say directions". 
+~
+SENTINEL|STAYAREA ENDURANCE 500 S
+200 600 497 2d9000+18100 3d84+66
+5000 50000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hello. If you\'re new here, I could give you directions to get you started. Just type `say directions\' on your keyboard.");
+    CharAction(CODE_THING,"say Or I could tell you about the station (type \'say station\' on your keyboard).");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")&&StrIsCmd(CMD_SRCKEY,"station")) {
+      CharAction(CODE_THING,"say The station is broken up into three main parts: the Docking Ring is where you are now, Habitat 1 is where the various governments maintain their embassies, and Habitat 2 is where most civilians and businesses dwell.");
+    }
+    else {
+      if(StrIsCmd(COMMAND,"say")&&StrIsCmd(CMD_SRCKEY,"suggestions")) {
+        CharAction(CODE_THING,"say After the embassy, you should go to Habitat 2 and poke around a bit. Be sure to find and check-out Club Med; you will have to get brain dumps to your clone done there regularly.");
+        CharAction(CODE_THING,"say Enjoy yourself!");
+      }
+      else {
+        if(StrIsCmd(COMMAND,"say")&&StrIsCmd(CMD_SRCKEY,"directions")) {
+          CharAction(CODE_THING,"say I suggest you go to your embassy in Habitat 1 right now. They will outfit you with some equipment and train you in some `skills\' which will probably save your life. To get to Habitat 1, go north from here until you hit the Station Junction. You\'ll see a sign on the wall. From there, go West, then down.");
+          CharAction(CODE_THING,"say I also have some SUGGESTIONS on what you should do after registering.");
+        }
+      }
+    }
+  }
+}~
+P
+@afterentry~
+{
+  if((ThingGetType(EVENT_THING)==TTYPE_PLR)&&CharGetExp(EVENT_THING)<100) {
+    CharAction(CODE_THING,"say Hello and Welcome to Anomaly Station!");
+    CharAction(CODE_THING,"say Be sure to register with the station administration - its easy EXPERIENCE, and you will be given a full standard issue equipment kit!");
+  }
+}~
+#101
+customs guard~
+a Customs Guard~
+A mean-looking Customs Guard is loitering ominously in the area.~
+The Customs Guard is watching over the comings and goings of the people 
+around. I don't think you want to mess with her. 
+~
+0 GROUP|ENDURANCE 500 S
+16 48 37 1d48+160 3d7+5
+200 240
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  if(StrIsCmd(COMMAND,"look")&&(StrIn(COMMAND,"guard")||StrIn(COMMAND,"custom"))) {
+    CharAction(CODE_THING,"say May I help you...");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")&&StrIn(COMMAND,"hey baby")) {
+      CharAction(CODE_THING,"say That\'s it. You asked for it.");
+      CharActionStr(CODE_THING,"kill %s",ThingGetName(EVENT_THING));
+    }
+  }
+}~
+#102
+Baros dworke~
+Baros~
+Baros the dworke is here (looking for amusing conversation)~
+Baros is a large, seven-limbed creature of the rare dworke race. Baros 
+stands about 2.5 meters tall, and looks to be around 700 cm in diameter. 
+Baros looks friendly, but very very tough. Most dworke ARE very very tough. 
+~
+SENTINEL|FORGIVING|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|REMR|RLASER|RPSYCHIC|RACID|RPOISON SEEINVIS|ENDURANCE 1000 S
+35 105 84 5d750+1600 3d15+11
+300 9000
+STANDING GALCIV-CITIZEN SEXLESS
+P
+@aftercommand~
+{
+  int conversation;
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say HELLO! HOW ARE YOU\?");
+    conversation=Number(1,6);
+    if(conversation==1) {
+      CharAction(CODE_THING,"say You remind me of a grand old adventurer I knew when I was 1092! I believe she was an Artificer.");
+      CharAction(CODE_THING,"say Yes yes, that\'s right. Fragile as a fibre optic cable, but she had a mind like a steel trap! Why, one day she got in a rousing battle-royale with 30 grumpy siliconoids. Well, after 10 minutes, the siliconoids had received the worse of it!");
+      CharAction(CODE_THING,"say I believe most of them were, um, shall we say, reduced to their basic element. He he he. She was a stomper, that one.");
+      stop;
+    }
+    if(conversation==2) {
+      CharAction(CODE_THING,"say You know, this station remids me of an old station I visited way back when I was in my hundreds. Marvellous place.");
+      CharAction(CODE_THING,"say It was an artificer station. I can tell you THEY didn\'t have infestations in their living quarters like HERE! Whoa!");
+      stop;
+    }
+    if(conversation==3) {
+      CharAction(CODE_THING,"say You look like a friendly type! Would you by chance be able to point me in the direction of a bathroom\?");
+      stop;
+    }
+    if(conversation==4) {
+      CharAction(CODE_THING,"say My, what a lovely suit of armor you have there. Mind you, I bet an earthling mosquito could still get through to bite you.");
+      stop;
+    }
+    if(conversation==5) {
+      CharAction(CODE_THING,"say Whoah, I\'m HUNGRY. Why, I\'m hungry enough to eat YOU!");
+      SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE,"$n eyes you apraisingly.\n");
+      SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"$n eyes $N apraisingly.\n");
+      CharAction(CODE_THING,"say Nah. Too bony. Got any, um, out-of-shape friends\?");
+      stop;
+    }
+    if(conversation==6) {
+      CharAction(CODE_THING,"say See that Velin plant there\? That Rotundam Growth.");
+      CharAction(CODE_THING,"say It uses EMF to sustain its own life. Suppose you interrupted its EMF. The plant would die. We all depend on EMF to some degree to sustain our bodies.");
+      stop;
+    }
+  }
+}~
+#103
+shady character~
+A shady character~
+A shady character is lurking in the shadows~
+The shady character is trying to hide his face and look casual; he's not 
+achieving either. Maybe you should confront him. 
+~
+SENTINEL|STAYAREA|RLASER|RPSYCHIC|RPOISON GROUP|SEEINVIS|HIDDEN -400 S
+50 155 130 3d1500+3100 4d25+20
+3200 18000
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  if(ThingGetType(EVENT_THING)==TTYPE_PLR) {
+    if(Hello(COMMAND)) {
+      if(PropertyGetInt(EVENT_THING,"AnomalyStation-Sally")>0) {
+        CharAction(CODE_THING,"say I don\'t know you. I\'ve never seen you before.");
+        stop;
+      }
+      if(CharGetLevel(EVENT_THING)<8) {
+        CharAction(CODE_THING,"say Come back when you\'re older, and I may have a proposal for you.");
+        stop;
+      }
+      CharAction(CODE_THING,"say Psst! Hey. Wana make a buck\? Go see Sally McBrye.");
+      CharAction(CODE_THING,"say Go 4 rooms north, 1 room east from here...");
+    }
+  }
+}~
+P
+@afterentry~
+{
+  if(ThingGetType(EVENT_THING)==TTYPE_PLR) {
+    if(PropertyGetInt(EVENT_THING,"AnomalyStation-Register")&&CharGetLevel(EVENT_THING)>7) {
+      if(PropertyGetInt(EVENT_THING,"AnomalyStation-Sally")==0) {
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE,"^a$n walks casually over to you.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"^a$n walks casually over to $N.\n");
+        CharAction(CODE_THING,"say Psst! Hey. You look like you could use some experience and MONEY! If you\'re interested, go see Sally; go 4 north, 1 east from here. GO NOW.");
+      }
+    }
+  }
+}~
+#104
+bonker robot~
+Bonker~
+A Bonker Robot is here awaiting orders~
+The Bonker Robot is a 9000 series model M-24. It's manufactured by the 
+U-Wantum-We-Makum Robot Manufacturing Conglomerate. 
+~
+SENTINEL 0 0 S
+5 15 9 1d15+50 3d3+1
+0 75
+STANDING ROBOT SEXLESS
+P
+@command~
+{
+  str name;
+  name=PropertyGetStr(CODE_THING,"RobotName");
+  if(name==NULL) {
+    name="robot";
+  }
+  if(StrExact(CMD_CMD,name)) {
+    BLOCK_CMD=TRUE;
+    CharActionStrip(CODE_THING,COMMAND);
+  }
+}~
+#105
+thumper robot~
+Thumper~
+There's a snazzy Thumper robot waiting here.~
+The Thumper mx-8 looks like it's ready for battle! Just give the command and 
+away it goes! 
+~
+SENTINEL 0 0 S
+6 18 12 1d18+60 3d3+2
+0 90
+STANDING ROBOT SEXLESS
+P
+@command~
+{
+  str name;
+  name=PropertyGetStr(CODE_THING,"RobotName");
+  if(name==NULL) {
+    name="robot";
+  }
+  if(StrExact(CMD_CMD,name)) {
+    BLOCK_CMD=TRUE;
+    CharActionStrip(CODE_THING,COMMAND);
+  }
+}~
+#106
+smasher robot~
+Smasher~
+A mean-looking smasher robot looms over the area~
+The Smasher model is a tough, mean, wartime machine. 
+~
+SENTINEL 0 0 S
+7 21 14 1d21+70 3d3+2
+0 105
+STANDING ROBOT SEXLESS
+P
+@command~
+{
+  str name;
+  name=PropertyGetStr(CODE_THING,"RobotName");
+  if(name==NULL) {
+    name="robot";
+  }
+  if(StrExact(CMD_CMD,name)) {
+    BLOCK_CMD=TRUE;
+    CharActionStrip(CODE_THING,COMMAND);
+  }
+}~
+#107
+crusher robot~
+Crusher~
+A Crusher robot is here... looking very intimidating~
+The Crusher looks like it lives up to its name. The Crusher model robots are 
+famous for stomping on their enemies heads after they win a battle. Nobody 
+has yet been able to remove that peculiar glich.
+~
+SENTINEL 0 0 S
+8 24 17 1d24+80 3d4+2
+0 120
+STANDING ROBOT SEXLESS
+P
+@command~
+{
+  str name;
+  name=PropertyGetStr(CODE_THING,"RobotName");
+  if(name==NULL) {
+    name="robot";
+  }
+  if(StrExact(CMD_CMD,name)) {
+    BLOCK_CMD=TRUE;
+    CharActionStrip(CODE_THING,COMMAND);
+  }
+}~
+#108
+terminator robot~
+Terminator~
+A terminator robot is here. It makes you afraid... very afraid.~
+The Terminator series were first built by a rogue sentient earthling 
+computer; they were designed to seek out and kill all carbon-based life 
+forms. You hope this one has been sucessfully reprogrammed. 
+~
+SENTINEL 0 0 S
+10 30 22 1d30+100 3d5+3
+0 150
+STANDING NONE MALE
+P
+@command~
+{
+  str name;
+  name=PropertyGetStr(CODE_THING,"RobotName");
+  if(name==NULL) {
+    name="robot";
+  }
+  if(StrExact(CMD_CMD,name)) {
+    BLOCK_CMD=TRUE;
+    CharActionStrip(CODE_THING,COMMAND);
+  }
+}~
+#109
+butcherycarnagegore carnage gore robot bcg~
+ButcheryCarnageGore~
+A very nasty BCG Robot is standing before you.~
+The BCG Robot looks like it was made from the ground up for one purpose and 
+one purpose only - kill kill kill. This robot of mass death is mainly a 
+military unit; evidently Anomaly Adventurers have found a use for it as 
+well. 
+~
+SENTINEL 0 0 S
+15 45 34 1d45+150 3d7+5
+0 225
+STANDING ROBOT SEXLESS
+P
+@command~
+{
+  str name;
+  name=PropertyGetStr(CODE_THING,"RobotName");
+  if(name==NULL) {
+    name="robot";
+  }
+  if(StrExact(CMD_CMD,name)) {
+    BLOCK_CMD=TRUE;
+    CharActionStrip(CODE_THING,COMMAND);
+  }
+}~
+#110
+salamander registration clerk~
+the salamander registration clerk~
+A Salamander registration clerk is here, eyeing you suspiciously.~
+The Salamander registration clerk looks old and mean... like she has seen 
+every kind of scum in the universe, and eaten half of them for lunch. 
+Perhaps you could "say hi" and start a conversation. 
+~
+SENTINEL|STAYAREA 0 0 S
+200 600 497 2d9000+18100 3d84+66
+0 108000
+STANDING NONE FEMALE
+P
+@aftercommand~
+{
+  if(PlayerGetRace(EVENT_THING)!=RACE_SALAMANDER) {
+    CharAction(CODE_THING,"say Hsssss, idiot alien, if you would like to registerr you will have to do it at your own race\'s ss embassssy");
+    stop;
+  }
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hi! If you would like to register, \"^gsay register^p\".");
+    CharAction(CODE_THING,"say If you are new here, registration is required.");
+    CharAction(CODE_THING,"say When you register, you will be provided with some standard equipment and training.");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")&&StrIn(COMMAND,"regi")) {
+      if(ObjectCount(EVENT_THING,152)) {
+        CharAction(CODE_THING,"say You already have a registration form. Good.");
+      }
+      else {
+        CharAction(CODE_THING,"say Here is your registration form.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives $N a registration form.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you a registration form.\n");
+        ObjectCreate(EVENT_THING,152);
+        if(CharGetExp(EVENT_THING)<200) {
+          CharGainExp(EVENT_THING,200);
+        }
+      }
+      CharAction(CODE_THING,"say Take the form to Station Administration located in Habitat 2; go back across the Docking Ring, down to the Habitat 2 Courtyard, and then go east.");
+      CharAction(CODE_THING,"say Good luck!");
+    }
+  }
+}~
+#111
+siliconoid registration clerk~
+the siliconoid registration clerk~
+A Siliconoid Registration Clerk is here, giving you a blank stare.~
+The Siliconoid Registration Clerk looks as though he'd rather be doing 
+something else. No.. he looks like he's dead. Perhaps you should "say hi" to 
+start up a conversation. 
+~
+SENTINEL|STAYAREA 0 0 S
+200 600 497 2d9000+18100 3d84+66
+0 108000
+STANDING NONE MALE
+P
+@aftercommand~
+{
+  if(PlayerGetRace(EVENT_THING)!=RACE_SILICONOID) {
+    CharAction(CODE_THING,"say Hello. Aliens register at their own Embassy. Goodbye.");
+    stop;
+  }
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hi! If you would like to register, \"^gsay register^p\".");
+    CharAction(CODE_THING,"say If you are new here, registration is required.");
+    CharAction(CODE_THING,"say When you register, you will be provided with some standard equipment and training.");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")&&StrIn(COMMAND,"regi")) {
+      if(ObjectCount(EVENT_THING,152)) {
+        CharAction(CODE_THING,"say You already have a registration form. Good.");
+      }
+      else {
+        CharAction(CODE_THING,"say Here is your registration form.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives $N a registration form.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you a registration form.\n");
+        ObjectCreate(EVENT_THING,152);
+        if(CharGetExp(EVENT_THING)<200) {
+          CharGainExp(EVENT_THING,200);
+        }
+      }
+      CharAction(CODE_THING,"say Take the form to Station Administration located in Habitat 2; go back across the Docking Ring, down to the Habitat 2 Courtyard, and then go east.");
+      CharAction(CODE_THING,"say Good luck!");
+    }
+  }
+}~
+#112
+artificer registration clerk~
+the artificer registration clerk~
+An Artificer Registration Clerk is here, being cautous about what he says.~
+The Artificer Registration Clerk is drapped in thick, ceremonial robes. He 
+looks very intelligent and calculating. When you look right at him, he 
+raises his nose at you.... ever so slightly. Perhaps you should "say hi" and 
+strike up a conversation. 
+~
+SENTINEL|STAYAREA 0 0 S
+200 600 497 2d9000+18100 3d84+66
+0 108000
+STANDING NONE FEMALE
+P
+%Mindcrush~
+250~
+P
+@AFTERCOMMAND~
+{
+  if(PlayerGetRace(EVENT_THING)!=RACE_ARTIFICER) {
+    CharAction(CODE_THING,"say Greetings and most benificient wishes for a pleasant temporary location on this facility. Sadly, I am required by regulation 273894.23343a, subsection D.342 to regrettfully not issue you your 234343.675a registration form and instead per subsection E.2397, direct you to your own races embassy.");
+    stop;
+  }
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hi! If you would like to register, \"^gsay register^p\".");
+    CharAction(CODE_THING,"say If you are new here, registration is required.");
+    CharAction(CODE_THING,"say When you register, you will be provided with some standard equipment and training.");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")&&StrIn(COMMAND,"regi")) {
+      if(ObjectCount(EVENT_THING,152)) {
+        CharAction(CODE_THING,"say You already have a registration form. Good.");
+      }
+      else {
+        CharAction(CODE_THING,"say Here is your registration form.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives $N a registration form.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you a registration form.\n");
+        ObjectCreate(EVENT_THING,152);
+        if(CharGetExp(EVENT_THING)<200) {
+          CharGainExp(EVENT_THING,200);
+        }
+      }
+      CharAction(CODE_THING,"say Take the form to Station Administration located in Habitat 2; go back across the Docking Ring, down to the Habitat 2 Courtyard, and then go east.");
+      CharAction(CODE_THING,"say Good luck!");
+    }
+  }
+}~
+P
+@FIGHTING~
+{
+  CharActionStr(CODE_THING,"con Mindcrush %s",ThingGetName(EVENT_THING))/*
+                if(CharAction(EVENT_THING,"concentrate Mindcrush")) {
+                                BLOCK_CMD=TRUE;
+    
+        
+            
+                
+                    
+                        
+                            
+                                stop;
+    
+        
+            
+                
+                    
+                        
+                            
+                              }*/;
+  }~
+#113
+bored Customs Officer~
+a bored Customs Officer~
+A bored Customs Officer is sleeping on his feet here~
+Whatever his job description might say, it looks like he can barely summon 
+up the energy to even speak to you. You notice that his nametag is on upside 
+down, and that he hasn't bothered to fill it out. 
+~
+SENTINEL|FORGIVING|STAYAREA 0 0 S
+55 165 134 2d1750+3600 3d23+18
+0 21000
+STANDING NONE MALE
+P
+@aftercommand~
+{
+  int i;
+  if(PropertyGetInt(EVENT_THING,"AnomalyStation-Register")==0) {
+    i=Number(0,7);
+    if(i==0) {
+      CharAction(CODE_THING,"say Please read the map and continue along to your Embassy");
+    }
+    if(i==1) {
+      CharAction(CODE_THING,"say How long can it take to read a map. Grab a clue and move it along to your Embassy");
+    }
+    if(i==2) {
+      CharAction(CODE_THING,"say Whats a matter, never bothered to learn how to read\? Check out the Map and then go to your embassy.");
+    }
+    if(i==3) {
+      CharAction(CODE_THING,"say Hurry up and look at the map buddy, no loitering.");
+    }
+    if(i==4) {
+      CharAction(CODE_THING,"sigh");
+    }
+    if(i==5) {
+      CharAction(CODE_THING,"yawn");
+    }
+    if(i==6) {
+      CharAction(CODE_THING,"shoo");
+    }
+    if(i==7) {
+      CharAction(CODE_THING,"say Oh for the love of Pete. *LOOK* at the map. *GO* to your embassy.");
+    }
+  }
+}~
+#114
+Siliconoid Guard~
+a Siliconoid Guard~
+The Siliconoid Guard glares straight ahead.~
+The Silconoid Guards are looking at you very suspiciously.  If you didn't 
+know better you would think they had something to hide. 
+~
+SENTINEL|STAYAREA|RESCUE GROUP|SENSELIFE 0 S
+20 100 75 6d30+200 3d10+8
+500 3000
+STANDING NONE MALE
+#115
+jack lalane man old hyper~
+Jack La Lanne~
+A very hyper old man is joging around yelling about health.~
+  O my! this man looks to be eighthundred or so, his eyes sit so far into 
+his head that its hard to see where he is looking, his skin looks more 
+plastic than his yellow jumpsuit and as fast as he keeps jumping about he 
+may drop dead any time now. Hey, no it couldn't be, I'll be damed it is It's 
+Jack Lalane! You know the old guy that use to swim planets with floating 
+citys shackled to him, he has to be almost eightthousand years OLD! 
+~
+FORGIVING|WIMPY|RPUNCTURE|RCONCUSSIVE|RHEAT|REMR|RLASER|RACID|RPOISON DARKVISION|REGENERATION|ENDURANCE|PHASEWALK|SENSELIFE -500 S
+100 300 222 6d1000+7000 4d50+50
+5000 40000
+STANDING NONE MALE
+P
+@aftercommand~
+{
+  int rand;
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hello there! Would you like to live longer better healthier life\?");
+    CharAction(CODE_THING,"say I could tell you the Amazing things I have done because of Juce!");
+    CharAction(CODE_THING,"say Or you could look at my Juce LIST");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")) {
+      if(StrIn(COMMAND,"things","juce","amazing")) {
+        rand=Number(1,5);
+        if(rand==1) {
+          CharAction(CODE_THING,"say Back on Earth in the 1900\'s....");
+          CharAction(CODE_THING,"say Did I say 1900\'s, I ment 2600\'s,...");
+          CharAction(CODE_THING,"say O-well, as I was say\'n I ran around the Lunar Defence Ring in just under 3 days, if it wasn\'t for my easy to transport Juces I\'da made the jog with only my recycled urin, think about that the next time your in deep space!");
+          stop;
+        }
+        if(rand==2) {
+          CharAction(CODE_THING,"say Loknan359 was over-run by its large inhabitants whom devored almost everything bringing them to the start of war!");
+          CharAction(CODE_THING,"say After learning the powers of extraction and utilization of nutrents Loknan359 is now full of Happy Healthy nonwaring juce nuts!");
+          stop;
+        }
+        if(rand==3) {
+          CharAction(CODE_THING,"say A cristalin inhabitant of Tszioulnz (in the Dark sector) keeps many Juces bathing its cristalin brain in them daily finding the many differant currents QUITE pleasing!");
+          CharAction(CODE_THING,"say You wouldn\'t happen to have a cristalin Brain Would YOU\?");
+          stop;
+        }
+        if(rand==4) {
+          CharAction(CODE_THING,"say In some cultures ANYthing in juced form can be sold for 10 too 20 times its value");
+          CharAction(CODE_THING,"say Some people just understand the importance of Juce");
+          stop;
+        }
+        if(rand==5) {
+          CharAction(CODE_THING,"say I have even heard rumor of a Strange device powered only by the extractions of plants!");
+          CharAction(CODE_THING,"say Imagion a city powered with only the fruit it grows and grinds, giving way to yet more fruit and POWER!");
+          CharAction(CODE_THING,"say Oh! what i would give for THAT!");
+          stop;
+        }
+      }
+    }
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,125,140,141,142,143,144)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,50,"drinkcon")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#116
+vendomatic soda machine~
+VendoMatic #5402229319~
+a VendoMatic soda machine is humming quietly.~
+  Strobes flare as lazers spell Gal-Civ Cola on every near surface, other 
+than the light show to go on top its a rather plain machine in a brushed 
+silver finish and ^pG^Pal^2-^pC^Piv^Y Cola^2 clearly stamped across the top. 
+~
+SENTINEL|FORGIVING|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RPSYCHIC|RACID|RPOISON BREATHWATER|DARKVISION|ENDURANCE|VACUUMWALK 0 S
+35 70 20 15d750+1600 3d15+10
+420 9000
+STANDING GALCIV-CITIZEN SEXLESS
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,151,153,165)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#117
+secretary~
+a secretary~
+A secretary is seated behind a big desk.~
+The secretary is a short bald man with a little brown mustache. He looks 
+like he considers himself to be very important. He probably is. 
+~
+SENTINEL|STAYAREA 0 100 S
+200 600 497 2d9000+18100 3d84+66
+10 108000
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  thing t;
+  if(Hello(COMMAND)) {
+    if(!ObjectCount(EVENT_THING,118)&&!ObjectCount(EVENT_THING,119)) {
+      if(ObjectCount(EVENT_THING,152)) {
+        CharAction(CODE_THING,"say Hi! I see you have a registration form. Take your form to Licencing and Registration to the north of here.");
+      }
+      else {
+        if(CharGetExp(EVENT_THING)<1000) {
+          CharAction(CODE_THING,"say Hi! If you\'re interested in registering, you must go and get a registration form from your embassy. Go back through the Docking Ring to Habitat 1, then look at the map in Embassy Center to help you find your way.");
+        }
+        else {
+          CharAction(CODE_THING,"say Hello! Nice day, isn\'t it.");
+        }
+      }
+    }
+    else {
+      CharAction(CODE_THING,"say Hello!");
+      if(ObjectCount(EVENT_THING,118)) {
+        CharAction(CODE_THING,"say You can take your equipment issue chit to the Equipment Stores to the south of here.");
+      }
+      if(ObjectCount(EVENT_THING,119)) {
+        CharAction(CODE_THING,"say The Virtual Reality training room lies to the east - take your VR chit there.");
+      }
+    }
+  }
+}~
+#118
+clerk registration licence licencing~
+a busy clerk~
+A busy Licencing and Registration clerk is here.~
+The clerk is a short siliconoid. She looks tired. 
+~
+SENTINEL|STAYAREA 0 1000 S
+200 600 497 2d9000+18100 3d84+66
+70 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)||StrIsCmd(CMD_CMD,"say")&&StrIsCmd(CMD_SRCKEY,"register")) {
+    CharAction(CODE_THING,"say Hello.");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n yawns.\n");
+    if(ObjectCount(EVENT_THING,152)) {
+      CharAction(CODE_THING,"say I\'ll take that, thanks.");
+      SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n takes a form from $N.\n");
+      SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n takes your registration form.\n");
+      ObjectRemove(EVENT_THING,152);
+      if(PropertyGetInt(EVENT_THING,"AnomalyStation-Register")==1) {
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives $N a perplexed look.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you a perplexed look.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_DST|SEND_AUDIBLE|SEND_CAPFIRST,"^p$n says \"You are already registered, $N.\"\n");
+        stop;
+      }
+      if(ObjectCount(EVENT_THING,118)) {
+        CharAction(CODE_THING,"say Oh, you already have an equipment issue chit.");
+      }
+      else {
+        CharAction(CODE_THING,"say Here is an equipment issue chit.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives a chit to $N.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you an equipment issue chit.\n");
+        ObjectCreate(EVENT_THING,118);
+        if(CharGetExp(EVENT_THING)<1000) {
+          CharGainExp(EVENT_THING,1000);
+        }
+      }
+      CharAction(CODE_THING,"say Take your equipment issue chit over to the Equipment Stores. Go south from here twice.");
+      if(ObjectCount(EVENT_THING,119)) {
+        CharAction(CODE_THING,"say You already have VR chits.");
+      }
+      else {
+        CharAction(CODE_THING,"say Here are some chits to get you virtual reality training sessions.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives some chits to $N.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you some virtual reality chits.\n");
+        ObjectCreateNum(EVENT_THING,119,10);
+        if(CharGetExp(EVENT_THING)<1000) {
+          CharGainExp(EVENT_THING,1000);
+        }
+      }
+      CharAction(CODE_THING,"say Take your virtual reality chits to the VR training centre, AFTER you have received your equipment from the equipment stores. The VR training room is south, then east from here.");
+      CharAction(CODE_THING,"say ^pIf you need more chits you can ^gBUY ^pthem here.");
+      PropertySetInt(EVENT_THING,"AnomalyStation-Register",1);
+    }
+  }
+  else {
+    if(StrIn(COMMAND,"shut up")) {
+      SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n reaches over the counter and slaps $N.\n");
+      SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$N reaches over the counter and slaps you.\n");
+    }
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,118,119,130)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#119
+duah trainer~
+Duah~
+Duah the Battle Trainer is waiting for students to teach.~
+Duah is an enormous, huge, gigantic, and down right big, siliconoid. She 
+appears to be over 3 meters tall! Her job is to teach people the art of 
+battle. Duah also operates the virtual reality fight simulators. 
+~
+SENTINEL|STAYAREA 0 500 S
+120 360 297 2d5000+10100 3d51+40
+0 600000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Welcome");
+    CharAction(CODE_THING,"say You are here to become skilled, yes\?");
+    CharAction(CODE_THING,"say If you have practices to use up, type \"^gpractice^p\" and I will instruct you in any skill I possess.");
+    if(ObjectCount(EVENT_THING,119)) {
+      CharAction(CODE_THING,"say If you wish to use the virtual reality fight trainers, type \"^gtrain^p\" and I will set up a VR trainer for you.");
+    }
+    else {
+      CharAction(CODE_THING,"say If you wish to use the virtual reality fight trainers, you must acquire a VR trainer chit.");
+      CharAction(CODE_THING,"say The Licencing and Registration clerk can sell you more chits.");
+    }
+  }
+}~
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_WEAPON|SF_GENERAL|SF_CLASS,SF_PLASMA,250)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  if(StrIsCmd(COMMAND,"train")) {
+    BLOCK_CMD=TRUE;
+    if(ObjectCount(EVENT_THING,119)) {
+      if(StrIn(COMMAND,"traj")) {
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_AUDIBLE|SEND_CAPFIRST,"^a$N asks $n about Trajaki VR training.\n");
+        CharAction(CODE_THING,"say Sorry, the trajaki simulator is down for repairs... it tended to kill people.");
+      }
+      else {
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_AUDIBLE|SEND_CAPFIRST,"^a$N asks $n about Fantasy VR Training.\n");
+        if(CharGetHitP(EVENT_THING)<=CharGetHitPMax(EVENT_THING)>>1) {
+          CharAction(CODE_THING,"say Sorry, you are not in good enough health to use the VR trainers.");
+          stop;
+        }
+        CharAction(CODE_THING,"say I see you have a VR chit. Please follow me.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n leads $N east.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n leads you east.\n");
+        ThingTo(CODE_THING,WorldOf(164));
+        ThingTo(EVENT_THING,WorldOf(164));
+        CharAction(EVENT_THING,"look");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n enters the room with $N.\n");
+        CharAction(CODE_THING,"say I will take your VR chit now.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n takes a chit from $N.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n takes your VR chit.\n");
+        ObjectRemove(EVENT_THING,119);
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n shows $N to an empty VR machine and then leaves south.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n shows you to an empty VR machine, plugs you in, and...\n");
+        ThingTo(CODE_THING,WorldOf(119));
+        ThingTo(EVENT_THING,WorldOf(4500));
+        CharAction(EVENT_THING,"look");
+      }
+    }
+    else {
+      CharAction(CODE_THING,"say If you wish to use the virtual reality fight trainers, you must acquire a VR trainer chit.");
+    }
+  }
+}~
+#120
+vendomatic soda machine~
+VendoMatic #5403339319~
+a VendoMatic soda machine is humming quietly.~
+  Strobes flare as lazers spell Gal-Civ Cola on every near surface, other 
+than the light show to go on top its a rather plain machine in a brushed 
+silver finish and ^pG^Pal^2-^pC^Piv^Y Cola^2 clearly stamped across the top. 
+~
+SENTINEL|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RPSYCHIC|RACID|RPOISON BREATHWATER|DARKVISION|ENDURANCE|VACUUMWALK 0 S
+35 70 20 15d750+1600 3d15+10
+420 9000
+STANDING GALCIV-CITIZEN SEXLESS
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,151,153,165)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#122
+quinton bartender~
+Quinton the Bartender~
+Quinton the Bartender is lounging behind the bar, drying a glass.~
+Quinton is a short, scruffy looking siliconoid with spikes growing out of 
+his shoulders. As you examine him, he stares you directly in the eye as if 
+to say "Well, does your majesty approve of what yea sees?" 
+~
+SENTINEL|STAYAREA 0 -100 S
+40 120 97 2d1000+2100 3d17+13
+1000 12000
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  int rand;
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hello good folk. Hear of any good rumors lately\?");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")) {
+      if(StrIn(COMMAND,"rumor")) {
+        rand=Number(1,5);
+        if(rand==1) {
+          CharAction(CODE_THING,"say Well, I hear old Sally\'s back on the station. I hear she\'s look\'n for some help.");
+          stop;
+        }
+        if(rand==2) {
+          CharAction(CODE_THING,"say There\'s talk of some kind of trouble in the living quarters and air ducts of the Station. Says there\'s people n\' things getting possessed. I don\'t know if I believe them, but one thing is for sure - Administration is keeping a real tight lip...");
+          stop;
+        }
+        if(rand==3) {
+          CharAction(CODE_THING,"say I hear Baros the dworke is visiting the station.");
+          CharAction(CODE_THING,"say Now there\'s a good soul. If there\'s good aura in ya, he\'s the one you want to suck up to.");
+          stop;
+        }
+        if(rand==4) {
+          CharAction(CODE_THING,"say You hear about those exploration teams\? Tragic, rumor has it they went into some kind of a maze over on the anomaly, and for the most part they never came out. I hear grumblings that a lot of good people went into that rathole and never came out, but something must be up the Administration has classified everything about it top secret and initiated a huge coverup");
+          stop;
+        }
+        if(rand==5) {
+          CharAction(CODE_THING,"say Boy I hear that casualties in the exploration teams have been so bad some of them have been thinking about deserting. There was this guy in here a couple months ago talking about this huge indoor jungle over on the anomaly - he said he could take over the primitive tribe there and live like a king. I wonder what happened to him.");
+          stop;
+        }
+      }
+    }
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,174,111,176,147,175,116,165, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#123
+receptionist~
+the Receptionist~
+The Club Med Receptionist is here, rifling through some notes.~
+The receptionist is a tall, dark skined human with flowing black hair which 
+almost reaches her waist. She's got a scar accross her face from her left 
+temple to her chin. You wonder why, working in a place like this, she 
+doesn't have it removed. 
+~
+SENTINEL|STAYAREA 0 0 S
+200 600 497 2d9000+18100 3d84+66
+0 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Greetings!");
+    CharAction(CODE_THING,"say For a list of our services, type \"^glist^p\".");
+    CharAction(CODE_THING,"say To request a service, simply type the name of it.");
+    if(CharGetLevel(EVENT_THING)<6) {
+      CharAction(CODE_THING,"say You should get a brain dump. It\'s free for people of level 5 and under.");
+    }
+  }
+}~
+P
+@command~
+{
+  thing t;
+  int brain;
+  brain=CharGetHitPMax(EVENT_THING)+CharGetMovePMax(EVENT_THING)+(CharGetLevel(EVENT_THING)-5)*100;
+  if(StrIsCmd(COMMAND,"list")) {
+    BLOCK_CMD=TRUE;
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_CAPFIRST|SEND_VISIBLE,"^a$N shows you a PDA:\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^a$N shows $n a PDA.\n");
+    SendAction(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"^GCLIENT: ^b$n\n");
+    if(CharGetLevel(EVENT_THING)<6) {
+      SendAction(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"\n^c    Brain Dump ^b........... ^cFREE\n");
+    }
+    else {
+      SendActionStr(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"\n^c    Brain Dump ^b........... ^c%i^Cc\n",brain);
+    }
+  }
+  else {
+    if(StrIsCmd(COMMAND,"brain")||StrIsCmd(COMMAND,"dump")) {
+      BLOCK_CMD=TRUE;
+      if(CharGetMoney(EVENT_THING)>=brain||CharGetLevel(EVENT_THING)<6) {
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST|SEND_VISIBLE,"^a$n leads you into the Brain Dump room.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST|SEND_VISIBLE,"^aA technician in a white lab coat hooks you up to a brain pump.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST|SEND_VISIBLE,"^aYou see your life flash before your eyes and....  you\'re done.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST|SEND_VISIBLE,"^aYou return to reception... feeling a little dazed.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^a$n leads $N into the Brain Dump room.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^aA few moments later, $N returns looking a little dazed.\n");
+        SendAction(WorldOf(157),EVENT_THING,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^a$N is led into the room, gets $S brain pumped, and leaves staggering.\n");
+        if(CharGetLevel(EVENT_THING)>=6) {
+          CharSetMoney(EVENT_THING,CharGetMoney(EVENT_THING)-brain);
+        }
+        PlayerWrite(EVENT_THING);
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^a$n says, \"Thank you, $N. Please come again.\"\n");
+      }
+      else {
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST|SEND_AUDIBLE,"^p$n tells you, \"You don\'t have enough money for a brain dump.\"\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_CAPFIRST|SEND_AUDIBLE,"^p$n tells $N, \"You don\'t have enough money for a brain dump.\"\n");
+      }
+    }
+  }
+}~
+#130
+gus~
+Gus~
+Gus, the cheery owner of Energy Emporium, awaits your order eagerly.~
+Gus is a cheery fellow with short curly hair, a very long nose, and wide, 
+curious eyes. You get the feeling he doesn't miss anything that goes on in 
+his store. 
+~
+SENTINEL|SCAVENGER|STAYAREA REGENERATION 800 S
+60 180 147 2d2000+4100 4d26+25
+15000 24000
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hello hello! Come in! Come in! ");
+    CharAction(CODE_THING,"say Very happy to see you today. The name\'s Gus. If you need energy - any kind at all - I am sure I can fix you up with something. Just type \'buy <object>\' to buy something in my stock.");
+    CharAction(CODE_THING,"say Type \'list\' to see what I\'ve got.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,200,177,202,199,200,201,138, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,80,177,202,199,200,201,138,"ammo")) {
+      BLOCK_CMD=TRUE;
+    }
+  }
+}~
+#131
+jo marie jo-marie~
+Jo-Marie~
+Jo-Marie looks at you expectantly, slowly fingering a rifle round.~
+Jo-Marie looks like she's just come from the Calgary Stampede. She's got a 
+great big home-town-style smile on her face, and appears ready and willing 
+to use the battle cannons at her side should trouble come a' knock'n. 
+~
+SENTINEL|STAYAREA REGENERATION 600 S
+110 330 272 2d4500+9100 3d46+36
+500000 54000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Yeee Haw! Howdie Partner! Welcome to Bullets `R\' Us.");
+    CharAction(CODE_THING,"say Type \'list\' to see what I\'ve got in stock. Type \'buy <object>\' if you see something you like.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,200,181,205,206,207,203,204, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#132
+chris cyberware~
+Cyberware Chris~
+Cyberware Chris paces nervously behind the counter.~
+Chris looks like he's on some kind of drugs. Maybe he's been in the 
+Arboretum too long. 
+~
+SENTINEL|STAYAREA 0 400 S
+200 600 497 2d9000+18100 3d84+66
+500000 108000
+STANDING GALCIV-CITIZEN MALE
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,200,105,106,107,149,148)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,25,"scanner")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+    else {
+      if(ObjectRedeem(CODE_THING,EVENT_THING,COMMAND,100,OR_RICH|OR_CHIP)) {
+        BLOCK_CMD=TRUE;
+        stop;
+      }
+    }
+  }
+}~
+#133
+gizz clerk robot~
+Gizz~
+The standard Robot City sales clerk, Gizz, awaits your order.~
+Gizz is your standard, run of the mill, robot sales clerk model XC3312b. 
+It's shiny, clean, and has annoying blinking lights all over it. 
+~
+SENTINEL|STAYAREA 0 0 S
+80 240 197 2d3000+6100 3d34+26
+500 36000
+STANDING SENTIENT-ROBOT SEXLESS
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Why hello there!");
+    CharAction(CODE_THING,"say You look like you could use some help in those occasional skirmishes, rumbles, and battle-royales.");
+    CharAction(CODE_THING,"say Wouldn\'t it be nice to have someone on YOUR side for a change\? Just type \'list\' for a complete list of my inventory, or \'buy <robot> <name>\' to purchase a metal friend. If you have never bought a robot before, type \'new\' and I will instruct you on robot control.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  int base, cost, robot;
+  thing robothing;
+  base=50;
+  if(StrIsCmd(COMMAND,"list")) {
+    BLOCK_CMD=TRUE;
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_CAPFIRST|SEND_VISIBLE,"^a$N shows you a PDA:\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^a$N shows $n a PDA.\n");
+    SendAction(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"^GCLIENT: ^b$n\n");
+    SendActionStr(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"\n^c    Bonker ^b............... ^c%i^Cc\n",base);
+    SendActionStr(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"^c    Thumper ^b.............. ^c%i^Cc\n",base*2);
+    SendActionStr(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"^c    Smasher ^b.............. ^c%i^Cc\n",base*3);
+    SendActionStr(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"^c    Crusher ^b.............. ^c%i^Cc\n",base*5);
+    SendActionStr(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"^c    Terminator ^b........... ^c%i^Cc\n",base*10);
+    SendActionStr(EVENT_THING,TNULL,SEND_SRC|SEND_CAPFIRST,"^c    ButcheryCarnageGore ^b.. ^c%i^Cc\n",base*50);
+    stop;
+  }
+  if(StrIsCmd(COMMAND,"new")) {
+    BLOCK_CMD=TRUE;
+    CharAction(CODE_THING,"say When you purchase a robot, you must name it. The command is: \'buy <robot> <name>\'. Your robot will then begin following you. You tell the robot what to do by using its name.");
+    CharAction(CODE_THING,"say For example, to purchase a bonker:  \'buy bonker Mary\', and to tell the robot to sit:  \'Mary sit\'");
+    CharAction(CODE_THING,"say You can tell robots to do virtually anything. But keep your robot\'s name a SECRET! Anyone who knows your robot\'s name will be able to control it! It responds only to its NAME!");
+    CharAction(CODE_THING,"say And one more thing. You can get your robot\'s status by using the command \'group\'.");
+    CharAction(CODE_THING,"say Type \'help group\' for more information.");
+    stop;
+  }
+  if(StrIsCmd(COMMAND,"buy")) {
+    BLOCK_CMD=TRUE;
+    if(StrIsCmd(CMD_SRCKEY,"bonker")) {
+      cost=base;
+      robot=104;
+      CharAction(CODE_THING,"say Ah, the old standby Bonker! Excellent deal.");
+    }
+    else {
+      if(StrIsCmd(CMD_SRCKEY,"thumper")) {
+        cost=base*2;
+        robot=105;
+        CharAction(CODE_THING,"say Thumper: the only choice for the serious adventurer.");
+      }
+      else {
+        if(StrIsCmd(CMD_SRCKEY,"smasher")) {
+          cost=base*3;
+          robot=106;
+          CharAction(CODE_THING,"say A Smasher! You won\'t be disappointed.");
+        }
+        else {
+          if(StrIsCmd(CMD_SRCKEY,"Crusher")) {
+            cost=base*5;
+            robot=107;
+            CharAction(CODE_THING,"say I LOVE YOU! A Crusher it is.");
+          }
+          else {
+            if(StrIsCmd(CMD_SRCKEY,"Terminator")) {
+              cost=base*10;
+              robot=108;
+              CharAction(CODE_THING,"say Yowza! You want a Terminator\?! Hi Friend.");
+            }
+            else {
+              if(StrIsCmd(CMD_SRCKEY,"ButcheryCarnageGore")) {
+                cost=base*50;
+                robot=109;
+                CharAction(CODE_THING,"say HOLY COW! You want a ButcheryCarnageGore Robot!\? ");
+                CharAction(CODE_THING,"say I can retire on the commission alone!");
+                SendAction(CODE_THING,EVENT_THING,SEND_DST,"^a$n wizzes over and gives you a big fat kiss!\n");
+                SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"^a$n wizzes over to $N and gives $M a big fat kiss!\n");
+              }
+            }
+          }
+        }
+      }
+    }
+    if(CharGetMoney(EVENT_THING)<cost) {
+      CharAction(CODE_THING,"say Ah, but sadly, you don\'t have enough money.");
+      stop;
+    }
+    if(StrLen(CMD_DSTKEY)<1) {
+      CharAction(CODE_THING,"say But you must name your robot in order to buy it.");
+      CharAction(CODE_THING,"say Type \'new\' if you are confused.");
+      stop;
+    }
+    robothing=MobileCreate(BaseGetInside(EVENT_THING),robot);
+    if(robothing!=TNULL) {
+      PropertySetStr(robothing,"RobotName",CMD_DSTKEY);
+      PropertySetStr(robothing,"Buyer",ThingGetName(EVENT_THING));
+      CharAddFollower(robothing,EVENT_THING);
+      CharSetMoney(EVENT_THING,CharGetMoney(EVENT_THING)-cost);
+      CharAction(CODE_THING,"say Your new robot needs a moment to rest. Please wait for the next tick before moving anywhere.");
+      CharAction(CODE_THING,"say May your robot friend serve you well!");
+    }
+    stop;
+  }
+}~
+#134
+Rodney~
+Rodney~
+Rodney the Gene Benders clerk waits patiently behind his counter.~
+Rodney is a big-boned, strong looking youth. You suspect his night job is as 
+a bouncer for the Watering Hole. I wouldn't mess with him unless you know 
+what you're doing. 
+~
+SENTINEL|STAYAREA 0 0 S
+200 600 497 2d9000+18100 3d84+66
+500000 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(StrIsCmd(CMD_CMD,"say")) {
+    if(StrExact(CMD_SRCKEY,"hi")||StrExact(CMD_SRCKEY,"hello")) {
+      CharAction(CODE_THING,"say  Hello, welcome to the Gene Benders.  If you have any biological material scanned, you can dump and sell us the scans from your scanner by asking me to ^gREDEEM^p it.");
+    }
+  }
+}~
+P
+@command~
+{
+  if(ObjectRedeem(CODE_THING,EVENT_THING,COMMAND,100,OR_BIO|OR_RICH)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#137
+patty price~
+Patty Price~
+Patty Price is here, ready to strike up a bargain with you.~
+Patty Price is an elderly human woman. She's got an exceptionally keen eye 
+and you sense she could talk you out of your last pair of underwear if she 
+wanted to (Which from the way she's looking at you, she most definately 
+doesn't). 
+~
+SENTINEL|STAYAREA REGENERATION -200 S
+200 600 497 2d9000+18100 3d84+66
+500000 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Good day to you. I deal in lots of different things.");
+    CharAction(CODE_THING,"say Containers, lights, clothes, you name it.");
+    CharAction(CODE_THING,"say Just type \'sell <article>\' if you want to part with one of your treasures, or \'buy <article>\' to buy one of mine. Type \'list\' to see what I\'ve got in stock.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,179,180, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,80,179,180,"light","worn","other","container","drinkcon")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#138
+danielle~
+Danielle~
+Danielle, the bartender, glances at you briefly.~
+Danielle is a well-built woman of middle age who looks like she's seen every 
+type of scum walk through her bar. She looks like she could (and did) deal 
+with them - personally - too. 
+~
+SENTINEL|STAYAREA 0 -500 S
+30 90 72 2d500+1100 3d13+10
+150 6000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hello dude. Need some drink\?");
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,146,175,176,111,139,172, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#139
+child~
+a small child~
+A small child sits against the wall with a hat out in front of her.~
+The small child looks to be about 10 years old or so. She's got cute little 
+dimples in the sides of her cheeks and scragly hair about her too-big head. 
+~
+WIMPY 0 100 S
+2 2 5 1d10+40 2d2+0
+5 60
+SITTING GALCIV-CITIZEN FEMALE
+#140
+police officer~
+a Police Officer~
+A Police Officer is here keeping law and order.~
+The police officer looks calm, collected, and ready for anything. 
+~
+TRACKER|RPUNCTURE|RSLASH|RCONCUSSIVE 0 1000 S
+20 60 47 1d60+200 3d9+6
+298 300
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  int rand;
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Greetings Citizen!");
+    CharAction(CODE_THING,"say I trust all is going well, you would be alerted if the station\'s weapons where overtaken (by GOD knows WHAT), but thats just not going to happen. We also have great trust in the quality of peoples here.");
+    CharAction(CODE_THING,"say Fear Not good Citizen, you are safely in the hands of loveing Gal-Civ!");
+  }
+}~
+#141
+warblie~
+a stray warblie~
+A stray warblie is wandering around here, sniffing at this and that.~
+The warblie looks like an earth dog, except it has two heads, two tails, and 
+teeth which look like rows of nails. 
+~
+SCAVENGER|WIMPY 0 0 S
+2 6 2 1d6+20 3d1+0
+10 120
+STANDING ANIMAL SEXLESS
+#142
+child~
+a small child~
+A small child is playing with his hat.~
+The small child looks to be about 9 or 8, has great big round brown eyes, 
+and looks like nothing in the world could stop him from playing with that 
+damn hat. 
+~
+WIMPY 0 100 S
+2 6 2 1d6+20 3d1+0
+2 50
+STANDING GALCIV-CITIZEN MALE
+#143
+shopper~
+a shopper~
+A shopper is here, window shopping.~
+The shopper is a perfect example of your typical, run-of-the-mill, window 
+shopper. You can tell that he's got a big purse, and no intention of opening 
+it. 
+~
+SCAVENGER 0 0 S
+9 27 19 1d27+90 3d4+3
+50 135
+STANDING GALCIV-CITIZEN MALE
+P
+@afterentry~
+{
+  str state;
+  state="SilverDaleQuest";
+  if(ThingGetType(EVENT_THING)==TTYPE_PLR) {
+    if(PropertyGetInt(EVENT_THING,state)==1) {
+      CharAction(CODE_THING,"say Hey! It\'s the Colon-Blow Sponsor!! I *LOVE* Colon-Blow cereal.");
+      if(!Number(0,30)) {
+        PropertySetInt(EVENT_THING,state,2);
+      }
+    }
+  }
+}~
+#144
+measlie~
+a Measlie~
+A Measlie is scurrying around, hiding behind benches and in door frames.~
+The Measlie is a small rodent derivative. It was genetically engineered by a 
+disgruntled Gene Benders employee several decades back, and nobody has 
+figured out how to get rid of them. 
+~
+FORGIVING 0 0 S
+5 15 9 1d15+50 3d3+1
+10 75
+STANDING ANIMAL SEXLESS
+#145
+pleath~
+a Pleath~
+A Pleath is slowly working its way along the wall.~
+The Pleath is a genetically engineered creature designed to keep the walls 
+and floors of Anomaly Station clean. It is flat and holds on to things with 
+a powerful suction located on its underside. 
+~
+SCAVENGER 0 0 S
+7 21 14 1d21+70 3d3+2
+10 105
+STANDING ANIMAL SEXLESS
+#146
+arrogant citizen~
+an Arrogant Citizen~
+An Arrogant Citizen is being annoying here.~
+This citizen is just like any other, but with a bad habit of being horribly 
+arogant and, as a result, has a short life expectancy. 
+~
+SENTINEL|WIMPY 0 -1000 S
+12 36 27 1d36+120 3d6+4
+120 180
+STANDING GALCIV-CITIZEN SEXLESS
+#147
+citizen~
+a Citizen~
+A Citizen of Anomaly Station is roaming around here in her free time.~
+She's just an every day person. 
+~
+WIMPY 0 0 S
+8 24 17 1d24+80 3d4+2
+20 120
+STANDING GALCIV-CITIZEN FEMALE
+#148
+Ginera~
+a Ginera~
+A Ginera is blowing itself around.~
+Ginera are dust-like clouds. Nobody knows what exactly they are, but they 
+seem to be content to float around aimlessly. They don't bother anyone 
+unless provoked. Ginera came from the Anomaly. 
+~
+RPUNCTURE|RSLASH|RCONCUSSIVE|RACID|RPOISON 0 1000 S
+100 300 247 2d4000+8100 3d42+33
+8000 48000
+STANDING PLANT SEXLESS
+#152
+front desk clerk~
+the front desk clerk~
+The front desk clerk is standing behind the counter.~
+The front desk clerk can help you with many problems relating to 
+registration. Perhaps you should "say hello", or maybe "say registration". 
+~
+SENTINEL|STAYAREA 0 0 S
+200 600 497 2d9000+18100 3d84+66
+50 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(PlayerGetRace(EVENT_THING)!=RACE_HUMAN) {
+    CharAction(CODE_THING,"say Hi, oh I\'m sorry, if you would like to register you will have to do it at your own race\'s embassy");
+    stop;
+  }
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hi! If you would like to register, \"^gsay register^p\".");
+    CharAction(CODE_THING,"say If you are new here, registration is required.");
+    CharAction(CODE_THING,"say When you register, you will be provided with some standard equipment and training.");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")&&StrIn(COMMAND,"regi")) {
+      if(ObjectCount(EVENT_THING,152)) {
+        CharAction(CODE_THING,"say You already have a registration form. Good.");
+      }
+      else {
+        CharAction(CODE_THING,"say Here is your registration form.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives $N a registration form.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you a registration form.\n");
+        ObjectCreate(EVENT_THING,152);
+        if(CharGetExp(EVENT_THING)<200) {
+          CharGainExp(EVENT_THING,200);
+        }
+      }
+      CharAction(CODE_THING,"say Take the form to Station Administration located in Habitat 2; go back across the Docking Ring, down to the Habitat 2 Courtyard, and then go east.");
+      CharAction(CODE_THING,"say Good luck!");
+    }
+  }
+}~
+#153
+clerk~
+a clerk~
+A clerk is here worrying that the boss might see him not getting work done.~
+The clerk is a master of being completely bored and doing absolutely nothing 
+while appearing to be busy beyond belief. Right now he looks like he's busy 
+beyond belief. 
+~
+SENTINEL|WIMPY 0 0 S
+10 30 22 1d30+100 3d5+3
+60 150
+STANDING GALCIV-CITIZEN MALE
+#162
+equipment stores officer~
+an Equipment Stores Officer ~
+An Equipment Stores Officer is here guarding the weaponry.~
+The Equipment Stores Officer looks like he wants to bite your head off! 
+~
+SENTINEL|AGGRESSIVE 0 -1000 S
+50 150 122 2d1500+3100 3d21+16
+600 18000
+STANDING NONE MALE
+#165
+merr~
+Merr~
+Merr slowly washes a coffee pot while waiting for your order.~
+Merr is a funny man with a big long beard and an odd boat-shaped cap. How he 
+got here or what he's here for is a complete mystery to everyone. 
+~
+SENTINEL|STAYAREA 0 1000 S
+30 90 72 2d500+1100 3d13+10
+100 6000
+STANDING GALCIV-CITIZEN MALE
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,153,174,117,134, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,80,153,"food")) {
+      BLOCK_CMD=TRUE;
+    }
+  }
+}~
+#166
+small fox~
+a small fox~
+A fox is here~
+A small fox is here. It has a rusty-red coat and a pale streak down its 
+back. 
+~
+FORGIVING ENDURANCE 0 S
+3 9 4 1d9+30 3d2+1
+10 45
+STANDING ANIMAL SEXLESS
+P
+@command~
+{
+  if(StrExact(CMD_CMD,"loopie")) {
+    BLOCK_CMD=TRUE;
+    SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n suddenly jumps up and jogs over to $N.\n");
+    SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n suddenly jumps up and jogs over to you.\n");
+    CharActionStr(CODE_THING,"follow %s",ThingGetName(EVENT_THING));
+  }
+  else {
+    if(StrExact(CMD_CMD,"eipool")) {
+      BLOCK_CMD=TRUE;
+      CharAction(CODE_THING,"say Yip Yip Yip!");
+      CharAction(CODE_THING,"follow");
+    }
+  }
+}~
+#167
+sally~
+Sally~
+Sally McBrye sits idly in a corner, eyeing you.~
+Sally McBrye is a tough-looking character with a worn synthetic leather coat 
+and beat-up blue jeans. She looks like she can, and does, take care of 
+herself... 
+~
+SENTINEL|STAYAREA 0 -100 S
+200 600 497 2d9000+18100 3d84+66
+4000 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  str state;
+  state="AnomalyStation-Sally";
+  if(!PropertyGetInt(EVENT_THING,state)) {
+    if(Hello(COMMAND)) {
+      if(CharGetLevel(EVENT_THING)<8) {
+        CharAction(CODE_THING,"say Beat it, kiddo. Come back when you\'ve grown up - then we can talk.");
+        stop;
+      }
+      CharAction(CODE_THING,"say How-di partner. What\'s yer name\?");
+      PropertySetInt(EVENT_THING,state,1);
+    }
+    stop;
+  }
+  if(PropertyGetInt(EVENT_THING,state)==1) {
+    if(StrIsCmd(COMMAND,"say")) {
+      CharAction(CODE_THING,"say Say, ya look like y\'all could use sa\'money.");
+      CharAction(CODE_THING,"say Well today\'s yer lucky day. Tell ya what. I\'ve got a job that needs some doing, if yer into that kinda thing.");
+      CharAction(CODE_THING,"say Interested\?");
+      CharAction(CODE_THING,"say YES or NO\? (type \'say yes\' or \'say no\')");
+      PropertySetInt(EVENT_THING,state,2);
+    }
+    stop;
+  }
+  if(PropertyGetInt(EVENT_THING,state)==2) {
+    if(YesNo(COMMAND)==1) {
+      CharAction(CODE_THING,"say C\'mere. A.S. Engineering has a phase-induced inverter. I want it. I want ya to go into Engineering \'n get it for me. Ya may have ta do some fighting. It\'s worth 400c to you.");
+      CharAction(CODE_THING,"say Still interested\? YES or NO\?");
+      PropertySetInt(EVENT_THING,state,3);
+      stop;
+    }
+    if(YesNo(COMMAND)== -1) {
+      CharAction(CODE_THING,"say Hey, just forget it.");
+      PropertySetInt(EVENT_THING,state,0);
+      stop;
+    }
+    if(StrIsCmd(COMMAND,"say")) {
+      CharAction(CODE_THING,"say A simple YES or NO answer will do.");
+    }
+    stop;
+  }
+  if(PropertyGetInt(EVENT_THING,state)==3) {
+    if(YesNo(COMMAND)==1) {
+      if(!ObjectCount(EVENT_THING,100)) {
+        CharAction(CODE_THING,"say Listen careful like. Here\'s a key card.");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives something to $N.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE|SEND_CAPFIRST,"^a$n gives you an access key card.\n");
+        ObjectCreate(EVENT_THING,100);
+      }
+      CharAction(CODE_THING,"say Use the key card to get into Storage Bay Delta. Inside, you\'ll find a space suit. Get it and put it on. Go to Shuttle Bay Delta and go out into space. You\'ll have to open the space hatch using the key card again. Once out in space, work your way northward.");
+      CharAction(CODE_THING,"say CAREFUL now, sugar. There are zap-traps on the outside of Anomaly Station to discourage just this kind of movement.");
+      CharAction(CODE_THING,"say Use the commands \'scan\' and \'exit\' to navigate and avoid dangers.");
+      CharAction(CODE_THING,"say Once you\'ve moved past the habitat access shafts, look for Engineering Access Hatch #3. LISTEN! Hatch #3. Get inside, find the phase-induced inverter, and bring it here to me.");
+      CharAction(CODE_THING,"say And hey, if you get caught, I never seen ya before.");
+      PropertySetInt(EVENT_THING,state,4);
+      stop;
+    }
+    if(YesNo(COMMAND)== -1) {
+      CharAction(CODE_THING,"say Take a hike, jerk-off.");
+      PropertySetInt(EVENT_THING,state,0);
+      stop;
+    }
+    if(StrIsCmd(COMMAND,"say")) {
+      CharAction(CODE_THING,"say A simple YES or NO answer will do.");
+    }
+    stop;
+  }
+  if(PropertyGetInt(EVENT_THING,state)==4) {
+    if(Hello(COMMAND)) {
+      if(ObjectCountInv(EVENT_THING,166)) {
+        CharAction(CODE_THING,"say My phase-induced inverter!!");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST,"^a$n takes a phase-induced inverter from you.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"^a$n takes something from $N.\n");
+        ObjectStrip(EVENT_THING,166,166,TNULL);
+        CharAction(CODE_THING,"say Oh, you\'re fine! You\'re so fine!");
+        CharAction(CODE_THING,"say Here you go, darling! Nice doing business with ya!");
+        SendAction(CODE_THING,EVENT_THING,SEND_DST,"^a$n gives you some money.\n");
+        SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"^a$n gives $N some money.\n");
+        CharSetMoney(EVENT_THING,CharGetMoney(EVENT_THING)+400);
+        PropertySetInt(EVENT_THING,state,5);
+        stop;
+      }
+      CharAction(CODE_THING,"say What do you want\? Where\'s my inverter\?");
+    }
+    stop;
+  }
+  if(PropertyGetInt(EVENT_THING,state)==5) {
+    if(Hello(COMMAND)) {
+      if(ObjectCountInv(EVENT_THING,166)) {
+        CharAction(CODE_THING,"say Sorry bud, but I don\'t like the look of you.");
+        CharAction(CODE_THING,"say Take your phase-induced inverter and SCRAM!");
+        stop;
+      }
+      CharAction(CODE_THING,"say Go jump into outer space, measlie-brain.");
+      stop;
+    }
+    stop;
+  }
+}~
+#168
+engineering technician~
+Engineering Technician~
+An engineering technician is here, slowly sipping some coffee~
+The engineering technician is a human of medium build, has a mechanical 
+pencil, a tie, and a coffee stain on his shirt. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA 0 -100 S
+4 12 0 1d12+40 2d2+1
+75 60
+STANDING GALCIV-CITIZEN MALE
+#169
+engineering technician~
+Engineering Technician~
+An engineering technician is here, slowly sipping some coffee~
+The engineering technician is a human of medium build, has a mechanical 
+pencil, a clipboard, and a coffee stain on her shirt. 
+~
+TRACKER|AGGRESSIVE|STAYAREA 0 -500 S
+4 12 0 1d12+40 3d2+1
+25 60
+STANDING GALCIV-CITIZEN FEMALE
+#170
+engineer~
+Engineer~
+An Engineer is here, contemplating the truths of the universe~
+The Engineer looks physically unimpressive, though the mental abilities of 
+engineers are never to be underestimated. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA 0 -500 S
+5 15 9 1d15+50 3d3+1
+35 75
+STANDING GALCIV-CITIZEN MALE
+#171
+engineer head~
+Head Engineer~
+A Head Engineer is here, contemplating how underpaid she is~
+The Head Engineer looks physically unimpressive, though the mental abilities 
+of engineers are never to be underestimated. 
+~
+SENTINEL|AGGRESSIVE 0 -600 S
+6 18 12 1d18+60 3d3+2
+36 90
+STANDING GALCIV-CITIZEN FEMALE
+#172
+janitor~
+janitor~
+A janitor lounges here... plastered drunk.~
+The janitor has bulging muscles - like the super-heros in comic books. Her 
+forearms are splitting the seams of her shirt. She looks like she could 
+really handle herself in a fight... if she wasn't completely drunk. 
+~
+SENTINEL|AGGRESSIVE 0 -200 S
+3 9 0 1d9+30 1d3+0
+9 45
+SITTING GALCIV-CITIZEN FEMALE
+#173
+buster clerk~
+Buster~
+Buster gleams in your direction with a very expectant look on his face.~
+Buster is a heavy set, medium-height human. You can tell he's a gun fanatic 
+by his oh-so-subtle "I Love Guns" t-shirt. 
+~
+SENTINEL|STAYAREA 0 600 S
+200 600 497 2d9000+18100 3d84+66
+500000 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hi. Do you need some help\? You know, if you\'re one of those Anomaly explorer types, I have got the equipment you need.");
+    CharAction(CODE_THING,"say Type \'list\' to see what I\'ve got in stock. Type \'buy <object>\' if you want to buy something. Type \'sell <object>\' if you want to sell something to me. I trade in weapons of all type.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,200,189,190,191,192,193, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,25,"weapon")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#174
+martha peter clerk~
+Martha Peter Mary Joe Pat~
+Martha Peter Mary Joe Pat looks estatic with your presence.~
+Martha Peter Mary Joe Pat is a very short, small, and otherwise 
+frail-looking individual (well, frail-looking for an 8 foot siliconoid). He, 
+er, she, er, it obviously has a identity crisis. Either that or Martha Peter 
+etc. hasn't got a very good grasp of English. 
+~
+SENTINEL|STAYAREA 0 600 S
+200 600 497 2d9000+18100 3d84+66
+500000 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hello greetings hi howdie salutations!");
+    CharAction(CODE_THING,"say You yourself need want require must have armour! Type \'list\' that\'s \'list\' or \'list\' to see, preview, examine what I me has, stock, in store! Then type \'buy <object\' or \'sell <object>\'. Yeah yeah. Buy buy buy. You need protection, guarding, help.");
+    CharAction(CODE_THING,"say I deal in all types of armour. Yeah. Armour.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,200,182,125,195,194,196,197,198, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,25,"armor")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#175
+dope soap dope'n'soap pope clerk~
+Dope'n'Soap Pope~
+Dope'n'Soap Pope is daydreaming behind his counter.~
+Pope looks like he enjoys his work. Actually, he looks like he isn't even 
+aware of his work. 
+~
+SENTINEL|STAYAREA 0 600 S
+200 600 497 2d9000+18100 3d84+66
+500000 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hey babe.");
+    CharAction(CODE_THING,"say Type \'list\' to see what I\'ve got, eh.");
+    CharAction(CODE_THING,"say And like, \'sell <object>\'. to sell me back something, or \'buy <object>\' to buy some really cool stuff. I\'ve got a lot of cool stuff, eh.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,153,108,109,112,113,114, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,80,182,"drug")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#176
+perky sue clerk~
+Perky Sue~
+A very perky Sue, the outdoors store clerk, is annoying everyone in sight.~
+Perky Sue is very happy (you think she's on drugs or something) and willing 
+to help you with all your trendy outdoor clothing needs. 
+~
+SENTINEL|STAYAREA 0 600 S
+200 600 497 2d9000+18100 3d84+66
+500000 108000
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Hi there! Welcome to LISP Outdoor clothing.");
+    CharAction(CODE_THING,"say If you want view our inventory, just type \'list\'. All of our quality clothing is hand made on earth (by children in slave labour camps). To buy some of our excellent goods, type \'buy <object>\'. Sorry, all sales are final.");
+    stop;
+  }
+}~
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,200,128,135,183,184,185,186,187,188,132,137,167, -209, -209, -209, -209)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(StrIsCmd(CMD_CMD,"sell")) {
+      CharAction(CODE_THING,"say ^pNo no no. ^y*I*^p sell, ^y*YOU*^p buy.");
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+$

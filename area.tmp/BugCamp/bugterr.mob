@@ -1,0 +1,171 @@
+#7200
+Expidition Commander~
+an Expiditions Commander~
+the Expiditions Commander is here sitting around lazily~
+The Expiditions Commander looks like he hasn't seen any real action in quite 
+a while, and it shows right around his gut area. He moves about the room 
+trying to contact his troops 
+~
+SENTINEL|STAYAREA 0 15 S
+100 300 247 2d4000+8100 3d42+33
+1500 48000
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Welcome soldier. I have a mission for you.. Here is your briefing:");
+    CharAction(CODE_THING,"say A search team was sent down to explore a Yurk nest. We have not been able to establish any type of communication with the camp for quite some time now.");
+    CharAction(CODE_THING,"say Your mission: Explore the camp site and the Yurk\'s nest and bring all survivers, if any, back here to me.");
+    CharAction(CODE_THING,"emote solutes you");
+    CharAction(CODE_THING,"say Good luck soldier!");
+  }
+}~
+P
+@afterentry~
+{
+  str questName;
+  thing t;
+  questName="BugCamp-Rescue";
+  if(ThingGetType(EVENT_THING)==TTYPE_MOB) {
+    if(MobileGetVirtual(EVENT_THING)==7207) {
+      CharAction(CODE_THING,"say Glad to have you back soldier");
+      CharAction(EVENT_THING,"say Glad to be back sir");
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^a$n nods crisply.\n");
+      CharAction(CODE_THING,"say Dismissed soldier.");
+      CharAction(CODE_THING,"say Here is a token of my apreciation");
+      CharActionStr(CODE_THING,"drop ion",ThingGetName(EVENT_THING));
+      t=CharGetLeader(EVENT_THING);
+      PlayerSolvedQuest(t,"^wCongratulations! You have rescued the lost expedition member!\n",1000,1,questName,3);
+      CharRemoveFollower(EVENT_THING);
+      SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^a$n leaves the room.\n");
+      ThingTo(EVENT_THING,WorldOf(7080));
+    }
+  }
+}~
+#7201
+Human Yurk~
+a Human Yurk~
+a Human Yurk is here wondering about aimlessly~
+The Human Yurk was once one of the many Terran explorers who somehow managed 
+to escape the clutches of the Yurks but not totally. The explorer was 
+somehow transformed into half human, half Yurk and so far there is no way to 
+reverse the effects.
+~
+STAYAREA 0 0 S
+22 66 52 2d100+300 3d10+7
+378 1200
+STANDING ANIMAL MALE
+#7202
+Scientist~
+a Scientist~
+a Scientist is here studying a computer monitor~
+The scientist is an averaged size, nerdy looking GalCiv citizen. He sits in 
+front of a computer all day and types, types and types some more 
+~
+SENTINEL|STAYAREA 0 0 S
+20 60 47 1d60+200 3d9+6
+200 300
+STANDING GALCIV-CITIZEN MALE
+#7203
+Mantis~
+a Mantis~
+a Mantis is here trying to catch some food~
+The mantis is a totally new species created by GalCiv scientists and is 
+about 3 times the size of an average mantis 
+~
+STAYAREA 0 0 S
+18 54 42 1d54+180 3d8+6
+150 270
+STANDING ANIMAL MALE
+#7204
+Arachnid~
+an Arachnid~
+an Arachnid is here blending into the background~
+The arachnids are the original inhabitants of this terrarium. They look like 
+your average everyday spider except slightly larger.
+~
+STAYAREA 0 0 S
+18 54 42 1d54+180 3d8+6
+150 270
+STANDING NONE MALE
+#7205
+Pase 1 Yurk~
+a Phase 1 Yurk~
+a Phase 1 Yurk is here scurrying under some brush~
+The Phase 1 Yurk is the fist creature in the evolutionary process of the 
+Yurks. It is nowhere near the size of a fully developed Yurk and also not 
+nearly as powerfull 
+~
+STAYAREA 0 0 S
+15 45 34 1d45+150 3d7+5
+167 225
+STANDING ANIMAL MALE
+#7206
+Sewer Rat~
+Sewer Rat~
+a Sewer Rat is here scavenging for food~
+The sewer rat looks fat and bloated and has more of a waddle than a walk 
+~
+SCAVENGER|AGGRESSIVE|STAYAREA 0 0 S
+5 15 9 1d15+50 3d3+1
+0 75
+STANDING ANIMAL MALE
+#7207
+Captured Explorer~
+a Captured Explorer~
+a Captured Explorer is here waiting to be freed~
+This is one of the luckier members of the search team. Captured by the Yurks 
+for experimentation and to further educate the Yurks on how this race works, 
+thinks, and acts. 
+~
+SENTINEL 0 4 S
+28 84 67 2d400+900 3d12+9
+250 4800
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  str questName;
+  questName="BugCamp-Rescue";
+  if(Hello(COMMAND)) {
+    if(PropertyGetInt(EVENT_THING,questName)>2) {
+      CharAction(CODE_THING,"say thanks for rescuing me sir");
+    }
+    if(PropertyGetInt(EVENT_THING,questName)==2) {
+      CharActionStr(CODE_THING,"follow %s",ThingGetName(EVENT_THING));
+      stop;
+    }
+    if(PropertyGetInt(EVENT_THING,questName)) {
+      CharAction(CODE_THING,"say Will you help me\? Say YES or NO\?");
+      stop;
+    }
+    CharAction(CODE_THING,"say I\'m lost sir. If only someone could help lead me back to my commander...");
+    CharAction(CODE_THING,"say Will you help me\? Say YES or NO.");
+    PropertySetInt(EVENT_THING,questName,1);
+    stop;
+  }
+  if(YesNo(COMMAND)&&(PropertyGetInt(EVENT_THING,questName)==1)) {
+    if(YesNo(COMMAND)==1) {
+      CharAction(CODE_THING,"say Thank you sir!");
+      PropertySetInt(EVENT_THING,questName,2);
+      CharActionStr(CODE_THING,"follow %s",ThingGetName(EVENT_THING));
+    }
+    else {
+      CharAction(CODE_THING,"say I hope the Yurks eat you sir!");
+      PropertySetInt(EVENT_THING,questName,0);
+    }
+  }
+}~
+#7208
+Soldier~
+a Soldier~
+a Soldier is here standing guard~
+the soldier is your typical, combat ready guy who looks like he could kick 
+the butt of anything that threatens the saftey of his company 
+~
+SENTINEL|STAYAREA GROUP 0 S
+30 90 72 2d500+1100 3d13+10
+235 6000
+STANDING NONE MALE
+$

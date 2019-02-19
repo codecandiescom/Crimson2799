@@ -1,0 +1,2447 @@
+11/20(20:06) Resetting [MiningDock]
+11/20(20:06) Resetting [TerrariumAlpha]
+11/20(20:06) Resetting [TheMaze]
+11/20(20:06) Resetting [TheMaze]
+11/20(20:11) Resetting [StationConduits]
+11/20(20:16) Resetting [AnomalyStation]
+11/20(20:16) Resetting [TerrariumBeta]
+11/20(20:27) Resetting [MiningDock]
+11/20(20:27) Resetting [TerrariumAlpha]
+11/20(20:27) Resetting [TheMaze]
+11/20(20:27) Resetting [TheMaze]
+11/20(20:37) Resetting [StationConduits]
+11/20(20:46) Resetting [AnomalySpaceDock]
+11/20(20:47) Resetting [AnomalyStation]
+11/20(20:47) Resetting [TerrariumBeta]
+11/20(20:48) Resetting [MiningDock]
+11/20(20:48) Resetting [TerrariumAlpha]
+11/20(20:48) Resetting [TheMaze]
+11/20(20:48) Resetting [TheMaze]
+11/20(21:03) Resetting [StationConduits]
+11/20(21:09) Resetting [MiningDock]
+11/20(21:09) Resetting [TerrariumAlpha]
+11/20(21:09) Resetting [TheMaze]
+11/20(21:09) Resetting [TheMaze]
+11/20(21:18) Resetting [AnomalyStation]
+11/20(21:18) Resetting [TerrariumBeta]
+11/20(21:29) Resetting [StationConduits]
+11/20(21:30) Resetting [MiningDock]
+11/20(21:30) Resetting [TerrariumAlpha]
+11/20(21:30) Resetting [TheMaze]
+11/20(21:30) Resetting [TheMaze]
+11/20(21:46) Resetting [BuilderCity]
+11/20(21:46) Resetting [TheMaze]
+11/20(21:46) Resetting [TheMaze]
+11/20(21:46) Resetting [OreTransport]
+11/20(21:47) Resetting [OreTransport]
+11/20(21:47) Resetting [AnomalySpaceDock]
+11/20(21:49) Resetting [AnomalyStation]
+11/20(21:49) Resetting [TerrariumBeta]
+11/20(21:51) Resetting [MiningDock]
+11/20(21:51) Resetting [TerrariumAlpha]
+11/20(21:51) Resetting [TheMaze]
+11/20(21:51) Resetting [TheMaze]
+11/20(21:55) Resetting [StationConduits]
+11/20(22:12) Resetting [MiningDock]
+11/20(22:12) Resetting [TerrariumAlpha]
+11/20(22:12) Resetting [TheMaze]
+11/20(22:12) Resetting [TheMaze]
+11/20(22:20) Resetting [AnomalyStation]
+11/20(22:20) Resetting [TerrariumBeta]
+11/20(22:21) Resetting [StationConduits]
+11/20(22:29) Resetting [Void]
+11/20(22:33) Resetting [MiningDock]
+11/20(22:33) Resetting [TerrariumAlpha]
+11/20(22:33) Resetting [TheMaze]
+11/20(22:33) Resetting [TheMaze]
+11/20(22:47) Resetting [StationConduits]
+11/20(22:48) Resetting [AnomalySpaceDock]
+11/20(22:51) Resetting [AnomalyStation]
+11/20(22:51) Resetting [TerrariumBeta]
+11/20(22:54) Resetting [MiningDock]
+11/20(22:54) Resetting [TerrariumAlpha]
+11/20(22:54) Resetting [TheMaze]
+11/20(22:54) Resetting [TheMaze]
+11/20(23:13) Resetting [StationConduits]
+11/20(23:15) Resetting [MiningDock]
+11/20(23:15) Resetting [TerrariumAlpha]
+11/20(23:15) Resetting [TheMaze]
+11/20(23:15) Resetting [TheMaze]
+11/20(23:22) Resetting [AnomalyStation]
+11/20(23:22) Resetting [TerrariumBeta]
+11/20(23:36) Resetting [MiningDock]
+11/20(23:36) Resetting [TerrariumAlpha]
+11/20(23:36) Resetting [TheMaze]
+11/20(23:36) Resetting [TheMaze]
+11/25(22:46) Cryogen [100]: ocreate
+11/25(22:48) Cryogen [0]: ocreate
+11/25(22:48) Cryogen [0]: oset 6
+11/25(22:48) Cryogen [0]: okey 6
+11/25(22:48) Cryogen [0]: oset 6
+11/25(22:48) Cryogen [0]: oname 6
+11/25(22:48) Cryogen [0]: oset 6
+11/25(22:49) Cryogen [0]: oset 6 0 1
+11/25(22:49) Cryogen [0]: oset 6 1 2
+11/25(22:49) Cryogen [0]: oset 6 1 1
+11/25(22:49) Cryogen [0]: oset 6 0 0
+11/25(22:49) Cryogen [0]: oset 6 2 2
+11/25(22:49) Cryogen [0]: oset 6 3 3
+11/25(22:49) Cryogen [0]: oset 6 4 4
+11/25(22:49) Cryogen [0]: oset 6 5 5
+11/25(22:49) Cryogen [0]: oset 6 7 7
+11/25(22:49) Cryogen [0]: oset 6 6 6
+11/25(22:49) Cryogen [0]: oset 6 8 8
+11/25(22:49) Cryogen [0]: oset 6 9 9
+11/25(22:50) Cryogen [0]: osave
+11/25(22:50) Void/void.obj saved by Cryogen. (7 objects)
+11/25(23:32) Cryogen [100]: oset 6
+11/25(23:32) Cryogen [100]: oset 6 1 10
+11/25(23:32) Cryogen [100]: oset 6 2 20
+11/25(23:32) Cryogen [100]: oset 6 3 30
+11/25(23:33) Cryogen [100]: oset 6 1 1
+11/25(23:33) Cryogen [100]: oset 6 3 3
+11/25(23:33) Cryogen [100]: oset 6 2 2
+11/25(23:33) Cryogen [100]: oset 2 20
+11/25(23:33) Cryogen [100]: oset 2
+11/25(23:35) Cryogen [100]: oset 6
+11/25(23:35) Cryogen [100]: oset 6 2 20
+11/25(23:35) Cryogen [100]: oset 6 1 10
+11/25(23:35) Cryogen [100]: oset 6 4 40
+11/25(23:35) Cryogen [100]: oset 6 7 70
+11/25(23:50) Cryogen [100]: oset 6 1 -1
+11/25(23:50) Cryogen [100]: oset 6
+11/25(23:50) Cryogen [100]: oset 6 2 -2
+11/25(23:50) Cryogen [100]: oset 6 3 -3
+11/25(23:50) Cryogen [100]: oset 6 4 -4
+11/25(23:50) Cryogen [100]: oset 6 5 -5
+11/25(23:50) Cryogen [100]: oset 6 6 -6
+11/25(23:50) Cryogen [100]: oset 6 7 -7
+11/25(23:50) Cryogen [100]: oset 6 8 -8
+11/25(23:50) Cryogen [100]: oset 6 9 -9
+11/25(23:51) Cryogen [0]: osave
+11/25(23:51) Void/void.obj saved by Cryogen. (7 objects)
+11/28(23:58) Resetting [MiningDock]
+11/28(23:58) Resetting [TerrariumAlpha]
+11/28(23:58) Resetting [TheMaze]
+11/28(23:58) Resetting [TheMaze]
+11/29(00:03) Resetting [StationConduits]
+11/29(00:08) Resetting [AnomalyStation]
+11/29(00:08) Resetting [TerrariumBeta]
+11/29(00:19) Resetting [MiningDock]
+11/29(00:19) Resetting [TerrariumAlpha]
+11/29(00:19) Resetting [TheMaze]
+11/29(00:19) Resetting [TheMaze]
+11/29(00:29) Resetting [StationConduits]
+11/29(00:38) Resetting [AnomalySpaceDock]
+11/29(00:39) Resetting [AnomalyStation]
+11/29(00:39) Resetting [TerrariumBeta]
+11/29(00:40) Resetting [MiningDock]
+11/29(00:40) Resetting [TerrariumAlpha]
+11/29(00:40) Resetting [TheMaze]
+11/29(00:40) Resetting [TheMaze]
+11/29(00:55) Resetting [StationConduits]
+11/29(01:01) Resetting [MiningDock]
+11/29(01:01) Resetting [TerrariumAlpha]
+11/29(01:01) Resetting [TheMaze]
+11/29(01:01) Resetting [TheMaze]
+11/29(01:10) Resetting [AnomalyStation]
+11/29(01:10) Resetting [TerrariumBeta]
+11/29(01:21) Resetting [StationConduits]
+11/29(01:22) Resetting [MiningDock]
+11/29(01:22) Resetting [TerrariumAlpha]
+11/29(01:22) Resetting [TheMaze]
+11/29(01:22) Resetting [TheMaze]
+11/29(12:21) Resetting [MiningDock]
+11/29(12:21) Resetting [TerrariumAlpha]
+11/29(12:21) Resetting [TheMaze]
+11/29(12:21) Resetting [TheMaze]
+11/29(12:26) Resetting [StationConduits]
+11/29(12:31) Resetting [AnomalyStation]
+11/29(12:31) Resetting [TerrariumBeta]
+11/29(13:01) Resetting [MiningDock]
+11/29(13:01) Resetting [TerrariumAlpha]
+11/29(13:01) Resetting [TheMaze]
+11/29(13:01) Resetting [TheMaze]
+11/29(13:06) Resetting [StationConduits]
+11/29(13:11) Resetting [AnomalyStation]
+11/29(13:11) Resetting [TerrariumBeta]
+11/29(13:22) Corbin WDTL 0
+11/29(13:22) Resetting [MiningDock]
+11/29(13:22) Resetting [TerrariumAlpha]
+11/29(13:22) Resetting [TheMaze]
+11/29(13:22) Resetting [TheMaze]
+11/29(13:27) Corbin WDTL 0
+11/29(13:27) Corbin WDTL 1
+11/29(13:27) Corbin WDTL 2
+11/29(13:28) Corbin WDTL 3
+11/29(13:28) Corbin WDTL 4
+11/29(13:28) Corbin WDTL 5
+11/29(13:28) Corbin WDTL 6
+11/29(13:28) Corbin WDTL 6
+11/29(13:28) Corbin WDTL 6
+11/29(13:39) Corbin WDTL 0
+11/29(13:43) Corbin [0]: wset
+11/29(13:43) Corbin [0]: wset flag
+11/29(13:43) Corbin [0]: wset flag vacuum
+11/29(13:43) Void/void.wld saved by Corbin. (7 rooms)
+11/29(13:52) Cryogen WDTL 1
+11/29(13:55) Cryogen WDTL 1
+11/29(14:56) Resetting [MiningDock]
+11/29(14:56) Resetting [TerrariumAlpha]
+11/29(14:56) Resetting [TheMaze]
+11/29(14:56) Resetting [TheMaze]
+11/29(15:01) Resetting [StationConduits]
+11/29(15:06) Resetting [AnomalyStation]
+11/29(15:06) Resetting [TerrariumBeta]
+11/29(15:17) Resetting [MiningDock]
+11/29(15:17) Resetting [TerrariumAlpha]
+11/29(15:17) Resetting [TheMaze]
+11/29(15:17) Resetting [TheMaze]
+11/29(15:29) Cryogen [2527]: ocreate
+11/29(15:38) Cryogen ODTL 2508
+11/29(15:38) Cryogen WDTL 2532
+11/29(15:38) Cryogen WDTL 2527
+11/29(15:38) Cryogen [1]: osave
+11/29(15:39) Cryogen [2500]: osave
+11/29(15:39) OreTransport/oretran1.obj saved by Cryogen. (9 objects)
+11/29(15:39) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/29(15:39) Resetting [MiningDock]
+11/29(15:39) Resetting [TerrariumAlpha]
+11/29(15:39) Resetting [TheMaze]
+11/29(15:39) Resetting [TheMaze]
+11/29(17:37) Resetting [MiningDock]
+11/29(17:37) Resetting [TerrariumAlpha]
+11/29(17:37) Resetting [TheMaze]
+11/29(17:37) Resetting [TheMaze]
+11/29(17:42) Resetting [StationConduits]
+11/29(17:47) Resetting [AnomalyStation]
+11/29(17:47) Resetting [TerrariumBeta]
+11/29(17:58) Resetting [MiningDock]
+11/29(17:58) Resetting [TerrariumAlpha]
+11/29(17:58) Resetting [TheMaze]
+11/29(17:58) Resetting [TheMaze]
+11/29(18:08) Resetting [StationConduits]
+11/29(18:17) Resetting [AnomalySpaceDock]
+11/29(18:18) Resetting [AnomalyStation]
+11/29(18:18) Resetting [TerrariumBeta]
+11/29(18:19) Resetting [MiningDock]
+11/29(18:19) Resetting [TerrariumAlpha]
+11/29(18:19) Resetting [TheMaze]
+11/29(18:19) Resetting [TheMaze]
+11/29(18:34) Resetting [StationConduits]
+11/29(18:40) Resetting [MiningDock]
+11/29(18:40) Resetting [TerrariumAlpha]
+11/29(18:40) Resetting [TheMaze]
+11/29(18:40) Resetting [TheMaze]
+11/29(18:49) Resetting [AnomalyStation]
+11/29(18:49) Resetting [TerrariumBeta]
+11/29(18:55) Corbin ODTL 2508
+11/29(18:55) Corbin [1]: osave
+11/29(18:55) Corbin [2500]: osave
+11/29(18:55) OreTransport/oretran1.obj saved by Corbin. (9 objects)
+11/29(19:00) Cryogen [1]: oset 6 apply0type vacuum
+11/29(19:00) Cryogen [1]: oset 6 apply0type wear-vacuumwalk
+11/29(19:01) Cryogen [1]: oset 6 apply0value -1
+11/29(19:01) Cryogen [1]: osave
+11/29(19:01) Void/void.obj saved by Cryogen. (7 objects)
+11/29(19:01) Cryogen [1]: ocreate 6
+11/29(19:01) Cryogen [1]: oload 6
+11/29(19:03) Cryogen [1]: purge all
+11/29(19:03) Cryogen [1]: oset 6 wear
+11/29(19:03) Cryogen [1]: oset 6 wear overbody
+11/29(19:03) Cryogen [1]: oload 6
+11/29(19:15) Cryogen [1]: oload 6
+11/29(19:17) Cryogen [1]: oset 6
+11/29(19:17) Cryogen [1]: oset 6 wear held
+11/29(19:18) Cryogen [1]: oset 6 wear held
+11/29(19:18) Cryogen [1]: osave
+11/29(19:18) Void/void.obj saved by Cryogen. (7 objects)
+11/29(19:18) Cryogen [1]: oload 6
+11/29(19:20) Cryogen [1]: purge all
+11/29(19:20) Cryogen [1]: oload 6
+11/29(19:35) Corbin ODTL 2508
+11/29(19:36) Corbin [2527]: osave
+11/29(19:36) OreTransport/oretran1.obj saved by Corbin. (9 objects)
+11/29(19:36) Corbin ODTL 2508
+11/29(19:37) Corbin [2527]: oload 2508
+11/29(19:38) Corbin ODTL 2508
+11/29(19:38) Corbin [2527]: osave
+11/29(19:38) OreTransport/oretran1.obj saved by Corbin. (9 objects)
+11/29(19:38) Corbin [2527]: purge all
+11/29(19:38) Corbin [2527]: oload 2508
+11/29(19:38) Corbin [2527]: purge all
+11/29(19:38) Corbin [2527]: oload 2508
+11/29(19:52) Corbin ODTL 2508
+11/29(19:52) Corbin [2527]: purge all
+11/29(19:52) Corbin [2527]: oload 2508
+11/29(19:52) Resetting [MiningDock]
+11/29(19:53) Resetting [TerrariumAlpha]
+11/29(19:53) Resetting [TheMaze]
+11/29(19:53) Resetting [TheMaze]
+11/29(19:54) Corbin ODTL 2508
+11/29(19:57) Resetting [StationConduits]
+11/29(19:58) Corbin [2527]: purge all
+11/29(19:58) Corbin [2527]: osave
+11/29(19:58) OreTransport/oretran1.obj saved by Corbin. (9 objects)
+11/29(19:59) Corbin [2527]: purge all
+11/29(19:59) Corbin [2527]: oload 2508
+11/29(19:59) Corbin [2527]: areboot
+11/29(20:02) Corbin [2527]: purge all
+11/29(20:02) Corbin [2527]: oload 2508
+11/29(20:17) Corbin [2527]: oload 2508
+11/29(20:18) Corbin [2527]: oload 2508
+11/29(20:21) Corbin [2527]: purge all
+11/29(20:21) Corbin [2527]: oload 2508
+11/29(20:23) Corbin [2527]: purge all
+11/29(20:23) Corbin [2527]: oload 2508
+11/29(20:25) Corbin [2527]: purge all
+11/29(20:25) Corbin [2527]: oload 2508
+11/29(20:27) Corbin [2527]: purge all
+11/29(20:27) Corbin [2527]: oload 2508
+11/29(20:27) Corbin [2527]: purge all
+11/29(20:30) Corbin ODTL 2508
+11/29(20:31) Corbin [2527]: osave
+11/29(20:31) OreTransport/oretran1.obj saved by Corbin. (9 objects)
+11/29(20:31) Corbin [2527]: purge all
+11/29(20:31) Corbin [2527]: oload 2508
+11/29(20:33) Corbin ODTL 2508
+11/29(20:33) Corbin [2527]: osave
+11/29(20:33) OreTransport/oretran1.obj saved by Corbin. (9 objects)
+11/29(22:10) Corbin [2527]: purge all
+11/29(22:11) Corbin [2527]: ocreate
+11/29(22:15) Corbin ODTL 2509
+11/29(22:15) Corbin [2527]: osave
+11/29(22:15) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/29(22:16) Corbin [2527]: purge all
+11/29(22:16) Corbin [2527]: oload 2508
+11/29(22:16) Corbin [2532]: oload 2509
+11/29(22:16) Corbin ODTL 2509
+11/29(22:16) Corbin [2532]: purge all
+11/29(22:16) Corbin [2532]: oload 2509
+11/29(22:17) Corbin ODTL 2509
+11/29(22:17) Corbin [2532]: osave
+11/29(22:17) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/29(22:18) Corbin [2532]: purge all
+11/29(22:18) Corbin [2532]: oload 2509
+11/29(22:18) Corbin [2532]: purge all
+11/29(22:18) Corbin [2532]: oload 2509
+11/29(22:19) Cryogen MDTL 2500
+11/29(22:19) Cryogen MDTL 2501
+11/29(22:20) Cryogen MDTL 2500
+11/29(22:20) Cryogen MDTL 2502
+11/29(22:21) Cryogen MDTL 2503
+11/29(22:21) Cryogen MDTL 2503
+11/29(22:21) Corbin [2527]: osave
+11/29(22:21) OreTransport/oretran1.mob saved by Corbin. (10 mobiles)
+11/29(22:21) Cryogen MDTL 2503
+11/29(22:23) Resetting [MiningDock]
+11/29(22:23) Resetting [TerrariumAlpha]
+11/29(22:23) Resetting [TheMaze]
+11/29(22:23) Resetting [TheMaze]
+11/29(22:24) Cryogen MDTL 2504
+11/29(22:24) Cryogen MDTL 2505
+11/29(22:24) OreTransport/oretran1.mob saved by Cryogen. (10 mobiles)
+11/29(22:25) Corbin ODTL 2508
+11/29(22:25) Cryogen MDTL 2506
+11/29(22:25) Corbin ODTL 2508
+11/29(22:25) Corbin ODTL 2508
+11/29(22:26) Corbin [2527]: PURGE ALL
+11/29(22:26) Cryogen MDTL 2507
+11/29(22:26) Corbin [2527]: oload 2508
+11/29(22:26) OreTransport/oretran1.mob saved by Cryogen. (10 mobiles)
+11/29(22:26) Cryogen MDTL 2508
+11/29(22:26) Corbin ODTL 2508
+11/29(22:26) Cryogen MDTL 2509
+11/29(22:26) Cryogen MDTL 2509
+11/29(22:26) Newbie [2527]: purge all
+11/29(22:26) OreTransport/oretran1.mob saved by Cryogen. (10 mobiles)
+11/29(22:27) Newbie [2527]: oload 2508
+11/29(22:27) Newbie [2527]: osave
+11/29(22:27) OreTransport/oretran1.obj saved by Newbie. (10 objects)
+11/29(22:28) Resetting [StationConduits]
+11/29(22:28) Corbin ODTL 2509
+11/29(22:28) Corbin [2532]: purge all
+11/29(22:29) Newbie [2527]: purge all
+11/29(22:29) Newbie [2527]: oload 2508
+11/29(22:29) Newbie [2527]: purge all
+11/29(22:29) Newbie [2527]: oload 2508
+11/29(22:29) Corbin [2532]: oload 2509
+11/29(22:31) Corbin ODTL 2508
+11/29(22:31) Newbie [2527]: purge all
+11/29(22:31) Newbie [2527]: oload 2508
+11/29(22:31) Cryogen MDTL 2700
+11/29(22:32) Corbin ODTL 2509
+11/29(22:32) Cryogen MDTL 2701
+11/29(22:32) Newbie [2527]: purge al
+11/29(22:32) Newbie [2527]: purge all
+11/29(22:32) Newbie [2527]: oload 2508
+11/29(22:32) Corbin [2532]: purge alkl
+11/29(22:32) Corbin [2532]: purge all
+11/29(22:32) Cryogen MDTL 2702
+11/29(22:32) Corbin [2532]: oload 2509
+11/29(22:32) OreTransport/oretran2.mob saved by Cryogen. (24 mobiles)
+11/29(22:32) Cryogen MDTL 2703
+11/29(22:32) Cryogen MDTL 2704
+11/29(22:33) Resetting [AnomalyStation]
+11/29(22:33) Resetting [TerrariumBeta]
+11/29(22:33) Corbin ODTL 2508
+11/29(22:33) Corbin ODTL 2509
+11/29(22:33) Corbin [2532]: oload 2509
+11/29(22:33) Newbie [2527]: purge all
+11/29(22:33) Newbie [2527]: oload 2508
+11/29(22:33) Cryogen MDTL 2705
+11/29(22:34) Newbie [2527]: osave
+11/29(22:34) OreTransport/oretran1.obj saved by Newbie. (10 objects)
+11/29(22:34) OreTransport/oretran2.mob saved by Cryogen. (24 mobiles)
+11/29(22:34) Cryogen MDTL 2706
+11/29(22:34) Cryogen MDTL 2707
+11/29(22:34) OreTransport/oretran2.mob saved by Cryogen. (24 mobiles)
+11/29(22:36) Cryogen MDTL 2708
+11/29(22:37) Cryogen MDTL 2709
+11/29(22:38) OreTransport/oretran2.mob saved by Cryogen. (24 mobiles)
+11/29(22:38) Corbin [2532]: osave
+11/29(22:38) Cryogen MDTL 2710
+11/29(22:39) Cryogen MDTL 2712
+11/29(22:39) Cryogen MDTL 2713
+11/29(22:39) Cryogen MDTL 2710
+11/29(22:40) Cryogen MDTL 2710
+11/29(22:41) Cryogen MDTL 2714
+11/29(22:41) Cryogen MDTL 2715
+11/29(22:41) Cryogen MDTL 2715
+11/29(22:42) Cryogen MDTL 2713
+11/29(22:42) Cryogen MDTL 2716
+11/29(22:43) Cryogen MDTL 2717
+11/29(22:43) Cryogen MDTL 2718
+11/29(22:43) Cryogen MDTL 2717
+11/29(22:43) Cryogen MDTL 2711
+11/29(22:44) Cryogen MDTL 2716
+11/29(22:44) Resetting [MiningDock]
+11/29(22:44) Resetting [TerrariumAlpha]
+11/29(22:44) Resetting [TheMaze]
+11/29(22:44) Resetting [TheMaze]
+11/29(22:44) Cryogen MDTL 2719
+11/29(22:45) Cryogen MDTL 2720
+11/29(22:46) Cryogen MDTL 2721
+11/29(22:46) Cryogen MDTL 2722
+11/29(22:46) Corbin WDTL 2527
+11/29(22:46) OreTransport/oretran2.mob saved by Cryogen. (24 mobiles)
+11/29(22:46) Corbin [2527]: acomp
+11/29(22:47) Corbin [2527]: areset
+11/29(22:47) Corbin [2527]: areboot
+11/29(22:47) Corbin [2527]: asave
+11/29(22:47) Corbin [2527]: wcomp 
+11/29(22:47) Corbin [2527]: areset
+11/29(22:47) Corbin [2527]: purge green
+11/29(22:48) Corbin [2527]: oload 2508
+11/29(22:49) Corbin [2527]: areset
+11/29(22:49) Corbin [2527]: areset
+11/29(22:49) Corbin [2527]: purge green
+11/29(22:50) Corbin [2527]: purge green
+11/29(22:50) Corbin [2527]: purge all.green
+11/29(22:50) Corbin [2527]: wcomp 2527
+11/29(22:51) Corbin [2527]: purge all.green
+11/29(22:51) Corbin [2527]: wcomp 2527
+11/29(22:51) Corbin [2527]: areset
+11/29(22:51) Corbin [2527]: purge all.green
+11/29(22:52) Corbin WDTL 2527
+11/29(22:53) Corbin [2527]: wcomp 
+11/29(22:53) Corbin [2527]: areset
+11/29(22:53) Corbin [2527]: purge all.green
+11/29(22:54) Corbin [2527]: wcomp
+11/29(22:54) Corbin [2527]: areset
+11/29(22:54) Resetting [StationConduits]
+11/29(22:54) Corbin [2527]: purge all.green
+11/29(22:54) OreTransport/oretran1.wld saved by Corbin. (146 rooms)
+11/29(22:54) Corbin [2527]: osave
+11/29(22:56) Corbin [2527]: areboot
+11/29(22:56) Corbin [2527]: purge all.green
+11/29(22:56) Corbin [2527]: wcomp 
+11/29(22:59) Corbin [2527]: oload 2508
+11/29(22:59) Corbin [2527]: areset
+11/29(22:59) Corbin [2527]: areset
+11/29(23:01) Corbin [2527]: oload 2508
+11/29(23:01) Corbin [2527]: areset
+11/29(23:01) Corbin [2527]: areset
+11/29(23:03) Corbin [2527]: oload 2508
+11/29(23:03) Corbin [2527]: areset
+11/29(23:05) Corbin [2527]: purge all.green
+11/29(23:06) Corbin WDTL 2527
+11/29(23:06) Corbin [2527]: wcomp
+11/29(23:06) Corbin [2527]: areset
+11/29(23:07) Corbin [2527]: purge all.green
+11/29(23:07) Corbin [2527]: oload 2508
+11/29(23:07) Corbin [2527]: areset
+11/29(23:07) Corbin WDTL 2527
+11/29(23:07) Corbin [2527]: wcomp
+11/29(23:07) Corbin [2527]: areset
+11/29(23:10) Corbin [2527]: purge all.green
+11/29(23:15) Corbin ODTL 2504
+11/29(23:15) Corbin [2602]: osave
+11/29(23:15) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/29(23:16) Corbin [2527]: oload 2508
+11/29(23:16) Corbin [2527]: areset
+11/29(23:16) Corbin [2527]: purge all.green
+11/29(23:18) Corbin [2527]: areset
+11/29(23:18) Corbin [2527]: areset
+11/29(23:20) Corbin [2527]: purge all.green
+11/29(23:20) Corbin [2527]: areset
+11/29(23:22) Corbin [2527]: purge all.green
+11/29(23:22) Corbin [2527]: areset
+11/29(23:24) Cryogen [2700]: oload 167
+11/29(23:25) Cryogen [2700]: oset 167 apply0type wear-vac
+11/29(23:25) Cryogen [2700]: oset 167 apply1val -1
+11/29(23:26) Cryogen [167]: osave
+11/29(23:26) AnomalyStation/astation.obj saved by Cryogen. (70 objects)
+11/29(23:27) Cryogen [167]: purge all.suit
+11/29(23:27) Cryogen [167]: oload 167
+11/29(23:28) Cryogen [180]: wset falg
+11/29(23:29) Corbin [2527]: purge all.green
+11/29(23:29) Corbin [2532]: areset
+11/29(23:31) Corbin [2527]: purge all
+11/29(23:33) Corbin ODTL 2504
+11/29(23:35) Corbin ODTL 2504
+11/29(23:35) Corbin [2602]: oload 2504
+11/29(23:38) Cryogen WDTL 2500
+11/29(23:38) Cryogen WDTL 2501
+11/29(23:38) Cryogen WDTL 2502
+11/29(23:42) Resetting [MiningDock]
+11/29(23:42) Resetting [TerrariumAlpha]
+11/29(23:42) Resetting [TheMaze]
+11/29(23:42) Resetting [TheMaze]
+11/29(23:46) Corbin ODTL 2701
+11/29(23:46) Corbin [2602]: purge all
+11/29(23:46) Corbin [2602]: osave
+11/29(23:46) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/29(23:46) Corbin ODTL 2701
+11/29(23:46) Corbin [2602]: oload 2504
+11/29(23:47) Corbin [2602]: purge all
+11/29(23:47) Corbin [2602]: oload 2504
+11/29(23:47) Corbin [2602]: oload 2701
+11/29(23:47) Resetting [StationConduits]
+11/29(23:48) Corbin ODTL 2701
+11/29(23:48) Corbin [2602]: purge all
+11/29(23:48) Corbin [2602]: oload 2504
+11/29(23:48) Corbin [2602]: oload 2701
+11/29(23:50) Corbin [2602]: osave
+11/29(23:50) Newbie [2602]: oload 2504
+11/29(23:51) Newbie [2602]: purge all.gril
+11/29(23:51) Newbie [2602]: oload 2504
+11/29(23:51) Newbie [2602]: purge grill
+11/29(23:51) Newbie [2602]: oload 2504
+11/29(23:52) Resetting [AnomalyStation]
+11/29(23:52) Resetting [TerrariumBeta]
+11/29(23:59) Corbin WDTL 2602
+11/29(23:59) Corbin [2602]: osave
+11/30(00:02) Cryogen WDTL 2521
+11/30(00:02) Cryogen WDTL 2522
+11/30(00:02) Cryogen WDTL 2532
+11/30(00:03) Cryogen WDTL 2533
+11/30(00:03) Cryogen WDTL 2534
+11/30(00:03) Cryogen WDTL 2535
+11/30(00:03) Cryogen WDTL 2536
+11/30(00:03) Cryogen WDTL 2537
+11/30(00:03) Corbin WDTL 2602
+11/30(00:03) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:03) Corbin [2602]: purge all.re
+11/30(00:03) Cryogen WDTL 2538
+11/30(00:04) Corbin [2602]: wcomp
+11/30(00:04) Cryogen WDTL 2539
+11/30(00:04) Cryogen WDTL 2540
+11/30(00:04) Cryogen WDTL 2541
+11/30(00:04) Cryogen WDTL 2542
+11/30(00:04) Cryogen WDTL 2543
+11/30(00:04) Cryogen WDTL 2544
+11/30(00:04) Cryogen WDTL 2545
+11/30(00:04) Cryogen WDTL 2546
+11/30(00:04) Cryogen WDTL 2547
+11/30(00:04) Cryogen WDTL 2548
+11/30(00:04) Cryogen WDTL 2549
+11/30(00:04) Cryogen WDTL 2550
+11/30(00:04) Cryogen WDTL 2551
+11/30(00:04) Cryogen WDTL 2552
+11/30(00:04) Cryogen WDTL 2553
+11/30(00:04) Cryogen WDTL 2554
+11/30(00:04) Cryogen WDTL 2555
+11/30(00:05) Cryogen WDTL 2556
+11/30(00:05) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:05) Cryogen WDTL 2557
+11/30(00:05) Cryogen WDTL 2558
+11/30(00:05) Cryogen WDTL 2559
+11/30(00:05) Corbin WDTL 2602
+11/30(00:05) Corbin [2602]: wcomp
+11/30(00:05) Cryogen WDTL 2560
+11/30(00:05) Corbin [2602]: oload 2507
+11/30(00:05) Corbin [2602]: purge 2507
+11/30(00:05) Cryogen WDTL 2561
+11/30(00:05) Corbin [2602]: oload 2701
+11/30(00:05) Cryogen WDTL 2562
+11/30(00:05) Cryogen WDTL 2563
+11/30(00:05) Corbin [2602]: purge moss
+11/30(00:05) Cryogen WDTL 2564
+11/30(00:05) Cryogen WDTL 2565
+11/30(00:05) Cryogen WDTL 2566
+11/30(00:05) Corbin [2602]: purge cutter
+11/30(00:05) Cryogen WDTL 2567
+11/30(00:06) Corbin [2602]: oload 2701
+11/30(00:06) Cryogen WDTL 2568
+11/30(00:06) Cryogen WDTL 2569
+11/30(00:06) Cryogen WDTL 2570
+11/30(00:06) Cryogen WDTL 2571
+11/30(00:06) Cryogen WDTL 2572
+11/30(00:06) Cryogen WDTL 2573
+11/30(00:06) Cryogen WDTL 2574
+11/30(00:06) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:06) Cryogen WDTL 2575
+11/30(00:06) Cryogen WDTL 2576
+11/30(00:06) Cryogen WDTL 2577
+11/30(00:06) Cryogen WDTL 2578
+11/30(00:06) Cryogen WDTL 2579
+11/30(00:06) Cryogen WDTL 2580
+11/30(00:06) Cryogen WDTL 2582
+11/30(00:06) Cryogen WDTL 2583
+11/30(00:07) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:07) Cryogen WDTL 2591
+11/30(00:07) Cryogen WDTL 2592
+11/30(00:07) Cryogen WDTL 2593
+11/30(00:07) Cryogen WDTL 2594
+11/30(00:07) Cryogen WDTL 2595
+11/30(00:07) Cryogen WDTL 2596
+11/30(00:07) Cryogen WDTL 2597
+11/30(00:07) Cryogen WDTL 2598
+11/30(00:07) Cryogen WDTL 2599
+11/30(00:09) Cryogen WDTL 2601
+11/30(00:09) Cryogen WDTL 2602
+11/30(00:09) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:10) Corbin [2500]: osave
+11/30(00:10) Corbin [2700]: osave
+11/30(00:10) Corbin ODTL 2500
+11/30(00:10) Cryogen WDTL 2603
+11/30(00:10) Cryogen WDTL 2604
+11/30(00:10) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:10) Corbin ODTL 2500
+11/30(00:11) Newbie [2500]: wset
+11/30(00:11) Cryogen WDTL 2603
+11/30(00:11) Newbie [2500]: wset flag
+11/30(00:11) Newbie [2500]: wset flag vacuum
+11/30(00:11) Corbin ODTL 2500
+11/30(00:11) Newbie [2500]: wset flag vacuum
+11/30(00:11) OreTransport/oretran1.wld saved by Newbie. (146 rooms)
+11/30(00:11) Corbin ODTL 2500
+11/30(00:11) Cryogen WDTL 2605
+11/30(00:11) Cryogen WDTL 2606
+11/30(00:12) Cryogen WDTL 2607
+11/30(00:12) Cryogen WDTL 2608
+11/30(00:12) Cryogen WDTL 2609
+11/30(00:12) Cryogen WDTL 2610
+11/30(00:12) Cryogen WDTL 2611
+11/30(00:12) Cryogen WDTL 2612
+11/30(00:12) Cryogen WDTL 2613
+11/30(00:12) Cryogen WDTL 2614
+11/30(00:12) Cryogen WDTL 2615
+11/30(00:12) Cryogen WDTL 2616
+11/30(00:12) Cryogen WDTL 2617
+11/30(00:12) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:12) Cryogen [2538]: purge all
+11/30(00:13) Cryogen WDTL 2645
+11/30(00:13) Cryogen WDTL 2645
+11/30(00:13) Cryogen WDTL 2645
+11/30(00:13) Cryogen WDTL 2645
+11/30(00:13) Cryogen WDTL 2645
+11/30(00:13) Cryogen WDTL 2645
+11/30(00:13) OreTransport/oretran1.wld saved by Cryogen. (146 rooms)
+11/30(00:14) Corbin ODTL 2701
+11/30(00:14) Corbin [2700]: osave
+11/30(00:14) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(00:15) Corbin [2602]: purge laser
+11/30(00:15) Corbin [2602]: oload 2701
+11/30(00:53) Corbin [2602]: purge all
+11/30(00:53) Corbin [2602]: oload 2701
+11/30(00:53) Corbin [2602]: oload 2604
+11/30(00:53) Corbin [2602]: oload 2504
+11/30(00:55) Corbin [2602]: wcomp
+11/30(00:55) Corbin WDTL 2603
+11/30(00:55) Corbin [2602]: wcomp 2602
+11/30(00:56) Corbin [2602]: wcomp 2603
+11/30(00:56) Corbin WDTL 2603
+11/30(00:56) Corbin [2602]: wcomp 2603
+11/30(00:56) Corbin [2602]: wcomp 2603
+11/30(00:57) Corbin WDTL 2603
+11/30(00:57) Corbin [2602]: wcomp 2603
+11/30(00:58) Corbin WDTL 2603
+11/30(00:58) Corbin [2602]: wcomp 2603
+11/30(00:58) Corbin [2603]: purge all
+11/30(00:58) OreTransport/oretran1.wld saved by Corbin. (146 rooms)
+11/30(00:58) Corbin [2603]: osave
+11/30(00:59) Corbin [2603]: wcomp 2602
+11/30(00:59) Corbin [2603]: wcomp 2603
+11/30(00:59) Corbin WDTL 2603
+11/30(00:59) Corbin [2602]: wcomp 2603
+11/30(00:59) OreTransport/oretran1.wld saved by Corbin. (146 rooms)
+11/30(01:05) Corbin ODTL 2714
+11/30(01:06) Corbin [2700]: oload 2714
+11/30(01:06) Corbin [2602]: oload 2714
+11/30(01:07) Corbin [2700]: osave
+11/30(01:07) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(01:08) Corbin [2602]: wcomp
+11/30(01:08) Corbin [2603]: oload 2714
+11/30(01:08) Corbin [2603]: purge eng
+11/30(01:08) Corbin [2603]: oload 2714
+11/30(01:09) Corbin [2700]: osave
+11/30(01:09) Corbin [2602]: osave
+11/30(01:10) Corbin WDTL 2602
+11/30(01:11) Corbin [2602]: wcomp
+11/30(01:11) Corbin WDTL 2602
+11/30(01:11) Corbin [2602]: wcomp
+11/30(01:11) OreTransport/oretran1.wld saved by Corbin. (146 rooms)
+11/30(01:11) Corbin [2602]: areboot
+11/30(01:11) Corbin WDTL 2602
+11/30(01:12) Corbin [2602]: wcomp
+11/30(01:12) Corbin [2602]: areset
+11/30(01:12) Corbin [2602]: purge grill
+11/30(01:12) Corbin [2602]: oload 1701
+11/30(01:12) Corbin [2602]: oload 1701
+11/30(01:12) Corbin [2602]: oload 2701
+11/30(01:12) Corbin [2602]: oload 2714
+11/30(01:12) Corbin [2602]: purge all.red
+11/30(01:13) Corbin [2602]: areset
+11/30(01:13) Resetting [MiningDock]
+11/30(01:13) Resetting [TerrariumAlpha]
+11/30(01:13) Resetting [TheMaze]
+11/30(01:13) Corbin [2602]: oload 2714
+11/30(01:13) Resetting [TheMaze]
+11/30(01:14) Corbin [2602]: purge laser
+11/30(01:14) Corbin [2602]: oload 2714
+11/30(01:14) Corbin [2602]: oload 2714
+11/30(01:14) Corbin [2602]: purge all.con
+11/30(01:14) Corbin [2602]: oload eng
+11/30(01:14) Corbin [2602]: oload 2714
+11/30(01:14) Corbin [2602]: oload 2701
+11/30(01:14) Corbin [2602]: areset
+11/30(01:14) Corbin [2602]: wcomp all
+11/30(01:14) Corbin [2700]: wcomp all
+11/30(01:14) Corbin [2602]: areset
+11/30(01:14) Corbin [2602]: purge laser
+11/30(01:15) Corbin [2602]: oload 2701
+11/30(01:15) OreTransport/oretran1.wld saved by Corbin. (146 rooms)
+11/30(01:15) Corbin [2602]: osave
+11/30(01:15) Corbin [2700]: osave
+11/30(01:16) Corbin [2758]: areboot
+11/30(11:36) Resetting [MiningDock]
+11/30(11:36) Resetting [TerrariumAlpha]
+11/30(11:36) Resetting [TheMaze]
+11/30(11:36) Resetting [TheMaze]
+11/30(11:41) Resetting [StationConduits]
+11/30(11:45) Resetting [AnomalyStation]
+11/30(11:46) Resetting [TerrariumBeta]
+11/30(11:54) Corbin ODTL 2716
+11/30(11:54) Corbin [2758]: osave
+11/30(11:54) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(11:54) Corbin [2758]: oload 2716
+11/30(11:54) Corbin [2758]: oload 2708
+11/30(11:55) Corbin ODTL 2716
+11/30(11:55) Corbin [2758]: purge clean
+11/30(11:55) Corbin [2758]: oload 2716
+11/30(11:55) Corbin [2758]: purge all.cleaner
+11/30(11:55) Corbin [2758]: oload 2716
+11/30(11:55) Corbin [2758]: purge all.cleaner
+11/30(11:55) Corbin ODTL 2716
+11/30(11:56) Corbin [2758]: oload 2716
+11/30(11:56) Corbin [2758]: osave
+11/30(11:56) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(11:57) Resetting [MiningDock]
+11/30(11:57) Resetting [TerrariumAlpha]
+11/30(11:57) Corbin ODTL 2716
+11/30(11:57) Resetting [TheMaze]
+11/30(11:57) Resetting [TheMaze]
+11/30(11:57) Corbin [2758]: osave
+11/30(11:57) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(11:58) Corbin [2758]: purge all
+11/30(11:58) Corbin [2758]: oload 2716
+11/30(11:59) Corbin [2758]: purge clean
+11/30(11:59) Corbin [2758]: oload 2716
+11/30(11:59) Corbin [2758]: purge all.cleaner
+11/30(11:59) Corbin [2758]: oload 2716
+11/30(11:59) Corbin [2758]: purge clean
+11/30(11:59) Corbin [2758]: oload 2716
+11/30(12:00) Corbin [2758]: purge clean
+11/30(12:00) Corbin [2758]: oload 2716
+11/30(12:00) Corbin ODTL 2716
+11/30(12:00) Corbin [2758]: purge all
+11/30(12:01) Corbin [2758]: oload 2716
+11/30(12:01) Corbin [2758]: oload 2708
+11/30(12:01) Corbin ODTL 2716
+11/30(12:01) Corbin [2758]: purge clean
+11/30(12:01) Corbin [2758]: oload 2716
+11/30(12:03) Corbin ODTL 2716
+11/30(12:03) Corbin [2758]: purge all
+11/30(12:03) Corbin [2758]: oload 2716
+11/30(12:03) Corbin [2758]: oload 2708
+11/30(12:03) Corbin ODTL 2707
+11/30(12:04) Corbin [2758]: purge all
+11/30(12:04) Corbin [2758]: oload 2716
+11/30(12:04) Corbin [2758]: oload 2708
+11/30(12:07) Resetting [StationConduits]
+11/30(12:15) Corbin ODTL 2715
+11/30(12:15) Corbin [2700]: osave
+11/30(12:15) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(12:15) Corbin ODTL 2715
+11/30(12:15) Corbin [2700]: osave
+11/30(12:15) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(12:15) Resetting [AnomalySpaceDock]
+11/30(12:16) Corbin [2645]: oload 2715
+11/30(12:16) Resetting [AnomalyStation]
+11/30(12:17) Resetting [TerrariumBeta]
+11/30(12:17) Corbin ODTL 2715
+11/30(12:17) Corbin [2645]: purge all
+11/30(12:17) Corbin [2645]: oload 2715
+11/30(12:18) Resetting [MiningDock]
+11/30(12:18) Resetting [TerrariumAlpha]
+11/30(12:18) Resetting [TheMaze]
+11/30(12:18) Resetting [TheMaze]
+11/30(12:18) Corbin [2645]: areset
+11/30(12:23) Corbin ODTL 2506
+11/30(12:23) Corbin [2645]: osave
+11/30(12:23) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/30(12:23) Corbin [2645]: purge all.gel
+11/30(12:24) Corbin [2645]: oload 2506
+11/30(12:29) Corbin ODTL 2506
+11/30(12:29) Corbin [2645]: purge all.gel
+11/30(12:29) Corbin [2645]: purge all.gel
+11/30(12:31) Corbin WDTL 2558
+11/30(12:31) Corbin WDTL 2559
+11/30(12:33) Resetting [StationConduits]
+11/30(12:39) Resetting [MiningDock]
+11/30(12:39) Resetting [TerrariumAlpha]
+11/30(12:39) Resetting [TheMaze]
+11/30(12:39) Resetting [TheMaze]
+11/30(12:45) Corbin ODTL 2506
+11/30(12:46) Corbin ODTL 2506
+11/30(12:46) Corbin [2645]: osave
+11/30(12:46) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/30(12:47) Corbin ODTL 2506
+11/30(12:47) Corbin [2645]: osave 
+11/30(12:47) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/30(12:47) Corbin [2645]: purge laser
+11/30(12:47) Corbin [2645]: oload 2506
+11/30(12:47) Resetting [AnomalyStation]
+11/30(12:48) Resetting [TerrariumBeta]
+11/30(12:49) Corbin [2558]: osave
+11/30(12:52) Corbin ODTL 2506
+11/30(12:53) Corbin [2558]: purge all.green
+11/30(12:56) Corbin WDTL 2559
+11/30(12:57) Corbin WDTL 2558
+11/30(12:58) Corbin WDTL 2558
+11/30(12:59) Resetting [StationConduits]
+11/30(13:00) Resetting [MiningDock]
+11/30(13:00) Resetting [TerrariumAlpha]
+11/30(13:00) Resetting [TheMaze]
+11/30(13:00) Resetting [TheMaze]
+11/30(13:02) Newbie [2645]: purge all.gel
+11/30(13:04) Corbin ODTL 2506
+11/30(13:04) Corbin [2558]: osave
+11/30(13:04) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/30(13:15) Resetting [Void]
+11/30(13:16) Resetting [BuilderCity]
+11/30(13:16) Resetting [TheMaze]
+11/30(13:16) Resetting [TheMaze]
+11/30(13:16) Resetting [OreTransport]
+11/30(13:16) Corbin [2558]: osave
+11/30(13:48) Resetting [MiningDock]
+11/30(13:48) Resetting [TerrariumAlpha]
+11/30(13:48) Resetting [TheMaze]
+11/30(13:48) Resetting [TheMaze]
+11/30(13:53) Resetting [StationConduits]
+11/30(13:58) Resetting [AnomalyStation]
+11/30(13:58) Resetting [TerrariumBeta]
+11/30(14:21) Cryogen [2700]: wcomp all
+11/30(14:23) Corbin ODTL 2506
+11/30(14:23) Corbin [2558]: oload 250-6
+11/30(14:23) Corbin [2558]: oload 2506
+11/30(14:23) Corbin [2558]: osave
+11/30(14:23) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/30(14:24) Corbin [2558]: oload 2715
+11/30(14:24) Corbin ODTL 2715
+11/30(14:26) Corbin [2558]: purge all.green
+11/30(14:32) Corbin [2558]: osave
+11/30(14:32) Corbin [2700]: osave
+11/30(14:32) OreTransport/oretran2.obj saved by Corbin. (17 objects)
+11/30(14:42) Resetting [MiningDock]
+11/30(14:42) Resetting [TerrariumAlpha]
+11/30(14:42) Resetting [TheMaze]
+11/30(14:42) Resetting [TheMaze]
+11/30(14:44) Corbin ODTL 2506
+11/30(14:44) Corbin ODTL 2506
+11/30(14:45) Corbin ODTL 2506
+11/30(14:45) Corbin ODTL 2506
+11/30(14:46) Corbin ODTL 2506
+11/30(14:46) Corbin ODTL 2506
+11/30(14:56) Corbin ODTL 2506
+11/30(14:56) Cryogen [2558]: osave
+11/30(14:56) OreTransport/oretran1.obj saved by Cryogen. (10 objects)
+11/30(14:56) Corbin ODTL 2506
+11/30(14:57) Corbin ODTL 2506
+11/30(14:57) Corbin ODTL 2506
+11/30(14:58) Corbin ODTL 2506
+11/30(14:58) Corbin ODTL 2506
+11/30(14:59) Corbin ODTL 2506
+11/30(14:59) Corbin ODTL 2506
+11/30(15:00) Corbin ODTL 2506
+11/30(15:00) Corbin ODTL 2506
+11/30(15:01) Corbin ODTL 2506
+11/30(15:01) Corbin ODTL 2506
+11/30(15:02) Corbin ODTL 2506
+11/30(15:02) Corbin ODTL 2506
+11/30(15:03) Corbin ODTL 2506
+11/30(15:03) Corbin ODTL 2506
+11/30(15:04) Corbin ODTL 2506
+11/30(15:04) Corbin ODTL 2506
+11/30(15:05) Corbin ODTL 2506
+11/30(15:05) Corbin ODTL 2506
+11/30(15:06) Corbin ODTL 2506
+11/30(15:08) Corbin [2558]: oload 2506
+11/30(15:08) Corbin [2558]: oload 2701
+11/30(15:08) Corbin [2558]: purge cutter
+11/30(15:08) Corbin [2558]: oload 2715
+11/30(15:10) Corbin ODTL 2506
+11/30(15:10) Corbin [2558]: osave
+11/30(15:10) OreTransport/oretran1.obj saved by Corbin. (10 objects)
+11/30(15:10) Corbin [2558]: purge min
+11/30(15:10) Corbin [2558]: oload 2506
+11/30(15:11) Corbin [2558]: purge las
+11/30(15:11) Corbin [2558]: oload 2506
+11/30(15:14) Corbin ODTL 2506
+11/30(15:14) Corbin ODTL 2506
+11/30(15:15) Corbin ODTL 2506
+11/30(15:15) Corbin ODTL 2506
+11/30(15:16) Corbin ODTL 2506
+11/30(15:16) Corbin ODTL 2506
+11/30(15:17) Corbin ODTL 2506
+11/30(15:17) Corbin ODTL 2506
+11/30(15:18) Corbin ODTL 2506
+11/30(15:18) Corbin ODTL 2506
+11/30(15:19) Corbin ODTL 2506
+11/30(15:19) Corbin ODTL 2506
+11/30(15:20) Corbin ODTL 2506
+11/30(15:20) Corbin ODTL 2506
+11/30(15:21) Corbin ODTL 2506
+11/30(15:21) Corbin ODTL 2506
+11/30(15:22) Corbin ODTL 2506
+11/30(15:22) Corbin ODTL 2506
+11/30(15:23) Corbin ODTL 2506
+11/30(15:23) Corbin ODTL 2506
+11/30(15:24) Corbin ODTL 2506
+11/30(15:24) Corbin ODTL 2506
+11/30(15:25) Corbin ODTL 2506
+11/30(15:25) Corbin ODTL 2506
+11/30(15:26) Corbin ODTL 2506
+11/30(15:26) Corbin ODTL 2506
+11/30(15:27) Corbin ODTL 2506
+11/30(15:27) Corbin ODTL 2506
+11/30(15:28) Resetting [MiningDock]
+11/30(15:28) Resetting [TerrariumAlpha]
+11/30(15:28) Resetting [TheMaze]
+11/30(15:28) Resetting [TheMaze]
+11/30(15:28) Corbin ODTL 2506
+11/30(15:28) Corbin ODTL 2506
+11/30(15:29) Corbin ODTL 2506
+11/30(15:29) Corbin ODTL 2506
+11/30(15:30) Corbin ODTL 2506
+11/30(15:30) Corbin ODTL 2506
+11/30(15:31) Corbin ODTL 2506
+11/30(15:31) Corbin ODTL 2506
+11/30(15:32) Corbin ODTL 2506
+11/30(15:32) Corbin ODTL 2506
+11/30(15:33) Resetting [StationConduits]
+11/30(15:33) Corbin ODTL 2506
+11/30(15:33) Corbin ODTL 2506
+11/30(15:34) Corbin ODTL 2506
+11/30(15:34) Corbin ODTL 2506
+11/30(15:35) Corbin ODTL 2506
+11/30(15:35) Corbin ODTL 2506
+11/30(15:36) Corbin ODTL 2506
+11/30(15:36) Corbin ODTL 2506
+11/30(15:37) Corbin ODTL 2506
+11/30(15:37) Corbin ODTL 2506
+11/30(15:38) Resetting [AnomalyStation]
+11/30(15:38) Resetting [TerrariumBeta]
+11/30(15:38) Corbin ODTL 2506
+11/30(15:38) Corbin ODTL 2506
+11/30(15:39) Corbin ODTL 2506
+11/30(15:39) Corbin ODTL 2506
+11/30(15:40) Corbin ODTL 2506
+11/30(15:40) Corbin ODTL 2506
+11/30(15:41) Corbin ODTL 2506
+11/30(15:41) Corbin ODTL 2506
+11/30(15:42) Corbin ODTL 2506
+11/30(15:42) Corbin ODTL 2506
+11/30(15:43) Corbin ODTL 2506
+11/30(15:43) Corbin ODTL 2506
+11/30(15:44) Corbin ODTL 2506
+11/30(15:44) Corbin ODTL 2506
+11/30(15:45) Corbin ODTL 2506
+11/30(15:45) Corbin ODTL 2506
+11/30(15:46) Corbin ODTL 2506
+11/30(15:46) Corbin ODTL 2506
+11/30(15:47) Corbin ODTL 2506
+11/30(15:47) Corbin ODTL 2506
+11/30(15:48) Corbin ODTL 2506
+11/30(15:48) Corbin ODTL 2506
+11/30(15:49) Corbin ODTL 2506
+11/30(15:49) Resetting [MiningDock]
+11/30(15:49) Resetting [TerrariumAlpha]
+11/30(15:49) Resetting [TheMaze]
+11/30(15:49) Resetting [TheMaze]
+11/30(15:49) Corbin ODTL 2506
+11/30(15:50) Corbin ODTL 2506
+11/30(15:50) Corbin ODTL 2506
+11/30(15:51) Corbin ODTL 2506
+11/30(15:51) Corbin ODTL 2506
+11/30(15:52) Corbin ODTL 2506
+11/30(15:52) Corbin ODTL 2506
+11/30(15:53) Corbin ODTL 2506
+11/30(15:53) Corbin ODTL 2506
+11/30(15:54) Corbin ODTL 2506
+11/30(15:54) Corbin ODTL 2506
+11/30(15:55) Corbin ODTL 2506
+11/30(15:55) Corbin ODTL 2506
+11/30(15:56) Corbin ODTL 2506
+11/30(15:56) Corbin ODTL 2506
+11/30(15:57) Corbin ODTL 2506
+11/30(15:57) Corbin ODTL 2506
+11/30(15:58) Corbin ODTL 2506
+11/30(15:58) Corbin ODTL 2506
+11/30(15:59) Corbin ODTL 2506
+11/30(15:59) Resetting [StationConduits]
+11/30(15:59) Corbin ODTL 2506
+11/30(16:00) Corbin ODTL 2506
+11/30(16:00) Corbin ODTL 2506
+11/30(16:01) Corbin ODTL 2506
+11/30(16:01) Corbin ODTL 2506
+11/30(16:02) Corbin ODTL 2506
+11/30(16:02) Corbin ODTL 2506
+11/30(16:03) Corbin ODTL 2506
+11/30(16:03) Corbin ODTL 2506
+11/30(16:04) Corbin ODTL 2506
+11/30(16:04) Corbin ODTL 2506
+11/30(16:05) Corbin ODTL 2506
+11/30(16:05) Corbin ODTL 2506
+11/30(16:06) Corbin ODTL 2506
+11/30(16:06) Corbin ODTL 2506
+11/30(16:07) Corbin ODTL 2506
+11/30(16:07) Corbin ODTL 2506
+11/30(16:08) Corbin ODTL 2506
+11/30(16:08) Resetting [AnomalySpaceDock]
+11/30(16:08) Corbin ODTL 2506
+11/30(16:09) Corbin ODTL 2506
+11/30(16:09) Resetting [AnomalyStation]
+11/30(16:09) Resetting [TerrariumBeta]
+11/30(16:09) Corbin ODTL 2506
+11/30(16:10) Corbin ODTL 2506
+11/30(16:10) Resetting [MiningDock]
+11/30(16:10) Resetting [TerrariumAlpha]
+11/30(16:10) Resetting [TheMaze]
+11/30(16:10) Resetting [TheMaze]
+11/30(16:10) Corbin ODTL 2506
+11/30(16:11) Corbin ODTL 2506
+11/30(16:11) Corbin ODTL 2506
+11/30(16:12) Corbin ODTL 2506
+11/30(16:12) Corbin ODTL 2506
+11/30(16:13) Corbin ODTL 2506
+11/30(16:13) Corbin ODTL 2506
+11/30(16:14) Corbin ODTL 2506
+11/30(16:14) Corbin ODTL 2506
+11/30(16:15) Corbin ODTL 2506
+11/30(16:15) Corbin ODTL 2506
+11/30(16:16) Corbin ODTL 2506
+11/30(16:16) Corbin ODTL 2506
+11/30(16:17) Corbin ODTL 2506
+11/30(16:17) Corbin ODTL 2506
+11/30(16:18) Corbin ODTL 2506
+11/30(16:18) Corbin ODTL 2506
+11/30(16:18) Corbin ODTL 2506
+11/30(16:19) Corbin ODTL 2506
+11/30(16:19) Corbin ODTL 2506
+11/30(16:20) Corbin ODTL 2506
+11/30(16:20) Corbin ODTL 2506
+11/30(16:21) Corbin ODTL 2506
+11/30(16:22) Cryogen [2559]: purge all
+11/30(16:22) Cryogen [2559]: osave
+11/30(16:22) OreTransport/oretran1.obj saved by Cryogen. (10 objects)
+11/30(16:22) Cryogen [2700]: osave
+11/30(17:34) Corbin ODTL 2715
+12/14(21:20) Resetting [SilverDale]
+12/14(21:21) Resetting [TheMaze]
+12/14(21:21) Resetting [StationConduits]
+12/14(21:23) Resetting [MiningDock]
+12/14(21:23) Resetting [TheMaze]
+12/14(21:24) Resetting [AnomalySpaceDock]
+12/14(21:25) Resetting [OreTransport]
+12/14(21:25) Resetting [TerrariumAlpha]
+12/14(21:26) Resetting [AnomalyStation]
+12/14(21:26) Resetting [TheMaze]
+12/14(21:29) Resetting [OreTransport]
+12/14(21:29) Resetting [TheMaze]
+12/14(21:31) Resetting [SilverDale]
+12/14(21:32) Resetting [TheMaze]
+12/14(21:32) Cryogen [117]: oload 119
+12/14(21:32) Cryogen [117]: oload 119
+12/14(21:32) Resetting [StationConduits]
+12/14(21:34) Resetting [MiningDock]
+12/14(21:34) Resetting [TheMaze]
+12/14(21:35) Resetting [AnomalySpaceDock]
+12/14(21:36) Resetting [OreTransport]
+12/14(21:36) Resetting [TerrariumAlpha]
+12/14(21:37) Resetting [AnomalyStation]
+12/14(21:37) Resetting [TheMaze]
+12/14(21:40) Resetting [OreTransport]
+12/14(21:40) Resetting [TheMaze]
+12/14(21:42) Resetting [SilverDale]
+12/14(21:43) Resetting [TheMaze]
+12/14(21:43) Resetting [StationConduits]
+12/15(23:20) Cryogen [117]: heal test
+12/15(23:26) Cryogen [117]: purge gin
+12/15(23:26) Resetting [TheMaze]
+ 1/13(20:52) Resetting [StationConduits]
+ 1/14(11:18) Cryogen [1]: ocreate
+ 1/14(11:18) Cryogen [1]: oname 7
+ 1/14(11:19) Cryogen [1]: okey 7
+ 1/14(11:19) Cryogen [1]: osave
+ 1/14(11:19) Void/void.obj saved by Cryogen. (8 objects)
+ 1/14(11:19) Cryogen [1]: oset 7 type exit
+ 1/14(11:19) Cryogen [1]: osave
+ 1/14(11:19) Void/void.obj saved by Cryogen. (8 objects)
+ 1/14(11:19) Cryogen [1]: oset 7 0 100
+ 1/14(11:19) Cryogen [1]: osave
+ 1/14(11:19) Void/void.obj saved by Cryogen. (8 objects)
+ 1/14(11:20) Cryogen [1]: oldesc 7
+ 1/14(11:20) Resetting [OreTransport]
+ 1/14(11:20) Cryogen [1]: odesc 7
+ 1/14(11:20) Cryogen [1]: osave
+ 1/14(11:20) Void/void.obj saved by Cryogen. (8 objects)
+ 1/14(11:20) Cryogen [1]: oload 7
+ 1/14(11:22) Cryogen [1]: oload 7
+ 1/14(11:24) Cryogen [1]: oload 7
+ 1/14(11:26) Resetting [SilverDale]
+ 1/14(11:26) Resetting [AnomalyStation]
+ 1/14(11:26) Resetting [OreTransport]
+ 1/14(11:31) Cryogen [1]: oload 7
+ 1/14(11:31) Cryogen [1]: rcreate obj 7
+ 1/14(11:31) Cryogen [1]: rupdate
+ 1/14(11:31) Cryogen [1]: rsave
+ 1/14(11:31) Void/void.rst saved by Cryogen. (5 resets)
+ 1/14(11:31) Resetting [TerrariumBeta]
+ 1/14(11:32) Resetting [OreTransport]
+ 1/14(11:32) Resetting [TheMaze]
+ 1/14(11:33) Resetting [TerrariumAlpha]
+ 1/14(11:33) Cryogen [1]: areboot
+ 1/14(11:33) Resetting [OreTransport]
+ 1/14(11:34) Cryogen [1]: ocreate
+ 1/14(11:34) Cryogen [1]: oname 8
+ 1/14(11:35) Cryogen [1]: okey 8
+ 1/14(11:35) Resetting [StationConduits]
+ 1/14(11:35) Cryogen [1]: oldesc 8
+ 1/14(11:36) Cryogen [1]: oset 8 type veh
+ 1/14(11:36) Cryogen [1]: osave
+ 1/14(11:36) Void/void.obj saved by Cryogen. (9 objects)
+ 1/14(11:36) Cryogen [1]: oset 8
+ 1/14(11:36) Cryogen [1]: odesc 8
+ 1/14(11:36) Cryogen [1]: osave
+ 1/14(11:36) Void/void.obj saved by Cryogen. (9 objects)
+ 1/14(11:37) Cryogen [1]: oload 8
+ 1/14(11:37) Resetting [SilverDale]
+ 1/14(11:41) Cryogen [1]: oload 8
+ 1/14(11:43) Cryogen [1]: oload 8
+ 1/14(11:44) Resetting [TerrariumAlpha]
+ 1/14(11:44) Resetting [SilverDale]
+ 1/14(11:44) Resetting [OreTransport]
+ 1/14(11:46) Cryogen [1]: oload 8
+ 1/14(11:48) Resetting [SilverDale]
+ 1/14(11:48) Resetting [OreTransport]
+ 1/14(11:48) Resetting [AnomalyStation]
+ 1/14(11:49) Resetting [TestArea]
+ 1/14(11:50) Resetting [TheMaze]
+ 1/14(11:50) Resetting [TheMaze]
+ 1/14(11:51) Resetting [OreTransport]
+ 1/14(11:52) Resetting [AnomalySpaceDock]
+ 1/14(11:52) Resetting [TheMaze]
+ 1/20(13:51) Resetting [TheMaze]
+ 1/20(13:51) Resetting [AnomalySpaceDock]
+ 1/20(13:52) Resetting [SilverDale]
+ 1/20(13:52) Resetting [AnomalyStation]
+ 1/20(13:54) Resetting [OreTransport]
+ 1/20(13:55) Resetting [TerrariumAlpha]
+ 1/20(13:56) Resetting [TheMaze]
+ 1/20(13:57) Resetting [TheMaze]
+ 1/20(13:57) Resetting [OreTransport]
+ 1/20(13:58) Resetting [StationConduits]
+ 1/20(13:58) Resetting [TheMaze]
+ 1/20(13:59) Resetting [MiningDock]
+ 1/20(14:02) Resetting [TheMaze]
+ 1/20(14:02) Resetting [AnomalySpaceDock]
+ 1/20(14:03) Resetting [SilverDale]
+ 1/20(14:03) Resetting [AnomalyStation]
+ 1/20(14:05) Resetting [OreTransport]
+ 1/20(14:06) Resetting [TerrariumAlpha]
+ 1/20(14:07) Resetting [TheMaze]
+ 1/25(23:40) Resetting [TheMaze]
+ 1/25(23:41) Resetting [AnomalySpaceDock]
+ 1/25(23:41) Resetting [AnomalyStation]
+ 1/25(23:42) Resetting [OreTransport]
+ 1/25(23:44) Resetting [TheMaze]
+ 1/25(23:44) Resetting [AnomalyStation]
+ 1/25(23:45) Resetting [OreTransport]
+ 1/25(23:45) Resetting [TheMaze]
+ 1/25(23:45) Resetting [TheMaze]
+ 1/25(23:48) Resetting [OreTransport]
+ 1/25(23:48) Resetting [AnomalySpaceDock]
+ 1/25(23:48) Resetting [TerrariumAlpha]
+ 1/25(23:51) Resetting [StationConduits]
+ 1/25(23:53) Resetting [TheMaze]
+ 1/25(23:54) Resetting [MiningDock]
+ 1/25(23:55) Resetting [TheMaze]
+ 1/25(23:55) Resetting [AnomalyStation]
+ 1/25(23:56) Resetting [OreTransport]
+ 1/25(23:56) Resetting [TheMaze]
+ 1/25(23:56) Resetting [TheMaze]
+ 1/25(23:57) Resetting [TerrariumBeta]
+ 1/25(23:59) Resetting [OreTransport]
+ 1/25(23:59) Resetting [AnomalySpaceDock]
+ 1/25(23:59) Resetting [TerrariumAlpha]
+ 1/26(00:01) Resetting [ArcticTerrarium]
+ 1/26(00:02) Resetting [StationConduits]
+ 1/26(00:04) Resetting [TheMaze]
+ 1/26(00:05) Resetting [MiningDock]
+ 1/26(00:06) Resetting [TheMaze]
+ 1/26(00:06) Resetting [AnomalyStation]
+ 1/26(00:07) Resetting [OreTransport]
+ 1/26(00:07) Resetting [TheMaze]
+ 1/26(00:07) Resetting [TheMaze]
+ 1/26(00:10) Resetting [OreTransport]
+ 1/26(00:10) Resetting [AnomalySpaceDock]
+ 1/26(00:10) Resetting [TerrariumAlpha]
+ 1/26(00:13) Resetting [StationConduits]
+ 1/26(00:15) Resetting [TheMaze]
+ 1/26(00:16) Resetting [MiningDock]
+ 1/26(00:17) Resetting [TheMaze]
+ 1/26(00:17) Resetting [AnomalyStation]
+ 1/26(00:18) Resetting [OreTransport]
+ 1/26(00:18) Resetting [TheMaze]
+ 1/26(00:18) Resetting [TheMaze]
+ 1/26(00:21) Resetting [OreTransport]
+ 1/26(00:21) Resetting [AnomalySpaceDock]
+ 1/26(00:21) Resetting [TerrariumAlpha]
+ 1/26(00:24) Resetting [StationConduits]
+ 1/26(00:26) Resetting [TheMaze]
+ 1/26(00:27) Resetting [MiningDock]
+ 1/26(00:28) Resetting [TheMaze]
+ 1/26(00:28) Resetting [TerrariumBeta]
+ 1/26(00:28) Resetting [AnomalyStation]
+ 1/26(00:29) Resetting [OreTransport]
+ 1/26(00:29) Resetting [TheMaze]
+ 1/26(00:29) Resetting [TheMaze]
+ 1/26(00:32) Resetting [OreTransport]
+ 1/26(00:32) Resetting [AnomalySpaceDock]
+ 1/26(00:32) Resetting [TerrariumAlpha]
+ 1/26(00:35) Resetting [StationConduits]
+ 1/26(00:37) Resetting [TheMaze]
+ 1/26(00:38) Resetting [MiningDock]
+ 1/26(00:39) Resetting [TheMaze]
+ 1/26(00:39) Resetting [AnomalyStation]
+ 1/26(00:40) Resetting [OreTransport]
+ 1/26(00:40) Resetting [TheMaze]
+ 1/26(00:40) Resetting [TheMaze]
+ 1/26(00:43) Resetting [OreTransport]
+ 1/26(00:43) Resetting [AnomalySpaceDock]
+ 1/26(00:43) Resetting [TerrariumAlpha]
+ 1/26(00:46) Resetting [StationConduits]
+ 1/26(00:48) Resetting [TheMaze]
+ 1/26(00:49) Resetting [MiningDock]
+ 1/26(01:37) Resetting [StationConduits]
+ 1/26(01:37) Resetting [TheMaze]
+ 1/26(01:44) Resetting [AnomalyStation]
+ 1/26(01:44) Resetting [MiningDock]
+ 1/26(01:44) Resetting [TheMaze]
+ 1/26(01:44) Resetting [TheMaze]
+ 1/26(01:44) Resetting [OreTransport]
+ 1/26(01:44) Resetting [OreTransport]
+ 1/26(01:44) Resetting [AnomalySpaceDock]
+ 1/26(01:47) Resetting [TerrariumAlpha]
+ 1/26(01:47) Resetting [TheMaze]
+ 1/26(01:48) Cryogen [4514]: aprop
+ 1/26(01:48) Cryogen [4514]: aprop list
+ 1/26(01:48) Resetting [StationConduits]
+ 1/26(01:48) Resetting [TheMaze]
+ 1/26(01:48) Cryogen [4514]: aprop list @command
+ 1/26(01:48) Cryogen [4514]: adecomp
+ 1/26(01:48) Cryogen [4514]: aprop list @command
+ 1/26(01:48) Cryogen [4514]: aprop list @command
+ 1/26(01:49) Resetting [SilverDale]
+ 2/16(00:08) Cryogen [4513]: oload 103
+ 2/16(13:17) Resetting [AnomalyStation]
+ 2/16(13:23) Resetting [TheMaze]
+ 2/16(13:23) Resetting [OreTransport]
+ 2/16(13:24) Resetting [OreTransport]
+ 2/16(13:25) Resetting [AnomalySpaceDock]
+ 2/16(13:25) Resetting [StationConduits]
+ 2/16(19:23) Resetting [TheMaze]
+ 2/16(19:23) Resetting [TheMaze]
+ 2/16(20:06) Resetting [TheMaze]
+ 2/16(20:06) Resetting [AnomalySpaceDock]
+ 2/16(20:07) Resetting [TheMaze]
+ 2/16(20:07) Resetting [OreTransport]
+ 2/16(20:22) Resetting [TheMaze]
+ 2/17(11:32) Resetting [TheMaze]
+ 2/17(11:33) Resetting [TerrariumAlpha]
+ 2/17(11:34) Resetting [AnomalySpaceDock]
+ 2/17(11:35) Resetting [OreTransport]
+ 2/17(11:35) Resetting [TheMaze]
+ 2/17(11:35) Resetting [StationConduits]
+ 2/17(13:33) Resetting [MiningDock]
+ 2/17(13:33) Resetting [TestArea]
+ 2/17(14:26) Resetting [Void]
+ 2/17(14:27) Resetting [SilverDale]
+ 2/17(14:27) Resetting [TheMaze]
+ 2/17(15:29) Cryogen [1]: oset
+ 2/17(15:29) Cryogen [1]: oset 0
+ 2/17(15:29) Cryogen [1]: oset 0 2 1
+ 2/17(15:30) Resetting [TheMaze]
+ 2/17(15:30) Resetting [MiningDock]
+ 2/17(15:30) Cryogen [1]: oset
+ 2/17(15:31) Cryogen [1]: oset 0
+ 2/17(15:32) Cryogen [1]: oset 0 2 1
+ 2/17(15:33) Cryogen [1]: oset 0 2 1
+ 3/24(16:25) Resetting [TheMaze]
+ 3/24(16:26) Resetting [MiningDock]
+ 3/24(16:48) Resetting [TerrariumAlpha]
+ 3/24(16:48) Resetting [OreTransport]
+ 3/24(16:48) Resetting [TheMaze]
+ 3/24(16:49) Resetting [TheMaze]
+ 3/24(16:51) Resetting [TheMaze]
+ 3/24(16:51) Resetting [OreTransport]
+ 3/24(16:51) Resetting [TheMaze]
+ 3/24(16:57) Resetting [OreTransport]
+ 3/24(16:59) Resetting [AnomalySpaceDock]
+ 3/24(16:59) Resetting [SilverDale]
+ 3/24(16:59) Resetting [AnomalyStation]
+ 3/24(17:00) Resetting [OreTransport]
+ 3/24(17:00) Resetting [TerrariumAlpha]
+ 3/24(17:00) Resetting [TheMaze]
+ 3/24(17:00) Resetting [TheMaze]
+ 3/24(17:01) Resetting [TheMaze]
+ 3/24(17:08) Resetting [MiningDock]
+ 3/24(17:09) Resetting [AnomalyStation]
+ 3/24(17:10) Resetting [RobotFactory]
+ 3/24(17:10) Resetting [OreTransport]
+ 3/24(17:11) Resetting [TheMaze]
+ 3/24(17:11) Resetting [TheMaze]
+ 3/24(17:13) Resetting [MiningDock]
+ 3/24(17:29) Resetting [TheMaze]
+ 3/24(17:30) Resetting [AnomalySpaceDock]
+ 3/24(17:41) Cryogen [100]: oload 122
+ 3/24(17:41) Cryogen [100]: oload 122
+ 3/24(17:41) Cryogen [100]: oload 122
+ 3/24(17:42) Cryogen [100]: purge all bread
+ 3/24(17:42) Cryogen [100]: oload 153
+ 3/24(17:42) Cryogen [100]: oload 153
+ 3/24(17:42) Cryogen [100]: oload 153
+ 3/24(17:42) Cryogen [100]: oload 153
+ 3/24(17:42) Cryogen [100]: oload 122
+ 3/24(17:42) Cryogen [100]: purge all bar
+ 3/24(22:33) Resetting [OreTransport]
+ 3/24(22:34) Cryogen [100]: oload 150
+ 3/24(22:34) Cryogen [100]: oload 115
+ 3/24(22:34) Cryogen [100]: oload 115
+ 3/24(22:34) Cryogen [100]: purge all slot
+ 3/24(22:35) Cryogen [100]: areb
+ 3/24(22:36) Resetting [MiningDock]
+ 3/24(22:37) Resetting [OreTransport]
+ 3/24(22:37) Resetting [TheMaze]
+ 3/24(22:39) Resetting [AnomalyStation]
+ 3/24(22:41) Resetting [TerrariumAlpha]
+ 3/24(22:41) Resetting [SilverDale]
+ 3/24(22:42) Resetting [TheMaze]
+ 3/26(13:24) Resetting [TheMaze]
+ 3/26(13:24) Cryogen [100]: oload 180
+ 3/26(13:24) Resetting [TheMaze]
+ 3/26(13:24) Cryogen [100]: oload 199
+ 3/26(13:24) Cryogen [100]: oload 199
+ 3/26(13:25) Resetting [AnomalyStation]
+ 4/15(17:40) Resetting [AnomalySpaceDock]
+ 4/15(21:56) Resetting [StationConduits]
+ 4/15(21:56) Resetting [TheMaze]
+ 4/15(21:57) Resetting [TheMaze]
+ 4/15(21:59) Resetting [AnomalyStation]
+ 4/15(22:00) Resetting [TheMaze]
+ 4/15(22:00) Resetting [TerrariumAlpha]
+ 4/15(22:00) Resetting [OreTransport]
+ 4/15(22:01) Resetting [TheMaze]
+ 4/15(22:02) Resetting [AnomalySpaceDock]
+ 4/16(00:20) Resetting [TheMaze]
+ 4/16(00:20) Resetting [TheMaze]
+ 4/16(00:23) Resetting [Void]
+ 4/16(14:23) Resetting [TheMaze]
+ 4/16(14:25) Resetting [AnomalyStation]
+ 4/16(14:25) Resetting [StationConduits]
+ 4/16(14:25) Resetting [TheMaze]
+ 4/16(14:28) Resetting [OreTransport]
+ 4/16(14:29) Resetting [TerrariumBeta]
+ 4/16(14:29) Resetting [MiningDock]
+ 4/16(14:30) Resetting [TheMaze]
+ 4/16(14:31) Resetting [TerrariumAlpha]
+ 4/16(14:31) Resetting [TheMaze]
+ 4/16(14:35) Resetting [TheMaze]
+ 4/16(14:39) Resetting [TerrariumAlpha]
+ 4/16(14:39) Resetting [TerrariumBeta]
+ 4/16(14:39) Resetting [TheMaze]
+ 4/16(14:39) Resetting [OreTransport]
+ 4/16(14:39) Resetting [AnomalySpaceDock]
+ 4/16(14:39) Resetting [OreTransport]
+ 4/27(00:20) Resetting [SilverDale]
+ 4/27(00:20) Resetting [TerrariumAlpha]
+ 4/30(12:05) Resetting [MiningDock]
+ 4/30(12:05) Resetting [TerrariumAlpha]
+ 4/30(12:05) Resetting [TheMaze]
+ 4/30(12:05) Resetting [TheMaze]
+ 4/30(12:05) Resetting [TheMaze]
+ 4/30(12:05) Resetting [TheMaze]
+ 4/30(12:05) Resetting [OreTransport]
+ 4/30(12:07) Resetting [AnomalyStation]
+ 4/30(12:08) Resetting [SilverDale]
+ 4/30(12:11) Resetting [StationConduits]
+ 4/30(12:11) Resetting [OreTransport]
+ 4/30(12:11) Resetting [AnomalySpaceDock]
+ 4/30(12:18) Resetting [AnomalyStation]
+ 4/30(12:18) Resetting [AnomalySpaceDock]
+ 4/30(19:38) Resetting [MiningDock]
+ 4/30(19:39) Resetting [TheMaze]
+ 5/13(15:21) Resetting [OreTransport]
+ 5/13(15:22) Resetting [TheMaze]
+ 5/23(19:02) Resetting [StationConduits]
+ 5/23(19:03) Resetting [SilverDale]
+ 5/23(19:05) Resetting [MiningDock]
+ 5/23(19:06) Resetting [TheMaze]
+ 5/23(19:08) Resetting [AnomalySpaceDock]
+ 5/23(19:08) Resetting [TheMaze]
+ 5/23(19:08) Resetting [TerrariumAlpha]
+ 5/23(19:09) Resetting [TheMaze]
+ 5/23(19:10) Resetting [AnomalyStation]
+ 5/23(19:10) Resetting [TheMaze]
+ 5/23(19:10) Resetting [OreTransport]
+ 5/23(19:11) Resetting [OreTransport]
+ 5/23(19:13) Resetting [StationConduits]
+ 5/23(19:14) Resetting [SilverDale]
+ 5/23(19:16) Resetting [MiningDock]
+ 5/23(19:17) Resetting [TheMaze]
+ 5/23(19:19) Resetting [AnomalySpaceDock]
+ 5/23(19:19) Resetting [TheMaze]
+ 5/23(19:19) Resetting [TerrariumAlpha]
+ 5/23(19:20) Resetting [TheMaze]
+ 5/23(19:21) Resetting [TerrariumBeta]
+ 5/23(19:21) Resetting [AnomalyStation]
+ 5/23(19:21) Resetting [TheMaze]
+ 5/23(19:21) Resetting [OreTransport]
+ 5/23(19:22) Resetting [OreTransport]
+ 5/23(19:24) Resetting [StationConduits]
+ 5/23(19:25) Resetting [SilverDale]
+ 5/23(19:27) Resetting [MiningDock]
+ 5/23(19:28) Resetting [TheMaze]
+ 5/23(19:30) Resetting [AnomalySpaceDock]
+ 5/23(19:30) Resetting [TheMaze]
+ 5/23(19:30) Resetting [TerrariumAlpha]
+ 5/23(19:31) Resetting [TheMaze]
+ 5/23(19:32) Resetting [AnomalyStation]
+ 5/23(19:32) Resetting [TheMaze]
+ 5/23(19:32) Resetting [OreTransport]
+ 5/23(19:33) Resetting [OreTransport]
+ 5/23(19:35) Resetting [StationConduits]
+ 5/23(19:36) Resetting [SilverDale]
+ 5/23(19:37) Resetting [RobotFactory]
+ 5/23(19:38) Resetting [MiningDock]
+ 5/23(19:39) Resetting [TheMaze]
+ 5/23(19:41) Resetting [AnomalySpaceDock]
+ 5/23(19:41) Resetting [TheMaze]
+ 5/23(19:41) Resetting [TerrariumAlpha]
+ 5/23(19:42) Resetting [TestArea]
+ 5/23(19:42) Resetting [TheMaze]
+ 5/23(19:43) Resetting [AnomalyStation]
+ 5/23(19:43) Resetting [TheMaze]
+ 5/23(19:43) Resetting [OreTransport]
+ 5/23(19:44) Resetting [OreTransport]
+ 5/23(19:46) Resetting [StationConduits]
+ 5/23(19:47) Resetting [SilverDale]
+ 5/23(19:49) Resetting [MiningDock]
+ 5/23(19:50) Resetting [TheMaze]
+ 5/23(19:52) Resetting [TerrariumBeta]
+ 5/23(19:52) Resetting [AnomalySpaceDock]
+ 5/23(19:52) Resetting [TheMaze]
+ 5/23(19:52) Resetting [TerrariumAlpha]
+ 5/23(19:53) Resetting [TheMaze]
+ 5/23(19:54) Resetting [AnomalyStation]
+ 5/23(19:54) Resetting [TheMaze]
+ 5/23(19:54) Resetting [OreTransport]
+ 5/23(19:55) Resetting [OreTransport]
+ 5/23(19:57) Resetting [StationConduits]
+ 5/23(19:58) Resetting [SilverDale]
+ 5/24(22:02) Cryogen [119]: flist
+ 5/24(22:04) Cryogen [119]: flist
+ 5/24(22:08) Cryogen [119]: flist
+ 5/24(22:09) Cryogen [119]: flist dice
+ 5/24(22:09) Cryogen [119]: flist exit
+ 5/24(22:09) Cryogen [119]: flist
+ 5/24(22:09) Resetting [TheMaze]
+ 5/24(22:10) Cryogen [119]: flist str
+ 5/25(16:44) Resetting [TheMaze]
+ 5/25(16:53) Resetting [TheMaze]
+ 5/25(16:53) Resetting [TheMaze]
+ 5/25(16:53) Resetting [OreTransport]
+ 5/25(16:53) Resetting [OreTransport]
+ 5/25(16:54) Resetting [SilverDale]
+ 5/25(16:54) Resetting [AnomalyStation]
+ 5/25(17:12) Resetting [AnomalyStation]
+ 5/25(17:12) Resetting [MiningDock]
+ 5/25(17:12) Resetting [TerrariumAlpha]
+ 5/25(17:12) Resetting [StationConduits]
+ 5/25(17:12) Resetting [TheMaze]
+ 5/25(17:12) Resetting [TheMaze]
+ 5/25(17:12) Resetting [TheMaze]
+ 5/25(17:12) Resetting [TheMaze]
+ 5/25(17:12) Resetting [OreTransport]
+ 5/25(17:12) Resetting [OreTransport]
+ 5/25(17:13) Resetting [SilverDale]
+ 5/25(17:13) Resetting [AnomalySpaceDock]
+ 5/25(17:19) Resetting [StationConduits]
+ 5/25(17:19) Resetting [TheMaze]
+ 5/25(17:19) Resetting [OreTransport]
+ 5/25(17:46) Resetting [TheMaze]
+ 5/25(17:47) Resetting [AnomalySpaceDock]
+ 5/25(17:48) Resetting [TheMaze]
+ 5/25(17:49) Resetting [StationConduits]
+ 5/25(17:50) Resetting [OreTransport]
+ 5/25(17:50) Resetting [TerrariumBeta]
+ 5/25(17:51) Resetting [TheMaze]
+ 5/25(18:02) Resetting [StationConduits]
+ 5/25(18:03) Resetting [OreTransport]
+ 5/25(18:05) Resetting [TerrariumAlpha]
+ 5/25(18:19) Resetting [TestArea]
+ 5/25(18:19) Resetting [OreTransport]
+ 5/25(18:20) Resetting [TheMaze]
+ 5/25(18:21) Resetting [TheMaze]
+ 5/25(18:21) Resetting [AnomalySpaceDock]
+ 5/26(01:28) Resetting [TheMaze]
+ 5/26(01:30) Resetting [MiningDock]
+ 5/26(01:30) Resetting [StarshipFearless]
+ 5/26(01:30) Resetting [TheMaze]
+ 5/26(01:30) Resetting [OreTransport]
+ 5/26(01:30) Resetting [AnomalyStation]
+ 6/ 3(22:49) Resetting [SilverDale]
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Resetting [TheMaze]
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Cryogen [119]: oload 112
+ 6/ 3(22:49) Resetting [StarshipFearless]
+ 6/ 3(22:50) Resetting [TerrariumAlpha]
+ 6/ 3(22:51) Resetting [TheMaze]
+ 6/ 3(22:51) Resetting [TheMaze]
+ 6/ 3(22:53) Resetting [AntHill]
+06/08(21:24) Cryogen [100]: wcompile all
+06/08(21:25) Cryogen [1950]: wcomp all
+06/08(21:25) Resetting [OreTransport]
+06/08(21:25) Resetting [TerrariumAlpha]
+06/08(21:25) Cryogen [1800]: wcomp all
+06/08(21:25) Cryogen [2500]: wcomp all
+06/08(21:26) Resetting [TheMaze]
+06/08(21:26) Resetting [TheMaze]
+06/08(21:26) Resetting [AnomalySpaceDock]
+06/08(21:26) Resetting [MiningDock]
+06/08(21:27) Resetting [SilverDale]
+06/08(21:27) Resetting [TheMaze]
+06/08(21:28) Resetting [TheMaze]
+06/08(21:30) Resetting [AnomalyStation]
+06/08(21:31) Resetting [StationConduits]
+06/08(21:32) Resetting [OreTransport]
+06/08(21:36) Resetting [OreTransport]
+06/08(21:36) Resetting [TerrariumAlpha]
+06/08(21:37) Resetting [TheMaze]
+06/08(21:37) Resetting [TheMaze]
+06/08(21:37) Resetting [AnomalySpaceDock]
+06/08(21:37) Resetting [MiningDock]
+06/08(21:38) Resetting [SilverDale]
+06/08(21:38) Resetting [TheMaze]
+06/08(21:39) Resetting [TerrariumBeta]
+06/08(21:39) Resetting [TheMaze]
+06/08(21:41) Resetting [AnomalyStation]
+06/08(21:42) Resetting [StationConduits]
+06/08(21:43) Resetting [OreTransport]
+06/08(21:47) Resetting [OreTransport]
+06/08(21:47) Resetting [TerrariumAlpha]
+06/08(21:48) Resetting [TheMaze]
+06/08(21:48) Resetting [TheMaze]
+06/08(21:48) Resetting [AnomalySpaceDock]
+06/08(21:48) Resetting [MiningDock]
+06/08(21:49) Resetting [SilverDale]
+06/08(21:49) Resetting [TheMaze]
+06/08(21:50) Resetting [TheMaze]
+06/08(21:52) Resetting [AnomalyStation]
+06/08(21:53) Resetting [StationConduits]
+06/08(21:54) Resetting [OreTransport]
+06/08(21:58) Resetting [OreTransport]
+06/08(21:58) Resetting [TerrariumAlpha]
+06/08(21:59) Resetting [TheMaze]
+06/08(21:59) Resetting [TheMaze]
+06/08(21:59) Resetting [AnomalySpaceDock]
+06/08(21:59) Resetting [MiningDock]
+06/08(22:00) Resetting [SilverDale]
+06/08(22:00) Resetting [TheMaze]
+06/08(22:01) Resetting [TheMaze]
+06/08(22:03) Resetting [AnomalyStation]
+06/08(22:04) Resetting [StationConduits]
+06/08(22:04) Resetting [ArcticTerrarium]
+06/08(22:05) Resetting [OreTransport]
+06/08(22:09) Resetting [OreTransport]
+06/08(22:09) Resetting [AnomalyStation]
+06/08(22:10) Resetting [AnomalySpaceDock]
+06/08(22:11) Resetting [TheMaze]
+06/08(22:11) Resetting [MiningDock]
+06/08(22:11) Resetting [SmugglerShip]
+06/08(22:12) Resetting [TheMaze]
+06/08(22:12) Resetting [SilverDale]
+06/08(22:12) Resetting [TerrariumAlpha]
+06/08(22:17) Resetting [StationConduits]
+06/08(22:17) Resetting [TheMaze]
+06/08(22:17) Resetting [OreTransport]
+06/08(22:18) Resetting [TheMaze]
+06/08(22:20) Resetting [OreTransport]
+06/08(22:20) Resetting [AnomalyStation]
+06/08(22:21) Resetting [AnomalySpaceDock]
+06/08(22:22) Resetting [TerrariumBeta]
+06/08(22:22) Resetting [MiningDock]
+06/08(22:22) Resetting [SmugglerShip]
+06/08(22:23) Resetting [TheMaze]
+06/08(22:23) Resetting [ArcticTerrarium]
+06/08(22:23) Resetting [SilverDale]
+06/08(22:23) Resetting [TerrariumAlpha]
+06/08(22:27) Resetting [TheMaze]
+06/08(22:28) Resetting [StationConduits]
+06/08(22:28) Resetting [TheMaze]
+06/08(22:28) Resetting [OreTransport]
+06/08(22:29) Resetting [TheMaze]
+06/08(22:31) Resetting [OreTransport]
+06/08(22:31) Resetting [AnomalyStation]
+06/08(22:32) Resetting [AnomalySpaceDock]
+06/08(22:33) Resetting [MiningDock]
+06/08(22:33) Resetting [SmugglerShip]
+06/08(22:34) Resetting [TheMaze]
+06/08(22:34) Resetting [SilverDale]
+06/08(22:34) Resetting [TerrariumAlpha]
+06/08(22:37) Resetting [StarshipFearless]
+06/08(22:39) Resetting [StationConduits]
+06/08(22:39) Resetting [TheMaze]
+06/08(22:39) Resetting [OreTransport]
+06/08(22:39) Resetting [Void]
+06/08(22:40) Resetting [TheMaze]
+06/08(22:42) Resetting [OreTransport]
+06/08(22:42) Resetting [AnomalyStation]
+06/08(22:43) Resetting [TheMaze]
+06/08(22:43) Resetting [AnomalySpaceDock]
+06/08(22:44) Resetting [MiningDock]
+06/08(22:44) Resetting [SmugglerShip]
+06/08(22:45) Resetting [TheMaze]
+06/08(22:45) Resetting [SilverDale]
+06/08(22:45) Resetting [TerrariumAlpha]
+06/08(22:50) Resetting [StationConduits]
+06/08(22:50) Resetting [TheMaze]
+06/08(22:50) Resetting [OreTransport]
+06/08(22:51) Resetting [TheMaze]
+06/08(22:52) Resetting [TestArea]
+06/08(22:53) Resetting [TerrariumBeta]
+06/08(22:53) Resetting [OreTransport]
+06/08(22:53) Resetting [AnomalyStation]
+06/08(22:54) Resetting [AnomalySpaceDock]
+06/08(22:55) Resetting [MiningDock]
+06/08(22:55) Resetting [SmugglerShip]
+06/08(22:56) Resetting [TheMaze]
+06/08(22:56) Resetting [SilverDale]
+06/08(22:56) Resetting [TerrariumAlpha]
+06/08(22:59) Resetting [TheMaze]
+06/08(23:01) Resetting [StationConduits]
+06/08(23:01) Resetting [TheMaze]
+06/08(23:01) Resetting [OreTransport]
+06/08(23:02) Resetting [TheMaze]
+06/08(23:04) Resetting [OreTransport]
+06/08(23:04) Resetting [AnomalyStation]
+06/08(23:05) Resetting [AnomalySpaceDock]
+06/08(23:06) Resetting [MiningDock]
+06/08(23:06) Resetting [SmugglerShip]
+06/08(23:07) Resetting [TheMaze]
+06/08(23:07) Resetting [SilverDale]
+06/08(23:07) Resetting [TerrariumAlpha]
+06/08(23:12) Resetting [StationConduits]
+06/08(23:12) Resetting [TheMaze]
+06/08(23:12) Resetting [OreTransport]
+06/08(23:13) Resetting [TheMaze]
+06/08(23:15) Resetting [TheMaze]
+06/08(23:15) Resetting [OreTransport]
+06/08(23:15) Resetting [AnomalyStation]
+06/08(23:16) Resetting [AnomalySpaceDock]
+06/08(23:17) Resetting [MiningDock]
+06/08(23:17) Resetting [SmugglerShip]
+06/08(23:18) Resetting [TheMaze]
+06/08(23:18) Resetting [SilverDale]
+06/08(23:18) Resetting [TerrariumAlpha]
+06/08(23:23) Resetting [StationConduits]
+06/08(23:23) Resetting [TheMaze]
+06/08(23:23) Resetting [OreTransport]
+06/08(23:24) Resetting [TerrariumBeta]
+06/08(23:24) Resetting [TheMaze]
+06/08(23:26) Resetting [OreTransport]
+06/08(23:26) Resetting [AnomalyStation]
+06/08(23:27) Resetting [AnomalySpaceDock]
+06/08(23:28) Resetting [MiningDock]
+06/08(23:28) Resetting [SmugglerShip]
+06/08(23:29) Resetting [TheMaze]
+06/08(23:29) Resetting [SilverDale]
+06/08(23:29) Resetting [TerrariumAlpha]
+06/08(23:31) Resetting [TheMaze]
+06/08(23:34) Resetting [StationConduits]
+06/08(23:34) Resetting [TheMaze]
+06/08(23:34) Resetting [OreTransport]
+06/08(23:35) Resetting [TheMaze]
+06/08(23:37) Resetting [OreTransport]
+06/08(23:37) Resetting [AnomalyStation]
+06/08(23:38) Resetting [AnomalySpaceDock]
+06/08(23:39) Resetting [MiningDock]
+06/08(23:39) Resetting [SmugglerShip]
+06/08(23:40) Resetting [TheMaze]
+06/08(23:40) Resetting [SilverDale]
+06/08(23:40) Resetting [TerrariumAlpha]
+06/08(23:43) Resetting [AntHill]
+06/09(11:30) Resetting [TheMaze]
+06/09(11:30) Resetting [SilverDale]
+06/09(11:31) Resetting [AnomalySpaceDock]
+06/09(11:32) Resetting [AnomalyStation]
+06/09(11:32) Resetting [OreTransport]
+06/09(11:32) Cryogen [100]: ares all
+06/09(11:32) Cryogen [100]: ares all
+06/09(11:32) Cryogen [100]: ares all
+06/09(11:32) Cryogen [100]: ares all
+06/09(11:32) Cryogen [100]: ares all
+06/09(11:32) Cryogen [100]: ares all
+06/09(11:32) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Resetting [StationConduits]
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Resetting [TerrariumAlpha]
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: ares all
+06/09(11:33) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: are all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:34) Cryogen [100]: ares all
+06/09(11:36) Resetting [MiningDock]
+06/09(11:36) Resetting [TheMaze]
+06/09(11:36) Resetting [SmugglerShip]
+06/09(11:37) Cryogen [100]: ares all
+06/09(11:37) Cryogen [100]: ares all
+06/09(11:37) Resetting [TheMaze]
+06/09(11:37) Cryogen [0]: ares
+06/09(11:37) Cryogen [0]: ares
+06/09(11:38) Cryogen [0]: ares
+06/09(11:38) Cryogen [100]: ares
+06/09(11:38) Cryogen [100]: ares
+06/09(11:38) Cryogen [100]: ares
+06/09(11:38) Cryogen [100]: ares
+06/09(11:38) Cryogen [100]: ares 400
+06/09(11:38) Cryogen [100]: ares 400
+06/09(11:38) Cryogen [100]: ares 700
+06/09(11:39) Cryogen [100]: ares 700
+06/09(11:39) Cryogen [100]: ares 900
+06/09(11:39) Cryogen [100]: ares 1100
+06/09(11:39) Cryogen [100]: ares 1300
+06/09(11:39) Cryogen [100]: ares 1500
+06/09(11:39) Resetting [OreTransport]
+06/09(11:39) Cryogen [100]: ares 1500
+06/09(11:39) Cryogen [100]: ares 1500 sys
+06/09(11:39) Cryogen [100]: ares 1500
+06/09(11:39) Cryogen [100]: ares
+06/09(11:39) Cryogen [100]: ares 1500
+06/09(11:40) Resetting [TheMaze]
+06/09(11:40) Cryogen [100]: ares 1300
+06/09(11:40) Cryogen [100]: ares
+06/09(11:40) Cryogen [100]: ares
+06/09(11:40) Cryogen [100]: ares
+06/09(11:40) Cryogen [100]: are
+06/09(11:40) Cryogen [1500]: ares
+06/09(11:41) Cryogen [1500]: ares
+06/09(11:42) Resetting [SilverDale]
+06/09(11:42) Resetting [AnomalySpaceDock]
+06/09(11:44) Resetting [AnomalyStation]
+06/09(11:47) Resetting [ArcticTerrarium]
+06/09(11:47) Resetting [TheMaze]
+06/09(11:58) Resetting [OreTransport]
+06/09(11:59) Resetting [TheMaze]
+06/09(11:59) Resetting [TheMaze]
+06/09(12:02) Resetting [SilverDale]
+06/09(12:02) Resetting [MiningDock]
+06/09(12:02) Resetting [TerrariumAlpha]
+06/09(12:02) Resetting [AnomalyStation]
+06/09(12:02) Resetting [OreTransport]
+06/09(12:03) Resetting [SmugglerShip]
+06/09(12:05) Resetting [AnomalySpaceDock]
+06/09(12:06) Resetting [StationConduits]
+06/09(12:09) Resetting [OreTransport]
+06/09(12:10) Resetting [TheMaze]
+06/09(12:10) Resetting [TheMaze]
+06/09(12:13) Resetting [SilverDale]
+06/09(12:13) Resetting [MiningDock]
+06/09(12:13) Resetting [TerrariumAlpha]
+06/09(12:13) Resetting [TheMaze]
+06/09(12:13) Resetting [AnomalyStation]
+06/09(12:13) Resetting [OreTransport]
+06/09(12:14) Resetting [SmugglerShip]
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:12) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Cryogen [1500]: ares all
+06/09(16:13) Resetting [SmugglerShip]
+06/09(16:14) Resetting [OreTransport]
+06/09(16:15) Resetting [TerrariumAlpha]
+06/09(16:16) Resetting [OreTransport]
+06/09(16:16) Resetting [AnomalySpaceDock]
+06/09(16:16) Resetting [TheMaze]
+06/09(16:16) Resetting [StationConduits]
+06/09(16:18) Resetting [MiningDock]
+06/09(16:18) Resetting [AnomalyStation]
+06/09(16:19) Resetting [TheMaze]
+06/09(16:19) Resetting [SilverDale]
+06/09(16:21) Resetting [TheMaze]
+06/09(16:24) Resetting [SmugglerShip]
+06/09(16:25) Resetting [OreTransport]
+06/09(16:26) Resetting [TerrariumAlpha]
+06/09(16:27) Resetting [OreTransport]
+06/09(16:27) Resetting [AnomalySpaceDock]
+06/09(16:27) Resetting [TheMaze]
+06/09(16:27) Resetting [StationConduits]
+06/09(16:29) Resetting [MiningDock]
+06/09(16:29) Resetting [AnomalyStation]
+06/09(16:30) Resetting [TheMaze]
+06/09(16:30) Resetting [SilverDale]
+06/11(18:43) Resetting [AnomalyStation]
+06/11(18:43) Resetting [MiningDock]
+06/11(18:44) Resetting [TheMaze]
+06/11(18:44) Resetting [OreTransport]
+06/11(18:44) Resetting [OreTransport]
+06/11(18:44) Resetting [StationConduits]
+11/09(15:54) Resetting [MiningDock]
+11/09(15:55) Resetting [SmugglerShip]
+11/09(15:56) Resetting [SilverDale]
+11/09(15:56) Resetting [OreTransport]
+11/09(15:57) Resetting [StationConduits]
+11/09(15:58) Resetting [OreTransport]
+11/09(15:58) Resetting [TerrariumBeta]
+11/09(16:01) Resetting [TerrariumAlpha]
+11/09(16:01) Resetting [AntHill]
+11/09(16:02) Resetting [TheMaze]
+11/09(16:02) Resetting [TheMaze]
+11/09(16:02) Resetting [AnomalyStation]
+11/09(16:03) Resetting [TheMaze]
+11/09(16:03) Resetting [AnomalySpaceDock]
+11/09(16:05) Resetting [MiningDock]
+11/09(16:06) Resetting [TheMaze]
+11/09(16:06) Resetting [SmugglerShip]
+11/09(16:07) Resetting [SilverDale]
+11/09(16:07) Resetting [OreTransport]
+11/09(16:08) Resetting [StationConduits]
+11/09(16:08) Resetting [RattArea]
+11/09(16:09) Resetting [OreTransport]
+12/18(19:30) Resetting [AnomalyStation]
+12/18(19:32) Resetting [Dungeon]
+12/18(19:32) Resetting [TerrariumAlpha]
+12/18(19:33) Resetting [SmugglerShip]
+12/18(19:34) Resetting [TheMaze]
+12/18(19:34) Resetting [AnomalySpaceDock]
+12/18(19:34) Resetting [TheMaze]
+12/18(19:35) Resetting [MiningDock]
+12/18(19:35) Resetting [OreTransport]
+12/18(19:36) Resetting [TheMaze]
+12/18(19:36) Resetting [SilverDale]
+12/18(19:36) Resetting [TheMaze]
+12/18(19:36) Resetting [TestArea]
+12/18(19:38) Resetting [ArcticTerrarium]
+12/18(19:38) Resetting [StationConduits]
+12/18(19:39) Resetting [OreTransport]
+12/18(19:41) Resetting [AnomalyStation]
+12/18(19:42) Resetting [AntHill]
+12/18(19:42) Resetting [TerrariumBeta]
+12/18(19:43) Resetting [TerrariumAlpha]
+12/18(19:44) Resetting [SmugglerShip]
+12/18(19:45) Resetting [AnomalySpaceDock]
+12/18(19:45) Resetting [TheMaze]
+12/18(19:46) Resetting [MiningDock]
+12/18(19:46) Resetting [OreTransport]
+12/18(19:47) Resetting [TheMaze]
+12/18(19:47) Resetting [SilverDale]
+12/18(19:47) Resetting [TheMaze]
+12/18(19:49) Resetting [StationConduits]
+12/18(19:50) Resetting [TheMaze]
+12/18(19:50) Resetting [OreTransport]
+12/18(19:52) Resetting [AnomalyStation]
+12/18(19:53) Resetting [Dungeon]
+12/18(19:54) Resetting [TerrariumAlpha]
+12/18(19:55) Resetting [SmugglerShip]
+12/18(19:56) Resetting [AnomalySpaceDock]
+12/18(19:56) Resetting [TheMaze]
+12/18(19:57) Resetting [MiningDock]
+12/18(19:57) Resetting [OreTransport]
+12/18(19:58) Resetting [TheMaze]
+12/18(19:58) Resetting [SilverDale]
+12/18(19:58) Resetting [TheMaze]
+12/18(20:00) Resetting [StationConduits]
+12/18(20:01) Resetting [OreTransport]
+12/18(20:02) Resetting [Void]
+12/18(20:03) Resetting [AnomalyStation]
+12/18(20:05) Resetting [TerrariumAlpha]
+12/18(20:06) Resetting [TheMaze]
+12/18(20:06) Resetting [SmugglerShip]
+12/18(20:07) Resetting [AnomalySpaceDock]
+12/18(20:07) Resetting [TheMaze]
+12/18(20:08) Resetting [MiningDock]
+12/18(20:08) Resetting [OreTransport]
+12/18(20:09) Resetting [TheMaze]
+12/18(20:09) Resetting [SilverDale]
+12/18(20:09) Resetting [TheMaze]
+12/18(20:11) Resetting [StationConduits]
+12/18(20:12) Resetting [OreTransport]
+12/18(20:13) Resetting [TerrariumBeta]
+12/18(20:14) Resetting [Dungeon]
+12/18(20:14) Resetting [AnomalyStation]
+12/18(20:16) Resetting [TerrariumAlpha]
+12/18(20:17) Resetting [SmugglerShip]
+12/18(20:18) Resetting [AnomalySpaceDock]
+12/18(20:18) Resetting [TheMaze]
+12/18(20:19) Resetting [MiningDock]
+12/18(20:19) Resetting [OreTransport]
+12/18(20:20) Resetting [TheMaze]
+12/18(20:20) Resetting [SilverDale]
+12/18(20:20) Resetting [TheMaze]
+12/18(20:22) Resetting [TheMaze]
+12/18(20:22) Resetting [StationConduits]
+12/18(20:23) Resetting [OreTransport]
+12/18(20:25) Resetting [AnomalyStation]
+12/18(20:27) Resetting [TerrariumAlpha]
+12/18(20:28) Resetting [SmugglerShip]
+12/18(20:29) Resetting [AnomalySpaceDock]
+12/18(20:29) Resetting [TheMaze]
+12/18(20:30) Resetting [MiningDock]
+12/18(20:30) Resetting [OreTransport]
+12/18(20:31) Resetting [TheMaze]
+12/18(20:31) Resetting [SilverDale]
+12/18(20:31) Resetting [TheMaze]
+12/18(20:33) Resetting [RattArea]
+12/18(20:33) Resetting [StationConduits]
+12/18(20:34) Resetting [OreTransport]
+12/18(20:35) Resetting [Dungeon]
+12/18(20:36) Resetting [AnomalyStation]
+12/18(20:38) Resetting [TheMaze]
+12/18(20:38) Resetting [TerrariumAlpha]
+12/18(20:39) Resetting [SmugglerShip]
+12/18(20:40) Resetting [AnomalySpaceDock]
+12/18(20:40) Resetting [TheMaze]
+12/18(20:41) Resetting [MiningDock]
+12/18(20:41) Resetting [RobotFactory]
+12/18(20:41) Resetting [OreTransport]
+12/18(20:42) Resetting [TheMaze]
+12/18(20:42) Resetting [SilverDale]
+12/18(20:42) Resetting [TheMaze]
+12/18(20:44) Resetting [TerrariumBeta]
+12/18(20:44) Resetting [StationConduits]
+12/18(20:45) Resetting [OreTransport]
+12/18(20:47) Resetting [StarshipFearless]
+12/18(20:47) Resetting [AnomalyStation]
+12/18(20:49) Resetting [TerrariumAlpha]
+12/18(20:50) Resetting [SmugglerShip]
+12/18(20:51) Resetting [AnomalySpaceDock]
+12/18(20:51) Resetting [TheMaze]
+12/18(20:52) Resetting [MiningDock]
+12/18(20:52) Resetting [OreTransport]
+12/18(20:53) Resetting [TheMaze]
+12/18(20:53) Resetting [SilverDale]
+12/18(20:53) Resetting [TheMaze]
+12/18(20:54) Resetting [TheMaze]
+12/18(20:55) Resetting [StationConduits]
+12/18(20:56) Resetting [Dungeon]
+12/18(20:56) Resetting [OreTransport]
+12/18(20:58) Resetting [AnomalyStation]
+12/18(21:00) Resetting [TerrariumAlpha]
+12/18(21:01) Resetting [SmugglerShip]
+12/18(21:02) Resetting [AnomalySpaceDock]
+12/18(21:02) Resetting [TheMaze]
+12/18(21:03) Resetting [MiningDock]
+12/18(21:03) Resetting [OreTransport]
+12/18(21:04) Resetting [TheMaze]
+12/18(21:04) Resetting [SilverDale]
+12/18(21:04) Resetting [TheMaze]
+12/18(21:06) Resetting [StationConduits]
+12/18(21:07) Resetting [OreTransport]
+12/18(21:09) Resetting [AnomalyStation]
+12/18(21:10) Resetting [TheMaze]
+12/18(21:11) Resetting [TerrariumAlpha]
+12/18(21:12) Resetting [SmugglerShip]
+12/18(21:13) Resetting [AnomalySpaceDock]
+12/18(21:13) Resetting [TheMaze]
+12/18(21:14) Resetting [MiningDock]
+12/18(21:14) Resetting [OreTransport]
+12/18(21:15) Resetting [TerrariumBeta]
+12/18(21:15) Resetting [TheMaze]
+12/18(21:15) Resetting [SilverDale]
+12/18(21:15) Resetting [TheMaze]
+12/18(21:16) Resetting [SmugglerShip]
+12/18(21:17) Resetting [Dungeon]
+12/18(21:17) Resetting [StationConduits]
+12/18(21:18) Resetting [OreTransport]
+12/18(21:20) Resetting [AnomalyStation]
+12/18(21:22) Resetting [TerrariumAlpha]
+12/18(21:23) Resetting [SmugglerShip]
+12/18(21:24) Resetting [AnomalySpaceDock]
+12/18(21:24) Resetting [TheMaze]
+12/18(21:25) Resetting [MiningDock]
+12/18(21:25) Resetting [OreTransport]
+12/18(21:26) Resetting [TheMaze]
+12/18(21:26) Resetting [TheMaze]
+12/18(21:26) Resetting [SilverDale]
+12/18(21:26) Resetting [TheMaze]
+12/18(21:28) Resetting [StationConduits]
+12/18(21:29) Resetting [OreTransport]
+12/18(21:31) Resetting [AnomalyStation]
+12/18(21:33) Resetting [TerrariumAlpha]
+12/18(21:34) Resetting [SmugglerShip]
+12/18(21:35) Resetting [AnomalySpaceDock]
+12/18(21:35) Resetting [TheMaze]
+12/18(21:36) Resetting [MiningDock]
+12/18(21:36) Resetting [OreTransport]
+12/18(21:37) Resetting [TheMaze]
+12/18(21:37) Resetting [SilverDale]
+12/18(21:37) Resetting [TheMaze]
+12/18(21:37) Resetting [TestArea]
+12/18(21:38) Resetting [Dungeon]
+12/18(21:39) Resetting [ArcticTerrarium]
+12/18(21:39) Resetting [StationConduits]
+12/18(21:40) Resetting [OreTransport]
+12/18(21:42) Resetting [TheMaze]
+12/18(21:42) Resetting [AnomalyStation]
+12/18(21:43) Resetting [AntHill]
+12/18(21:44) Resetting [TerrariumAlpha]
+12/18(21:45) Resetting [SmugglerShip]
+12/18(21:46) Resetting [TerrariumBeta]
+12/18(21:46) Resetting [AnomalySpaceDock]
+12/18(21:46) Resetting [TheMaze]
+12/18(21:47) Resetting [MiningDock]
+12/18(21:47) Resetting [OreTransport]
+12/18(21:48) Resetting [TheMaze]
+12/18(21:48) Resetting [SilverDale]
+12/18(21:48) Resetting [TheMaze]
+12/18(21:50) Resetting [StationConduits]
+12/18(21:51) Resetting [OreTransport]
+12/18(21:53) Resetting [AnomalyStation]
+12/18(21:55) Resetting [TerrariumAlpha]
+12/18(21:56) Resetting [SmugglerShip]
+12/18(21:57) Resetting [AnomalySpaceDock]
+12/18(21:57) Resetting [TheMaze]
+12/18(21:58) Resetting [TheMaze]
+12/18(21:58) Resetting [MiningDock]
+12/18(21:58) Resetting [OreTransport]
+12/18(21:59) Resetting [Dungeon]
+12/18(21:59) Resetting [TheMaze]
+12/18(21:59) Resetting [SilverDale]
+12/18(21:59) Resetting [TheMaze]
+12/18(22:01) Resetting [StationConduits]
+12/18(22:02) Resetting [OreTransport]
+12/18(22:03) Resetting [Void]
+12/18(22:04) Resetting [AnomalyStation]
+12/18(22:06) Resetting [TerrariumAlpha]
+12/18(22:07) Resetting [SmugglerShip]
+12/18(22:08) Resetting [AnomalySpaceDock]
+12/18(22:08) Resetting [TheMaze]
+12/18(22:09) Resetting [MiningDock]
+12/18(22:09) Resetting [OreTransport]
+12/18(22:10) Resetting [TheMaze]
+12/18(22:10) Resetting [SilverDale]
+12/18(22:10) Resetting [TheMaze]
+12/18(22:12) Resetting [StationConduits]
+12/18(22:13) Resetting [OreTransport]
+12/18(22:14) Resetting [TheMaze]
+12/18(22:15) Resetting [AnomalyStation]
+12/18(22:17) Resetting [TerrariumBeta]
+12/18(22:17) Resetting [TerrariumAlpha]
+12/18(22:18) Resetting [SmugglerShip]
+12/18(22:19) Resetting [AnomalySpaceDock]
+12/18(22:19) Resetting [TheMaze]
+12/18(22:20) Resetting [Dungeon]
+12/18(22:20) Resetting [MiningDock]
+12/18(22:20) Resetting [OreTransport]
+12/18(22:21) Resetting [TheMaze]
+12/18(22:21) Resetting [SilverDale]
+12/18(22:21) Resetting [TheMaze]
+12/18(22:23) Resetting [StationConduits]
+12/18(22:24) Resetting [OreTransport]
+12/18(22:26) Resetting [AnomalyStation]
+12/18(22:28) Resetting [TerrariumAlpha]
+12/18(22:29) Resetting [SmugglerShip]
+12/18(22:30) Resetting [TheMaze]
+12/18(22:30) Resetting [AnomalySpaceDock]
+12/18(22:30) Resetting [TheMaze]
+12/18(22:31) Resetting [MiningDock]
+12/18(22:31) Resetting [OreTransport]
+12/18(22:32) Resetting [TheMaze]
+12/18(22:32) Resetting [SilverDale]
+12/18(22:32) Resetting [TheMaze]
+12/18(22:34) Resetting [RattArea]
+12/18(22:34) Resetting [StationConduits]
+12/18(22:35) Resetting [OreTransport]
+12/18(22:37) Resetting [AnomalyStation]
+12/18(22:39) Resetting [TerrariumAlpha]
+12/18(22:40) Resetting [SmugglerShip]
+12/18(22:41) Resetting [Dungeon]
+12/18(22:41) Resetting [AnomalySpaceDock]
+12/18(22:41) Resetting [TheMaze]
+12/18(22:42) Resetting [MiningDock]
+12/18(22:42) Resetting [RobotFactory]
+12/18(22:42) Resetting [OreTransport]
+12/18(22:43) Resetting [TheMaze]
+12/18(22:43) Resetting [SilverDale]
+12/18(22:43) Resetting [TheMaze]
+12/18(22:45) Resetting [StationConduits]
+12/18(22:46) Resetting [TheMaze]
+12/18(22:46) Resetting [OreTransport]
+12/18(22:48) Resetting [StarshipFearless]
+12/18(22:48) Resetting [TerrariumBeta]
+12/18(22:48) Resetting [AnomalyStation]
+12/18(22:50) Resetting [TerrariumAlpha]
+12/18(22:51) Resetting [SmugglerShip]
+12/18(22:52) Resetting [AnomalySpaceDock]
+12/18(22:52) Resetting [TheMaze]
+12/18(22:53) Resetting [MiningDock]
+12/18(22:53) Resetting [OreTransport]
+12/18(22:54) Resetting [TheMaze]
+12/18(22:54) Resetting [SilverDale]
+12/18(22:54) Resetting [TheMaze]
+12/18(22:56) Resetting [StationConduits]
+12/18(22:57) Resetting [OreTransport]
+12/18(22:59) Resetting [AnomalyStation]
+12/18(23:01) Resetting [TerrariumAlpha]
+12/18(23:02) Resetting [Dungeon]
+12/18(23:02) Resetting [TheMaze]
+12/18(23:02) Resetting [SmugglerShip]
+12/18(23:03) Resetting [AnomalySpaceDock]
+12/18(23:03) Resetting [TheMaze]
+12/18(23:04) Resetting [MiningDock]
+12/18(23:13) Resetting [TerrariumBeta]
+12/18(23:14) Resetting [TheMaze]
+12/18(23:15) Resetting [TheMaze]
+12/18(23:15) Cryogen [7000]: wex
+12/18(23:15) Resetting [SmugglerShip]
+12/18(23:17) Resetting [MiningDock]
+12/18(23:19) Resetting [AnomalySpaceDock]
+12/18(23:19) Resetting [SilverDale]
+12/18(23:19) Resetting [StationConduits]
+12/18(23:19) Resetting [TheMaze]
+12/18(23:36) BugCamp/bugcamp.wld saved by Cryogen. (78 rooms)
+12/19(20:11) BugCamp/bugterr.wld saved by Cryogen. (118 rooms)
+12/19(20:12) Cryogen [7200]: osave
+12/19(20:12) BugCamp/bugterr.obj saved by Cryogen. (1 objects)
+12/19(20:12) Resetting [TheMaze]
+12/19(20:13) Resetting [AnomalyStation]
+12/19(20:14) Resetting [TheMaze]
+12/31(20:37) Resetting [TheMaze]
+12/31(20:39) Resetting [OreTransport]
+12/31(20:39) Cryogen [100]: oload 103
+12/31(20:39) Resetting [TerrariumAlpha]
+12/31(20:39) Resetting [MiningDock]
+12/31(20:39) Resetting [TheMaze]
+12/31(20:40) Resetting [TheMaze]
+12/31(20:40) Resetting [AnomalyStation]
+12/31(20:41) Cryogen [100]: purge rem
+12/31(20:41) Resetting [SilverDale]
+12/31(20:43) Resetting [AnomalySpaceDock]
+12/31(20:44) Resetting [OreTransport]
+12/31(20:45) Resetting [StationConduits]
+12/31(20:45) Resetting [TheMaze]
+12/31(20:45) Resetting [RattArea]
+12/31(20:50) Corbin [145]: decomp
+01/01(04:59) Resetting [OreTransport]
+01/01(05:01) Resetting [TheMaze]
+01/01(05:02) Resetting [OreTransport]
+01/07(13:36) Resetting [SmugglerShip]
+01/07(13:37) Resetting [TheMaze]
+01/07(13:45) Resetting [SilverDale]
+01/07(13:45) Resetting [TerrariumAlpha]
+01/07(13:46) Resetting [OreTransport]
+01/07(13:47) Resetting [TheMaze]
+01/07(13:47) Resetting [TheMaze]
+02/05(14:01) Cryogen [107]: purge all
+02/05(14:01) Cryogen [106]: purge all.rem
+02/05(14:01) Resetting [TheMaze]
+02/05(14:02) Resetting [SmugglerShip]
+02/05(14:02) Resetting [TerrariumAlpha]
+02/05(14:02) Resetting [StarshipFearless]
+02/05(14:03) Resetting [TerrariumBeta]
+02/05(14:03) Resetting [AnomalySpaceDock]
+02/05(14:04) Resetting [OreTransport]
+02/05(14:04) Resetting [TheMaze]
+02/05(14:04) Resetting [TheMaze]
+02/05(14:04) Resetting [BugCamp]
+02/05(14:05) Resetting [StationConduits]
+02/05(14:08) Resetting [OreTransport]
+02/05(14:08) Resetting [MiningDock]
+02/05(14:08) Resetting [AnomalyStation]
+02/05(14:08) Resetting [SilverDale]
+02/05(14:10) Resetting [TheMaze]
+02/05(14:12) Resetting [TheMaze]
+02/05(14:13) Resetting [SmugglerShip]
+02/05(14:13) Resetting [TerrariumAlpha]
+02/05(14:14) Resetting [AnomalySpaceDock]
+02/05(14:15) Resetting [OreTransport]
+02/05(14:15) Resetting [TheMaze]
+02/05(14:15) Resetting [TheMaze]
+02/05(14:16) Resetting [Dungeon]
+02/05(14:16) Resetting [StationConduits]
+02/05(14:19) Resetting [OreTransport]
+02/05(14:19) Resetting [MiningDock]
+02/05(14:19) Resetting [AnomalyStation]
+02/05(14:19) Resetting [SilverDale]
+02/05(14:21) Resetting [BugCamp]
+02/05(14:23) Resetting [TheMaze]
+02/05(14:24) Resetting [TestArea]
+02/05(14:24) Resetting [SmugglerShip]
+02/05(14:24) Resetting [TerrariumAlpha]
+02/05(14:25) Resetting [AnomalySpaceDock]
+02/05(14:25) Resetting [ArcticTerrarium]
+02/05(14:26) Resetting [OreTransport]
+02/05(14:26) Resetting [TheMaze]
+02/05(14:26) Resetting [TheMaze]
+02/05(14:26) Resetting [TheMaze]
+02/05(14:27) Resetting [StationConduits]
+02/05(14:30) Resetting [OreTransport]
+02/05(14:30) Resetting [MiningDock]
+02/05(14:30) Resetting [AnomalyStation]
+02/05(14:30) Resetting [SilverDale]
+02/05(14:34) Resetting [TerrariumBeta]
+02/05(14:34) Resetting [TheMaze]
+02/05(14:35) Resetting [SmugglerShip]
+02/05(14:35) Resetting [TerrariumAlpha]
+02/05(14:36) Resetting [AnomalySpaceDock]
+02/05(14:37) Resetting [OreTransport]
+02/05(14:37) Resetting [TheMaze]
+02/05(14:37) Resetting [TheMaze]
+02/05(14:37) Resetting [Dungeon]
+02/05(14:38) Resetting [StationConduits]
+02/05(14:41) Resetting [OreTransport]
+02/05(14:41) Resetting [MiningDock]
+02/05(14:41) Resetting [AnomalyStation]
+02/05(14:41) Resetting [SilverDale]
+02/05(14:42) Resetting [TheMaze]
+02/05(14:45) Resetting [TheMaze]
+02/05(14:46) Resetting [SmugglerShip]
+02/05(14:46) Resetting [TerrariumAlpha]
+02/05(14:47) Resetting [AnomalySpaceDock]
+02/05(14:48) Resetting [OreTransport]
+02/05(14:48) Resetting [TheMaze]
+02/05(14:48) Resetting [TheMaze]
+02/05(14:49) Resetting [StationConduits]
+02/05(14:52) Resetting [OreTransport]
+02/05(14:52) Resetting [MiningDock]
+02/05(14:52) Resetting [AnomalyStation]
+02/05(14:52) Resetting [SilverDale]
+02/05(14:56) Resetting [TheMaze]
+02/05(14:57) Resetting [SmugglerShip]
+02/05(14:57) Resetting [TerrariumAlpha]
+02/05(14:58) Resetting [AnomalySpaceDock]
+02/05(14:58) Resetting [Dungeon]
+02/05(14:58) Resetting [TheMaze]
+02/05(14:59) Resetting [OreTransport]
+02/05(14:59) Resetting [TheMaze]
+02/05(14:59) Resetting [TheMaze]
+02/05(15:00) Resetting [StationConduits]
+02/05(15:03) Resetting [OreTransport]
+02/05(15:03) Resetting [MiningDock]
+02/05(15:03) Resetting [AnomalyStation]
+02/05(15:03) Resetting [SilverDale]
+02/05(15:05) Resetting [TerrariumBeta]
+02/05(15:05) Resetting [Void]
+02/05(15:07) Resetting [TheMaze]
+02/05(15:08) Resetting [SmugglerShip]
+02/05(15:08) Resetting [TerrariumAlpha]
+02/05(15:09) Resetting [AnomalySpaceDock]
+02/05(15:10) Resetting [OreTransport]
+02/05(15:10) Resetting [TheMaze]
+02/05(15:10) Resetting [TheMaze]
+02/05(15:11) Resetting [StationConduits]
+02/05(15:14) Resetting [OreTransport]
+02/05(15:14) Resetting [MiningDock]
+02/05(15:14) Resetting [AnomalyStation]
+02/05(15:14) Resetting [TheMaze]
+02/05(15:14) Resetting [SilverDale]
+02/05(15:15) Resetting [RobotFactory]
+02/05(15:18) Resetting [TheMaze]
+02/05(15:19) Resetting [Dungeon]
+02/05(15:19) Resetting [SmugglerShip]
+02/05(15:19) Resetting [TerrariumAlpha]
+02/05(15:20) Resetting [AnomalySpaceDock]
+02/05(15:21) Resetting [OreTransport]
+02/05(15:21) Resetting [TheMaze]
+02/05(15:21) Resetting [TheMaze]
+02/05(15:22) Resetting [AntHill]
+02/05(15:22) Resetting [StationConduits]
+02/05(15:24) Cryogen [103]: heal test
+02/05(15:24) Cryogen [103]: heal test
+02/05(15:25) Resetting [OreTransport]
+02/05(15:25) Resetting [MiningDock]
+02/05(15:25) Resetting [AnomalyStation]
+02/05(15:25) Resetting [RattArea]
+02/05(15:25) Resetting [SilverDale]
+02/05(15:32) Resetting [TheMaze]
+02/05(15:33) Resetting [TheMaze]
+02/05(15:33) Resetting [SilverDale]
+02/05(15:33) Resetting [TheMaze]
+02/05(15:34) Resetting [TheMaze]
+02/05(15:34) Resetting [OreTransport]
+02/05(15:35) Resetting [OreTransport]
+02/05(15:35) Resetting [TerrariumAlpha]
+02/05(15:35) Resetting [StationConduits]
+02/05(15:35) Resetting [AnomalyStation]
+02/05(15:38) Resetting [MiningDock]
+02/05(15:39) Resetting [AnomalySpaceDock]
+02/05(15:42) Resetting [SmugglerShip]
+02/05(16:58) Resetting [MiningDock]
+02/05(16:59) Resetting [SilverDale]
+02/05(16:59) Resetting [AnomalySpaceDock]
+02/05(17:03) Resetting [OreTransport]
+02/05(17:03) Resetting [MiningDock]
+02/05(17:04) Resetting [AnomalySpaceDock]
+02/05(17:04) Resetting [AntHill]
+02/05(17:05) Resetting [TheMaze]
+02/05(17:06) Resetting [TerrariumBeta]
+02/05(17:28) Resetting [TheMaze]
+02/05(17:29) Resetting [SilverDale]
+02/05(17:32) Resetting [OreTransport]
+02/06(01:18) Resetting [AnomalyStation]
+02/06(01:18) Resetting [TheMaze]
+02/06(01:18) Resetting [SmugglerShip]
+02/06(01:18) Resetting [SmugglerShip]
+02/06(01:19) Resetting [TheMaze]
+02/06(01:19) Resetting [TerrariumAlpha]
+02/06(01:20) Resetting [SilverDale]
+02/06(01:24) Resetting [TheMaze]
+02/06(01:24) Resetting [OreTransport]
+02/06(02:30) Resetting [TheMaze]
+02/06(02:34) Resetting [TheMaze]
+02/06(02:38) Resetting [SilverDale]
+02/06(02:38) Resetting [MiningDock]
+02/06(02:39) Resetting [SmugglerShip]
+02/06(02:40) Resetting [TerrariumAlpha]
+02/06(02:44) Resetting [OreTransport]
+02/06(02:45) Resetting [MiningDock]
+02/06(02:45) Resetting [OreTransport]
+02/06(02:45) Resetting [AnomalySpaceDock]
+02/06(02:46) Resetting [TerrariumAlpha]
+01/30(08:27) Resetting [AnomalySpaceDock]
+01/30(08:28) Resetting [TheMaze]
+01/30(08:29) Resetting [SilverDale]
+01/30(08:29) Resetting [TheMaze]

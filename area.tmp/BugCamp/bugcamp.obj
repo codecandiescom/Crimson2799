@@ -1,0 +1,111 @@
+#7000
+modified needler pistol~
+a modified needler pistol~
+a modified needler pistol is laying on the ground here~
+This slightly modified version of the needler pistol has new, never before 
+seen technology added by the Yurks that boosts the firing rate slightly. If 
+you thought the original Needler Pistol packed a punch, wait untill you get 
+nailed with one of these. 
+~
+WEAPON 0 EITHER-HAND
+0 0 17760768 51314952
+10 600 950
+#7001
+club O' death~
+a club O' death~
+a club O' death is impatiantly waiting to bash someones brains in~
+The ultimate weapon of destruction 
+~
+WEAPON INVISIBLE HELD
+0 0 1684288000 1280
+0 0 0
+A
+STR 124
+#7002
+blue ion stone~
+a blue ion stone~
+a blue ion stone is here glowing ominously~
+The stone is incredibly light for how dense it looks. It is slightly 
+transparent and inside all you can see is a big swirl of blue light 
+~
+ARMOR GLOW|NODROP WAIST
+10 0 196608 0
+5 950 1100
+A
+CON 5
+A
+DAMROLL 5
+A
+POWER 10
+A
+HIT 10
+#7003
+Force Field Key~
+a Force Field Key~
+a small, wierdly shaped prism is lying on the ground~
+The force field key is small and has a very strange shape 
+~
+KEY 0 NOWEAR
+7003 0 0 0
+1 0 0
+#7004
+Key Safe~
+a Key Safe~
+there is a Key Safe hanging on the wall here~
+the key holder is simply a carved rock with a small force field blocking 
+your way to the key 
+~
+CONTAINER 0 NOWEAR
+1 15 7005 0
+0 0 0
+#7005
+Safe Key~
+a Safe Key~
+a small sphereical key is sitting on the groud collecting dust~
+the key is small and resembles a sphere about the size of your fist 
+~
+KEY 0 NECK
+7005 0 0 0
+1 0 0
+#7006
+Dead Explorer corpse~
+Dead Explorer~
+a bloody corpse of an explorer is laying on the ground~
+The corpse is torn to shreds and its hard to believe this bloody mess was 
+once an explorer 
+~
+CONTAINER 0 NOWEAR
+2 21 0 0
+0 0 0
+#7007
+night vision goggles~
+night vision goggles~
+a pair of night vision goggles are sitting on the ground~
+The goggles look high tech and very expensive. I wouldn't lose these if you 
+just baught them
+~
+LIGHT CARRY2USE HEAD
+5 6 2 0
+3 482 571
+#7008
+diary book~
+diary~
+a blood covered book is here~
+Day 4: We have arrived at the Yurks nest and are setting up camp just 
+outside the entrance. So far we have seen no signs of life out of the nest 
+but we can hear the faint sounds of something deep within the caves. 
+-----------------------------------------------------------------------------
+ Day 7: We have sent a small team of troops into the Yurk's nest but have 
+not heard anything from them and we fear the worst. The sounds from inside 
+the nest seem to be getting closer to us and there have been rumors of 
+sightings around the entrance to the nest. 
+-----------------------------------------------------------------------------
+ Day 11: The Yurks have emerged from the nest and are extremly hostile! 
+Retreate has been ordered but it is too late. I fear this may be my last 
+entry, and if anyone lay hands on this I warn you, do NOT come anywhere near 
+this camp site if you value your life.. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+1 0 0
+$

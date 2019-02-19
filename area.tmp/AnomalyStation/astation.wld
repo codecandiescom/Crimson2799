@@ -1,0 +1,3691 @@
+#100
+Eclipse~
+  You are aboard the space transport vessel Eclipse. This is the transport 
+vessel which brought you to Anomaly Station. There is a sign on the wall 
+here. ^G(First time players type "^glook at sign^G" on your keyboard now) 
+~
+1 NOMOB INDOORS
+D0
+The docking door 
+~
+dock door~
+0 -1 101
+D3
+~
+~
+0 -1 159
+D1
+~
+~
+0 -1 160
+E
+sign~
+^wThe sign reads:^b
+
+Welcome to Crimson2799! For the first few rooms there's always going to be a
+sign to help get you introduced to the game, and basically help make life a
+little easier on you. This sign deals with the first thing you should know,
+namely how to move around.
+
+In this game you can generally move in any of 6 directions, "north", "south",
+"east", "west", "up" and "down". Now since typing "north" every time you wanted
+to move north would get tedious in a hurry, you would typically only type the
+first letter and save yourself a little bit of typing.
+
+Please type "n" on your keyboard now.
+~
+S
+#101
+Shuttle Bay Alpha~
+  You are in Shuttle Bay Alpha, the main shuttle bay of Anomaly Station. 
+This is where all oversized transports dock. You see a large sign posted on 
+the north wall written in every language imaginable. Perhaps you should 
+"look at sign" and do what it tells you to do. 
+~
+1 0 CITY-OUTSIDE
+D2
+A space transport vessle. 
+~
+dock door~
+0 -1 100
+D0
+The Docking Ring 
+~
+~
+0 -1 103
+E
+sign wall north~
+The sign reads:
+                  ^yANOMALY STATION
+                 ^aSpace Dock 413.33
+   ^cAll people new to Anomaly Station ^rmust^c report 
+      immediately to their respective embassy 
+               located in Habitat 1.
+           (When you are done here, go north)
+~
+S
+#102
+Shuttle Bay Beta~
+  You are in a large docking bay. 
+~
+1 0 CITY-OUTSIDE
+D3
+Shuttle docking door 
+~
+docking door~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 166
+D1
+The Docking Ring 
+~
+~
+0 -1 103
+D0
+A Storage Bay 
+~
+~
+0 -1 107
+S
+#103
+Docking Ring~
+  You are in the centre of the docking ring. All around you are docking bays 
+and storage bays. There is some graffiti spray painted on the floor here. 
+^G(Type "^glook graffiti^G" on your keyboard) 
+~
+1 0 CITY-OUTSIDE
+D5
+Shuttle Bay Delta 
+~
+~
+0 -1 105
+D4
+Shuttle Bay Epsilon 
+~
+~
+0 -1 106
+D3
+Shuttle Bay Beta 
+~
+~
+0 -1 102
+D2
+Shuttle Bay Alpha 
+~
+~
+0 -1 101
+D1
+Shuttle Bay Gamma 
+~
+~
+0 -1 104
+D0
+The Docking Ring 
+~
+~
+0 -1 108
+E
+graffiti~
+The graffiti reads:
+There are many, many settings you can change to modify how the game looks and
+plays. You can adjust almost all of these with the SET command. Type SET on
+your keyboard now for a list of everything you can change. For those people
+who have ansi turned on you can customize the colors for pretty much anything
+using the SETCOLOR command.
+
+                    (When you are done here, go north)
+~
+S
+#104
+Shuttle Bay Gamma~
+  You are in a large docking bay. 
+~
+1 0 CITY-OUTSIDE
+D3
+The Docking Ring 
+~
+~
+0 -1 103
+D0
+A Storage Bay 
+~
+~
+0 -1 109
+D1
+Shuttle docking door 
+~
+docking door~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 166
+S
+#105
+Shuttle Bay Delta~
+  You are in a large docking bay. 
+~
+1 0 CITY-OUTSIDE
+D4
+The Docking Ring 
+~
+~
+0 -1 103
+D0
+A Storage Bay 
+~
+door storage bay~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 100 110
+D5
+Shuttle docking door 
+~
+docking door~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 100 172
+S
+#106
+Shuttle Bay Epsilon~
+  You are in a large docking bay. 
+~
+1 0 CITY-OUTSIDE
+D5
+The Docking Ring 
+~
+~
+0 -1 103
+D0
+A Storage Bay 
+~
+~
+0 -1 111
+D4
+Shuttle docking door 
+~
+docking door~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 166
+S
+#107
+Storage Bay Beta~
+  You are in a large storage bay. Containers of all shapes and sizes are 
+stacked neatly along the walls. 
+~
+1 0 CITY-OUTSIDE
+D1
+The Docking Ring 
+~
+~
+0 -1 108
+D2
+Shuttle Bay Beta 
+~
+~
+0 -1 102
+S
+#108
+Docking Ring~
+  You are in the centre of the docking ring. All around you are docking bays 
+and storage bays. There is some graffiti spray painted on the floor here. 
+~
+1 0 CITY-OUTSIDE
+D5
+Storage Bay Delta 
+~
+door storage bay~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 100 110
+D4
+Storage Bay Epsilon 
+~
+~
+0 -1 111
+D3
+Storage Bay Beta 
+~
+~
+0 -1 107
+D2
+The Docking Ring 
+~
+~
+0 -1 103
+D1
+Storage Bay Gamma 
+~
+~
+0 -1 109
+D0
+The Station Junction 
+~
+~
+0 -1 112
+E
+graffiti~
+The graffiti reads:
+There is a short tutorial on how to get started in the game. If you feel up
+to a little reading you can start it off by typing "HELP INTRO". Those of you
+interested should definitely check out the background story to the game by
+typing "HELP STORY". 
+
+                    (When you are done here, go north)
+~
+S
+#109
+Storage Bay Gamma~
+  You are in a large storage bay. Containers of all shapes and sizes are 
+stacked neatly along the walls. 
+~
+1 0 CITY-OUTSIDE
+D3
+The Docking Ring 
+~
+~
+0 -1 108
+D2
+Shuttle Bay Gamma 
+~
+~
+0 -1 104
+S
+#110
+Storage Bay Delta~
+  You are in a large storage bay. Containers of all shapes and sizes are
+stacked neatly along the walls. 
+~
+1 0 CITY-OUTSIDE
+D4
+The Docking Ring
+~
+door docking ring~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 100 108
+D2
+Shuttle Bay Delta
+~
+door storage bay~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 100 105
+S
+#111
+Storage Bay Epsilon~
+  You are in a large storage bay. Containers of all shapes and sizes are 
+stacked neatly along the walls. 
+~
+1 0 CITY-OUTSIDE
+D5
+The Docking Ring 
+~
+~
+0 -1 108
+D2
+Shuttle Bay Epsilon 
+~
+~
+0 -1 106
+S
+#112
+Station Junction~
+  You are at the main junction joining Habitat 1, Habitat 2, and engineering.
+There's a sign on the wall. If you want to read the sign, type on your 
+keyboard `look at sign'.
+~
+1 NOMOB CITY-OUTSIDE
+D3
+~
+~
+0 -1 149
+D2
+~
+~
+0 -1 108
+D1
+~
+~
+0 -1 114
+D0
+~
+door engineering~
+ISDOOR|PICKPROOF|LOCKED|CLOSED 168 113
+E
+sign wall~
+The sign reads:
+                           ^aA
+                           |
+                  ^YEngineering (north)
+
+^a<-- ^YHabitat 1 (west)               Habitat 2 (east) ^a-->
+     (Registration)                    (Club Med)
+                  ^YShuttle Bays (south) 
+                   ^a        |
+                           V
+
+        New arrivals should report to Registration
+        for processing and standard issue equipment
+~
+S
+#113
+Engineering~
+  Engineering is the communications and power core of the entire station. 
+Actually, everyone knows that each embassy maintains its own power supply 
+because the humans running Engineering are unreliable to a fault. The 
+business sector maintains its own power and communications as well. Just 
+about the only thing that depends on Engineering is the sewage system, and 
+it's always backing up and clogging. However, the humans like to THINK that 
+Engineering is the communications and power core of the entire station. 
+~
+1 NOMOB CITY-OUTSIDE
+D0
+~
+door~
+ISDOOR|CLOSED -1 224
+D2
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED 168 112
+S
+#114
+Access Shaft 2~
+  You are in an access shaft leading from Habitat 2 to the Docking Ring. The
+access shaft is circular and has a modified gravity field to allow for the 
+change in orientation you must undergo when moving between the Habitat's 
+gravity and the artificial gravity of the Docking Ring. Maybe you should 
+hurry on; the modified g-field is making you feel queasy.
+~
+1 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 116
+D3
+Station Junction
+~
+~
+0 -1 112
+S
+#115
+Cash-O-Matic Automated Teller~
+  You are in a small room, separated from the busy foyer by a thin glass
+wall. There is a sign on the wall.
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 121
+E
+sign~
+The sign reads:
+                  CASH-O-MATIC AUTOMATED TELLER COMMANDS:
+                  -> Type "balance" to view your account balance.
+                  -> Type "withdraw ##" to withdraw ## credits.
+                  -> Type "deposit ##" to deposit ## credits.
+~
+S
+#116
+Habitat 2 Courtyard~
+  You are standing in the Anomaly Station Habitat 2 Courtyard. Corridors 
+lead in every direction: north to the business sector, east to Anomaly Station 
+Administration, west to the famous Club Med (cryogenics to the stars), south 
+to the station's Arboretum, and up to the docking ring.
+~
+1 0 INDOORS
+D4
+~
+~
+0 -1 114
+D0
+~
+~
+0 -1 121
+D1
+~
+~
+0 -1 117
+D2
+~
+~
+0 -1 140
+D3
+~
+~
+0 -1 123
+S
+#117
+Anomaly Station Administration~
+  You are in the large, well-lit office of Anomaly Station's Administration.
+There are many clerks running hither and thither with code-boards. Someone 
+in the corner is photocopying a LOT of documents. You see a large counter
+out front with a sign reading `Reception'.
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 118
+D1
+~
+~
+0 -1 119
+D2
+~
+~
+0 -1 120
+D3
+~
+~
+0 -1 116
+E
+sign~
+There is a sign post here:
+Registration - North
+Equipment - South
+Training - East
+~
+S
+#118
+Licencing and Registration~
+  You are in another large, well-lit office of Anomaly Station's 
+Administration. There are even more clerks here than in reception! There is 
+a large counter out front with a sign reading `Licencing and Registration'. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 117
+E
+sign~
+The sign says, "Licensing and Registration".
+~
+S
+#119
+Virtual Reality Training~
+  You are in a dim room with virtual reality booths branching off to the
+north and east. The air feels electric.  You can hear battle cries from
+people fighting unseen monsters.
+~
+1 0 INDOORS
+D0
+Trajaki Battle VR
+~
+~
+0 -1 163
+D1
+Fantasy VR Booths
+~
+~
+0 -1 164
+D2
+There is a sign on the door that reads "STAFF ONLY"
+~
+door~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 161
+D3
+~
+~
+0 -1 117
+S
+#120
+Equipment Stores Booth~
+  You are in a small booth looking through a thick glass partition into the 
+much larger room of the Equipment Stores. There is a small microphone on 
+either side of the glass so that you can talk with people in the Equipment 
+Stores. There is a sliding drawer imbedded in the wall beneath the glass 
+allowing you to pass objects to and from the other room. 
+~
+1 0 INDOORS
+D2
+A glass partition 
+~
+glass partition~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 162
+D0
+~
+~
+0 -1 117
+E
+microphone mike~
+The microphone will transmit your voice to the room on the other 
+side of the glass wall.
+
+~
+P
+@command~
+{
+  thing t;
+  if(Hello(COMMAND)) {
+    BLOCK_CMD=TRUE;
+    CharAction(EVENT_THING,COMMAND);
+    if(ThingFind(NULL,162,WorldOf(162),TF_MOB,0)!=TNULL) {
+      SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_DST|SEND_AUDIBLE,"^pAn Equipment Officer speaks through the glass:\n  ^g\"If you have an equipment chit, please deposit it in the drawer.\"\n");
+      SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_AUDIBLE,"^G  (type \"put equip drawer\")\n");
+    }
+    else {
+      SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE,"^bThere doesn\'t seem to be anyone (alive) in the equipment stores.\n");
+    }
+  }
+  else {
+    if(StrIsCmd(COMMAND,"put")) {
+      if(ThingGetType(EVENT_THING)==TTYPE_PLR) {
+        if(ThingFind(NULL,162,WorldOf(162),TF_MOB,0)!=TNULL) {
+          if(StrIsCmd(CMD_DSTKEY,"drawer")) {
+            t=ThingFind(CMD_SRCKEY, -1,EVENT_THING,TF_OBJ,CMD_SRCOFFSET);
+            BLOCK_CMD=TRUE;
+            if(ObjectGetVirtual(t)==118) {
+              ObjectFree(t);
+              SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_ROOM|SEND_VISIBLE,"^aAn Equipment Officer briskly slides the drawer closed.\n");
+              SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_ROOM|SEND_AUDIBLE,"^pAn Equipment Officer speaks through the glass:\n  ^g\"Here is your standard issue equipment.\"\n");
+              SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_ROOM|SEND_VISIBLE,"^aAn Equipment Officer briskly slides the drawer open.\n");
+              ObjectCreate(WorldOf(120),120);
+              ObjectCreate(WorldOf(120),123);
+              ObjectCreate(WorldOf(120),126);
+              ObjectCreate(WorldOf(120),127);
+              ObjectCreate(WorldOf(120),130);
+              ObjectCreate(WorldOf(120),162);
+              ObjectCreate(WorldOf(120),163);
+              ObjectCreate(WorldOf(120),129);
+              ObjectCreate(WorldOf(120),165);
+              SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_ROOM|SEND_VISIBLE,"^aSome equipment falls out of the drawer onto the floor.\n");
+              SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE,"^a(type \"get all\" and then \"equip all\")\n");
+            }
+          }
+        }
+      }
+    }
+  }
+}~
+S
+#121
+Business Sector~
+  You are in the business sector of Anomaly Station. To the west is 
+Quinton's, one of the few respectable bars on the station. North leads 
+further into the business sector. To the south is the Habitat 2 Courtyard. 
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 122
+D1
+~
+~
+0 -1 115
+D2
+~
+~
+0 -1 116
+D0
+~
+~
+0 -1 124
+S
+#122
+Quinton's Cabaret and Bar~
+  You are in a dark room with tables lit with candles. Several of the tables
+are occupied. At the back of the room is a long bar running the length of 
+the room and polished to a shine. Black and white pictures line the walls
+depicting historical scenes from dozens of different planets. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 121
+S
+#123
+Club Med~
+  You are in the inter-galactic famous Club Med (Cryogenics to the stars!). 
+You know this because a HUGE sign hanging on the wall tells you as much. The
+room is clean and brightly lit. Cryo-techs are hurrying around in white lab 
+coats. You notice the floor is shiny and absolutely spotless (except where
+you have just walked). There is a sign in the middle of the room.
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 116
+D3
+~
+~
+0 -1 157
+D2
+~
+~
+0 -1 158
+E
+sign middle~
+The sign reads:                                            ^w* * * * *
+^w                                                           *^r#######^w*
+^g        ########    ###   ###    ###   #######         ^w* * *^r#######^w* * *
+^g      ###      ###  ###   ###    ###   ##   ###        ^w*^r###############^w*
+^g     ###            ###   ###    ###   ######          ^w*^r###############^w*
+^g     ###            ###    ########    ##   ###        ^w*^r###############^w*
+^g     ###        ^p/%%%^g########^p%%%%%^g      #######         ^w* * *^r#######^w* * * 
+^g      ###      ###^p%%%%%   %%%%%%%   /%%%%%%%%%   /%%%%%% ^w  *^r#######^w*
+^g        ########^p%%%%  %%%%%% %%%%   %%%          %%    %% ^w * * * * *
+^p                %%%%   %%%   %%%%   %%%%%%       %%     %%
+^p                %%%%    %    %%%%   %%%          %%    %% 
+^p                %%%/         %%%/   %%%%%%%%%%/  %%%%%%%/
+      
+                  ^b**   ^cCryogenics To The Stars!   ^b**
+
+    ^CWe are pleased to announce that the Anomaly Station Club Med
+    ^Cbrain dumping station is now operational. Healing and 
+    ^Cbiomedical facilities are under construction. We thank you 
+    ^Cfor your patience. Enjoy your visit. 
+                                      ^Y  Club Med Management
+                                      ^Y    Anomaly Station 
+~
+S
+#124
+Business Sector Cross Corridor~
+  You are at the main cross corridor for the business sector. It is obvious 
+from the number of creatures here that business is good! There is a 
+holographic projection in the middle of the corridor. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 121
+D3
+~
+~
+0 -1 125
+D0
+~
+~
+0 -1 126
+D1
+~
+~
+0 -1 127
+D5
+~
+~
+0 -1 1321
+E
+holographic projection middle~
+You see a large holographic projection of the famous explorer Morzit, the first
+human to ever set foot in Anomaly Station. He seems larger-than-life! Everyone
+knows, however, that he's gone insane and is hidden away by the military in 
+some forgotten corner of the universe.
+~
+S
+#125
+Business Sector~
+  You are in the business sector. To the north is the entrance to Bullet's 
+`R' Us, for all your ammunition needs. To the south is Energy Emporium, 
+ready to see to all your battery and recharge requirements. How convenient - 
+death from both sides. The business sector cross corridor lies to the east. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 130
+D1
+~
+~
+0 -1 124
+D0
+~
+~
+0 -1 131
+D3
+~
+~
+0 -1 253
+S
+#126
+Business Sector~
+  You are in the business sector. To the west you see the Big-O Casino, a 
+popular place for caring anomaly explorers to graciously re-introduce their 
+credits into circulation. To the east lies Patty's Pawn Shop. The business
+sector continues north and south.
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 128
+D1
+~
+~
+0 -1 137
+D3
+~
+~
+0 -1 136
+D2
+~
+~
+0 -1 124
+S
+#127
+Business Sector~
+  You are in the business sector. To the north is Robot City. To the south
+lies Cyberware Incorporated. The business sector continues to the east, and
+the cross corridor lies to the west.
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 129
+D2
+~
+~
+0 -1 132
+D3
+~
+~
+0 -1 124
+S
+#128
+Business Sector~
+  You are in the business sector. The Watering Hole, one of Anomaly Station's
+less reputable establishments, lies to the west. The business sector continues
+to the south.
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 139
+D3
+~
+~
+0 -1 138
+D2
+~
+~
+0 -1 126
+S
+#129
+Business Sector~
+  You are in the business sector. The entrance to Gene Benders lies to the 
+south, there's a drug store to the north, and a trendy outdoor clothing 
+store has unfortunately set up a shop to the east. The business sector 
+continues to the west. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 256
+D2
+~
+~
+0 -1 134
+D0
+~
+~
+0 -1 135
+D3
+~
+~
+0 -1 127
+S
+#130
+Energy Emporium~
+  You are in the way-cool Energy Emporium for all your energy needs. Power
+sockets of every kind and shape line the walls. Batteries of all sizes 
+occupy shelves upon shelves throughout the store.
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 125
+S
+#131
+Bullets `R' Us~
+  There are bullets everywhere! Big bullets. Little bullets. Fat bullets. 
+Skinny bulets. One hanging on the wall is as big as your head. Oh my!
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 125
+S
+#132
+Cyberware~
+  All around you are electronic gadgets which, if properly mounted upon your 
+person, would enhance your capabilities many times over. You get giddy just 
+being close to this stuff. A sign on the wall says that they REDEEM chip 
+scans here. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 127
+S
+#133
+Robot City~
+  This place sells pets. They stand along the walls, silent, spotless and 
+shiny, waiting to serve  you in whatever way you please. After all, robots 
+are an explorer's best friends! 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 127
+E
+pets robots walls~
+The robots are standing along the walls, waitimg to die with you for some hopeless cause.
+~
+S
+#134
+Gene Benders~
+  You are standing in a room painted in the most boring shade of grey
+imaginable. A big sign on the wall says that they REDEEM biological scan
+data here. It seems they will also EXAMINE your scanner for free.
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 129
+S
+#135
+Dope'n'Soap~
+  Mmmm, smells nice in here. This store houses isle upon isle of drugs, 
+soaps, medicines, ointments, bandages, antiperspirants, and other assorted 
+drug-store stuff. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 129
+S
+#136
+Big-O Casino~
+  You are in a large, luxurious gambling establishment. Slot machines (the 
+only legal form of gambling - less casualties that way) are aligned in rows 
+upon rows, just begging to give you money! 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 126
+E
+slot machines~
+When you deposit your 10 Galciv credits and <pull> the <handle>, the machine
+will turn its three wheels for a while and then swallow your money. That's how
+the Station Administration controls inflation and makes their time here
+worthwhile.
+Oh, sometimes the numbers on the wheels will sum up to 10, and then
+you can actually get five times as much as you deposited. Or all three of them
+will be the same and then you can get 50 times as much (guess how often that
+happens).
+All in all, please don't leave until you succeed... in spending all
+your cash.
+
+~
+P
+@command~
+{
+  int w1, w2, w3, money, amount/* win if i) all three numbers are the same (50x), or ii) they sum up to 10 (5x)*/;
+  amount=10;
+  if(CMD_CMD=="deposit") {
+    SendThing(EVENT_THING,"Just <pull> the <handle>, dummy.\n");
+    BLOCK_CMD=1;
+    stop;
+  }
+  if(CMD_CMD=="pull") {
+    if(CMD_SRCKEY!="handle") {
+      SendThing(EVENT_THING,"Pull what\?\n");
+      BLOCK_CMD=1;
+      stop;
+    }
+    if(CharGetMoney(EVENT_THING)<10) {
+      SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_CAPFIRST,"$n tries to gamble but doesn\'t have enough money!\n");
+      SendThing(EVENT_THING,"You don\'t have enough money on you!\n");
+      BLOCK_CMD=1;
+      stop;
+    }
+    w1=Number(0,9);
+    w2=Number(0,9);
+    w3=Number(0,9);
+    if((w1==w2)&&(w2==w3)) {
+      SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_CAPFIRST,"$n wins!\n");
+      amount=amount*50;
+      SendThingStr(EVENT_THING,"The numbers are: %i, %i, %i.\nYou win %i GalCiv credits!\n",w1,w2,w3,amount);
+      CharSetMoney(EVENT_THING,CharGetMoney(EVENT_THING)+amount);
+      BLOCK_CMD=1;
+      stop;
+    }
+    else {
+      if(w1+w2+w3==10) {
+        SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_CAPFIRST,"$n wins!\n");
+        amount=amount*5;
+        SendThingStr(EVENT_THING,"The numbers are: %i, %i, %i.\nYou win %i GalCiv credits!\n",w1,w2,w3,amount);
+        CharSetMoney(EVENT_THING,CharGetMoney(EVENT_THING)+amount);
+        BLOCK_CMD=1;
+        stop;
+      }
+    }
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_CAPFIRST,"$n loses!\n");
+    SendThingStr(EVENT_THING,"The numbers are: %i, %i, %i.\nYou just lost %i GalCiv credits! Keep it up!\n",w1,w2,w3,amount);
+    CharSetMoney(EVENT_THING,CharGetMoney(EVENT_THING)-amount);
+    BLOCK_CMD=1;
+  }
+}~
+S
+#137
+Patty's Pawn Shop~
+  You are standing in what was once a pawn shop. Chances are, they will 
+reopen again. After all, the station is full of loosers. For the time being, 
+Patty sells some basic exploring equipment.
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 126
+S
+#138
+The Watering Hole Bar & Grill~
+  The Watering Hole is not what you would call an exclusive place to eat. It 
+is dirty and stinky, but cozy enough for some anyway. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 128
+D3
+a metal grate 
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|HIDDEN -1 1423
+S
+#139
+Closed for Renovation~
+  You are in what appears to have once been a restaurant. However, you don't
+recognize the cheap, uncomfortable plastic seats designed to entice patrons
+to leave as soon as possible. Nor do you recognize the barbaric counter where
+you think food must have been served from. At any rate, the room has been 
+completely trashed. With a start, you spot one of the old food items
+on the ground - its wax paper wrapper matches the pattern on the walls. The
+food shows no sign of deterioration whatsoever. 
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 128
+S
+#140
+Arboretum~
+  You are standing at the entrance to Anomaly Station's Arboretum. A huge 
+Optilitmus tree (genetically engineered) from Bonazwai forms a huge arc with 
+its roots forming the entrance. Picamus vines have twined themselves around 
+the Optilitmus tree and hang down, bearing their fruit for people to sample. 
+Paths to the west, east, and south lead further into the Arboretum. A path 
+to the north leads back to the Habitat 2 Courtyard. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 148
+D1
+~
+~
+0 -1 147
+D3
+~
+~
+0 -1 141
+D0
+~
+~
+0 -1 116
+S
+#141
+Arboretum~
+  Thousands of species of plants from hundreds of planets fill the large 
+dome-roofed structure. This arboretum is particularly famous for the way the 
+plants have been selected to complement one another in their nutritional 
+requirements; the plants themselves feed the other plants with their 
+by-products. An entire ecosystem has been established with little maintenance 
+required except for the occasional introduction of bugs to service the plants' 
+needs (gotta have bugs).
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 142
+D1
+~
+~
+0 -1 140
+S
+#142
+Arboretum~
+  You stand before a great Arbutus tree from Earth. The tree was cultured for
+a thousand years before being transplanted here. The orange-red bark is peeling
+off in small flakes, leaving a bit of a mess on the floor.
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 143
+D1
+~
+~
+0 -1 148
+D0
+~
+~
+0 -1 141
+S
+#143
+Arboretum~
+  In this far corner of the Arboretum you see one of the wonders of the 
+known universe: the Simphinid flower. It is a silicon-based life form with a 
+life cycle of 2-3 hours. In that time it grows from seed to a height of six 
+inches, bonds with another Simphinid in an awe-inspiring 5-minute light 
+display, and then dies, sprinkling its seeds upon the ground. Talk in the 
+station says the flowers slowly work themselves around the grounds and, 
+since their introduction to the Arboretum, have circled them sixteen times. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 142
+D1
+~
+~
+0 -1 144
+S
+#144
+Arboretum~
+  Growing in the wake of the Simphinid flowers, you see before you a great 
+mass of Chlorinate Moss. The moss is the only known life form in the 
+universe to be based on the Germanium atom. The moss is extremely difficult 
+to maintain and usually dies in its infancy. The fact that Anomaly Station 
+has a culture of the moss still growing in a very mature stage of its life 
+cycle has astounded researchers the universe over. Some speculate the 
+Anomaly's queer characteristics may somehow be aiding the moss's growth. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 145
+D0
+~
+~
+0 -1 148
+D3
+~
+~
+0 -1 143
+S
+#145
+Arboretum~
+  This corner of the Arboretum features a huge Rotundum Growth from the 
+Velin system. The plant is approximately three meters in diameter and one 
+meter high. Its leaves spread out from the base of the plant and shade the 
+surrounding area. The trunk of the plant slowly twists, first clockwise, 
+then counter-clockwise, pumping air and fluids throughout its great body. 
+The twisting motion apparently is caused by a massive, yet highly localized 
+magnetic field which the plant emits. The changing magnetic field acts on 
+charged particles in the body of the plant and causes the rotational 
+movement. It has not yet been discovered how the plant produces its magnetic 
+field. 
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 144
+D0
+~
+~
+0 -1 146
+S
+#146
+Arboretum~
+  This area of the arboretum is astounding in the sheer variety and density 
+of the vegetation. There is hardly space anywhere, except on the path, for 
+air circulation of any kind. You cannot see into the vegetation more than a 
+few centimeters - anywhere! 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 147
+D3
+~
+~
+0 -1 148
+D2
+~
+~
+0 -1 145
+S
+#147
+Arboretum~
+  As you approach this area, you smell the sweet smell of the Hula bush. Its 
+aroma is supposed to be an aphrodisiac and halucinogenic. Before long you 
+start to see little bright lights before your eyes. Maybe you should move 
+on; the Hula bush has been known to become carnivorous without warning... 
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 140
+D2
+~
+~
+0 -1 146
+S
+#148
+Arboretum~
+  You stand before a huge fountain planted squarely in the centre of the 
+Arboretum. Around you vegetation abounds. There are benches here should you 
+be weary. 
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 142
+D2
+~
+~
+0 -1 144
+D1
+~
+~
+0 -1 146
+D0
+~
+~
+0 -1 140
+D5
+~
+~
+0 -1 1339
+E
+benches~
+They appear to be very comfortable - if you like solid granite seats. 
+~
+S
+#149
+Access Shaft 1~
+  You are in an access shaft leading from Habitat 1 to the Docking Ring. The
+access shaft is circular and has a modified gravity field to allow for the 
+change in orientation you must undergo when moving between the Habitat's 
+gravity and the artificial gravity of the Docking Ring. Maybe you should 
+hurry on; the modified g-field is making you feel queasy.
+~
+1 0 INDOORS
+D5
+~
+~
+0 -1 151
+D1
+~
+~
+0 -1 112
+S
+#151
+Embassy Centre~
+  You are in `the Centre' as the locals refer to it. From here, corridors 
+branch off in every direction leading to the various embassies and 
+government offices. There is a large sign here with a map and directions. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 152
+D1
+~
+~
+0 -1 154
+D2
+~
+~
+0 -1 153
+D3
+~
+~
+0 -1 165
+D4
+~
+~
+0 -1 149
+E
+sign map directions~
+The sign reads:
+                          ^pAnomaly Station - Habitat 1
+                          ^a____________    ____________
+                         |            |  |            |
+                         |^c   HUMAN^a    |  |^aSILICONOID  ^a|
+      North              |^c  EMBASSY^a   |  |^aEMBASSY     ^a|
+        |                |            |  |            |
+ West -- -- East         |_____  _____|  |____    ____|
+        |              ____ /      \__________|  |____ 
+      South           |    |                          |
+                      |^cCAFE     ^yX ^w<--You are here^a     |
+                      |____|        __________    ____|
+                          __\__  __/__    ____|  |____
+                         |            |  |            |
+                         |^aSALAMANDER  ^a|  |^aARTIFICER   ^a|
+                         |^aEMBASSY     ^a|  |^aEMBASSY     ^a|
+                         |            |  |            |
+                         |____________|  |____________|
+
+      ^gAll civilians new to Anomaly Station ^ymust ^greport in
+     at their Embassy. ~
+S
+#152
+Human Embassy~
+  You stand at the front of a huge open room. Obviously the humans are as 
+disorganized as ever; the entire room is filled with clerks running everywhere.
+The whole show appears to be in a state of utter chaos! At the front where 
+you stand, there is a large, long counter. There is a sign on the counter.
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 151
+E
+sign~
+The sign on the counter reads:
+
+                      ^wAll civilians new to Anomaly Station 
+                      must register with the Human Embassy.
+                      Speak with the front clerk for help.
+
+^bPerhaps you could type "say hi", or "say help" to strike up a conversation
+with the clerk. 
+~
+S
+#153
+Salamander Embassy~
+  Oy! It's hot in here. Glancing over at the thermostat, you see it's set to 
+60 degrees Centigrade. The room is filled with clerks; they are busy pushing 
+paper. There is a counter at the front with a sign on it. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 151
+E
+sign~
+The sign on the counter reads:
+
+                      ^wSalamanders must register immediately. 
+                      Failure to do so will result in immediate
+                      termination.
+
+^bPerhaps you could type "say hi", or "say help" to strike up a conversation
+with the clerk. 
+~
+S
+#154
+Embassy Corridor~
+  You are in a wide corridor. To the west lies the Centre. To the north and
+south lie embassies. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 156
+D3
+~
+~
+0 -1 151
+D0
+~
+~
+0 -1 155
+S
+#155
+Siliconoid Embassy~
+  The Siliconoid Embassy room is large and open with high vaulted ceilings. 
+The air is thick and filled with dust. Through the soup-like air, you can 
+just make out a sign on the counter in front of you. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 154
+E
+sign~
+The sign on the counter reads:
+
+                      ^wIf Siliconoid, register here.
+
+^bPerhaps you could type "say hi", or "say help" to strike up a conversation
+with the clerk. 
+~
+S
+#156
+Artificer Embassy~
+  The embassy is filled with Artificers busy at their work. The walls are 
+drapped in ceremonial Artificer tapestries. In each corner of the room, 
+magnetically contained balls of plasma are emitting high-entropy  infra red 
+radiation. There is a counter immediately before you with a sign on it. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 154
+E
+sign~
+^bThe sign on the counter starts out:
+
+  ^w"This sign, as decreed by the High Council Local Chapter 
+83882.32b of Anomaly Settlement, herein referred to as 
+'the sign', and existing within the proximity of said
+High Council on the Terraneous Occupationous Orbital Space
+Superstructure (as defined in section 1983299.3993c of the
+High Council Code...."
+
+^band it drones on and on and on... The jist is that they
+want you to register here.
+
+^bPerhaps you could type "say hi", or "say help" to strike up a conversation
+with the clerk. 
+~
+S
+#157
+Brain Dump~
+  This room looks like something out of a horror movie; there's strange
+technicians running around with lab coats on, hooking creatures up to huge 
+machines which then download the entire brain contents into a huge computer.
+A sign on the wall says:
+  "For assistance with brain dumps and healing, please see receptionist."
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 123
+S
+#158
+Cryogenics~
+  Before you stands a huge mural of rows upon rows of stasis chambers, some 
+holding ocupants, some not. A sign on the wall says:
+    "For assistance with cryogenic services, please see receptionist."
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 123
+S
+#159
+Eclipse Pilot Room~
+  This is the control and navigation room for the space transport vessel 
+Eclipse. You can see many control panels with many buttons on them. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 100
+E
+control panel panels button buttons~
+There are many control panels with lots of blinking lights, cool looking 
+switches, and monitors with wavy lines on them. One control panel, however,
+is completely blank except for a small hole labeled "Microphone". Someone
+has scribbled below the hole the following:
+    Common voice commands:   door open
+                             door close
+                             self destruct
+~
+P
+@command~
+{
+  if(StrIsCmd(COMMAND,"say")) {
+    if(StrIn(COMMAND,"door")&&StrIn(COMMAND,"open")) {
+      CharAction(EVENT_THING,COMMAND);
+      BLOCK_CMD=YES;
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pThe Ship Computer responds \"Docking door open.\"");
+      SendAction(WorldOf(100),TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe docking door suddenly opens");
+    }
+    else {
+      if(StrIn(COMMAND,"door")&&StrIn(COMMAND,"close")) {
+        CharAction(EVENT_THING,COMMAND);
+        BLOCK_CMD=YES;
+        SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pThe Ship Computer responds \"Docking door closed.\"");
+        SendAction(WorldOf(100),TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe docking door suddenly slams shut");
+      }
+      else {
+        if(StrIn(COMMAND,"self")&&StrIn(COMMAND,"destruct")) {
+          CharAction(EVENT_THING,COMMAND);
+          BLOCK_CMD=YES;
+          SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_SRC|SEND_AUDIBLE,"^pThe Ship Computer responds \"Sorry, I\'m not ready to die yet.\"");
+        }
+      }
+    }
+  }
+}~
+S
+#160
+Eclipse Engine Room~
+  You are in the engine room of the space transport vessel Eclipse. There is 
+a bunch of cool engine stuff here but, try as you might, you can't figure 
+out what any of it is for (nor can you seem to pry any of it lose. Bummer.) 
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 100
+S
+#161
+Restricted Hallway~
+  You are in a dimly-lit hallway leading south from the virtual reality
+training room, and then turning west to the equipment stores. There are
+alarms and red lights along the sides of the hallway, inferring your 
+presence is not appreciated!
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 162
+D0
+~
+door~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 119
+S
+#162
+Equipment Stores~
+  You are in a huge warehouse of war! Instruments of destruction line the
+walls in neat rows. Huge piles of armor crowd the corners. Endless rows of
+shelves are stocked to the roof with ammo of every sort and size.
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 161
+D0
+A glass partition
+~
+glass partition~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 120
+S
+#163
+Virtual Reality Trajaki Battle Simulation~
+  The light is dim in here. The air feels cool and crisp. There are VR 
+booths filling the room, but they are all turned off. There is a sign on the
+wall.
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 119
+E
+sign wall~
+The sign reads:
+                      Trajaki Battle Trainer
+                  Temporarily Closed for Repair
+~
+S
+#164
+Virtual Reality Fantasy Simulation~
+  The light is dim in here. The air warm and humid from the many bodies
+present in the room. There are VR machines all over the place, many with people
+in them.
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 119
+S
+#165
+Merr's Plenuka Shop~
+  This is a quaint little cafe just off of the Embassy Centre. The place is 
+very clean and has exceptionally trendy decor. There is a menu written in blue
+and green mounted on one wall. There's a tiny counter at the back of the 
+cafe, presumably where you order your Plenuka.
+~
+1 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 151
+E
+menu blue green~
+
+                        ^GMerr's Menu - Yumm!
+
+                   ^c           Galupso 
+                   ^c       Bavarian Danish
+                   ^c            Koffi 
+                   ^c           Plenuka 
+                   ^c        Chocolate Bar 
+
+                   ^GPlease type "buy" for pricing.
+~
+S
+#166
+Outer Space (Vacuum)~
+  You are floating in the void of outer-space. Unfortunately, Anomaly Station
+security zapp-traps blast you into a billion specs of dust.
+~
+1 DEATHTRAP|NOMOB VACUUM
+S
+#167
+Outer Space~
+  Oh bummer, you just had to do it. Well, you left the shuttle and entered 
+the great void. Unfortunately, you drift off into space never to be seen 
+again. Maybe next time you'll stay where it's safe! 
+~
+1 DEATHTRAP|NOMOB VACUUM
+S
+#168
+Outer Space (Vacuum)~
+  You are in the void of outer-space. You are barely gripping onto the 
+Anomaly dock with white knuckles! The Anomaly is to the west of you. 
+~
+1 NOMOB VACUUM
+D3
+~
+door docking~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5001
+S
+#170
+Shuttle Bertha~
+  You are in a small shuttle craft ferrying people and supplies between the
+the anomaly (Dock 2) and the station (Docking Bay Beta).
+~
+1 NOMOB INDOORS
+D1
+~
+door docking~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 167
+D3
+~
+door docking~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 167
+P
+@idle~
+{
+  int state;
+  str var;
+  thing dock, shuttle;
+  exit dockexit, shtlexit;
+  var="ShuttlePosition";
+  state=PropertyGetInt(CODE_THING,var);
+  if(state==0) {
+    dock=WorldOf(102);
+    shuttle=WorldOf(170);
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha docked at Anomaly Station.\n");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe docking door rolls open.\n");
+    SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha docked. Now boarding for the Anomaly.\n");
+    SendAction(dock,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe docking door rolls open.\n");
+    dockexit=ExitDir(dock,EDIR_WEST);
+    shtlexit=ExitDir(shuttle,EDIR_EAST);
+    ExitSetWorld(dockexit,shuttle);
+    ExitSetFlag(dockexit,(ExitGetFlag(dockexit)|EF_CLOSED)\EF_CLOSED);
+    ExitSetWorld(shtlexit,dock);
+    ExitSetFlag(shtlexit,(ExitGetFlag(shtlexit)|EF_CLOSED)\EF_CLOSED);
+    dock=WorldOf(5001);
+    shuttle=WorldOf(171);
+    SendAction(shuttle,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha docked at Dock 2.\n");
+    SendAction(shuttle,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door slides open.\n");
+    SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha docked. Now boarding for Anomaly Station.\n");
+    SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door slides open.\n");
+    dockexit=ExitDir(dock,EDIR_EAST);
+    shtlexit=ExitDir(shuttle,EDIR_WEST);
+    ExitSetWorld(dockexit,shuttle);
+    ExitSetFlag(dockexit,(ExitGetFlag(dockexit)|EF_CLOSED)\EF_CLOSED);
+    ExitSetWorld(shtlexit,dock);
+    ExitSetFlag(shtlexit,(ExitGetFlag(shtlexit)|EF_CLOSED)\EF_CLOSED);
+    PropertySetInt(CODE_THING,var,1);
+    ThingSetIdleWait(CODE_THING,10);
+  }
+  else {
+    if(state==1) {
+      dock=WorldOf(102);
+      shuttle=WorldOf(170);
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha leaving Anomaly Station.\n");
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door rolls closed. \n");
+      SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha leaving Anomaly Station.\n");
+      SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door rolls closed. \n");
+      dockexit=ExitDir(dock,EDIR_WEST);
+      shtlexit=ExitDir(shuttle,EDIR_EAST);
+      ExitSetWorld(dockexit,WorldOf(166));
+      ExitSetFlag(dockexit,ExitGetFlag(dockexit)|EF_CLOSED);
+      ExitSetWorld(shtlexit,WorldOf(167));
+      ExitSetFlag(shtlexit,ExitGetFlag(shtlexit)|EF_CLOSED);
+      dock=WorldOf(5001);
+      shuttle=WorldOf(171);
+      SendAction(shuttle,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha leaving Dock 2.\n");
+      SendAction(shuttle,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door slides closed.\n");
+      SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha leaving Dock 2.\n");
+      SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door slides closed.\n");
+      dockexit=ExitDir(dock,EDIR_EAST);
+      shtlexit=ExitDir(shuttle,EDIR_WEST);
+      ExitSetWorld(dockexit,WorldOf(168));
+      ExitSetFlag(dockexit,ExitGetFlag(dockexit)|EF_CLOSED);
+      ExitSetWorld(shtlexit,WorldOf(167));
+      ExitSetFlag(shtlexit,ExitGetFlag(shtlexit)|EF_CLOSED);
+      PropertySetInt(CODE_THING,var,2);
+      ThingSetIdleWait(CODE_THING,4);
+    }
+    else {
+      if(state==2) {
+        dock=WorldOf(5001);
+        shuttle=WorldOf(170);
+        SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha docked at Dock 2.\n");
+        SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door grinds open.\n");
+        SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha docked. Now boarding for Anomaly Station.\n");
+        SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door grinds open.\n");
+        dockexit=ExitDir(dock,EDIR_EAST);
+        shtlexit=ExitDir(shuttle,EDIR_WEST);
+        ExitSetWorld(dockexit,shuttle);
+        ExitSetFlag(dockexit,(ExitGetFlag(dockexit)|EF_CLOSED)\EF_CLOSED);
+        ExitSetWorld(shtlexit,dock);
+        ExitSetFlag(shtlexit,(ExitGetFlag(shtlexit)|EF_CLOSED)\EF_CLOSED);
+        dock=WorldOf(102);
+        shuttle=WorldOf(171);
+        SendAction(shuttle,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha docked at Anomaly Station.\n");
+        SendAction(shuttle,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe docking door jerks open.\n");
+        SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha docked. Now boarding for the Anomaly.\n");
+        SendAction(dock,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe docking door jerks open.\n");
+        dockexit=ExitDir(dock,EDIR_WEST);
+        shtlexit=ExitDir(shuttle,EDIR_EAST);
+        ExitSetWorld(dockexit,shuttle);
+        ExitSetFlag(dockexit,(ExitGetFlag(dockexit)|EF_CLOSED)\EF_CLOSED);
+        ExitSetWorld(shtlexit,dock);
+        ExitSetFlag(shtlexit,(ExitGetFlag(shtlexit)|EF_CLOSED)\EF_CLOSED);
+        PropertySetInt(CODE_THING,var,3);
+        ThingSetIdleWait(CODE_THING,10);
+      }
+      else {
+        if(state==3) {
+          dock=WorldOf(5001);
+          shuttle=WorldOf(170);
+          SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha leaving Dock 2.\n");
+          SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door grinds closed.\n");
+          SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Bertha leaving Dock 2.\n");
+          SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door grinds closed.\n");
+          dockexit=ExitDir(dock,EDIR_EAST);
+          shtlexit=ExitDir(shuttle,EDIR_WEST);
+          ExitSetWorld(dockexit,WorldOf(168));
+          ExitSetFlag(dockexit,ExitGetFlag(dockexit)|EF_CLOSED);
+          ExitSetWorld(shtlexit,WorldOf(167));
+          ExitSetFlag(shtlexit,ExitGetFlag(shtlexit)|EF_CLOSED);
+          dock=WorldOf(102);
+          shuttle=WorldOf(171);
+          SendAction(shuttle,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha leaving Anomaly Station.\n");
+          SendAction(shuttle,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door jerks closed. \n");
+          SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^y<bing> ^GShuttle Martha leaving Anomaly Station.\n");
+          SendAction(dock,TNULL,SEND_ROOM|SEND_AUDIBLE,"^aThe docking door jerks closed. \n");
+          dockexit=ExitDir(dock,EDIR_WEST);
+          shtlexit=ExitDir(shuttle,EDIR_EAST);
+          ExitSetWorld(dockexit,WorldOf(166));
+          ExitSetFlag(dockexit,ExitGetFlag(dockexit)|EF_CLOSED);
+          ExitSetWorld(shtlexit,WorldOf(167));
+          ExitSetFlag(shtlexit,ExitGetFlag(shtlexit)|EF_CLOSED);
+          PropertySetInt(CODE_THING,var,0);
+          ThingSetIdleWait(CODE_THING,4);
+        }
+        else {
+          PropertySetInt(CODE_THING,var,0);
+          ThingSetIdleWait(CODE_THING,1);
+        }
+      }
+    }
+  }
+}~
+P
+ShuttlePosition~
+0~
+S
+#171
+Shuttle Martha~
+  You are in a small shuttle craft ferrying people and supplies between the
+the anomaly (Dock 2) and the station (Docking Bay Beta).
+~
+1 NOMOB INDOORS
+D1
+~
+door docking~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 167
+D3
+~
+door docking~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 167
+S
+#172
+Outer Space (Vacuum)~
+  You are just outside Shuttle Bay Delta, floating in the void of space. You 
+are holding on to the station for dear life. The bay (and safety) is up. 
+~
+1 NOMOB VACUUM
+D0
+Alongside the station 
+~
+~
+0 -1 174
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D4
+Shuttle Bay Delta docking door 
+~
+door docking~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 100 105
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#173
+Outer Space (Vacuum)~
+  Whoops! You are floating in the void of space with no way to reach 
+safety. You are destined to float around like a piece of space-garbage
+for 100 million years. I would suggest you get comfortable.
+~
+1 DEATHTRAP|NOMOB VACUUM
+S
+#174
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 172
+D3
+Along side the station 
+~
+~
+0 -1 175
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#175
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 176
+D1
+Along side the station 
+~
+~
+0 -1 174
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#176
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. To the west is Access Shaft 1 leading down to 
+Habitat 1. Carefull, there's nothing to hold on to along the Access Shaft. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 177
+D1
+Along side the station 
+~
+~
+0 -1 198
+D2
+Along side the station 
+~
+~
+0 -1 175
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#177
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 178
+D2
+Along side the station 
+~
+~
+0 -1 176
+D3
+Along side the station 
+~
+~
+0 -1 196
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#178
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 179
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Along side the station 
+~
+~
+0 -1 177
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#179
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 180
+D2
+Along side the station 
+~
+~
+0 -1 195
+D3
+Along side the station 
+~
+~
+0 -1 178
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#180
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. To the south lies Access Shaft 2 leading down to 
+Habitat 2. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 181
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Along side the station 
+~
+~
+0 -1 179
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#181
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 182
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 180
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#182
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 200
+D2
+Along side the station 
+~
+~
+0 -1 181
+D3
+Along side the station 
+~
+~
+0 -1 183
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#183
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 182
+D2
+Along side the station 
+~
+~
+0 -1 184
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#184
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 183
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Along side the station 
+~
+~
+0 -1 185
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#185
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 186
+D1
+Along side the station 
+~
+~
+0 -1 184
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#186
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 187
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 185
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#187
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Hatch 1 
+~
+~
+0 -1 188
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 186
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#188
+Outer Space - Hatch 1 (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. 
+Engineering Access Hatch 1 lies directly above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 189
+D2
+Along side the station 
+~
+~
+0 -1 187
+D3
+Along side the station 
+~
+~
+0 -1 194
+D4
+Hatch 1 
+~
+door hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 204
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#189
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Hatch 2 
+~
+~
+0 -1 190
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Hatch 1 
+~
+~
+0 -1 188
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#190
+Outer Space - Hatch 2 (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. 
+Engineering Access Hatch 2 lies directly above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 191
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Along side the station 
+~
+~
+0 -1 189
+D4
+Hatch 2 
+~
+door hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 204
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#191
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Hatch 3 
+~
+~
+0 -1 192
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Hatch 2 
+~
+~
+0 -1 190
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#192
+Outer Space - Hatch 3 (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. 
+Engineering Access Hatch 3 lies directly above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 203
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Along side the station 
+~
+~
+0 -1 191
+D4
+Hatch 3 
+~
+door hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 205
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#193
+Outer Space - Hatch 4 (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. 
+Engineering Access Hatch 4 lies directly above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Along side the station 
+~
+~
+0 -1 194
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Along side the station 
+~
+~
+0 -1 203
+D4
+Hatch 4 
+~
+door hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 204
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#194
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D3
+~
+~
+0 -1 193
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Hatch 1 
+~
+~
+0 -1 188
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#195
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. To the east lies Access Shaft 2 leading down to 
+Habitat 2 and the business sector. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 179
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#196
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. To the south lies Access Shaft 1 leading down to 
+Habitat 1. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 197
+D1
+Along side the station 
+~
+~
+0 -1 177
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#197
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 196
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#198
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 199
+D3
+Along side the station 
+~
+~
+0 -1 176
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#199
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 198
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#200
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 201
+D3
+Along side the station 
+~
+~
+0 -1 182
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#201
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 200
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+Along side the station 
+~
+~
+0 -1 202
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#202
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+Along side the station 
+~
+~
+0 -1 201
+D1
+A security Zapp-trap 
+~
+~
+0 -1 166
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+A security Zapp-trap 
+~
+~
+0 -1 166
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#203
+Outer Space (Vacuum)~
+  You are on the outside of Anomaly Station... holding on for dear life. The 
+station looms above you. 
+~
+1 NOMOB VACUUM
+D0
+A security Zapp-trap 
+~
+~
+0 -1 166
+D1
+Hatch 4 
+~
+~
+0 -1 193
+D2
+A security Zapp-trap 
+~
+~
+0 -1 166
+D3
+Hatch 3 
+~
+~
+0 -1 192
+D5
+Outer Space 
+~
+~
+0 -1 173
+S
+#204
+Inside Engineering Hatch~
+  You made it... only to be vaporized by a security zapp-trap just inside
+the hatch door. Ouch.
+~
+1 DEATHTRAP|NOMOB INDOORS
+S
+#205
+Engineering Access Hatch 3~
+  You are inside Engineering Access Hatch 3. Space, the great void, lies 
+directly above you. The access tunnel continues down. Just inside the hatch 
+you find the charred remains of a security zapp-trap. Nervous yet? 
+~
+1 NOMOB INDOORS
+D4
+Outer Space (Vacuum) 
+~
+door hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 192
+D5
+Access tunnel 
+~
+~
+0 -1 206
+S
+#206
+Access Tunnel~
+  You are inside an Engineering Access Tunnel. The tunnel drops down to a 
+catwalk below. Above you the tunnel leads to a hatch. (This is where you'll 
+want to use 'scan') 
+~
+1 0 INDOORS
+D4
+hatch 
+~
+~
+0 -1 205
+D5
+catwalk 
+~
+~
+0 -1 207
+S
+#207
+Catwalk~
+  You are on a catwalk running high overhead the sewage treatment centre. 
+Phew - and you REALLY REALLY know it! Whoah, what a stink! That alien crap 
+really kicks up an odour. Oh my! High above your head is an engineering 
+access shaft - which is too high for you to get to. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 208
+D1
+10-meter drop INTO a putrid festering vat of alien sewage 
+~
+~
+0 -1 200
+D2
+~
+~
+0 -1 210
+S
+#208
+Catwalk~
+  You are on a catwalk running high overhead the sewage treatment centre. 
+Wow, you really should get out of here. Either that or find yourself a gas 
+mask. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 209
+D2
+~
+~
+0 -1 207
+S
+#209
+Catwalk~
+  You are on a catwalk running high overhead the sewage treatment centre. 
+From this angle you get a good view of the huge sewage vats to the south. An 
+air vent to the north draws the stench form the vats right past you. (IE: 
+you get a GOOD WHIF of the sewage vats as well.) 
+~
+1 0 INDOORS
+D0
+Air vent 
+~
+air vent~
+ISDOOR|CLOSED -1 245
+D2
+10-meter drop INTO a putrid festering vat of alien sewage 
+~
+~
+0 -1 212
+D3
+~
+~
+0 -1 208
+S
+#210
+Catwalk~
+  You are on a catwalk running high overhead the sewage treatment centre. 
+There's a door (an excape from this stench) to the south,... if you can 
+just... make... it... 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 207
+D1
+10-meter drop INTO a putrid festering vat of alien sewage 
+~
+~
+0 -1 212
+D2
+Sewage Centre door 
+~
+door sewage centre~
+ISDOOR|CLOSED -1 211
+S
+#211
+Observation Room~
+  You are in a small observation room. Windows to the north and east 
+overlook two huge vats of festering sewage. There are doors to the north and 
+south of you. There's a sign on the north door. 
+~
+1 NOMOB INDOORS
+D0
+~
+door catwalk~
+ISDOOR|CLOSED -1 210
+D2
+~
+door hallway~
+ISDOOR|CLOSED -1 215
+E
+sign door~
+The sign is written in LARGE black print and reads: 
+
+                   KEEP THIS DOOR CLOSED AT ALL TIMES! 
+                 ON PAIN OF DEATH! CLOSED CLOSED CLOSED! 
+                             CLOSE OR DIE!
+
+                                          -Engineering
+~
+S
+#212
+Sewage Vat~
+  You are up to your armpits in festering gross putrid sewage. You can feel
+it seeping into your boots. EEEWWW. You're sinking, sinking, sinking...
+Your last thought as you become submerged is, "What a way to go."
+~
+1 DEATHTRAP|NOMOB INDOORS
+S
+#213
+Hallway~
+  You are in a bland hallway with irritating florescent lighting. 
+~
+1 0 INDOORS
+D2
+Galactic Communications Room 
+~
+door local area communications~
+ISDOOR|CLOSED -1 214
+D3
+~
+~
+0 -1 215
+S
+#214
+Galactic Communications Room~
+  You are in the centre for the inter-stellar communcations network. This 
+room is the hub for Gal-Civ communications. Actually, everyone but the 
+Anomaly Station Administration maintains their own links with the outside 
+world, but Admin likes to THINK this is the hub for Gal-Civ communications. 
+~
+1 0 INDOORS
+D0
+~
+door~
+ISDOOR|CLOSED -1 213
+S
+#215
+Hallway~
+  You are in a bland hallway with irritating florescent lighting. 
+~
+1 0 INDOORS
+D0
+~
+door~
+ISDOOR|CLOSED -1 211
+D1
+~
+~
+0 -1 213
+D3
+~
+~
+0 -1 221
+S
+#216
+Docking Control Room~
+  This is the control area where shuttle and space ship docking is 
+organized. Approach vectors, ship trajectories, it's all controlled from 
+this very room. Looking around at the coffee stains and general disarray, 
+you feel lucky to have arrived safely. 
+~
+1 0 INDOORS
+D0
+~
+door~
+ISDOOR|CLOSED -1 221
+D3
+~
+door~
+ISDOOR|CLOSED -1 226
+S
+#217
+Observation Room~
+  You are in a small observation room. Windows to the north and west allow 
+you to look down onto the power generation facilities for Anomaly Station. 
+~
+1 NOMOB INDOORS
+D0
+~
+catwalk~
+ISDOOR|CLOSED -1 218
+D2
+~
+door hallway~
+ISDOOR|CLOSED -1 221
+S
+#218
+Catwalk~
+  You are on a catwalk running high overhead the power generation 
+facilities. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 219
+D2
+~
+~
+ISDOOR|CLOSED -1 217
+S
+#219
+Catwalk~
+  You are on a catwalk running high overhead the power generation 
+facilities. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 220
+D2
+~
+~
+0 -1 218
+S
+#220
+Catwalk~
+  You are on a catwalk running high overhead the power generation 
+facilities. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 219
+S
+#221
+Hallway~
+  You are in a bland hallway with irritating florescent lighting. 
+~
+1 0 INDOORS
+D0
+~
+door~
+ISDOOR|CLOSED -1 217
+D1
+~
+~
+0 -1 215
+D2
+~
+door~
+ISDOOR|CLOSED -1 216
+D3
+~
+~
+0 -1 222
+S
+#222
+Stairway~
+  You are in a bland hallway with irritating florescent lighting. Stairs 
+lead down. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 221
+D5
+~
+~
+0 -1 223
+S
+#223
+Stairway~
+  You are in a bland hallway with irritating florescent lighting. Stairs 
+lead up. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 224
+D4
+~
+~
+0 -1 222
+S
+#224
+Hallway~
+  You are in a bland hallway with irritating florescent lighting. 
+~
+1 0 INDOORS
+D0
+~
+door~
+ISDOOR|CLOSED -1 233
+D1
+~
+~
+0 -1 225
+D2
+~
+~
+ISDOOR|CLOSED -1 113
+D3
+~
+~
+0 -1 223
+S
+#225
+Hallway~
+  You are in a bland hallway with irritating florescent lighting. There is a 
+note on the door to the north. 
+~
+1 0 INDOORS
+D0
+~
+door~
+ISDOOR|CLOSED -1 227
+D3
+~
+~
+0 -1 224
+E
+sign door~
+The sign is written in LARGE black print and reads: 
+
+                   KEEP THIS DOOR CLOSED AT ALL TIMES! 
+                 ON PAIN OF DEATH! CLOSED CLOSED CLOSED! 
+                             CLOSE OR DIE!
+
+                                          -Engineering
+~
+S
+#226
+Local Area Communications Centre~
+  This is where all local Anomaly Station communications are run from. 
+Actually, the humans running the comm service are so unreliable, everyone 
+maintains their own communications network. This room is used mostly for 
+storage. 
+~
+1 0 INDOORS
+D1
+~
+door~
+ISDOOR|CLOSED -1 216
+S
+#227
+Sewage treatment plant floor~
+  You have the joy and pleasure of seeing - close up - the sewage treatment 
+facilities for Anomaly Station. Actually, the stench is so bad, your eyes 
+are watering and you can hardly see anything at all. You nose is burning so 
+much you fear it might fall off. 
+~
+1 NOMOB INDOORS
+D0
+~
+~
+0 -1 229
+D1
+~
+~
+0 -1 228
+D2
+~
+door~
+ISDOOR|CLOSED -1 225
+S
+#228
+Sewage treatment plant floor~
+  You are in the south-east corner of the sewage treatment plant. And boy do 
+you know it! A huge vat of sewage looms to the north-west. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 230
+D3
+~
+~
+0 -1 227
+S
+#229
+Sewage treatment plant floor~
+  You are along the west wall of the sewage treatment plant. You can see a 
+catwalk above you. To the north-east and south-east loom huge vats of 
+you-don't-want-to-know. You wish you were born without a nose right now. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 231
+D1
+~
+~
+0 -1 230
+D2
+~
+~
+0 -1 227
+S
+#230
+Sewage treatment plant floor~
+  You are at the east wall of the sewage treatment centre. Two huge vats 
+loom to the north-west and south-west. A horrible clowd of putrid stench 
+looms, well, everywhere. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 232
+D2
+~
+~
+0 -1 228
+D3
+~
+~
+0 -1 229
+S
+#231
+Sewage treatment plant floor~
+  You are at the north-west corner of the sewage treatment plant. I don't 
+think you need to be told again how bad it smells in here. A huge vat of 
+gross-stuff lies to the south-east. There's a catwalk far above you. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 232
+D2
+~
+~
+0 -1 229
+S
+#232
+Sewage treatment plant floor~
+  You are in the north-east corner of the sewage treatment plant. A huge vat 
+of horrible disgustingness lies to the south-west. You are gaging. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 230
+D3
+~
+~
+0 -1 231
+S
+#233
+Power plant floor~
+  You are in the south-east corner of the power plant. To the north and west 
+the roof opens up. It's noisy in here. Ouch. There's a large warning sign 
+here. 
+~
+1 0 INDOORS
+D0
+WARNING: High density electromagnetic fields 
+~
+~
+0 -1 234
+D2
+~
+door~
+ISDOOR|CLOSED -1 224
+D3
+~
+~
+0 -1 240
+E
+sign warning~
+The warning sign reads: 
+
+                 CAUTION! EXTREMELY HIGH VOLTAGE
+               DANGEROUS ELECTROMAGNETIC RADIATION
+                      THINK SAFETY FIRST
+                           BE SMART
+                   LOOK AHEAD BEFORE MOVING
+~
+S
+#234
+High density electromagnet fields~
+  You have walked right past a sign warning you about high density
+electromagnetic fields. Tsk tsk. You are currently stuck to the side
+of a power generation unit -- emmiting magnetic fields strong enough
+to hold you to it. Every bi-polar water molecule in your body is aligned.
+Too bad this situation isn't conducive to healthy brain activity.
+~
+1 DEATHTRAP|NOMOB INDOORS
+S
+#235
+High voltage power cables~
+  You have walked right into some exposed high voltage power cables. 
+You are KFC. 
+~
+1 DEATHTRAP|NOMOB INDOORS
+S
+#236
+Power plant floor~
+  You are in the north-east corner of the power generation room. Your hair 
+is standing up from the electromagnetic fields. Spooky. 
+~
+1 0 INDOORS
+D2
+WARNING: High density electromagnetic fields 
+~
+~
+0 -1 234
+D3
+~
+~
+0 -1 237
+S
+#237
+Power plant floor~
+  You are along the north wall of the power generation room. Your ears hurt 
+from all the noise. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 236
+D2
+WARNING: High voltage power cables 
+~
+~
+0 -1 235
+D3
+~
+~
+0 -1 244
+S
+#238
+Power plant floor~
+  You are in the middle of the power generation room. You stand right beside 
+the power conversion unit, with raw power generation units to the 
+north-west, north-east and south-west. 
+~
+1 0 INDOORS
+D0
+WARNING: High voltage power cables 
+~
+~
+0 -1 235
+D2
+WARNING: High density electromagnetic fields 
+~
+~
+0 -1 234
+D3
+~
+~
+0 -1 243
+S
+#239
+Power plant floor~
+  You are in the middle of the power generation room. You stand right beside 
+the power conversion unit, with raw power generation units to the 
+north-west, south-east and south-west. 
+~
+1 0 INDOORS
+D0
+WARNING: High density electromagnetic fields 
+~
+~
+0 -1 234
+D2
+WARNING: High voltage power cables 
+~
+~
+0 -1 235
+D3
+~
+~
+0 -1 242
+S
+#240
+Power plant floor~
+  You are along the south wall of the power generation room. Oooo, you can 
+FEEL the electricity. (pun intended - bad one, I know) 
+~
+1 0 INDOORS
+D0
+WARNING: High voltage power cables 
+~
+~
+0 -1 235
+D1
+~
+~
+0 -1 233
+D3
+~
+~
+0 -1 241
+S
+#241
+Power plant floor~
+  You are at the south-west corner of the power generation room. Your nose 
+is starting to hurt from the electromagnetic fields. It's hard to 
+concentrate. Perhaps you'd better move on. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 242
+D1
+~
+~
+0 -1 240
+S
+#242
+Power plant floor~
+  You are along the west wall of the power generation room. Every hair on 
+your body has become charged and is standing up. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 243
+D1
+~
+~
+0 -1 239
+D2
+~
+~
+0 -1 241
+S
+#243
+Power plant floor~
+  You are along the west wall of the power generation room. Someone has put 
+a box of paper clips here. They have pulled them up and out of the box about 
+20cm. The magnetic fields are so strong here that the paperclips have 
+remained standing - magnetically attracted to one another. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 244
+D1
+~
+~
+0 -1 238
+D2
+~
+~
+0 -1 242
+S
+#244
+Power plant floor~
+  You are at the north-west corner of the power generation room. A huge 
+power generation unit to the south-east is slowly leaking coolant fluid onto 
+the floor. About 8 meters above you, you can see an air vent. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 237
+D2
+~
+~
+0 -1 243
+S
+#245
+Air vent~
+  You are inside an air vent. The air is whistling past you... so is the 
+stench. 
+~
+1 0 INDOORS
+D2
+~
+air vent~
+ISDOOR|CLOSED -1 209
+D3
+~
+~
+0 -1 246
+S
+#246
+Air vent~
+  You are inside an air vent. Air from the east and west is being drawn into 
+a filter to the south. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 245
+D2
+~
+~
+0 -1 248
+D3
+~
+~
+0 -1 247
+S
+#247
+Air vent~
+  You are inside an air vent. To the south you can look down into a huge 
+power generation room. It looks to be a significant drop to the floor, but 
+you think you can make it... with only a few broken bones. 
+~
+1 0 INDOORS
+D1
+~
+~
+0 -1 246
+D2
+~
+air vent door~
+ISDOOR|CLOSED -1 244
+S
+#248
+Air vent~
+  You are inside an air vent. Air from the east and west is being drawn into 
+a filter to the south. Air is being drawn from the north and from above. The 
+air is being sucked into a filter to the south. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 246
+D4
+~
+~
+0 -1 249
+S
+#249
+Air vent~
+  You are inside an air vent. Air from the south is being drawn down. 
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 250
+D5
+~
+~
+0 -1 248
+S
+#250
+Air vent~
+  You are inside an air vent. Air from the south is being drawn north. 
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 249
+D2
+~
+~
+0 -1 251
+S
+#251
+Air vent~
+  You are inside an air vent. You are directly above the Station Junction. 
+You can see and hear people moving between the docking bays and the habitat 
+access shafts. You also notice that the grate below you has zapp-traps 
+monitoring it. 
+~
+1 NOMOB INDOORS
+D1
+~
+~
+0 -1 1412
+D0
+~
+~
+0 -1 250
+D5
+~
+grate air vent door~
+ISDOOR|CLOSED -1 252
+S
+#252
+Station Junction~
+  You are at the main junction joining Habitat 1, Habitat 2, and engineering.
+As you jump down, you set off some zapp-traps. People watch silently as your
+ashes drift slowly to the ground.
+~
+1 DEATHTRAP|NOMOB CITY-OUTSIDE
+S
+#253
+Business Sector~
+  You are in the business sector. To the north is the entrance to Guns'N'Stuff.
+To the south is Protect-Your-Ass Body Armor Inc. Both establishments are fine, 
+upstanding corporate citizens emphasizing the basic morals and principles
+of Anomaly Station.
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 254
+D1
+~
+~
+0 -1 125
+D2
+~
+~
+0 -1 255
+S
+#254
+Guns'N'Stuff~
+  You are in Guns'N'Stuff. Few Anomaly explorers are not familiar with this
+store, if you get my meaning...
+~
+1 0 INDOORS
+D2
+~
+~
+0 -1 253
+S
+#255
+Protect-Your-Ass Body Armor Inc.~
+  You are in the Anomaly Station franchise for Protect-Your-Ass Body Armor Inc.
+There is a definate "safe" feeling in here.
+~
+1 0 INDOORS
+D0
+~
+~
+0 -1 253
+S
+#256
+Lost-In-SPace Outdoors Store~
+  LISP carries a complete line of outdoors equipment, just in case a 
+mountain or jungle terrain suddenly pops up in the middle of outer space. 
+The clothes are worn mainly by trendoids, and are suspected to be near 
+useless in an actual outdoors setting. 
+~
+1 0 INDOORS
+D3
+~
+~
+0 -1 129
+S

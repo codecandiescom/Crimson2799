@@ -1,0 +1,78 @@
+Online Editing Help~
+#
+online creation editing~
+Online Editing:
+
+  Everything in the mud can be edited online, without taking down the
+  mud server. See the following help sections for further info:
+  
+  WORLD_EDITING  -  Editing the rooms, exits etc
+  MOBILE_EDITING -  Editing the templates used to create creatures
+  OBJECT_EDITING -  Editing the templates used to create items
+  RESET_EDITING  -  Editing the commands executed when the area resets
+  AREA_EDITING   -  Editing the area description, reset delay, area flags
+  HELP_EDITING   -  Editing the online help
+
+~
+#
+property properties~
+PROPERTY - A text string that can be attached to any THING in the game.
+  consists of a setting and a value, both of which are text.
+
+C4 scripts can be attached to any THING in the game as a property,
+see SCRIPT_EVENTS for a list of events that can be intercepted
+
+See also: SCRIPT_EVENTS, MOB_PROPERTIES, OBJ_PROPERTIES, WLD_PROPERTIES
+~
+#
+script_events~
+C4-Script Events:
+
+  @IDLE       - Called every second or so if they arent doing anything
+  @COMMAND    - Called when anything in the same room tries to execute a command
+  @ENTRY      - Called when something tries to enter
+  @EXIT       - Called when something tries to exit
+  @DEATH      - Called when something dies in the same room as us
+  
+Things yet to be....
+  @FIGHTING   - Called just prior to an attack during combat (anything in the room)
+  @FIGHTSTART - Called when something starts a fight.
+  @ATTACK     - Called when we (mob only) attack something
+  @USE        - Called when something uses us (obj only)
+  @RESET      - Called when area resets
+
+See also: MOB_PROPERTIES, OBJ_PROPERTIES, WLD_PROPERTIES
+~
+#
+mob_properties~
+MOB_PROPERTIES:
+
+  RPuncture,RSlash,RConcussive,RHeat,REMR,RLaser,RPsychic,RAcid,RPoison
+              - Give the mob extra resistance to this type of damage
+              - (If this number is negative they will take EXTRA
+              -  damage from this kind of attack)
+  Speed       - set the mobs speed skill default is Level * 2
+  Flee        - flee skill default is level * 2
+  Pursue      - set the mobs pursue skill default level * 2
+
+See also: SCRIPT_EVENTS, OBJ_PROPERTIES, WLD_PROPERTIES
+~
+#
+obj_properties~
+OBJ_PROPERTIES:
+
+  Security    - Percentage penalty applied to lockpicking to this item
+
+See also: SCRIPT_EVENTS, MOB_PROPERTIES, WLD_PROPERTIES
+~
+#
+wld_properties~
+WLD_PROPERTIES:
+
+  Security    - Percentage penalty applied to lockpicking etc in this room
+  Light       - light value (0=pitch black, 100 is normal lighting)
+
+See also: SCRIPT_EVENTS, MOB_PROPERTIES, OBJ_PROPERTIES
+~
+$
+

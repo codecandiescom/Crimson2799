@@ -1,0 +1,1533 @@
+#1950
+Yellow Octagon~
+  You are in a yellow, octagon-shaped room. You sense this is the start of 
+the third test. The walls are wiggling, as if alive. A gateway to the south 
+is glowing yellow.
+~
+10 NOMOB INDOORS
+D5
+~
+~
+0 -1 1500
+D2
+Yellow Glowing Gateway 
+~
+yellow gateway~
+0 -1 1987
+D0
+Orange Glowing Gateway 
+~
+orange gateway~
+0 -1 1681
+S
+#1951
+Inside a transparent red sphere.~
+  You are standing on a floating glass platform inside a transparent red 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+Far beneath you is a glowing red sphere.
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 1952
+S
+#1952
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 1961
+D4
+~
+~
+0 -1 1951
+S
+#1953
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1954
+S
+#1954
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1953
+D1
+~
+~
+0 -1 1963
+S
+#1955
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN -1 1965
+D5
+~
+~
+0 -1 1956
+S
+#1956
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1955
+D2
+~
+~
+0 -1 1966
+S
+#1957
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1958
+S
+#1958
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1957
+D5
+~
+~
+0 -1 1959
+S
+#1959
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1958
+D2
+~
+~
+0 -1 1969
+S
+#1960
+Inside a glowing red sphere.~
+  You are standing on a floating glass platform inside a glowing red sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 1969
+D2
+~
+~
+0 -1 1970
+S
+#1961
+Inside a transparent orange sphere.~
+  You are standing on a floating glass platform inside a transparent orange 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+Far beneath you is a glowing orange sphere.
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 1971
+D3
+~
+~
+0 -1 1952
+D5
+~
+~
+0 -1 1962
+S
+#1962
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1961
+D1
+~
+~
+0 -1 1972
+S
+#1963
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 1954
+D1
+~
+~
+0 -1 1973
+S
+#1964
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1974
+S
+#1965
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN -1 1955
+S
+#1966
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 1956
+D5
+~
+~
+0 -1 1967
+S
+#1967
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1966
+D1
+~
+~
+0 -1 1977
+S
+#1968
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D2
+~
+~
+0 -1 1979
+D5
+~
+~
+0 -1 1969
+S
+#1969
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 1959
+D4
+~
+~
+0 -1 1968
+D3
+~
+~
+0 -1 1960
+S
+#1970
+Inside a glowing orange sphere.~
+  You are standing on a floating glass platform inside a glowing orange sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 1960
+D1
+~
+~
+0 -1 1980
+S
+#1971
+Inside a transparent yellow sphere.~
+  You are standing on a floating glass platform inside a transparent yellow 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+Far beneath you is a large glowing yellow sphere.
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 1961
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1981
+S
+#1972
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 1962
+D5
+~
+~
+0 -1 1973
+S
+#1973
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1972
+D3
+~
+~
+0 -1 1963
+D2
+~
+~
+0 -1 1983
+S
+#1974
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1964
+D2
+~
+~
+0 -1 1984
+S
+#1975
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 1984
+D2
+~
+~
+0 -1 1985
+D5
+~
+~
+0 -1 1976
+S
+#1976
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1975
+D2
+~
+~
+0 -1 1986
+S
+#1977
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 1986
+D5
+~
+~
+0 -1 1978
+D3
+~
+~
+0 -1 1967
+S
+#1978
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D2
+~
+~
+0 -1 1988
+D4
+~
+~
+0 -1 1977
+D5
+~
+~
+0 -1 1979
+S
+#1979
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 1968
+D4
+~
+~
+0 -1 1978
+S
+#1980
+Inside a glowing yellow sphere.~
+  You are standing on a floating glass platform inside a glowing yellow sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 1970
+D1
+~
+~
+0 -1 1989
+S
+#1981
+Inside a transparent green sphere.~
+  You are standing on a floating glass platform inside a transparent green 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+Far beneath you floats a large glowing green sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1971
+S
+#1982
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 1992
+D5
+~
+~
+0 -1 1983
+S
+#1983
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1982
+D2
+~
+~
+0 -1 1994
+D0
+~
+~
+0 -1 1973
+S
+#1984
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 1974
+D3
+~
+~
+0 -1 1975
+S
+#1985
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 1975
+D1
+~
+~
+0 -1 1995
+S
+#1986
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 1976
+D3
+~
+~
+0 -1 1977
+S
+#1987
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 1988
+S
+#1988
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1987
+D0
+~
+~
+0 -1 1978
+S
+#1989
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 1999
+D5
+~
+~
+0 -1 1990
+D3
+~
+~
+0 -1 1980
+S
+#1990
+Inside a glowing green sphere.~
+  You are standing on a floating glass platform inside a glowing green sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1989
+D1
+~
+~
+0 -1 2000
+S
+#1991
+Inside a transparent blue sphere.~
+  You are standing on a floating glass platform inside a transparent blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere.  
+Far beneath you floats a large glowing blue sphere.
+~
+10 0 INDOORS
+D2
+~
+~
+0 -1 2001
+D5
+~
+~
+0 -1 1992
+S
+#1992
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere.
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 1982
+D4
+~
+~
+0 -1 1991
+S
+#1993
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 1994
+D2
+~
+~
+0 -1 2003
+S
+#1994
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1993
+D0
+~
+~
+0 -1 1983
+S
+#1995
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1996
+D3
+~
+~
+0 -1 1985
+S
+#1996
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 1995
+S
+#1997
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 1998
+D1
+~
+~
+0 -1 2006
+S
+#1998
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 1999
+D4
+~
+~
+0 -1 1997
+D1
+~
+~
+0 -1 2007
+S
+#1999
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 1998
+D3
+~
+~
+0 -1 1989
+S
+#2000
+Inside a glowing blue sphere.~
+  You are standing on a floating glass platform inside a glowing blue 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 1990
+D2
+~
+~
+0 -1 2010
+S
+#2001
+Inside a transparent indigo sphere.~
+  You are standing on a floating glass platform inside a transparent indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere.  
+Far beneath you floats a large glowing indigo sphere.
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2002
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2011
+D0
+~
+~
+0 -1 1991
+S
+#2002
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2001
+D2
+~
+~
+0 -1 2013
+S
+#2003
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D2
+~
+~
+0 -1 2014
+D0
+~
+~
+0 -1 1993
+S
+#2004
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2005
+D2
+~
+~
+0 -1 2015
+S
+#2005
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2006
+D4
+~
+~
+0 -1 2004
+S
+#2006
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2005
+D3
+~
+~
+0 -1 1997
+D1
+~
+~
+0 -1 2016
+S
+#2007
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 1998
+D2
+~
+~
+0 -1 2018
+S
+#2008
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2019
+S
+#2009
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2010
+D2
+~
+~
+0 -1 2020
+S
+#2010
+Inside a glowing indigo sphere.~
+  You are standing on a floating glass platform inside a glowing indigo 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2009
+D0
+~
+~
+0 -1 2000
+S
+#2011
+Inside a transparent violet sphere.~
+  You are standing on a floating glass platform inside a transparent violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere.  
+Far beneath you floats a large glowing violet sphere.
+~
+10 0 INDOORS
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2001
+S
+#2012
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2013
+D1
+~
+~
+0 -1 2021
+S
+#2013
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2012
+D0
+~
+~
+0 -1 2002
+S
+#2014
+Inside a prismatic sphere.~
+  You are standing on a floating glass platform inside a glowing prismatic 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D0
+~
+~
+0 -1 2003
+D2
+~
+~
+0 -1 1800
+P
+@afterexit~
+{
+  PlayerSolvedQuest(EVENT_THING,"^aYou hear joyfull music\n",6000,1,"TheMazeLevel3-Solution",1);
+}~
+S
+#2015
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D1
+~
+~
+0 -1 2024
+D0
+~
+~
+0 -1 2004
+S
+#2016
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 2006
+D2
+~
+~
+0 -1 2026
+S
+#2017
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2018
+D2
+~
+~
+0 -1 2027
+S
+#2018
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2017
+D0
+~
+~
+0 -1 2007
+S
+#2019
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2020
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2008
+S
+#2020
+Inside a glowing violet sphere.~
+  You are standing on a floating glass platform inside a glowing violet 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2019
+D0
+~
+~
+0 -1 2009
+S
+#2021
+Inside a transparent white sphere.~
+  You are standing on a floating glass platform inside a transparent white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere.  
+Far beneath you floats a large glowing white sphere.
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2022
+D3
+~
+~
+0 -1 2012
+S
+#2022
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2021
+D2
+~
+~
+0 -1 2033
+S
+#2023
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2024
+D1
+~
+~
+0 -1 2033
+S
+#2024
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2023
+D3
+~
+~
+0 -1 2015
+S
+#2025
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2026
+D2
+~
+~
+0 -1 2036
+S
+#2026
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2025
+D0
+~
+~
+0 -1 2016
+S
+#2027
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2028
+D0
+~
+~
+0 -1 2017
+S
+#2028
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2029
+D4
+~
+~
+0 -1 2027
+D1
+~
+~
+0 -1 2038
+S
+#2029
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2028
+D2
+~
+~
+0 -1 2040
+S
+#2030
+Inside a glowing white sphere.~
+  You are standing on a floating glass platform inside a glowing white 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2040
+S
+#2031
+Inside a transparent gray sphere.~
+  You are standing on a floating glass platform inside a transparent gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+Far beneath you floats a dimly lit gray sphere.
+~
+10 0 INDOORS
+D5
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2032
+D2
+~
+~
+0 -1 2041
+S
+#2032
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2031
+S
+#2033
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D3
+~
+~
+0 -1 2023
+D1
+~
+~
+0 -1 2042
+D0
+~
+~
+0 -1 2022
+S
+#2034
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D1
+~
+~
+ISDOOR|CLOSED|HIDDEN -1 2043
+S
+#2035
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2045
+S
+#2036
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2037
+D0
+~
+~
+0 -1 2025
+S
+#2037
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2036
+D2
+~
+~
+0 -1 2047
+S
+#2038
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D5
+~
+~
+0 -1 2039
+D3
+~
+~
+0 -1 2028
+S
+#2039
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D4
+~
+~
+0 -1 2038
+D1
+~
+~
+0 -1 2048
+S
+#2040
+Inside a dimly lit gray sphere.~
+  You are standing on a floating glass platform inside a dimly lit gray 
+sphere. Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 0 INDOORS
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2030
+D0
+~
+~
+0 -1 2029
+S
+#2041
+Inside a transparent black sphere.~
+  You are standing on a floating glass platform inside a transparent sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. Far 
+beneath you floats a large dark black sphere.
+~
+10 DARK INDOORS
+D5
+~
+~
+0 -1 2042
+D0
+~
+~
+0 -1 2031
+S
+#2042
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D4
+~
+~
+0 -1 2041
+D3
+~
+~
+0 -1 2033
+S
+#2043
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D5
+~
+~
+0 -1 2044
+D3
+~
+~
+ISDOOR|CLOSED|HIDDEN -1 2034
+S
+#2044
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D5
+~
+~
+0 -1 2045
+D4
+~
+~
+0 -1 2043
+S
+#2045
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D5
+~
+~
+0 -1 2046
+D4
+~
+~
+0 -1 2044
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN 1963 2035
+S
+#2046
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D5
+~
+~
+0 -1 2047
+D4
+~
+~
+0 -1 2045
+S
+#2047
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D4
+~
+~
+0 -1 2046
+D0
+~
+~
+0 -1 2037
+S
+#2048
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D5
+~
+~
+0 -1 2049
+D3
+~
+~
+0 -1 2039
+S
+#2049
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D5
+~
+~
+ISDOOR|CLOSED|HIDDEN -1 2050
+D4
+~
+~
+0 -1 2048
+S
+#2050
+Inside a dark black sphere.~
+  You are standing on a floating glass platform inside a dark black sphere. 
+Sturdy metal catwalks lead to exits on the surface of the sphere. 
+~
+10 DARK INDOORS
+D4
+~
+~
+ISDOOR|CLOSED|HIDDEN -1 2049
+S

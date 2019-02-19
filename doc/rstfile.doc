@@ -1,0 +1,53 @@
+File Format:
+#<zone#>
+Area Description. A little blurb on it. Use your imagination.
+Maybe a hint as to any quests contained within.~
+<First Room #> <ResetInterval-minutes> <Reset/Area Flags>
+*
+<commands go here>
+.
+.
+<etc etc>
+*
+S
+*
+$~
+
+NOTE: Half of the above is only present for historical reasons, Zone# is 
+not currently used (can be anything), ditto for First Room number (although
+this will be an auto-populated field at some point so that the server 
+can auto-relocate areas if their virtual range is changed in the area.tbl
+file)
+
+
+Current Reset Commands supported:
+M - mobile to room              M <if> <mobile> <max>   <room>  [<room max>]
+O - object to room              O <if> <object> <max>   <room>  [<room max>]
+G - give object to last mobile  G <if> <object> <max>   
+P - put object inside object    P <if> <object> <max>   <object>
+E - equip mobile with an object E <if> <object> <max>   [<position>]
+D - set door state              D <if> <room>   <exit>  <door_flags>
+R - remove object from room     R <if> <room>   <object>
+* - denotes a comment the rest of the line is ignored
+
+To explain the table a bit:
+<if> should be either 0 or 1, if it is 1 the command will only execute
+if the preceding command executed. Typically used like:
+M 0 3000 5 3000 2
+G 1 3000 5
+<max> is used to assign a maximum number of whatevers in the entire mud,
+<room max> will limit the number in the current room. So if you had 2 guards
+in each of 3 rooms, you would have two M commands in each room, all with a 
+max of 6 and a room max of 2.
+<position>
+is currently being ignored, equip will auto-determine the correct position.
+<exit> is the numeric representation of the exit, currently
+ it doesnt support keywords, if this is a problem, tell me.
+ (see EDIR entries in exit.h)
+<door_flags> are taken from exit.h and currently include
+1  EF_ISDOOR
+2  EF_PICKPROOF
+4  EF_LOCKED
+8  EF_CLOSED
+16 EF_HIDDEN
+Add up those you would like set.

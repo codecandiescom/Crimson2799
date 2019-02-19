@@ -1,0 +1,188 @@
+bug~
+0
+99 0
+#0
+Randor~
+test~
+Just a test; wondering why all of them vanished.
+~
+904162260 918200829 -1
+#1
+Bloodhawk~
+VR machines~
+need a sign explaining how to use VR machines
+~
+904688804 918100893 -1
+#2
+Randor~
+Re:VR machines~
+Nope, all you need is to remember to say 'hi' to
+the mobs, in this case to Duah :)
+Randor
+~
+904808468 918100896 1
+#3
+Shanna~
+Equip~
+Need a sign - how do you get equip?
+Sorry, newbie here - there's nobody in there
+- or maybe someone killed the guy
+~
+907864003 918100900 -1
+#4
+Elbrath~
+^Y<No Title>~
+Hi folks ..... if there *IS* ever anyone else about ....
+Interesting MUD .... Ghost MUD.....
+Looting bodies for gear appears not to work
+what is the current status of this MUD ???? is it even managed still
+~
+908071587 918100903 -1
+#5
+Randor~
+Re:^Y<No Title>~
+'get all corpse' works fine - what's the syntax you used?
+As for here being a ghost mud - help fill it by inviting your
+friends..
+~
+908093894 918100911 4
+#6
+Elendur~
+Advancement bug~
+Before level:  
+HP:[  109/  149]
+MP:[  192/  221]
+PP:[   70/   70]
+During level it displays:
+You gain 3 hit points (Your maximum is now 159)
+You gain 12 move points (Your maximum is now 236)
+You gain 1 power points (Your maximum is now 75)
+
+The math isn't right if I gained 1 power point I should have 71 max now 
+but I do have 75 like it said.  The number in () is correct on all 3 of 
+these but the number it says I gain is not.
+probably a simple typo in the code somewhere...
+~
+910488591 918100932 -1
+#7
+Randor~
+Re:Advancement bug~
+Cryogen looked into it - it's not the actual number of points you gain
+that is wrong - it's the message, which doesn't consider the stat bonuses.
+So it's fortunately not a big problem, which is prolly going to be fixed
+very soon anyway. Thanks for the report!
+Randor
+~
+910531706 918100935 6
+#8
+Elendur~
+Spacesuit~
+When you put on a spacesuit, then take it off again, the effect of wearing it remains, which makes no sense.
+Also there is the problem of invis lasting forever.
+~
+910514945 918100938 -1
+#9
+Randor~
+Re:Spacesuit~
+Typing 'stop' is the usual way to stop various things, effects
+included. As for the space suit thing, yeah, we know about it and
+were trying to think of a neat solution to this quite general
+problem. Again, it should hopefully be done soon.
+Again, thanks for your concern!
+Randor
+~
+910531856 918100941 8
+#10
+Elendur~
+spacesuit again~
+Also if you don't already know which you probably do there is the more major problem of that if you log on in space the spacesuit doesn't work because it appears to just use vacuumwalk on you when you put it on.
+~
+911709607 918100946 -1
+#11
+Randor~
+SpiritWalk fixed by Corbin~
+Corbin fixed the SpiritWalk skill so that it really allows
+you to go through doors now, EXCEPT in cases when
+the door resists spirits (there are such doors).
+Please post here if you discover any problems with that
+(or any other thing - bugs DO get fixed here, although sometimes
+it may take a while - as some people claim, imps are humans too ;)
+Randor
+~
+912518393 918100949 -1
+#12
+TheSpide~
+13~
+Following A Police Officer then killing him causes server reboot
+if you do these commands in order the server will reboot (i found this by accident)
+Follow Police
+--- then wait till you follow him out of the room
+kill pol
+and when you kill him the server reboots
+
+
+the times when i did this i had a group of 3 of which I was the leader
+
+thanks
+The_Spide
+~
+917706666 918299390 -1
+#13
+Cryogen~
+Re:13~
+Hopefully this will be fixed as of the next reboot.... just rewrote all the
+group code.
+
+l8r
+Cryogen
+~
+918299395 918299395 12
+#14
+Tigger~
+Quit during VR~
+Well, I don't REALLY want to tell you this, but I'd better.
+If I quit the game during a VR training, and then restart, 
+I come back in the shuttle bay with all of the nifty stuff
+I got in the VR sim. That leaves me with a silver dagger and
+shadowblade, which I think are probably better than the standard
+issue pocket knife. I also have the keg, grapple, etc.
+Hope this helps y'all!
+~
+922159558 923422751 -1
+#15
+Randor~
+Re:Quit during VR~
+Ugh! A nasty one! Thanks a lot!
+Randor
+~
+922241591 923422783 14
+#16
+Tigger~
+VR Trainer~
+Just so you know, when I re-entered the VR trainer and
+exited by dying, the objects that I hard retained were
+taken from me as they should have been in the first
+place.
+~
+922229524 923545556 -1
+#17
+Tigger~
+Selling things~
+When selling things, buying things, or asking a shopkeeper the value of things,
+other people who are in the room only see part of what is going on.
+For example,  "Tigger sells" is all someone would see if they were in
+the room when I sold something.
+Another problem that only shows up when two people are together on the MUD
+is during combat; if I'm fighting with a mob and someone else walks in,
+my name and that of the mob are in red (OK), with strange gibberish added in...
+
+Just some things to look at when y'all get a chance! :)
+~
+923778307 923778307 -1
+#18
+Morrack~
+Prompt~
+I can't get my prompt to display the experience needed for next level.  The prompt display says that %N is for XP for next level, but %N is also for name, I think.
+~
+924144168 924144168 -1
+$

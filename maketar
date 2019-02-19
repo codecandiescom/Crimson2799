@@ -1,0 +1,29 @@
+#!/bin/csh
+echo ## Removing old archives...
+rm -f areatar.gz 
+rm -f boardtar.gz 
+rm -f doctar.gz 
+rm -f helptar.gz 
+rm -f libtar.gz 
+rm -f msgtar.gz 
+rm -f srctar.gz 
+rm -f utiltar.gz
+echo ## Creating tar files...
+tar cvf areatar area/*
+tar cvf boardtar board/*
+tar cvf doctar doc/*
+tar cvf helptar help/*
+tar cvf libtar lib/*
+tar cvf msgtar msg/*
+tar cvf srctar src/*.h src/*.c src/makefile
+tar cvf utiltar util/*.c util/makefile util/*.h
+echo ## GZIP-ing files...
+gzip areatar
+gzip boardtar
+gzip doctar
+gzip helptar
+gzip libtar
+gzip msgtar
+gzip srctar
+gzip utiltar
+echo ## Done!

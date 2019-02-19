@@ -1,0 +1,138 @@
+#6000
+laser cleaner~
+Cleaner laser~
+A cleaner laser has been left here.~
+The powerfull laser cleaner is used to scortch debris from the side of the 
+tunnel. It looks like it used to be attached to a robot. However, it looks 
+like you could hold it and use it as a weapon. 
+~
+WEAPON HUM HELD
+0 512 50400256 17433093
+2 350 350
+P
+@COMMAND~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,35)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#6001
+mini builder cell~
+Mini builder cell~
+A black mini builder cell is sitting on the floor~
+The mini builder cell is just a black cube with small terminals on the side. 
+It looks specially adapted for use in laser devices. 
+~
+AMMO 0 NOWEAR
+10 50 131074 512
+1 80 20
+#6002
+small cleaning laser~
+Small cleaning laser~
+A small cleaning laser has been left here.~
+The cleaning laser looks like it used to be attached to a robot. However, if 
+you hold it, you figure you can use it as a laser-pistol. 
+~
+WEAPON HUM HELD
+0 512 33623552 17432836
+3 300 200
+#6003
+reflective shield~
+Reflective shield~
+A small reflective shield lies in the dirt~
+The reflective shield is a small disc about 30cm in diameter. It has a 
+polished shiny surface on one side, and what looks like a robotic attachment 
+on the other side. 
+~
+ARMOR 0 HELD
+4 251659008 6400 0
+3 10 1
+#6004
+recycler~
+Recycler~
+A recycler has been discarded here~
+The recycler is a combination laser and acid-spray device. It looks really 
+mean. 
+~
+WEAPON 0 HELD
+0 160 33625088 67764485
+20 500 600
+#6005
+emr pulse array~
+EMR pulse array~
+An EMR pulse array has been dropped here.~
+The Electro-Magnetic Radiation (EMR) pulse array is dented and worn, but 
+appears to be working.
+~
+WEAPON 0 HEAD
+0 16 33562112 168427788
+6 2000 1900
+#6006
+high power laser~
+High power laser~
+A high power laser has been dropped here.~
+The high power laser is massive, but it looks like it would carry quite a 
+punch! 
+~
+WEAPON GLOW HELD
+0 32 50402304 50987269
+10 1000 1000
+#6007
+laser array~
+Laser array~
+A laser array is here. ~
+The laser array as twenty laser emitters. Each laser has a duty cycle of 1 
+on, 4 off. Consquently, 4 emitters fire massive laser bolts each round. 
+~
+WEAPON GLOW|HUM BOTH-HANDS
+0 32 50598912 50987269
+30 4000 4000
+#6008
+black psi-belt belt~
+black psi-belt~
+A black belt has been left here.~
+The black belt squirms and snakes as if alive... or at least it *appears* 
+to. 
+~
+WORN HUM|AURA WAIST
+0 0 0 0
+1 5000 500
+A
+POWER 20
+#6009
+blank object~
+Type ^wONAME^c to give this Obj a better name.~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 NOWEAR
+0 0 0 0
+0 0 0
+#6010
+blank object~
+Type ^wONAME^c to give this Obj a better name.~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 NOWEAR
+0 0 0 0
+0 0 0
+#6011
+blank object~
+Type ^wONAME^c to give this Obj a better name.~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 NOWEAR
+0 0 0 0
+0 0 0
+#6012
+blank object~
+Type ^wONAME^c to give this Obj a better name.~
+Type ^wOLDESC^c to give this Obj a better LDesc.~
+Type ^wODESC^c to give this Obj a better Description.
+~
+ARMOR 0 NOWEAR
+0 0 0 0
+0 0 0
+$

@@ -1,0 +1,2399 @@
+#5600
+The O-Zone~
+You are floating inside a big void-like space as all the light is sucked into the
+big hole to the north. Apparently, the builder working on this Area hasn't done
+much yet except experiment a bit. Welcome to 'The Zone Where Normal Things Don't
+Happen (Very Often)'.
+^vNote that this room is not a part of the area, but just a place where I can
+try stuff^V
+~
+19 NOWEATHER|PRIVATE INDOORS
+D5
+~
+~
+0 -1 1100
+D2
+~
+~
+0 -1 5721
+D3
+~
+~
+0 -1 5800
+D0
+~
+~
+0 -1 0
+E
+hole~
+I wouldn't go near that hole unless you want to be compressed like a Zip-file
+~
+S
+#5601
+Anomaly Surface~
+You're just outside the Anomaly Surface slowly drifting trough the nothingness
+of space. You feel a bit sick when you try to figure which side is up and which
+is down, not to mention a strange gravitational pull from the ... um ... south.
+It would be wise to hold onto anything solid or you will float away into the
+void like a runaway balloon. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D1
+Near the Space Dock
+~
+~
+0 -1 5722
+D2
+~
+~
+0 -1 5626
+D4
+~
+~
+0 -1 5625
+D3
+~
+~
+0 -1 5625
+D5
+A sturdy ledge
+~
+~
+0 -1 5602
+S
+#5602
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D1
+~
+~
+0 -1 5625
+D3
+~
+~
+0 -1 5625
+D5
+A few sturdy knobs 
+~
+~
+0 -1 5603
+D4
+Some solid footholds 
+~
+~
+0 -1 5601
+S
+#5603
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D5
+~
+~
+0 -1 5625
+D1
+~
+~
+0 -1 5625
+D3
+A hole in the surface 
+~
+~
+0 -1 5604
+D4
+A sturdy ledge 
+~
+~
+0 -1 5602
+S
+#5604
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D5
+~
+~
+0 -1 5625
+D4
+~
+~
+0 -1 5625
+D3
+Some space debris 
+~
+~
+0 -1 5605
+D1
+A few sturdy knobs 
+~
+~
+0 -1 5603
+S
+#5605
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D3
+~
+~
+0 -1 5625
+D5
+~
+~
+0 -1 5625
+D4
+A solid foothold 
+~
+~
+0 -1 5606
+D1
+A hole in the surface 
+~
+~
+0 -1 5604
+S
+#5606
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D4
+~
+~
+0 -1 5625
+D3
+~
+~
+0 -1 5625
+D1
+Another ledge 
+~
+~
+0 -1 5607
+D5
+Some space debris 
+~
+~
+0 -1 5605
+S
+#5607
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D5
+~
+~
+0 -1 5625
+D1
+~
+~
+0 -1 5625
+D4
+A jagged edge 
+~
+~
+0 -1 5608
+D3
+A solid foothold 
+~
+~
+0 -1 5606
+S
+#5608
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D4
+~
+~
+0 -1 5625
+D1
+~
+~
+0 -1 5625
+D3
+A curved ridge 
+~
+~
+0 -1 5609
+D5
+Another ledge 
+~
+~
+0 -1 5607
+S
+#5609
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D5
+~
+~
+0 -1 5625
+D4
+~
+~
+0 -1 5625
+D3
+A few tiny gaps 
+~
+~
+0 -1 5610
+D1
+A jagged edge 
+~
+~
+0 -1 5608
+S
+#5610
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D4
+~
+~
+0 -1 5625
+D3
+~
+~
+0 -1 5625
+D5
+A pair of iron hinges? 
+~
+~
+0 -1 5611
+D1
+A curved ridge 
+~
+~
+0 -1 5609
+S
+#5611
+Anomaly Surface~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D1
+~
+~
+0 -1 5625
+D3
+~
+~
+0 -1 5625
+D5
+A rope floating from the west 
+~
+~
+0 -1 5612
+D4
+A few tiny gaps 
+~
+~
+0 -1 5610
+S
+#5612
+Anomaly Surface near a floating rope~
+You're on the Anomaly Surface slowly drifting trough the nothingness of 
+space. You feel a bit sick when you try to figure which side is up and which 
+is down, not to mention a strange gravitational pull from the ... um ... 
+south. It would be wise to hold onto anything solid or you will float away 
+into the void like a runaway balloon. Luckily you could hold onto this large 
+rope!? Someone must have been here before... As a matter of fact you can see 
+some crate like structures floating in mid-void to the west. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D1
+~
+~
+0 -1 5625
+D5
+~
+~
+0 -1 5625
+D3
+An iron structure 
+~
+~
+0 -1 5613
+D4
+A pair of iron hinges? 
+~
+~
+0 -1 5611
+S
+#5613
+The Iron Structure~
+You're floating near a set of crate-like structures tightly holding the rope 
+attached to it. The Anomaly is scarred on several areas, while some tiny 
+flashes of light are emitted near the structure.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5617
+D0
+~
+~
+0 -1 5621
+D3
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC -1 5614
+D1
+A floating rope 
+~
+~
+0 -1 5612
+S
+#5614
+Airlock Beta~
+I want this to be an Airlock -->One door must be close before the other can be
+openedIf someone leaves the airlock both doors must immediately close or you
+wont be able to use them anymore.
+~
+19 0 INDOORS
+D3
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC -1 5615
+D1
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC -1 5613
+S
+#5615
+Access Shaft Beta~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5616
+D1
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC -1 5614
+S
+#5616
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5620
+D0
+~
+~
+0 -1 5624
+D1
+~
+~
+0 -1 5615
+S
+#5617
+The Iron Structure~
+You're floating near a set of crate-like structures tightly holding the rope 
+attached to it. The Anomaly is scarred on several areas, while some tiny 
+flashes of light are emitted near the structure. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D0
+~
+~
+0 -1 5613
+D3
+~
+~
+ISDOOR|CLOSED -1 5618
+S
+#5618
+Airlock Gamma~
+This Airlock is malfuctioning. Bot doors aren't pickproof but they ARE locked.If
+both doors are opened at the same time the room will become a deathtrap foryou
+will be sucked into outerspace because of the pressure difference (I think Ihave
+a spare room far that W#5677).
+ Only west door is locked
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5617
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5619
+S
+#5619
+Access Shaft Gamma~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5618
+D3
+~
+~
+0 -1 5620
+S
+#5620
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5627
+D0
+~
+~
+0 -1 5616
+D1
+~
+~
+0 -1 5619
+S
+#5621
+The Iron Structure~
+You're floating near a set of crate-like structures tightly holding the rope 
+attached to it. The Anomaly is scarred on several areas, while some tiny 
+flashes of light are emitted near the structure. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D3
+~
+~
+ISDOOR|CLOSED -1 5622
+D2
+~
+~
+0 -1 5613
+S
+#5622
+Airlock Alpha~
+Airlock broken ... doesn't work at all
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D1
+~
+~
+ISDOOR|CLOSED -1 5621
+D3
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC -1 5623
+S
+#5623
+Access Shaft Alpha~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC -1 5622
+D3
+~
+~
+0 -1 5624
+S
+#5624
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5634
+D2
+~
+~
+0 -1 5616
+D1
+~
+~
+0 -1 5623
+S
+#5625
+Slippery surface~
+As you try to grab hold of the Anomaly's rocky structure you find it to be more
+difficult then you expected. You cannot seem to get hold of any solid material
+while you slither across the slippery surface. You try to scream for help, but
+unfortunately there is no sound in space. As you slowly drift into outerspace
+you see your life flash by, realizing you will be floating here for a long, long
+time ... 
+~
+19 DEATHTRAP|NOMOB|NOWEATHER|VACUUM VACUUM
+S
+#5626
+The Black Hole~
+Strangely enough you decide to venture into the Black Hole as you let go of the
+Anomalies surface. As you approach the big nothingness you sense the light
+around you is being sucked into the black void. You feel you bones slowly
+crunching together as you are being compressed like a Zip-File. After a few more
+seconds you feel your bodystructure falling apart until you are nothing more
+than a pixel. Better luck next clone ...
+~
+19 DEATHTRAP|NOMOB|NOWEATHER|VACUUM VACUUM
+S
+#5627
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5628
+D0
+~
+~
+0 -1 5620
+S
+#5628
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5629
+D1
+~
+~
+0 -1 5627
+D5
+~
+~
+0 -1 5693
+S
+#5629
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5632
+D2
+~
+~
+0 -1 5630
+D1
+~
+~
+0 -1 5628
+S
+#5630
+Level 2 Corridor~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise, although a huge amount of bleeps and 
+flashes of lights are coming from the east.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5631
+D0
+~
+~
+0 -1 5629
+S
+#5631
+Stabilzer Unit I~
+You've just stumbled upon a huge room with a set of large glass tubes in the 
+middle. All sorts of bleeping panels, consoles and vid-screens are attached 
+to the walls, as well as lights of every size and color. You're disturbed by 
+all the useless tools scattered troughout the room.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5630
+S
+#5632
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5633
+D1
+~
+~
+0 -1 5629
+S
+#5633
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5643
+D1
+~
+~
+0 -1 5632
+S
+#5634
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5635
+D2
+~
+~
+0 -1 5624
+S
+#5635
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5634
+D3
+~
+~
+0 -1 5636
+D5
+~
+~
+0 -1 5689
+S
+#5636
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5637
+D1
+~
+~
+0 -1 5635
+D3
+~
+~
+0 -1 5639
+S
+#5637
+Level 2 Corridor~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise, although a huge amount of bleeps and 
+flashes of lights are coming from the east.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5638
+D2
+~
+~
+0 -1 5636
+S
+#5638
+Stabilzer Unit II~
+You've just stumbled upon a huge room with a set of large glass tubes in the 
+middle. All sorts of bleeping panels, consoles and vid-screens are attached 
+to the walls, as well as lights of every size and color. You're disturbed by 
+all the useless tools scattered troughout the room.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5637
+S
+#5639
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5636
+D3
+~
+~
+0 -1 5640
+S
+#5640
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5639
+D2
+~
+~
+0 -1 5641
+S
+#5641
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5658
+D0
+~
+~
+0 -1 5640
+D2
+~
+~
+0 -1 5642
+S
+#5642
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|CLOSED -1 5667
+D3
+~
+~
+ISDOOR|CLOSED -1 5653
+D0
+~
+~
+0 -1 5641
+D2
+~
+~
+0 -1 5643
+S
+#5643
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5644
+D0
+~
+~
+0 -1 5642
+D2
+~
+~
+0 -1 5633
+S
+#5644
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5643
+D3
+~
+~
+0 -1 5645
+S
+#5645
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|CLOSED -1 5646
+D1
+~
+~
+0 -1 5644
+S
+#5646
+Officer's Quarters~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5650
+D1
+~
+~
+0 -1 5647
+D0
+~
+~
+ISDOOR|CLOSED -1 5645
+S
+#5647
+Officer's Quarters~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5649
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5648
+D3
+~
+~
+0 -1 5646
+S
+#5648
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5647
+S
+#5649
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5647
+S
+#5650
+Officer's Quarters~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5646
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5651
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5652
+S
+#5651
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5650
+S
+#5652
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5650
+S
+#5653
+Level 2 Hallway~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|CLOSED -1 5642
+D3
+~
+~
+0 -1 5654
+S
+#5654
+Level 2 Hallway~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5653
+D3
+~
+~
+0 -1 5655
+S
+#5655
+Level 2 Hallway at the TurboLift~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now. An 
+onyx plaque hangs on a large tube embedded in the wall. 
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5657
+D0
+~
+~
+0 -1 5656
+D1
+~
+~
+0 -1 5654
+E
+plaque sign note~
+
+^b"^cTo call the TurboLift say '^rCALL LIFT^c'^b"
+
+^gCan it be more obvious ?
+~
+P
+@aftercommand~
+{
+  thing t;
+  t=ThingFind(NULL,5605,TNULL,TF_OBJ_WLD,0);
+  if(BaseGetInside(t)==CODE_THING) {
+    stop;
+  }
+  if(StrIsCmd(COMMAND,"say")) {
+    if(StrIn(COMMAND,"call")&&StrIn(COMMAND,"lift")) {
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks out of the room\n");
+      ThingTo(t,WorldOf(5655));
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks into the room\n");
+      SendAction(WorldOf(5687),TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou suddenly zift to Level 2\n");
+    }
+    stop;
+  }
+}~
+S
+#5656
+Level 2 Hallway~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5655
+S
+#5657
+Level 2 Hallway~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5655
+S
+#5658
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5659
+D1
+~
+~
+0 -1 5641
+S
+#5659
+Level 2 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D0
+~
+~
+ISDOOR|CLOSED -1 5660
+D1
+~
+~
+0 -1 5658
+S
+#5660
+Officer's Quarters~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5661
+D3
+~
+~
+0 -1 5664
+D2
+~
+~
+ISDOOR|CLOSED -1 5659
+S
+#5661
+Officer's Quarters~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5663
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5662
+D3
+~
+~
+0 -1 5660
+S
+#5662
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5661
+S
+#5663
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5661
+S
+#5664
+Officer's Quarters~
+You're traversing one of the ship's corridors. The metal plates have been 
+replaced with thick layers of durable and sound absorbing polymers which 
+have decreased the amount of noise. Even speech sounds more away now.
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5666
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5665
+D1
+~
+~
+0 -1 5660
+S
+#5665
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5664
+S
+#5666
+Officer's Chamber~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5664
+S
+#5667
+Crew's Quarters~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5668
+D2
+~
+~
+0 -1 5674
+D3
+~
+~
+ISDOOR|CLOSED -1 5642
+S
+#5668
+Crew's Quarters~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5667
+D1
+~
+~
+0 -1 5669
+D0
+~
+~
+ISDOOR|CLOSED -1 5676
+D3
+~
+~
+ISDOOR|CLOSED -1 5675
+S
+#5669
+Crew's Quarters~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5668
+D1
+~
+~
+0 -1 5670
+D0
+~
+~
+ISDOOR|CLOSED -1 5678
+S
+#5670
+Crew's Quarters~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5669
+D2
+~
+~
+0 -1 5671
+D0
+~
+~
+ISDOOR|CLOSED -1 5679
+D1
+~
+~
+ISDOOR|CLOSED -1 5680
+S
+#5671
+Crew's Quarters~
+Hidden Door (to Salzifirr) to the west
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5670
+D2
+~
+~
+0 -1 5672
+D1
+~
+~
+ISDOOR|CLOSED -1 5681
+D3
+~
+~
+HIDDEN -1 5688
+S
+#5672
+Crew's Quarters~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|CLOSED -1 5682
+D0
+~
+~
+0 -1 5671
+D3
+~
+~
+0 -1 5673
+D2
+~
+~
+ISDOOR|CLOSED -1 5683
+S
+#5673
+Crew's Quarters~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5672
+D3
+~
+~
+0 -1 5674
+D2
+~
+~
+ISDOOR|CLOSED -1 5684
+S
+#5674
+Crew's Quarters~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5673
+D0
+~
+~
+0 -1 5667
+D3
+~
+~
+ISDOOR|CLOSED -1 5686
+D2
+~
+~
+ISDOOR|CLOSED -1 5685
+S
+#5675
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|CLOSED -1 5668
+S
+#5676
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|CLOSED -1 5668
+S
+#5677
+^rOOOOPS !!!~
+It seems the builder forgot to assign a function for this room. Ohwell, you can
+think of this room as a spare tire :)
+~
+19 0 INDOORS
+S
+#5678
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|CLOSED -1 5669
+S
+#5679
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+ISDOOR|CLOSED -1 5670
+S
+#5680
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+ISDOOR|CLOSED -1 5670
+S
+#5681
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+ISDOOR|CLOSED -1 5671
+S
+#5682
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+ISDOOR|CLOSED -1 5672
+S
+#5683
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+ISDOOR|CLOSED -1 5672
+S
+#5684
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+ISDOOR|CLOSED -1 5673
+S
+#5685
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+ISDOOR|CLOSED -1 5674
+S
+#5686
+Bunk Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+ISDOOR|CLOSED -1 5674
+S
+#5687
+The TurboLift~
+You're inside the ship's TurboLift. The Lift's only light is emitted from a 
+blue glowing panel in the wall. 
+~
+19 0 INDOORS
+D6
+~
+The TurboLift~
+0 -1 5655
+E
+panel~
+
+^bIt's a spooky indigo colored panel with bright green letters saying :
+
+"^gVoice commanded TurboLift by ZIFT ^r[R]^g.
+
+Please specify '^pone^g' '^ptwo^g' or '^pbridge^g'.^b"
+
+~
+P
+@aftercommand~
+{
+  thing t;
+  t=ThingFind(NULL,5605,TNULL,TF_OBJ_WLD,0);
+  if(StrIsCmd(COMMAND,"say")) {
+    if(StrIn(COMMAND,"bridge")) {
+      if(BaseGetInside(t)==WorldOf(5724)) {
+        SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pA computer voice bleeps \"Sorry, but you are already on the Bridge\"\n");
+        stop;
+      }
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks out of the room\n");
+      ThingTo(t,WorldOf(5724));
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks into the room\n");
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou zift to the Bridge\n");
+    }
+    else {
+      if(StrIsCmd(COMMAND,"say")) {
+        if(StrIn(COMMAND,"one")) {
+          if(BaseGetInside(t)==WorldOf(5723)) {
+            SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pA computer voice bleeps \"Sorry, but you are already at Level 1\"\n");
+            stop;
+          }
+          SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks out of the room\n");
+          ThingTo(t,WorldOf(5723));
+          SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks into the room\n");
+          SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou zift to Level 1\n");
+        }
+        else {
+          if(StrIsCmd(COMMAND,"say")) {
+            if(StrIn(COMMAND,"two")) {
+              if(BaseGetInside(t)==WorldOf(5655)) {
+                SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pA computer voice bleeps \"Sorry, but you are already at Level 2\"\n");
+                stop;
+              }
+              SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks out of the room\n");
+              ThingTo(t,WorldOf(5655));
+              SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks into the room\n");
+              SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou zift to Level 2\n");
+            }
+            else {
+              SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pA computer voice bleeps \"Does not compute...\"\n");
+            }
+            stop;
+          }
+        }
+      }
+    }
+  }
+}~
+P
+@afterentry~
+{
+  SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pA computer voice bleeps \"Please specify desired floor...\"\n");
+}~
+S
+#5688
+Hidden Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5671
+D5
+~
+~
+0 -1 5719
+S
+#5689
+Staircase~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5697
+D4
+~
+~
+0 -1 5635
+D2
+~
+~
+ISDOOR|CLOSED -1 5690
+S
+#5690
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5699
+D2
+~
+~
+0 -1 5691
+D0
+~
+~
+ISDOOR|CLOSED -1 5689
+S
+#5691
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5690
+D2
+~
+~
+0 -1 5692
+D1
+~
+~
+0 -1 5694
+S
+#5692
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5691
+D3
+~
+~
+0 -1 5707
+D2
+~
+~
+ISDOOR|CLOSED -1 5693
+S
+#5693
+Staircase~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5698
+D0
+~
+~
+ISDOOR|CLOSED -1 5692
+D4
+~
+~
+0 -1 5628
+S
+#5694
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5691
+D0
+~
+~
+0 -1 5695
+D2
+~
+~
+0 -1 5696
+S
+#5695
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5694
+S
+#5696
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5694
+S
+#5697
+Storage Closet~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5689
+S
+#5698
+Storage Closet~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5693
+S
+#5699
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5700
+D1
+~
+~
+0 -1 5690
+D2
+~
+~
+0 -1 5711
+S
+#5700
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5701
+D1
+~
+~
+0 -1 5699
+S
+#5701
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5702
+D1
+~
+~
+0 -1 5700
+S
+#5702
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5703
+D1
+~
+~
+0 -1 5701
+S
+#5703
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5709
+D3
+~
+~
+0 -1 5708
+D0
+~
+~
+0 -1 5702
+D2
+~
+~
+0 -1 5704
+S
+#5704
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5705
+D0
+~
+~
+0 -1 5703
+S
+#5705
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5706
+D3
+~
+~
+0 -1 5704
+S
+#5706
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5707
+D3
+~
+~
+0 -1 5705
+S
+#5707
+Level 3 Hallway~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. 
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5692
+D3
+~
+~
+0 -1 5706
+D0
+~
+~
+0 -1 5712
+S
+#5708
+Emergency Escape Pod~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5703
+S
+#5709
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5717
+D1
+~
+~
+0 -1 5710
+D0
+~
+~
+0 -1 5716
+D3
+~
+~
+0 -1 5703
+S
+#5710
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5715
+D2
+~
+~
+0 -1 5718
+D3
+~
+~
+0 -1 5709
+S
+#5711
+Storage Pod Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5699
+D1
+~
+~
+0 -1 5713
+S
+#5712
+Storage Pod Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5707
+D1
+~
+~
+0 -1 5714
+S
+#5713
+Storage Pod Buaga~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D3
+~
+~
+0 -1 5711
+S
+#5714
+Storage Pod Arzo~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D3
+~
+~
+0 -1 5712
+S
+#5715
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5710
+D3
+~
+~
+0 -1 5716
+S
+#5716
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D2
+~
+~
+0 -1 5709
+D1
+~
+~
+0 -1 5715
+S
+#5717
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D1
+~
+~
+0 -1 5718
+D0
+~
+~
+0 -1 5709
+S
+#5718
+Storage Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D0
+~
+~
+0 -1 5710
+D3
+~
+~
+0 -1 5717
+S
+#5719
+Salzifirr's Room~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D4
+~
+~
+0 -1 5688
+D3
+~
+~
+ISDOOR|CLOSED -1 5710
+D1
+~
+~
+0 -1 5720
+S
+#5720
+Emergency Exit~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+D3
+~
+~
+0 -1 5719
+D4
+~
+~
+ISDOOR|CLOSED -1 5620
+S
+#5721
+Outer Space~
+You're just outside the Anomaly Space Dock #3 slowly drifting trough the 
+nothingness of space. You feel a bit sick when you try to figure which side 
+is up and which is down, not to mention a strange gravitational pull from 
+the ... um ... south. It would be wise to hold onto anything solid or you 
+will float away into the void like a runaway balloon. To the west is Space 
+Dock 3. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D3
+~
+~
+0 -1 5002
+D2
+Near the Anomaly Surface  
+~
+~
+0 -1 5722
+S
+#5722
+Outer Space~
+You're just outside the Anomaly Space Dock #3 slowly drifting trough the 
+nothingness of space. You feel a bit sick when you try to figure which side 
+is up and which is down, not to mention a strange gravitational pull from 
+the ... um ... south. It would be wise to hold onto anything solid or you 
+will float away into the void like a runaway balloon. 
+~
+19 NOMOB|NOWEATHER|VACUUM VACUUM
+D2
+~
+~
+0 -1 5626
+D3
+~
+~
+0 -1 5601
+D0
+Near the Space Dock  
+~
+~
+0 -1 5721
+S
+#5723
+Hallway Level 1 at the TurboLift~
+You're inside on of the ship's main hallways. The floors, walls and ceilings 
+are cover with large blue steel plates, which causes quite a bit of noise 
+when walked upon, although lots of voices can be heared beyond. An onyx 
+plaque hangs on a large tube embedded in the wall. 
+~
+19 0 INDOORS
+E
+plaque sign note~
+
+^b"^cTo call the TurboLift say '^rCALL LIFT^c'^b"
+
+^gCan it be more obvious ?
+~
+P
+@aftercommand~
+{
+  thing t;
+  t=ThingFind(NULL,5605,TNULL,TF_OBJ_WLD,0);
+  if(BaseGetInside(t)==CODE_THING) {
+    stop;
+  }
+  if(StrIsCmd(COMMAND,"say")) {
+    if(StrIn(COMMAND,"call")&&StrIn(COMMAND,"lift")) {
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks out of the room\n");
+      ThingTo(t,WorldOf(5723));
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks into the room\n");
+      SendAction(WorldOf(5687),TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou suddenly zift to Level 1\n");
+    }
+    stop;
+  }
+}~
+S
+#5724
+Bridge near the TurboLift~
+An onyx plaque hangs on the wall. 
+~
+19 0 INDOORS
+E
+plaque sign note~
+
+^b"^cTo call the TurboLift say '^rCALL LIFT^c'^b"
+
+^gCan it be more obvious ?
+~
+P
+@aftercommand~
+{
+  thing t;
+  t=ThingFind(NULL,5605,TNULL,TF_OBJ_WLD,0);
+  if(BaseGetInside(t)==CODE_THING) {
+    stop;
+  }
+  if(StrIsCmd(COMMAND,"say")) {
+    if(StrIn(COMMAND,"call")&&StrIn(COMMAND,"lift")) {
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks out of the room\n");
+      ThingTo(t,WorldOf(5724));
+      SendAction(t,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe TurboLift whisks into the room\n");
+      SendAction(WorldOf(5687),TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou suddenly zift to the Bridge\n");
+    }
+    stop;
+  }
+}~
+S
+#5725
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+19 0 INDOORS
+S

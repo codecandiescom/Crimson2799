@@ -1,0 +1,118 @@
+#4500
+wolf cub~
+a Wolf Cub~
+A Wolf Cub is gamboling around here~
+It looks like it would be more at home in a forest, I wonder why it left
+~
+STAYAREA 0 0 S
+1 0 0 1d4+8 1d2+0
+0 25
+STANDING NONE MALE
+#4501
+mob wolf~
+The Timberwolf~
+A hungry timberwolf is here, looking for food.~
+It looks like it would be more at home in a forest. I wonder why it left. 
+~
+STAYAREA 0 0 S
+2 6 2 1d6+10 1d3+0
+0 30
+STANDING NONE MALE
+#4502
+mob white wolf~
+The Huge White Wolf~
+A huge white wolf is here, looking for food.~
+It looks like it would be more at home in a forest. I wonder why it left. 
+~
+STAYAREA 0 0 S
+3 9 4 1d9+20 3d2+1
+0 45
+STANDING NONE MALE
+#4503
+mob shadow wolf~
+The Huge Shadow Wolf~
+A huge wolf shadow is here, it howls eerily as it hunts for life force.~
+Although faintly transparent, its probably solid enough to rip your throat 
+out. Its obviously very evil, and very nasty. I hope you have friends. 
+~
+STAYAREA BREATHWATER|DARKVISION 0 S
+12 9 15 7d12+150 2d6+2
+0 210
+STANDING NONE MALE
+#4504
+mob vampire shaman orc~
+The Vampire Orc-Shaman~
+An Orc-Shaman is here, he has very well developed canines and pale coloration~
+Unless your mother raised a moron, you're quite sure this is a vampire... I 
+hope you have a wooden stake handy... 
+~
+SENTINEL|SCAVENGER|AGGRESSIVE|STAYAREA IMPROVED|BREATHWATER -1000 S
+5 15 9 1d15+50 3d3+1
+0 75
+STANDING NONE MALE
+#4505
+mob bodyguard orc~
+The Orc Bodyguard~
+A large orc bodyguard is here, eyeing you suspiciously.~
+Looks pretty tough, as orcs go... 
+~
+SENTINEL|STAYAREA 0 -750 S
+4 12 7 1d12+40 3d2+1
+0 60
+STANDING NONE MALE
+#4506
+mob vampire mayor~
+The Vampire Mayor~
+The mayor is here grinning evily, His eyes are red and glowing.~
+Unless your mother raised a moron, you're quite sure this is a vampire... I 
+hope you have a wooden stake handy... 
+~
+SENTINEL|SCAVENGER|AGGRESSIVE|STAYAREA 0 -1000 S
+7 21 14 1d21+70 3d3+2
+0 105
+STANDING NONE MALE
+#4507
+mob shadow wolf~
+The Enormous Shadow Wolf~
+An Enormous shadow wolf is here, it growls eerily.~
+Although you can see right though it, it still seems quite dangerous... 
+perhaps thats because its the size of a large horse... 
+~
+SENTINEL|STAYAREA 0 -1000 S
+5 15 9 1d15+50 3d3+1
+0 75
+STANDING NONE MALE
+#4508
+mob vampire mistress woman~
+A vampire mistress~
+A provocatively dressed woman is here, her eyes glow red in the darkness.~
+Unless your mother raised a moron, you're quite sure this is a vampire... I 
+hope you have a wooden stake handy... 
+~
+SENTINEL|AGGRESSIVE|STAYAREA IMPROVED|BREATHWATER|REGENERATION -1000 S
+8 24 17 1d24+80 3d4+2
+0 120
+STANDING NONE FEMALE
+#4509
+mob rat~
+The giant rat~
+A giant rat is here, it rushes at you with mindless hunger.~
+It looks much like any other rat except that its about 3 feet long. 
+~
+AGGRESSIVE|STAYAREA|WIMPY 0 -200 S
+2 6 2 1d6+20 3d2+0
+0 30
+STANDING NONE MALE
+#4510
+mob vampire nosferatu~
+Nosferatu~
+Nosferatu snarls with rage, and prepares to cast a spell.~
+Unless your mother raised a moron, you're quite sure this is a vampire... I 
+hope you have a wooden stake handy... In fact I hope you have an army 
+handy... (Nosferatu is not to be trifled with) 
+~
+TRACKER|SENTINEL|AGGRESSIVE|STAYAREA IMPROVED|BREATHWATER|ENDURANCE -1000 S
+9 27 19 1d27+200 3d4+3
+0 135
+STANDING NONE MALE
+$

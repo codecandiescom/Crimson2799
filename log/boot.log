@@ -1,0 +1,99 @@
+01/30(08:31) Initing Files
+01/30(08:31) Maximum file string size: 16384
+01/30(08:31) Reading: msg/greeting.msg
+01/30(08:31) Reading: msg/ciao.msg
+01/30(08:31) Reading: msg/news.msg
+01/30(08:31) Reading: msg/motd.msg
+01/30(08:31) Reading: msg/quit.msg
+01/30(08:31) Reading: msg/credit.msg
+01/30(08:31) Reading: msg/death.msg
+01/30(08:31) Reading: msg/banned.msg
+01/30(08:31) Reading: msg/bannew.msg
+01/30(08:31) Reading: msg/offsite.msg
+01/30(08:31) Initial socialIndex allocation of 128 entries
+01/30(08:31) Total Number of Socials: [ 87]
+01/30(08:31) Initial helpList allocation of 6 entries
+01/30(08:31) Initial helpIndex allocation of 64 entries
+01/30(08:31) Read Help Section:[intro.hlp         ] Hlp[    6] [corbin]
+01/30(08:31) Read Help Section:[chargen.hlp       ] Hlp[  132] [cryogen]
+01/30(08:31) Read Help Section:[command.hlp       ] Hlp[   59] [cryogen]
+01/30(08:31) Read Help Section:[concept.hlp       ] Hlp[   16] [cryogen]
+01/30(08:31) Read Help Section:[edit.hlp          ] Hlp[   15] [corbin]
+01/30(08:31) Read Help Section:[zone.hlp          ] Hlp[    4] [corbin]
+01/30(08:31) Read Help Section:[areaedit.hlp      ] Hlp[    6] [cryogen]
+01/30(08:31) Read Help Section:[c4.hlp            ] Hlp[   23] [corbin]
+01/30(08:31) Read Help Section:[c4appdx.hlp       ] Hlp[  119] [corbin]
+01/30(08:31) Help Totals: Sections[ 9] Entries[  380]
+
+01/30(08:31) Total Skills in play: 122
+01/30(08:31) Current Q size [28]
+01/30(08:31) Current SOCK size [1608]
+01/30(08:31) Default SockFlags: CR LF TELNETGA ANSI PROMPTHP CHANUSUAGE CHANGOSSIP CHANGROUP CHANPRIVATE
+01/30(08:31) sockMaxNum = 99
+01/30(08:31) sockMaxOffsite = 20
+01/30(08:31) Alloc'ing overflow Q
+01/30(08:31) SockInit'd successfully
+01/30(08:31) Initial siteIndex allocation of 64 entries
+01/30(08:31) 127.0.0.1                 LOCAL   Tue Dec  9 10:44:29 1997  Cryogen
+01/30(08:31) uvic.ca                   LOCAL   Wed Dec 31 16:00:00 1969  <SYSTEM>
+01/30(08:31) Total Number of Special Sites: [  2]
+01/30(08:31) 
+01/30(08:31) Initial boardList allocation of 5 entries
+01/30(08:31) Read Board:[general           ] Msg[   40] [Cryogen]
+01/30(08:31) Read Board:[area              ] Msg[    5] []
+01/30(08:31) Read Board:[god               ] Msg[    0] []
+01/30(08:31) Read Board:[bug               ] Msg[   19] [Cryogen]
+01/30(08:31) Board Totals: Boards[ 4] Messages[   64]
+
+01/30(08:31) Initial areaList allocation of 15 entries
+01/30(08:31) Reading World logging defaults
+01/30(08:31) World structure size is 60 bytes
+01/30(08:31) Reading Mobile logging defaults
+01/30(08:31) MobileTemplate structure size is 80 bytes
+01/30(08:31) Reading object logging defaults
+01/30(08:31) ObjectTemplate structure size is 84 bytes
+01/30(08:31) Reading Reset logging defaults
+01/30(08:31) Reset structure size is 20 bytes
+01/30(08:31) Reading Area:[Void              ] [    0-   99] [corbin]
+01/30(08:31) Reading Area:[AnomalyStation    ] [  100-  300] [corbin]
+01/30(08:31) Reading Area:[MiningDock        ] [  400-  499] [cryogen]
+01/30(08:31) Reading Area:[StationConduits   ] [ 1300- 1499] [corbin]
+01/30(08:31) Reading Area:[TheMaze           ] [ 1500- 1649] [corbin]
+01/30(08:31) Reading Area:[TheMaze           ] [ 1650- 1799] [corbin]
+01/30(08:31) Reading Area:[TheMaze           ] [ 1800- 1949] [corbin]
+01/30(08:31) Reading Area:[TheMaze           ] [ 1950- 2099] [corbin]
+01/30(08:31) Reading Area:[OreTransport      ] [ 2500- 2699] [cryogen]
+01/30(08:31) Reading Area:[OreTransport      ] [ 2700- 2899] [cryogen]
+01/30(08:31) Reading Area:[SilverDale        ] [ 4500- 4599] [cryogen]
+01/30(08:31) Reading Area:[AnomalySpaceDock  ] [ 5000- 5199] [corbin]
+01/30(08:31) Reading Area:[PipeSystem        ] [ 6000- 6199] [corbin]
+01/30(08:31) Re-Indexing World
+01/30(08:31) Re-Indexing Reset Entries
+01/30(08:31) Totals: Area[13] Wld[ 1353] Mob[  207] Obj[  303] Rst[ 1346]
+
+01/30(08:31) Scanning crash/ for active files
+01/30(08:31) 0 crashed players found.
+
+01/30(08:31) Scanning players/ for active files
+01/30(08:31)  corbin         cryogen       
+01/30(08:31) 2 offline players found.
+01/30(08:31) 0 old players turfed.
+
+01/30(08:31) Compiling Area: [Void              ]
+01/30(08:31) Compiling Area: [AnomalyStation    ]
+01/30(08:31) Compiling Area: [MiningDock        ]
+01/30(08:31) Compiling Area: [StationConduits   ]
+01/30(08:31) Compiling Area: [TheMaze           ]
+01/30(08:31) Compiling Area: [TheMaze           ]
+01/30(08:31) Compiling Area: [TheMaze           ]
+01/30(08:31) Compiling Area: [TheMaze           ]
+01/30(08:31) Compiling Area: [OreTransport      ]
+01/30(08:32) Compiling Area: [OreTransport      ]
+01/30(08:32) Compiling Area: [SilverDale        ]
+01/30(08:32) Compiling Area: [AnomalySpaceDock  ]
+01/30(08:32) Compiling Area: [PipeSystem        ]
+01/30(08:32) Compile totals: Wld[   24] Mob[   78] Obj[   41] Rst[    4] Err[    0]
+01/30(08:32) Total time spent compiling: 6.163273 second(s)
+01/30(08:32) Resetting all Areas
+01/30(08:32) Waiting for connects at time=Sun Jan 30 08:32:01 2000
+01/30(08:32) Server initialization complete, closing log/boot.log

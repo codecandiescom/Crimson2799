@@ -1,0 +1,58 @@
+#1650
+gruesome specter~
+Gruesome specter~
+A gruesome specter is floating nearby~
+The specter is of a grotesque four-legged winged creature with a terrible, 
+twisted face. The specter appears to be giving you a look of rage. 
+~
+TRACKER|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON INVIS|BREATHWATER|DARKVISION|SEEINVIS|HIDDEN|PHASEWALK 0 S
+15 45 34 1d45+50 2d11+5
+0 225
+STANDING NONE SEXLESS
+P
+@AFTERCOMMAND~
+{
+  if(ObjectCount(EVENT_THING,1653)) {
+    FightStart(CODE_THING,EVENT_THING);
+  }
+}~
+#1651
+large spindly specter~
+Large spindly specter~
+A large spindly specter is floating nearby~
+The specter is of a tall, four-limbed creature. The limbs each have 6 
+joints, and are thin to the point of fragility. The face is adorned by a 
+long, slender beak and bulbous eyes. The beak-face appears to be twisted in 
+rage... at YOU! 
+~
+TRACKER|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON INVIS|BREATHWATER|DARKVISION|SEEINVIS|HIDDEN|PHASEWALK 0 S
+15 45 34 1d45+50 2d11+5
+0 225
+STANDING NONE SEXLESS
+P
+@AFTERCOMMAND~
+{
+  if(ObjectCount(EVENT_THING,1654)) {
+    FightStart(CODE_THING,EVENT_THING);
+  }
+}~
+#1652
+stout blocky specter~
+Stout blocky specter~
+A stout blocky specter is floating nearby~
+The specter is a stout tri-pedal creature. Four horns protrude from the 
+creature's face, which is centred in the middle of what could be considered 
+it's chest. You can just make out its face, twisted in rage. 
+~
+TRACKER|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON INVIS|BREATHWATER|DARKVISION|SEEINVIS|HIDDEN|PHASEWALK 0 S
+16 48 37 1d48+50 3d11+5
+0 240
+STANDING NONE SEXLESS
+P
+@AFTERCOMMAND~
+{
+  if(ObjectCount(EVENT_THING,1655)) {
+    FightStart(CODE_THING,EVENT_THING);
+  }
+}~
+$

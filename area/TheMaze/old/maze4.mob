@@ -1,0 +1,135 @@
+#1950
+orb red sparkling~
+A sparkling red orb~
+A red orb is here, crackling with energy.~
+Its a glowing red orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RPUNCTURE|RSLASH 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1951
+orb orange sparkling~
+A sparkling orange orb~
+A orange orb is here, crackling with energy.~
+Its a glowing orange orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RSLASH|RCONCUSSIVE 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1952
+orb yellow sparkling~
+A sparkling yellow orb~
+A yellow orb is here, crackling with energy.~
+Its a glowing yellow orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RCONCUSSIVE|RHEAT 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1953
+orb green sparkling~
+A sparkling green orb~
+A green orb is here, crackling with energy.~
+Its a glowing green orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RHEAT|REMR 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1954
+orb blue sparkling~
+A sparkling blue orb~
+A blue orb is here, crackling with energy.~
+Its a glowing blue orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|REMR|RLASER 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1955
+orb indigo sparkling~
+A sparkling indigo orb~
+A indigo orb is here, crackling with energy.~
+Its a glowing indigo orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RLASER|RPSYCHIC 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1956
+orb violet sparkling~
+A sparkling violet orb~
+A violet orb is here, crackling with energy.~
+Its a glowing violet orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RPSYCHIC|RACID 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1957
+orb white sparkling~
+A sparkling white orb~
+A white orb is here, crackling with energy.~
+Its a glowing white orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RACID|RPOISON 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1958
+orb gray sparkling~
+A sparkling gray orb~
+A gray orb is here, crackling with energy.~
+Its a glowing gray orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+STAYAREA|RPUNCTURE|RPOISON 0 0 S
+19 57 44 1d57+190 3d8+6
+50 285
+STANDING NONE MALE
+#1959
+orb black sparkling~
+A sparkling black orb~
+A black orb is here, crackling with energy.~
+Its a glowing black orb of some kind, about 3 feet in diameter. It sparkles 
+with an unknown form of energy. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RACID|RPOISON 0 0 S
+21 63 49 2d50+200 3d9+7
+200 850
+STANDING NONE MALE
+#1960
+dorian guardian~
+a Dorion Guardian~
+A solid-looking dorian guardian eyes the room methodically~
+The Dorion Guardian is about 2 meters tall... and built solid as a rock. The 
+Dorion Guardians were genetically engineered on the heels of the very 
+successfull Dorion Protector project. Sadly, although the Guardians were 
+even more effective than protectors, they werent successfull enough, as the 
+Albernions succeeded in wiping out every last Dorion anyway. 
+~
+TRACKER|AGGRESSIVE|STAYAREA DARKVISION|SEEINVIS|REGENERATION|HIDDEN|PHASEWALK|SNEAK 0 S
+23 69 54 2d150+400 3d10+7
+250 1800
+STANDING NONE MALE
+#1961
+blank mobile~
+Type ^wMNAME^c to give this Mob a better name.~
+Type ^wMLDESC^c to give this Mob a better LDesc.~
+Type ^wMDESC^c to give this Mob a better Description.
+~
+STAYAREA 0 0 S
+1 0 0 1d4+0 1d2+0
+0 0
+STANDING NONE MALE
+$

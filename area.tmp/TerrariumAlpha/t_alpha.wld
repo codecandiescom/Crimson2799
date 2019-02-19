@@ -1,0 +1,3153 @@
+#700
+Narrowing of the Caves~
+  The stalagmites hinder your progress north.  It seems that the cave
+to the north has not been visited frequently by the residents of the
+settlement.  From here, you can make out the settlement to the south,
+but you are more interested with what you see north.  It looks to be
+a crack in the huge glass walled structure.
+~
+4 0 CITY-OUTSIDE
+D2
+Anomaly Settlement
+~
+~
+0 -1 5008
+D0
+Approaching the Terrarium
+~
+~
+0 -1 701
+S
+#701
+Terrarium Alpha Entrance~
+  You stand before a HUGE transparent spherical dome.  The dome reminds
+you of the botanical garden on Anomaly Station, but on a larger scale.  From
+the looks of inside, it seems that the gardener here has fallen asleep for
+a.....million years.  The inside looks much like a jungle.
+  Ah..What's this?  Some of the settlement residents created an entrance
+to the north by managing to cut away one of the glass sections.
+~
+4 0 INDOORS
+D2
+Narrowing of the Caves
+~
+~
+0 -1 700
+D0
+Inside the Terrarium
+~
+~
+0 -1 702
+S
+#702
+Inside the Terrarium~
+  You are inside the Terrarium Alpha.  As you enter the dome, you are
+immediately assaulted by the sounds of exotic animals and insects.  You take
+a deep breath, trying to get accustomed to the increased humidity.  Huge trees
+and tall plants are everywhere, which makes it difficult for you to proceed
+further.  If it wasn't for the amber light emanating from the ceiling above,
+you would have thought you were in a jungle.
+  It seems that the terrarium is buried deep in the anomaly and the caves
+surround it.  Whoever built this wasn't doing it for a school project.
+If the local are so interested in the terrarium that they would spend
+hours burning through the thick wall, you are interested to find out
+what they are so interested in.
+  The trees and plants get thicker to the north, and you can still see the 
+dome wall to the south.
+~
+4 0 INDOORS
+D0
+Deep in the Jungle
+~
+~
+0 -1 707
+D3
+Dome Interior
+~
+~
+0 -1 703
+D1
+Dome Interior
+~
+~
+0 -1 704
+D2
+Terrarium Alpha Entrance
+~
+~
+0 -1 701
+S
+#703
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+terrarium.  The trees and the plants make the passage to north difficult.
+You can see the glass dome wall to the south, and the wall extends to east and
+west.
+~
+4 0 INDOORS
+D0
+Deep in the Jungle
+~
+~
+0 -1 708
+D3
+Dome Interior
+~
+~
+0 -1 705
+D1
+Inside the Terrarium
+~
+~
+0 -1 702
+S
+#704
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+terrarium.  The trees and plants make the passage to the north difficult.
+You can see the glass dome wall to the south, and the wall extends to east and
+west.
+~
+4 0 INDOORS
+D0
+Deep in the Jungle
+~
+~
+0 -1 709
+D1
+Dome Interior
+~
+~
+0 -1 706
+D3
+Inside the Terrarium
+~
+~
+0 -1 702
+S
+#705
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+terrarium.  The trees and the plants make the passage to north difficult.
+You can see the glass dome wall to the south, and the wall extends to east and
+north-west.
+~
+4 0 INDOORS
+D0
+Deep in the Jungle
+~
+~
+0 -1 710
+D1
+Dome Interior
+~
+~
+0 -1 703
+S
+#706
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+terrarium.  The trees and plants make the passage to the north difficult.
+You can see the glass dome wall to the south, and the wall extends to west and
+north-east.
+~
+4 0 INDOORS
+D0
+Deep in the Jungle
+~
+~
+0 -1 711
+D3
+Dome Interior
+~
+~
+0 -1 704
+S
+#707
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  As you stop for a moment to listen closer, you can hear a
+continuous, yet indistinguishable sounds resonating from the northern
+direction.  The trees seem to thin out to the south.
+~
+4 0 FOREST
+D1
+Deep in the Jungle
+~
+~
+0 -1 709
+D3
+Deep in the Jungle
+~
+~
+0 -1 708
+D2
+Inside the Terrarium
+~
+~
+0 -1 702
+D0
+Deep in the Jungle
+~
+~
+0 -1 714
+S
+#708
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  As you stop for a moment to listen closer, you can hear a
+continuous, yet indistinguishable sounds resonating from the northern
+direction.  The trees seem to thin out to the south.
+~
+4 0 FOREST
+D3
+Deep in the Jungle
+~
+~
+0 -1 710
+D2
+Dome Interior
+~
+~
+0 -1 703
+D1
+Deep in the Jungle
+~
+~
+0 -1 707
+D0
+Deep in the Jungle
+~
+~
+0 -1 715
+S
+#709
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  As you stop for a moment to listen closer, you can hear a
+continuous, yet indistinguishable sounds resonating from the northern
+direction.  The trees seem to thin out to the south.
+~
+4 0 FOREST
+D1
+Deep in the Jungle
+~
+~
+0 -1 711
+D2
+Dome Interior
+~
+~
+0 -1 704
+D3
+Deep in the Jungle
+~
+~
+0 -1 707
+D0
+Deep in the Jungle
+~
+~
+0 -1 716
+S
+#710
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  As you stop for a moment to listen closer, you can hear a
+continuous, yet indistinguishable sounds resonating from the northern
+direction.  The trees seem to thin out to the south and west.
+~
+4 0 FOREST
+D3
+Dome Interior
+~
+~
+0 -1 712
+D2
+Dome Interior
+~
+~
+0 -1 705
+D1
+Deep in the Jungle
+~
+~
+0 -1 708
+D0
+Deep in the Jungle
+~
+~
+0 -1 717
+S
+#711
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  As you stop for a moment to listen closer, you can hear a
+continuous, yet indistinguishable sounds resonating from the northern
+direction.  The trees seem to thin out to the east and south.
+~
+4 0 FOREST
+D1
+Deep in the Jungle
+~
+~
+0 -1 713
+D2
+Dome Interior
+~
+~
+0 -1 706
+D3
+Deep in the Jungle
+~
+~
+0 -1 709
+D0
+Deep in the Jungle
+~
+~
+0 -1 718
+S
+#712
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+terrarium.  The trees and the plants make the passage to north and east
+difficult.  Despite the sounds of animals and insects, you are able to
+distinguish a strange continuous sound far north.  The dome wall extends
+further to north-west and south-east.
+~
+4 0 INDOORS
+D1
+Deep in the Jungle
+~
+~
+0 -1 710
+D0
+Deep in the Jungle
+~
+~
+0 -1 719
+S
+#713
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+terrarium.  The trees and plants make the passage to the north and west
+difficult.  The glass dome wall extends to north-east and south-west.
+~
+4 0 INDOORS
+D3
+Deep in the Jungle
+~
+~
+0 -1 711
+D0
+Deep in the Jungle
+~
+~
+0 -1 720
+S
+#714
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  You think you can make out what that continous noise you've been
+hearing ever since you entered the jungle.  It's the sound made by sudden
+change in kinetic energy of H20 molecules (it's a waterfall).  It seems that 
+there is a body of water near north.
+~
+4 0 FOREST
+D3
+Deep in the Jungle
+~
+~
+0 -1 715
+D1
+Deep in the Jungle
+~
+~
+0 -1 716
+D2
+Deep in the Jungle
+~
+~
+0 -1 707
+D0
+In the Clearing
+~
+~
+0 -1 723
+S
+#715
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  You think you can make out what that continous noise you've been
+hearing ever since you entered the jungle.  It's the sound made by sudden
+change in kinetic energy of H20 molecules (it's a waterfall).  It seems that
+there is a body of water near north.
+~
+4 0 FOREST
+D1
+Deep in the Jungle
+~
+~
+0 -1 714
+D2
+Deep in the Jungle
+~
+~
+0 -1 708
+D3
+Deep in the Jungle
+~
+~
+0 -1 717
+D0
+In the Clearing
+~
+~
+0 -1 724
+S
+#716
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  You think you can make out what that continous noise you've been
+hearing ever since you entered the jungle.  It's the sound made by sudden
+change in kinetic energy of H20 molecules (it's a waterfall).  It seems that
+there is a body of water near north.
+~
+4 0 FOREST
+D3
+Deep in the Jungle
+~
+~
+0 -1 714
+D2
+Deep in the Jungle
+~
+~
+0 -1 709
+D1
+Deep in the Jungle
+~
+~
+0 -1 718
+D0
+In the Clearing
+~
+~
+0 -1 725
+S
+#717
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  You think you can make out what that continous noise you've been
+hearing ever since you entered the jungle.  It's the sound made by sudden
+change in kinetic energy of H20 molecules (it's a waterfall).  It seems that
+there is a body of water near north.
+~
+4 0 FOREST
+D1
+Deep in the Jungle
+~
+~
+0 -1 715
+D2
+Deep in the Jungle
+~
+~
+0 -1 710
+D3
+Deep in the Jungle
+~
+~
+0 -1 719
+D0
+In the Clearing
+~
+~
+0 -1 726
+S
+#718
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  You think you can make out what that continous noise you've been
+hearing ever since you entered the jungle.  It's the sound made by sudden
+change in kinetic energy of H20 molecules (it's a waterfall).  It seems that
+there is a body of water near north.
+~
+4 0 FOREST
+D3
+Deep in the Jungle
+~
+~
+0 -1 716
+D2
+Deep in the Jungle
+~
+~
+0 -1 711
+D1
+Deep in the Jungle
+~
+~
+0 -1 720
+D0
+In the Clearing
+~
+~
+0 -1 727
+S
+#719
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  You think you can make out what that continous noise you've been
+hearing ever since you entered the jungle.  It's the sound made by sudden
+change in kinetic energy of H20 molecules (it's a waterfall).  It seems that
+there is a body of water near north.
+~
+4 0 FOREST
+D2
+Dome Interior
+~
+~
+0 -1 712
+D1
+Deep in the Jungle
+~
+~
+0 -1 717
+D3
+Dome Interior
+~
+~
+0 -1 721
+D0
+In the Clearing
+~
+~
+0 -1 728
+S
+#720
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  You think you can make out what that continous noise you've been
+hearing ever since you entered the jungle.  It's the sound made by sudden
+change in kinetic energy of H20 molecules (it's a waterfall).  It seems that
+there is a body of water near north.
+~
+4 0 FOREST
+D3
+Deep in the Jungle
+~
+~
+0 -1 718
+D2
+Dome Interior
+~
+~
+0 -1 713
+D1
+Dome Interior
+~
+~
+0 -1 722
+D0
+In the Clearing
+~
+~
+0 -1 729
+S
+#721
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+Terrarium.  The trees and the plants make the passage to east difficult.
+You can clearly here the sound of the waterfall to the north.
+To the north, the jungle thins fast into a clearing.  The dome wall
+extends further to north-west and south-east.
+~
+4 0 INDOORS
+D0
+In the Clearing
+~
+~
+0 -1 730
+D1
+Deep in the Jungle
+~
+~
+0 -1 719
+S
+#722
+Dome Interior~
+  You are at the edge of the jungle, but plants and trees still surrounds
+you.  As you look around, you are once again amazed by the size of the whole
+terrarium.  The trees and plants make the passage to west difficult.
+To the north, the jungle thins out fast into a clearing.  The glass dome
+wall extends to north-east and south-west.
+~
+4 0 INDOORS
+D0
+In the Clearing
+~
+~
+0 -1 731
+D3
+Deep in the Jungle
+~
+~
+0 -1 720
+S
+#723
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+The view from here is spectacular!  You are standing at the end of the grass
+hill, and the hill disappears into a cliff 200 feet down.  Below, you can see
+clear stream of water flowing eastward.  To the west, you see a tall waterfall
+coming down from a mountain that's about 200 feet higher from your level.
+Beyond the stream of river, the jungle continues below, and from here, you can
+make out huts in the trees.
+~
+4 0 HILLS
+D0
+On the Cliff
+~
+~
+0 -1 732
+D2
+Deep in the Jungle
+~
+~
+0 -1 714
+D3
+In the Clearing
+~
+~
+0 -1 724
+D1
+In the Clearing
+~
+~
+0 -1 725
+S
+#724
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+The view from here is spectacular!  You are standing at the end of the grass
+hill, and the hill disappears into a cliff 190 feet down.  Below, you can see
+clear stream of water flowing eastward.  To the west, you see a tall waterfall
+coming down from a mountain that's about 200 feet higher from your level.
+Beyond the stream of river, the jungle continues below, and from here, you can
+make out huts in the trees.
+~
+4 0 HILLS
+D0
+On the Cliff
+~
+~
+0 -1 734
+D1
+In the Clearing
+~
+~
+0 -1 723
+D2
+Deep in the Jungle
+~
+~
+0 -1 715
+D3
+In the Clearing
+~
+~
+0 -1 726
+S
+#725
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+The view from here is spectacular!  You are standing at the end of the grass
+hill, and the hill disappears into a cliff 230 feet down.  Below, you can see
+clear stream of water flowing eastward.  To the west, you see a tall waterfall
+coming down from a mountain that's about 200 feet higher from your level.
+Beyond the stream of river, the jungle continues below, and from here, you can
+make out huts in the trees.
+~
+4 0 HILLS
+D0
+On the Cliff
+~
+~
+0 -1 732
+D3
+In the Clearing
+~
+~
+0 -1 723
+D2
+Deep in the Jungle
+~
+~
+0 -1 716
+D1
+In the Clearing
+~
+~
+0 -1 727
+S
+#726
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grassy hill
+here.  You can see the waterfall that you've been hearing off to the
+north-west.  You  pause a moment to take in the beauty of the waterfall,
+then realize that you can't see the bottom of the waterfall from here.
+Far north, you can see the grassy hill come to an end.  To the north-
+east, you can see a cliff that drops to at least 150 feet, and a stream
+of water flowing towards east.  Darn, you forgot to pack a picnic basket!
+~
+4 0 FIELD
+D0
+In the Clearing
+~
+~
+0 -1 735
+D1
+In the Clearing
+~
+~
+0 -1 724
+D2
+Deep in the Jungle
+~
+~
+0 -1 717
+D3
+In the Clearing
+~
+~
+0 -1 728
+S
+#727
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+The view from here is spectacular!  You are standing at the end of the grass
+hill, and the hill disappears into a cliff 270 feet down.  Below, you can see
+clear stream of water flowing eastward.  To the west, you see a tall waterfall
+coming down from a mountain that's about 200 feet higher from your level.
+Beyond the stream of river, the jungle continues below, and from here, you can
+make out huts in the trees.
+~
+4 0 HILLS
+D0
+On the Cliff
+~
+~
+0 -1 732
+D3
+In the Clearing
+~
+~
+0 -1 725
+D2
+Deep in the Jungle
+~
+~
+0 -1 718
+D1
+In the Clearing
+~
+~
+0 -1 729
+S
+#728
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+You can see the waterfall that you've been hearing off to the north-west.  You
+pause a moment to take in the beauty of the waterfall, then realize that you
+can't see the bottom of the waterfall from here.  Far north, you see the grassy
+hill come to an end.  You must be at least 100 feet above the bottom of the
+waterfall.  You notice a cliff of a mountain to the west.
+~
+4 0 FIELD
+D0
+In the Clearing
+~
+~
+0 -1 736
+D3
+In the Clearing
+~
+~
+0 -1 730
+D1
+In the Clearing
+~
+~
+0 -1 726
+D2
+Deep in the Jungle
+~
+~
+0 -1 719
+S
+#729
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+The view from here is spectacular!  You are standing at the end of the grass
+hill, and the hill disappears into a cliff 300 feet down.  Below, you can see
+clear stream of water flowing eastward.  To the west, you see a tall waterfall
+coming down from a mountain that's about 200 feet higher from your level.
+Beyond the stream of river, the jungle continues below, and from here, you can
+make out huts in the trees.
+~
+4 0 HILLS
+D0
+On the Cliff
+~
+~
+0 -1 732
+D1
+In the Clearing
+~
+~
+0 -1 731
+D3
+In the Clearing
+~
+~
+0 -1 727
+D2
+Deep in the Jungle
+~
+~
+0 -1 720
+S
+#730
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+You can see the waterfall that you've been hearing off to the north-west.  You
+pause a moment to take in the beauty of the waterfall, then realize that you
+can't see the bottom of the waterfall from here.  Far north, you see the grassy
+hill come to an end.  You must be at least 100 feet above the bottom of the
+waterfall.  The dome wall continues north-west, but the mountain cliff blocks
+further movement to the west.
+~
+4 0 FIELD
+D0
+In the Clearing
+~
+~
+0 -1 737
+D1
+In the Clearing
+~
+~
+0 -1 728
+D2
+Dome Interior
+~
+~
+0 -1 721
+S
+#731
+In the Clearing~
+  Seemlingly endless jungle stops abruptly and turns into a grass hill here.
+The view from here is spectacular!  You are standing at the end of the grass
+hill, and the hill disappears into a cliff.  From here, you cannot see the
+bottom of the cliff.  To the west, you see a tall waterfall coming down from
+a mountain that's about 200 feet higher than where you are standing.  Beyond
+the stream of river, the jungle continues below, but from here, you can
+make out huts in the trees.  You can see the dome wall continue along
+the north-east, but the cliff prohibits you from going any closer.
+  ^YYou see a gigantic pile of dirt here.
+~
+4 0 HILLS
+D0
+On the Cliff
+~
+~
+0 -1 732
+D2
+Dome Interior
+~
+~
+0 -1 722
+D3
+In the Clearing
+~
+~
+0 -1 729
+E
+pile dirt~
+  ^YIt is a gigantic pile of dirt.  It also has huge openings here
+and there.  I say you are looking at an Ant Hill.
+~
+S
+#732
+On the Cliff~
+  You must have been daydreaming or something because you just blindly jumped
+the cliff before you.  Fortunately, you were saved from becoming a bloody
+mess on a lovely scene by an instictive grab of a tree root poking out.
+You wonder if you should have stayed at the space station watching the
+contraband holovid instead of trying to defy gravity!
+~
+4 NOMOB INDOORS
+D5
+~
+~
+0 -1 733
+D1
+~
+~
+0 -1 733
+D0
+~
+~
+0 -1 733
+D4
+In the Clearing
+~
+~
+0 -1 725
+D3
+In the Clearing
+~
+~
+0 -1 723
+E
+east~
+  It's a LONG way down, and you see jagged rocks at the bottom of
+the cliff that looks perfect for bashing someone's brains out.
+~
+E
+down~
+  It's a LONG way down, and you see jagged rocks at the bottom of
+the cliff that looks perfect for bashing someone's brains out.
+Don't jump!
+~
+S
+#733
+Bottom of the Cliff~
+  Despite the near death experience that was saved by the roots, you
+decide to test the theory of gravity so nicely formulated by a human
+scientist so long ago.  As you are falling, you quickly calculate the
+amount of force that will be placed upon you when you hit the ground.
+You come to the result right before you hit the ground.  Your gain hope
+that you may be able to get away with just couple of broken ribs, then
+you see the jagged rocks on the ground.  All you see is that annoying
+amber light from the ceiling of the terrarium as the rocks pierce your
+vital organs and you lose consciousness.
+~
+4 DEATHTRAP|NOMOB INDOORS
+S
+#734
+On the Cliff~
+  You must have been daydreaming or something because you just blindly
+jumped the cliff before you.  Fortunately, you were saved from becoming
+a bloody mess on a lovely scene by an instictive grab of a tree root
+poking out of the cliff.  You wonder if you should have stayed at the
+space station watching the contraband holobids instead of trying to
+defy gravity!
+~
+4 NOMOB INDOORS
+D4
+~
+~
+0 -1 724
+D5
+~
+~
+0 -1 733
+D1
+~
+~
+0 -1 733
+D0
+~
+~
+0 -1 733
+D3
+In the Clearing
+~
+~
+0 -1 735
+E
+down~
+  It's a LONG way down, and you see jagged rocks at the bottom of
+the cliff that looks perfect for bashing someone's brains out.
+Don't Jump!
+~
+S
+#735
+In the Clearing~
+  The view from here is spectacular!  You are standing at the end of the
+grass hill, and the hill disappears into a cliff about 150 feet down.
+Below, you can see clear stream of water flowing eastward.  To the west,
+you see a tall waterfall coming down from a mountain that's about 200 feet
+higher than where you are.  Beyond the stream, the jungle continues below,
+and from here, you can make out numerous tree houses in the trees.  There
+must be a way to get to that side of the river not counting the suicide
+jump from here.
+~
+4 0 HILLS
+D3
+In the Clearing
+~
+~
+0 -1 736
+D1
+On the Cliff
+~
+~
+0 -1 734
+D2
+In the Clearing
+~
+~
+0 -1 726
+S
+#736
+In the Clearing~
+  The view from here is spectacular!  You are standing at the end of the
+grass hill, and the hill disappears into a cliff about 150 feet down.
+Below, you can see clear stream of water flowing eastward.  To the west,
+you see a tall waterfall coming down from a mountain that's about 200 feet
+higher than where you are.  Beyond the stream, the jungle continues below,
+and from here, you can make out numerous tree houses in the trees.  There
+must be a way to get to that side of the river not counting the suicide
+jump from here.
+~
+4 0 HILLS
+D3
+In the Clearing
+~
+~
+0 -1 737
+D2
+In the Clearing
+~
+~
+0 -1 728
+D1
+In the Clearing
+~
+~
+0 -1 735
+S
+#737
+In the Clearing~
+  The sound of the waterfall is enough to drown out any noise coming from
+the jungle far south.  You can see the waterfall flowing out of the
+mountain just north-west from here.  Looking east, you can see the grass
+hill you are on ends and a extreme drop of altitude begins (cliff).
+West lies the cliff of the mountain, which looks impossible to climb.
+~
+4 0 FIELD
+D0
+Overlooking the Waterfall
+~
+~
+0 -1 738
+D1
+In the Clearing
+~
+~
+0 -1 736
+D2
+In the Clearing
+~
+~
+0 -1 730
+S
+#738
+Overlooking the Waterfall~
+  The waterfall is directly north-west from here.  Parts of the hill
+is wet from the splashing drops of water from the rocky waterfall.  You
+can see the whole on the face of the mountain where the water is spouting
+from.  If you only had a holo-image-projector (H.I.P) you would have sent
+a copy of this vision to your progenitors.  Well, you would try diving from
+from here, but the deep water below you is also about 20 feet north-west
+from you, and those rocks in between persuade you from thinking further
+in such attempt.  To the west is the cliff of the mountain.  One thing to
+note from that is that there are two nicely groomed trees growing side
+by side.
+~
+4 0 HILLS
+D3
+Trees
+~
+trees west~
+ISDOOR|CLOSED -1 739
+D2
+In the Clearing
+~
+~
+0 -1 737
+E
+west trees~
+^cHrm...what a nice pair of well-groomed trees these are.
+~
+S
+#739
+Inside the Cave~
+  You take a moment for your eyes to adjust to the darkness of the caves.
+Well, you can tell this is not a natural cave (the dim glow lamps on the
+ceiling was your first clue).  The entire passage is covered with drawings
+and writings which you can't decipher.  The cave continues west and south,
+but you can see that it ends just a little far to west.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 745
+D2
+Inside the Cave
+~
+~
+0 -1 740
+D1
+Overlooking the Waterfall
+~
+trees~
+ISDOOR|CLOSED -1 738
+S
+#740
+Inside the Cave~
+  The cave continues north and south.  To the north, you can see the
+cave gets brighter.  To the south lies total darkness.  The writings
+and drawings are all over the walls.  Well, here is a drawing that
+catches your eyes.  It's a picture of a dragon-like monster dining on
+a monkey-like primate.  The monster is surrounded by other monkey-like
+creates bowing down.  Hrm...You've heard of stories of early human
+evolution that was not unlike of the activities depicted on the walls.
+~
+4 0 INDOORS
+D2
+Inside the Cave
+~
+~
+0 -1 741
+D0
+Inside the Cave
+~
+~
+0 -1 739
+S
+#741
+Inside the Cave~
+  The cave widens into an alcove.  You continue to mark the drawings and
+writings on the walls, but most of the drawings are depicting death and
+destruction.  You feel a bit uneasy about being here.  You think you saw
+something sliver south-west corner of the room, but that just may be
+your imagination.
+~
+4 0 INDOORS
+D2
+~
+~
+0 -1 744
+D3
+Corner of the Room
+~
+~
+0 -1 742
+D0
+Inside the Cave
+~
+~
+0 -1 740
+S
+#742
+Corner of the Room~
+  You are at the northern corner of the room.  Your sixth sense is going
+wild at this moment, and you can sense the danger to the south.  Perhaps
+you should go back to the nice little waterfall and have a picnic there
+or something?
+~
+4 0 INDOORS
+D2
+~
+~
+0 -1 743
+D1
+Inside the Cave
+~
+~
+0 -1 741
+S
+#743
+Corner of the Room~
+  You are at the southern corner of the room.  The room is covered in
+writings and pictures which you can't decipher.  There are piles of
+bones littered on the floors, but they have been mutiliated beyond the
+point of recognition.  You are able to make out a skull that resemble
+a human skull.  It seems that a monster has made a home here.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 744
+D0
+~
+~
+0 -1 742
+S
+#744
+Corner of the Room~
+  You are at the southern corner of the room.  Your sixth sense is going
+wild at this moment, and you can sense the danger to the west.  Perhaps
+you should go back to the nice little waterfall and have a picnic there
+or something?
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 741
+D3
+~
+~
+0 -1 743
+S
+#745
+Caved-in Section~
+  The cave narrows here.  Further progress west is impossible due to
+the partial caving-in of the ceiling.  You can hear the sound of flowing
+water from above.  You think you may be able to clear enough rocks
+to climb up there.
+~
+4 0 INDOORS
+D4
+~
+~
+0 -1 746
+D1
+~
+~
+0 -1 739
+S
+#746
+Next to the Stream~
+  You are standing next to the stream of water.  To the east, the water
+disappears into the opening.  You realize you are looking at the waterfall
+from the inside of the mountain.  The water looks cool and refreshing,
+perfect thing after a heavy rock removing and climbing you just had.  To
+the north, there are rocks protruding from the stream that will let you
+cross without getting your feet wet.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 748
+D1
+~
+~
+0 -1 747
+D5
+~
+~
+0 -1 745
+D3
+~
+~
+0 -1 759
+S
+#747
+Next to the Stream~
+  You are standing next to the stream of water.  To the east, the water
+disappears into the opening.  You realize you are looking at the waterfall
+from the inside of the mountain.  The water looks cool and refreshing,
+perfect thing after a heavy rock removing and climbing you just had.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 749
+D3
+~
+~
+0 -1 746
+S
+#748
+In the Stream~
+  You are standing on one of the stone in the stream.  To the north and
+south, you can see the banks of the stream.  The light comes in through
+the opening to the east where you imagine is a drop.  The water flows
+from the west, but it's difficult for you to fight the current west.
+~
+4 0 WATER-SWIM
+D2
+~
+~
+0 -1 746
+D0
+~
+~
+0 -1 751
+D1
+~
+~
+0 -1 749
+D3
+~
+~
+CLOSED -1 748
+S
+#749
+In the Stream~
+  You are standing in the stream.  It's very difficult to fight the stream
+of water flowing from the west.  To the north and south, you can see the
+banks of the stream.  The light comes in through the opening to the east
+where you imagine is a quite a long drop.  The water flows from the west,
+but it's seems impossible to try to swim west.
+~
+4 0 WATER-SWIM
+D1
+~
+~
+0 -1 754
+D2
+~
+~
+0 -1 747
+D0
+~
+~
+0 -1 750
+D3
+~
+~
+CLOSED -1 749
+S
+#750
+Next to the Stream~
+  You are standing next to the stream of water.  To the east, the water
+disappears into the opening.  You realize you are looking at the waterfall
+from the inside of the mountain.  The water looks cool and refreshing,
+perfect thing after a heavy rock removing and climbing you just had.
+~
+4 0 INDOORS
+D2
+~
+~
+0 -1 749
+D3
+~
+~
+0 -1 751
+S
+#751
+Next to the Stream~
+  You are standing next to the stream of water.  To the east, the water
+disappears into the opening.  You realize you are looking at the waterfall
+from the inside of the mountain.  The water looks cool and refreshing,
+perfect thing after a heavy rock removing and climbing you just had.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 750
+D2
+~
+~
+0 -1 748
+D3
+~
+~
+0 -1 752
+S
+#752
+Next to the Stream~
+  You are standing next to the stream of water.  To the east, the water
+disappears into the opening.  You realize you are looking at the waterfall
+from the inside of the mountain.  The water looks cool and refreshing,
+perfect thing after a heavy rock removing and climbing you just had.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 751
+D2
+~
+~
+0 -1 753
+D0
+~
+~
+0 -1 755
+S
+#753
+In the Stream~
+  You are standing in the stream.  It's very difficult to fight the stream
+of water flowing from the west.  To the north and south, you can see the
+banks of the stream.  The light comes in through the opening to the east
+where you imagine is a quite a long drop.  The water flows from the west,
+but it's seems impossible to try to swim west.
+~
+4 0 WATER-SWIM
+D2
+~
+~
+0 -1 759
+D0
+~
+~
+0 -1 752
+D1
+~
+~
+0 -1 748
+D3
+~
+~
+CLOSED -1 753
+S
+#754
+Below the Waterfall~
+AHHHHHHHH!!!!!!....................
+.........AHHHHHHHH!!!!!!...........
+....................AHHHHHHHH!!!!!!
+  WHAT A RUSH!!!!!
+  That was kewl!  You have just made the vertical drop of about 150 feet by
+shooting yourself out of a hole in the mountain.  You think you may have
+relieved yourself in the middle of the descent, but at least there isn't 
+a way for anyone to notice it, since you are all wet.  The river is nice
+and refreshing.  As you regain your composure, you look around your
+surroundings. There are rocks to the southern side of the river, and the
+cliff rises to roughly 200 feet.  The jungle lies to the north of the river.
+~
+4 0 WATER-SWIM
+D1
+~
+~
+0 -1 758
+D5
+~
+~
+0 -1 800
+S
+#755
+In the Cave~
+  You are standing in the cave carved into the mountain.  The cave continues
+east and it widens to the south.  You can hear the sounds of a stream to the
+south.
+~
+4 0 INDOORS
+D2
+~
+~
+0 -1 752
+D1
+~
+~
+0 -1 756
+S
+#756
+In the Cave~
+  You are standing in the cave carved into the mountain.  The cave continues
+east and west.  The sound of water can be heard if you hold your breath
+and concentrate.  You can see that the cave ends further east.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 755
+D1
+~
+~
+0 -1 757
+S
+#757
+End of the Cave~
+  The cave ends here.  Whoever carved the cave wisely decided not to go
+further, since going further east, you would run out of mountain to carve.
+You can still hear the waterfall through the wall to the south.  You can see
+a huge hole above you, but you are unable to climb up.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 756
+S
+#758
+In the River~
+  The river continues to the east, but the color of the water is changing to
+white.  You think you should get out of the river before you reach what
+looks to be one dangerous rapids.  The jungle lies to the north, and the
+steep cliff rises to the south.
+~
+4 0 WATER-SWIM
+D0
+~
+~
+0 -1 766
+D3
+~
+~
+0 -1 754
+S
+#759
+Next to the Stream~
+  You are standing next to the stream of water.  To the east, the water
+disappears into the opening.  You realize you are looking at the waterfall
+from the inside of the mountain.  The water looks cool and refreshing,
+perfect thing after a heavy rock removing and climbing you just had.  The
+cave continues to the west.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 753
+D1
+~
+~
+0 -1 746
+D3
+~
+~
+0 -1 760
+S
+#760
+In the Cave~
+  The dark, damp cave continues to the west and east.  To the east you
+can hear the sounds of flowing water, and to the west lies total darkness.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 759
+D3
+~
+~
+0 -1 761
+S
+#761
+In the Cave~
+  The dark, damp cave continues to the west and east.  You can feel
+a light breeze coming from the west.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 760
+D3
+~
+~
+0 -1 762
+S
+#762
+Caved-in Section~
+  The passage has been blocked by a cave-in to the west.  The cave-in
+has created a hole above you, and you can smell a fresh air flowing from
+upwards!
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 761
+D4
+~
+~
+0 -1 763
+S
+#763
+Climbing the Hole~
+  With some effort, you are able to haul yourself upward.  Now, you can see
+the end of the hole.  The light is seeping through further ahead.  Total
+darkness lies below.
+~
+4 0 INDOORS
+D5
+~
+~
+0 -1 762
+D4
+~
+~
+0 -1 764
+S
+#764
+Plateau~
+  You thought the view by the waterfall was fantastic.  But this is truely
+a sight to behold.  From here, you can observe the entire terrarium.  You
+are standing on a small plateau on the face of the mountain.  The tip of the
+mountain lies further west, but that looks like a steep climb.  Looking north
+and east, you can make out the jungle and a cliff that divides it.  Mist
+from the humidity hinders you from observing the jungle in detail.  As your
+heart beat slows down, you notice a small installation on the side of the 
+mountain to the west.
+~
+4 0 INDOORS
+D5
+~
+~
+0 -1 763
+D3
+~
+~
+0 -1 765
+S
+#765
+Builder's Observation Deck~
+  You are able to make your way into the installation through the broken
+glass wall of the installation.  This installation seems to have been built
+to keep an eye on the terrarium below.  It seems to have fallen to disuse
+for quite a long time, since you can see dust covering all the equipment
+in the room.  There are several display units currently displaying blank
+screens, and many more buttons and switches you don't dare touch.  Many
+strangely sophisticated equipment clutter the room.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 764
+S
+#766
+Bank of the River~
+  You've reached the bank of the river.  The waterfall and a little pond
+created by the falling water lies to your west, and the river continues
+to the east.  The jungle lies to the north, and you can hear the sounds of
+animals and insects doing their thing.
+~
+4 0 FIELD
+D0
+~
+~
+0 -1 771
+D2
+~
+~
+0 -1 758
+D1
+~
+~
+0 -1 767
+S
+#767
+Bank of the River~
+  You've reached the bank of the river.  The waterfall and a little pond
+created by the falling water lies to your west, and the river continues
+to the east.  The jungle lies to the north, and you can hear the sounds of
+animals and insects doing their thing.
+~
+4 0 FIELD
+D0
+~
+~
+0 -1 772
+D3
+~
+~
+0 -1 766
+D1
+~
+~
+0 -1 768
+S
+#768
+Bank of the River~
+  You've reached the bank of the river.  The waterfall and a little pond
+created by the falling water lies to your west, and the river continues
+to the east.  The jungle lies to the north, and you can hear the sounds of
+animals and insects doing their thing.  To the south, you see the river turn
+violent, with jagged rocks protruding out of the rapids.  It may be possible
+to cross the river here to the cliff if you really wanted to.
+~
+4 0 FIELD
+D0
+~
+~
+0 -1 773
+D3
+~
+~
+0 -1 767
+D2
+~
+~
+0 -1 769
+S
+#769
+In the Rapids~
+  The water is flowing all around you ferociously.  You are precariously
+balancing yourself on one of the very slippery rocks that are protruding
+from the river.  North looks like a save bank of the river, the south
+lies the base of the cliff.
+~
+4 0 WATER-SWIM
+D2
+~
+~
+0 -1 770
+D0
+~
+~
+0 -1 768
+E
+south~
+^yTo the south, you see dangerous looking rocks forming the base of
+the cliff.
+~
+S
+#770
+Base of the Cliff~
+  You are standing on one of the jagged rocks that form the base of the
+cliff.  Looking up, you can see the top of the cliff.  You feel sorry
+for those who will jump this cliff, instead of finding a safe way down
+like you have (if you can call shooting the waterfall without a barrel
+a safe way).  Well, you see some debris amongst the rocks, indicating
+that someone already attemped a jump.
+~
+4 0 MOUNTAIN
+D0
+~
+~
+0 -1 769
+S
+#771
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The passage to the west is blocked by massive trees and plants.
+The jungle seems to thin out to the south.
+~
+4 0 FOREST
+D3
+~
+~
+CLOSED -1 771
+D0
+~
+~
+0 -1 774
+D1
+~
+~
+0 -1 772
+D2
+~
+~
+0 -1 766
+S
+#772
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The jungle seems to continue on all directions except for south,
+where you can see a clearing.
+~
+4 0 FOREST
+D0
+~
+~
+0 -1 775
+D1
+~
+~
+0 -1 773
+D2
+~
+~
+0 -1 767
+D3
+~
+~
+0 -1 771
+S
+#773
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The passage to the east is blocked by massive trees and plants.
+The jungle seems to thin out to the south.
+~
+4 0 FOREST
+D1
+~
+~
+CLOSED -1 773
+D0
+~
+~
+0 -1 776
+D2
+~
+~
+0 -1 768
+D3
+~
+~
+0 -1 772
+S
+#774
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The passage to the west is blocked by massive trees and plants.
+The jungle surrounds you from all sides.  You think you can hear the sounds of
+drums from far north.
+~
+4 0 FOREST
+D3
+~
+~
+CLOSED -1 774
+D0
+~
+~
+0 -1 777
+D1
+~
+~
+0 -1 775
+D2
+~
+~
+0 -1 771
+S
+#775
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The jungle seems to continue on all directions.  You can hear
+the sounds of drums from far north.
+~
+4 0 FOREST
+D0
+~
+~
+0 -1 778
+D1
+~
+~
+0 -1 776
+D3
+~
+~
+0 -1 774
+D2
+~
+~
+0 -1 772
+S
+#776
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The passage to the east is blocked by massive trees and plants.
+The jungle seems to continue on all directions.  You can hear the sounds of
+drums from the far north.
+~
+4 0 FOREST
+D1
+~
+~
+CLOSED -1 776
+D0
+~
+~
+0 -1 779
+D3
+~
+~
+0 -1 775
+D2
+~
+~
+0 -1 773
+S
+#777
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The passage to the west is blocked by massive trees and plants.
+The jungle surrounds you from all sides.  You can hear the rhythmic beatings of
+the drums echoing from the north.
+~
+4 0 FOREST
+D3
+~
+~
+CLOSED -1 777
+D0
+~
+~
+0 -1 780
+D1
+~
+~
+0 -1 778
+D2
+~
+~
+0 -1 774
+S
+#778
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The jungle seems to continue on all directions.  You can hear
+the rhythmic beatings of the drums echoing from the north.
+~
+4 0 FOREST
+D0
+~
+~
+0 -1 781
+D1
+~
+~
+0 -1 779
+D3
+~
+~
+0 -1 777
+D2
+~
+~
+0 -1 775
+S
+#779
+Deep in the Jungle~
+  You find yourself standing in a dank steamy jungle.  Massive trees form a
+canopy overhead that all but blocks out the amber lights in the 200 foot-high
+ceiling.  Dangling vines obscure your vision and you are assaulted on all sides
+by a cacophony of unidentifiable sounds that can only be attributed to the
+jungle fauna.  The passage to the east is blocked by massive trees and plants.
+The jungle continues on all directions.  You can hear the rhythmic beatings of
+the drums echoing from the north.
+~
+4 0 FOREST
+D1
+~
+~
+CLOSED -1 779
+D0
+~
+~
+0 -1 782
+D3
+~
+~
+0 -1 778
+D2
+~
+~
+0 -1 776
+S
+#780
+Deep in the Jungle~
+  You've come across a small village in the jungle which you saw earlier at the
+cliff.  The huts are built about 60 feet above ground on tree branches.  You
+can see the sensibility in building a home that high, considering the wild
+animals you've seen on your way here.  The jungle continues on all directions,
+but it seems extremely difficult for you to progress westward.
+~
+4 0 FOREST
+D3
+~
+~
+CLOSED -1 780
+D0
+~
+~
+0 -1 783
+D1
+~
+~
+0 -1 781
+D2
+~
+~
+0 -1 777
+S
+#781
+Deep in the Jungle~
+  You've come across a small village in the jungle which you saw earlier at the
+cliff.  The huts are built about 60 feet above ground on tree branches.  You
+can see the sensibility in building a home that high, considering the wild
+animals you've seen on your way here.  The jungle continues on all directions,
+but you notice a huge tree that seems perfect for climbing upward.
+~
+4 0 FOREST
+D0
+~
+~
+0 -1 784
+D1
+~
+~
+0 -1 782
+D3
+~
+~
+0 -1 780
+D2
+~
+~
+0 -1 778
+D4
+~
+~
+0 -1 786
+S
+#782
+Deep in the Jungle~
+  You've come across a small village in the jungle which you saw earlier at the
+cliff.  The huts are built about 60 feet above ground on tree branches.  You
+can see the sensibility in building a home that high, considering the wild
+animals you've seen on your way here.  The jungle continues on all directions,
+but it seems extremely difficult for you to progress eastward.
+~
+4 0 FOREST
+D1
+~
+~
+CLOSED -1 782
+D0
+~
+~
+0 -1 785
+D3
+~
+~
+0 -1 781
+D2
+~
+~
+0 -1 779
+S
+#783
+Deep in the Jungle~
+  You've come across a small village in the jungle which you saw earlier at the
+cliff.  The huts are built about 60 feet above ground on tree branches.  You
+can see the sensibility in building a home that high, considering the wild
+animals you've seen on your way here.  The jungle continues on all directions,
+but it seems extremely difficult for you to make any progress going west or
+north.  There is huge tree perfect for climbing up.
+~
+4 0 FOREST
+D4
+~
+~
+0 -1 788
+D3
+~
+~
+CLOSED -1 783
+D1
+~
+~
+0 -1 784
+D2
+~
+~
+0 -1 780
+D0
+~
+~
+CLOSED -1 783
+S
+#784
+Deep in the Jungle~
+  You've come across a small village in the jungle which you saw earlier at the
+cliff.  The huts are built about 60 feet above ground on tree branches.  You
+can see the sensibility in building a home that high, considering the wild
+animals you've seen on your way here.  The jungle continues on all directions,
+but it seems extremely difficult for you to progress north.  There is a tree
+that looks perfect for climbing.
+~
+4 0 FOREST
+D4
+~
+~
+0 -1 787
+D1
+~
+~
+0 -1 785
+D3
+~
+~
+0 -1 783
+D2
+~
+~
+0 -1 781
+D0
+~
+~
+CLOSED -1 784
+S
+#785
+Deep in the Jungle~
+  You've come across a small village in the jungle which you saw earlier at the
+cliff.  The huts are built about 60 feet above ground on tree branches.  You
+can see the sensibility in building a home that high, considering the wild
+animals you've seen on your way here.  The jungle continues on all directions,
+but it seems extremely difficult for you to progress north or east.  There is
+a huge tree that looks perfect for climbing.
+~
+4 0 FOREST
+D4
+~
+~
+0 -1 789
+D1
+~
+~
+CLOSED -1 785
+D0
+~
+~
+CLOSED -1 785
+D3
+~
+~
+0 -1 784
+D2
+~
+~
+0 -1 782
+S
+#786
+On the Platform~
+  You are standing on a wooden platform built on the branches of a large
+tree.  The builder of this village was very wise to build the platform
+first, then building their huts on top of the platform.  This form of
+architectural design allows enough space for the creatures to hold their
+social activities entirely above ground.  Speaking of creatures, you can
+spot number of ape-like primates roaming about busily between huts and
+between trees.  Hrm...that one looks just like the mother-in-law of you
+know who.  They don't seem to be too frightened of you, which is very
+strange.  There is a hut to the south.
+~
+4 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 792
+D0
+~
+~
+0 -1 787
+D5
+~
+~
+0 -1 781
+S
+#787
+On the Platform~
+  You are standing on a wooden platform built on the branches of a large
+tree.  The builder of this village was very wise to build the platform
+first, then building their huts on top of the platform.  This form of
+architectural design allows enough space for the creatures to hold their
+social activities entirely above ground.  Speaking of creatures, you can
+spot number of ape-like primates roaming about busily between huts and
+between trees.  Hrm...that one looks just like the mother-in-law of you
+know who.  They don't seem to be too frightened of you, which is very
+strange.
+~
+4 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 790
+D1
+~
+~
+0 -1 789
+D3
+~
+~
+0 -1 788
+D5
+~
+~
+0 -1 784
+D2
+~
+~
+0 -1 786
+S
+#788
+On the Platform~
+  You are standing on a wooden platform built on the branches of a large
+tree.  The builder of this village was very wise to build the platform
+first, then building their huts on top of the platform.  This form of
+architectural design allows enough space for the creatures to hold their
+social activities entirely above ground.  Speaking of creatures, you can
+spot number of ape-like primates roaming about busily between huts and
+between trees.  Hrm...that one looks just like the mother-in-law of you
+know who.  They don't seem to be too frightened of you, which is very
+strange.  There is a hut to the west.
+~
+4 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 791
+D5
+~
+~
+0 -1 783
+D1
+~
+~
+0 -1 787
+S
+#789
+On the Platform~
+  You are standing on a wooden platform built on the branches of a large
+tree.  The builder of this village was very wise to build the platform
+first, then building their huts on top of the platform.  This form of
+architectural design allows enough space for the creatures to hold their
+social activities entirely above ground.  Speaking of creatures, you can
+spot number of ape-like primates roaming about busily between huts and
+between trees.  Hrm...that one looks just like the mother-in-law of you
+know who.  They don't seem to be too frightened of you, which is very
+strange.  There is a hut to the east.
+~
+4 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 793
+D5
+~
+~
+0 -1 785
+D3
+~
+~
+0 -1 787
+S
+#790
+On the Platform~
+  You are standing on a wooden platform built on the branches of a large
+tree.  The builder of this village was very wise to build the platform
+first, then building their huts on top of the platform.  This form of
+architectural design allows enough space for the creatures to hold their
+social activities entirely above ground.  Speaking of creatures, you can
+spot number of ape-like primates roaming about busily between huts and
+between trees.  Hrm...that one looks just like the mother-in-law of you
+know who.  They don't seem to be too frightened of you, which is very
+strange.  There is a large hut to the north, and a strange looking hut to
+the east.
+~
+4 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 799
+D3
+~
+~
+0 -1 798
+D0
+~
+~
+0 -1 794
+D2
+~
+~
+0 -1 787
+S
+#791
+Small Hut~
+  You are inside a small hut that belongs to one of the ape-creatures.
+The hut is constructed from the branches of the trees and dried leaves
+from the plants that are abundant here (duh, it's a jungle).  There are
+couple piles of dried leaves that must serve the fuction of a bed.
+Looking out westward through a small window, you can see more huts among
+the trees.  If you had a tail like one of the apes, you can travel easily
+to those huts, but this is no time to think of plastic surgery.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 788
+S
+#792
+Small Hut~
+  You are inside a small hut that belongs to one of the ape-creatures.
+The hut is constructed from the branches of the trees and dried leaves
+from the plants that are abundant here (duh, it's a jungle).  There are
+couple piles of dried leaves that must serve the fuction of a bed.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 786
+S
+#793
+Small Hut~
+  You are inside a small hut that belongs to one of the ape-creatures.
+The hut is constructed from the branches of the trees and dried leaves
+from the plants that are abundant here (duh, it's a jungle).  There are
+couple piles of dried leaves that must serve the fuction of a bed.
+Looking out eastward through a small window, you can see more huts among
+the trees.  If you had a tail like one of the apes, you can travel easily
+to those huts, but this is no time to think of plastic surgery.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 789
+S
+#794
+The Large Hut~
+  You are in the largest hut of all the huts.  This is slightly bigger than
+your quarters at the space station.  The huts are tastefully decorated with
+heads of the animals that inhabit the areas mounted on the walls.  There
+are also crude shields and weapons mounted below the trophies.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 797
+D1
+~
+~
+0 -1 796
+D3
+~
+~
+0 -1 795
+D2
+~
+~
+0 -1 790
+S
+#795
+War Room~
+  You are standing in the war room, or what is the equivalent form of it
+in the ape culture.  The shields and spears clutter the walls, and there
+is a detailed ^cmap^b of the jungle on the wall here.  From what you can make
+of it, this ape-village is one of many in the terrarium.  There is also
+a picture of a dragon-like creature hung high above the map.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 794
+E
+map~
+^b .................................  ^gf^b - Jungle
+ ......... ^gfffffffffffff ^b.........
+ ..... ^gff ffffffffffffffffff ^b.....  ^wo^b - Plains folk
+ .... ^gf^woo  ^gfffffff ^y##### ^gffff ^b....
+ ...  ^wo o  ^gfffff ^y###X# ^gfffffff ^b...  ^y#^b - Tree folk
+ .. ^Y;;   ^gff ffffff ^y#### ^gfffffff ^b..
+ .. ^Y;;;;;  ^gffffffff ^y# ^gfffffffff ^b..  ^c=^b - River
+ .. ^Y;;;;;;; ^gffffffff ffffffffff ^b..
+ .. ^Y;;;;;;;;; ^gffffff ffffffffff ^b..  ^Y;^b - Mountain
+ .. ^Y;;;;;;;;;;^gffffff ffffffffff ^b..
+ .. ^Y;;;;;;;;;^c===== ^gf ffffffffff ^b..  ^Gw^b - Cliff
+ .. ^Y;;;;;;;;;; ^Gww ^c====== ^gffffff ^b..
+ ... ^Y;;;;;^rS^Y;;;   ^Gwwwww ^c======= ^b...  ^rS^b - Death
+ .... ^Y;;;;;;;         ^Gwwwwwww ^b....
+ ..... ^Y;;;;;;^gfffffffffffffff ^b.....
+ ........ ^Y;;^gffffffffffff ^b......... 
+ .................................
+~
+S
+#796
+Kitchen~
+  You are in the kitchen.  At least the apes have discovered the fire.  A
+table lies next to a little fireplace.  It must be near mealtime, since
+the fire is lit and there is something dead cooking in the fire.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 794
+S
+#797
+Bed Chambers~
+  You are standing in a bed chamber of the chieftain.  There is a large
+decorated bed to the west made from skins of animals.  Looking out the
+window to the north, you can see a more huts in the trees.
+~
+4 0 INDOORS
+D2
+~
+~
+0 -1 794
+S
+#798
+Small Hut~
+  You are inside a small hut that belongs to one of the ape-creatures.
+The hut is constructed from the branches of the trees and dried leaves
+from the plants that are abundant here (duh, it's a jungle).  There are
+couple piles of dried leaves that must serve the fuction of a bed.
+Looking out the window to the west, you can see more huts in the trees.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 790
+S
+#799
+Witchdoctor's Hut~
+  You are standing in a hut cluttered with body parts of the jungle
+animals.  There are strange items hung all over the walls, and a large
+pot centered in the room above a fire.  Green-ish looking crap is brewing
+in the pot.  Also, there is a metalic, table-like object next to the pot
+that is currently being used to uphold some hideous roadkill.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 790
+E
+cauldron green crap pot~
+  It's a Huge cauldron.  There is some sickly green thing bubbling
+inside.  You think you see intestines of some animals in there.
+You better stop looking in there, or you'll add your lunch in
+there.
+~
+E
+note~
+    White Pill         Purple Pill         Brown Pill
+_________________________________________________________
+  5 Bee stings       5 Feathers          4 Cave fungus
+  4 Scorpion tails   4 Chitinous armor   3 Mussel flesh
+  3 Rat tails        3 Squirrel fur      2 C.P Fruit
+  2 Bat fangs        2 Snake skin        1 Bear gizzard
+  1 Tiger claws      1 Zarg shell
+
+(Type "trade" and the Witchdoctor will take ALL your ingredients,
+ calculate how many pills you can get, and give you the pills)
+WARNING:  The Witchdoctor will keep any leftover ingredients.
+
+- Posted by the Chieftain Al.
+~
+S
+#800
+Bottom of the Pond~
+  You dive further below the bottom of the waterfall.  The water is much
+calmer here.  The light coming from the above has been filtered by the
+water, making everything look green and blue.  You can see many aquatic
+life-forms inhabiting the bottom of the pond, ranging from little fishes
+to tiny plants.  There is an underground cave opening to the north.
+~
+4 0 UNDERWATER
+D4
+~
+~
+0 -1 754
+D0
+~
+~
+0 -1 801
+S
+#801
+In the Underwater Cave~
+  The water is filled with school of small fishes, the bottom of the cave
+crawling with small shelled animals.  The water is dead still here.  You've
+been holding your breath for quite a long time, and you can see trapped air
+above you.  The cave continues westward, but you weren't born a fish, so it
+is probably better to swim up.
+~
+4 0 UNDERWATER
+D3
+~
+~
+0 -1 804
+D2
+~
+~
+0 -1 800
+D4
+~
+~
+0 -1 802
+S
+#802
+Underground Cavern~
+  You find yourself in an underground cavern.  Huge stalagmites surround
+you.  You can barely stand up, for the cavern is only about 5 feet high.
+You can see roots of trees penetrating from above.  You realize that this
+cavern is created by the massive tree roots borrowing downward, searching
+for body of water to tap.  The cavern continues westward, along the
+underground pond.
+~
+4 0 INDOORS
+D5
+~
+~
+0 -1 801
+D3
+~
+~
+0 -1 803
+S
+#803
+Underground Cavern~
+  You find yourself in an underground cavern.  Huge stalagmites surround
+you.  You can barely stand up, for the cavern is only about 5 feet high.
+You can see roots of trees penetrating from above.  You realize that this
+cavern is created by the massive tree roots borrowing downward, searching
+for body of water to tap.  The cavern continues westward, along the
+underground pond.  The stalagmites and roots block your way towards west, 
+but it looks like you can still travel underwater. 
+~
+4 0 INDOORS
+D5
+~
+~
+0 -1 804
+D3
+~
+~
+CLOSED -1 803
+D1
+~
+~
+0 -1 802
+S
+#804
+In the Underwater Cave~
+  The water is filled with school of small fishes, the bottom of the cave
+crawling with small shelled animals.  The water is dead still here.  You've
+been holding your breath for quite a long time, and you can see trapped air
+above you.  The cave continues westward, but you weren't born a fish, so it
+is probably better to swim up.
+~
+4 0 UNDERWATER
+D3
+~
+~
+0 -1 805
+D1
+~
+~
+0 -1 801
+D4
+~
+~
+0 -1 803
+S
+#805
+In the Underwater Cave~
+  The water is filled with school of small fishes, the bottom of the cave
+crawling with small shelled animals.  The water is dead still here.  You've
+been holding your breath for quite a long time, and you can see trapped air
+above you.  The pond ends to your west, giving you the choice of swimming
+up or east.
+~
+4 0 UNDERWATER
+D4
+~
+~
+0 -1 806
+D1
+~
+~
+0 -1 804
+S
+#806
+Underground Cavern~
+  You find yourself in an underground cavern.  Huge stalagmites surround
+you.  You can barely stand up, for the cavern is only about 5 feet high.
+You can see roots of trees penetrating from above.  You realize that this
+cavern is created by the massive tree roots borrowing downward, searching
+for a body of water to tap.  The underground pond seems to end here.  You
+can make out a hole above that you can probably climb.
+~
+4 0 INDOORS
+D4
+~
+~
+0 -1 807
+D5
+~
+~
+0 -1 805
+S
+#807
+Crowded Hole~
+  Man this is a tight fit!  While the tight fit allows you to climb up,
+it's making the climb slow and laborous.  Maybe you should use the AB
+Roller 10000 you bought a year ago, instead of having third helping of
+the double chocolate cake every night.
+~
+4 0 INDOORS
+D4
+~
+~
+0 -1 808
+D5
+~
+~
+0 -1 806
+S
+#808
+Crowded Hole~
+  Man this is a tight fit!  While the tight fit allows you to climb up,
+it's making the climb slow and laborous.  Maybe you should use the AB
+Roller 10000 you bought a year ago, instead of having third helping of
+the double chocolate cake every night.
+~
+4 0 INDOORS
+D4
+~
+~
+0 -1 809
+D5
+~
+~
+0 -1 807
+S
+#809
+Crawl Space~
+  You've managed to climb all the way up the hole.  The little crawl space
+continues east.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 810
+D5
+~
+~
+0 -1 808
+S
+#810
+Crawl Space~
+  The crawl space continues to the west.  There is a hole leading to total
+darkness below.
+~
+4 0 INDOORS
+D5
+~
+~
+0 -1 757
+D3
+~
+~
+0 -1 809
+S
+#811
+In the Plain~
+  You are standing in the middle of a plain.  You feel a slight
+breeze flow through your hair.  The view resemble much like the
+Hesiod III, the planet where you took your vacation with one
+notable exception, everything taking on an amber color due
+to the light emanating from way above.  Then it dawns on you,
+you are in the anomaly, not on some planet.  This must be
+some gigantic enviro-dome....a terrarium.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 815
+D1
+~
+~
+0 -1 812
+D2
+~
+~
+0 -1 1130
+E
+west~
+The mountain rises steeply to your south and to west.
+~
+E
+south~
+You see a cave opening on the mountain side.
+~
+S
+#812
+In the Plain~
+  You are standing in the middle of a plain.  You feel a pleasant
+breeze flow through your hair.  To the east lies heavily grown
+vegetation, much like a jungle of the good old Terra.  The plains
+continue to north-west direction.  To the south, you can see the
+plains ending abruptly with jungle coming all the way to the 
+mountain-side.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 814
+D2
+~
+~
+0 -1 813
+D3
+~
+~
+0 -1 811
+S
+#813
+In the Plain~
+  You are standing at the end of the plain.  The jungle lies to both
+your south and east, steep mountain cliff to your west.  You do not
+believe even an impressive athelete like you can tackle that cliff.
+Hrm.. Unless you are mistaken, you can hear a sound of a waterfall
+nearby.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 812
+S
+#814
+In the Plain~
+  You are standing in the middle of a plain.  You feel a pleasant
+breeze flowing through your hair.  To north and east lies heavily
+grown vegetation, much like a jungle of the good old Terra.  The
+plains continue to north-west.  A tall mountain is visible to the
+south.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 815
+D2
+~
+~
+0 -1 812
+E
+east north~
+The jungle is too heavily forested for you to get through.
+~
+S
+#815
+In the Plain~
+  You are standing in the middle of a grassy plain.  You feel a
+pleasant breeze flow through your hair.  The plains extend in all
+directions but north.  The jungle makes it impossible for you to
+go north.  A mountain is visible to the south.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 816
+D2
+~
+~
+0 -1 811
+D1
+~
+~
+0 -1 814
+S
+#816
+In the Plain~
+  You are standing in the middle of a grassy plain.  You feel a
+pleasant breeze flowing through your hair.  The plains extend to
+north and east, with a steep mountain-side to the south and west.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 817
+D1
+~
+~
+0 -1 815
+S
+#817
+In the Plain~
+  You are standing in the middle of a grassy plain.  You feel a
+pleasant breeze flowing through your hair.  The plains extend to
+the west, with jungle continuing to the east.  You can see a
+mountain rising high to the south.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 818
+D2
+~
+~
+0 -1 816
+S
+#818
+In the Plain~
+  You are standing in the middle of a grassy plain.  You feel a
+pleasant breeze flowing through your hair.  The plains extend to
+the west, with jungle continuing to the east.  You can see a
+mountain rising high to the south and west.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 819
+D1
+~
+~
+0 -1 817
+E
+west~
+^yHuh? What's this?  It is some sort of a transparent wall.  Beyond
+it lies just a tall cliff that extends upward as far as the eyes
+can see.
+~
+S
+#819
+In the Plain~
+  You are standing in the middle of a grassy plain.  You feel a
+pleasant breeze flowing through your hair.  Up north you can see
+several huts.  To east lies the jungle, to south and to west lies
+the mountain cliff.
+several huts.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 820
+D2
+~
+~
+0 -1 818
+E
+west cliff~
+^yHuh? What's this?  It is some sort of a transparent wall.  Beyond
+it lies just a tall cliff that extends upward as far as the eyes
+can see.
+~
+S
+#820
+Between the Huts~
+  You are standing amidst strange huts.  The race living here seems
+to have no fear of the jungle animals, to build their homes
+in a place so open.  You see a large hut to the north.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 823
+D1
+~
+~
+0 -1 822
+D0
+~
+~
+0 -1 821
+D2
+~
+~
+0 -1 819
+S
+#821
+Between the Huts~
+  You are standing amidst strange huts.  The people living here
+seems to have no fear of the jungle animals, to build their homes
+in a place so open.  Either that or they are some ass-kicking
+warriors that enjoy a little bear wondering in sometimes.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 826
+D3
+~
+~
+0 -1 825
+D1
+~
+~
+0 -1 824
+D2
+~
+~
+0 -1 820
+S
+#822
+Small Hut~
+  You are inside one of the small huts.  It is composed of dried
+grass-like plants.  The hut seems to have been built only recently,
+judging by only few pounds of fecal matter littering the area.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 820
+S
+#823
+Small Hut~
+  You are inside one of the small huts.  It is composed of dried
+grass-like plants.  The hut seems to have been built only recently,
+judging by only few pounds of fecal matter littering the area.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 820
+S
+#824
+Small Hut~
+  You are inside one of the small huts.  It is composed of dried
+grass-like plants.  The hut seems to have been built only recently,
+judging by only few pounds of fecal matter littering the area.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 821
+S
+#825
+Small Hut~
+  You are inside one of the small huts.  It is composed of dried
+grass-like plants.  The hut seems to have been built only recently,
+judging by only few pounds of fecal matter littering the area.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 821
+S
+#826
+Center of the Settlement~
+  Well, it seem pretty clear that this "settlement" is a nomadic
+thing.  The race living here seem to move about constantly.  Such
+primitive social structure.  The huts continue to south and west.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 827
+D2
+~
+~
+0 -1 821
+S
+#827
+Between the Huts~
+  You are standing amidst strange huts.  The race living here seems
+to have no fear of the jungle animals, to build their homes
+in a place so open.  You see a large hut to the north.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 829
+D0
+~
+~
+0 -1 828
+D1
+~
+~
+0 -1 826
+S
+#828
+In a Large Grass Hut~
+  You are inside the largest hut in this little settlement.  Well,
+this hut seem similar to ones you have been seeing in Terrarium
+Alpha, though it lacks the display of weapons.  Come to think of
+it, you don't think you saw a single creature carrying a weapon.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 834
+D0
+~
+~
+0 -1 833
+D2
+~
+~
+0 -1 827
+S
+#829
+Between the Huts~
+  You are standing amidst strange huts.  The race living here seems
+to have no fear of the jungle animals, to build their homes
+in a place so open.  You see a large hut to the north.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 832
+D2
+~
+~
+0 -1 830
+D0
+~
+~
+0 -1 831
+D1
+~
+~
+0 -1 827
+S
+#830
+Small Hut~
+  You are inside one of the small huts.  It is composed of dried
+grass-like plants.  The hut seems to have been built only recently,
+judging by only few pounds of fecal matter littering the area.
+~
+4 0 INDOORS
+D0
+~
+~
+0 -1 829
+S
+#831
+Small Hut~
+  You are inside one of the small huts.  It is composed of dried
+grass-like plants.  The hut seems to have been built only recently,
+judging by only few pounds of fecal matter littering the area.
+~
+4 0 INDOORS
+D2
+~
+~
+0 -1 829
+S
+#832
+In the Plain~
+  You are standing in the middle of a grassy plain.  You feel a
+pleasant breeze flowing through your hair.  A small group of
+huts lie to your immediate east, and a tall mountain cliff blocks
+your passage to the west.
+~
+4 0 INDOORS
+D1
+~
+~
+0 -1 829
+E
+east cliff~
+^yHuh? What's this?  It is some sort of a transparent wall.  Beyond 
+it lies just a tall cliff that extends upward as far as the eyes
+can see.
+~
+E
+west~
+^yHuh? What's this?  It is some sort of a transparent wall.  Beyond
+it lies just a tall cliff that extends upward as far as the eyes
+can see.
+~
+S
+#833
+In a Large Grass Hut~
+  The grass hut seems exceptionally good at keeping out rains and
+such.  The ground here is very dry.  This section of the hut
+seems to serve the purpose of a storage locker.  You can see many
+strange tools and artifacts piled up here.
+~
+4 0 INDOORS
+D2
+~
+~
+0 -1 828
+S
+#834
+In a Large Grass Hut~
+  There are several weaved grass cushions here, perfect for sitting
+down.  There also is a cushion against the east wall, which you guess
+is the place where the leader sits.
+~
+4 0 INDOORS
+D3
+~
+~
+0 -1 828
+S

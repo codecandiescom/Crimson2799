@@ -1,0 +1,95 @@
+#5600
+milky way~
+a Milky Way~
+The Milky Way is flowing through the void of space here.~
+A mysterious river of milk is flowing trough the nothingness of space, destined
+to go nowhere. It is said that this Milky Way is the juice of the Gods, but it's
+kind of watered down.
+~
+DRINKCON 0 NOWEAR
+-1 -1 0 0
+0 100000 100000
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Howdy Partner!");
+    CharAction(CODE_THING,"say Wooheey! It\'s really ^ccold ^pin Outer Space!");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")) {
+      if(StrIn(COMMAND,"cold")) {
+        CharAction(CODE_THING,"say Did you lose your marbles somewhere\? If I said it was chilly you would probably get a bowl!");
+        stop;
+      }
+    }
+  }
+}~
+#5601
+mars candy bar chocolate snack~
+a Mars candy-bar~
+A candy-bar has been left here.~
+A King-Sized Mars candy-bar has been left on the floor. What luck! It's still in
+its wrappings, and there's only been taken one bite out of it! Dig In.
+~
+FOOD 0 NOWEAR
+5000 0 0 0
+0 0 0
+#5602
+ego dagger ego-dagger egodagger~
+an Ego-Dagger~
+A green rune covered blade has been left here.~
+^vThis item is being tested on  ... do not use^V 
+~
+MONEY GLOW|HUM EITHER-HAND
+15000 0 0 0
+4 3000 5000
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pThe Ego dagger exclaims \"Howdy Partner!\"");
+    SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pThe Ego dagger exclaims \"Wooheey! It\'s really ^ccold ^pin Outer Space!\"");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")) {
+      if(StrIn(COMMAND,"cold")) {
+        SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_AUDIBLE,"^pThe Ego dagger exclaims \"Did you lose your marbles somewhere\? If I said it was chilly you would probably get a bowl!\"");
+        stop;
+      }
+    }
+  }
+}~
+#5603
+builder survival gear set~
+a set of Builder survival gear~
+A set of Builder survival gear has been left here~
+The Ultimate Survival Kit:) 
+~
+DEVICE 0 ARM
+0 0 0 0
+0 0 0
+A
+WEAR-BREATHWATER 255
+A
+WEAR-VACUUMWALK 255
+#5604
+Tester~
+Tester~
+Tester~
+Type ^wODESC^c to give this Obj a better Description. 
+~
+EXIT 0 NOWEAR
+100 0 0 0
+0 0 0
+#5605
+TurboLift turbo lift elevator~
+TurboLift~
+The TurboLift is here, making a weird buzzing sound~
+It's the Ship's TurboLift. It can take you to Level 1, Level 2, or the 
+Bridge. 
+~
+VEHICLE 0 NOWEAR
+5687 0 0 0
+-1 0 0
+$

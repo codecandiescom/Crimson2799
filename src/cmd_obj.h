@@ -1,0 +1,16 @@
+extern CMDPROC(CmdOList);
+extern CMDPROC(CmdOStat);
+extern CMDPROC(CmdOCreate);
+extern CMDPROC(CmdOClear);
+extern CMDPROC(CmdOName);
+extern CMDPROC(CmdOKey);
+extern CMDPROC(CmdOLDesc);
+extern CMDPROC(CmdODesc);
+extern CMDPROC(CmdOExtra);
+extern CMDPROC(CmdOProperty);
+extern CMDPROC(CmdOSet);
+extern CMDPROC(CmdOSetField);
+extern CMDPROC(CmdOCompile);
+extern CMDPROC(CmdODecomp);
+extern CMDPROC(CmdOLoad);
+extern CMDPROC(CmdOSave);

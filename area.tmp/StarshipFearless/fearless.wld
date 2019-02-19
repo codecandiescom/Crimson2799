@@ -1,0 +1,136 @@
+#5200
+Docking Bay~
+You find yourself in the docking bay.  There are people wandering all over
+the place looking for thier ships.  The walls of the room are soundproof
+so that nobody can hear the loud noises the ships make.  You can see a huge
+ship towards the east.
+
+~
+17 NOWEATHER|PRIVATE INDOORS
+D0
+The exit leads into the shop.~
+~
+0 -1 5204
+D1
+This exit leads to the Starship Fearless.
+~
+~
+0 -1 5201
+D3
+This exit leads to the hallway.
+~
+~
+0 -1 5202
+S
+#5201
+Starship Fearless Entrance~
+You are standing in the small room leading into the Starship. The room is
+very quiet and you can only see the ships crew and guards.  You can barely
+see the ship from where you stand though it still looks huge.  There are
+merchants already entering the ship.  The security seems to be very tight
+around this area.
+~
+17 NOWEATHER|NOTELEPORTIN INDOORS
+D1
+The door leads into the Ship.
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5205
+D3
+This exit leads to the Docking Bay.
+~
+~
+0 -1 5200
+S
+#5202
+Hallway 1A~
+Standing in the hallway you can see all the people that have just returned
+from a long flight.  Peoples packages and belongings are droped all along
+the hallway.  The walls of the hallway have text scrolling by telling about
+upcoming flights and there prices.  You can see the docking bay and bar from
+where you stand.
+~
+17 NOWEATHER INDOORS
+D2
+The exit leads into the bar.~
+~
+0 -1 5203
+D1
+This exit leads to the docking bay
+~
+~
+0 -1 5200
+S
+#5203
+Starbase Bar~
+Standing in the bar you see a lot of people drinking and talking.  The room
+smells of strong Vodka and other forms of drinks.  You can see a robot trying
+to tend to all the peoples needs.  There is a price machine standing next
+to the door to see how much the prices are.
+~
+17 NOWEATHER INDOORS
+D0
+The exit leads towards the hallway.~
+~
+0 -1 5202
+S
+#5204
+Last Minute Supplies~
+You are standing in one of the most crowded shops you have ever seen.  There
+are supplies for every possible need you may have.  There is hardly any space
+to move with all these people in the way.  The shopkeepers look as though 
+they have been working non stop for years.  Next to the door stands a price 
+machine.
+~
+17 0 INDOORS
+D2
+The exit leads into the docking bay.~
+~
+0 -1 5200
+S
+#5205
+Deck 1A: Entrance/Exit~
+You are standing in the Starship Fearless.  You can see the crew members of
+the ship loading boxes and robots into the ship.  The merchants can be seen
+all the way down the Deck putting up there shops.  The captain of the ship
+is nowhere to be seen through all of this mess.  There is a terminal on the
+wall which shows where everybody spends there nights.
+~
+17 0 INDOORS
+D1
+This exit leads into the supply room.~
+~
+ISDOOR|CLOSED -1 5207
+D0
+The way leads to the B Deck.~
+~
+0 -1 5206
+D3
+This exit leads out of the Starship.~
+~
+CLOSED -1 5201
+S
+#5206
+Deck 1B~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+17 0 INDOORS
+D2
+The way leads to the main ship entrance.~
+~
+0 -1 5205
+S
+#5207
+Supply Room 1A~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+17 0 INDOORS
+D3
+The way leads into the Main ship entrance.~
+~
+CLOSED -1 5205
+S

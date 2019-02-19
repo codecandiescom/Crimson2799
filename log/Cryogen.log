@@ -1,0 +1,63 @@
+11/25(22:46) : reboot
+11/25(22:50) : reboot
+11/25(22:59) : reboot
+11/25(23:35) : reboot
+11/29(13:41) : reboot
+11/29(15:39) : reboot
+11/29(22:57) : reboot
+11/30(00:51) : reboot
+11/30(14:46) : reboot
+11/30(15:06) : reboot
+11/30(16:22) : reboot
+ 1/13(20:52) : reboot
+ 1/14(11:37) : reboot
+ 1/14(11:41) : reboot
+ 1/14(11:44) : reboot
+ 1/14(11:52) : reboot
+ 1/20(14:13) : reboot
+ 1/26(01:51) : reboot
+ 2/16(00:09) : reboot
+ 2/16(11:57) : reboot
+ 2/16(13:13) : reboot
+ 2/16(13:17) : reboot
+ 2/16(13:25) : reboot
+ 2/16(13:34) : reboot
+ 2/16(20:02) : reboot
+ 2/16(20:24) : reboot
+ 2/17(00:29) : reboot
+ 2/17(14:36) : reboot
+ 3/24(17:31) : reboot
+ 3/24(17:42) : reboot
+ 3/26(13:25) : reboot
+ 3/26(13:30) : reboot
+ 4/30(17:19) : reboot
+ 5/ 6(21:36) : reboot
+ 5/13(16:39) : reboot
+ 5/25(18:05) : reboot
+ 5/25(18:23) : reboot
+ 5/26(01:08) : reboot
+ 5/26(01:32) : reboot
+ 6/ 3(23:02) : reboot
+06/09(11:42) : reboot
+06/09(11:56) : reboot
+06/09(12:16) : reboot
+06/09(13:01) : reboot
+06/09(16:31) : reboot
+06/11(18:42) : setskill thale speed 5000
+06/11(18:44) : setskill thale melee-knife 500
+06/11(18:45) : setskill thale laser-pistol 500
+06/11(18:46) : resetskill thale
+06/11(18:46) : reboot
+11/09(16:10) : reboot
+12/18(23:04) : reboot
+01/01(05:00) : setstat cryogen money 0
+01/01(05:00) : setstat cryogen practices 0
+01/02(22:37) : reboot
+01/07(13:43) : setstat
+01/07(13:43) : setstat cryogen
+01/07(14:17) : setstat cryogen str 200
+01/07(14:17) : setstat cryogen str 200
+02/05(15:24) : setstat test hitp 5000
+02/05(15:24) : setstat
+02/05(15:24) : setstat test hitpmax 5000
+02/06(02:46) : reboot

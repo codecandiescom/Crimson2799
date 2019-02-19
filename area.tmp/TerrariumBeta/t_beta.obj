@@ -1,0 +1,88 @@
+#900
+pedestal~
+the pedestal~
+A pedestal is here.~
+The pedestal stands about 3 feet tall and is made of a bright red
+marble.  It appears to have been carved with laser precision. 
+Upon closer examination, you notice some words engraved into it.
+~
+12 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(StrIsCmd(COMMAND,"put")||StrIsCmd(COMMAND,"place")) {
+    if(StrIn(COMMAND,"stone")) {
+      if(ObjectContain(EVENT_THING,901)!=TNULL) {
+        if(ObjectContain(BaseGetInside(CODE_THING),903)!=TNULL) {
+          BLOCK_CMD=TRUE;
+          SendAction(EVENT_THING,TNULL,SEND_SRC,"^bThere isn\'t enough room on the pedestal for another stone.^V\n");
+          stop;
+        }
+        BLOCK_CMD=TRUE;
+        SendAction(EVENT_THING,TNULL,SEND_SRC,"^bYou place ^gthe stone ^bon the pedestal.^V\n");
+        SendAction(EVENT_THING,TNULL,SEND_ROOM,"^b$n places ^ga stone ^bon the pedestal.^V\n");
+        ObjectCreate(BaseGetInside(CODE_THING),903);
+        ObjectRemove(EVENT_THING,901);
+      }
+    }
+  }
+  if(StrIsCmd(COMMAND,"say")) {
+    if(ObjectContain(BaseGetInside(CODE_THING),903)!=TNULL) {
+      if(StrIn(COMMAND,"thyrak rah gathal")) {
+        BLOCK_CMD=TRUE;
+        SendAction(EVENT_THING,TNULL,SEND_SRC,"^CYou utter \'thyrak rah gathal\' quietly^b.^V\n");
+        SendAction(EVENT_THING,TNULL,SEND_ROOM,"$n utters something in an unknown tongue.\n");
+        SendAction(EVENT_THING,TNULL,SEND_SRC|SEND_ROOM,"^aA ^wwhite ^abeam of blinding light emanates from the artificial sun above, lighting up the stone on the pedestal in a bright multi-colored glow.\n");
+        ObjectCreate(BaseGetInside(CODE_THING),904);
+        ObjectRemove(BaseGetInside(CODE_THING),903);
+      }
+    }
+  }
+  if(StrIsCmd(COMMAND,"get")||StrIsCmd(COMMAND,"take")) {
+    CharAction(EVENT_THING,COMMAND);
+    if(ObjectContain(EVENT_THING,903)!=TNULL) {
+      ObjectStrip(EVENT_THING,903,903,TNULL);
+      ObjectCreate(EVENT_THING,901);
+    }
+    BLOCK_CMD=TRUE;
+  }
+}~
+#901
+small grey stone~
+a small grey stone~
+A small grey stone sits on the floor here.~
+Looking at the stone, you see nothing special about it..  just a plain grey rock.
+~
+13 0 NOWEAR
+0 0 0 0
+1 0 -1
+#902
+blank object~
+a pile of stones~
+There is a large pile of stones here.~
+A HUGE pile of smooth grey stones.
+~
+13 0 NOWEAR
+0 0 0 0
+-1 0 0
+#903
+small grey stone~
+a stone sitting on the pedestal~
+A small grey stone sits atop the pedestal here.~
+The small stone is sitting atop the pedestal.
+~
+13 0 NOWEAR
+0 0 0 0
+0 0 0
+#904
+sun stone~
+a sun stone~
+A shimmering stone is here.~
+The stone is glowing brightly and constantly changing colors.
+~
+13 0 NOWEAR
+0 0 0 0
+1 0 -1
+$

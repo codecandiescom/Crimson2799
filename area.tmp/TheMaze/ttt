@@ -1,0 +1,1223 @@
+diff -bB ./maze1.rst old/maze1.rst
+2,14c2,3
+< The Maze Level 1: The maze was created by the builders to challenge and
+< test their young. It as since become the home to serveral "tennants" who 
+< don't particularly care for visitors.
+< 
+< Level 1 features a simple puzzle of "get the pegs & put them in their baskets".
+< Successfull completion of the puzzle will gain exp and a +1 int necklace. 
+< Note the puzzle doesn't have to be solved to get through the maze - a feat
+< which also yields a one-time exp prize. Each exp bonus may only be granted
+< once per player, regardless of death.
+< 
+< -Corbin
+< ~
+< 18 20 RESET-WHEN-EMPTY
+---
+> Put your description here....~
+> 18 120 RESET-WHEN-EMPTY
+diff -bB ./maze2.mob old/maze2.mob
+1,57d0
+< #1650
+< gruesome specter~
+< Gruesome specter~
+< A gruesome specter is floating nearby~
+< The specter is of a grotesque four-legged winged creature with a terrible, 
+< twisted face. The figurine appears to be giving you a look of rage. 
+< ~
+< TRACKER|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON INVIS|BREATHWATER|DARKVISION|SEEINVIS|HIDDEN|PHASEWALK 0 S
+< 15 45 34 1d45+50 2d11+5
+< 0 225
+< STANDING NONE SEXLESS
+< P
+< @AFTERCOMMAND~
+< {
+<   if(ObjectCount(EVENT_THING,1653)) {
+<     FightStart(CODE_THING,EVENT_THING);
+<   }
+< }~
+< #1651
+< large spindly specter~
+< Large spindly specter~
+< A large spindly specter is floating nearby~
+< The specter is of a tall, four-limbed creature. The limbs each have 6 
+< joints, and are thin to the point of fragility. The face is adorned by a 
+< long, slender beak and bulbous eyes. The beak-face appears to be twisted in 
+< rage... at YOU! 
+< ~
+< TRACKER|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON INVIS|BREATHWATER|DARKVISION|SEEINVIS|HIDDEN|PHASEWALK 0 S
+< 15 45 34 1d45+50 2d11+5
+< 0 225
+< STANDING NONE SEXLESS
+< P
+< @AFTERCOMMAND~
+< {
+<   if(ObjectCount(EVENT_THING,1654)) {
+<     FightStart(CODE_THING,EVENT_THING);
+<   }
+< }~
+< #1652
+< stout blocky specter~
+< Stout blocky specter~
+< A stout blocky specter is floating nearby~
+< The specter is a stout tri-pedal creature. Four horns protrude from the 
+< creature's face, which is centred in the middle of what could be considered 
+< it's chest. You can just make out its face, twisted in rage. 
+< ~
+< TRACKER|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON INVIS|BREATHWATER|DARKVISION|SEEINVIS|HIDDEN|PHASEWALK 0 S
+< 16 48 37 1d48+50 3d11+5
+< 0 240
+< STANDING NONE SEXLESS
+< P
+< @AFTERCOMMAND~
+< {
+<   if(ObjectCount(EVENT_THING,1655)) {
+<     FightStart(CODE_THING,EVENT_THING);
+<   }
+< }~
+diff -bB ./maze2.obj old/maze2.obj
+1,115d0
+< #1650
+< gruesome statue~
+< Gruesome Statue~
+< A gruesome statue rests in the middle of the corridor.~
+< The status is of a grotesque four-legged winged creature with a terrible, 
+< twisted face. The statue appears to be giving you a warm smile. 
+< ~
+< OTHER DARK NOWEAR
+< 0 0 0 0
+< -1 0 0
+< P
+< @ENTRY~
+< {
+<   if(ObjectCount(EVENT_THING,1653)==0) {
+<     SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST,"^a$a $n bars your entry into the room.\n");
+<     BLOCK_CMD=TRUE;
+<   }
+< }~
+< #1651
+< large spindly statue~
+< Large spindly statue~
+< A large, spindly statue looms ominously in the centre of the corridor.~
+< The statue is of a tall, four-limbed creature. The limbs each have 6 joints, 
+< and are thin to the point of fragility. The face is adorned by a long, 
+< slender beak and bulbous eyes. The beak-face appears to be giving you a warm 
+< smile. 
+< ~
+< OTHER DARK NOWEAR
+< 0 0 0 0
+< -1 0 0
+< P
+< @ENTRY~
+< {
+<   if(ObjectCount(EVENT_THING,1654)==0) {
+<     SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST,"^a$a $n bars your entry into the room.\n");
+<     BLOCK_CMD=TRUE;
+<   }
+< }~
+< #1652
+< stout blocky statue~
+< Stout blocky statue~
+< A stout, blocky statue is here, blocking most of the corridor.~
+< The statue is of a stout tri-pedal creature. Four horns protrude from the 
+< creature's face, which is centred in the middle of what could be considered 
+< it's chest. You can just make out a warm smile on its twisted face. 
+< ~
+< OTHER DARK NOWEAR
+< 0 0 0 0
+< -1 0 0
+< P
+< @ENTRY~
+< {
+<   if(ObjectCount(EVENT_THING,1655)==0) {
+<     SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST,"^a$a $n bars your entry into the room.\n");
+<     BLOCK_CMD=TRUE;
+<   }
+< }~
+< #1653
+< gruesome figurine~
+< Gruesome figurine~
+< A gruesome figurine is lying on the floor~
+< The figurine is of a grotesque four-legged winged creature with a terrible, 
+< twisted face. The figurine appears to be giving you a look of rage.
+< ~
+< OTHER DARK NOWEAR
+< 0 0 0 0
+< 1 0 0
+< A
+< MOVE 246
+< #1654
+< large spindly figurine~
+< Large spindly figurine~
+< A large, spindly figurine is lying on the floor~
+< The figurine is of a tall, four-limbed creature. The limbs each have 6 
+< joints, and are thin to the point of fragility. The face is adorned by a 
+< long, slender beak and bulbous eyes. The beak-face appears to be twisted in 
+< rage... at YOU! 
+< ~
+< OTHER DARK NOWEAR
+< 0 0 0 0
+< 1 0 0
+< A
+< POWER 246
+< #1655
+< stout blocky figurine~
+< Stout blocky figurine~
+< A stout, blocky figurine is lying on the ground~
+< The statue is of a stout tri-pedal creature. Four horns protrude from the 
+< creature's face, which is centred in the middle of what could be considered 
+< it's chest. You can just make out its face, twisted in rage. 
+< ~
+< OTHER DARK NOWEAR
+< 0 0 0 0
+< 0 0 0
+< A
+< HIT 246
+< #1656
+< builder couch~
+< Builder Couch~
+< A builder couch is here... hmmm looks comfortable.~
+< The builder couch looks like a long, slender bench covered in nice soft 
+< cushioning. Perhaps, by lying on the couch, you could PRACTICE here. (type 
+< "practice"). 
+< ~
+< OTHER GLOW NOWEAR
+< 0 0 0 0
+< -1 0 0
+< P
+< @COMMAND~
+< {
+<   if(CharPractice(EVENT_THING,COMMAND,SF_APPORTATION,0,60)) {
+<     BLOCK_CMD=TRUE;
+<     stop;
+<   }
+< }~
+diff -bB ./maze2.rst old/maze2.rst
+3,42c3
+< 39 20 RESET-WHEN-EMPTY
+< O 0 1656 1 1651 1               Builder Couch
+< D 0 1653 4 13                   Blue Crystal Cavern-up
+< D 0 1653 2 13                   Blue Crystal Cavern-south
+< O 0 1654 200 1656 1             Large spindly figurine
+< O 0 1655 200 1658 1             Stout blocky figurine
+< O 0 1655 200 1663 1             Stout blocky figurine
+< O 0 1653 200 1667 1             Gruesome figurine
+< O 0 1654 200 1668 1             Large spindly figurine
+< O 0 1655 200 1669 1             Stout blocky figurine
+< O 0 1655 200 1672 5             Stout blocky figurine
+< O 0 1652 1 1676 1               Stout blocky statue
+< O 0 1655 200 1677 1             Stout blocky figurine
+< O 0 1654 200 1679 1             Large spindly figurine
+< O 0 1653 200 1682 1             Gruesome figurine
+< O 0 1653 200 1683 1             Gruesome figurine
+< O 0 1653 200 1694 1             Gruesome figurine
+< O 0 1654 200 1698 1             Large spindly figurine
+< M 0 1650 60 1700 5              Gruesome specter
+< M 0 1651 60 1700 5              Large spindly specter
+< M 0 1652 60 1700 5              Stout blocky specter
+< O 0 1653 200 1710 1             Gruesome figurine
+< O 0 1654 200 1711 1             Large spindly figurine
+< O 0 1653 200 1715 1             Gruesome figurine
+< O 0 1653 200 1721 1             Gruesome figurine
+< O 0 1654 200 1724 1             Large spindly figurine
+< O 0 1655 200 1730 1             Stout blocky figurine
+< O 0 1655 200 1733 1             Stout blocky figurine
+< O 0 1655 200 1740 1             Stout blocky figurine
+< O 0 1651 1 1745 1               Large spindly statue
+< O 0 1654 200 1746 5             Large spindly figurine
+< O 0 1653 200 1748 5             Gruesome figurine
+< O 0 1650 1 1749 1               Gruesome Statue
+< M 0 1650 60 1753 5              Gruesome specter
+< M 0 1651 60 1753 5              Large spindly specter
+< M 0 1652 60 1753 5              Stout blocky specter
+< O 0 1653 200 1757 1             Gruesome figurine
+< O 0 1653 200 1758 1             Gruesome figurine
+< O 0 1654 200 1762 1             Large spindly figurine
+< O 0 1654 200 1775 1             Large spindly figurine
+---
+> 6 120 1
+46c7,8
+< $
+---
+> $~
+> #999999
+diff -bB ./maze2.wld old/maze2.wld
+7c7
+< 9 NOMOB|UNDEF3 CITY-OUTSIDE
+---
+> 9 UNDEF3 CITY-OUTSIDE
+55c55
+< ISDOOR|LOCKED|CLOSED -1 1657
+---
+> 0 -1 1657
+60,63d59
+< D4
+< ~
+< ~
+< ISDOOR|LOCKED|CLOSED -1 1669
+111c107
+< ISDOOR|LOCKED|CLOSED -1 1653
+---
+> 0 -1 1653
+280,283d275
+< D5
+< ~
+< ~
+< ISDOOR|LOCKED|CLOSED -1 1653
+317c309
+< 9 NOMOB CITY-OUTSIDE
+---
+> 9 UNDEF3 CITY-OUTSIDE
+373c365
+< 9 NOMOB|UNDEF3 CITY-OUTSIDE
+---
+> 9 UNDEF3 CITY-OUTSIDE
+452,464d443
+< P
+< @AFTEREXIT~
+< {
+<   str state;
+<   state="TheMazeLevel2-Solution";
+<   if(ExitGetDir(EXIT)==EDIR_UP) {
+<     if((PropertyGetInt(EVENT_THING,state)&8)==0) {
+<       SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aYou hear joyfull music\n");
+<       CharGainExp(EVENT_THING,5000);
+<       PropertySetInt(EVENT_THING,state,PropertyGetInt(EVENT_THING,state)|8);
+<     }
+<   }
+< }~
+753c732
+< 0 -1 1717
+---
+> 0 -1 1729
+1357c1336
+< 9 NOMOB CITY-OUTSIDE
+---
+> 9 UNDEF3 CITY-OUTSIDE
+1375c1354
+< 9 NOMOB CITY-OUTSIDE
+---
+> 9 UNDEF3 CITY-OUTSIDE
+1403c1382
+< 9 NOMOB CITY-OUTSIDE
+---
+> 9 UNDEF3 CITY-OUTSIDE
+1417c1396
+< 9 NOMOB CITY-OUTSIDE
+---
+> 9 UNDEF3 CITY-OUTSIDE
+diff -bB ./maze3.obj old/maze3.obj
+1,44d0
+< #1800
+< stone stone~
+< small stone~
+< a small stone is here~
+< It's small, round, and made of rock.
+< ~
+< OTHER 0 NOWEAR
+< 0 0 0 0
+< 1 0 0
+< #1801
+< miniature obelisk~
+< Miniature Obelisk~
+< A miniature obelisk rests on the floor~
+< The obelisk is about 60cm tall. It is made of a dark, black stone.
+< ~
+< OTHER AURA NOWEAR
+< 0 0 0 0
+< -1 0 0
+< P
+< @use~
+< {
+<   int color;
+<   str action;
+<   color=CharGetExp(EVENT_THING)%4;
+<   if (color==0) {
+<     action="$n glows a bright red\n";
+<   } else
+<   if (color==1) {
+<     action="$n glows a brilliant blue\n";
+<   } else
+<   if (color==2) {
+<     action="$n glows a soothing yellow\n";
+<   } else
+<   if (color==3) {
+<     action="$n glows a pleasant green\n";
+<   }
+<   SendAction(CODE_THING,EVENT_THING,
+<     SEND_VISIBLE|SEND_ROOM|SEND_CAPFIRST,
+<     action);
+<   SendAction(CODE_THING,EVENT_THING,
+<     SEND_VISIBLE|SEND_DST|SEND_CAPFIRST,
+<     action);
+<   PropertySetInt(CODE_THING,"TheMazeLevel3-circle",color);
+< }~
+diff -bB ./maze3.rst old/maze3.rst
+3,24c3
+< 21 120 RESET-WHEN-EMPTY
+< D 0 1803 2 25                   Shimmering Room-south
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+< O 0 1800 200 1806 20            small stone
+---
+> 6 120 1
+28c7,8
+< $
+---
+> $~
+> #999999
+diff -bB ./maze3.wld old/maze3.wld
+29,32d28
+< D2
+< ~
+< ~
+< 0 -1 1802
+37,864d32
+< S
+< #1802
+< Shimmering Room~
+<   You are in a room with shimmering walls. There are footprints in the dust 
+< leading south. Your first set of footprints come in from the north. Can it 
+< be that you just walked right through a wall?! Wow, cool.
+< ~
+< 10 0 INDOORS
+< D2
+< ~
+< ~
+< HIDDEN -1 1803
+< D0
+< ~
+< ~
+< HIDDEN -1 1801
+< S
+< #1803
+< Shimmering Room~
+<   You are in a room with shimmering walls. There are footprints in the dust 
+< leading south. If you have trouble following the footprints, perhaps you 
+< could try "look south" followed by "open south" or "open secret" or "open 
+< door".
+< ~
+< 10 0 INDOORS
+< D0
+< ~
+< ~
+< HIDDEN -1 1802
+< D2
+< a secret door 
+< ~
+< secret door~
+< ISDOOR|HIDDEN -1 1804
+< S
+< #1804
+< Shimmering Room~
+<   You are in a room with shimmering walls. Footprints in the dust lead to 
+< the middle of the room and then stop. When you look UP, you don't see any 
+< apparent way UP. Perhaps you should try UP anyways, just in case UP works. 
+< ~
+< 10 0 INDOORS
+< D4
+< ~
+< ~
+< HIDDEN -1 1805
+< D0
+< a secret door
+< ~
+< secret door~
+< ISDOOR|HIDDEN -1 1803
+< S
+< #1805
+< Shimmering Room~
+<   You are in a room with shimmering walls. Funny, you can see yourself to 
+< the north... and south... and east and west too! Strange. Maybe you should 
+< try UP again. 
+< ~
+< 10 0 INDOORS
+< D3
+< ~
+< ~
+< 0 -1 1805
+< D2
+< ~
+< ~
+< 0 -1 1805
+< D1
+< ~
+< ~
+< 0 -1 1805
+< D0
+< ~
+< ~
+< 0 -1 1805
+< D4
+< ~
+< ~
+< HIDDEN -1 1806
+< D5
+< ~
+< ~
+< HIDDEN -1 1804
+< S
+< #1806
+< Boundless landscape~
+<   You are in a boundless landscape. The ground is smooth and grey, but 
+< otherwise featureless. You can see clear to infinity in all directions. 
+< There is a sign here. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1809
+< D2
+< ~
+< ~
+< 0 -1 1810
+< D1
+< ~
+< ~
+< 0 -1 1807
+< D0
+< ~
+< ~
+< 0 -1 1818
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< E
+< sign~
+< Welcome traveller.
+< 
+< If you get stuck, go DOWN from
+< anywhere and you will be returned to the Yellow Octagon. ~
+< S
+< #1807
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1806
+< D2
+< ~
+< ~
+< 0 -1 1811
+< D1
+< ~
+< ~
+< 0 -1 1808
+< D0
+< ~
+< ~
+< 0 -1 1819
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1808
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< D3
+< ~
+< ~
+< 0 -1 1807
+< D2
+< ~
+< ~
+< 0 -1 1812
+< D1
+< ~
+< ~
+< 0 -1 1809
+< D0
+< ~
+< ~
+< 0 -1 1820
+< S
+< #1809
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< D3
+< ~
+< ~
+< 0 -1 1808
+< D2
+< ~
+< ~
+< 0 -1 1813
+< D1
+< ~
+< ~
+< 0 -1 1806
+< D0
+< ~
+< ~
+< 0 -1 1821
+< S
+< #1810
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1813
+< D2
+< ~
+< ~
+< 0 -1 1814
+< D1
+< ~
+< ~
+< 0 -1 1811
+< D0
+< ~
+< ~
+< 0 -1 1806
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1811
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1810
+< D2
+< ~
+< ~
+< 0 -1 1815
+< D1
+< ~
+< ~
+< 0 -1 1812
+< D0
+< ~
+< ~
+< 0 -1 1807
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1812
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1811
+< D2
+< ~
+< ~
+< 0 -1 1816
+< D1
+< ~
+< ~
+< 0 -1 1813
+< D0
+< ~
+< ~
+< 0 -1 1808
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1813
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1812
+< D2
+< ~
+< ~
+< 0 -1 1817
+< D1
+< ~
+< ~
+< 0 -1 1810
+< D0
+< ~
+< ~
+< 0 -1 1809
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1814
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1817
+< D2
+< ~
+< ~
+< 0 -1 1818
+< D1
+< ~
+< ~
+< 0 -1 1815
+< D0
+< ~
+< ~
+< 0 -1 1810
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1815
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1814
+< D2
+< ~
+< ~
+< 0 -1 1819
+< D1
+< ~
+< ~
+< 0 -1 1816
+< D0
+< ~
+< ~
+< 0 -1 1811
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1816
+< Pillar square~
+<   Whoah. Like walking from night to day, you walk from the infinite 
+< wasteland into a square marked by four pillars. There is a ladder leading 
+< up. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D4
+< ~
+< ~
+< 0 -1 1822
+< D3
+< ~
+< ~
+< 0 -1 1815
+< D2
+< ~
+< ~
+< 0 -1 1820
+< D1
+< ~
+< ~
+< 0 -1 1817
+< D0
+< ~
+< ~
+< 0 -1 1812
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1817
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1816
+< D2
+< ~
+< ~
+< 0 -1 1821
+< D1
+< ~
+< ~
+< 0 -1 1814
+< D0
+< ~
+< ~
+< 0 -1 1813
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1818
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1821
+< D2
+< ~
+< ~
+< 0 -1 1806
+< D1
+< ~
+< ~
+< 0 -1 1819
+< D0
+< ~
+< ~
+< 0 -1 1814
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1819
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1818
+< D2
+< ~
+< ~
+< 0 -1 1807
+< D1
+< ~
+< ~
+< 0 -1 1820
+< D0
+< ~
+< ~
+< 0 -1 1815
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1820
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1819
+< D2
+< ~
+< ~
+< 0 -1 1808
+< D1
+< ~
+< ~
+< 0 -1 1821
+< D0
+< ~
+< ~
+< 0 -1 1816
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1821
+< Boundless landscape~
+<   You are in a boundless landscape. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D3
+< ~
+< ~
+< 0 -1 1820
+< D2
+< ~
+< ~
+< 0 -1 1809
+< D1
+< ~
+< ~
+< 0 -1 1818
+< D0
+< ~
+< ~
+< 0 -1 1817
+< D5
+< ~
+< ~
+< HIDDEN -1 1800
+< S
+< #1822
+< Circle of pillars~
+<   You are standing amidst a circle of pillars. Outside the circle, all is 
+< black. 
+< ~
+< 10 0 CITY-OUTSIDE
+< D0
+< ~
+< ~
+< 0 -1 1823
+< D1
+< ~
+< ~
+< 0 -1 1824
+< D2
+< ~
+< ~
+< 0 -1 1825
+< D3
+< ~
+< ~
+< 0 -1 1826
+< D5
+< ~
+< ~
+< 0 -1 1822
+< S
+< #1823
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1824
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1825
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1826
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1827
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1828
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1829
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1830
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1831
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1832
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1833
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1834
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1835
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1836
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1837
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1838
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1839
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1840
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1841
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1842
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1843
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1844
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1845
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1846
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1847
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1848
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1849
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1850
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1851
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1852
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1853
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1854
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1855
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1856
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1857
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+< S
+< #1858
+< Type ^wWNAME^c to give this room a better title.~
+<   You are standing in a completely featureless room. It awaits only a creators
+< hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+< upon it.
+< ~
+< 10 0 INDOORS
+Only in .: new
+Only in .: old
+Only in .: ttt

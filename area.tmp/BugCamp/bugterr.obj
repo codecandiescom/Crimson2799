@@ -1,0 +1,53 @@
+#7200
+builder couch~
+a builder couch~
+A builder couch is here, covered in dust.~
+  One of the most important discoveries from the anomaly is this piece of 
+technology.  This is the equipment that enhances the psionic and spiritual 
+abilities of the user.  Finding this equipment is never an easy task, for 
+most of the anomaly is uncharted.  Well, you have found it. Let's see how it 
+works. (Try PRACTICE'ing) 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,20)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#7201
+floppy disk~
+a floppy disk~
+a floppy disk is here waiting to be used~
+It looks like your everyday 3.5" floppy disk 
+~
+WEAPON 0 HELD
+0 0 33555200 0
+2 0 0
+#7202
+needler pistol~
+a needler pistol~
+Someone left a nasty-looking needler pistol here.~
+The needler pistol looks very nasty... to anyone without armor. The pistol 
+slivers off needle-sized shards from a block of amunition and propells them 
+at an extremely high velocity. Each individual needle doesn't inflict much 
+damage, but the high fire rate of the pistol ensures overall damage is 
+significant. 
+~
+WEAPON 0 HELD
+0 0 17433088 17760520
+10 350 0
+#7203
+M16 assault riffle~
+an M16 assault riffle~
+an M16 assault riffle is proped up against the wall~
+The M16 is a stardard weapon for military guardsmen. Not quit as powerfull 
+as some lasers but it gets the job done 
+~
+WEAPON 0 TWO-HANDED
+0 0 16974336 131336
+5 147 258
+$

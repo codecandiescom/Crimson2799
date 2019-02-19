@@ -1,0 +1,125 @@
+#4800
+RobotFactory Construction Break-Room~
+ This is where Daenar slacks off when no one is watching and making sure he is
+building the RobotFactory.
+~
+15 NOWEATHER|PRIVATE INDOORS
+D0
+~
+~
+0 -1 0
+D1
+~
+~
+0 -1 4801
+S
+#4801
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+(AREA NOT OPENED: When completed this room links south to 442.)
+~
+15 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 4802
+S
+#4802
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+15 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 4803
+D2
+~
+~
+0 -1 4801
+S
+#4803
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+15 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 4804
+D2
+~
+~
+0 -1 4802
+S
+#4804
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+15 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 4805
+D2
+~
+~
+0 -1 4803
+S
+#4805
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+15 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 4804
+D0
+~
+~
+0 -1 4806
+S
+#4806
+Entrance to a Factory~
+The cavernous tunnel ends abruptly at this gigantic door.  It appears this
+entryway was once automated, but now a huge, jagged piece of metal seems to have
+jammed the door open.
+~
+15 0 INDOORS
+D0
+~
+~
+0 -1 4807
+D2
+~
+~
+0 -1 4805
+S
+#4807
+Factory Floor~
+You stand in an immense room.  All around you machines work, the collective
+noise creating a cacophany of clanking sounds.  You must be on the main floor of
+a huge factory.
+~
+15 0 INDOORS
+D2
+~
+~
+0 -1 4806
+S

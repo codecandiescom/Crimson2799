@@ -1,0 +1,23 @@
+#5000
+Docking Robot~
+Docking Robot~
+^GA ^y*HUGE*^G Docking Robot is lumbering around~
+The Docking Robot lumbering around doing its chores. Nobody is really sure 
+what it does, but it's benevolent. Most people leave it alone. 
+~
+STAYAREA|RSLASH|RCONCUSSIVE|RHEAT|RPSYCHIC|RPOISON SEEINVIS|REGENERATION|ENDURANCE 0 S
+30 90 72 2d500+1100 3d13+10
+0 6000
+STANDING ROBOT SEXLESS
+#5001
+tan ginera~
+Tan Ginera~
+A tan-coloured ginera is blowing itself around~
+The ginera looks like a dust clowd, slowly moving from one place to the 
+next. 
+~
+STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON SEEINVIS|REGENERATION 0 S
+40 120 97 2d1000+2100 3d17+13
+0 12000
+STANDING GALCIV-CITIZEN SEXLESS
+$

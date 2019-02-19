@@ -1,0 +1,185 @@
+Editor Help~
+#
+Editor~
+
+^CNEW                                 ^b- start anew (nukes all existing text)
+^CINSERT    ^c[^C<startLine#>^c]            ^b- insert/append text
+^CAPPEND                              ^b- add to the end of the text
+^CDELETE    ^c[^C<startLine#> <endLine#>^c] ^b- delete existing text
+^CLIST      ^c[^C<startLine#> <endLine#>^c] ^b- list existing text
+^CCOLOR                               ^b- Show Color codes on/off
+^CREPLACE                             ^b- replace a substring of the text
+^CFORMAT                              ^b- reformat so no lines are > 80 chars
+^CJOIN      ^c[^C<line#>^c]                 ^b- joins a line with the next line
+^CUNDO                                ^b- revert to original text
+^CSAVE                                ^b- Save changes and exit editor
+^CCANCEL                              ^b- Cancel changes and exit editor
+^CGOSSIP/SAY/TELL                     ^b- These still work....
+
+^CCLIPBOARD ^c[^C<startLine#> <endLine#>^c] ^b- Show whats in the clipboard
+^CCOPY      ^c[^C<startLine#> <endLine#>^c] ^b- Copy text to the clipboard
+^CPASTE     ^c[^C<startLine#>^c]            ^b- insert before this line#
+
+
+~
+#
+New~
+NEW - Editor Command
+
+  This command deletes all existing text and immediately places you in the
+text editing mode.
+
+  eg: new              This will delete all your current text and start
+                         the text editing mode.
+~
+#
+Insert~
+INSERT - Editor Command
+
+  This command allows you to insert text at the start, someplace in the
+middle, or at the end of the existing text. This command will place you
+in text editing mode. You 
+
+  eg: insert           This will begin inserting at the start of 
+                         the existing text.
+      insert 4         This will begin inserting text at line 4.
+~
+#
+Append~
+APPEND - Editor Command
+
+  This command immediately places you in the text editing mode. All text
+you type will be added to the end of the buffer.
+
+  eg: append           Start appending text.
+~
+#
+Delete~
+DELETE - Editor Command
+
+  Deletes one or more lines of text. 
+
+  eg: delete           This will delete ALL existing text.
+      delete 2         This will delete line 2 (if it exists).
+      delete 5 8       This will delete lines 5 through 8.
+~
+#
+List~
+LIST - Editor Command
+
+  Lists one more lines of text.
+
+  eg: list             This will list ALL existing text.
+      list 6           This will list line 6 (if it exists).
+      list 9 11        This will list lines 9 through 11.
+~
+#
+Color~
+COLOR - Editor Command
+
+  Toggles color code translation on/off. If color code translation is on, 
+printed text will appear in the natural (colorful) form as normally viewed.
+If color code translation is off, color codes will be displayed in their 
+Crimson II color code form. Color codes are used by typing a caret followed
+by a valid color code.
+
+  eg: color
+
+^g  Color Codes:
+^C  w  white         (^wexample^C)              W  black           (^Wexample^C)
+^C  a  light gray    (^aexample^C)              A  dark gray       (^Aexample^C)
+^C  r  light red     (^rexample^C)              R  dark red        (^Rexample^C)
+^C  y  yellow        (^yexample^C)              Y  brown           (^Yexample^C)
+^C  g  light green   (^gexample^C)              G  dark green      (^Gexample^C)
+^C  b  light blue    (^bexample^C)              B  dark blue       (^Bexample^C)
+^C  c  light cyan    (^cexample^C)              C  dark cyan       (^Cexample^C)
+^C  p  light purple  (^pexample^C)              P  dark purple     (^Pexample^C)
+^C  v  start reverse (^vexample^V^C)              V  end reverse (example)
+~
+#
+Replace~
+REPLACE - Editor Command
+
+  Allows you to search your text and globally replace one string with 
+another. You will be prompted for the text to search for, and the text
+with which it should be replaced.
+
+  eg: replace
+~
+#
+Format~
+
+  Formats your document so that no lines are longer than 75 characters. This
+function will wrap entire words so that no hyphens are required. Words will
+not be wrapped onto lines starting with spaces. Therefore, you should indent
+your paragraphs. Separating your paragraphs with a space will work as well.
+
+  eg: format
+~
+#
+Undo~
+UNDO - Editor Command
+
+  All changes you have made to the text are thrown away and you are given a 
+new copy of the original text. 
+
+  eg: undo
+~
+#
+Save~
+SAVE - Editor Command
+
+  This command saves any changes you have made to the text, and then exits
+the text editor.
+~
+#
+Cancel~
+CANCEL - Editor Command
+
+  This command exits from the text editor, discarding any changes you may have
+made to the text. The original text is left untouched. You must type the 
+command "cancel" in full. 
+~
+#
+Clipboard~
+CLIPBOARD - Editor Command
+
+  Lists the contents of the clipboard. 
+  eg: clipboard             This will list ALL existing text.
+      clipboard 6           This will list line 6 (if it exists).
+      clipboard 9 11        This will list lines 9 through 11.
+
+  (NOTE: the clipboard persists between editing sessions so you can copy one
+   string. Quit the editor, start editing another and then paste the old one
+   in.)
+~
+#
+Copy~
+COPY - Editor Command
+
+  Copies the string to the clipboard. 
+  eg: copy             This will copy ALL existing text.
+      copy 6           This will copy line 6 (if it exists).
+      copy 9 11        This will copy lines 9 through 11.
+
+  (NOTE: the clipboard persists between editing sessions so you can copy one
+   string. Quit the editor, start editing another and then paste the old one
+   in.)
+~
+#
+Paste~
+PASTE - Editor Command
+
+  This command allows you to insert text at the start, someplace in the
+  middle, or at the end of the existing text. Text from the clipboard is 
+  inserted *BEFORE* the specified line. 
+
+  eg: paste           This will begin inserting at the start of 
+                         the existing text.
+      paste 4         This will begin inserting text at line 4.
+
+  (NOTE: the clipboard persists between editing sessions so you can copy one
+   string. Quit the editor, start editing another and then paste the old one
+   in.)
+~
+$

@@ -1,0 +1,169 @@
+Concept and Term Help~
+#
+Aura~
+AURA
+
+This number reflects how good or evil your aura has become based on
+your past actions. Some psionic equipment is sensitive to the aura
+of its user and will be refused to be used by people who are too good
+or evil. It also affects your effectiveness with certain psionic
+powers.
+
+^CSEE ALSO: ^gSCORE
+~
+#
+Armour armor~
+ARMOR
+
+This number reflects the penalty applied to an attacker when they
+try to hit you. An armor value of 50 would apply a 50% penalty
+to an attackers attack roll.
+
+^CSEE ALSO: ^gSCORE
+~
+#
+Hunger~
+HUNGER
+
+This number reflects how hungry you are. If this number is negative
+then you are not currently hungry. While hungry you will heal and
+regain move and mana points increasingly slowly the longer you go
+without food.
+
+^CSEE ALSO: ^gSCORE
+~
+#
+Thirst~
+THIRST
+
+This number reflects how thirsty you are. If this number is negative
+then you are not currently thirsty. While thirsty you will heal and
+regain move and mana points increasingly slowly the longer you go
+without drink.
+
+^CSEE ALSO: ^gSCORE
+~
+#
+Car.Ret. Carriage Return~
+CARRIAGE RETURN
+
+If on, a carriage return will be generated as an end of line character.
+The bottom line is that unless your lines are being messed up, leave this
+setting alone. Between this setting and the LineFeed setting you can have
+and EOLN sequence of CRLF, LF or CR.
+
+^CSEE ALSO: ^gSET LINEFEED
+~
+#
+LineFeed~
+LINEFEED
+
+If on, a linefeed will be generated as an end of line character.
+The bottom line is that unless your lines are being messed up, leave this
+setting alone. Between this setting and the Carriage Return setting you can 
+have an EOLN sequence of CRLF, LF or CR.
+
+^CSEE ALSO: ^gSET CAR.RET. 
+~
+#
+Continue~
+CONTINUE
+
+When this setting is on, each screen full of data will be broken up by a 
+hit enter to continue prompt. Turning this setting on is handy when you are
+reading large listings, such as the news file.
+
+^CSEE ALSO: ^gSET 
+~
+#
+TelnetGA~
+TELNETGA
+
+Certain old ibm terminals require this to be on. In general its unneeded and
+can be turned off or just ignored.
+
+^CSEE ALSO: ^gSET
+~
+#
+Ansi~
+ANSI
+
+If your terminal supports ANSI graphics this should be turned on. With this
+feature enabled the game will color-code information. You can customize the
+colors according to you own preferences.
+
+^CSEE ALSO: ^gSET SETCOLOR
+~
+#
+Compact~
+COMPACT
+
+Turning this feature on will remove the blank line that precedes every prompt.
+
+^CSEE ALSO: ^gSET
+~
+#
+Description~
+DESCRIPTION
+
+This is the description others will see when they look at you. An example
+might be:
+^bYou see a cheerfull youth. He's casually juggling what looks to be entire
+worlds. Odd, he appears to be rimed with frost.
+
+^CSEE ALSO: ^gSET
+~
+#
+EMail~
+EMAIL
+
+This should be set to your email address. Occasionally a God might wish to
+get in touch with you about reported bugs or problems. If this is set they
+can. Other players in the game can also FINGER you to find out your email
+address if they wish to begin private correspondence. If you wish to keep
+your email private from all but the gods set NoEmail to on.
+
+^CSEE ALSO: ^gSET FINGER EMAIL NOEMAIL PLAN
+~
+#
+Channels~
+CHANNELS
+
+There are various communcations channels you can turn off or on in the game.
+ie private, group, gossip etc.
+
+^CSEE ALSO: ^gGOSSIP AUCTION TELL GTELL
+~
+#
+Private~
+PRIVATE
+
+Turning off this channel will prevent people from sending you messages using
+TELL.
+
+^CSEE ALSO: ^gSET TELL GTELL AFK
+~
+#
+prompt~
+PROMPT
+
+You can customize your prompt to display any of the following items:
+HIT   - Your remaining hit points
+MOVE  - Your remaining move points
+POWER - Your remaining power points
+EXIT  - *OBVIOUS* exits
+
+^CSEE ALSO: ^gSET RECOVERY
+~
+#
+resistances~
+RESISTANCES
+
+There are many types of damage in the game:
+Puncture, Slash, Concussive, Heat, EMR, Laser, Psychic, acid and Poison.
+Every 10 pts of resistance in one of these categories will reduce your
+the damage taken by 1 pt for that type of damage.
+
+^CSEE ALSO: ^gWEAPON-SKILLS
+~
+$

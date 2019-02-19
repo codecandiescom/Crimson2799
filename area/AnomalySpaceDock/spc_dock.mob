@@ -1,0 +1,446 @@
+#5000
+Docking Robot~
+Docking Robot~
+^GA ^y*HUGE*^G Docking Robot is lumbering around~
+The Docking Robot lumbering around doing its chores. Nobody is really sure 
+what it does, but it's benevolent. Most people leave it alone. 
+~
+STAYAREA|RSLASH|RCONCUSSIVE|RHEAT|RPSYCHIC|RPOISON SEEINVIS|REGENERATION|ENDURANCE 0 S
+30 90 72 2d500+1100 3d13+10
+0 6000
+STANDING ROBOT SEXLESS
+#5001
+tan ginera~
+Tan Ginera~
+A tan-coloured ginera is blowing itself around~
+The ginera looks like a dust clowd, slowly moving from one place to the 
+next. 
+~
+STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER|RACID|RPOISON SEEINVIS|REGENERATION 0 S
+40 120 97 2d1000+2100 3d17+13
+2000 12000
+STANDING SENTIENT-PLANT SEXLESS
+#5002
+guard~
+A Command Tower Guard~
+a C.T. guard is standing at the ready.~
+Check this guy out Black CT hat, Black CT Jacket, Black pants, boots, 
+gloves, and I dont EVEN want to see his Under clothes! ..This guy has a grin 
+that says SLAP ME .. and a pistol to match. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RCONCUSSIVE GROUP 400 S
+45 135 100 4d750+1600 5d10+10
+300 6000
+STANDING GALCIV-CITIZEN MALE
+#5003
+Tech~
+A Command Tower Tech~
+You might want to stay out of her way, that Tech looks busy.~
+Well she must know what she's doing up here the Shuttles dont crash (often), 
+and she hasent been electrocuted (yet).Why dont you see what she's doing 
+next month?... 
+~
+SCAVENGER|STAYAREA|WIMPY|RSLASH|RCONCUSSIVE|RPSYCHIC SEEINVIS|REGENERATION|SENSELIFE 300 S
+38 115 80 4d600+1000 6d8+15
+200 4000
+STANDING GALCIV-CITIZEN FEMALE
+#5004
+Commander large man~
+The Command Tower Commander~
+a LARGE man sits here red in the face with anger.~
+This guy is Huge and I mean HUGE, he looks quiet red but that could be the 
+blackness of his sute, its like your geting yelled at by a big red head... 
+Kinda Funny now that you think about it... Hey whats his deal anyway this 
+guy has to be loaded! 
+~
+SENTINEL|SCAVENGER|FORGIVING|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE DARKVISION|ENDURANCE|VACUUMWALK -666 S
+52 200 190 6d1000+3000 5d15+45
+2000 20000
+SITTING SENTIENT-ROBOT SEXLESS
+#5005
+guard~
+an Off duty Guard~
+an off-duty Guard is relaxing here.~
+Shure he looks happy, Corp' Clones are made that way. 
+~
+FORGIVING|STAYAREA|WIMPY|RCONCUSSIVE ENDURANCE 600 S
+38 115 80 4d750+1600 5d10+10
+300 4500
+STANDING GALCIV-CITIZEN MALE
+#5006
+tech~
+an Off duty Tech~
+an off-duty Tech is relaxing here.~
+WOW when they say off-duty Tech's like to get comfortable, they mean it! 
+~
+TRACKER|STAYAREA|WIMPY|RSLASH|RCONCUSSIVE|RPSYCHIC DARKVISION|REGENERATION 700 S
+35 100 70 4d400+1000 5d8+15
+350 3500
+STANDING GALCIV-CITIZEN FEMALE
+#5007
+dog musle eyes~
+The Commanders Dog~
+You are face to face with musle and two glowing red eyes.~
+ICK! This dog has NO SKIN!, and is Growling .. at YOU!.. It looks like you 
+better think FAST! 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|HYPERAGGR|RPUNCTURE|RSLASH|RCONCUSSIVE DARKVISION|HIDDEN|SENSELIFE 0 S
+40 120 80 3d400+1000 4d20+20
+0 12000
+SITTING ROBOT SEXLESS
+#5008
+guard~
+a showering Guard~
+a Guard is really scrubbing down, wonder how long you have been staring.~
+Yup, Clone theres NO doubt, They all look Exactly the same. Spooky! Perfect 
+but Spooky! 
+~
+PICKPOCKET|STAYAREA|WIMPY|RCONCUSSIVE SEEINVIS|REGENERATION -200 S
+25 100 40 3d750+1000 5d10+10
+15 3000
+STANDING GALCIV-CITIZEN MALE
+#5009
+Tech ~
+a showering Tech~
+a Tech is really scrubbing down, wonder how long you have been staring.~
+Yup, Clone theres NO doubt, They all look Exactly the same. Spooky! Perfect 
+but Spooky! 
+~
+PICKPOCKET|STAYAREA|WIMPY|RSLASH|RCONCUSSIVE|RPSYCHIC SEEINVIS|REGENERATION -300 S
+25 80 40 3d400+1000 5d8+15
+30 2800
+STANDING GALCIV-CITIZEN FEMALE
+#5010
+Robot Target~
+a Target Robot~
+a 7 foot tall robot with 3 foot Targets for hands is advancing on you!~
+ This thing is pissed after Day after Day after DAY of people shooting at it 
+You better go! 
+~
+SENTINEL|SCAVENGER|AGGRESSIVE|STAYAREA|HYPERAGGR|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|REMR DARKVISION|SEEINVIS|REGENERATION|VACUUMWALK|SENSELIFE 700 S
+40 150 140 8d100+3000 5d20+15
+1000 12000
+STANDING ROBOT SEXLESS
+#5011
+Xo'Orth blur sphere~
+Xo'Orth~
+a blur of black is lurching toward you, three red glowing spheres appear around your head.~
+ ^gEven if IT's most solid form ^wX^ao^g'^wO^arth ^gis only 15% in this 
+dimension, its almost as if you are nothing to IT, just as IT seems nothing 
+to you. 
+~
+SENTINEL|FORGIVING|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|REMR|RLASER|RPSYCHIC|RACID|RPOISON|RESCUE INVIS|DARKVISION|SEEINVIS|REGENERATION|ENDURANCE|PHASEWALK|VACUUMWALK|SENSELIFE 600 S
+70 250 300 8d600+5000 20d40+15
+500000 50000
+STANDING NONE SEXLESS
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,300,5035,5010,5016,5011,5014,5013,5015,5012,5009,5000)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,40,"armor")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#5012
+Ixlit ~
+Ixlit~
+Six eyes, twelve antennae, three legs, and one arm? You had better not ask.~
+You're not sure WHAT the hell it is, You just hear it can get good 
+Equipment, who's gonna turn there nose up at that. 
+~
+SENTINEL|FORGIVING|STAYAREA 0 0 S
+70 210 172 2d2500+5100 8d30+23
+300000 30000
+STANDING NONE SEXLESS
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,250,5026,5036,5033,5027,5037,5028,5032,5030,5029,5031)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,30,"armor")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#5013
+quix~
+Quix~
+Quix is standing here, hopeing he can help you.~
+ A crusty aged man is splashed with an assortment of vile mixes, you wonder 
+how old he really is! 
+~
+SENTINEL|FORGIVING|STAYAREA 0 -500 S
+60 250 120 6d1000+1000 4d20+25
+15000 24000
+STANDING SENTIENT-ROBOT MALE
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,200,5021,5020,5019)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,65,"drug")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#5014
+gunther~
+Gunther~
+Gunther is here to take your order.~
+ This Large happy man, is wearing a very old Gal-Civ Uniform, You better ask 
+him about it,...When hes NOT holding a knife!
+~
+SENTINEL|FORGIVING|STAYAREA 0 700 S
+50 200 122 2d1500+3100 3d21+16
+6000 18000
+STANDING GALCIV-CITIZEN MALE
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,100,5024,5022,5025,5023,175)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#5015
+orik man ~
+Orik~
+a small aged man is sorting crates.~
+ The sly old man is unpacking cleaning sorting checking repairing and 
+WATCHING YOU the Whole Bloody TIME!!! 
+~
+SENTINEL|FORGIVING|STAYAREA 0 -400 S
+50 350 100 5d500+1000 20d20+50
+600000 18000
+STANDING NONE MALE
+P
+@command~
+{
+  if(ObjectBuy(CODE_THING,EVENT_THING,COMMAND,360,706,5017,5040,726,5039,5001,5044,727,5034)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+  else {
+    if(ObjectSell(CODE_THING,EVENT_THING,COMMAND,30,"weapon")) {
+      BLOCK_CMD=TRUE;
+      stop;
+    }
+  }
+}~
+#5016
+boy white eyes child kid~
+a dirty little boy~
+a waist-level pair of white eyes peer at you from the shadows...~
+ A frail boy of no more than six, snarls at you past wisps of dirty white 
+hair, he is wearing shorts made from plastics found in the A.S.D.C.T. 
+dumpster, a small pouch of the same matereal hanges at his side. 
+~
+SCAVENGER|PICKPOCKET|STAYAREA|WIMPY|REMR|RPSYCHIC|RESCUE GROUP|DARKVISION|REGENERATION 300 S
+6 25 8 5d10+50 4d6+6
+35 100
+STANDING ANIMAL MALE
+#5017
+girl yellow eyes child kid~
+a dirty little girl~
+a waist-level pair of yellow eyes peer at you from the shadows...~
+ A small orange haird girl turns from you clutching a small plastic bag, she 
+is wearing a dress of shreded plastics. 
+~
+PICKPOCKET|STAYAREA|WIMPY|RCONCUSSIVE|REMR|RPSYCHIC GROUP|DARKVISION|REGENERATION 300 S
+5 20 8 3d12+40 4d4+5
+35 75
+STANDING ANIMAL FEMALE
+#5018
+teen dirty punk~
+a dirty Punk~
+a spike haired teen is eyeing you suspiciously.~
+ Clinching his teeth snarling his lips, this boy wears a stolen torn Command 
+Tower jumpsute soiled with age, he growls something about the travelers 
+trampleing his road and looking down upon him. 
+~
+TRACKER|SCAVENGER|PICKPOCKET|STAYAREA|WIMPY|REMR|RPSYCHIC|RPOISON 0 -200 S
+18 40 35 5d50+100 3d6+10
+100 250
+STANDING NONE MALE
+#5019
+mass shadow eye red minion~
+a miniature Dark Minion~
+a peering red eye sits atop a shodowy mass.~
+ A mass of shadow no more than a foot tall is darting about looking into 
+pockets and around walls and people, noone seems to notice even when it is 
+on them! 
+~
+PICKPOCKET|STAYAREA|WIMPY|RPUNCTURE|RSLASH|RCONCUSSIVE|RACID|RPOISON GROUP|INVIS|DARKVISION|SEEINVIS|REGENERATION|ENDURANCE|PHASEWALK|VACUUMWALK|SNEAK|SENSELIFE|PHASEDOOR -600 S
+30 90 90 5d100+1000 5d15+5
+500 6000
+STANDING ANIMAL SEXLESS
+P
+%crush~
+150~
+P
+@FIGHTING~
+{
+  CharActionStr(CODE_THING,"con crush %s",ThingGetName(EVENT_THING))/*
+            if(CharAction(EVENT_THING,"concentrate crush")) {
+                        BLOCK_CMD=TRUE;
+    
+        
+            
+                
+                    
+                        stop;
+    
+        
+            
+                
+                    
+                      }*/;
+  }~
+#5020
+Shauna~
+Shauna~
+Shauna the Sex Kitten is here, purring. My god, you want to fuck her!~
+   A violet eyed red head is looking back at you. As you feel a strong 
+tingling senssation in your drawers you wonder how much she costs. "You 
+can't afford me honey," she says before taking a drag on her cigarrettte and 
+recognizing your look, its like she can See! your cred account! 
+~
+STAYAREA IMPROVED|DARKVISION|SEEINVIS|REGENERATION|ENDURANCE|VACUUMWALK|SENSELIFE 0 S
+1 0 0 1d4+0 1d2+0
+0 0
+STANDING SENTIENT-ROBOT FEMALE
+#5021
+bum old thing~
+a bum~
+Some shriveled old thing is standing here Yelling at YOU because IT has no creds and no booze!~
+   What ever the hell it is it Stinks and will NOT quit yelling at you, it 
+looks as if its going to try to start groping you any time now! 
+~
+TRACKER|SCAVENGER|PICKPOCKET|STAYAREA|WIMPY|RHEAT|REMR|RACID|RPOISON 0 -500 S
+30 50 40 10d500+1000 5d15+15
+0 4000
+STANDING GALCIV-CITIZEN SEXLESS
+#5022
+dim~
+a Dim~
+Your shadow dances playfully around you.~
+  Upon trying to look closer, your mind is overtaken by sounds of horror and 
+sour grins, your past replays befor your eyes yet it is changed twisted 
+chilling. The room spins back into focus and you remember the Dim you MUST 
+kill! 
+~
+TRACKER|FORGIVING|WIMPY|RPUNCTURE|RSLASH|RACID|RPOISON IMPROVED|BREATHWATER|REGENERATION|HIDDEN|VACUUMWALK|SNEAK|SENSELIFE|PHASEDOOR -359 S
+40 120 120 12d250+500 8d10+10
+1000 12000
+STANDING SENTIENT-PLANT SEXLESS
+E
+shadow~
+Your shadow darts about your body and the surounding walls. It feals like your arm is asleep yet all over, hehe it kinda tickles.. ouch ... Ouch ... OUCH ... SHIT this is starting to REALY HURT, what the hell where you THINKING you have been leting a DIM eat at your very mind!~
+#5023
+man anomaly citizen~
+an Anomaly Citizen~
+A man is here hopeing his mineing ship will go out soon again.~
+  This guy looks bad grimy clothes hasent shaved in days his hands worn down 
+to nubs, you think he may just put his head close to gears for hair cuts. 
+Did I mention this guy looks kinda Beefy, must have something to do with the 
+300lb doors in the mineing ships head. 
+~
+TRACKER|SCAVENGER|STAYAREA|RSLASH|RCONCUSSIVE|RHEAT|REMR|RLASER|RACID 0 325 S
+35 105 90 3d600+1600 5d10+10
+500 9000
+STANDING ANIMAL MALE
+#5024
+woman anomaly citizen~
+an Anomaly Citizen~
+A woman is wondering what she will barter with next week.~
+  This lady looks like a peasant out of a Holo-Flick, hair in a knot on her 
+head clothes torn, eww you can see all the VEINS under her skin wonder if 
+shes ever seen a sun? 
+~
+SENTINEL|SCAVENGER|PICKPOCKET|STAYAREA|WIMPY|REMR 0 -250 S
+25 75 50 4d200+600 3d12+8
+300 3000
+STANDING ANIMAL FEMALE
+#5025
+anomily citizen mutilated carcass~
+a mutilated carcass~
+The mutilated carcass of an Anomily Citizen is rotting here.~
+  The upper half of the torso and a trail of spine are all that remains of 
+this poor hard working bastard of space. Whats left of his jumpsuit clings 
+to his bloody mass, his body encompassed in an eerie indigo glow. 
+~
+SENTINEL|STAYAREA|RPUNCTURE|RSLASH|REMR|RPOISON DARKVISION|SEEINVIS|ENDURANCE|VACUUMWALK|SENSELIFE -350 S
+45 135 90 3d1250+2600 5d25+19
+1100 15000
+SLEEPING SENTIENT-PLANT MALE
+#5026
+anomily citizen mutilated carcass~
+a mutilated carcass~
+The mutilated carcass of an Anomily Citizen is rotting here.~
+Type ^wMDESC^c to give this Mob a better Description. 
+~
+STAYAREA 0 -33 S
+50 120 97 2d1000+2100 3d17+13
+750 12000
+SLEEPING SENTIENT-PLANT FEMALE
+#5027
+deathsphere eye robotic~
+a Death Sphere v5.53~
+a cold robotic eye is scanning you.~
+  Mabie this is a bad idea, It looks like an OuterRim Death Sphere v5.53. 
+Its like a ball of armor with a hi-grade eye and a weapon mount Plus the 
+fact that its been programed by some 5 year old alien, whos name you cant 
+even write, to find your weakness and attack. 
+~
+TRACKER|AGGRESSIVE|RPUNCTURE|RSLASH|RHEAT|RPSYCHIC|RPOISON|RESCUE DARKVISION|REGENERATION|HIDDEN|VACUUMWALK|SNEAK 0 S
+45 140 130 3d1500+2500 4d15+15
+700 15000
+STANDING ROBOT SEXLESS
+#5028
+speaker pannel~
+a pannel speaker~
+a speaker pannel is mounted on the wall.~
+  A very rusted speaker cover is all you can see of this cynical wall unit. 
+~
+SENTINEL|FORGIVING|STAYAREA|RPSYCHIC|RPOISON DARKVISION|SEEINVIS|VACUUMWALK|SENSELIFE 0 S
+75 225 150 10d750+5600 5d30+15
+950 33000
+STANDING ROBOT SEXLESS
+P
+@afterentry~
+{
+  if(ThingGetType(EVENT_THING)==TTYPE_PLR) {
+    CharAction(CODE_THING,"emote scans you starting at your weapons and finishing with a retnal Ident!");
+    CharAction(CODE_THING,"say ^rNo Valid Personel!^p");
+    CharAction(CODE_THING,"say Drones in attack patern, forbiden entry may lead to death.");
+  }
+}~
+#5029
+haemd maintance droid~
+H.A.E.M.D.~
+^ra H^bigh ^rA^bggresion ^rE^bngine ^rM^baintance ^rD^broid ^ris built into the floor.~
+ This multy limbed machine has cuting griping mashing gnashing and rasping 
+tools it is made to work in very hot vaccum enviroments, sensors line its 
+arms and tools that seem to never be at rest always inspecting testing 
+repairing pollishing and reinspecting, with these babies this ship could 
+stay runable forever. 
+~
+SENTINEL|SCAVENGER|AGGRESSIVE|STAYAREA|HYPERAGGR|RSLASH|RHEAT|RACID|RPOISON REGENERATION|ENDURANCE|VACUUMWALK|SENSELIFE 0 S
+100 300 200 5d4000+8000 10d50+50
+15000 48000
+STANDING ROBOT SEXLESS
+$

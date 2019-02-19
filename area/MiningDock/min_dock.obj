@@ -1,0 +1,214 @@
+#400
+SPAS-15 shotgun rifle~
+a SPAS-15 rifle~
+a SPAS-15 rifle lies on the ground~
+A SPAS-15 assault automatic shotgun rifle. Although it is single barrelled, 
+its fully-automatic feature makes up for any loss. This drum-fed beauty is a 
+favorite of the human space marines. 
+~
+WEAPON 0 HELD
+0 512 16976384 17694727
+30 500 0
+#401
+laser pistol~
+a laser pistol~
+You see a laser pistol on the ground.~
+You see a military issue laser pistol.  This hi-power laser is popular among 
+thieves and assassins, for it's easily concealed. It's highly popular and 
+fairly easy to come by throughout GalCiv. 
+~
+WEAPON 0 HELD
+0 512 33620992 17170436
+5 350 50
+A
+HITROLL 5
+#402
+shield generator~
+a shield generator~
+a low level shield generator is available here.~
+The low level shield generator is a very efficient way of protecting oneself 
+from harm. This pocket size microwave g-band emmitter gives a protective 
+pocket large enough to surround a single person. Comes complete with a handy 
+strap so you dont have to carry it in your hand 
+~
+ARMOR 0 WAIST
+10 327680 5 0
+15 1000 0
+#403
+plasma cutter~
+a plasma cutter~
+a plasma cutter is lying here, its smoking and very hot.~
+Although it was intended for use as a cutting tool to aid in starship 
+construction and repair, since it will cut through pretty much anything it 
+makes a devasting weapon. 
+~
+WEAPON 0 HELD
+0 512 16846336 17498113
+40 1000 0
+#404
+corpse marine~
+the corpse of a human marine~
+The corpse of a human marine is here, looks like he met his doom...~
+You dont think much of his taste in clothing, tacky green tunic, bare arms, 
+and a dorky helmet. Looks like he was ripped to pieces by demons. 
+~
+CONTAINER 0 HELD
+300 0 0 0
+150 0 0
+#405
+hydraulic claw~
+a hydraulic claw~
+A robots hydraulic claw is lying here~
+Hmm the claw looks razor sharp, I bet if you found a power source for this 
+thing, you could cut someone in two with it, OUCH! 
+~
+WEAPON 0 MECH-ARM
+0 512 33556480 34275331
+25 400 0
+#406
+builder power cell case plastic gray~
+a builder power cell~
+A dull gray coloured case made out of plastic is here.~
+There really isnt much to see, its a grey box made out of some kind of 
+industrial-grade plastic. The only thing of any interest is that it has two 
+metal contacts at one end. Its about the size and shape of a deck of playing 
+cards 
+~
+AMMO 0 HELD
+11 60 0 512
+1 100 0
+#407
+security droid arm blaster gun~
+a security droid arm~
+The arm of a security droid is here, it has some sort of gun built into it~
+It looks something like a huge 2 foot diameter up-down oriented doughnut 
+with a gun muzzle sticking out the end of it. Its probably some kind of 
+blaster. 
+~
+WEAPON 0 TWO-HANDED
+0 512 33687040 51052554
+0 0 0
+#408
+auxilary crane console~
+a crane console~
+An auxilary crane console used to control the crane is here~
+This console has lots of buttons & switches. You suspect this console 
+controls the crane overhead. 
+~
+DEVICE 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@USE~
+{
+  str Control;
+  Control="crane";
+  if(PropertyGetInt(CODE_THING,Control)) {
+    PropertySetInt(CODE_THING,Control,0);
+    SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE,"You slide the switch to the DOWN position.\n");
+    SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"$N slides the switch to the DOWN position.\n");
+    ThingSetIdleWait(WorldOf(456),1);
+  }
+  else {
+    PropertySetInt(CODE_THING,Control,1);
+    SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_VISIBLE,"You slide the switch to the UP position.\n");
+    SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"$N slides the switch to the UP position.\n");
+    ThingSetIdleWait(WorldOf(456),1);
+  }
+  BLOCK_CMD=TRUE;
+}~
+#409
+portable generator~
+a portable generator~
+a portable electical generator has been carelessly discarded here~
+  Its a 50 pound electrical generator. Even the builders used electricity it 
+seems. It has positive and negative terminals and could be used to power 
+pretty much anything. Considering builder technology it probably puts out as 
+much juice as a fusion plant back home. 
+~
+DEVICE 0 NOWEAR
+0 11 0 0
+50 0 0
+P
+@USE~
+{
+  if(BaseGetInside(CODE_THING)==WorldOf(417)) {
+    ObjectCreate(WorldOf(417),410);
+    SendAction(CODE_THING,EVENT_THING,SEND_DST,"You wire the generator into the console.\n");
+    SendAction(CODE_THING,EVENT_THING,SEND_ROOM,"$N wires the generator into the console.\n");
+    ThingSetIdleWait(WorldOf(456),1);
+    ObjectFree(CODE_THING);
+  }
+  else {
+    if(ThingGetType(BaseGetInside(CODE_THING))!=TTYPE_WLD) {
+      SendAction(CODE_THING,EVENT_THING,SEND_DST,"The $n must be resting on the ground in order to operate.\n");
+    }
+    else {
+      SendAction(CODE_THING,EVENT_THING,SEND_DST,"There doesn\'t seem to be anyplace to plug the $n in.\n");
+    }
+  }
+  BLOCK_CMD=TRUE;
+}~
+#410
+electrical generator~
+a portable generator~
+an electrical generator is here wired into the control console~
+  Its a portable electrical generator, except thats its not so portable 
+anymore. Someone has wired it into the crane console right nearby. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+#411
+metal crate~
+a metal crate~
+a metal crate is suspended high above you from a large crane~
+Its a big metal crate sturdy enough that you could easily stand on it if it 
+werent for the fact that its hundreds of feet in the air above you. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+#412
+metal crate~
+a metal crate~
+A metal crate hangs just above you, its suspended from a crane on the ceiling~
+Its a sturdy metal crate. Cables from a crane 200 feet above you on the 
+ceiling hold it just above your head. The sides of the crate are deeply 
+corrugated and you could probably climb up on it if you wanted. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+#413
+builder couch~
+a builder couch~
+A builder couch is here, covered in dust.~
+  One of the most important discoveries from the anomaly is this piece of 
+technology.  This is the equipment that enhances the psionic and spiritual 
+abilities of the user.  Finding this equipment is never an easy task, for 
+most of the anomaly is uncharted.  Well, you have found it. Let's see how it 
+works. (Try PRACTICE'ing) 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@COMMAND~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,35)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#414
+large builder power cell cube gray plastic~
+a large builder power cell~
+A large featureless cube of gray plastic is lying here~
+There really isnt much to see, its a large gray box made out of some kind of 
+industrial-grade plastic. The only thing of any interest is that it has two 
+metal contacts at one end. Its about the size and shape of a car battery. 
+~
+AMMO 0 NOWEAR
+12 30 0 512
+20 50 0
+$

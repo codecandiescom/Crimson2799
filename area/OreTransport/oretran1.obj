@@ -1,0 +1,242 @@
+#2500
+builder couch~
+a builder couch~
+A builder couch is here, tumbling in space.~
+  One of the most important discoveries from the anomaly is this piece of
+technology.  This is the equipment that enhances the psionic and spiritual
+abilities of the user.  Finding this equipment is never an easy task, for
+most of the anomaly is uncharted.  Well, you have found it. Let's see how it
+works. (Try PRACTICE'ing)
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,35)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#2501
+builder couch~
+a builder couch~
+A builder couch is here, its a little melted but its still working!~
+  One of the most important discoveries from the anomaly is this piece of
+technology.  This is the equipment that enhances the psionic and spiritual
+abilities of the user.  Finding this equipment is never an easy task, for
+most of the anomaly is uncharted.  Well, you have found it. Let's see how it
+works. (Try PRACTICE'ing)
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,35)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#2502
+green moss collar~
+a green Psi-moss collar~
+A large ring of green psi-moss is hovering in mid-air here~
+  Its small colony of green psi-moss. As long as it doesnt get too big it 
+exists in a symbiotic relationship with a host. 
+~
+OTHER 0 NECK
+0 0 0 0
+2 0 0
+A
+INT 3
+#2503
+red keycard~
+a red keycard~
+A red keycard is collecting dust here~
+  Its a piece of plain red metal. Its probably some kind of keycard. Its 
+about the same size as a playing card. 
+~
+KEY 0 NOWEAR
+0 0 0 0
+1 0 0
+#2504
+massive corroded fuel intake grill~
+the Fuel Intake Grill~
+A massive corroded looking fuel intake grill is here~
+  Its a large grill made out of hull-metal. Although hull-metal is pretty 
+industructable for the most part, this grill has been severely corroded by 
+the red psi-fungus. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@exit~
+{
+  if(ExitGetDir(EXIT)==EDIR_EAST) {
+    BLOCK_CMD=TRUE;
+    SendAction(CODE_THING,EVENT_THING,SEND_DST,"^aYou try to go EAST, but you are blocked by the grill.\n");
+  }
+}~
+#2505
+massive cut fuel intake grill~
+the Cut Fuel Intake Grill~
+A massive looking fuel intake grill is here, an opening has been cut in it~
+  Its a large grill made out of hull-metal. Something has cut a large hole
+in it.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+#2506
+mining laser console large red pushbutton button~
+the Laser Console~
+The mining laser console is here, humming slightly~
+  Theres a lot of controls you dont have clue what to do with and a large 
+red pushbutton right in the middle that seems to have a pretty obvious use. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  thing w, nor, sou, med, plr;
+  str s;
+  exit e;
+  s="OreTransLaser";
+  w=WorldOf(2645);
+  BLOCK_CMD=TRUE;
+  if(PropertyGetInt(w,s)==0) {
+    PropertySetInt(w,s,0);
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou use the $N, but nothing happens\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^a$n uses the $N, but nothing happens\n");
+  }
+  else {
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou use the $N; a powerfull\nlaser pulse shoots from the mining laser.\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^a$n uses the $N; a powerfull\nlaser pulse shoots from the mining laser.\n");
+    nor=WorldOf(2559);
+    sou=WorldOf(2558);
+    med=WorldOf(2560);
+    e=ExitDir(nor,EDIR_SOUTH);
+    if(e==XNULL) {
+      ExitCreate(nor,EDIR_SOUTH,NULL,NULL,0,0,sou);
+    }
+    e=ExitDir(sou,EDIR_NORTH);
+    if(e==XNULL) {
+      ExitCreate(sou,EDIR_NORTH,NULL,NULL,0,0,nor);
+    }
+    SendAction(sou,TNULL,SEND_ROOM|SEND_VISIBLE,"^RYou see a brilliant flash of light to the north.\n");
+    SendAction(nor,plr,SEND_ROOM,"^rYour entire world explodes into a brilliant flash of light.\n");
+    plr=ThingGetContain(nor);
+    while(plr!=TNULL) {
+      SendAction(nor,plr,SEND_DST,"^rYou take 1000 points of damage\n");
+      FightDamageRaw(TNULL,plr,1000);
+      plr=ThingGetNext(plr);
+    }
+    plr=ThingGetContain(med);
+    SendAction(med,plr,SEND_ROOM,"^rYour entire world explodes into a brilliant flash of light.\n");
+    while(plr!=TNULL) {
+      SendAction(med,plr,SEND_DST,"^rYou take 1000 points of damage\n");
+      FightDamageRaw(TNULL,plr,1000);
+      plr=ThingGetNext(plr);
+    }
+  }
+}~
+#2507
+violet moss skin clinging~
+a thin skin of violet moss~
+A small clinging skin of violet moss is here~
+  Its a small surviving patch of the violet master colony. Its clingy and 
+has small tendrils, you could probably wear it wrapped around the palm of 
+one of your hands. 
+~
+ARMOR 0 EITHER-HAND
+1 0 0 0
+1 30 0
+A
+POWER 5
+A
+INT 1
+#2508
+airlock control lock~
+Airlock control~
+An airlock control is standing next to the south exit.~
+The airlock control is a console about 3 feet high. Looks simple enough: use 
+it to open the airlock, use again to close. No problem! 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  thing inside, outside;
+  exit en, es;
+  inside=WorldOf(2527);
+  outside=WorldOf(2532);
+  en=ExitDir(inside,EDIR_NORTH);
+  es=ExitDir(inside,EDIR_SOUTH);
+  BLOCK_CMD=TRUE;
+  if(WorldGetFlagBit(inside,WF_VACUUM)) {
+    SendAction(inside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock closes and air is noisily pumped back into the room\n");
+    SendAction(outside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock closes; looks like you\'re on you\'re own.\n");
+    DoorClearFlagBit(inside,en,EF_CLOSED);
+    WorldClearFlagBit(inside,WF_VACUUM);
+    DoorSetFlagBit(inside,es,EF_CLOSED);
+  }
+  else {
+    SendAction(inside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock opens and the air whooshes out into space.\n");
+    SendAction(outside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock opens; the air inside escapes with a WOOSH!\n");
+    DoorSetFlagBit(inside,en,EF_CLOSED);
+    WorldSetFlagBit(inside,WF_VACUUM);
+    DoorClearFlagBit(inside,es,EF_CLOSED);
+  }
+}~
+#2509
+airlock control~
+Airlock control~
+An airlock control is mounted beside the door to the north.~
+The airlock control has a big button on it which says, "AIRLOCK". 
+Interesting. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  thing inside, outside;
+  exit en, es;
+  inside=WorldOf(2527);
+  outside=WorldOf(2532);
+  en=ExitDir(inside,EDIR_NORTH);
+  es=ExitDir(inside,EDIR_SOUTH);
+  BLOCK_CMD=TRUE;
+  if(WorldGetFlagBit(inside,WF_VACUUM)) {
+    SendAction(inside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock closes and air is noisily pumped back into the room\n");
+    SendAction(outside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock closes; looks like you\'re on you\'re own.\n");
+    DoorClearFlagBit(inside,en,EF_CLOSED);
+    WorldClearFlagBit(inside,WF_VACUUM);
+    DoorSetFlagBit(inside,es,EF_CLOSED);
+  }
+  else {
+    SendAction(inside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock opens and the air whooshes out into space.\n");
+    SendAction(outside,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe airlock opens; the air inside escapes with a WOOSH!\n");
+    DoorSetFlagBit(inside,en,EF_CLOSED);
+    WorldSetFlagBit(inside,WF_VACUUM);
+    DoorClearFlagBit(inside,es,EF_CLOSED);
+  }
+}~
+#2510
+rockhopper hopper shuttle mining~
+Mining Rockhopper~
+There is a Mining Rockhopper here.~
+The Mining Rockhopper is a lightweight spacecraft designed to perform mining 
+tasks on asteroids. 
+~
+VEHICLE HUM NOWEAR
+2531 0 0 0
+-1 0 0
+$

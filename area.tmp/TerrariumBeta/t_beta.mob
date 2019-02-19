@@ -1,0 +1,11 @@
+#900
+test monster~
+test monster~
+test monster grins at you!~
+Type ^wMDESC^c to give this Mob a better Description.
+~
+STAYAREA 0 0 S
+1 0 0 1d4+0 1d2+0
+0 0
+STANDING NONE MALE
+$

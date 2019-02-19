@@ -1,0 +1,992 @@
+#100
+key docking bay card~
+an official-looking key card~
+A blue and red key card is sitting here.~
+The blue and red key card has the following inscription:    "Anomaly Station 
+Security: 000002 - 000011" 
+~
+KEY NODEATHTRAP NOWEAR
+100 0 0 0
+1 1 0
+#101
+cryogen test armor~
+Cryogen's Test Armor~
+Cryogen's Test Armor is sitting here.~
+Its emblazoned with the words: "ThiS BLoNGZ 2 CRYOGEN - U NO TUTCH". Hmm guess 
+no-one has ever dared to criticize his spelling.
+~
+ARMOR 0 UPPER-BODY
+100 336529925 673390105 45
+1 666 -1
+#102
+wall terminal~
+a Wall Terminal~
+A Wall Terminal is here, it has a spiffy touch screen and GUI interface~
+The Wall Terminal would make a great big screen TV, its about 3 feet high 
+and equally tall. It must have a communications link with Anomaly Station's 
+Public NewsNet. 
+~
+BOARD 0 NOWEAR
+1 50 65538 0
+-1 1 0
+#103
+cryogen test weapon~
+Cryogen's Test Weapon~
+Cryogen's Test Weapon is sitting here.~
+Its emblazoned with the words: "ThiS BLoNGZ 2 CRYOGEN - U NO TUTCH". Hmm 
+guess no-one has ever dared to criticize his spelling. 
+~
+WEAPON 0 HELD
+0 512 16843018 17
+1 666 -1
+#104
+head mount head-mount flashlight~
+a head-mount flashlight~
+A head-mount flashlight is lying here.~
+It is a common flash light. On the side it says, "Use standard GalCiv 
+MiniCell ONLY". 
+~
+LIGHT 0 HEAD
+100 6 1 0
+1 10 1
+#105
+standard issue bio scanner bio-scanner~
+a Standard issue Bio-Scanner~
+A standard issue Bio-scanner has been left here~
+Its a standard issue bio-scanner. Use it on a freshly-killed alien corpse, 
+extract its DNA and sell it to the GalCiv labs back home. What a 
+money-maker! 
+~
+SCANNER 0 NOWEAR
+17170433 1000 0 0
+3 100 0
+#106
+standard issue chip scanner chip-scanner~
+a Standard issue Chip-Scanner~
+A standard issue Chip-Scanner has been left here~
+Its a standard issue bio-scanner. Use it on a freshly-disabled alien robot, 
+extract its core chipset technology and sell it to the GalCiv labs back 
+home. What a money-maker! 
+~
+SCANNER 0 NOWEAR
+17170434 1000 0 0
+3 100 0
+#107
+tri corder tri-corder~
+a Tri-corder~
+A beat up tri-corder has been left here~
+Its a tri-corder. Use it to scan both chip and bio technology. Its black and 
+looks a little bit like an 8 track player.
+~
+SCANNER 0 NOWEAR
+33947651 5000 0 0
+2 600 0
+#108
+medipatch patch drug~
+a medipatch~
+A drug patch has been tossed aside here~
+  Your ordinary medipatch.  Designed to aid in cell regeneration of 
+humanoids and siliconoids alike. 
+~
+DRUG 0 NOWEAR
+5 0 0 0
+1 50 0
+A
+USE-SELF-CELLREPAIR 40
+#109
+stimpatch patch blue drug~
+a stimpatch~
+A blue drug patch has been discarded here~
+  Your ordinary stim-patch.  Designed to aid in refreshing your stamina. Use 
+it after an vigorious exercise to get that fresh feeling again! 
+~
+DRUG 0 NOWEAR
+5 0 0 0
+1 50 0
+A
+USE-SELF-REFRESH 40
+#110
+atm cash-o-matic matic bank machine~
+an ATM~
+A Cash-O-Matic ATM stands against one wall.~
+The Cash-O-Matic ATM looks, well, robust and bulletproof. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(PlayerBank(CODE_THING,EVENT_THING,COMMAND)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#111
+bottle scotch~
+a bottle of scotch~
+a nice bottle of scotch is left on the ground here.~
+Label states: "glenfiddich: bottled in 2790".
+A popular brand name of a human drink.  Another proof of human
+insanity, this drink hinders your cognitive decision making
+process while stimulating the hormones inducing temporary
+state of euphoria followed by depression.  This will most
+likely cause you to taste yesterday's breakfast again.
+~
+DRINKCON 0 NOWEAR
+25 25 3 0
+2 33 0
+#112
+steroid pill~
+a steroid pill~
+There is a steroid pill rolling around the floor here~
+The steroid pill looks like the kind which will induce strength. Kewl. Could 
+be handy in a fist fight. 
+~
+DRUG 0 NOWEAR
+5 0 0 0
+1 30 1
+A
+USE-SELF-STRENGTH 0
+#113
+aloe vera healing salve bottle~
+a bottle of aloe~
+Some all-natural aloe vera healing salve is on the floor here.~
+The aloe vera bottle claims the contents are an all-natural aloe extract. No 
+preservatives, no additives, and will not cause cavities. Sounds great! 
+~
+DRUG 0 NOWEAR
+2 0 0 0
+2 50 1
+A
+USE-SELF-HEAL-MINOR 20
+#114
+band-aids aid box~
+a box of band-aids~
+Someone tossed a box of band aids here~
+The band box claims these medical devices aid cell-repair. 
+~
+DRUG 0 NOWEAR
+0 0 0 0
+1 10 0
+A
+USE-SELF-CELLREPAIR 20
+#115
+slot machine~
+a Slot Machine~
+A slot machine is here, with a big attractive pull-arm.~
+It's a slot machine: it has 3 tumblers which, if they align in the proper 
+pattern, spell RICHES. Go ahead. Play it. Take a chance. Live a little. Take 
+a ride on the wild side. There's a sign with the rules on it. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+E
+sign rules~
+SLOT MACHINE RULES:
+
+There are lemons (O), oranges (o), cherries (b), bananas (C),
+and Bars (BAR)
+
+To play, type "pull". Cost is 1c per play.
+
+Prizes:
+   (CCC) <any> <any>  1c         (BAR) <any> <any>  2c
+   (OOO) (OOO) <any>  5c         (ooo) (ooo) <any>  10c
+   (bbb) (bbb) <any>  100c       (CCC) (CCC) <any>  250c
+   (BAR) (BAR) <any>  500c       (OOO) (OOO) (OOO)  1000c
+   (ooo) (ooo) (ooo)  2000c      (bbb) (bbb) (bbb)  5000c
+   (CCC) (CCC) (CCC)  10000c     (BAR) (BAR) (BAR)  100000c~
+#116
+steak sandwich~
+a steak sandwich~
+A steak sandwich is here, a little dirty but still edible~
+Its a steak sandwich. Take a slab of steak, put between two pieces of 
+sourdough bun and voila you should have a pretty good idea of what
+this is like.
+~
+FOOD 0 NOWEAR
+60 0 0 0
+1 8 0
+#117
+apple pie~
+an apple pie~
+A large apple pie is steaming slightly here, fresh from the microwave~
+Its an apple pie okay? Whaddya need a roadmap, sheesh.
+~
+FOOD 0 NOWEAR
+100 0 0 0
+1 15 0
+#118
+equipment issue chit~
+an equipment issue chit~
+A small chit is sitting on the floor .~
+The chit is red and has something written on it in administration-ease.
+Unfortunately, you don't speak administration-ease.
+~
+TRASH 0 NOWEAR
+0 0 0 0
+1 1 0
+#119
+virtual reality chit~
+a virtual reality training session chit~
+A small chit is sitting on the floor.~
+The chit is blue and has something written on it in administration-ease. 
+Unfortunately, you don't speak administration-ease.
+~
+TRASH 0 NOWEAR
+0 0 0 0
+1 1 0
+#120
+standard issue propeller cap~
+a standard issue propeller cap~
+A propeller cap is lying on the ground here~
+This is the cheapest looking hat you have ever seen. Strangely, despite
+the fact that there is no breeze the propeller is spinning furiously
+anyways
+~
+ARMOR 0 HEAD
+1 0 0 0
+1 0 0
+#121
+fountain~
+a bubbling fountain~
+A Bubbling Fountain is built nearby.~
+The fountain is circular, about 10 meters in diameter. It is centered in the 
+room, and rises to about knee level (about 50cm that is). The water looks 
+clean and refreshing! 
+~
+DRINKCON 0 NOWEAR
+-1 -1 0 0
+-1 100000 100000
+#122
+loaf bread~
+a huge loaf of bread~
+A god-sized loaf of bread is here~
+The bread is a small, palm-sized loaf. It is warm, and smells like it's just 
+out of the oven! Yum! 
+~
+FOOD 0 NOWEAR
+1000 0 0 0
+100 0 -1
+#123
+standard issue raincoat~
+a standard issue raincoat~
+A bright yellow raincoat has been wisely discarded here~
+A standard issue raincoat? Trust the government to issue all personnel a 
+raincoat on a space station. Your tax dollar at work. 
+~
+ARMOR 0 OVERBODY
+1 0 0 0
+0 0 0
+#124
+transporter~
+an artificer transporter~
+An Artificer Transporter is here.~
+The transporter is an Artificer device which nobody else in the known galaxy 
+has yet reproduced. There are useage instructions on the transporter. There 
+is also a plaque mounted beside the transporter. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+10000 1000000 1000000
+E
+plaque~
+The artificers of Anomaly Station dedicate this transporter to the memory of
+the 364 artificers who died in a tragic accident involving the human 
+shuttlecraft, a pleath, and an unsanitary fork.                
+                                   -- Anomaly Station Artificer Community
+~
+E
+sign instructions useage~
+^a              Transporter Useage Instructions
+
+^w           Destination                    Command 
+^a           -----------                    -------
+^a           Business Sector (Hab. 2)       go business
+^a           Embassies       (Hab. 1)       go embassy
+^a           Anomaly                        go anomaly
+~
+P
+@command~
+{
+  thing Target, Destination;
+  str LeaveMsg;
+  thing Follower, Leader, SrcRoom;
+  if(StrIsCmd(COMMAND,"go")) {
+    if(StrIsCmd(CMD_SRCKEY,"anomaly")) {
+      BLOCK_CMD=TRUE;
+      LeaveMsg="^a$N steps into the transporter and vanishes in a ^bshimmering blue^a cloud.\n";
+      Destination=WorldOf(5005);
+    }
+    else {
+      if(StrIsCmd(CMD_SRCKEY,"embassy")) {
+        BLOCK_CMD=TRUE;
+        LeaveMsg="^a$N steps into the transporter and vanishes in a ^gshimmering green^a cloud.\n";
+        Destination=WorldOf(151);
+      }
+      else {
+        if(StrIsCmd(CMD_SRCKEY,"business")) {
+          BLOCK_CMD=TRUE;
+          LeaveMsg="^a$N steps into the transporter and vanishes in a ^rshimmering red^a cloud.\n";
+          Destination=WorldOf(124);
+        }
+        else {
+          stop;
+        }
+      }
+    }
+    Follower=EVENT_THING;
+    if(CharIsLeader(EVENT_THING)) {
+      Leader=EVENT_THING;
+    }
+    else {
+      Leader=TNULL;
+    }
+    SrcRoom=BaseGetInside(EVENT_THING);
+    while(Follower!=TNULL) {
+      if((Target=CharGetFighting(Follower))!=TNULL) {
+        SendAction(Follower,Target,SEND_SRC|SEND_CAPFIRST|SEND_VISIBLE,"^aYou try to jump into the transporter, but $N blocks you.\n");
+        SendAction(Follower,Target,SEND_DST|SEND_CAPFIRST|SEND_VISIBLE,"^a$n tries to jump into the transporter, but you block $m.\n");
+        SendAction(Follower,Target,SEND_ROOM|SEND_CAPFIRST|SEND_VISIBLE,"^a$n tries to jump into the transporter, but $N blocks $m.\n");
+        if(Follower==Leader) {
+          stop;
+        }
+      }
+      else {
+        if(BaseGetInside(Follower)==SrcRoom) {
+          SendAction(CODE_THING,Follower,SEND_DST|SEND_CAPFIRST,"^aYou step into the transporter and... blip.\n");
+          SendAction(CODE_THING,Follower,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,LeaveMsg);
+          ThingTo(Follower,Destination);
+          SendAction(Follower,Follower,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$N steps out of thin air.\n");
+          CharAction(Follower,"look");
+        }
+      }
+      if(Leader!=TNULL) {
+        Follower=CharGetFollower(Follower);
+      }
+      else {
+        Follower=TNULL;
+      }
+    }
+  }
+}~
+#125
+hypermesh tail sheath~
+a hypermesh tail sheath~
+A hypermesh tail sheath is lying on the ground here~
+The sheath is made of woven super-dense monocrystaline fibers. Its extremely
+tough and durable and well-suited to combat.
+~
+ARMOR 0 TAIL
+3 0 0 0
+0 0 0
+#126
+standard issue pair corduroy trousers~
+a pair of corduroy trousers~
+Some standard issue corduroy trousers have been dumped here~
+Yep, corduroys, only in a brief moment of mass insanity have these things
+every been in style. The government must of really bought into the fashion
+blunder if they're still giving these things out 900 years later.
+~
+ARMOR 0 LEGS
+1 0 0 0
+1 0 0
+#127
+standard issue belt~
+a standard issue belt~
+A standard issue belt has been wisely dumped on the ground here~
+Its a cheap genuine "naugahide" belt. It has made on terra stamped in the 
+belt buckle. I guess that explains the overall low quality.
+~
+ARMOR 0 WAIST
+1 0 0 0
+1 0 0
+#128
+electric chainsaw~
+an electric chainsaw~
+A Treehugger-9000 electric chainsaw rests on the ground here~
+Its a Treehugger-9000 electric chainsaw. Strange that they sell it on a 
+space station. How much of a forest can there be out here? 
+~
+WEAPON 0 TWO-HANDED
+0 512 33621248 17170433
+5 100 0
+#129
+standard issue pocketknife knife~
+a standard issue pocketknife~
+A cheaply made pocketknife is lying here~
+Its a genuine imitation swiss-army pocketknife. It looks like its a pretty 
+ineffective weapon. 
+~
+WEAPON 0 HELD
+0 512 16777984 0
+1 0 0
+#130
+bug reporter message pad~
+a Bug Reporter~
+A utilitarian looking message pad lies on the ground here~
+This message pad is used to report bugs to the mud administration. Simply
+type:
+
+WRITE BUG <TITLE OF MESSAGE>
+
+to report a new bug.
+~
+BOARD 0 NOWEAR
+666 0 0 0
+0 0 0
+#131
+powerbook~
+a powerbook~
+a powerbook is lying here, ready to use~
+This powerbook has a very limited use. It looks like it's hooked to the 
+Anomaly Station's Public NewsNet. In other words, it's a portable version of 
+the terminals you can see in a few places on the station. The aditional 
+advantage of this thingy is that it should be powerful enough to reach the 
+network from outside the station as well. Type 'write powerbook <title of 
+message>' or 'read powerbook [<msg number>]' to use it.
+~
+BOARD 0 NOWEAR
+1 0 0 0
+0 0 0
+#132
+yellow dirty sturdy second-hand backpack pack~
+a sturdy backpack~
+a dirty second-hand backpack attracts your attention~
+It's a sturdy backpack, it should serve you well. The last one it served 
+thought so too, and guess what became of them. Carrying something like this 
+is the best way to attract custom guards' attention, and its yellow colour 
+would normally mark you as an ideal target if not for all the dirt it's 
+covered with. 
+~
+CONTAINER 0 OVERBODY
+70 1 0 0
+3 100 0
+#133
+standard issue pda~
+a standard issue PDA~
+A shiny plastic standard issue PDA has been abandoned here.~
+Its hot pink, plastic and resembles a child's toy. Obviously they had 
+average human intelligence in mind when they designed it.
+~
+BOARD 0 NOWEAR
+1 0 0 0
+1 0 0
+#134
+plenuka wafer~
+a plenuka wafer~
+A plenuka wafer is starting to go mouldy here. ~
+It's a wafer of Plenuka. It even has the Royal Sularian Intergalactic 
+Adventurers Equipment and Supplies Interplanetary Conglomerate Group seal! 
+What that means is the wafer is certified to be equally nutritous and 
+sustaining for all life forms. What it *really* means is it tastes equally 
+disgusting to all life forms. Yuk! 
+~
+FOOD 0 HELD
+130 0 0 0
+1 5 0
+#135
+pink bedroom slippers~
+a pair of bedroom slippers~
+There's a pair of fluffy bedroom slippers sitting proudly on the ground.~
+Pink, fluffy and warm - what else did you expect? Just the right sort to 
+slip in at night when you feel like having an urgent pee. 
+~
+ARMOR 0 FEET
+1 0 0 0
+1 55 0
+#152
+registration form~
+an Anomaly Station citizen registration form~
+A form lies on the floor, getting foot-prints all over it.~
+The blue Anomaly Station Citizen Registration Form is basically your standard,
+run-of-the-mill human government forms; it's completely illegible and
+defies any understanding whatsoever.
+~
+TRASH 0 NOWEAR
+0 0 0 0
+1 1 0
+#153
+chocolate bar~
+a chocolate bar~
+A chocolate bar sits melting on the floor.~
+The bar seems to be made of dark chocolate. 
+~
+FOOD 0 NOWEAR
+10 50 1 0
+1 1 0
+#162
+standard issue gun laser pistol~
+a standard issue laser~
+A standard issue sidearm laser pistol has been left here unattended.~
+The sidearm is a standard Anomaly Station Explorer issue laser weapon, most 
+commonly used by newbies and four-year-olds. It has "Babies First Firearm" 
+carved into the plastic handle. The gun takes minicell battery packs. 
+~
+WEAPON 0 HELD
+0 512 16844036 17170436
+2 1 0
+#163
+standard issue vest armor~
+a standard issue vest~
+A standard issue vest is lying in a lump on the ground.~
+The vest is a standard Anomaly Station Explorer issue chest armor.
+~
+ARMOR 0 SHIRT
+1 0 0 0
+7 1 1
+#164
+standard issue minicell~
+a standard issue minicell~
+A standard issue minicell battery pack has been wisely discarded here.~
+The battery pack is the best terran technology can manufacture, which is to 
+say pathetic. 
+~
+AMMO 0 NOWEAR
+6 10 0 512
+1 1 0
+#165
+standard issue food peanut butter sandwich~
+a peanut butter sandwich~
+A peanut butter sandwich has been carelessly tossed here.~
+The sandwich is the standard Anomaly Station Explorer issue rations. Enjoy. 
+~
+FOOD 0 NOWEAR
+25 0 0 0
+1 5 0
+#166
+phase-induced inverter~
+a phase-induced inverter~
+A phase-induced inverter sits nearby.~
+The phase-induced inverter does what it says: it inverts by phase-induction. 
+It's big, clunky, and rather heavy. 
+~
+OTHER 0 WAIST
+655360 0 0 0
+1 2 0
+#167
+space suit~
+a space suit~
+A space suit lies in a big pile.~
+The space suit is a dull shiny grey. It looks like it'll stretch and fit 
+like spandex. Kewl. 
+~
+WORN 0 OVERBODY
+1 335610113 673390105 45
+1 50 0
+A
+WEAR-VACUUMWALK 255
+#168
+key card engineering~
+an engineering key card~
+A silvery key card is lying in the dust.~
+The silvery key card has the following inscription:    "Anomaly Station 
+Security: 000000 - 000001     -- ENGINEERING --" 
+~
+KEY NODEATHTRAP NOWEAR
+168 0 0 0
+1 100 0
+#169
+mechanical pencil~
+a mechanical pencil~
+A mechanical pencil has been discarded here.~
+The mechanical pencil is black with a chrome clip. 
+~
+WEAPON 0 HELD
+0 512 16843520 0
+1 4 0
+#170
+soldering iron~
+a soldering iron~
+A hi-tech soldering iron has been left unattended.~
+The soldering iron is equipped with a temperature control, an LED 
+temperature readout, had looks to have a really good, fine tip on it. Just 
+what every good techie wants for christmas! 
+~
+WEAPON 0 HELD
+0 9 16843520 0
+1 26 0
+#171
+mop~
+a mop~
+A mop lies unused on the floor.~
+It's just a cotton tipped mop for mopping floors. 
+~
+WEAPON 0 HELD
+0 512 16778240 2
+3 12 0
+#172
+bottle whiskey~
+a bottle of whiskey~
+Someone left a bottle of whiskey here.~
+It's KaVarian brand 151-proof whiskey, from earth! Wow, this is the 
+Dorno-Sulam of whiskey. 
+~
+DRINKCON 0 NOWEAR
+30 30 3 0
+2 55 0
+#173
+clipboard~
+a clipboard~
+A clipboard is on the floor getting stepped on.~
+It's a plastic clipboard with what looks like some technical checklists on 
+it. 
+~
+ARMOR 0 HELD
+3 0 0 0
+1 2 0
+#174
+coffee mug~
+a coffee mug~
+A dirty coffee mug is here.~
+The coffee mug has obviously been used lots. It has those permanent brown 
+coffee stains in the bottom of the mug. 
+~
+DRINKCON 0 HELD
+10 10 0 0
+1 3 0
+#175
+bottle beer~
+a bottle of beer~
+Someone left an open bottle of beer here.~
+The beer is Labatts! Kewl! The Canadian stuff! That's hard to get nowadays. 
+~
+DRINKCON 0 NOWEAR
+15 15 1 0
+5 4 0
+#176
+vodka~
+a bottle of vodka~
+There's a bottle of vodka here, turned over and leaking onto the floor.~
+Hmmm... cheap vodka... the hangover kind. 
+~
+DRINKCON 0 NOWEAR
+20 20 2 0
+3 27 0
+#177
+minicell~
+a minicell~
+A standard Gal-Civ minicell battery pack is on the floor~
+It's just a minicell battery pack. 
+~
+AMMO 0 NOWEAR
+6 50 0 512
+1 11 0
+#179
+water pack~
+a water pack~
+A water pack sits on the floor.~
+The water pack is an excellent container for liquids. It holds lots, and 
+doesn't weigh much. 
+~
+DRINKCON 0 NOWEAR
+200 200 0 0
+5 12 0
+#180
+flashlight light~
+a flashlight~
+A flashlight has been dropped here.~
+This handy little device will let you see in dark places. 
+~
+LIGHT 0 HELD
+100 7 1 0
+1 12 0
+#181
+.45 clip~
+a .45 clip~
+A .45 calibre clip of ammo has been left on the ground.~
+It's a normal, every day .45 calibre clip. 
+~
+AMMO 0 NOWEAR
+2 55 0 512
+1 16 0
+#182
+kevlar chestshield~
+a kevlar chestshield~
+Some kevlar armor has been left here.~
+The kevlar armor is great! It's strong, it's light-weight, and it's cheap. 
+The only problem is that it tends to melt from heat-type weapons. 
+~
+ARMOR 0 SHIRT
+6 -50330877 0 0
+7 750 0
+#183
+hiking boots pair~
+a pair of hiking boots~
+A pair of stinky hiking boots are sitting on the ground.~
+It's a pair of Zeebo-Modular hiking boots, with air-insulate toe-pillows and 
+bear-repelling tone generators! Wow, what a find! 
+~
+ARMOR 0 FEET
+2 16843008 16777216 0
+4 155 0
+E
+tone generators~
+The tone generators are cutely embedded into the soles of your booties; they get powered by your movements and are said to emit bear-repelling sounds. This means at least two things: i) they don't work when you stand still and ii) they don't work on the hundreds of non-bears you're gonna meet SOON!
+~
+#184
+ski jacket~
+a ski jacket~
+A brightly coloured ski jacket is sitting in the dirt.~
+The ski jacket is a Thermo-Tech insulate poly-magnene composite. It's works 
+great in keeping out the cold, but if you go near a torch, you become one. 
+~
+ARMOR 0 OVERBODY
+2 -167640832 0 0
+3 150 0
+#185
+thermal sweater~
+a thermal sweater~
+There's a nice thermal sweater here.~
+The sweater is made from woven simulated cotton. It's quite nice and looks 
+warm. The tag on the inside says: "Machine wash. Tumble dry. Inspected by 
+Slave #4" 
+~
+ARMOR 0 SHIRT
+2 0 0 0
+2 60 0
+#186
+blue jeans pair faded old~
+a pair of faded blue jeans~
+There's some old, faded blue jeans here.~
+The blue jeans look like they've been worn before... for like 10 years. 
+~
+ARMOR 0 LEGS
+2 0 0 0
+2 20 0
+#187
+baseball cap~
+a baseball cap~
+There's a baseball cap here.~
+It's a blue coloured cap with a "Toronto Blue Jays" logo on the front. It 
+looks like something out of a museum. 
+~
+ARMOR 0 HEAD
+2 0 0 0
+1 15 0
+#188
+asbestos oven mitts~
+a pair of oven mitts~
+There's a great looking pair of asbestos oven mitts here.~
+The asbestos mitts look extremely heat resistant and have a lovely rose 
+pattern on them. 
+~
+ARMOR 0 BOTH-HANDS
+1 33554432 512 0
+1 35 0
+#189
+needler pistol~
+a needler pistol~
+Someone left a nasty-looking needler pistol here.~
+The needler pistol looks very nasty... to anyone without armor. The pistol 
+slivers off needle-sized shards from a block of amunition and propells them 
+at an extremely high velocity. Each individual needle doesn't inflict much 
+damage, but the high fire rate of the pistol ensures overall damage is 
+significant. 
+~
+WEAPON 0 HELD
+0 512 17433088 17760520
+10 350 0
+#190
+magnum pistol~
+a magnum pistol~
+A magnum pistol has been left nearby.~
+The magnum pistol is an efficient slug weapon used on earth for generations; 
+this .45 calibre monster has passed the test of time. 
+~
+WEAPON 0 HELD
+0 512 16844288 16908294
+10 150 10
+#191
+big game rifle~
+a big game rifle~
+A HUGE game rifle is sitting here.~
+It's amazing what people can get through customs. This "game rifle" uses 
+belts of .50 calibre rounds at a very high rate of fire. Under the tan and 
+khaki paint you can just make out "Terran Assault Rifle" stamped in the 
+side. There must be some awfully big game out there. 
+~
+WEAPON 0 TWO-HANDED
+0 512 17041408 16973831
+25 210 0
+#192
+laser rifle~
+a Siliconoid laser rifle~
+A long, heavy laser rifle is sitting on the floor.~
+The laser rifle is of Siliconoid make. The rifle is long and heavy. It takes 
+mediumcell battery packs inserted in the back. The optics of the Siliconoids 
+are unequalled - and their laser technology is equally impressive. 
+~
+WEAPON 0 TWO-HANDED
+0 512 16909824 34013189
+35 279 0
+#193
+blaster pistol~
+a MK1 Blaster Pistol~
+An MK1 Blaster Pistol has been tossed aside.~
+The blaster looks like an oversized donut with a handle on one end, and a 
+deadly-looking apperature on the other. It's a favorite among the Gal-Civ 
+civilian millia. The pistol requires mediumcell battery packs. 
+~
+WEAPON 0 EITHER-HAND
+0 512 16909824 34013193
+20 250 10
+#194
+hypermesh pants~
+a pair of hypermesh pants~
+A pair of hypermesh pants have been discarded here.~
+The pants are made of woven super-dense monocrystaline fibers. Extremely 
+strong and durable, the pants are well suited for general combat use. 
+~
+ARMOR 0 LEGS
+3 0 0 0
+4 125 0
+#195
+hypermesh trenchcoat~
+a hypermesh trenchcoat~
+A hypermesh trenchcoat has been discarded here.~
+The trenchcoat is made of woven syper-dense monocrystaline fibers. Perfect 
+for the suspicious espionage look. 
+~
+ARMOR 0 OVERBODY
+5 512 0 0
+6 189 0
+#196
+ceramic clamshell armor bodyarmor~
+a ceramic clamshell bodyarmor~
+Some heavy ceramic body armor lies in a heap on the ground.~
+The armor is made from a high-strength ceramic composite material. The 
+ceramic is ultra-effective against heat weapons. 
+~
+ARMOR 0 UPPER-BODY
+15 335545605 0 0
+15 1000 0
+#197
+riot shield~
+a riot shield~
+A riot shield has been left on the floor.~
+The shield is very tall and protect most of your body is a combat situation! 
+Unfortunately, the shield is designed to repel civilian units, not military 
+amunition. 
+~
+ARMOR 0 HELD
+4 131072 0 0
+6 450 0
+#198
+riot helmet~
+a riot helmet~
+A riot helmet is rolling around the floor here.~
+The helmet covers the entire head of the wearer, and includes a transparent 
+face mask. 
+~
+ARMOR 0 HEAD
+3 65536 0 0
+5 450 0
+#199
+mediumcell~
+a mediumcell~
+A standard Gal-Civ mediumcell battery pack is on the floor.~
+It's just a mediumcell battery pack. 
+~
+AMMO 0 NOWEAR
+7 50 0 512
+1 25 0
+#200
+overcharged mediumcell~
+an overcharged mediumcell~
+An overcharged mediumcell battery pack has been left here.~
+The overcharged mediumcell increases the destructive power of normal 
+mediumcell weapons. 
+~
+AMMO 0 NOWEAR
+7 50 1 512
+1 35 0
+#201
+precision mediumcell~
+a precision mediumcell~
+A precision mediumcell has beel left here.~
+The power supply of this mediumcell is closely regulated to enhance weapon 
+accuracy. 
+~
+AMMO 0 NOWEAR
+7 75 262144 512
+1 50 0
+#202
+artificer minicell~
+an artificer minicell~
+An Artificer minicell has been unwisely discarded here.~
+The artificer minicell contains an abnormally high amount of energy, 
+prolonging the usefull life of the battery pack. 
+~
+AMMO 0 NOWEAR
+6 75 65537 512
+1 35 0
+#203
+needler clip~
+a needler clip~
+A needler clip has been left here.~
+The clip is just a regular needler clip used in needler weapons. 
+~
+AMMO 0 NOWEAR
+15 250 0 512
+2 225 0
+#204
+high density needler clip~
+a hi-density needler clip~
+A high density needler clip has been left here.~
+The high density clip increases needler weapon damage by increasing the 
+density of the needle projectiles. 
+~
+AMMO 0 NOWEAR
+15 200 1 512
+3 275 0
+#205
+.45 HE high explosive clip~
+a .45 HE clip~
+A .45 HE clip is on the ground.~
+The clip contains high-explosive (HE) .45 calibre rounds. Great for making 
+things go boom. 
+~
+AMMO 0 NOWEAR
+2 30 1 512
+3 29 0
+#206
+.45 sniper clip~
+a .45 sniper clip~
+A .45 sniper clip is lying on here.~
+The .45 sniper bullets are machined to incredible tollerances to increase 
+the accuracy of .45 calibre slug weapons. 
+~
+AMMO 0 NOWEAR
+2 30 262144 512
+3 29 0
+#207
+.50 belt bullets~
+a .50 belt~
+A belt of .50 calibre bullets has been left here.~
+The belt is for .50 calibre slug weapons. 
+~
+AMMO 0 NOWEAR
+3 100 0 512
+7 79 0
+#208
+double barrelled shotgun~
+a double barrelled shotgun~
+A nasty looking shotgun is here.~
+It is a double barrelled fully automatic drum fed sawed off assault shotgun. 
+The gun takes 3" magnum shotshells, and has a kick like a horse. 
+~
+WEAPON 0 TWO-HANDED
+0 512 17106944 17694727
+50 450 0
+#209
+3" magnum shotshell drum~
+a shotshell drum~
+A 3" magnum shotshell drum is lying here.~
+This is for a drum fed shotgun. The shells alone make you shudder. 
+~
+AMMO 0 NOWEAR
+14 50 0 512
+4 60 0
+$

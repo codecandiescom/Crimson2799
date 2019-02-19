@@ -1,0 +1,17 @@
+# Sample lib/sitelist.tbl file
+#
+# This file doesnt support comments before the $ character.
+# So dont add any! 
+#
+# Format is along the lines of address TYPE time owner~
+# where type is LOCAL, BAN, or BANNEW, address can be a partial address
+# (ie an address of .com would ban all addresses ending in .com)
+# where time is the value returned by the time(0) call and owner is a
+# player in the game. NOTE that owners of <SYSTEM> cant be altered in game.
+#
+#
+127.0.0.1      LOCAL    0  <SYSTEM>~
+iceonline.com  LOCAL    0  <SYSTEM>~
+aol.com        BANNEW   0  Cryogen~
+compuserve.com BANNED   0  Cryogen~
+$

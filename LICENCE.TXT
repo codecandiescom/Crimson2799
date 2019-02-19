@@ -1,0 +1,75 @@
+Crimson2799 MUD 
+Copyright (C) 1995-2000 Ryan Haksi, all rights reserved.
+Copyright (C) 1995-2000 B. Cameron Lesiuk, all rights reserved.
+
+ELECTRONIC END USER LICENSE AGREEMENT FOR CRIMSON2799
+
+NOTICE TO USER:
+THIS IS A CONTRACT.  BY INSTALLING THIS SOFTWARE YOU ACCEPT ALL THE TERMS AND
+CONDITIONS OF THIS AGREEMENT.
+
+This Ryan Haksi and Cameron Lesiuk ("Crimson2799") End User License Agreement 
+accompanies the Crimson2799 MUD product and related explanatory materials  
+("Software").  The term "Software" also shall include any upgrades, modified 
+versions or updates of the Software licensed to you by Crimson2799. Please 
+read this Agreement carefully. If you do not accept this Agreement completely 
+without changes, you will not be able to use the Software and you must 
+uninstall this Software immediately. 
+ 
+Upon your acceptance of this Agreement, Crimson2799 grants to you a 
+nonexclusive license to use the Software, provided that you agree to the 
+following:
+
+1.  Use of the Software.
+
+    - You may use the Software for not-for-profit personal use. You may not
+      charge any fee for the use of this Software. Entities prohibited from
+      using this Software include, but is not limited to, Religious groups, 
+      Charities, Non-Profit Societies, Proprietorships, and Corporations.
+    - You may make and distribute unlimited copies of the Software, excluding
+      copies for commercial distribution, as long as each copy that you make
+      and distribute contains this Agreement and the same copyright and other
+      proprietary notices pertaining to this Software that appear in the
+      Software.
+
+2.  Copyright.  The Software is owned by Crimson2799 and its structure, 
+    organization and code are the valuable trade secrets of Crimson2799. The 
+    Software also is protected by Canadian Copyright Law and International 
+    Treaty provisions. Except as stated above, this Agreement does not grant 
+    you any intellectual property rights in the Software.
+
+3.  Restrictions. You may modify, adapt, translate, and reverse engineer
+    the Software PROVIDED you distribute this Agreement and the same 
+    copyright and other proprietary notices pertaining to this Software that 
+    appear in the Software with any derivative works. You MAY NOT use any
+    components of this Software for any purpose not related to the
+    original intended purpose of this Software.
+
+
+4.  No Warranty.  The Software is being delivered to you AS IS and Crimson2799
+    makes no warranty as to its use or performance.  CRIMSON2799 AND THEIR 
+    SUPPLIERS DO NOT AND CANNOT WARRANT THE PERFORMANCE OR RESULTS YOU MAY 
+    OBTAIN BY USING THE SOFTWARE OR DOCUMENTATION.  CRIMSON2799 AND THEIR
+    SUPPLIERS MAKE NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT 
+    OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR 
+    PURPOSE.  IN NO EVENT WILL CRIMSON2799 OR THEIR SUPPLIERS BE LIABLE TO YOU 
+    FOR ANY CONSEQUENTIAL, INCIDENTAL OR SPECIAL DAMAGES, INCLUDING ANY LOST 
+    PROFITS OR LOST SAVINGS, EVEN IF A CRIMSON2799 REPRESENTATIVE HAS BEEN 
+    ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, OR FOR ANY CLAIM BY ANY THIRD 
+    PARTY.  Some provinces or jurisdictions do not allow the exclusion or 
+    limitation of incidental, consequential or special damages, or the 
+    exclusion of implied warranties or limitations on how long an implied 
+    warranty may last, so the above limitations may not apply to you.
+
+5.  Governing Law and General Provisions.  This Agreement will be governed by
+    the laws of the Province of British Columbia, Canada, excluding the
+    application of its conflicts of law rules. If any part of this Agreement is
+    found void and unenforceable, it will not affect the validity of the
+    balance of the Agreement, which shall remain valid and enforceable according
+    to its terms. This Agreement shall automatically terminate upon failure by
+    you to comply with its terms.  This Agreement may only be modified in
+    writing signed by an authorized officer of Crimson2799.
+
+Unpublished-rights reserved under the copyright laws of Canada.
+Ryan Haksi, <put your address here>, Surrey, BC, Canada
+B. Cameron Lesiuk, 6840 Woodward Drive, Brentwood Bay, BC, Canada.

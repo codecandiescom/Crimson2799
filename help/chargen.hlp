@@ -1,0 +1,994 @@
+Character Generation Help~
+#
+Human~
+Relatively new on the intergalactic scene, humans are typically treated with
+the same care one would extend while dealing with a rabid wild animal (and
+are looked on with about as much affection). Humans range in height from
+between 5 and 6 feet, with females typically being a half foot shorter than
+males. Although the entire human body surface is covered in hair (except for
+their palms and feet) they vociferously deny this (especially females) and
+claim that they only have hair on the top of their heads. Between claims of
+so called ESP, "psychic powers" and other abilities, such as determining the
+future by examining an an individuals palm, humans have convinced virtually
+all other races that they are completely insane. Humans are not particularly
+gifted at doing anything.
+~
+#
+Siliconoid~
+Siliconoids are large bipeds, that stand in at a typical height of about 7
+feet and a weight of over 400 pounds. They are abnormal in that they have no
+heads, merely a sensor cluster that looks remarkably like a clump of flowers
+growing from where their neck should be. Even more abnormal is the fact that
+siliconoids get on quite well with humans (and worse, even like them, the only
+known race to do so). Joint human-siliconoid missions are the rule and not the
+exception. Siliconoids come from a 1.3G homeworld and are both very strong and
+resistant to heat. They are also covered with a very tough layer of fibrous
+scales that help protect them from physical damage and give them their
+characteristic blue-black or dark purple color. Siliconoids are naturally
+gifted with weapons, and respected as the best shock troops in known space.
+One thing of note is that siliconoids are afraid of acids, probably because
+acids are very effective at dissolving their protective scales.
+~
+#
+Artificer~
+Artificers hail from a 0.8G homeworld, and as such are physically fragile and
+weak. No-one is quite sure what an artificer looks (aside from the artificer
+itself of course) as artificers allways wear several layers of formal robes.
+In fact, the whole of artificer society revolves around ritual and formalized
+procedures, as well as political maneuvering. As a result of this all
+artificers have nearly perfect memory, and allways come out ahead in any
+dealings. (Artificers are about as welcome to treaty negotiations as used
+car salesmen - somehow they allways manage to come out ahead in any dealings,
+possibly because the resulting treaty is so complex that nobody else can
+understand it).
+~
+#
+Salamander~
+Salamanders or "Snake-men" are large two-armed snakes. They have a vivid red
+coloration with black stripes. Salamanders come from a incredibly hot desert
+planet with a highly corrosive atmosphere, and can go weeks without water.
+(Although they must not like the heat much because they're just plain mean.)
+Salamanders are amazing "sprinters" and can strike blindingly fast but tire
+quickly. As a race they are almost as little liked as the humans, probably
+because of their somewhat pronounced homicidal tendencies.
+~
+#
+Soldier~
+Solders are good at all fighting related skills. Unfortunately they're not
+good for much else. Most soldiers can be recognized by their two word
+vocabulary, "me kill". They're not much fun at parties but handy during a
+fight.
+~
+#
+Medic~
+Medics arent too bad at combat. And they're handy to have once combat is over.
+Medics are good at Body psionic skills. Think of them as walking band-aids.
+~
+#
+Rogue~
+Rogues are pretty good at combat. And of course they get some of the niftier
+skills like steal, pickpocket, picklock etc. Rogues also have an aptitude for
+Teleportation psionics, the better to make a quick get-away.
+~
+#
+Tech~
+Techs arent too bad at combat. Techs receive telekinetic skills. Some techs
+even pickup some rogue-like skills.
+~
+#
+Researcher~
+Researchers are very poor at combat. On the other hand they are good at
+psionics in general. Due to far too many thermodynamic classes they have 
+an excellent aptitude for pyrokinetic skills in particular.
+~
+#
+Mystic~
+Mystics are very poor at combat. On the other hand they are good at
+psionics in general, focusing on their spiritual and telepathic development.
+Most mystics have come to the anomaly because overcrowding has invaded their
+secluded mountaintop.
+~
+#
+Labtech~
+Labtech are very poor at combat. On the other hand they are good at
+psionics in general, focusing on telekinetic skills. Most labtechs enjoy
+sniffing glue (or other viler substances) as a hobby.
+~
+#
+Body~
+One of the psionic skill families. Body psionics involve changing
+metabolism or in more complex cases, the very genetic code of the
+target.
+
+^rSEE ALSO: ^gAPPORTATION PYROKINESIS TELEPATHY SPIRIT TELEKINESIS
+~
+#
+Telekinesis Telekinetic~
+One of the psionic skill families. Telekinetic psionics involve lifting
+and/or manipulating objects.
+
+^rSEE ALSO: ^gAPPORTATION PYROKINESIS TELEPATHY SPIRIT BODY
+~
+#
+Telepathy Telepathic~
+One of the psionic skill families. Telepathic psionics act on the minds of
+living things. Telepaths can make keeping secrets very difficult
+
+^rSEE ALSO: ^gAPPORTATION PYROKINESIS SPIRIT TELEKINESIS BODY
+~
+#
+Pyrokinesis Pyrokinetic~
+One of the psionic skill families. Pyrokinetic psionics involve lighting
+things on fire. Handy to have at marshmellow roasts.
+
+^rSEE ALSO: ^gAPPORTATION TELEPATHY SPIRIT TELEKINESIS BODY
+~
+#
+Apportation~
+One of the psionic skill families. Apportational psionics involve transporting
+things from one location to another. Generally speaking they're handy for
+getting home in a hurry.
+
+^rSEE ALSO: ^gPYROKINESIS TELEPATHY SPIRIT TELEKINESIS BODY
+~
+#
+Spirit~
+One of the psionic skill families. Spirit psionics involve changing the luck
+or aura of objects as well as out-of-body abilities.
+
+^rSEE ALSO: ^gAPPORTATION PYROKINESIS TELEPATHY TELEKINESIS BODY
+~
+#
+Weapon-Skills~
+There are several kinds of weapons skills in the game, broken down into the
+following categories: Melee-Weapons, Laser-Weapons, Slug-Weapons,
+Blaster-Weapons, Ion-Weapons, Support-Weapons and Plasma-Weapons. In each
+category there is an accuracy, damage and speed skill. The accuracy skill
+improve your tohit chance by roughly <SKILL>%. Damage will improve your
+damage by <SKILL>/10. Speed will give you a <SKILL>% chance of striking again
+in the same combat round. You can also further practice a skill with a
+specific weapon type. Specific weapon skills improve accuracy by <SKILL>/2,
+damage by <SKILL>/20, and speed by <SKILL>/3.
+
+^rSEE ALSO: ^gMELEE LASER SLUG BLASTER ION SUPPORT PLASMA SPEED
+~
+#
+Melee Melee-Weapons~
+Melee weapons are basically anything that you physically have to hit the
+target with. Examples range from primitive weapons like: baseball bats,
+clubs, swords, and maces to products of more advanced technology like
+chainsaws and Vibra-weapons. Most GalCiv races disdain the use of such weapons
+and use more sophisticated weaponry that doesnt require the user to be quite
+so up close and personal. The exception to this of course is the humans,
+(rightly considered brute savages by everyone but the siliconoids) who are
+never so happy as when they're engaged in close-quarters combat.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Melee-Accuracy~
+This skill increases your likelyhood of hitting with any kind of melee weapon
+by a percentage roughly equivalent to your <SKILL>.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Melee-Damage~
+This skill increases your damage with any kind of melee weapon by <SKILL>/10
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Melee-Speed~
+This skill increases your rate of fire with any kind of melee weapon.
+i.e. It will increase your attacks per round.
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Melee-Knife~
+This skill simultaneously increases your accuracy, damage and power with
+Knives. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and speed
+by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Melee-Blade~
+This skill simultaneously increases your accuracy, damage and power with
+Blades. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and speed
+by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Melee-Bludgeon~
+This skill simultaneously increases your accuracy, damage and power with
+bludgeoning weapons. One thing of note is that when you laser rifle (or
+whatever) runs out of ammo you will resort to using it as a club ie a
+bludgeoning weapon. (So this can be a handy skill to know). Accuracy is
+improved by <SKILL>/2, damage by <SKILL>/20 and speed by <SKILL>/3
+
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Melee-Axe~
+This skill simultaneously increases your accuracy, damage and power with
+Axes. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and speed
+by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Laser Laser-Weapons~
+The most common form of weapon in GalCiv, lasers come in all shapes and sizes
+from the lowly standard issue laser pistol that seemingly comes in the bottom
+of every cereal box (You've heard that there so cheap, some places give them
+away for free) to the Military issue Pulse Laser Rifles that are capable of
+multiple pulse per second fire rates. Laser weapons have typically very low
+rates of fire, and do small amounts of damage.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Laser-Accuracy~
+This skill increases your likelyhood of hitting with any kind of laser weapon
+by a percentage roughly equivalent to <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Laser-Damage~
+This skill increases your damage with any kind a laser weapon by <SKILL>/10
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Laser-Speed~
+This skill increases your speed with any kind of laser weapon by <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Laser-Pistol~
+This skill simultaneously increases your accuracy, damage and power with
+Laser Pistols. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Laser-Rifle~
+This skill simultaneously increases your accuracy, damage and power with
+Laser Rifles. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Slug Slug-Weapon Slugthrower~
+Mainly used by humans, who havent the tech to build anything better, slug
+throwers in their various forms can fire just about anything from the more
+standard type teflon or hollowpoint rounds to acid pellets and high
+explosive (HE) rounds. Slug Weapons typically have high rates of fire and
+low to medium damage.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Slug-Accuracy~
+This skill increases your likelyhood of hitting with any kind of
+slugthrowing/projectile weapon by a percentage roughly equivalent to <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Slug-Damage~
+This skill increases your damage with any kind of slugthrowing/projectile
+weapon by <SKILL>/10
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Slug-Speed~
+This skill increases your speed with any kind of slug weapon by <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Slug-Pistol~
+This skill simultaneously increases your accuracy, damage and power with
+Slugthrowing Pistols. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20
+and speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Slug-Rifle~
+This skill simultaneously increases your accuracy, damage and power with
+Slugthrowing Rifles. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20
+and speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Slug-MachinePistol~
+This skill simultaneously increases your accuracy, damage and power with
+Machine-Pistols. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Blaster Blaster-Weapons~
+Blaster weapons work by accelerating charged particles to over 99.9% of
+lightspeed and then ejecting them at the target. Typically as the particles
+hit the target, the target begins to heat substantially, in some very rare
+cases even achieving nuclear fission. (which can be bad if you are shooting
+at them from a less than 2 mile range) Affectionately dubbed "frisbees with
+handles" by humans, (a reference which so far has been too obscure to
+decipher) a Blaster weapons largest component is the distinctive doughnut of
+the particle accelerator. Blaster weapon damage is medium to high, but their
+fire rate is typically low.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Blaster-Accuracy~
+This skill increases your likelyhood of hitting with any kind of blaster
+weapon by a percentage roughly equivalent to <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Blaster-Damage~
+This skill increases your damage with any kind of blaster weapon by
+<SKILL>/10
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Blaster-Speed~
+This skill increases your speed with any kind of blaster weapon by <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Blaster-Pistol~
+This skill simultaneously increases your accuracy, damage and power with
+Blaster Pistols. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Blaster-Rifle~
+This skill simultaneously increases your accuracy, damage and power with
+Blaster Rifles. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Blaster-Cannon~
+This skill simultaneously increases your accuracy, damage and power with
+Blaster Cannons. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Ion Ion-Weapons~
+Ion Weapons do damage by creating a massive burst of electromagnetic
+radiation. Some ultra-sophisticated versions use micro-fission bombs to
+achieve this result, but most ion weapons function more along the lines
+of a REALLY high power radio station or microwave. Also called
+Nerve-Disruptors by some, Ion weapons burn out nerves and circuits with
+equal ease, normally leaving an undamaged looking corpse behind. Ion weapons
+usely do fairly major damage, and some Ion weapons are capable of serious
+rates of fire.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Ion-Accuracy~
+This skill increases your likelyhood of hitting with any kind of ion weapon
+by a percentage roughly equivalent to <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Ion-Damage~
+This skill increases your damage with any kind of ion weapon by <SKILL>/10
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Ion-Speed~
+This skill increases your speed with any kind of ion weapon by <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Ion-Rifle~
+This skill simultaneously increases your accuracy, damage and power with
+Ion Rifles. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Ion-Cannon~
+This skill simultaneously increases your accuracy, damage and power with
+Ion Cannons. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Support Support-Weapons~
+Support weapons are typically large bulky weapons used to provide fire support
+in combat. Examples include: Rocket Launchers, normally with sophisticated
+guidance systems, Grenade launchers and Mortars.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Support-Accuracy~
+This skill increases your likelyhood of hitting with any kind of support
+weapon by a percentage roughly equivalent to <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Support-Damage~
+This skill increases your damage with any kind of support weapon by <SKILL>10
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Support-Speed~
+This skill increases your speed with any kind of support weapon by <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Support-Grenade~
+This skill simultaneously increases your accuracy, damage and power with
+Grenade Launchers. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20
+and speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Support-Rocket~
+This skill simultaneously increases your accuracy, damage and power with
+Rocket launchers. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Plasma Plasma-Weapon~
+Commonly referred to as "Sun Guns", these are the ultimate in weapons
+technology. Unfortunately making a plasma weapon smaller than a two story
+building is also well outside the range of current GalCiv technology. Plasma
+weapons work by injecting a pellet of deuterium into the chamber of the weapon
+and then initiating nuclear fusion, which converts the pellet and part of the
+barrels lining into a trillion degree blast of high-velocity plasma. (which is
+normally good for both complete vaporization of the target and a substantial
+amount of collateral damage). Plasma weapons deliver massive amounts of
+damage, but are almost NEVER capable of a fire rate greater than 1/second.
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Plasma-Accuracy~
+This skill increases your likelyhood of hitting with any kind of plasma
+weapon by a percentage roughly equivalent to <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Plasma-Damage~
+This skill increases your damage with any kind of plasma weapon by <SKILL>/10
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Plasma-Speed~
+This skill increases your speed any kind of plasma weapon by <SKILL>
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Plasma-Rifle~
+This skill simultaneously increases your accuracy, damage and power with
+Plasma Rifles. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Plasma-Cannon~
+This skill simultaneously increases your accuracy, damage and power with
+Plasma Cannons. Accuracy is improved by <SKILL>/2, damage by <SKILL>/20 and
+speed by <SKILL>/3
+
+^rSEE ALSO: ^gWEAPON-SKILLS SPEED
+~
+#
+Cell-Repair~
+This psionic ability stimulates the targets cell regrowth, effectively
+instantaneously healing them. The amount heal depends on your skill.
+
+^rSEE ALSO: ^g
+~
+#
+Refresh~
+This psionic ability restores the targets movement points.
+
+^rSEE ALSO: ^g
+~
+#
+Endurance~
+This psionic ability allows you to run farther without getting tired.
+(ie Movement costs are halved)
+
+^rSEE ALSO: ^g
+~
+#
+Breathwater~
+This psionic ability allows you to breath underwater. (Otherwise you will
+eventually drown).
+
+^rSEE ALSO: ^g
+~
+#
+Strength~
+This psionic ability allows you to temporarily increase the targets strength.
+
+^rSEE ALSO: ^g
+~
+#
+Darkvision~
+This psionic affect allows you to see in the dark.
+
+^rSEE ALSO: ^g
+~
+#
+Slow-Poison~
+This temporarily protects you from the poisons effects until you can locate
+the antidote.
+
+^rSEE ALSO: ^g
+~
+#
+Berserk~
+Increases the targets DamBonus and Speed at the cost of reduced HitBonus and
+making them unable to flee. While Berserked, people have been known to attack
+their closest friends indiscriminately....
+
+^rSEE ALSO: ^g
+~
+#
+Cure-Poison~
+This instantly cures the target of the effects of poison.
+
+^rSEE ALSO: ^g
+~
+#
+Heal-Minor~
+This instantly heals the target (assuming its wounded). The amount healed
+depends on skill level.
+
+^rSEE ALSO: ^gCELL-REPAIR HEAL-MAJOR
+~
+#
+Regeneration~
+While active this increases your Hit, Move and Power Point recovery rate by
+1.5X.
+
+^rSEE ALSO: ^g
+~
+#
+Heal-Major~
+This instantly heals the target (assuming its wounded). The amount healed
+depends on skill level.
+
+^rSEE ALSO: ^gCELL-REPAIR HEAL-MINOR
+~
+#
+Dexterity~
+This psionic ability allows you to temporarily increase the targets
+dexterity.
+
+^rSEE ALSO: ^g
+~
+#
+Constitution~
+This psionic ability allows you to temporarily increase the targets
+constitution.
+
+^rSEE ALSO: ^g
+~
+#
+Haste~
+This Body psionic allows you to temporarily increase the targets speed.
+
+Duration:   20 + <SKILL>/20
+Increase:   2D10 + ( 0 - (<SKILL>/30) )
+
+^rSEE ALSO: ^g
+~
+#
+Forcestorm~
+Pummels your target with a storm of invisible blows.
+
+^rSEE ALSO: ^g
+~
+#
+Ghostfist~
+Hits the target with a vaguely fist-shaped blow of kinetic energy.
+
+^rSEE ALSO: ^g
+~
+#
+Kinetic-Shield~
+Forms an invisible force field around you that increases your resistance
+to kinetic attacks.
+
+^rSEE ALSO: ^g
+~
+#
+Immobilize~
+Attempts to immobilize your opponent by surrounding them with an invisible
+barrier. They have a chance to dodge clear.
+
+^rSEE ALSO: ^g
+~
+#
+Heartstop~
+Attempts to instakill your opponent (Best case). In addition to having a
+minimum amount of damage inflicted, this will cause a % amount of damage.
+(based on the targets current hit points).
+
+^rSEE ALSO: ^g
+~
+#
+Asphyxiate~
+In addition to doing damage, this will sometimes prevent your opponent
+from taking any actions (ie psionics or fleeing etc) for a round.
+
+^rSEE ALSO: ^g
+~
+#
+Invisibility~
+Makes you invisible. Duh! Wears off when you attack somebody.
+
+^rSEE ALSO: ^g
+~
+#
+ImprovedInvis~
+Makes you invisible. Duh! Doesnt wear off when you attack somebody.
+
+^rSEE ALSO: ^g
+~
+#
+PhantomEar~
+Spy on what another character is hearing.
+
+^rSEE ALSO: ^g
+~
+#
+PhantomEye~
+Spy on what another character is seeing.
+
+^rSEE ALSO: ^g
+~
+#
+Mindlink~
+Link your mind to theirs. Although its a two way street, you do get access to
+all their psionic points...
+
+^rSEE ALSO: ^g
+~
+#
+Domination~
+While dominated, you can order the victim around.
+
+^rSEE ALSO: ^g
+~
+#
+Mindcrush~
+Performs a Telepathic attack on the victim.
+
+^rSEE ALSO: ^g
+~
+#
+Mindshield~
+While active MindShield increases your Telepathic-Resistance.
+
+^rSEE ALSO: ^g
+~
+#
+Sleep~
+This telepathic ability puts the victim to sleep (if they fail their WILLPOWER
+check). They will wake up again immediately if they are attacked.
+
+^rSEE ALSO: ^g
+~
+#
+Teleport~
+This apportation ability instantly transports you to you destination
+
+^rSEE ALSO: ^g
+~
+#
+Succor~
+This apportation psionic ability transports you to the leader of your
+group (assuming you have one).
+
+^rSEE ALSO: ^g
+~
+#
+Summon~
+This apportation psionic ability transports someone to you.
+
+^rSEE ALSO: ^g
+~
+#
+MassSuccor~
+This apportation psionic ability transports your entire group to its leader.
+
+^rSEE ALSO: ^g
+~
+#
+MassSummon~
+This apportation psionic ability transports your entire group to you.
+
+^rSEE ALSO: ^g
+~
+#
+Banish~
+This apportation ability teleports the victim a variable number of rooms
+away. Better than fleeing...
+
+^rSEE ALSO: ^g
+~
+#
+MassTeleport~
+This apportation ablitity transports the entire group to your destination
+
+^rSEE ALSO: ^g
+~
+#
+DisruptDoor~
+This Apportational ability allows you to destroy phantom doors.
+
+^rSEE ALSO: ^g
+~
+#
+PhantomDoor~
+This Apportational ability allows you to create a phantom doors. Once created
+this extra-dimensional portal allows instantaneous travel to the selected
+destination.
+
+^rSEE ALSO: ^g
+~
+#
+PhaseWalk~
+This Apportational ability transports the target slightly out of phase with
+the world. This allows them to travel over any terrain as though it were the
+easiest possible.
+
+^rSEE ALSO: ^g
+~
+#
+SpiritWalk~
+This Spirit ability allows you to project your spirit from your body. This
+can be quite handy since your spirit cant be damaged. (Any damage will
+however instantly send your spirit back to your body)
+
+^rSEE ALSO: ^g
+~
+#
+SenseLife~
+This Spirit ability allows the target to sense hidden creatures.
+
+^rSEE ALSO: ^g
+~
+#
+SeeInvisible~
+This Spirit ability allows the target to see auras and hence invisible
+creatures.
+
+^rSEE ALSO: ^g
+~
+#
+LuckShield~
+This Spirit ability alters the luck of the target, making them harder to hit.
+
+^rSEE ALSO: ^g
+~
+#
+FlameStrike~
+This Pyrokinetic ability tries to strikes the victim with a blast of flame.
+
+^rSEE ALSO: ^g
+~
+#
+Incinerate~
+This Pyrokinetic ability tries to actually incinerate the victim.
+
+^rSEE ALSO: ^g
+~
+#
+Ignite~
+This Pyrokinetic ability tries to actually ignite the victim. This can be
+quite dangerous if they are carrying anything explosive.
+
+^rSEE ALSO: ^g
+~
+#
+Heatshield~
+This Pyrokinetic ability reduces the damage you take that is heat related.
+
+^rSEE ALSO: ^g
+~
+#
+Flee~
+The higher this skill is the greater the chance that you will successfully
+flee from an attacker.
+
+^rSEE ALSO: ^gPURSUE RESCUE
+~
+#
+Pursue~
+The higher this skill is the greater the chance that someone trying to flee
+from you will fail.
+
+^rSEE ALSO: ^gRESCUE FLEE
+~
+#
+Rescue~
+This skill allows you to rescue someone else from an attacker by forcing the
+attacker to fight YOU instead! Note that it is modified by the PURSUE skill.
+The better their opponents pursue skill the harder they are to rescue.
+
+^rSEE ALSO: ^gPURSUE FLEE
+~
+#
+Picklock~
+This skill allows you to open archaic mechanical locks
+
+^rSEE ALSO: ^gHACKING
+~
+#
+Hacking~
+This skill allows you to open electronic locks.
+
+^rSEE ALSO: ^gPICKLOCK
+~
+#
+Search~
+This is your chance of finding CONCEALed objects.
+
+^rSEE ALSO: ^gConceal
+~
+#
+Conceal~
+This skill allows you to conceal objects within a room. The only way to find
+such an object is to actively SEARCH for it.
+
+^rSEE ALSO: ^gSearch
+~
+#
+Hide~
+This skill lets you hide yourself in a room. Once hidden you gain the
+capability of AMBUSHing others in the room.
+
+^rSEE ALSO: ^gAmbush Search
+~
+#
+Dodge~
+When you are hit by area affect damage, making a successfull dodge check
+will normally reduce your damage by half.
+
+^rSEE ALSO: ^gWillPower
+~
+#
+WillPower~
+Occasionally when you are attacked by a Telepathic psionic power you are
+given the chance to make a willpower check. Generally speaking, succeeding
+at this check is a good thing
+
+^rSEE ALSO: ^gDodge
+~
+#
+Track~
+This is your chance of tracking other people in the game. The greater your
+skill the farther away you can locate them.
+
+^rSEE ALSO: ^g
+~
+#
+Sneak~
+
+^rSEE ALSO: ^g
+~
+#
+Disarm~
+This skill lets you try and disarm your opponent. Note that regardless of
+whether or not you succeed in the attempt or not, you will be too tired to
+fight for a short while.
+
+^rSEE ALSO: ^g
+~
+#
+Ambush~
+This skill gives you the ability to inflict much more damage than normal when
+striking from concealment. Note that if the victim makes a PERCEPTION check
+they might be able to GUARD against the ambush attempt.
+
+^rSEE ALSO: ^gHIDE PERCEPTION GUARD
+~
+#
+Speed~
+This a very difficult skill to practice, increases your rate of fire / number
+of attacks per round with ALL skills! Basically each 100% of speed skill is
+worth (on average) another attack.
+
+e.g.  50% - 50% chance of a bonus attack
+e.g. 150% - one bonus attack + 50% chance of a second bonus attack.
+etc
+
+^rSEE ALSO: ^gWEAPON-SKILLS
+~
+#
+Perception~
+This skill is handy if you spend a lot of your time dealing with rogue
+characters. It is used to spot the use of the Pickpocket, Hide, Conceal,
+Steal, or Peek skills.
+
+^rSEE ALSO: ^g
+~
+#
+Guard~
+This skill is handy if you spend a lot of your time dealing with rogue
+characters. It is used to block the use of the Pickpocket, Steal, Ambush
+or Peek skills. Note that this skill is pretty much useless without the
+Perception skill.
+
+^rSEE ALSO: ^g
+~
+#
+Pickpocket~
+This skill gives you the ability to remove credits from the pockets of
+unsuspecting victims. Note that if the victim makes a PERCEPTION check
+they might be able to GUARD against the PICKPOCKET attempt.
+
+^rSEE ALSO: ^g
+~
+#
+Peek~
+This skill gives you the ability to peek into someone elses inventory.
+Note that if they have practiced the GUARD skill then it is harder for you
+to peek at their stuff. Also if they make a PERCEPTION check they might
+catch you in the act.
+
+^rSEE ALSO: ^g
+~
+#
+Steal~
+This skill gives you the ability to remove items from the inventories of
+unsuspecting victims. Note that if the victim makes a PERCEPTION check
+they might be able to GUARD against the PICKPOCKET attempt.
+
+^rSEE ALSO: ^g
+~
+$
+

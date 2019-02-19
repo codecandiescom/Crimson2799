@@ -1,0 +1,277 @@
+#4500
+lantern~
+a lantern~
+A lantern is here, waiting to be lit and used~
+It's a battered old miners lantern. Despite it's state, it should do the job 
+when you hold it.
+~
+LIGHT 0 HELD
+100 0 0 0
+0 0 0
+#4501
+shadow blade~
+a shadowblade~
+A faintly transparent blade forged of shadow lies here.~
+You see nothing special 
+~
+WEAPON DARK|AURA|ANTI-GOOD HELD
+0 2 16778248 1
+25 1 800
+A
+DAMROLL 3
+#4502
+shadow spear~
+a shadowspear~
+A faintly transparent spear forged of shadow lies here.~
+You see nothing special 
+~
+WEAPON DARK|AURA|ANTI-GOOD HELD
+0 1 33620998 0
+2 1 800
+A
+DAMROLL 3
+#4503
+shadow axe~
+a shadowaxe~
+A faintly transparent axe forged of shadow lies here.~
+You see nothing special 
+~
+WEAPON DARK|AURA|ANTI-GOOD HELD
+0 1 33555210 3
+2 1 800
+A
+DAMROLL 4
+#4504
+bracer shadow~
+a shadowbracer~
+A faintly transparent bracer has been dropped here~
+You see nothing special 
+~
+ARMOR DARK|AURA|ANTI-GOOD ARM
+3 0 0 0
+2 1 2000
+A
+DAMROLL 1
+#4505
+gauntlets shadow~
+a pair of shadowgauntlets~
+A faintly transparent pair of gauntlets has been dropped here~
+You see nothing special 
+~
+ARMOR DARK|AURA|ANTI-GOOD|HIDDEN BOTH-WRISTS
+20 522 0 0
+2 1 700
+#4506
+orb stone mageorb~
+a mageorb~
+A small stone lies on the ground~
+You see nothing special 
+~
+ARMOR 0 HELD
+3 768 0 3
+10 1 5000
+A
+DAMROLL 2
+#4507
+orb stone priestorb~
+a priestorb~
+A small stone lies on the ground~
+You see nothing special 
+~
+ARMOR 0 HELD
+3 3 50331648 0
+1 1 7000
+A
+DAMROLL 2
+#4508
+shadow mail~
+a shadowmail~
+A faintly transparent mail shirt lies on the ground.~
+You see nothing special 
+~
+ARMOR DARK|AURA|ANTI-GOOD|HIDDEN SHIRT
+7 655360 167772160 0
+2 1 7000
+#4509
+silver ingot bar~
+a large silver ingot~
+A large bar of silver lies here.~
+You see nothing special 
+~
+TREASURE 0 NOWEAR
+0 0 0 0
+15 1 0
+#4510
+mold forge~
+a large forge~
+A large forge, complete with a molds, stands in the corner, connected to the furnace.~
+You see nothing special 
+~
+CONTAINER GLOW|AURA NOWEAR
+5000 0 0 0
+-1 1 0
+P
+@COMMAND~
+{
+  thing t;
+  if(StrIsCmd(COMMAND,"put")) {
+    if(StrIsCmd(CMD_DSTKEY,"forge")) {
+      if(ObjectGetVirtual(t=ThingFind(CMD_SRCKEY, -1,EVENT_THING,TF_OBJ,CMD_SRCOFFSET))==4509) {
+        BLOCK_CMD=TRUE;
+        ObjectFree(t);
+        if((t=ObjectContain(EVENT_THING,4512))!=TNULL) {
+          ObjectFree(t);
+          t=ObjectCreate(EVENT_THING,4513);
+          SendAction(EVENT_THING,t,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n forges $A $N!\n");
+          SendAction(EVENT_THING,t,SEND_SRC|SEND_VISIBLE|SEND_CAPFIRST,"^aYou forge $A $N!\n");
+        }
+        else {
+          if((t=ObjectContain(EVENT_THING,4511))!=TNULL) {
+            ObjectFree(t);
+            t=ObjectCreate(EVENT_THING,4512);
+            SendAction(EVENT_THING,t,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n forges $A $N!\n");
+            SendAction(EVENT_THING,t,SEND_SRC|SEND_VISIBLE|SEND_CAPFIRST,"^aYou forge $A $N!\n");
+          }
+          else {
+            ObjectFree(t);
+            t=ObjectCreate(EVENT_THING,4511);
+            SendAction(EVENT_THING,t,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^a$n forges $A $N!\n");
+            SendAction(EVENT_THING,t,SEND_SRC|SEND_VISIBLE|SEND_CAPFIRST,"^aYou forge $A $N!\n");
+          }
+        }
+      }
+    }
+  }
+}~
+#4511
+silver dagger~
+a silver dagger~
+A sharp looking silver dagger lies on the ground.~
+You see nothing special 
+~
+WEAPON 0 HELD
+8 1 33555204 0
+15 1 200
+#4512
+sword silver~
+a silver shortsword~
+A sharp looking silver shortsword lies on the ground.~
+You see nothing special 
+~
+WEAPON 0 HELD
+8 2 50332422 1
+15 1 300
+#4513
+sword silver~
+a silver longsword~
+A sharp looking silver longsword lies on the ground.~
+You see nothing special 
+~
+WEAPON 0 HELD
+8 2 83886602 1
+15 2000 400
+#4514
+wood stake~
+a wooden stake~
+A crude sharpened wooden stake has been carelessly left here.~
+You see nothing special 
+~
+WEAPON 0 HELD
+16 1 16779267 0
+10 100 20
+P
+@USE~
+{
+  str state;
+  state="SilverDaleQuest";
+  if(ObjectCount(EVENT_THING,4520)||ObjectCount(BaseGetInside(EVENT_THING),4520)) {
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou thrust $N through the vile Vampire Heart.\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^a$n thrusts $N through the vile Vampire Heart.\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_VISIBLE,"^aThe heart immediately withers, eventually turning to a foul dry dust.\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^aThe heart immediately withers, eventually turning to a foul dry dust.\n");
+    ObjectStrip(EVENT_THING,4500,4599,BaseGetInside(EVENT_THING));
+    ObjectStrip(BaseGetInside(EVENT_THING),4520,4520,TNULL);
+    ThingTo(EVENT_THING,WorldOf(164));
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^y**CONGRATULATIONS** ^rYou have completed this VR adventure!\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYour VR session has ended.\n");
+    if(!PropertyGetInt(EVENT_THING,state)) {
+      PropertySetInt(EVENT_THING,state,1);
+      SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^y**CONGRATULATIONS** ^aYour performance in the VR was so\n");
+      SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^agood, a cereal-box sponsor wants to use you to endorse their product!!\n");
+      SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou get 500c and are now the official sponsor of\n");
+      SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aColon-Blow: the breakfast of champions!\n");
+      CharSetMoney(EVENT_THING,CharGetMoney(EVENT_THING)+500);
+    }
+    BLOCK_CMD=TRUE;
+  }
+}~
+#4515
+wooden keg~
+a wooden keg~
+A large iron-bound wooden keg stands here.~
+You see nothing special 
+~
+DRINKCON 0 NOWEAR
+100 100 3 0
+15 1000 200
+#4516
+coiled length rope~
+a coiled length of rope~
+A mound of rope lies discarded on the floor.~
+You see nothing special 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+5 1 20
+P
+@AFTERUSE~
+{
+  if(ObjectCount(BaseGetInside(EVENT_THING),4517)) {
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aYou tie the rope to the grapple.\n");
+    SendAction(EVENT_THING,CODE_THING,SEND_ROOM|SEND_VISIBLE,"^a$n ties a rope to a grapple.\n");
+    ObjectStrip(BaseGetInside(EVENT_THING),4517,4517,TNULL);
+    ObjectCreate(BaseGetInside(EVENT_THING),4518);
+    BLOCK_CMD=TRUE;
+  }
+  else {
+    SendAction(EVENT_THING,CODE_THING,SEND_SRC,"^aThere is no grapple to attach the rope to.\n");
+  }
+}~
+#4517
+grapple~
+a grapple~
+A grapple is stuck in the ground here.~
+You see nothing special 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+5 1 20
+#4518
+grapple~
+a grapple with rope attached~
+A grapple is stuck in the ground here. Attached is some rope.~
+The grapple has a long, strong rope tied firmly to it. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+5 1 20
+#4519
+key~
+the key to SilverDale~
+A key is here, half-hidden in the dirt.~
+You see nothing special
+~
+KEY 262144 NOWEAR
+4519 0 0 0
+5 1 20
+#4520
+vampire heart~
+Vampire Heart~
+The bloody heart of a vampire is lying here~
+It is a black withered putrid heart, slimy with blood. It's a foul 
+abomination and an offense to nature.
+~
+OTHER AURA NOWEAR
+6 0 5 0
+1 1 1
+$

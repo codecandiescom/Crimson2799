@@ -1,0 +1,687 @@
+#1100
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.  The tunnel continues
+north and south.
+~
+6 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1101
+S
+#1101
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.  The tunnel continues
+north and south.
+~
+6 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1102
+D0
+~
+~
+0 -1 1100
+S
+#1102
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.  The tunnel continues
+to the north and south, but the tunnel brightens to the south, indicating a
+clearing.
+~
+6 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1103
+D0
+~
+~
+0 -1 1101
+S
+#1103
+City Entrance~
+  You are at the end of the tunnel.  To the south, you can make out a city
+of some sort, but it's hard to tell looking at it from this limited view.
+The dark tunnel continues north.
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1104
+D0
+~
+~
+0 -1 1102
+S
+#1104
+Builder City~
+  You find yourself standing in front of what must be the most beautiful city
+in the known galaxy!  The view is breathtaking.  The city seems to float
+on a large ^cblue ocean^b, and the ^Ymountains^b rise up all around it, with sun
+burning brightly from above.  You have never heard of an ocean being
+surrounded by ^Ymountain cliffs^b, so you try to convince yourself that
+the whole scenary MUST be some sort of massive holographic projections.
+  The ^wcity ^bcontinues to the south.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1108
+D3
+~
+~
+0 -1 1107
+D2
+~
+~
+0 -1 1105
+D0
+~
+~
+0 -1 1103
+E
+building~
+  Tall tower-like structures rise high, surrounded by smaller buildings.
+The buildings loo like a bunch of polygonal shaped objects, with the
+color ranging from a light shade of ^ggreen^b to a deep shade of ^ppurple^b.
+~
+E
+city south~
+  Could it be?  Is this one of the cities that the mysterious race known
+as the "builders" inhabited?  Your eagerness to find out more about this
+incredible find almost blinds you from noticing two statues on each
+side of the road, acting as sort of a "gate".
+~
+S
+#1105
+North-South Broadway~
+  You are in the builder city.  The road continues north and south.  You can
+see the polygonally shaped buildings rising high to the south, and too tall
+figures to the north.  A moutain rises out into the sky to the north, and you
+think you can make out a tunnel borrowed into the mountain-side.
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1106
+D0
+~
+~
+0 -1 1104
+S
+#1106
+North-South Broadway~
+  You are standing on a main road of the builder city.  The road
+continues north and south.  You raise your hand above your eyes to
+block the sun shining brightly above the sky.  Many tall buildings
+rise out of the ground to the south.  Each building seems to be
+connected with another through intricate passage ways that are
+high above the ground.  Closest buildings are to your left and right,
+both in the shade of ^ggreen^b.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1105
+D3
+~
+~
+0 -1 1131
+D1
+~
+~
+0 -1 1132
+D2
+~
+~
+0 -1 1133
+S
+#1107
+Outside of the BuilderCity~
+  You are standing in the middle of green plain that lies just north of
+the builder city.  You are prevented from heading south by a large body
+of crystal blue water.  You can see the mountain cliffs rising to the
+north and west.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1109
+D1
+~
+~
+0 -1 1104
+D2
+~
+~
+CLOSED -1 1114
+S
+#1108
+Outside of the BuilderCity~
+  You are standing in the middle of green plain that lies just north of
+the builder city.  You are prevented from heading south by a large body
+of crystal blue water.  You can see the mountain cliffs rising to the
+north and east.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1110
+D3
+~
+~
+0 -1 1104
+D2
+~
+~
+CLOSED -1 1114
+S
+#1109
+Outside of the BuilderCity~
+  You are standing in the middle of green plain that lies just north of
+the builder city.  You are prevented from heading south by a large body
+of crystal blue water.  You can see the mountain cliffs rising to the
+north and west.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1107
+D2
+~
+~
+CLOSED -1 1114
+S
+#1110
+Outside of the BuilderCity~
+  You are standing in the middle of green plain that lies just north of
+the builder city.  You are prevented from heading south by a large body
+of crystal blue water.  You can see the mountain cliffs rising to the
+north and east.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1111
+D3
+~
+~
+0 -1 1108
+D2
+~
+~
+CLOSED -1 1114
+S
+#1111
+Outside of the BuilderCity~
+  You are standing in the middle of green plain that lies just north of
+the builder city.  You are prevented from heading south by a large body
+of crystal blue water.  You can see the mountain cliffs rising to the
+north and east.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1112
+D3
+~
+~
+0 -1 1110
+D2
+~
+~
+CLOSED -1 1114
+S
+#1112
+Next to the Cliff~
+  The tall cliff rises to your north and east.  You can still see the
+outline of the city to south-west.  The body of water is to your south,
+the ocean looks calm enough for you to go for a swim.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1111
+D2
+~
+~
+0 -1 1113
+S
+#1113
+In the Clear Blue Water~
+  Ahh...the water is cool and refreshing, but VERY SALTY.  You can see
+the builder city to your south-west, but you do not think you can
+swim all the way there.  The ocean spans to the south.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1112
+D2
+~
+~
+0 -1 1115
+D1
+~
+~
+0 -1 1116
+S
+#1114
+In the Ocean~
+~
+6 0 INDOORS
+S
+#1115
+In the Clear Blue Water~
+  Ahh...the water is cool and refreshing, but VERY SALTY.  You can see
+the builder city to your south-west, but you do not think you can
+swim all the way there.  The ocean spans in all directions, but it is
+getting difficult to tell your position as you try to swim further out.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1113
+D3
+~
+~
+0 -1 1115
+D2
+~
+~
+0 -1 1115
+D1
+~
+~
+0 -1 1117
+S
+#1116
+In the Clear Blue Water~
+  Ahh...the water is cool and refreshing, but very salty.  The ^Ycliff^b
+rises straight out of the ocean to your north, and you can still make
+out the beautiful city to south-west.  The ocean spans to the south.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1113
+D2
+~
+~
+0 -1 1117
+D1
+~
+~
+0 -1 1118
+S
+#1117
+In the Clear Blue Water~
+  Ahh...the water is cool and refreshing, but VERY SALTY.  You can see
+the builder city to your south-west, but you do not think you can
+swim all the way there.  The ocean spans in all directions, but it is
+getting difficult to tell your position as you try to swim further out.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1116
+D3
+~
+~
+0 -1 1115
+D2
+~
+~
+0 -1 1117
+D1
+~
+~
+0 -1 1117
+S
+#1118
+In the Clear Blue Water~
+  Ahh...the water is cool and refreshing, but very salty.  The ^Ycliff^b
+rises straight out of the ocean to your north and east.  You can still
+make out the beautiful city to south-west.  The ocean continue to the
+south.
+  Hrm...you think you can see a small cave underwater to the north.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1116
+D2
+~
+~
+0 -1 1117
+D0
+~
+~
+0 -1 1119
+S
+#1119
+Inside a Small Cave~
+  You are in an underwater cave.  The cave seems to have been created
+through natural errosion by water.  The cave continues north, and you 
+see an opening to the south.
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1118
+D0
+~
+~
+0 -1 1120
+S
+#1120
+Inside a Small Cave~
+  You are in an underwater cave.  You've been holding your breath
+for some time now, perhaps you should get some air.  Hrm.. there 
+seems to be a trap of air above you.
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1119
+D4
+~
+~
+0 -1 1121
+S
+#1121
+Inside a Small Cave~
+  You are in a cave.  The air here is very old and you can smell a
+faint trace of decay.  The cave continues north, and you see a hole
+here.
+~
+6 0 INDOORS
+D5
+~
+~
+0 -1 1120
+D0
+~
+~
+0 -1 1122
+S
+#1122
+Inside a Small Cave~
+  You are in a cave.  The air here is very old and you can smell a
+faint trace of decay.  The cave continues south, and you see a hole
+here.
+~
+6 0 INDOORS
+D5
+~
+~
+0 -1 1123
+D2
+~
+~
+0 -1 1121
+S
+#1123
+Inside a Small Cave~
+  You are in a cave.  The air here is very old and you can smell a
+faint trace of decay.  The cave continues south, and you can see a hole
+up above.
+~
+6 0 INDOORS
+D4
+~
+~
+0 -1 1122
+D1
+~
+~
+0 -1 1124
+S
+#1124
+Inside a Small Cave~
+  You are in a cave.  The air here is very old and you can smell a
+faint trace of decay.  The cave continues south and west.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1123
+D2
+~
+~
+0 -1 1125
+S
+#1125
+Inside a Small Cave~
+  You are in a cave.  The air here is very old and you can smell a
+faint trace of decay.  The cave continues north and south.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1124
+D2
+~
+~
+0 -1 1126
+S
+#1126
+Inside a Small Cave~
+  You are in a cave.  The air here is very old and you can smell a
+faint trace of decay.  The cave continues north, and you can see a hole
+on the ground here.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1125
+D5
+~
+~
+0 -1 1127
+S
+#1127
+Inside a Hole~
+  You have been climbing for a long time.  The air is very old
+and you can smell a faint trace of decay.  The cave continues
+upward and downward from here.
+~
+6 0 INDOORS
+D4
+~
+~
+0 -1 1126
+D5
+~
+~
+0 -1 1128
+S
+#1128
+Inside a Hole~
+  You have been climbinb in the cave for a long time.  The air here
+is very old and you can smell a faint trace of decay.  The cave
+continues upward and downward from here.  From here, you can see
+some light coming from the bottom of the hole.
+~
+6 0 INDOORS
+D5
+~
+~
+0 -1 1129
+D4
+~
+~
+0 -1 1127
+S
+#1129
+Bottom of the Cave~
+  My goodness, this is a huge cave.  You are finally at the bottom of
+the cave.  You see an exit from the cave to the north, with the
+light coming from the exit.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1130
+D4
+~
+~
+0 -1 1128
+S
+#1130
+Cave Entrance~
+  You are at the opening of the cave.  A bright amber light is 
+emanating from the north, and you can hear strange sounds from the
+same direction.  It is too dark to note anything to the south.
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1129
+D0
+~
+~
+0 -1 811
+S
+#1131
+In Front of a Structure~
+  You are standing in front of a tall ^wstructure^b.  You are hesitant
+to call it a building, for other than its size, there is no clue
+as to how to enter this thing.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1106
+D2
+~
+~
+0 -1 1134
+E
+structure building~
+  ^wYou see a ^ggreen^w skyscraper here, rising high into the air.
+~
+S
+#1132
+In Front of a Structure~
+  You are standing in front of a tall ^wstructure^b.  You are hesitant
+to call it a building, for other than its size, there is no clue
+as to how to enter this thing.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1106
+D2
+~
+~
+0 -1 1135
+E
+structure building~
+  ^wYou see a ^ggreen^w skyscraper here, rising high into the air.
+~
+S
+#1133
+North-South Broadway~
+  You are standing on a main road of the builder city.  The road continues
+north and south.  You raise your hand above your eyes to block the sun shining
+brightly above the sky.  Many buildings of the city lies to the south.  You
+can spot two closest buildings to west and east, both in the shade of ^ggreen^b.
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1106
+D3
+~
+~
+0 -1 1134
+D1
+~
+~
+0 -1 1135
+S
+#1134
+In Front of a Structure~
+  You are standing in front of a tall ^wstructure^b.  You are hesitant
+to call it a building, for other than its size, there is no clue
+as to how to enter this thing.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1133
+D0
+~
+~
+0 -1 1131
+E
+structure building~
+  ^wYou see a ^ggreen^w skyscraper here, rising high into the air.
+~
+S
+#1135
+In Front of a Structure~
+  You are standing in front of a tall ^wstructure^b.  You are hesitant
+to call it a building, for other than its size, there is no clue
+as to how to enter this thing.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1133
+D0
+~
+~
+0 -1 1132
+E
+structure building~
+  ^wYou see a ^ggreen^w skyscraper here, rising high into the air.
+~
+S
+#1136
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+6 0 INDOORS
+S

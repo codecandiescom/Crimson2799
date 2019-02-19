@@ -1,0 +1,2135 @@
+#1300
+Station Conduit starting room~
+  You are in a small closet. How you got here is anyone's guess. There's a 
+sign written in glow-in-the-dark paint on the wall. 
+~
+6 PRIVATE INDOORS
+D5
+~
+~
+0 -1 1321
+D4
+~
+~
+0 -1 1321
+D3
+~
+~
+0 -1 1321
+D2
+~
+~
+0 -1 1321
+D1
+~
+~
+0 -1 1321
+D0
+~
+~
+0 -1 1321
+E
+sign wall~
+Hiya. This is a conduit extension adventure to to the 
+Anomaly Station. A ginera went sour, as noted by its
+green colour. With its intense mental abilities, it
+began posessing all life forms around it. It's now 
+holed up deep within the ventilator shafts of Anomaly
+Station, avoiding capture or disruptions. 
+
+Unfortunately for the ginera, when it went sour, it
+also lost most of its power. Thus, it's now within
+the abilities of a mortal to actually kill the sucker
+using some forms of weaponry. 
+
+Oh yeah, as usual, the sour ginera has made a horde
+of old relics from victims, many of which just happen
+to be extremely valuable.
+
+-Corbin~
+S
+#1301
+Service Hallways~
+  You are in a service hallway far behind the living quarters. There are 
+some dead rodents piled in the corner... half eaten. There is a green glow 
+coming from the south. 
+~
+6 NOMOB INDOORS
+D2
+There is a green glow to the south 
+~
+~
+0 -1 1307
+D1
+~
+~
+0 -1 1302
+S
+#1302
+Service Hallways~
+  You are in a service hallway far behind the living quarters. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1301
+D2
+~
+~
+0 -1 1308
+D1
+~
+~
+0 -1 1303
+S
+#1303
+Service Hallways~
+  You are in a service hallway far behind the living quarters. Large piping 
+is running north-south through this hallway. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1302
+D2
+~
+~
+0 -1 1309
+S
+#1304
+Service Hallways~
+  You are in a service hallway far behind the living quarters. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1310
+D1
+~
+~
+0 -1 1305
+S
+#1305
+Service Hallways~
+  You are in a service hallway far behind the living quarters. This halway 
+looks to give access to the huge pulsating equipment directly above your 
+head. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1304
+D2
+~
+~
+0 -1 1311
+S
+#1306
+Service Hallways~
+  You are in a service hallway far behind the living quarters. The stench of 
+rotting corpses is thick here; you resist the urge to vomit... barely. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1312
+S
+#1307
+Service Hallways~
+  You are in a service hallway far behind the living quarters. There are 
+dead measlies everywhere. Their poo is too - ew! 
+~
+6 0 INDOORS
+D4
+~
+~
+0 -1 1422
+D0
+~
+~
+0 -1 1301
+S
+#1308
+Service Hallways~
+  You are in a service hallway far behind the living quarters. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1314
+D1
+~
+~
+0 -1 1309
+D0
+~
+~
+0 -1 1302
+S
+#1309
+Service Hallways~
+  You are in a service hallway far behind the living quarters. There is 
+large piping running north-south through this hallway. 
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1310
+D3
+~
+~
+0 -1 1308
+D2
+~
+~
+0 -1 1315
+D0
+~
+~
+0 -1 1303
+S
+#1310
+Service Hallways~
+  You are in a service hallway far behind the living quarters. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1309
+D2
+~
+~
+0 -1 1316
+D0
+~
+~
+0 -1 1304
+S
+#1311
+Service Hallways~
+  You are in a service hallway far behind the living quarters. This halway 
+looks to give access to the huge pulsating equipment directly above your 
+head. 
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1312
+D0
+~
+~
+0 -1 1305
+S
+#1312
+Service Hallways~
+  You are in a service hallway far behind the living quarters. The stench of 
+rotting corpses is in the air. 
+~
+6 NOMOB INDOORS
+D3
+~
+~
+0 -1 1311
+D2
+~
+~
+0 -1 1318
+D0
+~
+~
+0 -1 1306
+S
+#1313
+Abandoned Living Quarters~
+  The walls and furniture of this room are riddled with bullet holes. The 
+East wall has a large hole in the middle with scorch marks flaming out from 
+around it. 
+~
+6 NOMOB INDOORS
+D2
+a broken police barricade 
+~
+broken barricade~
+0 -1 1319
+D1
+a hole is blown in the wall 
+~
+hole~
+0 -1 1314
+S
+#1314
+Abandoned Living Quarters~
+  This room has been destroyed by projectile and flame-throwing weapons of 
+death and destruction. The police have constructed a barricade to block 
+entrance from the south. 
+~
+6 NOMOB INDOORS
+D2
+barricaded front entrance 
+~
+barricade~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 1320
+D0
+an open ventilator shaft 
+~
+ventilator shaft~
+0 -1 1308
+D3
+a hole blown in the wall 
+~
+hole~
+0 -1 1313
+S
+#1315
+Abandoned Living Quarters~
+  This room has been destroyed by projectile and flame-throwing weapons of 
+death and destruction. The police have constructed a barricade to block 
+entrance from the south. 
+~
+6 0 INDOORS
+D0
+an open ventilator shaft 
+~
+ventilator shaft~
+0 -1 1309
+D1
+a hole blown in the wall 
+~
+hole~
+0 -1 1316
+D2
+a barricaded front entrance 
+~
+barricade~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 1321
+S
+#1316
+Abandoned Living Quarters~
+  This room has been destroyed by projectile and flame-throwing weapons of 
+death and destruction. The police have constructed a barricade to block 
+entrance from the south. 
+~
+6 0 INDOORS
+D0
+an open ventilator shaft 
+~
+ventilator shaft~
+0 -1 1310
+D2
+a barricaded front entrance 
+~
+barricade~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 1322
+D3
+a hole blown in the wall 
+~
+hole~
+0 -1 1315
+S
+#1317
+Living Quarters~
+  This is an attractive 12x19 bachelor suite. The west wall looks like it's 
+recently undergone significant repair. 
+~
+6 0 INDOORS
+D2
+the suite front entrance 
+~
+front entrance~
+0 -1 1323
+S
+#1318
+Service Hallways~
+  You are in a service hallway far behind the living quarters. 
+~
+6 0 INDOORS
+D4
+~
+~
+0 -1 1428
+D0
+~
+~
+0 -1 1312
+S
+#1319
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. The quarters to the north look like they've seen a recent 
+battle. 
+~
+6 0 CITY-OUTSIDE
+D0
+a damaged barricade 
+~
+barricade~
+0 -1 1313
+D1
+~
+~
+0 -1 1320
+D2
+~
+~
+0 -1 1325
+S
+#1320
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. The quarters to the north look like they've seen a recent 
+battle. 
+~
+6 0 INDOORS
+D0
+a police barricade 
+~
+barricade~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 1314
+D1
+~
+~
+0 -1 1321
+D3
+~
+~
+0 -1 1319
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1326
+S
+#1321
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. The quarters to the north look like they've seen a recent 
+battle. 
+~
+6 0 INDOORS
+D0
+a police barricade 
+~
+barricade~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 1315
+D1
+~
+~
+0 -1 1322
+D3
+~
+~
+0 -1 1320
+D2
+~
+~
+ISDOOR -1 1327
+D4
+~
+~
+0 -1 124
+S
+#1322
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. The quarters to the north look like they've seen a recent 
+battle. 
+~
+6 0 INDOORS
+D0
+a police barricade 
+~
+barricade~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 1316
+D1
+~
+~
+0 -1 1323
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1328
+D3
+~
+~
+0 -1 1321
+S
+#1323
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+ISDOOR|ELECTRONIC -1 1317
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1324
+D2
+~
+~
+0 -1 1329
+D3
+~
+~
+0 -1 1322
+S
+#1324
+Living Quarters~
+  This is an attractive 12x19 bachelor suite. It looks like it could use 
+some decoration.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1323
+S
+#1325
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1319
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1326
+D2
+~
+~
+0 -1 1331
+S
+#1326
+Living Quarters~
+  You are in a family apartment. Judging by the clothing left everywhere, 
+teenagers live here. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1320
+D3
+~
+~
+0 -1 1325
+S
+#1327
+Common Room~
+  This room is large and open. Chairs are stacked neatly in one corner. 
+There is a clipboard on the door. 
+~
+6 0 INDOORS
+D0
+~
+~
+ISDOOR -1 1321
+E
+clipboard door~
+The clipboard has a large "BOOKINGS" at the top and several
+entries:
+  12/32/44 - station CAOC meeting
+  12/34/44 - Synthetic Drugs Anonymous
+  12/35/44 - Community Focus Group Meeting
+
+The rest of the page is charred and unreadable.~
+S
+#1328
+Living Quarters~
+  You are in a roomy family apartment. Judging by the food on the walls and 
+broken china on the ground, there has been a recent relationship breakdown 
+here. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1322
+D1
+~
+~
+0 -1 1329
+S
+#1329
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1323
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1330
+D2
+~
+~
+0 -1 1335
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1328
+S
+#1330
+Living Quarters~
+  This is a pleasant 12x19 bachelor suite. It is well decorated and has a 
+slight rose smell.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1329
+S
+#1331
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1325
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1332
+D2
+~
+~
+0 -1 1337
+S
+#1332
+Living Quarters~
+  You are in a well-sized family quarters. Judging by the toys on the 
+ground, children live here.
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1338
+D3
+~
+~
+0 -1 1331
+S
+#1333
+Laundry room~
+  You are in a large room with numerous coin-operated washing machines. Some 
+things haven't changed in 1000 years, eh? 
+~
+6 0 INDOORS
+D2
+~
+~
+ISDOOR -1 1339
+S
+#1334
+Living Quarters~
+  You are in a family apartment. Judging by the moulded synthetic rock 
+mounted on the walls (everywhere I might add - up the walls, accross the 
+roof, everywhere) rock climbers live here. 
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1335
+D2
+~
+~
+0 -1 1340
+S
+#1335
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1329
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1336
+D2
+~
+~
+0 -1 1341
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1334
+S
+#1336
+Living Quarters~
+  This is a pleasant 12x19 bachelor suite. The walls are completely bare.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1335
+S
+#1337
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1331
+D1
+~
+~
+0 -1 1338
+D2
+~
+~
+ISDOOR|ELECTRONIC -1 1343
+S
+#1338
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1332
+D1
+~
+~
+0 -1 1339
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1344
+D3
+~
+~
+0 -1 1337
+S
+#1339
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+ISDOOR -1 1333
+D1
+~
+~
+0 -1 1340
+D3
+~
+~
+0 -1 1338
+D4
+~
+~
+0 -1 148
+S
+#1340
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 1334
+D1
+~
+~
+0 -1 1341
+D3
+~
+~
+0 -1 1339
+S
+#1341
+Living Quarters Corridor~
+  You are in a corridor. All around you are the living quarters of the 
+station populace. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1335
+D1
+~
+~
+ISDOOR|ELECTRONIC -1 1342
+D2
+~
+~
+0 -1 1347
+D3
+~
+~
+0 -1 1340
+S
+#1342
+Living Quarters~
+  You are in the main hall of a large and luxurious apartment. The east wall 
+has a large window to the void of space outside the station. 
+~
+6 NOMOB INDOORS
+D2
+~
+~
+0 -1 1348
+D3
+~
+~
+0 -1 1341
+S
+#1343
+Living Quarters~
+   You are in a bachelor suite. The kitchen, bathroom, living room, den, and 
+gym all happen to be the exact same room. How convenient! 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1337
+S
+#1344
+Living Quarters~
+  You are in a bachelor suite. The kitchen, bathroom, living room, den, and 
+gym all happen to be the exact same room. How convenient! 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1338
+S
+#1345
+Machine Room~
+  You are in a well-lit machine room. This room has been converted to
+an equipment stores room. You drool at the array of toys available to
+the Tothro monks.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1346
+D2
+~
+~
+0 -1 1350
+S
+#1346
+Machine Room~
+  You are in a well-lit machine room located directly below the equipment stores
+bunker. Oh, if only you could get through the 1' thick steel plating
+above you, you could feast upon Anomaly Station's weapon stores! 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1345
+S
+#1347
+Living Quarters~
+  You are in a bachelor suite. The kitchen, bathroom, living room, den, and 
+gym all happen to be the exact same room. How convenient! 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1341
+S
+#1348
+Living Quarters~
+  You are in the comfortable den & living area of a large apartment. 
+Numerous chairs and tables give the impression this room is used often to 
+entertain. 
+~
+6 0 INDOORS
+D0
+~
+~
+0 -1 1342
+D2
+~
+~
+ISDOOR|HIDDEN -1 1352
+S
+#1349
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1356
+S
+#1350
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1345
+D1
+~
+~
+0 -1 1351
+S
+#1351
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1353
+D3
+~
+~
+0 -1 1350
+S
+#1352
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1348
+D2
+~
+~
+0 -1 1355
+S
+#1353
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1351
+D2
+~
+~
+0 -1 1363
+S
+#1354
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1355
+D2
+~
+~
+0 -1 1368
+S
+#1355
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1352
+D2
+~
+~
+0 -1 1373
+D3
+~
+~
+0 -1 1354
+S
+#1356
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1349
+D2
+~
+~
+0 -1 1361
+S
+#1357
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1362
+D3
+~
+~
+0 -1 1361
+S
+#1358
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1359
+S
+#1359
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1360
+D3
+~
+~
+0 -1 1358
+S
+#1360
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1361
+D2
+~
+~
+0 -1 1365
+D3
+~
+~
+0 -1 1359
+S
+#1361
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1357
+D2
+~
+~
+0 -1 1360
+D3
+~
+~
+0 -1 1356
+S
+#1362
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1357
+D1
+~
+~
+0 -1 1363
+D2
+~
+~
+0 -1 1364
+S
+#1363
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1353
+D1
+~
+~
+0 -1 1368
+D3
+~
+~
+0 -1 1362
+S
+#1364
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1362
+D2
+~
+~
+0 -1 1366
+D3
+~
+~
+0 -1 1365
+S
+#1365
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1364
+D3
+~
+~
+0 -1 1360
+S
+#1366
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1367
+D1
+~
+~
+0 -1 1370
+D3
+~
+~
+0 -1 1364
+S
+#1367
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1370
+D3
+~
+~
+0 -1 1366
+S
+#1368
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1354
+D3
+~
+~
+0 -1 1363
+S
+#1369
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1373
+S
+#1370
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1367
+D1
+~
+~
+0 -1 1371
+D3
+~
+~
+0 -1 1366
+S
+#1371
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1372
+D3
+~
+~
+0 -1 1370
+S
+#1372
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1373
+D3
+~
+~
+0 -1 1371
+S
+#1373
+Underground Cave~
+  You are in a dim, small tunnel burrowed into the dirt below the arboretum. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1355
+D2
+~
+~
+0 -1 1372
+D3
+~
+~
+0 -1 1369
+S
+#1374
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1380
+D1
+~
+~
+0 -1 1375
+S
+#1375
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1374
+D2
+~
+~
+0 -1 1381
+D1
+~
+~
+0 -1 1376
+S
+#1376
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1375
+D2
+~
+~
+0 -1 1382
+S
+#1377
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1383
+S
+#1378
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D5
+~
+~
+0 -1 1424
+D2
+~
+~
+0 -1 1384
+D1
+~
+~
+0 -1 1379
+S
+#1379
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1384
+D3
+~
+~
+0 -1 1379
+S
+#1380
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1386
+D1
+~
+~
+0 -1 1381
+D0
+~
+~
+0 -1 1374
+S
+#1381
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1380
+D0
+~
+~
+0 -1 1375
+S
+#1382
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1388
+D0
+~
+~
+0 -1 1376
+S
+#1383
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1389
+D1
+~
+~
+0 -1 1384
+D0
+~
+~
+0 -1 1377
+S
+#1384
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1383
+D0
+~
+~
+0 -1 1378
+S
+#1385
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1391
+S
+#1386
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1387
+D0
+~
+~
+0 -1 1380
+S
+#1387
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1386
+S
+#1388
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D5
+~
+~
+ISDOOR|PICKPROOF -1 121
+D2
+~
+~
+0 -1 1394
+D0
+~
+~
+0 -1 1382
+S
+#1389
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1395
+D1
+~
+~
+0 -1 1390
+D0
+~
+~
+0 -1 1383
+S
+#1390
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1389
+D2
+~
+~
+0 -1 1396
+S
+#1391
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1397
+D0
+~
+~
+0 -1 1385
+S
+#1392
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1398
+S
+#1393
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1399
+D1
+~
+~
+0 -1 1394
+S
+#1394
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1393
+D0
+~
+~
+0 -1 1388
+S
+#1395
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1401
+D0
+~
+~
+0 -1 1389
+S
+#1396
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1397
+D0
+~
+~
+0 -1 1390
+S
+#1397
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1396
+D2
+~
+~
+0 -1 1403
+D0
+~
+~
+0 -1 1391
+S
+#1398
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1399
+D0
+~
+~
+0 -1 1392
+S
+#1399
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1398
+D2
+~
+~
+0 -1 1405
+D1
+~
+~
+0 -1 1400
+D0
+~
+~
+0 -1 1393
+S
+#1400
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1399
+D2
+~
+~
+0 -1 1406
+S
+#1401
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1407
+D1
+~
+~
+0 -1 1402
+D0
+~
+~
+0 -1 1395
+S
+#1402
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1401
+S
+#1403
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1409
+D0
+~
+~
+0 -1 1397
+S
+#1404
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D2
+~
+~
+0 -1 1410
+D1
+~
+~
+0 -1 1405
+S
+#1405
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1404
+D2
+~
+~
+0 -1 1411
+D0
+~
+~
+0 -1 1399
+S
+#1406
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1407
+D0
+~
+~
+0 -1 1400
+S
+#1407
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1406
+D2
+~
+~
+0 -1 1413
+D0
+~
+~
+0 -1 1401
+S
+#1408
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D5
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED -1 163
+D2
+~
+~
+0 -1 1414
+D1
+~
+~
+0 -1 1409
+S
+#1409
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1408
+D0
+~
+~
+0 -1 1403
+S
+#1410
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1404
+S
+#1411
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1417
+D1
+~
+~
+0 -1 1412
+D0
+~
+~
+0 -1 1405
+S
+#1412
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D4
+~
+~
+0 -1 251
+D3
+~
+~
+0 -1 1411
+D2
+~
+~
+0 -1 1418
+S
+#1413
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1419
+D0
+~
+~
+0 -1 1407
+S
+#1414
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1420
+D1
+~
+~
+0 -1 1415
+D0
+~
+~
+0 -1 1408
+S
+#1415
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1414
+D2
+~
+~
+0 -1 1421
+S
+#1416
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D1
+~
+~
+0 -1 1417
+S
+#1417
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D3
+~
+~
+0 -1 1416
+D0
+~
+~
+0 -1 1411
+S
+#1418
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1419
+D0
+~
+~
+0 -1 1412
+S
+#1419
+Main Ventilation Access Conduit~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D5
+~
+~
+ISDOOR|CLOSED -1 162
+D3
+~
+~
+0 -1 1418
+D1
+~
+~
+0 -1 1420
+D0
+~
+~
+0 -1 1413
+S
+#1420
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1419
+D0
+~
+~
+0 -1 1414
+S
+#1421
+Air Duct~
+  You are in one of the numerous maze-like air ducts distributing fresh air 
+to Anomaly Station. 
+~
+6 DARK INDOORS
+D0
+~
+~
+0 -1 1415
+S
+#1422
+Air Duct~
+  You are in an air duct. The feces and corpses of countless rodents have 
+piled up here in a grotesque display of decay. 
+~
+6 0 INDOORS
+D5
+~
+~
+0 -1 1307
+D0
+~
+~
+0 -1 1423
+S
+#1423
+Air Duct~
+  You are in an air duct. A fan to the east is pulling air lazily through a 
+metal grate. A stench from the south is mixing with the aroma of steak from 
+the east. 
+~
+6 NOMOB INDOORS
+D2
+~
+~
+0 -1 1422
+D1
+a metal grate 
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|HIDDEN -1 138
+S
+#1424
+Service Conduit~
+  You are in a service conduit. There is a large ventilator shaft above you. 
+Numerous pipes, dials, gauges, and wires are strewn about the room. 
+~
+6 NOMOB INDOORS
+D4
+~
+~
+0 -1 1378
+D2
+~
+~
+0 -1 1425
+S
+#1425
+Service Conduit~
+  You are in a service conduit. Numerous pipes, dials, gauges, and wires are 
+strewn about the room.
+~
+6 0 INDOORS
+D1
+~
+~
+0 -1 1427
+D0
+~
+~
+0 -1 1424
+S
+#1426
+Service Conduit~
+  You are in a service conduit. Numerous pipes, dials, gauges, and wires are 
+strewn about the room.
+~
+6 0 INDOORS
+D2
+~
+~
+0 -1 1427
+S
+#1427
+Service Conduit~
+  You are in a service conduit. Numerous pipes, dials, gauges, and wires are 
+strewn about the room.
+~
+6 0 INDOORS
+D3
+~
+~
+0 -1 1425
+D2
+~
+~
+0 -1 1428
+D0
+~
+~
+0 -1 1426
+S
+#1428
+Service Conduit~
+  You are in a service conduit. Numerous pipes, dials, gauges, and wires are 
+strewn about the room. 
+~
+6 0 INDOORS
+D5
+~
+~
+0 -1 1318
+D0
+~
+~
+0 -1 1427
+S

@@ -1,0 +1,65 @@
+#7000
+Yurk Queen~
+The Yurk Queen~
+The Yurk Queen is here resting in the corner~
+The Yurk Queen is a lot larger than the other Yurks and lazily sits in the 
+corner of the nest watching the younger Yurks lurk around. 
+~
+SENTINEL|WIMPY|RPSYCHIC SEEINVIS|REGENERATION 0 S
+30 90 72 2d500+1100 3d13+10
+600 6000
+RESTING ANIMAL FEMALE
+P
+@DEATH~
+{
+  if(CODE_THING==EVENT_THING) {
+    CharAction(CODE_THING,"gossip Hail to the Queen, baby");
+  }
+}~
+#7001
+Yurk Protector~
+a Yurk Protector~
+a Yurk Protector is here guarding the entrance to the Queen's lair~
+The Yurk Protector looks like a Yurk Soldier on steroids. The only way into 
+the Queen's lair is through this guy. Good luck, you'll need it.. 
+~
+SENTINEL|AGGRESSIVE GROUP|SEEINVIS 0 S
+28 84 67 2d400+900 3d12+9
+450 4800
+STANDING ANIMAL MALE
+#7002
+Yurk Soldier~
+a Yurk Soldier~
+a Yurk Soldier is here lurking about~
+The Yurk Soldier is 6 foot mix between a spider and a mantis possesing some 
+psi capabilities. Armed with a Modified Needler Pistol this guy can pack 
+quite a punch 
+~
+TRACKER|AGGRESSIVE|STAYAREA 0 0 S
+25 75 59 2d250+600 3d11+8
+300 3000
+STANDING ANIMAL MALE
+#7003
+Captive Explorer~
+a Captive Explorer~
+a Captive Explorer is here waiting to be rescued~
+The explorer was one of the unlucky members of the Alpha search team that 
+was devistated by the Yurks. But this one was lucky enough to be captured 
+instead of killed
+~
+STAYAREA 0 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING GALCIV-CITIZEN MALE
+#7004
+Yurk Guard~
+a Yurk Guard~
+a Yurk Guard is here protecting the force field key~
+the Yurk Guard is like the other Yurks but is heavily armored and a little 
+more stronger 
+~
+SENTINEL|AGGRESSIVE|STAYAREA 0 0 S
+30 90 72 2d500+1100 3d13+10
+374 6000
+STANDING ANIMAL MALE
+$

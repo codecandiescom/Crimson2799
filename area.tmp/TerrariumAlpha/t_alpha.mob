@@ -1,0 +1,498 @@
+#700
+purple mobile insect beetle bug~
+Purple Beetle~
+A purple beetle is slowly moving about here.~
+  Just a boring beetle.  It crawls about as if there wasn't a worry in the world.
+There probably wasn't a worry in the world until you came along.
+~
+STAYAREA|WIMPY 0 0 S
+3 5 0 3d10+40 1d2+1
+9 60
+STANDING NONE MALE
+#701
+mobile wasp bee bug~
+Wasp~
+A wasp flies around the plants looking to pick a fight.~
+  It's got two wings, six legs, a huge sting, nice black and yellow stripes
+about it's body.  It's buzzing around you, just dying to pick a fight.
+~
+STAYAREA|WIMPY 0 0 S
+4 9 5 2d5+40 2d2+2
+11 65
+STANDING NONE MALE
+#702
+mobile ant bug soldier~
+Soldier Ant~
+A giant soldier ant is here looking for something to bite.~
+  You haven't seen an ant this big.  It's at least a foot long!  It's
+moving about looking for something to bite the head of.
+~
+STAYAREA|WIMPY 0 0 S
+5 15 15 2d5+65 3d2+1
+14 75
+STANDING NONE MALE
+#703
+mobile squirrel animal~
+Flying Squirrel~
+A flying squirrel is moving about busily.~
+  A flying squirrel is running about busily.  It seems to be gathering
+for winter that's never coming.  How stupid of it.
+~
+STAYAREA|WIMPY 0 0 S
+8 20 15 1d10+90 1d5+2
+45 100
+STANDING ANIMAL MALE
+#704
+mobile reptile reptilian animal green~
+Green Reptile~
+A reptilian looking creature is here trying to catch a beetle.~
+  It resembles a reptile from your world.  You always hated reptiles.
+It's crouched on a tree branch, preying upon a helpless beetle.
+~
+SENTINEL|STAYAREA|WIMPY 0 0 S
+13 38 25 3d10+150 3d4+3
+130 160
+STANDING ANIMAL MALE
+#705
+mobile insect scorpion~
+Red Scorpion~
+A scorpion is sitting on a rock, with it's tail pointing at you.~
+  The red scorpion looks pissed.  It is waving it's tail at you, and that
+tail looks mighty dangerous.
+~
+SENTINEL|STAYAREA 0 0 S
+6 15 15 3d5+70 1d5+3
+45 110
+STANDING NONE MALE
+#706
+mobile rat rodent jungle giant animal~
+Jungle Rodent~
+A giant jungle rodent is here, looking for decaying corpses.~
+  You've always hated rats.  This one fits the profile of a rat to the
+teeth.  It is currently gnawing on a fallen tree trunk, trying to get at
+the bugs inside.  How very cute.  Let's waste it!
+~
+SENTINEL|STAYAREA 0 0 S
+12 40 55 3d10+100 2d4+2
+82 143
+STANDING ANIMAL FEMALE
+#707
+mobile baby tiger animal~
+Baby Tiger~
+A baby tiger is sleeping here, appearant separated from its mother.~
+  Aww...what a cute and cuddly looking thing.  It reminds you of the
+domestic feline you used to have as a child.  You wonder where its
+mother is.
+~
+SENTINEL|STAYAREA 0 0 S
+11 38 35 5d10+200 2d3+2
+100 124
+STANDING NONE MALE
+#708
+mobile mother tiger animal~
+Mother Tiger~
+A mother tiger is here, looking for its lost cubs.~
+  The mother tiger looks very intimidating.  It is currently ignoring you
+because its looking for something, but you wouldn't want to be around it
+when it become hungry.
+~
+SENTINEL|STAYAREA 0 0 S
+15 45 25 5d10+300 4d4+5
+120 185
+STANDING ANIMAL FEMALE
+#709
+animal zarg~
+Zarg~
+A zarg is here, chewing on one of the plant roots.~
+  Well, it looks close enough to call it a zarg.  It resembles a
+creature from the GlavineIII, a herbivore that can defend with
+spikes from its tail when attacked.  You should think about putting
+it out of its misery.
+~
+SENTINEL|STAYAREA 0 0 S
+16 100 45 5d10+75 4d7+0
+170 200
+STANDING ANIMAL MALE
+#710
+mobile snake animal~
+Giant Snake~
+A snake is slowly moving about on a tree branch.~
+  It's a snake alright.  Long, slimy, disgusting, and poisonous suckers.
+It's slowing moving towards you from the branch, thinking you are a prey
+that it can surprise.  Too bad you saw it already.
+~
+SENTINEL|STAYAREA 0 0 S
+14 40 25 4d12+150 4d3+3
+120 125
+STANDING ANIMAL MALE
+#711
+mobile wyvern dragon yellow animal~
+Wyvern~
+A yellow wyvern is sleeping here.~
+  It is a reptilian like animal that extends twenty feet from the head to 
+the tail.  The wyvern looks ferocious.  The fangs you see can easily 
+penetrate the armor you are wearing.  Even the thought of facing this 
+creature sends chill down your spine.  Have you been to club med lately? 
+~
+SENTINEL|AGGRESSIVE|STAYAREA DARKVISION|SEEINVIS|REGENERATION 0 S
+20 65 85 10d10+350 7d7+4
+250 350
+SLEEPING ANIMAL FEMALE
+P
+%RHEAT~
+75~
+P
+%RPSYCHIC~
+75~
+P
+%WILLPOWER~
+100~
+P
+@afterdeath~
+{
+  PlayerSolvedQuest(EVENT_THING,"^wCongratulations! You have killed the Wyvern!\n",1000,1,"TerrariumAlpha-Wyvern",1);
+}~
+#712
+mobile fish blue small animal~
+Fish~
+A small blue fish is swimming here.~
+  It is a small blue marine life-form.  It's swimming around the rocks 
+looking for bits of algae and food bits. 
+~
+SENTINEL|STAYAREA BREATHWATER 0 S
+6 0 25 4d4+30 2d1+0
+35 90
+STANDING ANIMAL MALE
+#713
+mobile plant carnivorous huge~
+Carnivorous Plant~
+A carnivorous plant is awaiting here with its jaws open.~
+  It is a meat-eating plant!  It has a delicious looking fruit cleverly
+placed in its mouth.  An animal or insect that comes near looking for
+a meal is doomed to spend its last minutes in agonizing cage of leaves
+as the digestive acid slowly melts its flesh.
+~
+SENTINEL|STAYAREA 0 0 S
+10 25 -10 10d10+450 2d8+0
+90 150
+STANDING PLANT MALE
+#714
+mob bear huge brown animal~
+Bear~
+A huge brown bear is trying to shake something loose from a tree.~
+  This bear-like creature is huge!  It doesn't notice you because it's
+currently busy trying to get at the fruits high on a tree.  You best
+leave this beast alone, you know it's too stupid to die even after
+several laser shots.
+~
+SENTINEL|STAYAREA 0 0 S
+16 55 45 1d4+300 4d6+5
+175 220
+STANDING ANIMAL MALE
+#715
+mobile ape-man man animal~
+Ape-man~
+An ape-man is standing here, looking a bit annoyed.~
+  It's the inhabitant of the jungle village.  The ape-man has the build
+of a pumped-up human, but it is only about five feet tall.  The tail
+convinces you that this is not just an ugly human.  It notices you
+right away, but it ignores you and goes about his business.
+~
+SENTINEL|STAYAREA 0 0 S
+15 45 25 5d9+225 2d5+0
+85 170
+STANDING ANIMAL MALE
+P
+%RHEAT~
+50~
+P
+%RPSYCHIC~
+50~
+P
+%WILLPOWER~
+50~
+#716
+mobile ape-woman woman animal~
+Ape-woman~
+An ape-woman is busily moving about here.~
+  It's the inhabitant of the jungle village.  The ape-woman looks
+a lot like the ape-man, except she's slightly shorter.  The tail
+of the creature convinces you that this is not just an bad case
+of human ugliness.  It is too busy gathering food to notice you.
+~
+SENTINEL|STAYAREA 0 0 S
+14 42 25 1d4+200 2d4+0
+60 160
+STANDING ANIMAL FEMALE
+P
+%RHEAT~
+50~
+P
+%RPSYCHIC~
+50~
+P
+%WILLPOWER~
+50~
+#717
+ape-chieftain chieftain human~
+Ape Chieftain~
+The ape-chieftain is sitting here.~
+  The ape-chieftain is the largest ape-man in the village.  This one is at 
+least six feet tall.  The chieftain has a lighter skin tone than rest of the 
+ape-beings, and is far less hairy.  As you come nearer, you notice a 
+difference between the chieftain and the rest of the apes.  This one has no 
+tail.  In fact, unless you are not mistaken, the ape-chieftain is a human! 
+~
+SENTINEL|STAYAREA 0 0 S
+18 67 35 5d5+350 5d7+6
+450 225
+SITTING GALCIV-CITIZEN MALE
+P
+%RHEAT~
+50~
+P
+%RPSYCHIC~
+50~
+P
+%WILLPOWER~
+100~
+P
+@command~
+{
+  if(StrIsCmd(CMD_CMD,"s")) {
+    stop;
+  }
+  if(StrIsCmd(CMD_CMD,"say")) {
+    CharAction(EVENT_THING,COMMAND);
+    BLOCK_CMD=TRUE/* if(StrExact(CMD_SRCKEY,"currency")) { */;
+      if(StrIn(COMMAND,"currency")) {
+        CharAction(CODE_THING,"shiver");
+        CharAction(CODE_THING,"say Yes.  The Witchdoctor is always looking for ingredients for his brew, basically body parts of jungle animals.  Go ask him what he needs.");
+        stop;
+      }/*if(StrExact(CMD_SRCKEY,"builder-tech")||StrExact(CMD_SRCKEY,"builder")) {*/
+        if(StrIn(COMMAND,"builder")) {
+          CharAction(CODE_THING,"say Witchdoctor has a builder equipment that he uses to make his brews.  He won\'t let even me get near it, so I donno know much about it.  But he will sell you some neat stuff provided you have the right \'currency.\'");
+          stop;
+        }/*if(StrExact(CMD_SRCKEY,"ape-chieftain")||StrExact(CMD_SRCKEY,"chieftain")) {*/
+          if(StrIn(COMMAND,"chieftain")) {
+            CharAction(CODE_THING,"say Yes.  I killed the previous chieftain, which was pretty easy with a laser-rifle.");
+            CharAction(CODE_THING,"say DO NOT make trouble.  Or I will have the Witchdoctor do something awful using his \'builder-tech\' brew.");
+            stop;
+          }
+          if(StrExact(CMD_SRCKEY,"hello")||StrExact(CMD_SRCKEY,"hi")) {
+            CharAction(CODE_THING,"say Hrmmm...I thought I had the entrance sealed.  Doesn\'t matter, welcome fellow GalCiv-Citizen, you can address me as the \'chieftain.\'");
+            stop;
+          }
+          CharAction(CODE_THING,"say Hey!  This is a WAR ROOM.  Cut the chit chat or go elsewhere for your useless yapping!");
+        }
+      }~
+#718
+witchdoctor~
+Witchdoctor~
+Witchdoctor is standing by a boiling pot, conjuring up a brew.~
+  This is the ape-village witchdoctor.  Through superstition and the builder 
+technology he swiped from the jungle, he elevated himself to a mystical 
+position within his culture.  This ape is both revered and feared by the 
+other apes in the village.  He is selling a few items of his creation.  If 
+you only knew the effect of these things, you can make a hefty profit by 
+smuggling it to the anomaly station. 
+~
+SENTINEL|STAYAREA 0 0 S
+100 500 100 1d4+10000 100d100+50
+10 0
+STANDING ANIMAL MALE
+P
+@command~
+{
+  int pills;
+  if(StrIsCmd(CMD_CMD,"say")) {
+    CharAction(EVENT_THING,COMMAND);
+    BLOCK_CMD=TRUE;
+    if(StrExact(CMD_SRCKEY,"hi")||StrExact(CMD_SRCKEY,"hello")) {
+      CharAction(CODE_THING,"emot acknowledges you with a nod, and points you to a note on the wall.\n");
+      stop;
+    }
+  }
+  if(StrIsCmd(CMD_CMD,"trade")) {
+    BLOCK_CMD=TRUE;
+    pills=12*ObjectCountInv(EVENT_THING,702);
+    if(pills>0) {
+      pills=pills+15*ObjectCountInv(EVENT_THING,703);
+    }
+    if(pills>0) {
+      pills=pills+20*ObjectCountInv(EVENT_THING,725);
+    }
+    if(pills>0) {
+      pills=pills+30*ObjectCountInv(EVENT_THING,714);
+    }
+    if(pills>0) {
+      pills=pills+60*ObjectCountInv(EVENT_THING,706);
+    }
+    pills/=60;
+    if(!pills) {
+      SendAction(EVENT_THING,TNULL,SEND_SRC,"^bYou don\'t have enough for a ^wwhite ^gpill^b.^V\n");
+    }
+    else {
+      if(pills==1) {
+        SendAction(EVENT_THING,TNULL,SEND_SRC,"^bWitchdoctor hands you a ^wwhite ^gpill^b.^V\n");
+        SendAction(EVENT_THING,TNULL,SEND_ROOM,"^bWitchdoctor hands $n a ^wwhite ^gpill^b.^V\n");
+      }
+      else {
+        SendActionStr(EVENT_THING,TNULL,SEND_SRC,"^bWitchdoctor hands you %i ^wwhite ^gpills^b.^V\n",pills);
+        SendActionStr(EVENT_THING,TNULL,SEND_ROOM,"^bWitchdoctor hands $n %i ^wwhite ^gpills^b.^V\n",pills);
+      }
+    }
+    if(pills) {
+      ObjectCreateNum(EVENT_THING,728,pills);
+      ObjectStripInv(EVENT_THING,702,703,TNULL);
+      ObjectStripInv(EVENT_THING,725,725,TNULL);
+      ObjectStripInv(EVENT_THING,714,714,TNULL);
+      ObjectStripInv(EVENT_THING,706,706,TNULL);
+    }
+    pills=12*ObjectCountInv(EVENT_THING,721);
+    if(pills>0) {
+      pills=pills+15*ObjectCountInv(EVENT_THING,720);
+    }
+    if(pills>0) {
+      pills=pills+20*ObjectCountInv(EVENT_THING,709);
+    }
+    if(pills>0) {
+      pills=pills+30*ObjectCountInv(EVENT_THING,708);
+    }
+    if(pills>0) {
+      pills=pills+60*ObjectCountInv(EVENT_THING,707);
+    }
+    pills/=60;
+    if(!pills) {
+      SendAction(EVENT_THING,TNULL,SEND_SRC,"^bYou don\'t have enough for a ^ppurple ^gpill^b.^V\n");
+    }
+    else {
+      if(pills==1) {
+        SendAction(EVENT_THING,TNULL,SEND_SRC,"^bWitchdoctor hands you a ^ppurple ^gpill^b.^V\n");
+        SendAction(EVENT_THING,TNULL,SEND_ROOM,"^bWitchdoctor hands $n a ^ppurple ^gpill^b.^V\n");
+      }
+      else {
+        SendActionStr(EVENT_THING,TNULL,SEND_ROOM,"^bWitchdoctor hands $n %i ^ppurple ^gpills^b.^V\n",pills);
+        SendActionStr(EVENT_THING,TNULL,SEND_SRC,"^bWitchdoctor hands you %i ^ppurple ^gpills^b.^V\n",pills);
+      }
+    }
+    if(pills) {
+      ObjectCreateNum(EVENT_THING,730,pills);
+      ObjectStripInv(EVENT_THING,720,721,TNULL);
+      ObjectStripInv(EVENT_THING,707,709,TNULL);
+    }
+    pills=3*ObjectCountInv(EVENT_THING,700);
+    if(pills>0) {
+      pills=pills+4*ObjectCountInv(EVENT_THING,722);
+    }
+    if(pills>0) {
+      pills=pills+6*ObjectCountInv(EVENT_THING,704);
+    }
+    if(pills>0) {
+      pills=pills+12*ObjectCountInv(EVENT_THING,705);
+    }
+    pills/=12;
+    if(!pills) {
+      SendAction(EVENT_THING,TNULL,SEND_SRC,"^bYou don\'t have enough for a ^Ybrown ^gpill^b.^V\n");
+    }
+    else {
+      if(pills==1) {
+        SendAction(EVENT_THING,TNULL,SEND_SRC,"^bWitchdoctor hands you a ^Ybrown ^gpill^b.^V\n");
+        SendAction(EVENT_THING,TNULL,SEND_ROOM,"^bWitchdoctor hands $n a ^Ybrown ^gpill^b.^V\n");
+      }
+      else {
+        SendActionStr(EVENT_THING,TNULL,SEND_SRC,"^bWitchdoctor hands you %i ^Ybrown ^gpills^b.^V\n",pills);
+        SendActionStr(EVENT_THING,TNULL,SEND_ROOM,"^bWitchdoctor hands $n %i ^Ybrown ^gpills^b.^V\n",pills);
+      }
+    }
+    if(pills) {
+      ObjectCreateNum(EVENT_THING,731,pills);
+      ObjectStripInv(EVENT_THING,700,700,TNULL);
+      ObjectStripInv(EVENT_THING,722,722,TNULL);
+      ObjectStripInv(EVENT_THING,704,705,TNULL);
+    }
+  }
+}~
+#719
+mobile bat vampire animal~
+Vampire Bat~
+A vampire bat is sleeping here, upside down, of course.~
+  Shhhh....It's sleeping right now.  I don't think you should disturb
+it unless you are wearing something thick around your neck.  You would
+hate to lose the bodily fluid that this creature lives on.
+~
+SENTINEL|STAYAREA 0 0 S
+17 60 65 4d4+75 6d8+5
+100 255
+STANDING ANIMAL MALE
+P
+%RHEAT~
+50~
+P
+%RPSYCHIC~
+50~
+P
+%WILLPOWER~
+75~
+#720
+mobile ape-child child animal~
+Ape-child~
+An ape-child is playing with some wooden sticks here.~
+  He's a smaller version of the ape-men.  He is having the time of his life 
+playing with some sticks all by himself.  At least they are as smart as the 
+adult ape-men. 
+~
+SENTINEL|STAYAREA 0 0 S
+6 15 5 1d4+50 1d5+0
+45 120
+STANDING ANIMAL MALE
+#721
+mobile colorful bird animal~
+a colorful bird~
+A small colorful bird is here, chirpping happily.~
+  It is a very beautiful avian animal.  It looks harmless.  The colorful
+bird is chirping happily, as if it has just gotten a stomach full of 
+those tasty beetles.
+~
+SENTINEL|STAYAREA|WIMPY 0 0 S
+7 25 75 5d4+30 1d2+0
+50 120
+STANDING ANIMAL FEMALE
+#722
+mobile mussel shell~
+a mussel~
+a tiny mussel shell is here, attached to the rocky bottom.~
+  It is a small exo-cartiligenous life-form that feeds off microscopic 
+plants.  The shell is very hard to protect the flesh inside from fishes. 
+~
+SENTINEL|STAYAREA BREATHWATER 0 S
+7 0 75 1d4+75 1d1+0
+15 110
+STANDING NONE SEXLESS
+#723
+mobile worm~
+Worm~
+A worm is trying to borrow back into the ground here.~
+  My my, what a huge worm.  Yuk!  You never liked worms anyways.
+Even well done, the meat is always too soft and squishy.
+~
+SENTINEL|STAYAREA 0 0 S
+3 5 0 1d4+50 1d2+0
+15 70
+STANDING NONE FEMALE
+#724
+ant king huge~
+Ant King~
+An HUGE ant is here, glaring at you.~
+  This must be the King of the Ants.  It looks much larger than the
+giant ants you been seeing around the jungle.  The ant looks
+mighty angry about you being in his majestic presence.
+~
+SENTINEL|SCAVENGER|STAYAREA 0 0 S
+17 70 45 10d15+200 3d4+2
+190 250
+STANDING NONE MALE
+P
+%WILLPOWER~
+100~
+$

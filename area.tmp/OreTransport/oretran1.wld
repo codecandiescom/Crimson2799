@@ -1,0 +1,2609 @@
+#2500
+OreTrans MudAdmin Room~
+  You are floating in a small, spherical room. A sign floating in mid-air reads:
+Welcome to the OreTransport area, another fine production by Cryogen. (Even if
+I would rather be coding). Funny, this place isnt on any of your maps.
+~
+11 0 INDOORS
+D3
+~
+~
+0 -1 453
+S
+#2501
+Entrance Ramp~
+You are standing on the ramp that leads up into the open nose cone of the
+transport. Looking at the huge nose doors you can see that they are made of a
+thick greenish-black metal.  The metal seems to be at least fourteen feet thick.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2502
+D3
+~
+~
+0 -1 453
+S
+#2502
+Forward Hold Entrance~
+You are standing just inside the entrance to the Transports forward hold. The
+hold is huge. You can see dump truck sized pallets of raw ore strapped down to
+the deck in neat rows to the north and south.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2508
+D1
+~
+~
+0 -1 2503
+D2
+~
+~
+0 -1 2505
+D3
+~
+~
+0 -1 2501
+S
+#2503
+Forward Hold~
+You are standing inside the Transports forward hold. The hold is huge. You can
+see dump truck sized pallets of raw ore strapped down to the deck in neat rows
+to the north and south.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2515
+D1
+~
+~
+0 -1 2504
+D2
+~
+~
+0 -1 2516
+D3
+~
+~
+0 -1 2502
+S
+#2504
+Under the Robo-Loader~
+You are standing inside the entrance to the Transports forward hold. The
+hold is huge. A huge robo-loader looms over you clutching one of the ore pallets
+in its claws. It must be over 40 feet tall. The enormous wheels block your way
+north and south.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2519
+D3
+~
+~
+0 -1 2503
+D4
+~
+~
+0 -1 2523
+S
+#2505
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2502
+D1
+~
+~
+0 -1 2516
+S
+#2506
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2516
+D1
+~
+~
+0 -1 2507
+S
+#2507
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2518
+D1
+~
+~
+0 -1 2512
+D3
+~
+~
+0 -1 2506
+S
+#2508
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2515
+D2
+~
+~
+0 -1 2502
+S
+#2509
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2510
+D2
+~
+~
+0 -1 2515
+S
+#2510
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2511
+D2
+~
+~
+0 -1 2517
+D3
+~
+~
+0 -1 2509
+S
+#2511
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2513
+D3
+~
+~
+0 -1 2510
+S
+#2512
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal. It
+looks corroded and its oozing a greenish black gel.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2514
+D3
+~
+~
+0 -1 2507
+S
+#2513
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2511
+D2
+~
+~
+0 -1 2519
+D3
+~
+~
+0 -1 2517
+S
+#2514
+Forward Hold By The Wall~
+You are standing by the hulls wall in the Transports forward hold. The hold is
+huge. You can see dump truck sized pallets of raw ore strapped down to the deck
+in neat rows. The nearby hull wall is made of a strange greenish-black metal.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2519
+D2
+~
+~
+0 -1 2512
+D3
+~
+~
+0 -1 2518
+S
+#2515
+Forward Hold~
+You are standing inside the Transports forward hold. The hold is huge. You can
+see dump truck sized pallets of raw ore strapped down to the deck in neat rows
+all around you.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2509
+D1
+~
+~
+0 -1 2517
+D2
+~
+~
+0 -1 2503
+D3
+~
+~
+0 -1 2508
+S
+#2516
+Forward Hold~
+You are standing inside the Transports forward hold. The hold is huge. You can
+see dump truck sized pallets of raw ore strapped down to the deck in neat rows
+all around you.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2503
+D1
+~
+~
+0 -1 2518
+D2
+~
+~
+0 -1 2506
+D3
+~
+~
+0 -1 2505
+S
+#2517
+Forward Hold~
+You are standing inside the Transports forward hold. The hold is huge. You can
+see dump truck sized pallets of raw ore strapped down to the deck in neat rows
+all around you. To the south you can see a huge robo-loader that appears to be
+inactive.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2510
+D1
+~
+~
+0 -1 2513
+D3
+~
+~
+0 -1 2515
+S
+#2518
+Forward Hold~
+You are standing inside the Transports forward hold. The hold is huge. You can
+see dump truck sized pallets of raw ore strapped down to the deck in neat rows
+all around you. To the north you can see a huge robo-loader that appears to be
+inactive.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2514
+D2
+~
+~
+0 -1 2507
+D3
+~
+~
+0 -1 2516
+S
+#2519
+Forward Hold Accessway~
+You are standing inside the Transports forward hold. The hold is huge. You can
+see dump truck sized pallets of raw ore strapped down to the deck in neat rows
+to the north and south. To the east an accessway leads to the rest of the ship.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2513
+D1
+~
+~
+0 -1 2520
+D2
+~
+~
+0 -1 2514
+D3
+~
+~
+0 -1 2504
+S
+#2520
+Forward Accessway~
+You are standing inside the forward accessway of the ship. The walls are made of
+glass lining a lattice of the strange greenish-black metal. Looking out into
+space you can see the glow of ships thrusters as they travel to and from the
+Anomaly.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2524
+D3
+~
+~
+0 -1 2519
+S
+#2521
+Deep Space~
+You are floating in space. Far away you can see the pale red glow of the 
+black holes accretion disk. (You cant see the black hole itself of course, 
+its, well, black).
+~
+11 0 VACUUM
+S
+#2522
+In a Cloud of Wreckage~
+You are floating in space. Far away you can see the pale red glow of the 
+black holes accretion disk. Tumbling wreckage from some sort of space-going 
+vessel floats all around you.
+~
+11 0 VACUUM
+S
+#2523
+Robo-Loader Cabin~
+You are inside the crew cabin of a huge robo-loader. Although everything seems
+to be undamaged for the most part, the cabins walls are heavily encrusted with
+some sort of green mosslike substance.
+~
+11 0 INDOORS
+D5
+~
+~
+0 -1 2504
+S
+#2524
+Forward Accessway~
+You are standing inside the forward accessway of the ship. The walls are made of
+glass lining a lattice of the strange greenish-black metal. Looking out into
+space you can see the glow of ships thrusters as they travel to and from the
+Anomaly.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2525
+D3
+~
+~
+0 -1 2520
+S
+#2525
+Docking Module~
+You are standing inside the ships docking module. Its essentially a large
+reinforced cylinder strong enough to take the stresses of shuttles docking and
+undocking. The floor and ceiling are made of a black metal flecked with bits of
+green. The docking module extends east.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2529
+D1
+~
+~
+0 -1 2526
+D2
+~
+~
+0 -1 2528
+D3
+~
+~
+0 -1 2524
+S
+#2526
+Docking Module~
+You are standing inside the ships docking module. Its essentially a large
+reinforced cylinder strong enough to take the stresses of shuttles docking and
+undocking. The floor and ceiling are made of a black metal flecked with bits of
+green. The docking module extends west.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2530
+D1
+~
+~
+0 -1 2561
+D2
+~
+~
+0 -1 2527
+D3
+~
+~
+0 -1 2525
+S
+#2527
+EVA Bay~
+This is a huge airlock that allows crew and equipment to get to and from 
+deep space. The walls are made of green-ish black metal. Near the airlock 
+doors the hull metal looks corroded and its slowly oozing a greenish-black 
+gel. 
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2526
+D2
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC -1 2532
+P
+@afterreset~
+{
+  thing inside;
+  exit en, es;
+  inside=WorldOf(2527);
+  en=ExitDir(inside,EDIR_NORTH);
+  es=ExitDir(inside,EDIR_SOUTH);
+  DoorClearFlagBit(inside,en,EF_CLOSED);
+  WorldClearFlagBit(inside,WF_VACUUM);
+  DoorSetFlagBit(inside,es,EF_CLOSED);
+}~
+S
+#2528
+Shuttle Bay 3~
+This is a shuttle bay, shuttles dock here. The walls are made of greenish black
+metal. The shuttle access doors look like they've been corroded somehow. Pretty
+amazing since nothing GalCiv can produce can harm BuilderTech materials.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2525
+S
+#2529
+Shuttle Bay 2~
+This is a shuttle bay, shuttles dock here. The walls are made of greenish black
+metal. The shuttle access doors look like they've been corroded somehow. Pretty
+amazing since nothing GalCiv can produce can harm BuilderTech materials.
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2525
+S
+#2530
+Shuttle Bay 1~
+This is a shuttle bay, shuttles dock here. The walls are made of greenish black
+metal. The shuttle access doors look like they've been corroded somehow. Pretty
+amazing since nothing GalCiv can produce can harm BuilderTech materials.
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2526
+S
+#2531
+Mining Rockhopper~
+This is a small "rockhopper". Its a small shuttle used to fly out to inspect 
+asteroids to see if they are worth mining. Lights on the instrument panel 
+twinkle reassuringly. 
+~
+11 0 INDOORS
+D6
+~
+Mining Rockhopper~
+0 -1 2530
+E
+panel~
+There is a large green button in the middle of the panel. Perhaps you should
+press it.
+~
+P
+@command~
+{
+  thing t;
+  t=ThingFind(NULL,2510,TNULL,TF_OBJ_WLD,0);
+  if(StrIsCmd(COMMAND,"use","push","press")) {
+    if(StrIn(COMMAND,"button","green")) {
+      if(ObjectCount(WorldOf(2530),2510)) {
+        SendAction(CODE_THING,TNULL,SEND_ROOM,"^yThe Rockhopper blasts into space\n");
+        SendAction(WorldOf(2530),TNULL,SEND_ROOM,"^yThe Rockhopper blasts into space\n");
+        ThingTo(t,WorldOf(PropertyGetInt(WorldOf(2531),"HopperDestination")));
+      }
+      else {
+        ThingTo(t,WorldOf(2530));
+        SendAction(CODE_THING,TNULL,SEND_ROOM,"^yThe Rockhopper returns to the ship.\n");
+        SendAction(WorldOf(2530),TNULL,SEND_ROOM,"^yThe Rockhopper returns to the shuttle bay.\n");
+      }
+      BLOCK_CMD=TRUE;
+    }
+  }
+}~
+P
+HopperDestination~
+2521~
+S
+#2532
+Outside the airlock~
+You are floating in space just outside the EVA airlock of the Ore Transport. 
+Far away you can see the glow of shuttle engines and they travel to and from 
+the Anomaly. 
+~
+11 NOMOB VACUUM
+D0
+~
+~
+CLOSED -1 2527
+D1
+~
+~
+0 -1 2582
+D2
+~
+~
+0 -1 2534
+D3
+~
+~
+0 -1 2533
+S
+#2533
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2532
+D2
+~
+~
+0 -1 2534
+D3
+~
+~
+0 -1 2535
+S
+#2534
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Far away you can see 
+the Ore Transport sticking out of its docking bay. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2533
+S
+#2535
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Far away you can see 
+the Ore Transport sticking out of its docking bay. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2536
+D1
+~
+~
+0 -1 2533
+D2
+~
+~
+0 -1 2534
+S
+#2536
+By the Ore Transport~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2535
+D3
+~
+~
+0 -1 2537
+S
+#2537
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2536
+D2
+~
+~
+0 -1 2538
+S
+#2538
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2537
+D2
+~
+~
+0 -1 2539
+S
+#2539
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2538
+D2
+~
+~
+0 -1 2583
+D3
+~
+~
+0 -1 2540
+S
+#2540
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2539
+D2
+~
+~
+0 -1 2583
+D3
+~
+~
+0 -1 2541
+S
+#2541
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2540
+D2
+~
+~
+0 -1 2583
+D3
+~
+~
+0 -1 2542
+S
+#2542
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2541
+D2
+~
+~
+0 -1 2583
+D3
+~
+~
+0 -1 2543
+S
+#2543
+By the Hanger Bay~
+You are floating in space just outside one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2544
+D1
+~
+~
+0 -1 2542
+D2
+~
+~
+0 -1 2583
+D5
+~
+~
+0 -1 2546
+S
+#2544
+By the Hanger Bay~
+You are floating in space just outside one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2543
+D5
+~
+~
+0 -1 2545
+S
+#2545
+Below the Hanger Bay~
+You are floating in space just below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2576
+D1
+~
+~
+0 -1 2549
+D2
+~
+~
+0 -1 2546
+D4
+~
+~
+0 -1 2544
+D5
+~
+~
+0 -1 2548
+S
+#2546
+Below the Hanger Bay~
+You are floating in space just below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2545
+D1
+~
+~
+0 -1 2550
+D4
+~
+~
+0 -1 2543
+D5
+~
+~
+0 -1 2547
+S
+#2547
+Far Below the Hanger Bay~
+You are floating in space far below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2548
+D2
+~
+~
+0 -1 2546
+D3
+~
+~
+0 -1 2545
+D4
+~
+~
+0 -1 2546
+D5
+~
+~
+0 -1 2555
+S
+#2548
+Far Below the Hanger Bay~
+You are floating in space far below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2553
+D2
+~
+~
+0 -1 2547
+D4
+~
+~
+0 -1 2545
+D5
+~
+~
+0 -1 2556
+S
+#2549
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Its easy to get lost 
+out here. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2551
+D1
+~
+~
+0 -1 2580
+D2
+~
+~
+0 -1 2550
+D3
+~
+~
+0 -1 2545
+D5
+~
+~
+0 -1 2552
+S
+#2550
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Its easy to get lost 
+out here. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2549
+D1
+~
+~
+0 -1 2549
+D3
+~
+~
+0 -1 2546
+S
+#2551
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Its easy to get lost 
+out here. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2549
+D5
+~
+~
+0 -1 2554
+S
+#2552
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Its easy to get lost 
+out here. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2553
+S
+#2553
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Its easy to get lost 
+out here. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2552
+D1
+~
+~
+0 -1 2554
+D2
+~
+~
+0 -1 2554
+D3
+~
+~
+0 -1 2548
+D4
+~
+~
+0 -1 2550
+D5
+~
+~
+0 -1 2552
+S
+#2554
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Its easy to get lost 
+out here. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2553
+S
+#2555
+Outside the Anomaly~
+You are floating in space right beside the huge bulk of the Anomaly 
+asteroid. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2556
+D2
+~
+~
+0 -1 2557
+D4
+~
+~
+0 -1 2547
+S
+#2556
+Outside the Anomaly~
+You are floating in space right beside the huge bulk of the Anomaly 
+asteroid. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2558
+D2
+~
+~
+0 -1 2555
+D4
+~
+~
+0 -1 2548
+S
+#2557
+Outside the Anomaly~
+You are floating in space right beside the huge bulk of the Anomaly 
+asteroid. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2555
+S
+#2558
+Outside the Anomaly~
+You are floating in space right beside the huge bulk of the Anomaly 
+asteroid. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2556
+P
+@afterreset~
+{
+  ExitFree(CODE_THING,ExitDir(CODE_THING,EDIR_NORTH));
+}~
+S
+#2559
+Outside the Hole in Anomaly~
+You are floating in space right beside the huge bulk of the Anomaly 
+asteroid. Something unimaginably powerfull has burned a huge hole in the 
+rock here. 
+~
+11 0 VACUUM
+D3
+~
+~
+0 -1 2560
+P
+@afterreset~
+{
+  ExitFree(CODE_THING,ExitDir(CODE_THING,EDIR_SOUTH));
+}~
+S
+#2560
+Melted Meditation Room~
+You are standing inside what used to be a mediation room. The walls and 
+ceiling have been reduced to a melted mess. Amazingly some of the machinery 
+is still working. 
+~
+11 VACUUM INDOORS
+D1
+~
+~
+0 -1 2559
+S
+#2561
+Median Accessway~
+You are standing inside the median accessway of the ship. The walls are made 
+of glass lining a lattice of strange reddish-black metal. Through the glass 
+you see the black of space.
+~
+11 NOMOB INDOORS
+D1
+~
+~
+0 -1 2581
+D3
+~
+~
+0 -1 2526
+S
+#2562
+By the Hanger Bay~
+You are floating in space just outside one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2563
+D5
+~
+~
+0 -1 2579
+S
+#2563
+By the Hanger Bay~
+You are floating in space just outside one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2564
+D2
+~
+~
+0 -1 2562
+S
+#2564
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2565
+D3
+~
+~
+0 -1 2563
+S
+#2565
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2617
+D1
+~
+~
+0 -1 2566
+D3
+~
+~
+0 -1 2564
+S
+#2566
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2617
+D1
+~
+~
+0 -1 2567
+D3
+~
+~
+0 -1 2565
+S
+#2567
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2617
+D2
+~
+~
+0 -1 2568
+D3
+~
+~
+0 -1 2566
+S
+#2568
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2567
+D1
+~
+~
+0 -1 2571
+S
+#2569
+By the Ore Transport~
+You are floating in space by the Ore Transport's Forward Hold. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+S
+#2570
+By the Ore Transport~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+S
+#2571
+By the Ore Transport~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2616
+D1
+~
+~
+0 -1 2572
+D3
+~
+~
+0 -1 2568
+S
+#2572
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2573
+D3
+~
+~
+0 -1 2571
+S
+#2573
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2616
+D1
+~
+~
+0 -1 2574
+D2
+~
+~
+0 -1 2572
+S
+#2574
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2616
+D1
+~
+~
+0 -1 2575
+D3
+~
+~
+0 -1 2573
+S
+#2575
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2616
+D1
+~
+~
+0 -1 2615
+D3
+~
+~
+0 -1 2574
+S
+#2576
+Below the Hanger Bay~
+You are floating in space just below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2577
+D2
+~
+~
+0 -1 2545
+S
+#2577
+Below the Hanger Bay~
+You are floating in space just below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2578
+D1
+~
+~
+0 -1 2580
+D2
+~
+~
+0 -1 2576
+S
+#2578
+Below the Hanger Bay~
+You are floating in space just below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2579
+D1
+~
+~
+0 -1 2580
+D2
+~
+~
+0 -1 2577
+S
+#2579
+Below the Hanger Bay~
+You are floating in space just below one of the Mining Dock's hanger bays. 
+Jutting out of the bay is a large deep space Ore Transport. Far away you can 
+see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2580
+D2
+~
+~
+0 -1 2578
+D4
+~
+~
+0 -1 2562
+S
+#2580
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Its easy to get lost 
+out here. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2551
+D3
+~
+~
+0 -1 2578
+D5
+~
+~
+0 -1 2549
+S
+#2581
+Median Accessway~
+You are standing inside the median accessway of the ship. The walls are made of
+glass lining a lattice of strange reddish-black metal. Through the glass you
+see the black of space.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2584
+D3
+~
+~
+0 -1 2561
+S
+#2582
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2591
+D2
+~
+~
+0 -1 2534
+D3
+~
+~
+0 -1 2532
+S
+#2583
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Far away you can see 
+the Ore Transport sticking out of its docking bay. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2541
+S
+#2584
+Central Hub~
+You are standing inside the ships central hub. Its essentially a large
+reinforced cylinder that with spokes that extend out to the Crew, Work,
+Recreation and Bridge modules.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2585
+D1
+~
+~
+0 -1 2589
+D2
+~
+~
+0 -1 2586
+D3
+~
+~
+0 -1 2581
+S
+#2585
+Outside the Starboard Lift~
+You are standing outside one of the transports lift tubes.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2588
+D2
+~
+~
+0 -1 2584
+S
+#2586
+Outside the Port Lift~
+You are standing outside one of the transports lift tubes.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2584
+D2
+~
+~
+0 -1 2587
+S
+#2587
+Port Lift~
+You are standing in the Port Lift. It allows travel between the Central hub and
+the Crew and Work modules.
+~
+11 0 INDOORS
+D5
+~
+~
+0 -1 2647
+D4
+~
+~
+0 -1 2646
+D0
+~
+~
+0 -1 2586
+S
+#2588
+Starboard Lift~
+You are standing in the Starboard Lift. It allows travel between the Central
+hub and the Bridge and Recreation modules.
+~
+11 0 INDOORS
+D4
+~
+~
+0 -1 2648
+D5
+~
+~
+0 -1 2649
+D2
+~
+~
+0 -1 2585
+S
+#2589
+Stern Accessway~
+You are standing inside the median accessway of the ship. The walls are made of
+glass lining a lattice of strange reddish-black metal. Through the glass you
+see the black of space.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2590
+D3
+~
+~
+0 -1 2584
+S
+#2590
+Stern Accessway~
+You are standing inside the median accessway of the ship. The walls are made of
+glass lining a lattice of strange reddish-black metal. Through the glass you
+see the black of space.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2600
+D3
+~
+~
+0 -1 2589
+S
+#2591
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2592
+D2
+~
+~
+0 -1 2582
+S
+#2592
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2593
+D3
+~
+~
+0 -1 2591
+S
+#2593
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2592
+D2
+~
+~
+0 -1 2594
+S
+#2594
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2593
+D1
+~
+~
+0 -1 2595
+D2
+~
+~
+0 -1 2598
+S
+#2595
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2596
+D2
+~
+~
+0 -1 2598
+D3
+~
+~
+0 -1 2594
+S
+#2596
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2597
+D2
+~
+~
+0 -1 2598
+D3
+~
+~
+0 -1 2595
+S
+#2597
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2599
+D2
+~
+~
+0 -1 2596
+S
+#2598
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Far away you can see 
+the Ore Transport sticking out of its docking bay. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2595
+S
+#2599
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2601
+D2
+~
+~
+0 -1 2597
+S
+#2600
+Outside Engineering~
+You are standing inside the median accessway of the ship. The walls are made of
+glass lining a lattice of strange reddish-black metal. Through the glass you
+see the black of space.
+PUT LOCKED DOOR EAST
+~
+11 0 INDOORS
+D1
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 2706 2626
+D3
+~
+~
+0 -1 2590
+S
+#2601
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2602
+D2
+~
+~
+0 -1 2598
+D3
+~
+~
+0 -1 2599
+S
+#2602
+By the Port Intake~
+You are floating in space by one of the Ore Transport's Port Fuel Intakes. 
+While traveling through space the transport can scoop up intersteller 
+hydrogen and feed it directly into the fuel tanks. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2618
+D3
+~
+~
+0 -1 2601
+P
+@afterreset~
+{
+  PropertySetInt(WorldOf(2602),"OreTransFuel",0);
+}~
+P
+@exit~
+{
+  if((ExitGetDir(EXIT)==EDIR_EAST)&&PropertyGetInt(WorldOf(2602),"OreTransFuel")) {
+    BLOCK_CMD=TRUE;
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"^aA force field blocks your way. Lucky for you - that force\nfield is holding back about 10,000 litres of corrosive fuel.\n");
+    SendAction(EVENT_THING,TNULL,SEND_ROOM,"^a$n tries to go East, but a force field blocks their way.\n");
+  }
+}~
+P
+OreTransFuel~
+0~
+S
+#2603
+By the Starboard Intake~
+You are floating in space by one of the Ore Transport's Port Fuel Intakes. 
+While traveling through space the transport can scoop up intersteller 
+hydrogen and feed it directly into the fuel tanks. 
+~
+11 0 VACUUM
+D1
+~
+~
+0 -1 2619
+D3
+~
+~
+0 -1 2604
+P
+@exit~
+{
+  if((ExitGetDir(EXIT)==EDIR_EAST)&&(PropertyGetInt(WorldOf(2602),"OreTransFuel")==0)) {
+    BLOCK_CMD=TRUE;
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"^aA force field blocks your way. Lucky for you - that force\nfield is holding back about 10,000 litres of corrosive fuel.\n");
+    SendAction(EVENT_THING,TNULL,SEND_ROOM,"^a$n tries to go East, but a force field blocks their way.\n");
+  }
+}~
+S
+#2604
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2609
+D1
+~
+~
+0 -1 2603
+D3
+~
+~
+0 -1 2605
+S
+#2605
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2606
+D1
+~
+~
+0 -1 2604
+S
+#2606
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2607
+D2
+~
+~
+0 -1 2605
+S
+#2607
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2609
+D2
+~
+~
+0 -1 2606
+D3
+~
+~
+0 -1 2608
+S
+#2608
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2609
+D1
+~
+~
+0 -1 2607
+D3
+~
+~
+0 -1 2610
+S
+#2609
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Far away you can see 
+the Ore Transport sticking out of its docking bay. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2608
+S
+#2610
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2609
+D1
+~
+~
+0 -1 2608
+D2
+~
+~
+0 -1 2611
+S
+#2611
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2610
+D2
+~
+~
+0 -1 2612
+S
+#2612
+By the Central Hub~
+You are floating in space by the Ore Transport's Central Hub. Far away you 
+can see the glow of shuttle engines and they travel to and from the Anomaly.
+~
+11 NOMOB VACUUM
+D0
+~
+~
+0 -1 2611
+D3
+~
+~
+0 -1 2613
+S
+#2613
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2614
+D1
+~
+~
+0 -1 2612
+S
+#2614
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2615
+D2
+~
+~
+0 -1 2613
+S
+#2615
+By the Docking Module~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D0
+~
+~
+0 -1 2575
+D2
+~
+~
+0 -1 2614
+D3
+~
+~
+0 -1 2575
+S
+#2616
+Deep Space~
+You are floating in space. To the west you can see the huge bulk of the 
+Anomaly floating in its orbit around the black hole. Far away you can see 
+the Ore Transport sticking out of its docking bay. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2574
+S
+#2617
+Deep Space~
+You are floating in space by the Ore Transport's Docking module. Far away 
+you can see the glow of shuttle engines and they travel to and from the 
+Anomaly. 
+~
+11 0 VACUUM
+D2
+~
+~
+0 -1 2566
+S
+#2618
+Inside the Fuel Purifier~
+You are standing inside one of the transports massive fuel purifiers. Good thing
+the main engines arent on, the magnetic field generated by a working purifier
+would scramble your brain but good.
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2620
+D3
+~
+~
+0 -1 2602
+S
+#2619
+Inside the Fuel Purifier~
+You are standing inside one of the transports massive fuel purifiers. Good thing
+the main engines arent on, the magnetic field generated by a working purifier
+would scramble your brain but good.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2623
+D3
+~
+~
+0 -1 2603
+S
+#2620
+Inside the Port Fuel Tank~
+You are standing one of the transports *HUGE* fuel tanks. The echos in here are
+giving you the creeps.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2618
+D1
+~
+~
+0 -1 2621
+S
+#2621
+Inside the Port Fuel Tank~
+You are standing one of the transports *HUGE* fuel tanks. The echos in here are
+giving you the creeps.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2622
+D3
+~
+~
+0 -1 2620
+S
+#2622
+Inside the Port Fuel Tank~
+You are standing one of the transports *HUGE* fuel tanks. The echos in here are
+giving you the creeps. A ladder leads up to a hatch in the ceiling.
+~
+11 0 INDOORS
+D3
+~
+~
+0 -1 2621
+D4
+~
+~
+0 -1 2629
+S
+#2623
+Inside the Starboard Fuel Tank~
+You are standing one of the transports *HUGE* fuel tanks. The echos in here are
+giving you the creeps.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2624
+D2
+~
+~
+0 -1 2619
+S
+#2624
+Inside the Starboard Fuel Tank~
+You are standing one of the transports *HUGE* fuel tanks. The echos in here are
+giving you the creeps.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2625
+D3
+~
+~
+0 -1 2623
+S
+#2625
+Inside the Starboard Fuel Tank~
+You are standing one of the transports *HUGE* fuel tanks. The echos in here are
+giving you the creeps. A ladder leads up to a hatch in the ceiling.
+~
+11 0 INDOORS
+D3
+~
+~
+0 -1 2624
+D4
+~
+~
+0 -1 2633
+S
+#2626
+Inside Engineering~
+You are standing inside the ships Engineering module. You can feel the
+the vibration of the ships fusion plant in the hull beneath your feet. Patches
+of violet moss grow on the walls.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2640
+D3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 2600
+S
+#2627
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2628
+S
+#2628
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2629
+D3
+~
+~
+0 -1 2627
+S
+#2629
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system. There is a hatch set in the floor.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2630
+D3
+~
+~
+0 -1 2628
+D5
+~
+~
+0 -1 2622
+S
+#2630
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system. The hatch set in the floor has been welded shut.
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2629
+S
+#2631
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2632
+S
+#2632
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2633
+D3
+~
+~
+0 -1 2631
+S
+#2633
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system. There is a hatch set in the floor.
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2634
+D3
+~
+~
+0 -1 2632
+D5
+~
+~
+0 -1 2625
+S
+#2634
+Inside a Maintenance Crawlway~
+You are inside one of the crawlways used to service the ships engine and fuel
+system. There is a hatch set in the floor.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2633
+D5
+~
+~
+0 -1 2637
+S
+#2635
+Inside Engineering~
+You are standing inside the ships Engineering module. The door leading to the 
+ships fusion plant has been welded shut. Theres a hatch set in the floor.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2637
+D2
+~
+~
+0 -1 2636
+D5
+~
+~
+0 -1 2641
+S
+#2636
+Port Engine Room~
+You are standing inside one of the ships engine rooms. A titanic fusion engine
+looms directly above you. Patches of violet gel grow on the walls.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2635
+D3
+~
+~
+0 -1 2638
+S
+#2637
+Port Engine Room~
+You are standing inside one of the ships engine rooms. A titanic fusion engine
+looms directly above you. Patches of violet gel grow on the walls.
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2635
+D3
+~
+~
+0 -1 2639
+D4
+~
+~
+0 -1 2634
+S
+#2638
+Port Engine Room~
+You are standing inside one of the ships engine rooms. A titanic fusion engine
+looms directly above you. Patches of violet gel grow on the walls.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2636
+S
+#2639
+Port Engine Room~
+You are standing inside one of the ships engine rooms. A titanic fusion engine
+looms directly above you. Patches of violet gel grow on the walls.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2637
+S
+#2640
+Beneath the Fusion Plant~
+You are standing beneath the ships fusion plant. Its huge, looming a hundred
+feet high over head. Strange patches of glowing violet fungus are growing all
+over it.
+~
+11 0 INDOORS
+D3
+~
+~
+0 -1 2626
+S
+#2641
+Laser Access Ladder~
+You are climbing on the ladder that connects the Engineering and Mining Laser
+modules.
+~
+11 0 INDOORS
+D4
+~
+~
+0 -1 2635
+D5
+~
+~
+0 -1 2642
+S
+#2642
+Laser Access Ladder~
+You are climbing on the ladder that connects the Engineering and Mining Laser
+modules.
+~
+11 0 INDOORS
+D4
+~
+~
+0 -1 2641
+D5
+~
+~
+0 -1 2643
+S
+#2643
+Laser Module Catwalk~
+You are standing on a maintenance catwalk above the collossal mining laser.
+~
+11 0 INDOORS
+D0
+~
+~
+0 -1 2645
+D3
+~
+~
+0 -1 2644
+D4
+~
+~
+0 -1 2642
+S
+#2644
+Laser Module Catwalk~
+You are standing on a maintenance catwalk above the collossal mining laser.
+~
+11 0 INDOORS
+D1
+~
+~
+0 -1 2643
+S
+#2645
+Laser Control Room~
+You are in the control room of the mining laser. 
+~
+11 0 INDOORS
+D2
+~
+~
+0 -1 2643
+P
+OreTransLaser~
+0~
+S
+#2646
+Port Lift~
+You are standing in the Port Lift. It allows travel between the Central hub and
+the Crew and Work modules.
+~
+11 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 2707 2761
+D5
+~
+~
+0 -1 2587
+S
+#2647
+Port Lift~
+You are standing in the Port Lift. It allows travel between the Central hub and
+the Crew and Work modules.
+~
+11 0 INDOORS
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 2704 2809
+D4
+~
+~
+0 -1 2587
+S
+#2648
+Starboard Lift~
+You are standing in the Starboard Lift. It allows travel between the Central
+hub and the Bridge and Recreation modules.
+~
+11 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 2705 2731
+D5
+~
+~
+0 -1 2588
+S
+#2649
+Starboard Lift~
+You are standing in the Starboard Lift. It allows travel between the Central
+hub and the Bridge and Recreation modules.
+~
+11 0 INDOORS
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 2503 2701
+D4
+~
+~
+0 -1 2588
+S

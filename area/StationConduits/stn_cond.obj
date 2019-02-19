@@ -1,0 +1,54 @@
+#1300
+red prayer bead~
+a red prayer bead~
+a red bead has been tossed aside here~
+It looks much like any other bead. The bead feels strangely warm to the 
+touch. I wonder if it has neutronium in it. Tothro monks hold these while 
+they are meditating. 
+~
+WORN 0 BOTH-WRISTS
+0 0 0 0
+2 100 0
+A
+POWER 30
+#1301
+blue prayer bead~
+a blue prayer bead~
+A blue prayer bead has been dropped in the dirt here~
+It looks much like any other prayer bead. Imagine a tothro monk being 
+superstitious. It feels strangely warm to the touch. Tothro monks hold these 
+while they are meditating. 
+~
+WORN 0 HELD
+0 0 0 0
+2 0 0
+A
+INT 10
+#1302
+pink prayer bead~
+a pink prayer bead~
+A pink prayer bead has been left here~
+It looks like its made of cheap glass, except its strangely heavy and warm 
+to the touch. Tothro monks hold these while they are meditating. 
+~
+WORN 0 HELD
+0 0 0 0
+4 400 0
+A
+WIS 5
+A
+INT 5
+#1303
+green Ginera crystal~
+a Green Crystal~
+An irregular green crystal has been tossed here~
+The crystal glows green and is oddly shaped. You can't actually see through 
+the crystal; it seems to have a darkened centre. You feel queasy just 
+looking at it. 
+~
+LIGHT GLOW|EVIL|AURA|NODROP|ANTI-GOOD HELD
+50 0 0 0
+10 1000 0
+A
+DAMROLL 16
+$

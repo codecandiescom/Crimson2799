@@ -1,0 +1,30 @@
+How to make a new area
+----------------------
+
+Step 1: create a new directory for it. Eg: "MyArea".
+
+Step 2: copy the files blank.* into the area (rename them)
+        eg: 
+           blank.mob -> MyArea/myarea.mob
+           blank.obj -> MyArea/myarea.obj
+           blank.rst -> MyArea/myarea.rst
+           blank.wld -> MyArea/myarea.wld
+
+Step 3: Enter the area into the "area.tbl" file. 
+        eg: 
+           MyArea/myarea     9000 9199 corbin~
+        Note the fields are:
+           <area directory>/<area file base> <start virtual #>
+           <end virtual #> <editor> ~
+        Don't forget the ~ at the end!!
+           
+Step 3: go and edit the files .obj, .rst and .wld files in your
+        directory and change the first line (#0) and change it
+        to the first virtual # in your range (eg: #9000). 
+
+Step 4: reboot your server!
+
+That's it. Now you can go into your server and edit the new area
+using the area editing commands or MOLE!!!
+
+-Corbin

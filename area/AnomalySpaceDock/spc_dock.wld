@@ -1,0 +1,2356 @@
+#5000
+Anomaly Space Dock 1~
+  You are in a large steel-walled room. This space dock is not being used by 
+the Anomaly Station shuttle service. 
+~
+18 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 5006
+S
+#5001
+Anomaly Space Dock 2~
+  You are in a large steel-walled room. People are mulling about waiting for 
+the next shuttle back to Anomaly Station, or just getting off a shuttle from 
+the station. 
+~
+18 0 CITY-OUTSIDE
+D1
+~
+~
+ISDOOR|ELECTRONIC -1 170
+D3
+~
+~
+0 -1 5003
+S
+#5002
+Anomaly Space Dock 3~
+  You are in a large steel-walled room. This space dock is not being used by 
+the Anomaly Station shuttle service. 
+~
+18 0 CITY-OUTSIDE
+D0
+Anomaly Space Dock Command 
+~
+~
+0 -1 5003
+S
+#5003
+Anomaly Space Dock Command~
+  You are in the centre of the Anomaly Space Dock facilities. There is a 
+ladder going up to a hatch, the sign implies that you are not welcome. Space 
+docks branch off to the north, east, and south. To the west is the anomaly 
+settlement. 
+~
+18 0 CITY-OUTSIDE
+D4
+a man sized hatch, there is a Black keycard slot. 
+~
+hatch~
+ISDOOR|LOCKED|CLOSED 5000 5011
+D1
+~
+~
+0 -1 5001
+D2
+~
+~
+0 -1 5002
+D3
+~
+~
+0 -1 5004
+D0
+~
+~
+0 -1 5006
+E
+sign~
+^wThe sign reads:^b
+
+               Anomaly Space Dock Command Tower
+               ^y////////////////////////////////
+               //// ^r! ALL ENTRY FORBIDEN !^y ////
+               ////////////////////////////////
+~
+S
+#5004
+Anomaly Settlement~
+  You are in a bustling community thriving just inside the anomaly. Being 
+outside any judicial jurisdiction, the community is a haven for 
+less-than-legal activites. The space docks and command tower are to the 
+East, the CT dorms are North, and the settlement centre is to the West. 
+~
+18 0 CITY-OUTSIDE
+D0
+Command Tower Dormatory 
+~
+~
+0 -1 5021
+D1
+~
+~
+0 -1 5003
+D3
+~
+~
+0 -1 5005
+S
+#5005
+Anomaly Settlement Centre~
+  You are at the centre of a bustling community thriving just inside the 
+anomaly. Being outside any judicial jurisdiction, the community is a haven 
+for less-than-legal activites. The space docks are to the east. Anomaly 
+exploration extends off in all directions. 
+~
+18 0 CITY-OUTSIDE
+D5
+sewer grate leading down 
+~
+sewer grate~
+ISDOOR|CLOSED -1 6001
+D1
+~
+~
+0 -1 5004
+D3
+~
+~
+0 -1 5007
+D0
+~
+~
+0 -1 5008
+D2
+~
+~
+0 -1 5009
+S
+#5006
+Anomaly Space Dock Corridor~
+  You are standing in a corridor that has been refurbished as part of 
+Anomaly Space Dock. South is Space Dock Command, and to the east is a small 
+refurbished docking bay.  To the north and west lies an unexplored section 
+of the Anomaly. 
+~
+18 0 INDOORS
+D0
+~
+~
+0 -1 433
+D1
+~
+~
+0 -1 5000
+D2
+~
+~
+0 -1 5003
+S
+#5007
+Anomaly Settlement~
+  You're in a dead end. Actually, it wasn't always a dead end.... there's 
+about 20 tonnes of rock which fell into the city here, crushing buildings, 
+people, etc. You notice (by the smell) that nobody has bothered to clean up. 
+Past the rubble a red octagonal building can be seen to the west, and a dim 
+cave is to the north. 
+~
+18 0 INDOORS
+D1
+~
+~
+0 -1 5005
+D3
+~
+~
+0 -1 1500
+D0
+~
+~
+0 -1 5010
+S
+#5008
+Anomaly Settlement~
+  This is a crowded street winding between sign-clad buildings and rock 
+stalagmites reaching decameters high. The lighting is dim here, provided 
+mostly by the neon signs on the buildings. Further North, you can make out 
+some sort of a glass wall. To your West is Ixlits' Armor, to the East a 
+small plaza, and the center of the settlement is South. 
+~
+18 0 INDOORS
+D2
+~
+~
+0 -1 5005
+D3
+~
+~
+0 -1 5042
+D1
+~
+~
+0 -1 5049
+S
+#5009
+Anomaly Settlement~
+  You are south of the center of town, Its looking rather grimy, dark, and 
+yep you made it to the slums. Slums to the left of you, Slums! to the right 
+of you, SLUMS! to the SOUTH of you! Run! Run! There is a short dome with a 
+hatch leading down.
+~
+18 0 INDOORS
+D1
+~
+~
+0 -1 5051
+D3
+~
+~
+0 -1 5050
+D0
+~
+~
+0 -1 5005
+D2
+~
+~
+0 -1 5041
+D5
+a hatch marked Sub-1 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5087
+S
+#5010
+Cave~
+You are in a cave just north of Anomaly Settlement. The light is dim, but 
+you can still see. 
+~
+18 0 INDOORS
+D2
+~
+~
+0 -1 5007
+S
+#5011
+Command Tower~
+  A long cold coridor towers above you with evenly spaced rungs as far as 
+you can see. There is a hatch below you, and above you acending darkness. 
+~
+18 DARK|NOMOB INDOORS
+D4
+darkness 
+~
+~
+0 -1 5012
+D5
+a man sized hatch, there is a Black keycard slot. 
+~
+hatch~
+ISDOOR|LOCKED|CLOSED 5000 5003
+S
+#5012
+Command Tower~
+  This has been quite a climb, but your fears wain as light poors in above 
+you. You could of coarse return to the blackness below. 
+~
+18 DARK INDOORS
+D4
+blinding white light 
+~
+~
+0 -1 5013
+D5
+darkness 
+~
+~
+0 -1 5011
+S
+#5013
+A brightly lit platform~
+  You are standing in a featureless node, light is comeing from smooth walls 
+all around you. North you see a man at a desk with armed guards. Rungs 
+decend into the darkness below. 
+~
+18 0 INDOORS
+D0
+Security Checkpoint 
+~
+~
+0 -1 5014
+D5
+darkness 
+~
+~
+0 -1 5012
+S
+#5014
+A brightly lit platform~
+  Smooth walls give off irritating white light, the hum of electricity is 
+bathing you. A heavy blast door is to the North. South is the ladder down. 
+~
+18 0 INDOORS
+D0
+A thick Blast Door, a Blue keycard slot is to its right. 
+~
+door blast heavy~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 5003 5015
+D2
+~
+~
+0 -1 5013
+S
+#5015
+Command Ring~
+  Lights, buzers, switches, dials, screens, mounds of papers, and more 
+DataPads than you ever want to see again. All this and a few hand fulls of 
+GalCiv's finest keep this Dock running SMOOTH! . ..Yea Right! 
+~
+18 0 INDOORS
+D3
+~
+~
+0 -1 5018
+D1
+~
+~
+0 -1 5016
+D2
+A thick Blast Door, a Blue keycard slot is to its left. 
+~
+blast door heavy~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC 5003 5014
+S
+#5016
+Command Ring~
+  The room strobes like static from the flashing cursors and lines of text 
+scrolling by as hundreds of termanals scream for attention. 
+~
+18 0 INDOORS
+D3
+~
+~
+0 -1 5015
+D1
+~
+~
+0 -1 5017
+S
+#5017
+Command Ring~
+  This side of the ring is dedicated to the Commanders pride and joy, a 40' 
+by 80' screen hooked VIA GalCiv High encryption to a network of computers, 
+capable of showing almost any point from here to earth. It is also where the 
+mounds and mounds of wireing you are triping over is issueing from, Shame 
+they never got it working...   There is a fancy sliding door to the South 
+where the shifts Commander can most likely be found. There is a note on the 
+door. 
+~
+18 0 INDOORS
+D2
+A flush sliding door, it has a Green slot. 
+~
+door fancy sliding flush~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE 5006 5019
+D3
+~
+~
+0 -1 5016
+D1
+~
+~
+0 -1 5018
+E
+note~
+^wThe note reads:^b
+
+                         ///////////
+                         // ^rDoNot ^b//
+                         // ^rEnter ^b//
+                         ///////////
+~
+S
+#5018
+Command Ring~
+  Screens wall this side of the ring with images of the docks, the dorms, 
+and even most of the station. Your starting to think they my have some real 
+control isues here. HEY that big black box over there says Voice Data 
+Archives, by that gleam in your eye I can tell your thinking Blackmail. 
+~
+18 0 INDOORS
+D3
+~
+~
+0 -1 5017
+D1
+~
+~
+0 -1 5015
+S
+#5019
+Command Room~
+  The room is quite smaller than you expected, just enuff room for the 
+Commander to yell at whoever had the dismay of being called into such a cold 
+and bleak room. The only decoration is an odd groved patern in the celing. 
+The Command Ring is back south. 
+~
+18 DARK|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN ARCTIC
+D4
+it is realy quite well hidden 
+~
+hatch up~
+ISDOOR|CLOSED|HIDDEN|ELECTRONIC|NOPHASE -1 5020
+D2
+A flush sliding door, it has a Green slot. 
+~
+door sliding fancy~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE 5006 5017
+E
+groved patern celing~
+  Ring after ring after ring, almost like someone froze a drip in a pond.. and if your not mistaken thats a Hatch you see the outline of!~
+S
+#5020
+Command Tower Beacon~
+  That was Quite a climb, but at lest when your eyes get use to the red 
+strobe and the shutles whizing bye you notice, that from here you can see 
+the Station in orbit far far to the east, all the docks below you seem so 
+small as does the forest to the north and west. The town below is rather 
+sickining, looking dirty even from here. Your view of the BlackHole thogh 
+makes you forget about it all... Life on a pathetic can orbiting a rock 
+coverd with GOD Knows WHAT else want to eat you.. Weeks of nothing but a 
+plenuka wafer and fountain water... All the snobs with the good rooms... 
+That damed Crack in the Observation Bubble... THE WHAT You better get The 
+HELL OUT!! 
+~
+18 SMALL|PRIVATE|VACUUM VACUUM
+D5
+a small thick hatch 
+~
+hatch~
+ISDOOR|CLOSED|HIDDEN|ELECTRONIC|NOPHASE -1 5019
+S
+#5021
+C.T. Dorm~
+  All the cold artificial lighting and smooth grey tiles you could ever 
+need. You wonder why people would come all this way to play slave to the 
+same corps that made earth such a nice place to stay. The mail terminal and 
+duty roster are on the north wall, halls are to the East and West, the 
+Anomaly Settlement is to the South. 
+~
+18 NOMOB|NOWEATHER INDOORS
+D1
+a grey coridor 
+~
+~
+0 -1 5023
+D3
+a grey coridor 
+~
+~
+0 -1 5022
+D2
+~
+~
+0 -1 5004
+E
+mail terminal duty roster~
+  ^bWell most of the buttons look right, but thanks to GalCiv all personel must use strong encription for the roster and mail servers, not like they have any real news here anyway.~
+S
+#5022
+C.T. Dorm~
+  a drab grey corridor, this place must have grand parties, the flickering 
+lights are almost making you queezy.. Cool. The hall goes North and East. 
+~
+18 NOWEATHER INDOORS
+D0
+a grey coridor 
+~
+~
+0 -1 5024
+D1
+C.T. Dorm entery 
+~
+~
+0 -1 5021
+S
+#5023
+C.T. Dorm~
+  a drab grey corridor, this place must have grand parties, the flickering 
+lights are almost making you queezy.. Cool. The hall goes North and West. 
+~
+18 0 INDOORS
+D0
+a grey coridor 
+~
+~
+0 -1 5025
+D3
+C.T. Dorm entery 
+~
+~
+0 -1 5021
+S
+#5024
+C.T. Dorm~
+  a drab grey corridor, this place must have grand parties, the flickering 
+lights are almost making you queezy.. Cool. The hall goes North and South, 
+or East to the showers.  The Tech Bunks are Down. 
+~
+18 0 INDOORS
+D5
+~
+~
+0 -1 5028
+D0
+the lift 
+~
+~
+0 -1 5027
+D1
+the showers 
+~
+~
+0 -1 5026
+D2
+a grey coridor 
+~
+~
+0 -1 5022
+S
+#5025
+C.T. Dorm~
+  a drab grey corridor, this place must have grand parties, the flickering 
+lights are almost making you queezy.. Cool. The hall goes North and South, 
+or West to the showers.  The Guard Bunks are Down. 
+~
+18 NOWEATHER INDOORS
+D5
+~
+~
+0 -1 5029
+D0
+the lift 
+~
+~
+0 -1 5027
+D3
+the showers 
+~
+~
+0 -1 5026
+D2
+a grey coridor 
+~
+~
+0 -1 5023
+S
+#5026
+Co-ed Showers~
+  Ok well your seeing some of the reason these people work away there lives. 
+All this steam, row upon row upon row of stalls of happy cleaning GalCiv 
+workers, beckon you North. I wouldn't go West or East with out a towel. 
+~
+18 NOWEATHER INDOORS
+D0
+shower stalls 
+~
+~
+0 -1 5030
+D1
+a cold grey coridor 
+~
+~
+0 -1 5025
+D3
+a cold grey coridor 
+~
+~
+0 -1 5024
+S
+#5027
+C.T. Dorm~
+  a drab grey  corridor, the flickering lights are making you very dizzy 
+now... a lift is here to take you up and down, or the hall continues West 
+and East. You can the Rec Room South of here. 
+~
+18 NOWEATHER INDOORS
+D3
+a grey coridor 
+~
+~
+0 -1 5024
+D1
+a grey coridor 
+~
+~
+0 -1 5025
+D4
+Commanders Lounge 
+~
+~
+0 -1 5035
+D5
+~
+~
+0 -1 5036
+D2
+~
+~
+0 -1 5038
+S
+#5028
+The Tech Bunks~
+  all the beds and lockers are nicely kept, the lightings better in here 
+too. The dorm is Up from here. 
+~
+18 DARK INDOORS
+D4
+~
+~
+0 -1 5024
+S
+#5029
+The Guard Bunks~
+  all the beds and lockers are nicely kept, the lightings better in here 
+too. The dorm is Up from here. 
+~
+18 DARK INDOORS
+D4
+~
+~
+0 -1 5025
+S
+#5030
+Stalls~
+  Here are all the towels, quite alot of them, Clean ones from the left 
+Dirty ones to the right. North to the Showers or South to the front room. 
+~
+18 NOMOB INDOORS
+D2
+~
+~
+0 -1 5026
+D0
+~
+~
+0 -1 5031
+S
+#5031
+Shower Stalls~
+  Thick steam rolls around in waves, water rains down on you from 
+everywhere, People are running around washing like it's their last Shower.  
+You see the towel stalls South. 
+~
+18 NOWEATHER INDOORS
+D2
+Towel Stalls 
+~
+~
+0 -1 5030
+D0
+~
+~
+0 -1 5033
+D1
+~
+~
+0 -1 5034
+D3
+~
+~
+0 -1 5032
+S
+#5032
+Shower Stalls~
+  Thick steam rolls around in waves, water rains down on you from 
+everywhere, People are running around washing like it's their last Shower. 
+~
+18 NOWEATHER INDOORS
+D1
+~
+~
+0 -1 5031
+S
+#5033
+Shower Stalls~
+  Thick steam is being sucked Up, by a vent, water rains down on you from 
+everywhere, People are running around washing like it's their last Shower. 
+~
+18 NOWEATHER INDOORS
+D2
+~
+~
+0 -1 5031
+D4
+it doesn't look like that far of a jump 
+~
+vent~
+ISDOOR|CLOSED|HIDDEN -1 5040
+S
+#5034
+Shower Stalls~
+  Thick steam rolls around in waves, water rains down on you from 
+everywhere, People are running around washing like it's their last Shower. 
+~
+18 NOWEATHER INDOORS
+D3
+~
+~
+0 -1 5031
+S
+#5035
+Commanders Lounge~
+  This place is a blast, two pleather love seats and a table PacMAN. A lift 
+can take you Down. There are rooms South, East, and West. 
+~
+18 NOWEATHER INDOORS
+D5
+a lift 
+~
+~
+0 -1 5027
+D1
+a sealed hatch with a cave-in warning 
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE -1 5044
+D2
+a hatch with a green cardkey slot. 
+~
+hatch~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE 5006 5039
+D3
+a sealed hatch with a cave-in warning 
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE -1 5045
+S
+#5036
+The Shooting Range~
+  There is a large bar to lean on and a trogh of spent casings. To the South 
+is the Target Droid, But i wouldn't go down there he looks Pretty Pissed! 
+~
+18 NOWEATHER|PRIVATE INDOORS
+D4
+a lift 
+~
+~
+0 -1 5027
+D2
+~
+~
+0 -1 5037
+S
+#5037
+Shooting Range Floor~
+  Shots ..... Zing left and right WHY are the Bastards STILL firing! O Shit, 
+here comes the Droid Target! 
+~
+18 NOWEATHER|PRIVATE INDOORS
+D0
+~
+~
+0 -1 5036
+S
+#5038
+The Rec Room~
+  A few nice couches, loads of vending machines, and arcades, arcades, 
+arcades!! a sign is here.  
+~
+18 NOWEATHER INDOORS
+D0
+a grey coridor 
+~
+~
+0 -1 5027
+E
+sign~
+^wThe Sign says:
+Hilide cort and more soon to come.~
+S
+#5039
+Commanders Room~
+Hrmm Whats this? ... A 10' by 10' room with an air vent, and five high power 
+tower computers? Where does this guy keep all this stuff? Come to think of 
+it, How long has he been the only Commander at the tower? Did You HEAR 
+something? OK this is ODD why would he have a bowl to keep his water in....? 
+A hatch is North. 
+~
+18 DARK|NOWEATHER|NOTELEPORTOUT INDOORS
+D0
+a hatch with a green cardkey slot. 
+~
+hatch~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE 5006 5035
+D2
+~
+vent~
+ISDOOR|CLOSED|HIDDEN -1 5040
+E
+air vent~
+the air vent on the south wall seems to mave busted MagLocks, you may be able to fit in.~
+S
+#5040
+Air Shaft~
+  This Air shaft is Very Very slick, all the steam is not helping. You can't 
+see very far, but you feal its importaint enuff to climb anyhow. After about 
+20 feet up you run into strong mesh, I gues you must use the vent you found 
+North, or return Down to the outher vent. 
+~
+18 DARK|NOMOB|NOWEATHER|SMALL ARCTIC
+D0
+a dark room 
+~
+vent~
+ISDOOR|CLOSED|HIDDEN -1 5039
+D5
+its to steamy to see 
+~
+vent~
+ISDOOR|CLOSED|HIDDEN -1 5033
+S
+#5041
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green. 
+~
+18 0 INDOORS
+D2
+~
+~
+0 -1 5055
+D3
+~
+~
+0 -1 5052
+D1
+~
+~
+0 -1 5053
+D0
+~
+~
+0 -1 5009
+D5
+a hatch marked Sub-3
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5085
+S
+#5042
+Ixlits' Easy Armory~
+Other than the lockers, this room is Tiny. this was most likely the first 
+stage researchers old food storage building. 
+~
+18 0 INDOORS
+D1
+~
+~
+0 -1 5008
+D3
+~
+panel~
+ISDOOR|CLOSED|HIDDEN -1 5043
+E
+lockers~
+There are many rows of mag-locked lockers.~
+S
+#5043
+Ixlits' Extras~
+This room seems to be absorbing light, almost like a black cloud, yet thin. 
+All the swirling about makes it hard to see where you entered from. 
+~
+18 DARK|NOWEATHER|NOPSIONIC|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D1
+~
+panel~
+ISDOOR|CLOSED|HIDDEN -1 5042
+S
+#5044
+Cave-In~
+this room will cave-in 
+~
+18 0 INDOORS
+D3
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE -1 5035
+S
+#5045
+Cave-In~
+this room will colapse
+~
+18 0 INDOORS
+D1
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE -1 5035
+S
+#5046
+Quixs' Fixes~
+  This small round structure smells of toxic fumes, the ceiling is a swirl 
+of colored gasses. There is a SIGN here. 
+~
+18 0 INDOORS
+D0
+~
+~
+0 -1 5049
+E
+sign~
+^wThe sign reads:^b
+                             ^rWarning
+                            ^RAll  Drugs
+                           ^yexperimental~
+S
+#5047
+Anoma-Haus~
+  You enter from the surface into a wheel like room, a large open Kichen 
+fills the center, coves of tables rim the outer wall. Anomaly Plaza is Up. 
+~
+18 0 INDOORS
+D4
+~
+~
+0 -1 5049
+S
+#5048
+The Weaporium~
+  You enter from a large ramp, tubes are hanging from everything. This seems 
+to be a .. a..  You're not sure but, ... Yeah, this Is a starship... I 
+wonder who Hes' hiding from? Maybe whoever he got all these crates from? 
+~
+18 0 INDOORS
+D3
+a retractable ramp 
+~
+retractableramp ramp~
+ISDOOR|PICKPROOF|ELECTRONIC|NOPHASE -1 5049
+D1
+a HEAVY black blastdoor 
+~
+blastdoor door~
+ISDOOR|PICKPROOF|CLOSED|HIDDEN|ELECTRONIC|NOPHASE -1 5098
+S
+#5049
+Anomaly Plaza~
+  You are on a small plaza, it has "Good-as-live" T.M. plants afixed to the 
+rock ground here and there, chairs and tables dot the area. The almost 
+Unheard of Anoma-Haus, is Down. A drug store is South, and the Weaporium is 
+East. 
+~
+18 0 INDOORS
+D5
+~
+~
+0 -1 5047
+D3
+~
+~
+0 -1 5008
+D1
+A ramp to the Weaporium 
+~
+retractableramp ramp~
+ISDOOR|PICKPROOF|ELECTRONIC|NOPHASE -1 5048
+D2
+~
+~
+0 -1 5046
+S
+#5050
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green. SubHomes 
+are South, and East. The stalagmights form an almost solid wall north and 
+west. 
+~
+18 0 INDOORS
+D2
+~
+~
+0 -1 5052
+D1
+~
+~
+0 -1 5009
+S
+#5051
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green. SubHomes 
+are West, and South. The stalagmights form an almost solid wall east and 
+north. 
+~
+18 0 INDOORS
+D2
+~
+~
+0 -1 5053
+D3
+~
+~
+0 -1 5009
+S
+#5052
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green. SubHomes 
+are East, and South. The stalagmights form an almost solid wall west. 
+~
+18 0 INDOORS
+D0
+~
+~
+0 -1 5050
+D2
+~
+~
+0 -1 5054
+D1
+~
+~
+0 -1 5041
+D5
+a hatch marked Sub-2
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5086
+S
+#5053
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green. SubHomes 
+are West, and South. The stalagmights form an almost solid wall east. 
+~
+18 0 INDOORS
+D0
+~
+~
+0 -1 5051
+D2
+~
+~
+0 -1 5056
+D3
+~
+~
+0 -1 5041
+D5
+a hatch marked Sub-4
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5084
+S
+#5054
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green.SubHomes are 
+North, East, and South. The stalagmights form an almost solid wall west. 
+~
+18 0 INDOORS
+D2
+~
+~
+0 -1 5057
+D1
+~
+~
+0 -1 5055
+D0
+~
+~
+0 -1 5052
+D5
+a hatch marked Sub-5
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5083
+S
+#5055
+Middle of the Slums~
+  The narrow streets intersect from all directions to form a ring, people 
+gather here to gossup or trade or even kill eachouther. A ten foot hole is 
+open in the center of the ring, the weak green lights give way to 
+darkness... 
+~
+18 0 INDOORS
+D5
+a shield of pure force blocks all matter from passing 
+~
+sheild~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE -1 5061
+D3
+~
+~
+0 -1 5054
+D2
+~
+~
+0 -1 5058
+D1
+~
+~
+0 -1 5056
+D0
+~
+~
+0 -1 5041
+S
+#5056
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green. SubHomes 
+are North, West, and South. The stalagmights form an almost solid wall east. 
+~
+18 0 INDOORS
+D3
+~
+~
+0 -1 5055
+D2
+~
+~
+0 -1 5059
+D0
+~
+~
+0 -1 5053
+D5
+a hatch marked Sub-6
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5082
+S
+#5057
+Dammaged Slums~
+  The narrow streets are almost undetectable under the rubble of fallen 
+stalagtights. The Sub-Surface housing domes are dented in beond repare, the 
+lights in this part of the habitat are folded and crushed. The way west and 
+south is impassable due the fallen rubble. SubHomes are North and East. A 
+SIGN is posted on the home. 
+~
+18 0 MOUNTAIN
+D1
+~
+~
+0 -1 5058
+D0
+~
+~
+0 -1 5054
+D5
+a hatch marked Sub-7, there is a sign on it 
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN|ELECTRONIC -1 5081
+E
+sign~
+^wThe sign reads:^r
+
+                   DANGER FALLEN ROCK DAMAGE
+               ^y////////////////////////////////
+               //// ^r! ALL ENTRY FORBIDEN !^y ////
+               ////////////////////////////////
+~
+S
+#5058
+Slums~
+  The narrow streets are doted with squat domes leading to Sub-Surface 
+housing, the lights in this part of the habitat are a dim green. SubHomes 
+are in all directions, the east and west are deep in rubble. A SIGN is on 
+the home. 
+~
+18 0 INDOORS
+D3
+~
+~
+0 -1 5057
+D2
+~
+~
+0 -1 5060
+D1
+~
+~
+0 -1 5059
+D0
+~
+~
+0 -1 5055
+D5
+a hatch marked Sub-8, there is a sign on it 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5080
+E
+sign~
+^wThe sign reads:^r
+
+                   DANGER FALLEN ROCK DAMAGE
+               ^y////////////////////////////////
+               //// ^r! ALL ENTRY FORBIDEN !^y ////
+               ////////////////////////////////
+
+  ^bOK I think they are being a little to carefull,
+nothing but dust made it this far! ~
+S
+#5059
+Dammaged Slums~
+  The narrow streets are almost undetectable under the rubble of fallen 
+stalagtights. The Sub-Surface housing domes are dented in beond repare, the 
+lights in this part of the habitat are folded and crushed. The way east and 
+south is impassable due the fallen rubble. SubHomes are North and West. A 
+SIGN is posted on the home. 
+~
+18 0 MOUNTAIN
+D3
+~
+~
+0 -1 5058
+D0
+~
+~
+0 -1 5056
+D5
+a hatch marked Sub-9, there is a sign on it 
+~
+~
+ISDOOR|LOCKED|CLOSED|HIDDEN|ELECTRONIC -1 5079
+E
+sign~
+^wThe sign reads:^r
+
+                   DANGER FALLEN ROCK DAMAGE
+               ^y////////////////////////////////
+               //// ^r! ALL ENTRY FORBIDEN !^y ////
+               ////////////////////////////////~
+S
+#5060
+Ruined Slums~
+  A pungent smell fills the almost motionless air, the narrow streets are 
+clear of rubble here? It apears the stalagmights where pulled out south. 
+Large pitts and scratches cover the Sub-Surface housings dome, the small 
+hatch, gone, pulled from its welding...a grate has resently been left in its 
+place a SIGN hanging upon it. The lights in this part of the habitat are a 
+dim green, giveing you only a small view of the field of daggers to the 
+South, SubHomes are North. 
+~
+18 NOMOB HILLS
+D0
+~
+~
+0 -1 5058
+D2
+a small baricade 
+~
+baricade~
+ISDOOR|CLOSED -1 5063
+D5
+a grate marked Sub-10, a sign is on it 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5078
+E
+grate~
+A large grate has been attached recently, it has an electric lock and SIGN on it. A nasty smell makes you want to go away but you cant help but want to look...   ~
+E
+sign~
+^wThe sign reads:^r
+
+                   DANGER FALLEN ROCK DAMAGE
+               ^y////////////////////////////////
+               //// ^r! ALL ENTRY FORBIDEN !^y ////
+               ////////////////////////////////~
+S
+#5061
+A Dark Crater~
+  The chared walls slope down to a two foot bolder of unknown matter, it is 
+very hard cold and heavy, it will be a tough climb up but that may be the 
+only way to go. 
+~
+18 0 MOUNTAIN
+D5
+upon closer inspection you see very delebrit cracks, and what may be very well hidden hinges. 
+~
+bolder~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|HIDDEN|NOPHASE -1 10
+D4
+~
+~
+ISDOOR|PICKPROOF|LOCKED|CLOSED|ELECTRONIC|NOPHASE -1 5055
+S
+#5062
+Shauna's Shake 'n Shimyi'n Sex Shack~
+  You are in a warm dim quiet and plesent smelling room, the carpet is seven 
+inch Violet shag, it must be fire-proof as there are six fireplaces at last 
+count. Couches line the walls and dot the floor. A girl is walking around 
+offering anoculation and birthcontrol shots, ciggarets, cigars, Liquor's, 
+and most any recreational durg you could want. 
+~
+18 NOMOB|NOWEATHER|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D2
+~
+~
+0 -1 5049
+S
+#5063
+The Field of Daggers~
+ North you can see where large colums of stone where somehow broken free and 
+drug west.  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. There is a dim green light and a small dome North, it is very dark 
+in all outher directions. 
+~
+18 0 HILLS
+D0
+a small baricade 
+~
+baricade~
+ISDOOR|CLOSED -1 5060
+D3
+~
+~
+0 -1 5064
+D2
+~
+~
+0 -1 5072
+D1
+~
+~
+0 -1 5065
+S
+#5064
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. A huge pile of stalagmights have been gatherd in a dent in the rock 
+floor. North and East are the only ways you can go safely. 
+~
+18 DARK HILLS
+D1
+~
+~
+0 -1 5063
+D0
+~
+~
+0 -1 5067
+S
+#5065
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. A huge pile of stalagmights have been gatherd in a dent in the rock 
+floor. 
+~
+18 DARK HILLS
+D3
+~
+~
+0 -1 5063
+D2
+~
+~
+0 -1 5074
+D0
+~
+~
+0 -1 5068
+S
+#5066
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D1
+~
+~
+0 -1 5067
+D0
+~
+~
+0 -1 5069
+S
+#5067
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D3
+~
+~
+0 -1 5066
+D2
+~
+~
+0 -1 5064
+S
+#5068
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D2
+~
+~
+0 -1 5065
+S
+#5069
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D2
+~
+~
+0 -1 5066
+S
+#5070
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D1
+~
+~
+0 -1 5071
+D0
+~
+~
+0 -1 5066
+S
+#5071
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D3
+~
+~
+0 -1 5070
+D1
+~
+~
+0 -1 5072
+S
+#5072
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D2
+~
+~
+0 -1 5076
+D0
+~
+~
+ISDOOR -1 5063
+D3
+~
+~
+0 -1 5071
+S
+#5073
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D1
+~
+~
+0 -1 5074
+S
+#5074
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D3
+~
+~
+0 -1 5073
+D0
+~
+~
+0 -1 5065
+S
+#5075
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D0
+~
+~
+0 -1 5070
+S
+#5076
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D1
+~
+~
+0 -1 5077
+D0
+~
+~
+0 -1 5072
+S
+#5077
+The Field of Daggers~
+  You are standing in a forest of stalagmights rainging from mere 
+centimeters to hundreds of yards wide, needless to say its not easy to move 
+about unharmed. You wince at the thought of the mirroring stalagtights 
+posibly 300 kilometers above you, the smallest falling spike could be 
+deadly. 
+~
+18 DARK MOUNTAIN
+D3
+~
+~
+0 -1 5076
+S
+#5078
+SubUnit-10~
+   You are standing in a blood coverd circular room shreded rubble is 
+everywhere, the spiral lift going Up is CRUSHED! The deeply clawed walls are 
+lined with fold down beds and compartments, save the gapeing hole North. In 
+the center of the room is a hatch leading Down, it looks as if it had been 
+once forced open. 
+~
+18 0 INDOORS
+D0
+a gapeing hole riped into the wall 
+~
+~
+0 -1 5080
+D5
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5088
+S
+#5079
+SubUnit-9~
+   You are standing in a blood coverd circular shreded room rubble is 
+everywhere, the spiral lift going Up is CRUSHED! The deeply clawed walls are 
+lined with fold down beds and compartments, save the gapeing hole West. In 
+the center of the room is a hatch leading Down, it looks as if it had been 
+once forced open. 
+~
+18 0 INDOORS
+D3
+a gapeing hole riped into the wall 
+~
+~
+0 -1 5080
+D5
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5089
+S
+#5080
+SubUnit-8~
+   You are standing in a blood coverd circular room shreded rubble is 
+everywhere, the spiral lift going Up is badly twisted! The deeply clawed 
+walls are lined with fold down beds and compartments, save the gapeing holes 
+East and West. In the center of the room is a hatch leading Down, it looks 
+as if it had been once forced open. 
+~
+18 0 INDOORS
+D2
+a gapeing hole riped into the wall 
+~
+~
+0 -1 5078
+D1
+a gapeing hole riped into the wall 
+~
+~
+0 -1 5079
+D3
+a gapeing hole riped into the wall 
+~
+~
+0 -1 5081
+D5
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5090
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5058
+S
+#5081
+SubUnit-7~
+   You are standing in a blood coverd circular room shreded rubble is 
+everywhere, the spiral lift going Up is CRUSHED! The deeply clawed walls are 
+lined with fold down beds and compartments, save the gapeing hole East. In 
+the center of the room is a hatch leading Down,it looks as if it had been 
+once forced open. 
+~
+18 0 INDOORS
+D1
+a gapeing hole riped into the wall 
+~
+~
+0 -1 5080
+D5
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5091
+S
+#5082
+SubUnit-6~
+   You are standing in a large circular room split by low walls into Entry, 
+Kitchen, Dining, and Family areas, a spiral lift goes Up to the entry hatch. 
+The walls are lined with fold down beds and compartments. in the center of 
+the room is a hatch leading Down. 
+~
+18 0 INDOORS
+D5
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5092
+D4
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5056
+S
+#5083
+SubUnit-5~
+   You are standing in a large circular room split by low walls into Entry, 
+Kitchen, Dining, and Family areas, a spiral lift goes Up to the entry hatch. 
+The walls are lined with fold down beds and compartments. in the center of 
+the room is a hatch leading Down. 
+~
+18 0 INDOORS
+D5
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5093
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5054
+S
+#5084
+SubUnit-4~
+   You are standing in a large circular room split by low walls into Entry, 
+Kitchen, Dining, and Family areas, a spiral lift goes Up to the entry hatch. 
+The walls are lined with fold down beds and compartments. in the center of 
+the room is a hatch leading Down. 
+~
+18 0 INDOORS
+D5
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5094
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5053
+S
+#5085
+SubUnit-3~
+   You are standing in a large circular room split by low walls into Entry, 
+Kitchen, Dining, and Family areas, a spiral lift goes Up to the entry hatch. 
+The walls are lined with fold down beds and compartments. in the center of 
+the room is a hatch leading Down. 
+~
+18 0 INDOORS
+D5
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5095
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5041
+S
+#5086
+SubUnit-2~
+   You are standing in a large circular room split by low walls into Entry, 
+Kitchen, Dining, and Family areas, a spiral lift goes Up to the entry hatch. 
+The walls are lined with fold down beds and compartments. in the center of 
+the room is a hatch leading Down. 
+~
+18 0 INDOORS
+D5
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5096
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5052
+S
+#5087
+SubUnit-1~
+   You are standing in a large circular room split by low walls into Entry, 
+Kitchen, Dining, and Family areas, a spiral lift goes Up to the entry hatch. 
+The walls are lined with fold down beds and compartments. in the center of 
+the room is a hatch leading Down. 
+~
+18 0 INDOORS
+D5
+a hatch
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5097
+D4
+a hatch
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5009
+S
+#5088
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably, 
+not that you would want to seeing as it is filled with blood soaked shreded 
+plasti-foam. The hatch leading Up looks like its seen alot of stress. 
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5078
+S
+#5089
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5079
+S
+#5090
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5080
+S
+#5091
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|CLOSED|ELECTRONIC -1 5081
+S
+#5092
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5082
+S
+#5093
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5083
+S
+#5094
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5084
+S
+#5095
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5085
+S
+#5096
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5086
+S
+#5097
+Masters Quarters~
+   This small circular room could fit no more than five adults comfortably. 
+It is mostly bed with compartments all along the wall stoping only for the 
+sink and toilet. A hatch leads Up.
+~
+18 SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a hatch 
+~
+~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5087
+S
+#5098
+a dark passage~
+There is a small light in this dim tubular hall lined wires and tubes of 
+hundreds of sizes, colors, and tempratures. It continues East and has a well 
+hidden BlastDoor WEST. 
+~
+18 NOMOB|NOWEATHER|SMALL|PRIVATE INDOORS
+D3
+a HEAVY black blastdoor 
+~
+blastdoor door~
+ISDOOR|PICKPROOF|CLOSED|HIDDEN|ELECTRONIC|NOPHASE -1 5048
+D1
+~
+~
+0 -1 5099
+S
+#5099
+a dark passage~
+  This dark tubular hall is lined with wires and tubes of hundreds of sizes, 
+colors, and tempratures. It continues East and West. 
+~
+18 DARK|NOWEATHER|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+~
+~
+0 -1 5098
+D1
+~
+~
+0 -1 5100
+D4
+~
+~
+HIDDEN -1 5106
+S
+#5100
+a dark intersection~
+  There is a small Yellow light in this5 way crossing, tubular halls lined 
+with wires and tubes of hundreds of sizes, colors, and tempratures continue 
+into blackness North East South West and Up. 
+~
+18 NOWEATHER|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+~
+~
+0 -1 5099
+D0
+~
+~
+0 -1 5101
+D1
+~
+~
+0 -1 5102
+D2
+~
+~
+0 -1 5103
+D4
+~
+~
+0 -1 5104
+D5
+~
+trapdoor~
+ISDOOR|LOCKED|CLOSED|HIDDEN|NOPHASE -1 5105
+S
+#5101
+a dark passage~
+  This dark tubular hall is lined with wires and tubes of hundreds of sizes, 
+colors, and tempratures. It continues South a hatch is West.
+~
+18 DARK|NOWEATHER|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+a black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 5107
+D2
+~
+~
+0 -1 5100
+S
+#5102
+a dark passage~
+  This dark tubular hall is lined with wires and tubes of hundreds of sizes, 
+colors, and tempratures. It continues West a hatch is East.
+~
+18 DARK|NOWEATHER|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D1
+a black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 5111
+D3
+~
+~
+0 -1 5100
+S
+#5103
+a dark passage~
+  This dark tubular hall is lined with wires and tubes of hundreds of sizes, 
+colors, and tempratures. It continues North a hatch is West.
+~
+18 DARK|NOWEATHER|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+a black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 5109
+D0
+~
+~
+0 -1 5100
+S
+#5104
+a dark passage~
+  This dark tubular hall is lined with wires and tubes of hundreds of sizes, 
+colors, and tempratures. It continues Down a strange darkness is East.
+~
+18 DARK|NOWEATHER|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D1
+~
+~
+HIDDEN -1 5112
+D5
+~
+~
+0 -1 5100
+S
+#5105
+a hidden compartment~
+  This small dim area is nicely sealed and padded.                           
+        ......now how do you get OUT! 
+~
+18 DARK|NOWEATHER|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+~
+trapdoor~
+ISDOOR|LOCKED|CLOSED|HIDDEN|NOPHASE -1 5100
+S
+#5106
+a drone compartment~
+  You are amazed at the amount of brackets tools and exposed wires here, you 
+can hardly see back Down where you came from! 
+~
+18 NOWEATHER|SMALL|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D5
+~
+~
+HIDDEN -1 5099
+S
+#5107
+Engine Room~
+  This small octagonal room is full of computers with Alien readouts, You 
+can't seem understand any of it. A hatch is East or you can pass into the 
+Glowing Yellow Field to your West. 
+~
+18 NOWEATHER|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+a ^yGlowing ^cfield. 
+~
+~
+0 -1 5108
+D1
+a black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 5101
+S
+#5108
+An ^rEngine ^w!^r!^w!~
+^r  You are standing in a ^wVaccuum!^r, machine parts lung in and out from 
+every angle. The center of the room houses a masive repair droid. A 
+^yglowing ^rfield is East. 
+~
+18 NOWEATHER|SMALL|PRIVATE|VACUUM|NOTELEPORTOUT|NOTELEPORTIN VACUUM
+D1
+a ^yGlowing ^cfield. 
+~
+~
+0 -1 5107
+S
+#5109
+Engine Room~
+  This small octagonal room is full of computers with Alien readouts, You 
+can't seem understand any of it. A hatch is East or you can pass into the 
+Glowing Yellow Field to your West. 
+~
+18 NOWEATHER|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+a ^yGlowing ^cfield. 
+~
+~
+0 -1 5110
+D1
+a black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 5103
+S
+#5110
+An ^rEngine ^w!^r!^w!~
+^r  You are standing in a ^wVaccuum!^r, machine parts lung in and out from 
+every angle. The center of the room houses a masive repair droid. A 
+^yglowing ^rfield is East. 
+~
+18 NOWEATHER|SMALL|PRIVATE|VACUUM|NOTELEPORTOUT|NOTELEPORTIN VACUUM
+D1
+a ^yGlowing ^cfield. 
+~
+~
+0 -1 5109
+S
+#5111
+Coman Room~
+  
+~
+18 NOWEATHER|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+a black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|CLOSED|ELECTRONIC -1 5102
+S
+#5112
+The Map Room~
+  Ahh the Universe laid out before you in 4 mind spinning gut wrenching 
+dimmintions now if it would just stop moving you MAY be able to stay just a 
+bit longer! You don't see the way you came in OR a way out! 
+~
+18 NOWEATHER|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D1
+~
+~
+HIDDEN -1 5113
+D3
+~
+~
+HIDDEN -1 5104
+E
+Orion~
+
+^b * * * * * * * * * * * * * * * * *
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b * ^y><  ^YCourse ^rUN^Ycalcolatable  ^y>< ^b*
+^b * ^y>< ^PUNKNOWN DATA ^aCORRUPTION ^y>< ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b * * * * * * * * * * * * * * * * *
+~
+E
+Sol~
+
+^b * * * * * * * * * * * * * * * * *
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b * ^y><  ^YCourse ^rUN^Ycalcolatable  ^y>< ^b*
+^b * ^y>< ^PUNKNOWN DATA ^aCORRUPTION ^y>< ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b * * * * * * * * * * * * * * * * *
+~
+E
+AlfaCentauri~
+
+^b * * * * * * * * * * * * * * * * *
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b * ^y><  ^YCourse ^rUN^Ycalcolatable  ^y>< ^b*
+^b * ^y>< ^PUNKNOWN DATA ^aCORRUPTION ^y>< ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b * * * * * * * * * * * * * * * * *
+~
+E
+Delta9~
+
+^b * * * * * * * * * * * * * * * * *
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b * ^y><  ^YCourse ^rUN^Ycalcolatable  ^y>< ^b*
+^b * ^y>< ^PUNKNOWN DATA ^aCORRUPTION ^y>< ^b*
+^b * ^y><         >< ^g* ^y><         >< ^b*
+^b *    ^y>< ^g* ^y>< ^rWARNING ^y>< ^g* ^y><    ^b*
+^b * ^y>< ^rWARNING ^y>< ^g* ^y>< ^rWARNING ^y>< ^b*
+^b * * * * * * * * * * * * * * * * *
+~
+S
+#5113
+The Command Deck~
+~
+18 NOMOB|NOWEATHER|PRIVATE|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D3
+~
+~
+HIDDEN -1 5112
+D5
+a  black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5114
+S
+#5114
+Oriks' Cabin~
+~
+18 NOWEATHER|SMALL|NOTELEPORTOUT|NOTELEPORTIN INDOORS
+D4
+a  black hatch with a touchplate in the center. 
+~
+hatch~
+ISDOOR|LOCKED|CLOSED|ELECTRONIC -1 5113
+S
+#5115
+A Healthy Rant~
+     In the beginning, that which^w Is ^1is all there was, and there was 
+nothing else.  Yet All That ^w Is ^1could not know itself --- because All 
+That^w Is ^1is all there was, and there was nothing else. And so, All That^w 
+Is ^1was^a not^1. For in the absence of something else, All That^w Is^1, 
+is^a not^1.         This is the great^w Is^r/^aNot ^1Is to which mystics 
+have referred from the beginning of time.         Now All That^w Is ^1knew 
+it was all there^W was^1---but this was not enough, for it could only know 
+its^r utter^y magnificence^W conceptually^1, not experientially.  Yet the 
+experience of itself is that for which it longed, for it wanted to know what 
+it felt like to be so magnificent.  Still, this was impossible, because the 
+very term "magnificent" is a relative term.  All That Is could not know what 
+it felt like to be magnificent unless that which  is not showed up.  In the 
+absence of that which is not, that which IS, is not. The one thing that All 
+That Is knew is that there was nothing else.  And so It could, and would, 
+never know Itself from a reference point outside of Itself.  Such a point 
+did not exist.  Only one reference point existed, and that was the single 
+place within.  The "Is-Not Is."  The Am-Not Am.         Still, the All of 
+Everything chose to know Itself experientially.         This energy --- this 
+pure, unseen, unheard, unobserved, and therefore unknown-by-anyone-else 
+energy --- chose to experience Itself as the utter magnificence It was.  In 
+order to do this, It realized It would have to use a reference point within. 
+It reasoned, quite correctly, that any portion of Itself would n less than 
+the whole, could look back on the rest of Itself and see magnificence. 
+~
+18 0 VACUUM
+D5
+~
+~
+0 -1 5116
+S
+#5116
+A Healthy Rant~
+And so All That Is divided Itself --- becoming, in one glorious moment, that 
+which is this, and that which is that. For the first time, this and that 
+existed, quite apart from each other.  And still, both existed 
+simultaneously.  As did all that was neither. Thus, three elements suddenly 
+existed: that which is here. That which is there.  And that which is neither 
+here nor there --- but which must exist for here and there to exist.         
+It is the nothing which holds the everything. It is the non-space which hold 
+the space.  It is the all which holds the parts. Now this nothing which hold 
+the everything is what some people call God.  Yet that is not accurate, 
+either, for it suggests that there is something God is not --- namely, 
+everything that is not "nothing."  But I am All Things --- seen and unseen 
+--- so this description of Me as the Great Unseen --- the No-Thing, or the 
+Space Between, and essentially Eastern mystical definition of God, is not 
+more accurate than the essentially Western practical description of God as 
+all that is seen.  Those who believe that God is All That Is and All That Is 
+Not, are those whose understanding is correct.         Now in creating that 
+which is "here" and that which is "there," God made it possible for God to 
+Know Itself.  In the moment of this great Explosion from within, God created 
+relativity --- the greatest gift God ever gave to Itself.  Thus, 
+relationship is the greatest gift God ever gave to you.         From the 
+No-Thing thus sprang the Everything --- a spiritual event entirely 
+consistent, incidentally, with what your scientists call The Big Bang 
+Theory. As the elements of all raced forth, time was created, for a thing 
+was first here, then it was there ---and the period it took to get from here 
+to there was measurable. Just as the parts of Itself which are seen began to 
+define themselves, "relative" to each other, so too, did the parts which are 
+unseen. God knew that for love to exist --- and to know itself as pure love 
+--- its exact opposite had to exist as well.  So God voluntarily created the 
+great polarity --- the absolute opposite of love --- everything that love is 
+not --- what is now called fear.  In the moment fear existed, love could 
+exist as a thing that could be experienced. It is this creation of duality 
+between love and its opposite which humans refer to in their various 
+mythologies as the birth of evil,  the fall of Adam, the rebellion of Satan, 
+and so forth.         Just as you have chosen to personify pure love as the 
+character you call God, so have you chosen to personify abject fear as the 
+character you call the devil.
+~
+18 0 VACUUM
+D4
+~
+~
+0 -1 5115
+D5
+~
+~
+0 -1 5117
+S
+#5117
+A Healthy Rant~
+Some on Earth have established rather elaborate mythologies around this 
+event, complete with scenarios of battles and war, angelic soldiers and 
+devilish warriors, the forces of good and evil, of light and dark. This 
+mythology has been mankind's early attempt to understand, and tell others in 
+a way they could understand, a cosmic occurrence of which the human soul is 
+deeply aware, but of which the mind can barely concieve. In rendering the 
+universe as a divided version of Itself, God produced, from pure energy, all 
+that now exists --- both seen and unseen. In other words, not only was the 
+physical universe thus created, but the metaphysical universe as well. The 
+part of God which forms the second half of the Am/Not Am equation also 
+exploded into an infinite number of unites smaller than the whole.  These 
+energy units you would call spirits.         In some of you religious 
+mythologies it is stated that "God the Father" had many spirit children. 
+This parallel to the human experiences of life multiplying itself seems to 
+be the only way the masses could be made to hold in reality the idea of the 
+sudden appearance --- the sudden existence of countless spirits in the 
+"Kingdom of Heaven." In this instance, your mythical tales and stories are 
+not so far from ultimate reality --- for the endless spirits comprising the 
+totality of Me are, in a cosmic sense, My offspring. My divine purpose in 
+dividing Me was to create sufficient parts of Me so that I could know Myself 
+experientially.  There is only one way for the Creator to know Itself 
+experientially as the Creator, and that is to create.  And so I gave to each 
+of the countless parts of Me (to all of my spirit children) the same power 
+to create which I have as the whole.         This is what your religions 
+mean when they say that you were created in the "image and likeness of God." 
+ This doesn't mean, as some have suggested, that our physical bodies look 
+alike (although God can adopt whatever physical form God chooses for a 
+particular purpose).  It does mean that our essence is the same. We are 
+composed of the same stuff.  We ARE the "same stuff"!  With all the same 
+properties, and abilities --- including the ability to create physical 
+reality out of thin air.         My purpose in creating you, My spiritual 
+offspring, was for Me to know Myself as God.  I have no way to do that save 
+through you.  Thus it can be said (and has been, many times) that My purpose 
+for you is that you should know yourself as Me. This seems so amazingly 
+simple, yet it becomes very complex --- because there is only one way for 
+you to know yourself as Me --- and that is for you first to know yourself as 
+not Me.
+~
+18 0 VACUUM
+D4
+~
+~
+0 -1 5116
+S

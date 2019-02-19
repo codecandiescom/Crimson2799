@@ -1,0 +1,2437 @@
+#7200
+Drainage Pipe~
+You are in a long dark pipe that seems to never end. There are deep drainage 
+pits to either side of you and up ahead you see light pouring through what 
+might be a crack, or better yet, a way out 
+~
+24 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 7201
+S
+#7201
+Drainage Pipe~
+You are in a long dark pipe that seems to never end. There are deep drainage 
+pits to either side of you and up ahead you see light pouring through what 
+might be a crack, or better yet, a way out 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7206
+D2
+~
+~
+0 -1 7200
+D1
+~
+~
+0 -1 7207
+D0
+~
+~
+0 -1 7202
+S
+#7202
+Drainage Pipe~
+You are in a long dark pipe that seems to never end. There are deep drainage 
+pits to either side of you and up ahead you see light pouring through what 
+might be a crack, or better yet, a way out 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7208
+D2
+~
+~
+0 -1 7201
+D1
+~
+~
+0 -1 7209
+D0
+~
+~
+0 -1 7203
+S
+#7203
+Drainage Pipe~
+You are in a long dark pipe that seems to never end. There are deep drainage 
+pits to either side of you and up ahead you see light pouring through what 
+might be a crack, or better yet, a way out 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7210
+D2
+~
+~
+0 -1 7202
+D1
+~
+~
+0 -1 7211
+D0
+~
+~
+0 -1 7204
+S
+#7204
+Drainage Pipe~
+You are in a long dark pipe that seems to never end. There are deep drainage 
+pits to either side of you and up ahead you see light pouring through what 
+might be a crack, or better yet, a way out 
+~
+24 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 7217
+D3
+~
+~
+0 -1 7212
+D2
+~
+~
+0 -1 7203
+D1
+~
+~
+0 -1 7213
+D0
+~
+~
+0 -1 7205
+S
+#7205
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7206
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7207
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7208
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7209
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7210
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7211
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7212
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7213
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7214
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7215
+Drainage Pit~
+It's a loooong fall, and just when you think it will never end... *SPLAT* 
+... 
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN CITY-OUTSIDE
+S
+#7216
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7267
+D1
+~
+~
+0 -1 7249
+D0
+~
+~
+0 -1 7217
+S
+#7217
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 NOMOB CITY-OUTSIDE
+D5
+~
+~
+0 -1 7204
+D2
+~
+~
+0 -1 7216
+D1
+~
+~
+0 -1 7266
+D0
+~
+~
+0 -1 7218
+S
+#7218
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7217
+D1
+~
+~
+0 -1 7265
+D0
+~
+~
+0 -1 7219
+S
+#7219
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7218
+D1
+~
+~
+0 -1 7264
+D0
+~
+~
+0 -1 7220
+S
+#7220
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7219
+D1
+~
+~
+0 -1 7263
+D0
+~
+~
+0 -1 7221
+S
+#7221
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7220
+D1
+~
+~
+0 -1 7262
+D0
+~
+~
+0 -1 7222
+S
+#7222
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7221
+D1
+~
+~
+0 -1 7261
+D0
+~
+~
+0 -1 7223
+S
+#7223
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7222
+D1
+~
+~
+0 -1 7260
+D0
+~
+~
+0 -1 7224
+S
+#7224
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7223
+D1
+~
+~
+0 -1 7259
+D0
+~
+~
+0 -1 7225
+S
+#7225
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7224
+D1
+~
+~
+0 -1 7258
+D0
+~
+~
+0 -1 7226
+S
+#7226
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7225
+D1
+~
+~
+0 -1 7227
+D0
+~
+~
+0 -1 7257
+S
+#7227
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7226
+D2
+~
+~
+0 -1 7258
+D1
+~
+~
+0 -1 7228
+D0
+~
+~
+0 -1 7256
+S
+#7228
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7227
+D2
+~
+~
+0 -1 7288
+D1
+~
+~
+0 -1 7229
+D0
+~
+~
+0 -1 7255
+S
+#7229
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7228
+D2
+~
+~
+0 -1 7289
+D1
+~
+~
+0 -1 7230
+D0
+~
+~
+0 -1 7254
+S
+#7230
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7229
+D2
+~
+~
+0 -1 7290
+D1
+~
+~
+0 -1 7231
+D0
+~
+~
+0 -1 7253
+S
+#7231
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7230
+D2
+~
+~
+0 -1 7291
+D1
+~
+~
+0 -1 7232
+D0
+~
+~
+0 -1 7252
+S
+#7232
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7231
+D2
+~
+~
+0 -1 7292
+D1
+~
+~
+0 -1 7233
+D0
+~
+~
+0 -1 7251
+S
+#7233
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7232
+D2
+~
+~
+0 -1 7234
+D1
+~
+~
+0 -1 7286
+D0
+~
+~
+0 -1 7250
+S
+#7234
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7292
+D2
+~
+~
+0 -1 7235
+D1
+~
+~
+0 -1 7285
+D0
+~
+~
+0 -1 7233
+S
+#7235
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7293
+D2
+~
+~
+0 -1 7236
+D1
+~
+~
+0 -1 7284
+D0
+~
+~
+0 -1 7234
+S
+#7236
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7294
+D2
+~
+~
+0 -1 7237
+D1
+~
+~
+0 -1 7283
+D0
+~
+~
+0 -1 7235
+S
+#7237
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7295
+D2
+~
+~
+0 -1 7238
+D1
+~
+~
+0 -1 7282
+D0
+~
+~
+0 -1 7236
+S
+#7238
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7296
+D2
+~
+~
+0 -1 7239
+D1
+~
+~
+0 -1 7281
+D0
+~
+~
+0 -1 7237
+S
+#7239
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7297
+D2
+~
+~
+0 -1 7240
+D1
+~
+~
+0 -1 7280
+D0
+~
+~
+0 -1 7238
+S
+#7240
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7298
+D2
+~
+~
+0 -1 7241
+D1
+~
+~
+0 -1 7279
+D0
+~
+~
+0 -1 7239
+S
+#7241
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7299
+D2
+~
+~
+0 -1 7242
+D1
+~
+~
+0 -1 7278
+D0
+~
+~
+0 -1 7240
+S
+#7242
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7300
+D2
+~
+~
+0 -1 7243
+D1
+~
+~
+0 -1 7277
+D0
+~
+~
+0 -1 7241
+S
+#7243
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7244
+D2
+~
+~
+0 -1 7274
+D1
+~
+~
+0 -1 7276
+D0
+~
+~
+0 -1 7242
+S
+#7244
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7245
+D2
+~
+~
+0 -1 7273
+D1
+~
+~
+0 -1 7243
+D0
+~
+~
+0 -1 7300
+S
+#7245
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7246
+D2
+~
+~
+0 -1 7272
+D1
+~
+~
+0 -1 7244
+D0
+~
+~
+0 -1 7301
+S
+#7246
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7247
+D2
+~
+~
+0 -1 7271
+D1
+~
+~
+0 -1 7245
+D0
+~
+~
+0 -1 7302
+S
+#7247
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7248
+D2
+~
+~
+0 -1 7270
+D1
+~
+~
+0 -1 7246
+D0
+~
+~
+0 -1 7303
+S
+#7248
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7249
+D2
+~
+~
+0 -1 7269
+D1
+~
+~
+0 -1 7247
+D0
+~
+~
+0 -1 7304
+S
+#7249
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7216
+D2
+~
+~
+0 -1 7268
+D1
+~
+~
+0 -1 7248
+D0
+~
+~
+0 -1 7266
+S
+#7250
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7251
+D2
+~
+~
+0 -1 7233
+D1
+~
+~
+0 -1 7287
+S
+#7251
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7252
+D2
+~
+~
+0 -1 7232
+D1
+~
+~
+0 -1 7250
+S
+#7252
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7253
+D2
+~
+~
+0 -1 7231
+D1
+~
+~
+0 -1 7251
+S
+#7253
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7254
+D2
+~
+~
+0 -1 7230
+D1
+~
+~
+0 -1 7252
+S
+#7254
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7255
+D2
+~
+~
+0 -1 7229
+D1
+~
+~
+0 -1 7253
+S
+#7255
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7256
+D2
+~
+~
+0 -1 7228
+D1
+~
+~
+0 -1 7254
+S
+#7256
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7257
+D2
+~
+~
+0 -1 7227
+D1
+~
+~
+0 -1 7255
+S
+#7257
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7226
+D1
+~
+~
+0 -1 7256
+S
+#7258
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7225
+D2
+~
+~
+0 -1 7259
+D1
+~
+~
+0 -1 7288
+D0
+~
+~
+0 -1 7227
+S
+#7259
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7224
+D2
+~
+~
+0 -1 7260
+D1
+~
+~
+0 -1 7311
+D0
+~
+~
+0 -1 7258
+S
+#7260
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7223
+D2
+~
+~
+0 -1 7261
+D1
+~
+~
+0 -1 7310
+D0
+~
+~
+0 -1 7259
+S
+#7261
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7222
+D2
+~
+~
+0 -1 7262
+D1
+~
+~
+0 -1 7309
+D0
+~
+~
+0 -1 7260
+S
+#7262
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7221
+D2
+~
+~
+0 -1 7263
+D1
+~
+~
+0 -1 7308
+D0
+~
+~
+0 -1 7261
+S
+#7263
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7220
+D2
+~
+~
+0 -1 7264
+D1
+~
+~
+0 -1 7307
+D0
+~
+~
+0 -1 7262
+S
+#7264
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7219
+D2
+~
+~
+0 -1 7265
+D1
+~
+~
+0 -1 7306
+D0
+~
+~
+0 -1 7263
+S
+#7265
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7218
+D2
+~
+~
+0 -1 7266
+D1
+~
+~
+0 -1 7305
+D0
+~
+~
+0 -1 7264
+S
+#7266
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7217
+D2
+~
+~
+0 -1 7249
+D1
+~
+~
+0 -1 7304
+D0
+~
+~
+0 -1 7265
+S
+#7267
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 7268
+D0
+~
+~
+0 -1 7216
+S
+#7268
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7267
+D1
+~
+~
+0 -1 7269
+D0
+~
+~
+0 -1 7249
+S
+#7269
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7268
+D1
+~
+~
+0 -1 7270
+D0
+~
+~
+0 -1 7248
+S
+#7270
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7269
+D1
+~
+~
+0 -1 7271
+D0
+~
+~
+0 -1 7247
+S
+#7271
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7270
+D1
+~
+~
+0 -1 7272
+D0
+~
+~
+0 -1 7246
+S
+#7272
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7271
+D1
+~
+~
+0 -1 7273
+D0
+~
+~
+0 -1 7245
+S
+#7273
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7272
+D1
+~
+~
+0 -1 7274
+D0
+~
+~
+0 -1 7244
+S
+#7274
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7273
+D1
+~
+~
+0 -1 7275
+D0
+~
+~
+0 -1 7243
+S
+#7275
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7274
+D0
+~
+~
+0 -1 7276
+S
+#7276
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7243
+D2
+~
+~
+0 -1 7275
+D0
+~
+~
+0 -1 7277
+S
+#7277
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7242
+D2
+~
+~
+0 -1 7276
+D0
+~
+~
+0 -1 7278
+S
+#7278
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7241
+D2
+~
+~
+0 -1 7277
+D0
+~
+~
+0 -1 7279
+S
+#7279
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7240
+D2
+~
+~
+0 -1 7278
+D0
+~
+~
+0 -1 7280
+S
+#7280
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7239
+D2
+~
+~
+0 -1 7279
+D0
+~
+~
+0 -1 7281
+S
+#7281
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7238
+D2
+~
+~
+0 -1 7280
+D0
+~
+~
+0 -1 7282
+S
+#7282
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7237
+D2
+~
+~
+0 -1 7281
+D0
+~
+~
+0 -1 7283
+S
+#7283
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7236
+D2
+~
+~
+0 -1 7282
+D0
+~
+~
+0 -1 7284
+S
+#7284
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7235
+D2
+~
+~
+0 -1 7283
+D0
+~
+~
+0 -1 7285
+S
+#7285
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7234
+D2
+~
+~
+0 -1 7284
+D0
+~
+~
+0 -1 7286
+S
+#7286
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7233
+D2
+~
+~
+0 -1 7285
+D0
+~
+~
+0 -1 7287
+S
+#7287
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7250
+D2
+~
+~
+0 -1 7286
+D0
+~
+~
+0 -1 7316
+S
+#7288
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7258
+D2
+~
+~
+0 -1 7311
+D1
+~
+~
+0 -1 7289
+D0
+~
+~
+0 -1 7228
+S
+#7289
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7288
+D1
+~
+~
+0 -1 7290
+D0
+~
+~
+0 -1 7229
+D2
+~
+~
+0 -1 7319
+S
+#7290
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7289
+D1
+~
+~
+0 -1 7291
+D0
+~
+~
+0 -1 7230
+D2
+~
+~
+0 -1 7319
+S
+#7291
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7290
+D1
+~
+~
+0 -1 7292
+D0
+~
+~
+0 -1 7231
+D2
+~
+~
+0 -1 7319
+S
+#7292
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7291
+D2
+~
+~
+0 -1 7293
+D1
+~
+~
+0 -1 7234
+D0
+~
+~
+0 -1 7232
+S
+#7293
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7294
+D1
+~
+~
+0 -1 7235
+D0
+~
+~
+0 -1 7292
+D3
+~
+~
+0 -1 7319
+S
+#7294
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7295
+D1
+~
+~
+0 -1 7236
+D0
+~
+~
+0 -1 7293
+D3
+~
+~
+0 -1 7319
+S
+#7295
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7296
+D1
+~
+~
+0 -1 7237
+D0
+~
+~
+0 -1 7294
+D3
+~
+~
+0 -1 7319
+S
+#7296
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7297
+D1
+~
+~
+0 -1 7238
+D0
+~
+~
+0 -1 7295
+D3
+~
+~
+0 -1 7319
+S
+#7297
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7298
+D1
+~
+~
+0 -1 7239
+D0
+~
+~
+0 -1 7296
+D3
+~
+~
+0 -1 7319
+S
+#7298
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7299
+D1
+~
+~
+0 -1 7240
+D0
+~
+~
+0 -1 7297
+D3
+~
+~
+0 -1 7319
+S
+#7299
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7300
+D1
+~
+~
+0 -1 7241
+D0
+~
+~
+0 -1 7298
+D3
+~
+~
+0 -1 7319
+S
+#7300
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7301
+D2
+~
+~
+0 -1 7244
+D1
+~
+~
+0 -1 7242
+D0
+~
+~
+0 -1 7299
+S
+#7301
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7302
+D2
+~
+~
+0 -1 7245
+D1
+~
+~
+0 -1 7300
+D0
+~
+~
+0 -1 7319
+S
+#7302
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7303
+D2
+~
+~
+0 -1 7246
+D1
+~
+~
+0 -1 7301
+D0
+~
+~
+0 -1 7319
+S
+#7303
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7304
+D2
+~
+~
+0 -1 7247
+D1
+~
+~
+0 -1 7302
+D0
+~
+~
+0 -1 7319
+S
+#7304
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7266
+D2
+~
+~
+0 -1 7248
+D1
+~
+~
+0 -1 7303
+D0
+~
+~
+0 -1 7305
+S
+#7305
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7265
+D2
+~
+~
+0 -1 7304
+D0
+~
+~
+0 -1 7306
+D1
+~
+~
+0 -1 7319
+S
+#7306
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7264
+D2
+~
+~
+0 -1 7305
+D0
+~
+~
+0 -1 7307
+D1
+~
+~
+0 -1 7319
+S
+#7307
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7263
+D2
+~
+~
+0 -1 7306
+D0
+~
+~
+0 -1 7308
+D1
+~
+~
+0 -1 7319
+S
+#7308
+Bridge to Center Cliff~
+You are on an old wooden bridge leading to the center cliff. It looks and 
+sounds a little out of shape but it seems safe to cross on 
+~
+24 NOMOB CITY-OUTSIDE
+D3
+~
+~
+0 -1 7262
+D2
+~
+~
+0 -1 7307
+D1
+~
+~
+0 -1 7315
+D0
+~
+~
+0 -1 7309
+S
+#7309
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7261
+D2
+~
+~
+0 -1 7308
+D0
+~
+~
+0 -1 7310
+D1
+~
+~
+0 -1 7319
+S
+#7310
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7260
+D2
+~
+~
+0 -1 7309
+D0
+~
+~
+0 -1 7311
+D1
+~
+~
+0 -1 7319
+S
+#7311
+On Top of The Mountain~
+You are on top of a gigantic circular mountain, but it looks more like a big 
+crator with a cliff in the center and a large pillar on top. Perhaps this 
+place was once hit by a huge doughnut 
+~
+24 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 7259
+D2
+~
+~
+0 -1 7310
+D0
+~
+~
+0 -1 7288
+D1
+~
+~
+0 -1 7319
+S
+#7312
+The Center Cliff~
+You are on the cliff in middle of this large mountain at the base of the 
+terrarium observatory. There is a small stone staircase leading up to the 
+top of the observatory 
+~
+24 NOMOB CITY-OUTSIDE
+D4
+~
+~
+0 -1 7313
+D3
+~
+~
+0 -1 7315
+S
+#7313
+On The Staircase~
+You are on the stone staircase leading to the top of the observatory. You 
+can hear the soft buzzing of electronic equipment and bussling about of 
+workers just above you 
+~
+24 NOMOB CITY-OUTSIDE
+D5
+~
+~
+0 -1 7312
+D4
+~
+~
+0 -1 7314
+S
+#7314
+The Observatory~
+Unlike the obsvervatories of other terrariums you have seen this one is 
+filled with people and equipment. The Terrans use this observatory to 
+communicate with their ground teams inside of the terrarim 
+~
+24 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 7313
+D4
+~
+~
+ISDOOR|CLOSED -1 7318
+S
+#7315
+Bridge to Center Cliff~
+You are on an old wooden bridge leading to the center cliff. It looks and 
+sounds a little out of shape but it seems safe to cross on 
+~
+24 NOMOB CITY-OUTSIDE
+D3
+~
+~
+0 -1 7308
+D1
+~
+~
+0 -1 7312
+S
+#7316
+Path to Exploration Camp~
+Ahead of you is a desolate, abandoned camp site formerly used by Team Alpha. 
+You've heard the rumors about the 6 foot bugs, but the question is, do you 
+believe them? 
+~
+24 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 7287
+D1
+~
+~
+0 -1 7317
+S
+#7317
+Path to Exploration Camp~
+Ahead of you is a desolate, abandoned camp site formerly used by Team Alpha. 
+You've heard the rumors about the 6 foot bugs, but the question is, do you 
+believe them? 
+~
+24 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 7000
+D3
+~
+~
+0 -1 7316
+S
+#7318
+Storage Room~
+You are in a small storage room that obviously hasn't been kept up to date 
+as there is a 1 inch coat of dust covering the room 
+~
+24 0 INDOORS
+D5
+~
+~
+ISDOOR -1 7314
+S
+#7319
+Bottom of cliff~
+Of all the wrong turns you could have taken in this place you had to pick 
+the worst
+~
+24 DEATHTRAP|NOMOB|NOTELEPORTOUT|NOTELEPORTIN MOUNTAIN
+S

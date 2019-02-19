@@ -1,0 +1,21 @@
+# Help Table for Crimson2 Mud Server
+# copyright 1995 Ryan Haksi
+# entries are in the form
+# filename <editor list>~
+#
+# remember when editing the help files themselves that the keywords
+# listed must be in alphabetical order
+#
+# NOTE: spaces are IMPORTANT! Not the number, but the fact they are there!!!
+# PAD EVERYTHING WITH SPACES!
+#
+intro.hlp         corbin   0 ~
+chargen.hlp       cryogen  0 ~
+command.hlp       cryogen  0 ~
+concept.hlp       cryogen  0 ~
+edit.hlp          corbin   0 ~
+zone.hlp          corbin   GODONLY ~
+areaedit.hlp      cryogen  GODONLY ~
+c4.hlp            corbin   GODONLY ~
+c4appdx.hlp       corbin   GODONLY ~
+$

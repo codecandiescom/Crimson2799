@@ -1,0 +1,1190 @@
+#400
+Docking Bay Upsilon Entrance~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 405
+D2
+~
+~
+0 -1 401
+D0
+~
+~
+0 -1 412
+S
+#401
+Docking Bay Upsilon Entrance~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space. Far to
+the west is a huge set of doors.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 404
+D2
+~
+~
+0 -1 402
+D0
+~
+~
+0 -1 400
+S
+#402
+Docking Bay Upsilon Entrance~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 403
+D2
+~
+~
+0 -1 420
+D0
+~
+~
+0 -1 401
+S
+#403
+Docking Bay Upsilon Floor~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 408
+D1
+~
+~
+0 -1 402
+D0
+~
+~
+0 -1 404
+S
+#404
+Docking Bay Upsilon by Ore~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space. Fare
+to the west is a huge set of doors. A huge mound of meteroid ore is here.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 403
+D1
+~
+~
+0 -1 401
+D0
+~
+~
+0 -1 405
+S
+#405
+Docking Bay Upsilon Floor~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 406
+D2
+~
+~
+0 -1 404
+D1
+~
+~
+0 -1 400
+S
+#406
+Docking Bay Upsilon Floor~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 411
+D2
+~
+~
+0 -1 407
+D1
+~
+~
+0 -1 405
+D0
+~
+~
+0 -1 414
+S
+#407
+Docking Bay Upsilon by Ore~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space. To the
+west is a huge set of doors. Immediately to your east a huge pile of meteoroid 
+ore blocks the way.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 410
+D2
+~
+~
+0 -1 408
+D0
+~
+~
+0 -1 406
+S
+#408
+Docking Bay Upsilon Floor~
+  You are standing in a huge dimly lit room. To the east a glowing blue force 
+field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 409
+D2
+~
+~
+0 -1 422
+D1
+~
+~
+0 -1 403
+D0
+~
+~
+0 -1 407
+S
+#409
+Docking Bay Upsilon Floor~
+  You are standing in a huge dimly lit room. Far to the east a glowing blue 
+force field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 423
+D1
+~
+~
+0 -1 408
+D0
+~
+~
+0 -1 410
+S
+#410
+Entrance to Docking Bay Upsilon~
+  You are standing in a huge dimly lit room. Far to the east a glowing blue 
+force field seals off the room, beyond it you can see the stars of deep space. 
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+Immediately to the west is a huge set of doors. 
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 428
+D2
+~
+~
+0 -1 409
+D1
+~
+~
+0 -1 407
+D0
+~
+~
+0 -1 411
+S
+#411
+Docking Bay Upsilon Floor~
+  You are standing in a huge dimly lit room. Far to the east a glowing blue
+force field seals off the room, beyond it you can see the stars of deep space.
+Scaffolding and disorganized stacks of fuel cannisters line the walls.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 410
+D1
+~
+~
+0 -1 406
+S
+#412
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of rusty fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 400
+D0
+~
+~
+0 -1 419
+S
+#413
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 414
+S
+#414
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of 
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 415
+D2
+~
+~
+0 -1 406
+D1
+~
+~
+0 -1 413
+S
+#415
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling. Several of the cannisters here have ruptured and the smell
+is truly quite foul.
+~
+2 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 414
+D0
+~
+~
+0 -1 416
+S
+#416
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 415
+S
+#417
+By the Console~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of 
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling. You notice that all the cannisters here are severely 
+corroded for some reason. 
+~
+2 0 CITY-OUTSIDE
+D1
+Docking Bay Upsilon Loading Area 
+~
+~
+0 -1 418
+D0
+~
+~
+0 -1 458
+S
+#418
+Under the Crane~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 417
+D1
+~
+~
+0 -1 419
+E
+crane~
+The hook of the crane has a huge metal crate dangling from it. 
+Just underneath the mechanism of the crane you can see the glow
+of lights. There must be some kind of room up there!~
+S
+#419
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of rusty fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 418
+D2
+~
+~
+0 -1 412
+S
+#420
+Docking Bay Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling. The wreckage of some kind of forklift is all around you.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 421
+D2
+~
+~
+0 -1 427
+D0
+~
+~
+0 -1 402
+S
+#421
+Docking Bay Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 426
+D1
+~
+~
+0 -1 420
+S
+#422
+Docking Bay Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 423
+D0
+~
+~
+0 -1 408
+S
+#423
+Docking Bay Upsilon Shiny Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. Unlike
+the rest of the docking bay, this area has been polished to a mirror-like shine.
+You also notice that the scaffolding that should be here seems to be missing,
+guess it must be modular.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 424
+D1
+~
+~
+0 -1 422
+D0
+~
+~
+0 -1 409
+S
+#424
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. All around you lie the remains of some collapsed 
+scaffolding.
+~
+2 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 425
+D0
+~
+~
+0 -1 423
+S
+#425
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 424
+D1
+~
+~
+0 -1 426
+S
+#426
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling. The floor here is discolored due to corrosion.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 425
+D0
+~
+~
+0 -1 421
+S
+#427
+Docking Bay Upsilon Loading Area~
+  You are standing in the loading area of a huge dimly lit docking bay. All 
+around you are carelessly dumped stacks of massive fuel cannisters, some of
+which block your way. Above you scaffolding reaches nearly to the top of the 
+200 foot ceiling.
+~
+2 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 420
+S
+#428
+By the Docking Bay Doors~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery. Immediately to the east
+is a huge set of docking bay doors.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 429
+D1
+~
+~
+0 -1 410
+S
+#429
+Anomaly Tunnel Junction~
+  You are standing at the junction of 2 tunnels, both over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 434
+D2
+~
+~
+0 -1 430
+D1
+~
+~
+0 -1 428
+D0
+~
+~
+0 -1 435
+S
+#430
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 431
+D0
+~
+~
+0 -1 429
+S
+#431
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 432
+D0
+~
+~
+0 -1 430
+S
+#432
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 433
+D0
+~
+~
+0 -1 431
+S
+#433
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 5006
+D0
+~
+~
+0 -1 432
+S
+#434
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and correspondingly
+tall. It looks like it was cut out of the asteroidal rock of the anomaly and
+then plated over with some kind of hard metal. You notice that the floor has 
+been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 448
+D1
+~
+~
+0 -1 429
+S
+#435
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 429
+D0
+~
+~
+0 -1 436
+S
+#436
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 435
+D0
+~
+~
+0 -1 437
+S
+#437
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 436
+D0
+~
+~
+0 -1 438
+S
+#438
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 437
+D0
+~
+~
+0 -1 439
+S
+#439
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 438
+D0
+~
+~
+0 -1 441
+S
+#440
+By the Docking Bay Doors~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery. Immediately to the east
+is a huge set of docking bay doors.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 442
+D1
+~
+~
+0 -1 443
+S
+#441
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 439
+D0
+~
+~
+0 -1 442
+S
+#442
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and
+correspondingly tall. It looks like it was cut out of the asteroidal rock of the
+anomaly and then plated over with some kind of hard metal. You notice that the
+floor has been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 441
+D1
+~
+~
+0 -1 440
+S
+#443
+Entrance to Docking Bay Sigma~
+  You are standing in a huge dimly lit room. Parked in the docking bay is a huge
+ore transport, which has obviously been waiting to be unloaded for a few million
+years now. Immediately to the west is a huge set of doors. 
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 440
+D2
+~
+~
+0 -1 444
+D1
+~
+~
+0 -1 452
+D0
+~
+~
+0 -1 446
+S
+#444
+Docking Bay Sigma~
+  You are standing in a huge dimly lit room. Parked in the docking bay is a huge
+ore transport, which has obviously been waiting to be unloaded for a few million
+years now. 
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 445
+D0
+~
+~
+0 -1 443
+S
+#445
+Docking Bay Sigma~
+  You are standing in a huge dimly lit room. Parked in the docking bay is a huge
+ore transport, which has obviously been waiting to be unloaded for a few million
+years now. 
+~
+2 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 450
+D0
+~
+~
+0 -1 444
+S
+#446
+Docking Bay~
+  You are standing in a huge dimly lit room. Parked in the docking bay is a huge
+ore transport, which has obviously been waiting to be unloaded for a few million
+years now.
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 443
+D0
+~
+~
+0 -1 447
+S
+#447
+Docking Bay Sigma~
+  You are standing in a huge dimly lit room. Parked in the docking bay is a huge
+ore transport, which has obviously been waiting to be unloaded for a few million
+years now. 
+~
+2 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 446
+D1
+~
+~
+0 -1 451
+S
+#448
+Anomaly Tunnel~
+  You are standing in a huge tunnel, over fifty feet wide and correspondingly
+tall. It looks like it was cut out of the asteroidal rock of the anomaly and
+then plated over with some kind of hard metal. You notice that the floor has 
+been scarred by some kind of heavy machinery.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 449
+D1
+~
+~
+0 -1 434
+S
+#449
+Anomaly Tunnel By Ore Smelter~
+  You are standing in a huge tunnel, over fifty feet wide and correspondingly
+tall. It looks like it was cut out of the asteroidal rock of the anomaly and
+then plated over with some kind of hard metal. You notice that the floor has 
+been scarred by some kind of heavy machinery. To the west a huge set of doors
+lead to the ore smelter.
+~
+2 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 448
+S
+#450
+Docking Bay Sigma Loading Area~
+  You are standing in the loading area of a dimly lit docking bay. All around
+you are carelessly dumped stacks of massive fuel cannisters, some of which block
+your way. Above you scaffolding reaches nearly to the top of the 200 foot
+ceiling. To the north the bulk of the ore freighter blocks your way
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 445
+D1
+~
+~
+0 -1 454
+S
+#451
+Docking Bay Sigma Loading Area~
+  You are standing in the loading area of a dimly lit docking bay. All around
+you are carelessly dumped stacks of massive fuel cannisters, some of which block
+your way. Above you scaffolding reaches nearly to the top of the 200 foot
+ceiling.  To the south the bulk of the ore freighter blocks your way
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 447
+D1
+~
+~
+0 -1 455
+S
+#452
+Docking Bay ~
+  You are standing in a huge dimly lit room. Looming over you and to the east is
+the open nose cone of a huge ore transport, which fills the east end of the bay
+and extends out into space.
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 443
+D1
+~
+~
+0 -1 453
+S
+#453
+Ore Transport Entrance~
+  You are standing just by the huge open nose cone of a ore transport. Just
+inside what must be the forward hold of the ore transport you see rows and rows
+of dump truck sized pallets of raw asteroidal ore in organized into neat stacks.
+~
+2 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 2501
+D3
+~
+~
+0 -1 452
+S
+#454
+Docking Bay Sigma Loading Area~
+  You are standing in the loading area of a dimly lit docking bay. All around
+you are carelessly dumped stacks of massive fuel cannisters, some of which block
+your way. Above you scaffolding reaches nearly to the top of the 200 foot
+ceiling. To the north and east the bulk of the ore freighter blocks your way
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 450
+S
+#455
+Docking Bay Sigma Loading Area~
+  You are standing in the loading area of a dimly lit docking bay. All around
+you are carelessly dumped stacks of massive fuel cannisters, some of which block
+your way. Above you scaffolding reaches nearly to the top of the 200 foot
+ceiling.  To the south and east the bulk of the ore freighter blocks your way
+~
+2 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 451
+S
+#456
+On the Crate~
+  You are standing on top of a crate suspended from cables stretching down 
+from the crane above you. 
+~
+2 0 INDOORS
+P
+@idle~
+{
+  str Control, CranePos;
+  Control="crane";
+  CranePos="position";
+  if(ObjectCount(WorldOf(417),410)) {
+    if(PropertyGetInt(ThingFind(NULL,408,WorldOf(417),TF_OBJ,0),Control)) {
+      if(PropertyGetInt(WorldOf(456),CranePos)) {
+        SendAction(WorldOf(418),TNULL,SEND_ROOM|SEND_VISIBLE,"^aA crate high overhead is slowly lowered.\n");
+        SendAction(WorldOf(456),TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe crate you are on is slowly lowered.\n");
+        ObjectStrip(WorldOf(418),411,411,TNULL);
+        ObjectCreate(WorldOf(418),412);
+        ExitFree(WorldOf(456),ExitDir(WorldOf(456),EDIR_NORTH));
+        ExitFree(WorldOf(457),ExitDir(WorldOf(457),EDIR_SOUTH));
+        ExitCreate(WorldOf(456),EDIR_DOWN,NULL,NULL,0, -1,WorldOf(418));
+        ExitCreate(WorldOf(418),EDIR_UP,NULL,NULL,0, -1,WorldOf(456));
+        PropertySetInt(WorldOf(456),CranePos,0);
+      }
+      else {
+        SendAction(WorldOf(418),TNULL,SEND_ROOM|SEND_VISIBLE,"^aA crate high overhead is slowly raised.\n");
+        SendAction(WorldOf(456),TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe crate you are on is slowly raised.\n");
+        ObjectStrip(WorldOf(418),412,412,TNULL);
+        ObjectCreate(WorldOf(418),411);
+        ExitFree(WorldOf(456),ExitDir(WorldOf(456),EDIR_DOWN));
+        ExitFree(WorldOf(418),ExitDir(WorldOf(418),EDIR_UP));
+        ExitCreate(WorldOf(456),EDIR_NORTH,"BLUE","BLUE",0, -1,WorldOf(457));
+        ExitCreate(WorldOf(457),EDIR_SOUTH,"BLUE","BLUE",0, -1,WorldOf(456));
+        PropertySetInt(WorldOf(456),CranePos,1);
+      }
+      ThingSetIdleWait(CODE_THING,5);
+      stop;
+    }
+    SendAction(WorldOf(417),TNULL,SEND_ROOM,"Switch Off\n");
+  }
+  ThingSetIdleWait(CODE_THING,999);
+}~
+P
+position~
+0~
+S
+#457
+Supervisory Booth~
+  You are standing in a utilitarian room that looks out over the whole of 
+the docking bay. It looks as though there were once controls for the crane 
+here but they have been completely destroyed. To the west you can see the 
+shaft of a lift tube. 
+~
+2 0 INDOORS
+D3
+~
+~
+0 -1 459
+D0
+~
+~
+0 -1 465
+D1
+~
+~
+0 -1 460
+S
+#458
+Broken Lift Tube~
+  You are standing in a small lift shaft. Far above you you can see the pale 
+glow of lights. It looks as though its been a long time since this lift has 
+functioned properly. Delicate electronics parts are scattered everywhere 
+covered with inches of dust. 
+~
+2 0 INDOORS
+D2
+~
+~
+0 -1 417
+S
+#459
+Broken Lift Tube Shaft~
+  You are falling down a 200 foot tall lift tube shaft. Your whole life 
+flashes before you eyes. Idly, you speculate on whether you will hit 
+terminal velocity before you hit the ground. 
+~
+2 DEATHTRAP INDOORS
+D1
+~
+~
+0 -1 457
+S
+#460
+Supervisors Office~
+  You are standing in what looks to have been some kind of office. At least
+it has what is recognizably a big cheap-looking plastic desk and chair facing
+the door. Guess even the builders went in for that almost-but-not-quite-
+entirely-unlike-wood finish.
+~
+2 0 INDOORS
+D0
+~
+~
+0 -1 461
+D3
+~
+~
+0 -1 457
+S
+#461
+Supervisors Bedroom~
+  You are standing in what was once a bedroom. Torn bits of fabric and the
+smashed remnants of a cheap plastic bed lie everywhere. Strangely, something
+has arranged the debris into geometrical figures.
+~
+2 0 INDOORS
+D2
+~
+~
+0 -1 460
+S
+#462
+Meditation Room~
+  You are standing in a small room. There must be a holo-projector built into
+the wall because you can see a live view of some kind of jungle on all the
+walls. The silence of this room hints at some kind of noise suppression
+system. Actually, its very relaxing.
+~
+2 0 INDOORS
+D1
+~
+~
+0 -1 464
+S
+#463
+Small Kitchen Area~
+  This looks like the perfect place to prepare a midnight snack. Or at least
+you think it did a few thousand years ago. Its a little hard to imagine how
+it used to look since what looks to be bits of kitchen appliances are
+scattered all over the floors in pretty little patterns.
+~
+2 0 INDOORS
+D1
+~
+~
+0 -1 465
+S
+#464
+First Aid Room~
+  This medium sized room has bits of gauze lying everywhere. Although, 
+something has taken the time to arrange them in a neat grid pattern. There
+are cabinets on the wall but they have all been smashed open and are empty.
+~
+2 0 INDOORS
+D2
+~
+~
+0 -1 465
+D3
+~
+~
+0 -1 462
+S
+#465
+Short Hallway~
+  This is a short ten foot long hallway. The walls are painted with the same
+dull gray paint as the rest of the anomaly. It looks much like all hallways
+everywhere.
+~
+2 0 INDOORS
+D3
+~
+~
+0 -1 463
+D2
+~
+~
+0 -1 457
+D0
+~
+~
+0 -1 464
+S

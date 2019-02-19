@@ -1,0 +1,14 @@
+extern CMDPROC(CmdMStat);
+extern CMDPROC(CmdMList);
+extern CMDPROC(CmdMCreate);
+extern CMDPROC(CmdMName);
+extern CMDPROC(CmdMKey);
+extern CMDPROC(CmdMLDesc);
+extern CMDPROC(CmdMDesc);
+extern CMDPROC(CmdMExtra);
+extern CMDPROC(CmdMProperty);
+extern CMDPROC(CmdMSet);
+extern CMDPROC(CmdMCompile);
+extern CMDPROC(CmdMDecomp);
+extern CMDPROC(CmdMLoad);
+extern CMDPROC(CmdMSave);

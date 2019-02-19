@@ -1,0 +1,663 @@
+#5000
+card key black plastic~
+A.S.D.C.T. CardKey~
+A card of black plastic is lying here.~
+This small card ( a gun a few friends and some good armor ) is all you need 
+to get in the Anomaly Space Dock Command Tower. It is black with the blue 
+letters A S D C T. 
+~
+KEY 0 NOWEAR
+5000 0 0 0
+0 200 0
+#5001
+ct blasterpistol pistol~
+a CT BlasterPistol~
+a smooth black handgun is on the floor.~
+  This fine little gun packs a punch, cant jam, never gets too hot, and cant 
+be detected by pasive searching. It has Property of GCCT by the clip eject. 
+You could try to return it, or You could get a medcell and go make some REAL 
+creds! 
+~
+WEAPON 0 HELD
+0 28 50595328 67568905
+8 1400 0
+A
+DAMROLL 15
+A
+HITROLL 8
+#5002
+cred stick rod clear~
+a Cred stick~
+a three by one half inch clear rod is standing here on end.~
+yup youve seen them many times before, ya never know how mutch you found..  
+well Noones Looking HURRY! 
+~
+MONEY 0 NOWEAR
+300 0 0 0
+0 0 0
+#5003
+card key blue plastic~
+A.S.D.C.R. CardKey~
+A card of blue plastic is lying here.~
+This small card ( a gun a few friends and some good armor ) is all you need 
+to get in the Anomaly Space Dock Command Ring. It is blue with the Green 
+letters A S D C R. 
+~
+KEY 0 NOWEAR
+5003 0 0 0
+0 300 0
+#5004
+Clean towel~
+a Clean Towel~
+a clean towel is neatly folded with the outhers.~
+Perfectly wrinkle free Crisp yet absorbent, This is a nice towel, it is kind 
+of hard to hide the Huge Property OF GalCiv stamp. 
+~
+WORN 0 WAIST
+0 0 0 0
+2 40 0
+A
+WEAR-BREATHWATER 5
+A
+USE-SELF-REFRESH 20
+#5005
+dirty towel~
+a dirty towel~
+a dirty towel is hanging out of a bin.~
+Well you can't always get the clean towel, Heh I dont think you CAN wrinkle 
+these things. 
+~
+WORN DARK WAIST
+0 0 0 0
+3 20 0
+A
+POWER 10
+A
+USE-SELF-SLOW-POISON 24
+A
+USE-SELF-HASTE 20
+A
+USE-SELF-BERSERK 30
+#5006
+card key green plastic~
+A.S.D.C.C. CardKey~
+A card of green plastic is lying here.~
+This small card ( a TANK and few suicidle friends ) is all you need to get 
+in the Space Dock Commanders room. It's green with black it says A.S.D.C. 
+Commamd Card. 
+~
+KEY 0 HELD
+5006 0 0 0
+0 800 0
+A
+POWER 45
+A
+HITROLL 20
+A
+DEX 20
+#5007
+soap green bar~
+a bar of soap~
+a bright green bar of soap is in the soap tray.~
+not only is it giveing off light, this thing is makeing your skin and eyes 
+itch. 
+~
+DRUG GLOW HELD
+60 0 0 0
+1 80 0
+A
+STR 20
+A
+USE-SELF-HASTE 30
+A
+INT 236
+A
+USE-SELF-HEAL-MINOR 20
+#5008
+collar razor~
+a razor collar~
+a ^ametal ring^g with a ^crazor^g every inch, is stuck in the ground here.~
+This thing looks Brutal, it has a release clip by a Tag on the front. 
+~
+ARMOR 0 NECK
+20 2624000 1310720 0
+5 500 0
+A
+DEX 246
+A
+HIT 156
+A
+CON 15
+A
+DAMROLL 15
+#5009
+handle agitation blade~
+an agitation blade~
+a 7" crackleing blue blade with a black handle, is hissing loudly!~
+This thing is spitting plasma everywhere, You're pretty sure its Illegal, 
+you KNOW it would hurt! 
+~
+WEAPON GLOW|HUM HELD
+0 203 134219008 1
+3 35000 0
+A
+HITROLL 15
+A
+DAMROLL 20
+#5010
+helm red-ore~
+a Red-ore Helm~
+a ^rred helmet^g with a menaceing ^ablack visor^g, its giveing you chills even on the shelf.~
+A perfect example of alien craftmanship. This seamless smooth helmet has a 
+black T shaped visor. 
+~
+ARMOR 0 HEAD
+15 336860180 -151646444 0
+8 10500 0
+A
+DAMROLL 5
+A
+POWER 100
+A
+HITROLL 10
+#5011
+battle jacket red-ore torso~
+a Red-ore Torso~
+a finely cut ^rred battle jacket^g, is resting against the wall.~
+A perfect example of alien craftmanship. It seems you would have to be 
+poured into it, yet when the dial on the navel is turned, the suit opens 
+easily. 
+~
+ARMOR 0 UPPER-BODY
+30 505290270 -151514082 0
+12 13500 0
+A
+CON 30
+A
+POWER 30
+A
+HIT 80
+#5012
+gauntlet's red-ore~
+Red-ore Gauntlet's~
+a pair of ^rred gauntlets^g, are at rest here.~
+A perfect example of alien craftmanship. They look like a perfect fit! 
+~
+ARMOR 0 BOTH-HANDS
+15 252645135 -117765617 0
+6 7500 0
+A
+DEX 20
+A
+SPEED 20
+A
+STR 30
+#5013
+pants red-ore ~
+Red-ore Pants~
+a ^rred^g stout pair of pants are here.~
+A perfect example of alien craftmanship. They look like a perfect fit! They 
+are also standing up alone. 
+~
+ARMOR 0 LEGS
+20 421075225 -151318759 0
+12 10500 0
+A
+MOVE 50
+#5014
+mass red-ore sheath~
+a Red-ore Tail sheath~
+a ^rred mass^g is piled here.~
+A perfect example of alien craftmanship. This tail sheath is strong yet 
+durable. 
+~
+ARMOR 0 TAIL
+25 471604252 -151318756 0
+10 10500 0
+A
+MOVE 100
+#5015
+boot's red-ore~
+Red-ore Boot's~
+a sturdy pair of ^rred boot^g'^rs^g are here.~
+A perfect example of alien craftmanship, and they look like they could walk 
+over a mountain. 
+~
+ARMOR 0 FEET
+15 252645135 -67433969 0
+8 8500 0
+A
+MOVE 100
+A
+SPEED 20
+#5016
+cloak red-ore~
+a Red-ore Cloak~
+a very heavy ^rred cloak^g is draped here.~
+A perfect example of alien craftmanship, making an ore flow as fabric! 
+~
+ARMOR 0 OVERBODY
+25 336204820 -164492780 0
+18 10500 0
+A
+DEX 246
+A
+POWER 100
+A
+HIT 40
+#5017
+razor scalpel sick~
+a sick razor~
+a small ^Ggreen bladed^g scalpel is floating here.~
+ Despite the hovering of the blade, it feals heavy in your hand, its gyros 
+spinning internaly. 
+~
+WEAPON DARK|EVIL HELD
+0 258 16975872 1
+5 90 0
+A
+CON 241
+A
+HITROLL 10
+A
+DAMROLL 10
+#5018
+fountain~
+broken fountain~
+a fountain is gurgling slowly in the plaza center.~
+A seven foot tall, six foot wide, five level fountain, is trying its best to 
+gurgle. 
+~
+DRINKCON 0 NOWEAR
+5000 4000 0 1
+-1 0 0
+#5019
+syringe vathnomIl white quickshot~
+a VathnomIl quickshot~
+a syringe of white fluid has been droped here.~
+A thin tube about 2 inches long with a 1 inch needle, the tube reads 
+"VaTHnomIl - Not intended for use by minors". 
+~
+DRUG 0 NOWEAR
+20 0 0 0
+1 500 0
+A
+USE-SELF-BERSERK 60
+A
+USE-SELF-HASTE 50
+A
+USE-SELF-POISON 30
+A
+USE-SELF-DEXTERITY 15
+#5020
+syringe genex teal quickshot~
+a GeneX quickshot~
+a syringe of teal fluid has been droped here.~
+A thin tube about 2 inches long with a 1 inch needle, the tube reads "GeneX 
+- Not intended for use by minors". 
+~
+DRUG 0 NOWEAR
+20 0 0 0
+1 500 0
+A
+USE-SELF-STRENGTH 30
+A
+USE-SELF-CONSTITUTION 30
+A
+USE-SELF-POISON 20
+A
+USE-SELF-DARKVISION 10
+#5021
+syringe odvack black quickshot~
+an ODvack quickshot~
+a syringe of black fluid has been droped here.~
+A thin tube about 2 inches long with a 1 inch needle, the tube reads "ODvack 
+- Anti-Toxies if this doesn't work Your Dead!". 
+~
+DRUG 0 NOWEAR
+-100 0 0 0
+1 1250 0
+A
+USE-SELF-CURE-POISON 50
+A
+USE-SELF-CELLREPAIR 40
+A
+USE-SELF-REFRESH 30
+#5022
+tiger steak~
+a Tiger steak~
+You smell a FINE cut of tiger, ah HA a freshly cooked steak is lying on the ground.~
+It's a Jucy THICK hunk of tiger, driping with sauce, it seems to have been 
+prepared Perfectly. 
+~
+FOOD 0 NOWEAR
+90 0 0 0
+3 12 0
+#5023
+bun krout worm~
+a KroutWorm~
+you almost trip over a Bun with a fat hunk O worm, and the Biggest mound of krout you have ever seen.~
+MMmmm More than you could ever ask for, a stale bun, a greasy chewy hunk of 
+worm, and an almost glowing pile of sourkrout. "!BLECH!" 
+~
+FOOD 0 NOWEAR
+60 0 0 5
+2 8 0
+#5024
+sausage plate worm wurst~
+a Worm Wurst~
+a steamy blue and yellow sausage, is on a plate with a potato.~
+Sure it SMELLS good, and you like to try new things.... BUT this stuff is 
+Yellow AND Blue? O well if its too bad there is always the potato. 
+~
+FOOD 0 NOWEAR
+110 0 0 0
+6 16 0
+#5025
+blue fish plate~
+a grilled fish~
+a small blue grilled fish, on a plate.~
+The small blue fish is lightly pepered and splashed with lemmon, it even has 
+the litle grill marks! 
+~
+FOOD 0 NOWEAR
+30 0 0 1
+1 10 0
+A
+WEAR-VACUUMWALK 3
+#5026
+head gear grey carbon~
+Carbon Head Gear~
+a grey piece of head gear is siting here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 HEAD
+4 168231939 -67761925 5
+3 400 0
+A
+DEX 3
+A
+HIT 5
+#5027
+vest grey carbon~
+a Carbon Vest~
+a grey vest is folded here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 SHIRT
+6 201917957 -134215429 5
+4 460 0
+A
+DEX 3
+A
+HIT 5
+#5028
+arm guards grey carbon~
+Carbon Arm Guards~
+a pair of grey arm guards are piled here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 BOTH-ARMS
+3 134612484 -50330373 5
+3 200 0
+A
+DEX 3
+A
+HIT 5
+#5029
+leg guards grey carbon~
+Carbon Leg Guards~
+a pair of grey leg guards are piled here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 LEGS
+3 134612484 -50330373 5
+3 250 0
+A
+DEX 3
+A
+HIT 5
+#5030
+hand guards grey carbon~
+Carbon Hand Guards~
+a pair of grey hand gaurds are lying here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 BOTH-HANDS
+2 100926466 -33553666 5
+1 100 0
+A
+DEX 3
+A
+HIT 5
+A
+STR 5
+#5031
+boots grey carbon~
+Carbon Boots~
+a pair of grey boots are standing here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 FEET
+5 134546693 -134215428 5
+4 250 0
+A
+DEX 3
+A
+HIT 3
+A
+MOVE 25
+#5032
+wrist guards grey carbon~
+Carbon Wrist Guards~
+a pair of grey wrist gaurds are lying here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 BOTH-WRISTS
+2 263170 -33553666 2
+1 100 0
+A
+DEX 3
+A
+HIT 5
+#5033
+collar grey carbon~
+a Carbon Collar~
+a grey collar is lying here.~
+  It is made of compressed carbon plates and fibers, giving it a soft, light 
+feal, yet a great deal of strength. 
+~
+ARMOR 0 NECK
+2 100926725 -33552642 5
+2 100 0
+A
+DEX 3
+A
+HIT 5
+#5034
+chrysknife knife beige~
+a Chrysknife~
+a non-reflective beige knife,appearing to be arm-length, is lying here.~
+  Made from the ground tooth of an Arakeen Sandworm. Forged through 
+mysterious, arcane means in the depths of the desert.  This long curved 
+blade has a well-deserved deadly reputation.  You've never heard of anyone 
+living long enough to sell one of these babies.  Although you've never known 
+anyone stupid enough to steal one either. 
+~
+WEAPON DARK|HIDDEN|TRACK-OFFLINE|NODEATHTRAP HELD
+0 83 67306496 0
+3 2000 0
+#5035
+eye xo'orth~
+An EYE oF Xo'Orth~
+You feal a great fear, it is as if ^wX^ao^g'^wO^arth^g is peering toward you!~
+It is a small ^Rred sphere^g, which is infinitly deep.  To hold such an item 
+is to say ^wX^ao^g'^wO^arth^g the many folded has intrusted you with power, 
+or you're just DAMN Rich! 
+~
+ARMOR HUM|DARK|INVISIBLE|AURA|BLESS|ANTI-EVIL|TRACK-OFFLINE|NODEATHTRAP FINGER
+200 1684300900 1692558436 100
+20 30303030 0
+A
+POWER 100
+A
+POWER 100
+A
+POWER 100
+A
+WEAR-VACUUMWALK 255
+#5036
+cloak grey carbon~
+a Carbon Cloak~
+a grey cloak is folded here.~
+  It is made of compressed carbon fibers, giving it a soft, light feal, yet 
+a great deal of strength. 
+~
+ARMOR 0 OVERBODY
+6 134547461 -100661760 8
+6 320 0
+A
+DEX 3
+A
+HIT 5
+A
+MOVE 25
+#5037
+belt grey carbon~
+a Carbon Belt~
+you see a rolled up grey belt.~
+  It is made of compressed carbon fibers, giving it a soft, light feal, yet 
+a great deal of strength. 
+~
+ARMOR 0 WAIST
+3 134612482 -33553154 0
+1 100 0
+A
+DEX 3
+A
+HIT 5
+#5038
+pick ~
+a rock pick~
+a long red handled black pick is stuck in the floor.~
+  It looks to unevenly weighted to be of mutch use one handed. But the fact 
+that its humming  AND stuck in the ground you want to pick it up, do you 
+not? This thing has the softest handle you have ever touched, you almost 
+want to go bash rocks apart!
+~
+WEAPON HUM|NODEATHTRAP TWO-HANDED
+0 19 50529792 3
+5 100 0
+A
+DAMROLL 5
+A
+SPEED 5
+#5039
+laz-pistol pistol silver~
+a laz-pistol~
+a clean silver pistol is reflecting light.~
+  A small silver pistol is polished perfectly, the housing seems to be one 
+flawless solid piece with an indention the size of a mini-cell in the grip, 
+a blue gem protrudes from the barrel. It is of unnamed origin.
+~
+WEAPON 0 HELD
+0 32 50987776 17172484
+5 1000 0
+A
+HITROLL 10
+A
+DAMROLL 6
+#5040
+slag axe~
+a Slag Axe~
+a crome axe shaped objct is here giving off heat.~
+  This odd axe is quite heavy for its two foot reach, there is a split all 
+the way down the head, it appears chared on the edges. A Large-Cell fits in 
+the head. 
+~
+WEAPON HUM|EVIL HELD
+0 14 50464000 67633155
+14 350 0
+A
+DAMROLL 8
+#5041
+plastic shorts~
+a pair of plastic shorts~
+Some dark shreded plastic is bunched up on the ground.~
+  Heavy black and grey plastics marked repetitevely property of A.S.D.C.T. 
+have been shreded and made into a pair of small shorts. These things are 
+Illegal!
+~
+ARMOR 0 LEGS
+4 -419297272 335607304 8
+0 6 0
+#5042
+plastic dress~
+a small plastic dress~
+Some dark shreded plastic is bunched up on the ground.~
+  Heavy black and grey plastics marked repetitevely property of A.S.D.C.T. 
+have been shreded and made into a small dress. This thing is Illegal! 
+~
+ARMOR 0 OVERBODY
+4 -419297272 335607304 10
+0 8 0
+#5043
+plastic bag~
+a shreded plastic bag~
+Some dark shreded plastic is bunched up on the ground.~
+  Heavy black and grey plastics marked repetitevely property of A.S.D.C.T. 
+have been shreded and made into a small bag. This thing is Illegal! 
+~
+CONTAINER 0 HELD
+10 0 0 15
+3 6 0
+#5044
+ct blasterrifle rifle~
+a CT BlasterRifle~
+a smooth black rifle is on the floor.~
+  This fine rifle may redeem Gal-Civ, cant jam, never gets too hot, and cant 
+be detected by pasive searching. It has Property of GCCT by the clip eject. 
+You could try to return it, or You could get a medcell and go make some REAL 
+creds! 
+~
+WEAPON 0 HELD
+0 28 101057792 101124106
+12 1900 0
+A
+DAMROLL 18
+A
+HITROLL 12
+#5045
+ion-diode canister~
+an Ion-Diode~
+a cannister with a diode on one end and a fast-lock servo on the outher is siting here.~
+   This Heavy unit is giveing off quite a bit of heat and seems to be 
+sweating the very metal it is made of. 
+~
+WEAPON 0 TWO-HANDED
+0 0 50595840 251922956
+10 3500 0
+A
+HITROLL 246
+A
+DAMROLL 12
+#5046
+cold-cell disk deuterium-cartridge~
+a Cold-Cell~
+a glowing blue disk is siting here absorbing all the heat.~
+  It is a one inch thick disk it seems to have no nicks or dents, mosture is 
+crystalizing on the top and bottom but the sides arent cold at all. 
+~
+AMMO GLOW NOWEAR
+4 240 655375 0
+5 1000 0
+A
+DAMROLL 10
+$

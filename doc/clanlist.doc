@@ -1,0 +1,16 @@
+# Format of Clanlist.tbl file
+
+#
+sdesc~
+ldesc~
+desc
+~
+<# members> <# levels>
+<level leader> <leader name>
+<level second> <second name>
+<skillname> <modifier> <GETSKILL | MODIFIYSKILL>
+<skillname> <modifier> <GETSKILL | MODIFIYSKILL>
+etc.
+$
+
+

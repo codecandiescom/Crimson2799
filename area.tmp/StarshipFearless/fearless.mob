@@ -1,0 +1,16 @@
+#5200
+guard~
+Docking Guard~
+A Docking guard stands here, keeping an eye on things.~
+He looks mean... But you feel safe around him.
+~
+STAYAREA 0 0 S
+20 10 -20 100d4+0 10d2+0
+100 200
+STANDING ROBOT MALE
+E
+guard~
+The guard looks very strong.  He stands here holding his hand near his gun.
+He doesn't look as the kind of person you may want to mess with.  
+~
+$

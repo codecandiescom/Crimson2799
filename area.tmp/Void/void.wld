@@ -1,0 +1,270 @@
+#0
+Land of the LINK-DEAD.~
+  You are floating in a small, spherical room. There is a sign floating in the
+middle of the room. Funny, this place isn't on any of your maps...
+~
+0 PRIVATE INDOORS
+D0
+The Q Continuum. You feel arrogance oozing from the room.
+~
+~
+0 -1 1
+D1
+The Bike Shop. There appear to be fish swimming around in there.
+~
+~
+0 -1 2
+D2
+A Singularity. Looks small.
+~
+~
+0 -1 3
+D3
+Play Corner. Is that lego in there?
+~
+~
+0 -1 4
+D4
+The Computer Room.
+~
+~
+0 -1 5
+D5
+The Black Hole. Looks dark. Duh!
+~
+~
+0 -1 6
+E
+sign middle ~
+The sign reads:
+                    `Centre of the Universe'
+
+           If you don't know how you got here, please
+       report this incident to your system administrators.
+        Tell them where you were and what you were doing
+                 just before you ended up here. 
+
+          Should you desire to return to your universe,
+                 just say, "I want to go home".
+~
+P
+@command~
+{
+  thing a;
+  if(StrIn(COMMAND,"I want to go home")) {
+    CharAction(EVENT_THING,COMMAND);
+    BLOCK_CMD=TRUE;
+    SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou feel a dull pressure wave and $n blurs out of existance.\n");
+    a=WorldOf(116);
+    ThingTo(EVENT_THING,a);
+    SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^aYou feel a dull pressure wave and $n blurs into existance.\n");
+    CharAction(EVENT_THING,"look");
+  }
+  else {
+    if(StrIn(COMMAND,"sysinfo")&&StrIsCmd(COMMAND,"say")) {
+      CharAction(EVENT_THING,COMMAND);
+      BLOCK_CMD=TRUE;
+      SendAction(EVENT_THING,TNULL,SEND_ROOM|SEND_SRC,"\n^cCrimson II\n^a----------\n");
+      SendActionStr(EVENT_THING,TNULL,SEND_ROOM|SEND_SRC,"^rAuthor:          ^yCryogen     ^rCrimson II version %i.%i\n",Version()>>8,Version()%256);
+      SendActionStr(EVENT_THING,TNULL,SEND_ROOM|SEND_SRC,"^rC4 Language:     ^yCorbin      ^rC4 version %i.%i\n",C4Version()>>8,C4Version()%256);
+      SendActionStr(EVENT_THING,TNULL,SEND_ROOM|SEND_SRC,"\n^aUptime:          %i seconds\n",TIME);
+    }
+  }
+}~
+S
+#1
+The Q Continuum~
+  You see a lavishly boring room with no walls and no exits. You're not quite
+sure how you got in here, nor how you are going to get out. You feel very 
+arrogant.
+~
+0 PRIVATE INDOORS
+E
+wall walls exit exits ~
+There are no walls and no exits! Jeez, can't you read!?
+~
+S
+#2
+The Bike Shop~
+  You see several fish swimming around fixing bicycles of every shape, size and
+colour. You suddenly realize this bizzare location must be part of Canada
+because the word `colour' is spelt with a `u'. You feel an urge to sing
+"Oh, Ca-na-da. Our home and native land..."
+~
+0 PRIVATE INDOORS
+D3
+The Centre of the Universe. Looks like there are no fish in there.
+~
+~
+0 -1 0
+E
+bicycles bicycle ~
+There are bicycles of every shape, size and colour.
+~
+E
+fish swimming ~
+The fish appear to be rainbow trout. The funny thing is that they are swimming
+all around you. Wait a minute... YOU'RE UNDER WATER!!! Well, it's a good thing
+you seem to be able to breath under water here!
+~
+S
+#3
+A Singularity~
+  You are in a singularity. The properties of this singularity appear to be
+constantly changing, sometimes disappearing altogether. With your divine
+intellect, you realize that the shifting of the singularity's properties 
+correspond to the ongoing debate surrounding Einstein's general theory of 
+relativity.
+~
+0 PRIVATE INDOORS
+D0
+The Centre of the Universe. Looks big.
+~
+~
+0 -1 0
+E
+Einstein general theory relativity singularity debate ~
+Why don't you go find a physics book and look it up.
+~
+S
+#4
+Play Corner~
+  You see a huge room. I mean **HUGE**. The floor is covered with lego.
+Throughout the room you see lego-constructions: castles, mountains, boats, 
+cars, people, battle scenes, space ships, and what appears to be a life-size
+lego-sculpture of Cryogen.
+~
+0 PRIVATE INDOORS
+D1
+The Centre of the Universe. There's no lego in there. Bummer.
+~
+~
+0 -1 0
+E
+sculpture cryogen ~
+It's a sculpture of Cryogen, created out of lego blocks. The figure stands
+about 5'10" tall, is a human male, is quite skinny, and has light hair.
+The figure is sculped with all-blue clothes.
+~
+E
+castles mountains boats cars people battle scenes space ships ~
+They appear to be made of lego. You are mighty impressed at the lego-building
+skill of their creator!
+~
+E
+floor ~
+It's covered with lego.
+~
+S
+#5
+The Computer Room~
+  This is a small, cube-shapped room with two tiny computers, a red one and a
+green one, sitting on a desk. The desk appears to have been chisled from a 
+single speck of dust. With a start you realize you are the size of a germ. 
+~
+0 PRIVATE INDOORS
+D5
+The Centre of the Universe. Looks HUGE!
+~
+~
+0 -1 0
+E
+green ~
+The green computer has a colorful screen on it reading:
+
+           ^w^v^w  BORON'S INTERGALACTIC COMPUTER BENCHMARK  ^V
+           ^w^v ^V                                          ^w^v ^V
+           ^w^v ^V^R Computer Characteristics:                ^w^v ^V
+           ^w^v ^V^w   Main memory:                  ^yInfinite ^w^v ^V
+           ^w^v ^V^w   Access time:                         ^y0 ^w^v ^V
+           ^w^v ^V                                          ^w^v ^V
+           ^w^v ^V^w   Hard Drive type:    ^yInter-stel w/ warp ^w^v ^V
+           ^w^v ^V^w   Hard Drive space:             ^yInfinite ^w^v ^V
+           ^w^v ^V                                          ^w^v ^V
+           ^w^v ^V^w   CPU type:        ^yModular inter-dynamic ^w^v ^V
+           ^w^v ^V                                          ^w^v ^V
+           ^w^v ^V^R Speed Rating:                            ^w^v ^V
+           ^w^v ^V^w   MIPS:                         ^yInfinite ^w^v ^V
+           ^w^v ^V^w   PIPS:                         ^yInfinite ^w^v ^V
+           ^w^v ^V^w   FLOPS/MFLOPS:                 ^yInfinite ^w^v ^V
+           ^w^v ^V                                          ^w^v ^V
+           ^w^v ^V^w   Time to execute                        ^w^v ^V
+           ^w^v ^V^w   an infinite loop:               ^y1.3 ns ^w^v ^V 
+           ^w^v ^V                                          ^w^v ^V
+           ^w^v  BORON'S OVERALL RATING: 1.6               ^V
+~
+E
+red ~
+The red computer has a post-it note stuck on the monitor. The note reads:
+
+           ^a^v                             ^V 
+           ^a^v   Computing Prime Numbers   ^V
+           ^a^v    PLEASE DO NOT TOUCH!     ^V
+           ^a^v            Thx.             ^V
+           ^a^v                             ^V
+           ^a^v                  -Corbin    ^V
+           ^a^v                             ^V
+~
+E
+computer computers ~
+There is a red computer and a green computer. 
+~
+E
+desk speck dust ~
+The desk appears to have been chisled from a single speck of dust. 
+~
+S
+#6
+The Black Hole.~
+  It's black. You see black. You look around and see black. All you see is 
+Black. (Do you get the idea or shall I go on?)
+~
+0 DARK|PRIVATE INDOORS
+D4
+The Centre of the Universe. Looks well-lit.
+~
+~
+0 -1 0
+E
+black ~
+My goodness! Why didn't you see this before! Why, the black has black in it!
+WOW! It's really black! In fact, there's black all over it! You know, there
+is even black on the black on the black! What a discovery! It took a genius
+like you to figure this one out!
+~
+S
+#7
+Robot Heaven~
+  You are surrounded by gizmos, and gadgets, everywhere. There are batteries
+lying on the ground which have "infinite supply of energy" on them. Oy! This
+is where all the calculators go when they die! And you thought that was 
+just a made-up story to keep robots from going insane. What would Rimmer 
+think?
+~
+0 NOWEATHER FIELD
+S
+#8
+Training Ground~
+  You are on a large training platform. The platform appears to be floating 
+in the middle of a great expanse of nothing.
+~
+0 0 INDOORS
+S
+#9
+Temple of Worship~
+  This is the grand Temple of Worship for the God of Corbin. One night, when
+Corbin was feeling especially frustrated with the meagre ways of mortals, 
+he constructed this temple to vent anger and to provide a venue through 
+which mortals may pay homage and bow down to Corbin's greatness. 
+  The temple walls and floors are of a warm red-white marble. Pillars of the
+same marble line the walls leading up to the great Altar that is Corbin.
+  There are paintings of Corbin's greatness adorning the high vaulted
+ceilings, and a blood-red carpet trailing from entrance to altar. Virtually
+everything is lined in gold and platinum.
+  At the head of the temple is a modest statue of Corbin, though his greatness
+cannot be caught in stone alone. Nay, it does but mock the true flesh of 
+his being. But it is a token, before which mortals may lay down their lives
+and beg for Corbin to bestow upon them a portion of his greatness.
+~
+0 0 INDOORS
+S

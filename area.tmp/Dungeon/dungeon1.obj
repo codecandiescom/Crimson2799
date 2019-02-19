@@ -1,0 +1,60 @@
+#6000
+laser cleaner~
+Cleaner laser~
+A cleaner laser has been left here.~
+The powerfull laser cleaner is used to scortch debris from the side of the 
+tunnel. It looks like it used to be attached to a robot. However, it looks 
+like you could hold it and use it as a weapon. 
+~
+WEAPON HUM HELD
+0 512 50400256 17433093
+2 350 350
+P
+@COMMAND~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PLASMA|SF_PSYCHIC,0,35)) {
+    BLOCK_CMD=TRUE;
+  }
+}~
+#6001
+mini builder cell~
+Mini builder cell~
+A black mini builder cell is sitting on the floor~
+The mini builder cell is just a black cube with small terminals on the side. 
+It looks specially adapted for use in laser devices. 
+~
+AMMO 0 NOWEAR
+10 50 131074 512
+1 80 20
+#6002
+small cleaning laser~
+Small cleaning laser~
+A small cleaning laser has been left here.~
+The cleaning laser looks like it used to be attached to a robot. However, if 
+you hold it, you figure you can use it as a laser-pistol. 
+~
+WEAPON HUM HELD
+0 512 33623552 17432836
+3 300 200
+#6003
+reflective shield~
+Reflective shield~
+A small reflective shield lies in the dirt~
+The reflective shield is a small disc about 30cm in diameter. It has a 
+polished shiny surface on one side, and what looks like a robotic attachment 
+on the other side. 
+~
+ARMOR 0 HELD
+4 251659008 6400 0
+3 10 1
+#6004
+recycler~
+Recycler~
+A recycler has been discarded here~
+The recycler is a combination laser and acid-spray device. It looks really 
+mean. 
+~
+WEAPON 0 HELD
+0 160 33625088 67764485
+20 500 600
+$

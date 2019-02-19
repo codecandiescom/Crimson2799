@@ -1,0 +1,88 @@
+Corbin~
+~
+$n the Wonderful happy-go-lucky GOD~
+You see nothing special.
+~
+Messages: 
+$n appears from a cloud of blue sparkles
+~
+$n dissolves into a cloud of blue sparkles
+~
+~
+~
+Prompt:             ~
+LastLogin:          localhost [127.0.0.1]~
+Level:              250
+Race:               Salamander
+Class:              Soldier
+Position:           STANDING
+Sex:                MALE
+AutoAction:         A-LOOK|A-EXIT|A-FLEE|A-EAT|A-DRINK|NOEMAIL|HINT|EXPERT|CONSIDER
+System:             0
+SockPref:           CR|LF|TELNETGA|ANSI|PROMPTHP|CHANUSUAGE|CHANGOSSIP|CHANGROUP|CHANPRIVATE
+ScreenLines:        23
+ColorPref:          cA cB gA gA GA cA gA wA rA RA pA wA gA 
+Practice:           7
+HitP:               273
+MoveP:              393
+PowerP:             163
+GainPractice:       0
+GainHit:            0
+GainMove:           0
+GainPower:          0
+Fame:               0
+Infamy:             0
+HitPMax:            15
+MovePMax:           80
+PowerPMax:          0
+Hunger:             -1
+Thirst:             -1
+Intox:              -1
+Str:                90
+Dex:                150
+Con:                120
+Wis:                46
+Int:                30
+Money:              0
+Bank:               0
+Exp:                0
+TimeTotal:          34375832
+TimeLastOn:         949249621
+Attempts:           0
+StartRoom:          145
+RecallRoom:         -1
+DeathRoom:          157
+
+[Skills]
+[End of Skills]
+
+[Objects]
+#120   1 0 0 0 0 0 9 a standard issue propeller cap
+#123   1 0 0 0 0 0 9 a standard issue raincoat
+#126   1 0 0 0 0 0 9 a pair of corduroy trousers
+#127   1 0 0 0 0 0 9 a standard issue belt
+#130   666 0 0 0 0 0 6 a Bug Reporter
+#162   0 512 16844036 17170436 0 0 5 a standard issue laser
+#163   1 0 0 0 0 0 9 a standard issue vest
+#129   0 512 16777984 0 0 0 5 a standard issue pocketknife
+#165   25 0 0 0 0 0 19 a peanut butter sandwich
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+#119   0 0 0 0 0 0 13 a virtual reality training session chit
+[End of Objects]
+
+[Affects]
+[End of Affects]
+
+[Properties]
+P
+AnomalyStation-Register~
+1~
+[End of Properties]

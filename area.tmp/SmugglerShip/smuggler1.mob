@@ -1,0 +1,42 @@
+#5600
+void guardian~
+the Void Guardian~
+The Void Guardian is racing a comet over the Milky Way.~
+This Void Guardian is actually a SpaceGnome. It's true, Gnomes really 
+exists! This Gnome is a relative of the ShoeGnome, which create and repair 
+shoes with MAGIC! The SpaceGnome however creates and repairs space.As you 
+can probably see, he isn't very good at his job because he hasn't repaired 
+that Black Hole. As a matter of fact ... You're standing in a total-void! 
+Isn't it difficult to breathe ? 
+~
+SENTINEL|STAYAREA SEEINVIS|DOMINATED 0 S
+50 150 122 2d1500+3100 3d21+16
+0 18000
+STANDING ROBOT MALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Howdy Partner!");
+    CharAction(CODE_THING,"say Wooheey! It\'s really ^ccold ^pin Outer Space!");
+  }
+  else {
+    if(StrIsCmd(COMMAND,"say")) {
+      if(StrIn(COMMAND,"cold")) {
+        CharAction(CODE_THING,"say Did you lose your marbles somewhere\? If I said it was chilly you would probably get a bowl!");
+        stop;
+      }
+    }
+  }
+}~
+#5601
+test mobile~
+TestMobile~
+A TestMobile is here, scratching his bottom~
+He's blank 
+~
+SENTINEL|STAYAREA 0 0 S
+15 45 34 1d45+150 3d7+5
+0 225
+STANDING NONE MALE
+$

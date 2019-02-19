@@ -1,0 +1,112 @@
+#400
+robo-lifter robo lifter~
+Robo-lifter~
+A Robo-lifter is here rushing about erraticly.~
+Basically an automated forklift, its as messed up as all the other robots on 
+the Anomaly. In the new all-robot ecology it seems to be some sort of pack 
+animal. Although its basically harmless, I betcha it would hurt if it chose 
+you to run you over. 
+~
+FORGIVING|STAYAREA GROUP|BREATHWATER 0 S
+18 50 45 5d10+150 2d6+4
+100 270
+STANDING ROBOT SEXLESS
+#401
+security droid~
+Security Droid~
+A Mark I Security Droid is here, looks pretty mean too.~
+Basically a hulking torso on treads with an evil disposition, nobody in 
+their right mind would mess with it. Its glowing red sensor eye that 
+methodically tracks back and forth reminds you of an old terran vid show. 
+~
+AGGRESSIVE|STAYAREA BREATHWATER 0 S
+23 80 70 7d10+300 4d6+10
+230 325
+STANDING ROBOT SEXLESS
+#402
+deranged cleaning bot~
+Deranged Cleaning-Bot~
+A huge cobbled together mess that once was a deranged cleaning bot is here.~
+Once a simple janitorial cleaning bot, this psychopathic hulk has managed to 
+fasten together bit and pieces of hundreds of other robots and nearby 
+scaffolding to itself. It is now a two story monster, that exists to clean 
+all foreign objects from its turf. Judging by the way its waving around that 
+plasma cutting arc, this means you! 
+~
+SENTINEL|AGGRESSIVE|STAYAREA BREATHWATER 0 S
+25 75 60 9d100+350 4d6+10
+300 400
+STANDING ROBOT SEXLESS
+#403
+robo lifter pack leader~
+Robo-lifter Pack Leader~
+A larger than normal robo-lifter is charging about aggressively here~
+Basically an automated forklift, its as messed up as all the other robots on 
+the Anomaly. In the new all-robot ecology it seems to be some sort of pack 
+animal. This one seems bigger than others you have seen, you think it must 
+be the pack leader! 
+~
+AGGRESSIVE|STAYAREA GROUP 0 S
+20 60 50 10d10+300 3d6+5
+200 300
+STANDING ROBOT SEXLESS
+#404
+cleaning bot~
+Cleaning Bot~
+A cleaning bot is here polishing the floor~
+A small box on wheels, it resembles a small street cleaner. In the robot 
+ecology its probably the equivalent of a big rat. 
+~
+STAYAREA 0 0 S
+16 0 0 1d4+0 1d2+0
+0 0
+STANDING NONE MALE
+#405
+surveillance drone~
+Surveillance Drone~
+A humming sphere floats here, its sensor eye is examining you closely~
+Its a small globe 3 inches around with a single glowing red sensor eye. It 
+also has a small antenna, it must be relaying what it sees to something. It 
+flys around on jets of compressed air. 
+~
+STAYAREA 0 0 S
+13 0 0 1d4+0 1d2+0
+0 0
+STANDING NONE MALE
+#406
+robo lifter rogue~
+Robo-lifter Rogue~
+A Rogue robo-lifter is charging about aggressively here~
+Basically an automated forklift, its as messed up as all the other robots on 
+the Anomaly. In the new all-robot ecology it seems to be some sort of pack 
+animal. This one seems a bit bigger than most. 
+~
+AGGRESSIVE|STAYAREA 0 0 S
+19 60 50 10d10+300 3d6+5
+200 300
+STANDING ROBOT SEXLESS
+#407
+autodoc~
+Autodoc~
+An autodoc is waiting patiently for prey here.~
+This type of robot looks like it was originally some sort of medical bot. It 
+looks rather like a giant spider with far too many legs. (And might I point 
+out that most of those legs end in some kind of cutting implement). 
+~
+SENTINEL|AGGRESSIVE|STAYAREA 0 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING NONE MALE
+#408
+supervisory droid tall slender~
+Supervisory Droid~
+A tall slender droid is here, it seems preoccupied~
+Its a tall slender 6 limbed robot. It looks almost like a very large robotic 
+preying mantis. It is equipped with a sophisticated comm system that it uses 
+to control its drones. 
+~
+SENTINEL|STAYAREA 0 0 S
+25 75 59 2d250+600 3d11+8
+0 3000
+STANDING NONE MALE
+$

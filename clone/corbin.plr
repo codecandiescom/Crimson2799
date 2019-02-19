@@ -1,0 +1,57 @@
+Corbin~
+~
+$n the Wonderful happy-go-lucky GOD~
+You see nothing special.
+~
+Messages: 
+$n appears from a cloud of blue sparkles
+~
+$n dissolves into a cloud of blue sparkles
+~
+~
+~
+Level:              250
+Race:               Salamander
+Class:              Soldier
+Position:           STANDING
+Sex:                MALE
+AutoAction:         A-LOOK|A-EXIT|A-FLEE|A-EAT|A-DRINK|NOEMAIL|HINT|CONSIDER
+SockPref:           CR|LF|TELNETGA|ANSI|PROMPTHP|CHANUSUAGE|CHANGOSSIP|CHANGROUP|CHANPRIVATE
+ScreenLines:        23
+ColorPref:          cA cB gA gA GA cA gA wA rA RA pA wA gA 
+Practice:           7
+HitP:               21
+MoveP:              87
+PowerP:             1
+GainPractice:       0
+GainHit:            0
+GainMove:           0
+GainPower:          0
+Fame:               0
+Infamy:             0
+HitPMax:            15
+MovePMax:           80
+PowerPMax:          0
+Hunger:             -500
+Thirst:             -500
+Intox:              0
+Str:                90
+Dex:                150
+Con:                120
+Wis:                46
+Int:                30
+Money:              0
+Bank:               0
+Exp:                0
+TimeTotal:          0
+TimeLastOn:         880790251
+Attempts:           0
+StartRoom:          -1
+RecallRoom:         -1
+DeathRoom:          157
+
+[Skills]
+[End of Skills]
+
+[Properties]
+[End of Properties]

@@ -1,0 +1,61 @@
+#1500
+small rodent~
+Small rodent~
+A small rodent is skirting here & there.~
+The rodent is small, furry, blue, and has a long silvery tail. You can't 
+tell if it's from Alberion or one of the Domega clusters. Either way, it's 
+probably poisonous. 
+~
+SCAVENGER|PICKPOCKET|STAYAREA|RPOISON REGENERATION 0 S
+7 21 14 1d21+70 3d3+2
+0 105
+STANDING ANIMAL SEXLESS
+#1501
+large rodent~
+Large rodent~
+There is a large rodent here, sniffing in your general direction.~
+The rodent is one of the biggest, yellowest, meanest, scruffiest, ugliest, 
+filthiest, ravenous creatures you've ever seen. Gawd, it that bugger 
+U-G-L-Y! 
+~
+SCAVENGER|STAYAREA|RPOISON REGENERATION 0 S
+10 30 22 1d40+100 3d5+3
+20 200
+STANDING ANIMAL SEXLESS
+#1502
+dorion protector~
+Dorion Protector~
+A monolithic Dorion Protector is towering over you~
+The Dorion Protector is about 3 meters tall... and built solid as a rock. 
+The Dorion Protectors were genetically engineered and used by the Dorions as 
+guardians when the Alberions invaded. By the time the dust settled, the 
+Dorions were genocided, but the protectors remain to this day. How is 
+anyone's guess. 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RPSYCHIC IMPROVED|BREATHWATER|DARKVISION|SEEINVIS|REGENERATION 0 S
+17 51 39 1d51+170 3d8+5
+34 255
+STANDING ANIMAL FEMALE
+#1503
+floating glob~
+Floating Glob~
+There is a floating glob hovering over you. ~
+The floating glob looks like a huge pulsating ball of rasberry jello. In 
+fact, it even smells like rasberry. Perhaps you should TASTE it too. 
+~
+AGGRESSIVE|STAYAREA|RLASER|RACID|RPOISON REGENERATION 0 S
+15 45 34 1d45+150 3d7+5
+30 225
+STANDING ANIMAL SEXLESS
+#1504
+shadow walker~
+Shadow Walker~
+A shadow walker looms somewhere near~
+The shadow walker is completely invisible. I hope your trainer taught you 
+the art of fighting in the dark! 
+~
+SCAVENGER|PICKPOCKET|AGGRESSIVE|STAYAREA INVIS|DARKVISION|SEEINVIS|REGENERATION|HIDDEN 0 S
+17 51 39 1d51+100 2d8+5
+34 255
+STANDING ANIMAL MALE
+$

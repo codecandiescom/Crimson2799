@@ -1,0 +1,1648 @@
+C4 Script Language Help~
+#
+c4 script language programming~
+
+^a                        ^v C 4   C O N T E N T S ^V
+
+^rSection  Keyword      Description
+^b-------  -----------  ---------------------------------------------------------
+^P  1.     ^Gc4intro      ^CIntroduction - philosophy behind the c4 language 
+^P  2.     ^Gc4basics     ^CC4 Structure Basics - a quick lesson in C
+^P  3.     ^Gc4stuff      ^CC4 Data Types, Object Hierarchy, and Events
+^P  4.     ^Gc4commands   ^CThe C4 Commands in Crimson II - compile & decomp
+^P  5.     ^Gc4reference  ^CC4 Reference
+^P  6.     ^Gc4modify     ^CModifying C4
+^P  7.     ^Gc4optimize   ^COptimization of C4 code
+^P  A 1    ^Gc4library    ^CC4 Function Library Reference
+^P  A 2    ^Gc4glossary   ^CGlossary of Terms
+^P  A 3    ^Gc4reserved   ^CList of C4 Reserved Words
+
+^bUseage:   ^Chelp ^G<keyword> 
+~
+#
+c4intro c41.~
+^a^v1. Introduction^V
+
+^C  Welcome to the C4 language. If terminology is used which you don't understand,
+please refer to the glossary in Appendix 3. 
+^C  Before we get into the C4 language itself, let's look briefly at the 
+history of MUD's.
+^C  First, there were MUD's. Then, there were MUD derivatives (MUSH etc.). Ok, 
+history lesson's over.
+^C  One problem with all these was this: if you wanted to do something special, 
+something one-of-a-kind, and just a little funky, you had to go to the source
+code, whip off a new function, recompile the sucker, debug your routines,
+and then reboot the server with the new binary. Yuck.
+^C  So what we've done is put a compiler/interpreter/decompiler right inside the
+MUD. Thus you can make those one-of-a-kind routines on-the-fly when you feel
+like it, on-line, right inside the MUD, with people around you playing the 
+game. Everything is done in real-time.
+^C  Sound cool? Great! First, let's go over some basic concepts you'll need:
+
+^C- Everything in the Crimson II MUD is a THING. A fountain is a THING, a player 
+is a THING, a room is a THING. Everything and anything is a THING.
+^C- Every THING can have C4 code attached to it. When something happens (eg: 
+someone types the command "say hello"), C4 code can be trigered and run to
+respond to the event (eg: in this case, a mob may "say hello" in response).
+That's the whole purpose of the C4 language - to make the game special, 
+responsive, and interesting.
+^C- C4 is a subset of C; if you know how to program in C, you know to program
+in C4. C4 was designed in this way to minimize the learning curve for
+many users wishing to create their own areas.  
+
+^C  If you are new to C4, I would suggest you take your time and read this
+C4 help document over several days. Once you have the basics of how to 
+create and modify C4 properties figured out, you can go on to read the more
+in-depth concepts of this document to create more interesting C4 scripts.
+~
+#
+c4basics c2.~
+^a^v2. C4 Structure Basics^V
+
+^C  C4 is based completely on the C language. For a great book on C, refer to
+any one of the 10 million books teaching it. My personal favorite (and what I
+learned with) is the book by Kernigham and Ritchie, the people who created C
+in the 1970's. The book is brief, simple, to-the-point, and very well written.
+No, I don't work for them - sheish. If you already know C, skip down to 
+section 2.2 where the differences between C4 and C are discussed. 
+Otherwise, what follows is a very brief introduction to C and, by 
+association, C4. I assume you have SOME programming experience so you know
+what I'm talking about when I say `variable'. If you are completely new to
+programming altogether, I would reccommend you complement this manual with 
+another manual designed to teach programming basics. The book "Oh! Pascal!"
+might work well, or that one by Kernigham and Ritchie might work well too.
+
+^rSection  Keyword      Description
+^b-------  -----------  ---------------------------------------------------------
+^P   2.1   ^Gc4struct     ^CC4 Structure (a basic introduction to C & C4)
+^P   2.2   ^Gc4diff       ^CDifferences between C and C4
+~
+#
+c4struct c42.1~
+^a^v2.1 C4 Structure^V
+
+^C  A C4 program is basically one line long. 
+  What's that? How is this feat accomplished? Do we have some kind of killer
+language library with instructions to do absolutely everything? 
+  No no, calm down. Let me explain. The following is a valid C4 program:
+    
+^a    ;  
+
+^C  No, you don't have a corrupted file. That's all there is to it; a semicolon.
+Learn this now, and learn it well: EVERY LINE IN A C4 PROGRAM ENDS WITH A
+SEMICOLON. Now, this isn't very interesting, so let's put a command in our 
+program:
+
+^a    a=1;
+
+^C  Okay! What we are doing is assigning the variable `a' the value of 1. Cool.
+Boring. We want now to add more lines to spice this program up. How do we do 
+that? We use a compound statement. We create a compound statement by using
+`{' and `}'. Let's do that:
+
+^a    {
+      a=1;
+    }
+
+^C  Notice how the `{' and `}' enclose our statement `a=1;'. NOTE: we didn't
+use a semicolon with the braces; the braces serve a similar function to the
+semicolon. A semicolon says "that's the end of the statement" for a single-line
+statement; braces say "that's the end of the statement" for a multi-line 
+statement. Confused? Sorry. Let's go on and you'll get the hang of it. 
+We can now put as many statements inside the braces as we want:
+
+^a    { 
+      a=1;
+      b=2;
+      c=3;
+    }
+  
+^C  Notice that it's still `considered' a single line. Everything between the
+'{' and '}' is considered to be "a single line". But enough of the single
+line bit. Let's move on. 
+  We can't actually just pull variables out of mid-air like I've done above.
+We have to `declare' the variables BEFORE WE USE THEM. We do this at the 
+start of the compound statement:
+
+^a    {
+      int a,b,c;
+
+      a=1;
+      b=2;
+      c=3;
+    }
+
+^C  What we've done is declared a,b, and c as variables of type `int'. `int' 
+stands for `integer'. In C4, `int' variables are signed, 32-bit integers. That
+means they go from -2147483648 to +21474835, and are whole numbers - no 
+fractions or decimal places. 
+  Okay, we're buzzing along. Let's do something interesting. Let's add:
+
+^a    { 
+      int a,b,c;
+
+      a=1;
+      b=2;
+      c=(a+b);
+    }
+
+^C  You now know how to do math in C4. The parentheses are optional, but work
+as expected to maintain an order of prescedence. 
+  C4 incorporates all the normal operators + - * / %(mod), and the rest found
+in standard C. Refer to section 5.3 for a complete discussion of them all.
+
+  Now what we are going to do is use what's called a FUNCTION. Oooooooooooo.
+Functions are the heart of C4. They do everything for you. Let's look at a
+simple one and disect it:
+
+^a    Version()
+  
+^C  Notice the two parts to the function: the function name (ie: "version") and
+the parentheses which are REQUIRED; later you'll see why. How do we use a
+function? Well functions are used in many different ways depending on how 
+they are built. This function returns an integer value corresponding to the
+version of C4 you have. Let's use it in a program:
+
+^a    {
+      int a;
+      a=Version();
+    }
+  
+^C  The function "Version()" returns a value of type `int' which we then assigned
+to the variable `a'. Cool. Not all functions return values; some just do stuff.
+Let's look at those parenthesees now. Here's another function:
+
+^a    { 
+      thing d;
+      d=WorldOf(116);
+    }
+
+^C  Whoah! Too much! Ok, let's first introduce our next variable type: `thing'. 
+Remember that everything in Crimson II is a THING. A variable of type 
+`thing' holds a reference to a THING. This is called, in some circles, a 
+pointer. But don't worry if your pointer arithmetic is poor - it's simplified
+in C4. Let's look at how it works. 
+  If I am a person in the real world, you would want to refer to me by my 
+name. My name is Corbin. So, when you wanted to refer to me, you would 
+say "hey Corbin!". A pointer variable in C4 is like my name - a reference.
+  Next, the function "worldthing" has the number 116 inside it's 
+parenthesees! How'd it get there? You see, 116 is what we call a parameter.
+We are giving the function worldthing the number 116 and expecting it to return
+a value based on that number. In this case, the function worldthing looks at
+it's parameter, and returns the `thing' reference to the room in Crimson II
+whose number is 116. If, in the real world, 116 was my Social Insurance
+Number, a call to WorldOf(116) might return my name "Corbin".
+  Let's look at this all again:
+
+^c    C4                               Real World
+^B    --                               ----------
+^a    Suppose there exists a room,     Suppose there exists a person 
+    somewhere in the "universe",     named "Corbin" with a SIN of 116
+    numbered 116.
+
+    WorldOf(116) gives us            WorldOf(116) gives us a pointer
+    a pointer to the room.           to person #116. IE: "Corbin"
+
+^C  Let's take this a step further. Suppose there's another function 
+called "DropAnEggOn()" which drops an egg on a specified THING. Remember,
+we will tell the function DropAnEggOn() WHICH thing to drop an egg onto by
+specifying it as a parameter (ie: DropAnEggOn("Corbin")).
+What would happen if:
+
+^c    C4                               Real World
+^B    --                               ----------
+^a    d=WorldOf(116);                  d=WorldOf(116);
+    DropAnEggOn(d);                  DropAnEggOn(d);
+
+    This would drop an egg on        This would drop an egg on 
+    room number 116.                 Corbin!!
+
+^C  Too confusing! Sorry, I'm not here to completely teach
+pointers - it took me long enough myself. Look elsewhere for help.
+  There are other variable types, but they are also pointer types similar to
+`thing'. Refer to chapter 3.
+
+  Our program is not much use if it just runs through linearly. We need some
+way to branch and loop. Let's look at looping first:
+
+^a    {
+      int a;
+      a=1;
+      while(a<5) a=a+1;
+    }
+
+^C  Okay! The `while' statement loops. It will do the statement immediately 
+following it until the condition in it's parenthesees is no longer valid. (ie:
+in this case, `a' is no longer less than 5). How do we get more than one
+statement executed by the while? Look:
+   
+^a    {
+      int a;
+      thing b; 
+
+      a=1;
+      while(a<5) {
+        a=a+1;
+        b=WorldOf(a);
+      }
+    }
+
+^C  Holy Smoke! Complicated! Be sure to keep track of your braces! So as long as
+`a' is less than 5, the while loop will do both lines of code. Cool! Note how
+we used `a' as a parameter to `worldthing'. Cool! In C4, as in C, just about
+anything goes. Let's do something really complicated with lots of parenthesees:
+
+^a    {
+      int a,b,c,d;
+
+      a=1;
+      while(a<5) {
+        b=1;
+        c=1;
+        while( (b<5) && ((c+5)<10) ) {
+          c+=2;
+          b++;
+        }
+      }
+    }
+
+^C  Overload! The first `while' is easy to figure out. It's the same as last
+time. However, the next one reads as follows:
+
+^a    while `b' is less than 5 
+      AND
+    ( `c' plus 5 ) is less than 10
+
+^C  Get it? You can use parenthesees to your heart's content. The funny `&&' sign
+is a logical-AND operator. Again, refer to section 5.1. The other two operators
+are really cool. They read as follows:
+
+^a    c+=2;    is the same as   c=c+2;
+    b++;     is the same as   b=b+1; 
+
+^C  They are just shorthand operators. 
+  Moving on! Now for branching:
+
+^a    {
+      int a;
+      a=1;
+      if (a<2) a=2;
+    }
+
+^C  The infamous `if' statement. Similar to the `while' statement eh? Just 
+without the looping. However, unlike the `while', we can have an else 
+statement as well:
+
+^a    { 
+      int a; 
+      a=3;
+      if (a<2) a=2;
+      else a=4;
+    }
+
+^C  This time, a=4 at the end of the program. It goes like this:
+
+^a      IF 'a' is less than 2, do something (ie: assign a=2).
+      Otherwise, do something ELSE (ie: in this case, assign a=4). 
+
+^C  Got it? Now let's add Braces to our if..else statement:
+
+^a    {
+      int a,b,c;
+
+      a=1;
+      while(a<5) {
+        if (a<2) {
+          b=1;
+          c=6;
+        } 
+        else {
+          b=2;
+          c=4
+        }
+        a=a+1;
+      }
+    }
+
+^C  Not as exciting as some of the other examples, but you get the idea. 
+
+  Now on to comments. You can comment your program by putting comments
+inbetween "/*" and "*/". Look:
+
+^a    {
+      int a;   /* this is a comment and will be ignored */
+
+      /* Comments can go anywhere */
+      a= /* even inside statements */ 5;
+    }
+
+^C  Got it? It's pretty easy. Because comments are somewhat special (ie: they
+don't serve any gramatical purpose in the C4 code), you may notice that
+C4 will tend to "move your comments around". It will do this when it compiles
+and then decompiles your code. Actually, your system administrator may have
+disabled comments altogether (to save memory) in which case C4 will turf 
+any and all comments you make in your code. 
+
+  Let's re-look at functions now. Functions are the heart and soul of how you
+get things done. Functions do different things. This one:
+
+^a    SendThing(a,"hello");
+
+^C  sends a message to a THING. Suppose that the variable `a' of type `thing' 
+pointed to a character playing the game. What we just did was sent that
+character a message saying "hello". Cool hu? Here's another:
+
+^a    SendRoom(a,TNULL,"hello");
+
+^C  This one sends the message "hello" to everyone who happens to be in the room
+pointed to by `a'. Ignore the TNULL for now. Notice that if there are more
+than one parameters to a function, you separate them with commas. You can 
+even recursively call functions:
+
+^a    SendRoomStr(a,TNULL,"This is version %i\n",Version());
+
+^C  will tell everyone in room `a' what version of C4 is running. 
+
+  Now SendRoomStr is a good example of a special function. Notice the format
+of the function - ie: the message "This is version %i\n". First let's break 
+this down. We can all understand the bit "This is version", but after that, 
+we're lost. Okay. The "\n" is a special "escape" character. Any time you
+put a '\' inside some ""'s, C4 will interpret this as an "escape" character.
+The 'n' the the "\n" escape character tells C4 WHICH escape character to 
+use. In this case, "\n" represents a CARRIDGE RETURN. Get it? There are
+escape characters for line feed, back space, etc. 
+  Now for the next part - the "%i". The '%' tells C4 we want to perform
+a substitution, in this case an 'i' (integer) substitution. C4 then looks
+at the NEXT parameter in the parameter list, expecting to find an 
+integer parameter, and will shove that integer into the "%i" space, and then
+print our complete string.  Get it? So in our example above, the following
+will happen:
+
+^a    1) SendRoomStr(a,TNULL,"This is version %i\n",Version());
+
+    2) C4 looks at "This is version %i\n" and finds the "%i" at the end.
+
+    3) C4 looks at the NEXT parameter, in this case "Version()" and 
+       finds that it is indeed an integer parameter, as we expected
+       because we put "%i" (as opposed to "%s" for STRING substitutions).
+
+    4) C4 performs the Version() function, let's say returning 10.
+
+    5) C4 will translate our original string into the following:
+       "This is version 10" 
+       and, what you can't see, is the "\n" has been turned into 
+       a carridge return character.
+
+^C  Refer to the introduction of the C4 reference for more help. 
+
+  Now, one more little quickie, and we're done. At some point you may just
+want to quit right out of your C4 program - right now - and execute not a 
+single solitary instruction more. For this most dignified situation, behold,
+the stop command:
+
+^a    stop;
+
+^C  This command will stop a C4 program in its tracks. It immediately forces 
+the program execution to end, and get on with MUD life elsewhere. Here's 
+an example:
+
+^a    {
+      int a;
+      a=1;
+      if (a==1) {
+        stop;
+      }
+      a=2;
+    }
+
+^C  Completely pointless program, but it illustrates a point (pun not intended). 
+This program would never get to the point of assigning a=2; because of the 
+if-statement, it would exit before it ever got there. 
+
+  Well, this wraps up our quick guide to the C4 language structure. Hope this
+helped. If it's not good enough, please please please refer to ANY book which
+is designed to teach you C.
+~
+#
+c4diff c42.2~
+^a^v2.2 Differences Between C and C4^V
+
+^C  I WARN YOU NOW, C4 does NOT incorporate all of the functionality found in C. 
+C4 is a SUBSET of C. 
+
+  In C4, you don't need a main() statement. NO FUNCTION STATEMENT is required.
+Just start right on out with an open-brace. The EVENT dictates which code
+is run, not the function name, so we don't use function names, not even main().
+
+  In c4, if you try to do an infinite loop, eg:
+
+^a    while(1);
+
+^Cyou will be stopped. There is a maximum instruction counter built into the
+C4 interpreter; if C4 executes too many instructions, it will exit no matter
+where it happens to be in the code. Should this happen, your code will be
+un-flagged as a valid C4 executable and will NOT be executed until recompiled.
+You will probably never ever have this happen to a legitimately long program 
+because the default maximum settings is rediculously high (he he... famous
+last words, eh? Oh, and NOBODY will ever need more than 24-bits for a memory
+address because people will NEVER have more than 1 megabyte of memory, right?)
+However, should you ever require a higher maximum, contact your system 
+administrator and they can adjust it. But if your C4 program is that large, 
+you should probably have a special function added to C4 via the Crimson2 
+source file "function.c" to perform such a complex operation more efficiently. 
+
+^C  The structure of C is, for the most part, preserved in C4. Use braces, 
+semicolons, parentheses, single and double quotes, and comments as you
+would in normal C. The C++ comment descriptor "//" is also recognized, although
+it is converted to /* and */ when decompiled. Note that because of the internal 
+comment storage mechanism, and the decompile mechanism, comments may tend to 
+`move around' a bit when code is compiled and decompiled. Also, for same said
+reasons, your code will be completely re-formated when decompiled.
+
+^C  C4 is fully recursive; statements such as this are valid:
+
+^a  while(a) {
+    if ((b>2*Version())||(c++<10)) e++;
+    else {
+      e=1;
+      f=SendThing(ThingInside(EVENT_THING),ThingDesc(CODE_THING)); 
+        /* EVENT_THING and CODE_THING are system variables */
+    }
+  }
+
+^CFeatures C4 can handle:
+^a  variables
+  recursive braces, brackets, etc.
+  if() else statements
+  while statements
+  stop statements - check the end of section 2.1 on how to use this!!!
+
+^CFeatures C4 cannot (yet) handle:
+^a  ?:: operators
+  * & . -> [] pointer operators (unfortunately, this means NO arrays)
+  for(;;) statements
+  switch() case statements
+  break; statements
+  do-while statements
+  return statements - currently operates the same as a "stop" statement
+  continue statements
+
+^C  YOU WILL NOTICE HOWEVER, that the reserved-word list contains all of these
+things; the words are reserved in case the functionality is added at a later
+date. We wouldn't want people defining variables called "switch" and then 
+later offer the switch statement - and force them to rewrite code in the
+process!
+
+  As for variables, you only have the following types: 
+  (variables are discussed in more depth in chapter 3 "help c4stuff" )
+
+^w  int      ^a- equivalent to `signed long int' in C - 32 bit signed integer
+             on systems that have 32-bit capabilities. If your machine's 
+             smallest addressable "byte" is 64-bits long, int's will also
+             be 64-bits.
+^w  str      ^a- string (different from C) pointer
+             a string is one of these: "hello there". It's not an array of
+             characters, it a str. 
+^w  thing    ^a- thing pointer
+^w  extra    ^a- extra pointer
+^w  exit     ^a- exit pointer
+
+^C  You can also use a "property" as a form of static variable. Refer to 
+chapter 3 (help c4stuff) for more information on properties. 
+
+^C  You can use any C operator on `int' variables and numerical constants. Only
+the operators = and the logical operators == and != work on str, thing, extra
+and exit types because they're pointer types.
+
+A DIVISION BY ZERO WILL RESULT IN ZERO. 
+
+^a  eg: a=(5/0);    will result in `a' being assigned a value of 0.
+                  Remember our motto: NO ERRORS. NO CRASHES.
+
+^C  Pointer operators *, &, ., and -> don't work; it's too hard to type-check 
+such things. Besides, you shouldn't need them (some MORE famous last words!
+I'm pushing it, aren't I. Yeah, and nobody should NEED file names longer
+than 8 characters, followed by three ^%&$*#@^$ useless extension characters).
+
+  ++ and -- are different! Example:
+
+^C  in C:
+
+^a     c=5; 
+     if (c++) a=c;   
+
+^C  results in c=6, a=5.  
+
+  in C4: 
+
+^a     c=5; 
+     if (c++) a=c;   
+
+^C  results in c=6, a=6. 
+
+^C  You see, in C4 the pre- and post- operators -- and ++ work only pre- and post-
+to the immediate function (in this case, "c++"). In C, they work over the 
+entire statement (in this case, "if (c++)a=c;").
+
+  In standard C, you can define your own functions. In C4 you cannot. You can 
+only use the functions which have been built-in to the code. If you have 
+access to the source code for Crimson II along with a compiler, debugger,
+etc., you may easily add your own functions. 
+
+  In C4, function names are processed CASE-INSENSITIVE. This is a really big
+difference. So the following function calls will be interpreted the same:
+
+^a    version();
+    Version();
+    VeRsIoN();
+    VERSION();
+
+^C  and in all cases, when you compile and then decompile, the function call will
+be barfed-back according to how it's coded in Crimson II. In this case:
+
+^a    Version();
+
+^C  We did this because (we all know) the error messages from C4 are not always
+very helpful in tracking down errors. This feature let's the coder get away
+with miniscule case differences. Also (and more importantly) this results
+in all the functions coming out from decompile with nice capitalization so that
+everyone can read what they are. Example:
+
+^a     thisisareallyscrewyfunction();
+
+^C  comes out:
+
+^a     ThisIsAReallyScrewyFunction();
+
+^C  Much prettier to look at, no? Well, a LITTLE prettier at least.
+
+  I think it's valuable to point out that in standard C, variable declarations
+MUST be the first thing following an open brace {. In C4, it doesn't matter
+where the variable declarations occur, just as long as you declare them before
+you use them. It's a good idea to put them at the start just so you don't drive
+your C-fanatic friends crazy however. :) The decompiler will automatically move
+all variable declarations to the start of the program anyways.
+~
+#
+c4stuff c43.~
+^a^v3. C4 Data Types, Object Hierarchy, Events and Properties^V
+
+^rSection  Keyword      Description
+^b-------  -----------  ---------------------------------------------------------
+^P   3.1   ^Gc43.1        ^CC4 Events
+^P   3.2   ^Gc43.2        ^CC4 Data Types
+^P   3.3   ^Gc43.3        ^CC4 Object Hierarchy
+^P   3.4   ^Gc43.4        ^CC4 Properties
+~
+#
+c43.1~
+^a^v3.1 Events^V
+
+^C  Crimson II is an event-driven system. This means that when something walks
+into a room, something dies, or somebody says something, an event occurs to
+handle the situation. We can connect C4 code to several of these event so that
+the event is handled differently than normal, or simply enhanced in some way.
+  It's 5:00 AM when I'm typing this so I'm going to jump right in.
+  Every event is a PROPERTY attached to an object (OBJ), a mobile (MOB), or a 
+room (WLD). 
+  Suppose somebody walks into a room. Crimson II checks to see if the room or
+anything inside the room has an @ENTER property. If it does, it runs the C4
+code inside the @ENTER property. The C4 code may do just about anything. For
+an example, let us suppose that the room is a poison gas room. The C4 code might
+check to see if the creature entering the room has a gas mask; the code would
+search the creatures inventory, and leave it alone if it finds a mask. If the
+code doesn't find a mask, it might inflict dammage or even kill the creature.
+That's how events work. They respond to things happening in the game. 
+  For a complete description of the supported events, refer to 5.3.
+~
+#
+c43.2~
+^a^v3.2 C4 Data Types^V
+
+^C  There are only five data types in C4: int, thing, str, extra, exit. 
+
+^a^v3.2.1 int^V
+
+^C  The int data type is a 32-bit signed integer data type. It works basically
+like any integer type in C or any other language. You can perform mathematical
+operations on int data types, and do everything else you'd expect. 
+
+^a^v3.2.2 thing^V
+
+^C  The thing data type is the first, and most important, of the pointer data
+types. As will be explained later in section 3.3, everything in Crimson II is
+a thing. A player is a thing. An object is a thing. If you want to refer to 
+a thing, you have to use a thing data type. Confused yet? :)
+  Let me illustrate with an example:
+  
+^a    {
+    int i;
+    thing t;
+
+    i=2;
+    t=WorldThing(i);
+    }
+
+^C  In this example, we define two variables: i and t. i is of type int. It's
+a plain-old every day 32-bit signed integer. t is of type thing. It points 
+to a thing in the game. In this example, we assign t to the value returned
+by the function worldthing. This function returns a pointer to the room whose
+number is specified in the parameter to worldthing (in this case, i, which 
+equals 2). Why would we want to do this? Suppose we want to send a message 
+to everyone in room #2. We could do it like this:
+
+^a    {
+    int i;
+    thing t;
+
+    i=2;
+    t=WorldOf(i);
+    roomsend(t,TNULL,"Hello there everyone in room #2.");
+    }
+
+^C  You see, to send a message to room number 2, we need a pointer to it; a thing
+pointer. 
+  Pointer data types cannot have mathematical functions performed on them as 
+in C. You can only compare (==, !=) and assign (=) pointer data types in C4.
+
+^a^v3.2.3 str^V
+
+^C  The next pointer datatype is str. str are C4's equivalent to strings. Look:
+
+^a    {
+    str a;
+    a="hello there";
+    }
+ 
+^C  Notice how the str datatype is treated as a single piece of data - not an
+array of characters as in C. That's because it's a pointer data type. C4 
+stores the string array "hello there" in memory and, when you ask for it, 
+passes you a pointer to the array to put in a. 
+  Don't try to do things like *, [], or & with the data, though; they won't
+work. str datatypes are stored as a complex data type in memory, not simply
+as an array of characters. Thus such operators would really gum things up.
+
+^a^v3.2.4 extra^V
+
+^C  The next pointer datatype is extra. Extra's are, as described in section 
+3.3, properties or extras attached to objects, mobiles, or rooms. They 
+are basically extra descriptions of these things and simply help keep track
+of a variety of str's. extra's are a bit more obscure and you may never have
+to deal with them. Here's an example anyways:
+
+^a    {
+    extra e;
+    thing t;
+
+    t=WorldOf(2);
+    e=textra(t);
+    }
+
+^C  The extra, e, now points to the first extra in a potentially big long line
+of extras attached to room #2. The extras might be things like shelves, or
+secret passageways, or any other little description which is added on to the
+room and the player can "look at <extra key word>" and glean a little more
+detail out of the MUD. 
+
+^a^v3.2.5 exit^V
+
+^C  The last pointer datatype is exit. Exit's are attached to world (wld) 
+things, and represent passages from one room to the next. There will
+be much more written about exits in a little while... but right now
+I'm too busy formatting this help file to fill in all the details.
+~ 
+#
+c43.3~
+^a^v3.3 Object Hierarchy^V
+
+^C  Okay. This is the biggie. I'm guna use graphics.
+  Everything is a thing:
+
+^a  THING (datatype)
+
+^C  Things can be one of several data types. Some are rooms (WLD):
+  
+^a  THING
+    |
+    |
+   WLD
+
+^C  Or of the `base' sub-category: (don't worry too much about this detail)
+
+^a  THING
+    |_____________
+    |             |
+   WLD          BASE
+
+^C  Objects fall under the base sub-category:
+
+^a  THING
+    |_____________
+    |             |
+   WLD          BASE
+                  |________
+                           |
+                          OBJ
+
+^C  Players and Mobiles fall under a sub-category under BASE called 
+character (CHR):
+
+^a  THING
+    |______________
+    |             |
+   WLD          BASE
+                  |________
+                  |        |
+                 CHR      OBJ
+                  |
+               ___|___
+              |       |
+             PLR     MOB
+
+^C  You only have to know this hierarchy when manipulating low-level things.
+Most of the time, you won't care because you use `thing' datatype variables
+to point to rooms, people, mobiles, or objects - we don't care!
+  Where this all becomes important is when you want to do some groovy things
+with low-level stuff. 
+  For example, players and mobiles have experience points; objects and rooms
+do not. This is clear when you know that players and mobiles fall under the 
+character (CHR) sub-category. Now the graph starts to make sense. Let's
+continue. 
+^C  Take the BASE sub-category. One of it's functions is BaseGetInside.
+Anything belonging to the BASE sub-category can be `inside' another
+thing. Thus, we know from the chart that objects, players, and mobiles
+can be `inside' something else. Room (WLD) things cannot be inside other
+things. This makes sense. People (PLR) belong inside rooms (WLD), not the other
+way around. Object can be `inside' (ie held by - as in inventory) players
+or mobiles. Cool eh? And the player or mobile is in turn inside the room.
+Yay. The function we started with, BaseGetInside, returns a pointer to a thing.
+The pointer returned points to the thing that contained what you passed
+BaseGetInside. 
+Example:
+
+^a  Room number 2. 
+  Inside room number 2 is-----+
+                              |--> Joe (a player)
+                              |    Joe is carrying ---+
+                              |                       |--> a knife
+                              |                       |--> some bread
+                              |                       |--> a box
+                              |--> Sue (a MOB)
+                                   Sue is carrying ---+
+                                                      |--> a gun
+
+^C  If we called BaseGetInside(Joe), we would get a pointer pointing to room
+2. If we called BaseGetInside(box), or BaseGetInside(bread), we would 
+get a pointer to Joe. Get it? I hope so, because what follows is the
+entire data structure laid out for your analysis. The fields listed on the
+left are accessable by the function calls listed to the right. Some functions
+change things, others just tell you what's there. Refer to the big long
+function index list for help.
+
+^a          /* list data structures and their functions here */
+THING
+| int   tType
+| str   tSDesc
+| str   tDesc
+| extra tExtra
+| int   tWait
+| extra tProperty
+| FLAG  tFlag
+| thing tNext
+| thing tContain
+|
++-> WLD
+|     thing wThing
+|     int   wVirtual
+|     int   wArea
+|     FLAG  wFlag
+|     int   wType
+|     EXIT  wExit
+|
++-> BASE
+    | thing bThing
+    | str   bKey
+    | str   bLDesc
+    | thing bInside
+    | int   bConWeight
+    | int   bWeight
+    | BASELINK bLink
+    |
+    +-> OBJ
+    |     BASE  oBase
+    |     FLAG  oEquip
+    |     OBJTEMPLATE oTemplate
+    |     FLAG  oAct
+    |     ODETAIL oDetail
+    |     APPLY oApply[]
+    |
+    |
+    +-> CHR
+        | BASE  cBase
+        | int   cAura
+        | int   cLevel
+        | int   cHitBonus
+        | int   cArmor
+        | int   cHitP
+        | int   cMoveP
+        | int   cPowerP
+        | int   cHitPMax
+        | int   cMoney
+        | int   cExp
+        | int   cPos
+        | int   cSex
+        | FLAG  cAffectFlag
+        | AFFECT cAffect
+        | thing cFollow
+        | thing cLead
+        | FLAG  cEquip
+        | thing cWeapon
+        | thing cFight
+        | EXIT  cFightExit
+        | int   cFightRange
+        | int   cResist[]
+        |
+        +-> PLR
+        |     CHARACTER pCharacter
+        |     int   pRace
+        |     int   pClass
+        |     int   pPractice
+        |     int   pBank
+        |     int   pMovePMax
+        |     int   pPowerPMax
+        |     int   pHunger
+        |     int   pThirst
+        |     int   pIntox
+        |     int   pStr
+        |     int   pDex
+        |     int   pCon
+        |     int   pWis
+        |     int   pInt
+        |     FLAG  pSystem
+        |     STR   pPassword
+        |     FLAG  pAuto
+        |     FLAG  pSockPref
+        |     int   pScreenLines
+        |     int   pTimeTotal
+        |     int   pTimeLastOn
+        |     int   pAttempts
+        |     int   pSkill[]
+        |
+        +-> MOB
+              CHARACTER mCharacter
+              MOBTEMPLATE mTemplate
+              thing mTrack
+~
+#
+c43.4~
+^a^v3.4 Properties^V
+
+^C  Properties are similar to extras in that they can be attached to things,
+deleted, and manipulated. However, while extras provide the players of the
+mud with "extra descriptions" of things, properties are normally invisible 
+to players. Properties are meant to serve as a form of variable. However, these
+variables will keep their values and are unique to the thing they are attached
+to. 
+
+^C  Properties are manipulated by use of several functions (refer to the
+help item c4property). However, their use is essentially the same as for a
+variable. 
+
+^C  Let me rephrase what I've said, because properties are ESSENTIAL to cool
+game programming. Suppose you have a knife which can only be used twice. 
+You may choose to attach a script to the knife which blocks an action whenever
+the knife is used. But how do you restrict it's use to only twice? The first
+time the knife is used, you might attach a "knife-used" property to the 
+knife with an integer value of 1. You would do this with the following code:
+
+^a    PropertySetInt(KnifeThing,"knife-used",1);
+
+^C  The second time you use the knife, your script detects the that the knife
+has already been used once by calling another procedure:
+
+^a    if (PropertyGetInt(KnifeThing,"knife-used")>0)
+      ... etc
+
+^C  and it would then update the "knife-used" property to reflect it's second
+use:
+
+^a    PropertySetInt(KnifeThing,"knife-used",2);
+
+         or
+
+      PropertySetInt(KnifeThing,"knife-used",
+        PropertyGetInt(KnifeThing,"knife-used")+1);
+
+^C  Once the property "knife-used" is set to 2 or more, your script completely
+blocks the player from using the knife again. 
+
+^C  You may like to think of properties as a form of post-it note; you can 
+write whatever you like on a post-it note (property) and then sneak up behind
+something and stick it to it's back. It'll stay there for you to refer to or
+change in the future. Also, you can sneak up and rip it right off (deleting
+it) if you so wish. Nobody in the game can see properties except gods and
+C4 scripts. 
+
+^C  Properties can be set to integer values or string values. Integer values
+are simply stored as string values and are translated to and from integer
+form when required. Property key words are case-insensitive, so the following
+keys would all access the same property: "knife-used", "Knife-Used", 
+"KNIFE-used". However, the string must otherwise match EXACTLY.
+
+^C  NOTE: Remember, C4 code is also attached to things as a property; don't
+go naming properties with names like "@IDLE". In fact, to guard against this
+possibility, the property functions will return an error condition if you 
+try to access a property starting with "@".
+~
+#
+c4commands c44.~
+^a^v4. The C4 Commands in Crimson II - compile & decomp^C
+
+^C  How do we do all this neat C4 stuff? Use the following commands:
+
+  comp <thing - key word>
+  - Compiles all uncompiled code attached to <thing>.
+  - eg: comp willie
+  - special: comp '        
+    will compile the room you are currently in.
+
+  decomp <thing - key word>
+  - Decompiles all compiled code attached to <thing>.
+  - eg: decomp key
+  - special: decomp '
+    will decompile the room you are currently in.
+
+  dump <thing - key word>
+  - does a hex dump of all code (compiled or uncompiled) attached to <thing>.
+  - eg: dump clerk
+  - special: dump '
+    will dump the room you are currently in.
+
+  disass <thing - key word>
+  - does a disassembly of all compiled code attached to <thing>.
+  - disassembly shows the internal interpreter commands, data, and structures
+    actually executed by the C4 interpreter. Programs are run entirely in 
+    POSTFIX (reverse-Polish) notation. I'm allowed to say that - I'm part
+    Polish. Furthermore, there are no accumulators (ie: registers); all 
+    commands use the stack - exclusively! Unless you are monkeying with the 
+    compiler/interpreter/decompiler, you probably will never need to use this. 
+    If you're dying to see how it works, however, it's kinda cool to look at. 
+    In case you're wondering, there is no way to `assemble' the disassembled 
+    code back into binary, yet.
+  - eg: disass screw
+  - special: disass '
+    will disassemble the room you are currently in.
+
+  There are also area-editing versions of the compile and decompile commands.
+  mdecomp, odecomp, wdecomp, adecomp - decompile scripts
+  mcompile, ocompile. wcompile, acompile - compile scripts
+  - these functions also allow an all parameter to compile/decompile all the
+    scripts in an area.
+
+^C  That's it for special C4 commands. As more are added, this list will grow.
+C4 programs are edited as normal extras or properties, or as source code in 
+the Crimson II data files.
+~
+#
+c4reference c45.~
+^a^v5. C4 Reference^V
+
+^rSection  Keyword      Description
+^b-------  -----------  ---------------------------------------------------------
+^P   5.1   ^Gc4operators  ^CC4 Operators ( + , - , etc.)
+^P   5.1   ^Gc4variables  ^CC4 System Variables
+^P   5.2   ^Gc4events     ^CCrimson II Events
+
+^rIf you were looking for a function reference:
+^b---------------------------------------------
+^P   A 1   ^Gc4library    ^CC4 Function Library Reference
+~
+#
+c4operators c45.1~
+^a^v5.1 C4 Operators^V
+
+^cBoolean Operators:
+^b-----------------
+^a  &&  - and
+  ||  - or
+  ==  - equal 
+  !=  - not equal
+  <=  - less than or equal
+  >=  - greater than or equal
+  <   - less than
+  >   - greater than
+  !   - NOT
+
+^cBinary Operators:
+^b----------------
+^a  >>= - right-shift assign
+  <<= - left-shift assign
+  |=  - or assign
+  ^=  - xor assign
+  &=  - and assign
+  <<  - left-shift
+  >>  - right-shift
+  `   - complement
+  &   - and
+  |   - or
+
+^cInteger Operators:
+^b-----------------
+^a  -=  - subtract assign
+  +=  - add assign
+  %=  - mod assign
+  /   - divide assign
+  *=  - multiply assign
+  --  - subtract 1
+  ++  - add one
+  +   - add
+  -   - subtract
+  *   - multiply
+  /   - divide 
+  %   - mod
+
+^cAssignment Operators:
+^b--------------------
+^a =   - equal
+~
+#
+c4variables c45.2~
+^a^v5.2 C4 System Variables^V
+
+^C  System variables have pre-defined values set for you by C4. They can be
+used similar to any other variable with one exception: you may not assign 
+values to non-changeable system variables. Your code will not compile if 
+you try.
+
+
+^c  Variable Name        Datatype       Description
+^b  -------------        --------       -----------
+
+^wNon-changeable system variables:
+^a  NULL                 str            null str pointer, value 0
+  TNULL                thing          null thing pointer, value 0
+  ENULL                extra          null extra pointer, value 0
+  XNULL                exit           null exit pointer, value 0
+  TRUE                 int            value 1
+  FALSE                int            value 0
+  YES                  int            value 1
+  NO                   int            value 0
+  EVENT_THING          thing          pointer to the thing which caused 
+                                      the event to happen.
+  CODE_THING           thing          pointer to the thing which has the 
+                                      code being executed.
+  SPARE_THING          thing          pointer to third thing involved in 
+                                      the event. Useage depends on event.
+  EXIT                 exit           pointer to exit for @ENTRY, @EXIT.
+  TIME                 int            time, in seconds, since last reboot.
+  SEGMENT              int            Segments executed since last reboot. 
+                                      1 segment = .2 seconds
+  COMMAND              str            Only used by the @COMMAND event.
+                                      str containing the complete command 
+                                      line typed in by the player.
+  CMD_CMD              str            * see note 
+  CMD_SRCKEY           str            * see note
+  CMD_SRCOFFSET        int            * see note
+  CMD_SRCNUM           int            * see note
+  CMD_DSTKEY           str            * see note
+  CMD_DSTOFFSET        int            * see note
+
+^wChangeable system variables:
+^a  BLOCK_CMD            int          If this var is set to a non-zero value,
+                                      the event will not be executed - in 
+                                      essence, it will be `blocked'. Default 
+                                      value is 0 (FALSE) which will allow the 
+                                      event to happen normally.
+
+* NOTE: The CMD_* variables are subsets of the COMMAND variable. The COMMAND
+        is parsed by the MUD's command line parser, and the CMD_* variables
+        are set accordingly. For example, suppose the user typed:
+          put 4 3.bread 2.basket
+        This line would be parsed as so:
+          COMMAND       = "put 4 3.bread 2.basket"
+          CMD_CMD       = "put"
+          CMD_SRCKEY    = "bread"
+          CMD_SRCOFFSET = 3
+          CMD_SRCNUM    = 4
+          CMD_DSTKEY    = basket
+          CMD_DSTOFFSET = 2
+        These variables give you all the benefits of the powerful mud 
+        parser, without having to worry about anything yourself! It is 
+        strongly recommended that users implement parsing using the CMD_*
+        variables as opposed to manually parsing the COMMAND variable!!!!
+        Manually parsing the COMMAND variable can lead to inconsistancies.
+~
+#
+c4events c45.3 @ENTER @EXIT @COMMAND @FIGHTING @DEATH~
+^a^v5.3 Crimson II Events^V
+
+^C  Events trigger C4 code; they're what makes C4 code run. Any MOB, OBJ, or
+WLD thing can have C4 code attached to run when certain things happen. You
+attach this code to a thing by creating a property for the thing with the
+property key list containing the title of the event desired. The event title
+must start with @ and must be all-caps. Invalid events will be compiled, but
+ignored (ie never run).
+
+^c  Event Name        Description
+^b  ----------        -----------
+^a  @ENTER            Attached to WLD, MOB, OBJ
+                    Occurs when MOB or PLR enters a room.
+                    Everything in the room is allowd to run @ENTER
+
+^a  @EXIT             Attached to WLD, MOB, OBJ
+                    Occurs when MOB or PLR leaves a room.
+                    Everything in the room is allowd to run @EXIT
+
+^a  @COMMAND          Attached to WLD, MOB, OBJ, AREA
+                    Occurs whenever a PLR enters a command
+                    Provided with @COMMAND event is the COMMAND system variable
+                     containing the command line the PLR entered, and the
+                     BLOCK_CMD system variable which, if set to a non-zero 
+                     value, will cause the command to NOT be processed.
+
+^a  @FIGHTING         Attached to WLD, MOB, OBJ
+                    Occurs ???????????
+                    
+^a  @DEATH            Attached to WLD, MOB, OBJ, AREA
+                    Occurs when PLR or MOB in room dies.
+
+^a  @USE              Attached to OBJ
+                    Occurs when a PLR or MOB tries to use the object
+
+^a  @RESET            Attached to AREA
+                    Occurs when the areas reset delay has elapsed
+
+^a  @AFTERRESET       Attached to AREA or WLD
+                    Called immediately after an area reset. Note that 
+                    unlike every other after event this one is slightly
+                    different from the corresponding normal event.
+
+
+^a  @DAMAGE           Attached to ???
+                    Occurs ????
+
+^a  AfterEvents       After events are exactly the same a normal events
+                    except that they are called after the event not before
+                    it. Why? Lets look at an example: We assign a mob a
+                    @ENTER event to "say hello", Now someone enters the 
+                    room and what happens, the mob says hello BEFORE they
+                    enter the room. Now there is a way around this, but
+                    the afterevents are much more convenient!
+
+^a  @AFTERFIGHTING
+  @AFTERCOMMAND
+  @AFTERENTRY
+  @AFTERDEATH
+  @AFTERFLEE
+  @AFTEREXIT
+  @AFTERDAMAGE
+  @AFTERUSE
+~
+#
+c4modify c46.~
+^a^v6. Modifying C4^V
+
+^rSection  Keyword      Description
+^b-------  -----------  ---------------------------------------------------------
+^P   6.1   ^Gc4function   ^CAdding Functions to C4
+^P   6.2   ^Gc4language   ^CModifying the C4 Language
+~
+#
+c4function c46.~
+^a^v6.1 Adding Functions to C4^V
+
+^C  It is extremely easy to add functionality, in the form of functions, to C4. 
+The file function.c is a self-contained file with every function available 
+within C4. The functions are defined using the FNPROC definition (look at the
+existing functions). Parameters are passed to the function via the Param[]
+variable. Param[0] is the first parameter, Param[1] the second and so on. 
+You can't use Param[] directly - it's a structure. The structure for Param
+is contained in the file interp.h:
+
+^atypedef struct InterpVarType {
+  BYTE    iDataType;  /* type of data */
+  LWORD   iInt;       /* integer data */
+  void    *iPtr;      /* pointer data */
+} INTERPVARTYPE; 
+
+^C  Param[] is of type InterpVarType. The field iDataType is filled-in for you
+by the interpreter and can be:
+
+^a  CDT_UNDEF      undefined (invalid)
+  CDT_NULL       null (invalid)
+  CDT_INT        int - value stored in Param[].iInt
+  CDT_STR        str - pointer stored in Param[].iPtr
+  CDT_THING      thing - pointer stored in Param[].iPtr
+  CDT_EXTRA      extra - pointer stored in Param[].iPtr
+  CDT_EXIT       exit - pointer stored in Param[].iPtr
+
+^C  Note that under normal circumstances, you will not need to type-check the
+your input because the compiler will not compile invalid function calls. For
+example, if SomeFunct() requires a thing pointer , and the C4 coder calls does
+SomeFunct(5), the compiler will spit out an error and won't compile.
+  The only exception to this rule is if you define your function with the last
+parameter of type CDT_ETC. This parameter type is for functions which can 
+accept a variable number of parameters. THIS IS DANGEROUS! Please read and 
+understand the note at the end of this section concerning the CDT_ETC data 
+type before you try using it!!!
+  The value returned from the function (if there is one) is put into the
+variable Return. Return has the same structure as the interpreter's 
+stack - when you return values you are actually putting values directly 
+into the interpreter's stack!
+
+^atypedef struct InterpStack {
+  INTERPVARTYPE *iVariable;  /* used internally by interp - don't use!! */
+  BYTE    iDataType;  /* type of data - set for you by interp. */
+  LWORD   iInt;       /* integer data goes here */
+  void    *iPtr;      /* pointer data (thing, str, extra) goes here */
+} INTERPSTACK; 
+
+^C  Return integer values in Return->iInt. Return pointer (str, thing, extra)
+values in Return->iPtr. Don't ever touch iDataType or iVariable or evil things
+may happen.
+
+^C  WARNING: DON'T MUCK AROUND WITH "Return" EXCEPT TO PUT IN YOUR RETURN VALUE
+IN EITHER Return->iInt OR Return->iPtr!!! As I said, you are putting these
+values directly into the interpreter's stack; if you muck things around, 
+you will get unpredictable results from your function, and you may even cause 
+the MUD to become unstable and/or crash. 
+
+^C  Once you've written your function, add an entry in fTable (located at the
+very bottom of function.c). This entry defines, in order, 
+  1) the function name, as accessed from within C4
+  2) the function name, as called by the interpreter
+  3) the data type of the returned value, CDT_NULL (ie: 0) if none.
+  4) an array of data types, terminated with CDT_NULL, representing
+     the types of the parameters to be passed to the function.
+
+  So a single entry looks like this:
+
+^a{ "Cook",  (void*)FnCook,  CDT_INT, {CDT_INT, CDT_STR, 0} },
+^a   ^^^^           ^^^^^^   ^^^^^^^   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+^aC4 Funct     Interp Funct  Return Type        Parameter Type(s)
+
+^C  In C4 this function would be used like this:
+
+^a    {
+    int a,b;
+    str c;
+
+    a=Cook(b,c);
+    }
+
+^C  From within function.c, you have unlimited access to everything Crimson II 
+has to offer. However, before you go hog wild, let me impose upon you some 
+philosophies of C4. 
+  Remember our motto: NO ERRORS. NO CRASHES. 
+  To achieve this, I have tried very hard to compose C4 such that the C4 coder
+is (virtually) incapable of crashing the MUD. I have even included a maximum
+instruction counter in the interpreter to handle would-be infinite loops.
+One major stepping stone (pain in the ass is more like it) is that nothing, 
+and I mean NOTHING, can be allocated and then left to the C4 coder to 
+deallocate. We cannot let the coder create an object, and at their discretion 
+give it to someone later - what if the coder doesn't give it to anyone - the 
+pointer to the object is lost when the code ends and the object is left floating
+in space forever, consuming space. Instead, the C4 coder must specify a 
+destination for the object when creating a new one. Thus this problem is 
+circumvented.
+  So to keep your system stable, and as error-free as possible, try to keep
+you functions safe, do killer error-checking on types, and don't leave anything
+for the C4 coder to do - do it all WITHIN YOUR FUNCTION.
+  NOTE that the compiler will enforce data types to match (ie str's where str's
+should go, things's where things' should go, etc.). In fact, the compiler
+is rather brutal about insisting that function calls are `just right'. However,
+problems may arise in that a coder can still send NULL pointers; if you
+try to do a -> operator on a NULL pointer, guess what - segmentation fault. 
+Example: suppose you code "ThingWait()" which returns the integer tWait in the
+THING data structure. If the user goes "ThingWait(TNULL)" and you just go ahead
+and do "Return->iInt=Param[0].iPtr->tWait", Crimson II will seg-fault and crash.
+  Also, if you have a `thing' data type passed to your function, check it's 
+type (ie thing->tType). If you are accessing WLD information on something
+that's a PLR, you won't exactly be getting correct information; if you try
+to get a pointer out of a non-compatible structure - friendly segmentation
+fault again. :)
+  Oh, and if you get weird errors, make sure the function you are calling has
+it's .h file included at the top of function.c! 
+
+
+^yIMPORTANT NOTICE: This notice is regarding the use of the CDT_ETC paramter
+type. If you want to create a function which can accept a variable number of 
+parameters, similar to the "printf" statement in C, you use the CDT_ETC 
+parameter type in your function definition. HOWEVER, there are few rules
+you MUST follow in using this data type: 
+
+^a  1) You may only have ONE parameter defined as CDT_ETC in your function
+     parameter list, and it MUST be the LAST one, immediately preceeding 
+     the terminating CDT_NULL parameter! If you do not follow this important
+     rule, the stack in the compiler (compile.c) will be corrupted and your
+     MUD will be extremely unstable, if it works at all.
+
+     example entry in function table: 
+     { "SomeFunct",  (void*)SomeFunct,  0, {CDT_INT, CDT_STR, CDT_ETC, 0} },
+
+^a  2) When you use the variable number parameters in your function in 
+     function.c, you MUST do type checking YOURSELF! For example, If you 
+     expect a parameter of type CDT_INT, before you use the parameter, 
+     check it's iDataType field to make sure it's CDT_INT. If it's not, 
+     how you handle the situation is up to you. 
+
+     Why is this important? Since the compiler does not know the number or
+     type of parameters passed via the CDT_ETC type, it cannot do any 
+     type checking whatsoever. If you process a parameter incorrectly, 
+     the results are unpredictable at best, and will cause segmentation 
+     faults at worst, crashing Crimson II.
+
+^a  3) The parameter list passed to your function will be terminated by a
+     parameter with it's iDataType field set to CDT_NULL. This is your
+     ONLY way to determine how many parameters your function has been
+     passed. Actually, the parameter list is ALWAYS terminated with 
+     CDT_NULL. However, this fact is only important with variable-length 
+     parameter lists.
+
+^C  Remember, you can use type-cast variables BEFORE your CDT_ETC
+parameter call, and their presence and type will be enforced as normal.
+It is only the CDT_ETC parameter you have to watch out for. 
+  For an example of how to properly use the CDT_ETC parameter type, and how
+to check your parameter types and length, look at the existing functions
+built with the CDT_ETC parameter type. A good example is the function
+SendThingStr, which is modeled after the "printf" function in C. 
+~
+#
+c4language c46.2~
+^a^v6.2 Modifying the C4 Language^V
+
+^C  Do you want to get fancy? Do you wish to delve deeper into the depths of 
+C4 and the inner-workings of the compiler/interpreter/decompiler? 
+Okay, here's how it goes:
+
+^acode.*       - interface to the rest of the MUD - try to keep it clean :)
+codestuf.*   - definitions common to all C4 modules
+compile.*    - compiler module
+interp.*     - run-time interpreter module & hex dump
+decomp.*     - decompiler module & disassembler
+function.*   - all C4 user functions
+
+^c  To add a system variable
+^b  ------------------------
+^a  Start in codestuf.h and find the definition for cSysVar[].
+Enter directly into this table the variable, the variable type, and it's
+value. Note that it's important to keep non-changeable and changeable sys 
+vars separated! 
+  If you just want to add a constant, you're done. If you wish to add a 
+changing variable such as COMMAND or EVENT_THING, search the various compile.c,
+interp.c, and decomp.c files for similar variables and model your activity
+after those. It's not easy.
+
+^c  To add an @ event
+^b  -----------------
+^a  To add an @ event, you need go no further than code.* and the main CrimsonII
+code. You shouldn't have to touch interp, decomp, compile, or function.
+Look at how events are handled in code.c for help. As for adding your event
+into the CrimsonII code so it's called at the right time, you're on your own.
+If documentation for the CrimsonII code exists (Cryogen!), consult that for 
+help.
+
+^c  To do other things
+^b  ------------------
+^a  To do something more complex, such as add functionality to C4 in the form 
+of grammar (eg switch() case statements), you are really asking for it. First,
+you have to decide how you are going to compile the source code. What assembly
+language commands are you going to use. Do you need to add assembly commands?
+Next, how are you going to interpret any new commands quickly and in a form
+that's compatible with the existing system? Lastly, you have to figure out
+how the heck you are going to disassemble the new grammar. This is probably
+the hardest step. Your assembly code must be unique in it's structure and 
+in its use of assembly commands so that decomp can figure out how to convert
+the assembly back into C4 source code! Then, sit down and start coding,
+first with compile, then interp, then decomp.
+  I have some pointers to start you out. All the assembly commands - the
+COP_* variety - are completely movable - change their actual numerical 
+values to whatever you like to make things neat and tidy for yourself.
+Same goes for the CODE_BLK_* codes if you are adding a new code block.
+If you are adding a new reserved word, the order IS IMPORTANT because of how
+the array cResWord is initialized. 
+  Okay, now for the funky stuff. The compiler is a huge state machine. The
+states are broken up into major states, designated at the start of compile.c.
+The minor states are broken up by adding constants to the major states within
+the state machine. Look through the while(1) loop in Compile() in compile.c.
+Pay attention to where the input string is read, how it is processed, and then
+how the state machine (the great huge switch() statement) is entered and 
+handled. I've broken up the state machine into it's major parts - try following
+an existing grammar example such as the if-else or the while() loop. REMEMBER!
+Everything must be compiled into assembler in post-fix notation!
+  Next, the interpreter is run off a stack and does everything in post-fix. 
+That's reverse-Polish notation (I can say that-I'm part Polish :) ) Look at 
+the comments in the code for further help. The entire program is converted into
+a great big post-fix expression - cool eh? No accumulators or registers are 
+used. The stack is the only means of data storage available to the interpreter.
+  Lastly, the decompiler runs off a multi-pass stack-loop type kludge. First,
+the program is translated into a big text array. Then things like `;' and 
+indents are added. Good luck.
+~
+#
+c4optimize c47.~
+^a^v6. Optimizing C4 code^V
+
+^C  C4 code, because of its interpreted nature, cannot run as fast as compiled 
+C code; speed is the price paid for the safety and flexibility of C4 code.
+
+^C  However, there are techniquese that can be employed to optimize the 
+execution of C4 code. 
+
+^C  The general principles to use are: 
+      ^y- whenever possible, call library functions from within C4
+      ^y- avoid using large while() loops and complex calculations
+      ^y- add complex functions directly to the MUD code in function.c
+
+^C  Functions are called and executed very quickly in C4. If you have the 
+option of doing a while() loop, or calling a function which does the same 
+thing, call the function!
+
+^C  In fact, due to the built-in instruction-execution limiter, a while(0) loop
+will only loop about 200 times before the C4 script is aborted (assuming
+a maximum instruction count of 1000, the default value). So you see, large
+while() loops are not even possible, let alone practical. 
+
+^C  To be more specific, let's look at a while() loop example: 
+
+^a  int i;
+^a  i=0;
+^a  while(i<10) {
+^a    dummy();    /* This is a completely empty function which does nothing */
+^a    i++;
+^a  }
+
+^C  In the above program, the purpose of the loop, calling dummy() ten
+times, only consumes about 28% of the CPU time. The rest of the time is spent 
+incrementing the variable 'i' and executing the while() portion of the code. 
+
+^C  A far superior solution to this problem would be to build in the looping
+functionality into the dummy() function in the module function.c. 
+
+^C  The general philosophy behind C4 is this: the hard stuff gets coded 
+directly into the Crimson II mud server using custom functions in function.c.
+The C4 code is used in simplistic terms to simply call those functions. The
+built-in arithmetic and looping structures are present in C4 as a convenience
+for when their use is somewhat unavoidable. However, it is strongly encouraged
+that complex code be moved into function.c directly.
+
+^C  Efficient, clean, and simple C4 code can be executed with only a 
+performance hit of about 50% (ie executes half as quickly as compiled C code).
+Complex C4 code with loops and calculations can take 100 or more times longer
+than compiled C code.
+~
+#
+c4library c4a1~
+^a^vAppendix 1: C4 Function Library Reference^V
+
+^rSection  Keyword      Description
+^b-------  -----------  ---------------------------------------------------------
+^P A 1.1   ^Gc4preface     ^CC4 Function Library Reference Preface
+^P A 1.2   ^Gc4index       ^CC4 Function Library Reference Index
+~
+#
+c4a1.1 c4preface~
+^a^vAppendix 1.1: C4 Function Library Reference Preface^V
+
+^CBefore we delve right into the function listing for C4, let's go over how the
+functions are presented. 
+
+First note: things (ie anything of type `thing') can be of the following 
+types: WLD  - rooms (Embassy Centre, Club Med, etc)
+       PLR  - players (actual living breathing human beings - theoretically)
+       MOB  - mobiles (the computer-run creatures inside the game)
+       OBJ  - objects (pistols, food items, that sort of thing)
+
+Okay! So each function is presented as such:
+
+^gint   ^rThingGetType  ^a(^gthing WLD/PLR/MOB/OBJ ^psomething^a)
+^C      Returns the type of the thing <^psomething^C>. Returns the following values:
+^a          TTYPE_UNDEF
+^a          TTYPE_WLD        
+^a          TTYPE_OBJ
+^a          TTYPE_MOB
+^a          TTYPE_PLR
+^C      Returns 0 on error.
+
+^a      See also: ^Gc4thing ^rSendAction SendThing 
+
+^CSo let's disect this entry: 
+The `int' at the start is the data type of the function return value. If there
+is no value returned, this space will say <null>. Next, the "ThingType",
+is the name of the function as you would type it in C4. Next, we have, in
+parentheses, the parameter list (comma delimited). For parameters of type
+`thing', you will notice a list of valid thing types. For the above function,
+the parameter <something> may be of any type WLD, PLR, MOB or OBJ. Many
+functions will only act on a few thing types. Next, we have a description
+of how the function works and what it returns. Lastly, we have a brief 
+description of what is returned if an error occurs. 
+
+So you would call the above function like this:
+^a  value=ThingType(something);
+^CAnd if you called it like this:
+^a  value=ThingType(TNULL);
+^Cyou would get 0 because TNULL is not a valid `thing' and has no type.
+
+Also, some functions have a parameter list ending in "etc p1, etc p2..."
+This is an unlimited parameter list. You can use as many parameters
+as you like, of any type, and C4 will let you do it. Be warned, however,
+if you go sticking in wrong data types, C4 will simply not respond 
+and your code will not work properly. Unlimited parameter lists are used
+mostly with string substitutions.
+
+^cString Substitutions
+^b--------------------
+^C  String Substitutions are modeled after functions like the "printf" function
+in C, with the variable number of parameters, and in the way the substitution 
+is performed. If you are already familiar with "printf", you probably are only
+interested in the last part of this section which describes what substitutions
+are currently available and how they work.
+
+  Many functions use string substitutions; strings which are modified by
+C4 to reflect variable contents. For example, look at this function call:
+
+^a      SendThingStr(EVENT_THING,"Hello %s\n",BaseGetKey(CODE_THING));
+
+^C  BaseGetKey will retrieve the name of the character CODE_THING. Then, 
+the function SendThingStr uses the string substitution to insert this name
+into the string at the location specified by "%s". Suppose CODE_THING's name
+is "Mary". From the above command, the thing EVENT_THING would recieve 
+the following text:
+
+^a      Hello Mary
+
+^C  Look at this:
+
+^a      SendThingStr(EVENT_THING,"Hi %s, my name is %s.\n",
+        BaseGetKey(CODE_THING),BaseGetKey(EVENT_THING));
+
+^C  Now we've done 2 substitutions. Notice the parameters following the
+string MUST be in the same order as they appear in the substitution string!
+
+^a  The string substitutions currently availabe are:
+      %s              - str substitution
+      %i              - int substitution
+      %c              - single character (int) substitution
+
+^C  Any function ending in "Str" uses string substitution.
+~
+#
+c4glossary c4a2~
+^a^vAppendix 2: Glossary of Terms^V
+^CTHING
+EVENT
+MUD
+MUSH
+mob, mobile 
+obj, object
+plr, player
+wld, world
+~
+#
+c4reserved c4a3~
+^a^vAppendix 3: List of C4 Reserved Words^V
+
+^C  Many of the C4 reserved words are not currently implemented. The 
+un-implemented words are reserved now to avoid conflicts in the future, should
+the word become available in the C4 language. It is reccommended that 
+un-implemented words ARE NOT removed from the reserved word list. The reserved
+word list is defined in codestuf.c.
+
+^cC4 Reserved Words:
+^b------------------
+^a  asm
+  break
+  case
+  char
+  const
+  continue
+  default
+  double
+  else
+  exit
+  extern
+  extra
+  float
+  for 
+  global
+  goto
+  if
+  int
+  local
+  long
+  public
+  private
+  return
+  short
+  sizeof
+  str
+  struct
+  switch
+  thing
+  typedef
+  union
+  unsigned
+  void
+  while
+~
+$

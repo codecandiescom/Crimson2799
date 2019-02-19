@@ -1,0 +1,1829 @@
+#1650
+Orange Octagon~
+  You are in an octagon-shaped room; the walls, ceiling, and floor are all 
+orange. The walls are smooth and shiny. You sense this is the entrance to 
+the second test. A gateway to the south is glowing orange.
+~
+8 NOMOB CITY-OUTSIDE
+D2
+Orange Glowing Gateway 
+~
+orange gateway~
+0 -1 1700
+D0
+Red Glowing Gateway 
+~
+red gateway~
+0 -1 1595
+D5
+~
+~
+0 -1 1500
+S
+#1651
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1652
+S
+#1652
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1653
+D3
+~
+~
+0 -1 1651
+S
+#1653
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED -1 1657
+D3
+~
+~
+0 -1 1652
+D4
+~
+~
+ISDOOR|LOCKED|CLOSED -1 1669
+S
+#1654
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1670
+D2
+~
+~
+0 -1 1658
+S
+#1655
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1656
+D2
+~
+~
+0 -1 1659
+S
+#1656
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1655
+S
+#1657
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+ISDOOR|LOCKED|CLOSED -1 1653
+D2
+~
+~
+0 -1 1661
+S
+#1658
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1654
+S
+#1659
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1675
+D0
+~
+~
+0 -1 1655
+D2
+~
+~
+0 -1 1663
+S
+#1660
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1676
+D1
+~
+~
+0 -1 1661
+D2
+~
+~
+0 -1 1664
+S
+#1661
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1657
+D3
+~
+~
+0 -1 1660
+S
+#1662
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1678
+D2
+~
+~
+0 -1 1666
+S
+#1663
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1659
+S
+#1664
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1680
+D0
+~
+~
+0 -1 1660
+D1
+~
+~
+0 -1 1665
+S
+#1665
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1681
+D3
+~
+~
+0 -1 1664
+S
+#1666
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1682
+D0
+~
+~
+0 -1 1662
+S
+#1667
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1683
+D1
+~
+~
+0 -1 1668
+S
+#1668
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1667
+S
+#1669
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1673
+D5
+~
+~
+ISDOOR|LOCKED|CLOSED -1 1653
+S
+#1670
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1654
+D2
+~
+~
+0 -1 1674
+S
+#1671
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1687
+D1
+~
+~
+0 -1 1672
+S
+#1672
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 NOMOB CITY-OUTSIDE
+D2
+~
+~
+0 -1 1676
+D3
+~
+~
+0 -1 1671
+S
+#1673
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1689
+D0
+~
+~
+0 -1 1669
+S
+#1674
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1670
+D2
+~
+~
+0 -1 1678
+S
+#1675
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1659
+D1
+~
+~
+0 -1 1676
+S
+#1676
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 NOMOB CITY-OUTSIDE
+D5
+~
+~
+0 -1 1660
+D0
+~
+~
+0 -1 1672
+D3
+~
+~
+0 -1 1675
+S
+#1677
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1678
+S
+#1678
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1662
+D0
+~
+~
+0 -1 1674
+D3
+~
+~
+0 -1 1677
+S
+#1679
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1680
+S
+#1680
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1664
+D3
+~
+~
+0 -1 1679
+S
+#1681
+Huge Blue Crystal Cavern~
+  You are in a huge cavern; the walls are made of a blue-glowing crystal. 
+~
+8 NOMOB CITY-OUTSIDE
+D5
+~
+~
+0 -1 1665
+D2
+~
+~
+0 -1 1950
+P
+@afterentry~
+{
+  str state;
+  int propVal;
+  state="TheMazeLevel2-Solution";
+  if(ThingGetType(EVENT_THING)!=TTYPE_PLR) {
+    stop;
+  }
+  propVal=PropertyGetInt(EVENT_THING,state);
+  if((propVal&8)==0) {
+    PlayerSolvedQuest(EVENT_THING,"^aYou hear joyfull music\n",5000,1,state,propVal|8);
+  }
+}~
+S
+#1682
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1666
+S
+#1683
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1667
+D4
+~
+~
+0 -1 1699
+D1
+~
+~
+0 -1 1684
+S
+#1684
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1685
+D3
+~
+~
+0 -1 1683
+S
+#1685
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1689
+D3
+~
+~
+0 -1 1684
+S
+#1686
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1702
+D2
+~
+~
+0 -1 1690
+S
+#1687
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1671
+D4
+~
+~
+0 -1 1703
+S
+#1688
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1704
+D1
+~
+~
+0 -1 1689
+S
+#1689
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1673
+D0
+~
+~
+0 -1 1685
+D3
+~
+~
+0 -1 1688
+S
+#1690
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1686
+D2
+~
+~
+0 -1 1694
+S
+#1691
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1707
+D1
+~
+~
+0 -1 1692
+S
+#1692
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1693
+D2
+~
+~
+0 -1 1696
+D3
+~
+~
+0 -1 1691
+S
+#1693
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1697
+D3
+~
+~
+0 -1 1692
+S
+#1694
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1690
+S
+#1695
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1711
+D1
+~
+~
+0 -1 1696
+S
+#1696
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1712
+D0
+~
+~
+0 -1 1692
+D3
+~
+~
+0 -1 1695
+S
+#1697
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1693
+D1
+~
+~
+0 -1 1698
+S
+#1698
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1697
+S
+#1699
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1683
+D4
+~
+~
+0 -1 1715
+S
+#1700
+Blue Crystal Cavern~
+  You are in a dim cavern. The walls appear to be made of a pulsating, 
+blue-glowing crystal. The pulsating light is relaxing and rather hypnotic.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1701
+D2
+~
+~
+0 -1 1704
+D0
+~
+~
+0 -1 1650
+S
+#1701
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1717
+D3
+~
+~
+0 -1 1700
+S
+#1702
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1686
+D4
+~
+~
+0 -1 1730
+D2
+~
+~
+0 -1 1706
+S
+#1703
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1687
+D2
+~
+~
+0 -1 1707
+S
+#1704
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1688
+D0
+~
+~
+0 -1 1700
+S
+#1705
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1721
+D1
+~
+~
+0 -1 1706
+S
+#1706
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1702
+D3
+~
+~
+0 -1 1705
+S
+#1707
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1691
+D0
+~
+~
+0 -1 1703
+D1
+~
+~
+0 -1 1708
+S
+#1708
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1724
+D3
+~
+~
+0 -1 1707
+S
+#1709
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1710
+D2
+~
+~
+0 -1 1713
+S
+#1710
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1709
+S
+#1711
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1695
+S
+#1712
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1696
+D1
+~
+~
+0 -1 1713
+S
+#1713
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1729
+D0
+~
+~
+0 -1 1709
+D1
+~
+~
+0 -1 1714
+D3
+~
+~
+0 -1 1712
+S
+#1714
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1730
+D3
+~
+~
+0 -1 1713
+S
+#1715
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1699
+S
+#1716
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1732
+D1
+~
+~
+0 -1 1717
+S
+#1717
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1701
+D3
+~
+~
+0 -1 1716
+S
+#1718
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1702
+D2
+~
+~
+0 -1 1722
+S
+#1719
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1720
+D2
+~
+~
+0 -1 1723
+S
+#1720
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1736
+D3
+~
+~
+0 -1 1719
+S
+#1721
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1705
+S
+#1722
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1738
+D0
+~
+~
+0 -1 1718
+S
+#1723
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1719
+S
+#1724
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1708
+S
+#1725
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1741
+D1
+~
+~
+0 -1 1726
+S
+#1726
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1742
+D3
+~
+~
+0 -1 1725
+S
+#1727
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1743
+D1
+~
+~
+0 -1 1728
+S
+#1728
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1744
+D3
+~
+~
+0 -1 1727
+S
+#1729
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1713
+D4
+~
+~
+0 -1 1745
+S
+#1730
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1714
+S
+#1731
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1747
+D1
+~
+~
+0 -1 1732
+S
+#1732
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1716
+D4
+~
+~
+0 -1 1748
+D2
+~
+~
+0 -1 1736
+D3
+~
+~
+0 -1 1731
+S
+#1733
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1734
+S
+#1734
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1750
+D3
+~
+~
+0 -1 1733
+S
+#1735
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1751
+D2
+~
+~
+0 -1 1739
+S
+#1736
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1720
+D4
+~
+~
+0 -1 1752
+D0
+~
+~
+0 -1 1732
+S
+#1737
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1753
+D1
+~
+~
+0 -1 1738
+D2
+~
+~
+0 -1 1741
+S
+#1738
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1722
+D3
+~
+~
+0 -1 1737
+S
+#1739
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1735
+D1
+~
+~
+0 -1 1740
+S
+#1740
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1739
+S
+#1741
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1725
+D0
+~
+~
+0 -1 1737
+S
+#1742
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1726
+D2
+~
+~
+0 -1 1746
+S
+#1743
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1727
+S
+#1744
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1728
+D1
+~
+~
+0 -1 1745
+S
+#1745
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 NOMOB CITY-OUTSIDE
+D5
+~
+~
+0 -1 1729
+D1
+~
+~
+0 -1 1746
+D3
+~
+~
+0 -1 1744
+S
+#1746
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 NOMOB CITY-OUTSIDE
+D0
+~
+~
+0 -1 1742
+D3
+~
+~
+0 -1 1745
+S
+#1747
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1731
+D4
+~
+~
+0 -1 1763
+S
+#1748
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 NOMOB CITY-OUTSIDE
+D5
+~
+~
+0 -1 1732
+D1
+~
+~
+0 -1 1749
+S
+#1749
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 NOMOB CITY-OUTSIDE
+D1
+~
+~
+0 -1 1750
+D2
+~
+~
+0 -1 1753
+D3
+~
+~
+0 -1 1748
+S
+#1750
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1734
+D3
+~
+~
+0 -1 1749
+S
+#1751
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1735
+D1
+~
+~
+0 -1 1752
+S
+#1752
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1736
+D3
+~
+~
+0 -1 1751
+S
+#1753
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1737
+D0
+~
+~
+0 -1 1749
+S
+#1754
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1770
+D2
+~
+~
+0 -1 1758
+S
+#1755
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1771
+D1
+~
+~
+0 -1 1756
+S
+#1756
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1757
+D3
+~
+~
+0 -1 1755
+S
+#1757
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1756
+S
+#1758
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1754
+S
+#1759
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1775
+D1
+~
+~
+0 -1 1760
+S
+#1760
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1776
+D3
+~
+~
+0 -1 1759
+S
+#1761
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D4
+~
+~
+0 -1 1777
+D1
+~
+~
+0 -1 1762
+S
+#1762
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1761
+S
+#1763
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1747
+D1
+~
+~
+0 -1 1764
+S
+#1764
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1765
+D2
+~
+~
+0 -1 1768
+D3
+~
+~
+0 -1 1763
+S
+#1765
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1766
+D3
+~
+~
+0 -1 1764
+S
+#1766
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1770
+D3
+~
+~
+0 -1 1765
+S
+#1767
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1768
+D2
+~
+~
+0 -1 1771
+S
+#1768
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1764
+D1
+~
+~
+0 -1 1769
+D3
+~
+~
+0 -1 1767
+S
+#1769
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1773
+D3
+~
+~
+0 -1 1768
+S
+#1770
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1754
+D0
+~
+~
+0 -1 1766
+S
+#1771
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1755
+D0
+~
+~
+0 -1 1767
+D1
+~
+~
+0 -1 1772
+S
+#1772
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1776
+D3
+~
+~
+0 -1 1771
+S
+#1773
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1769
+D1
+~
+~
+0 -1 1774
+S
+#1774
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal.
+~
+8 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1778
+D3
+~
+~
+0 -1 1773
+S
+#1775
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1759
+S
+#1776
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1760
+D0
+~
+~
+0 -1 1772
+S
+#1777
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D5
+~
+~
+0 -1 1761
+D1
+~
+~
+0 -1 1778
+S
+#1778
+Blue Crystal Cavern~
+  You are in a cavern; the walls are made of a blue-glowing crystal. 
+~
+8 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1774
+D3
+~
+~
+0 -1 1777
+S

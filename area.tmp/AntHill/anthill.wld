@@ -1,0 +1,329 @@
+#5400
+entrance~
+As you start traviling downward you have a little trouble with getting a grip on the smoth walls.
+AAAAAHHHHHHHH! O well that is one way down.
+~
+-99 0 1
+D2
+~
+~
+0 -1 5401
+S
+#5401
+bottom of tunnle~
+Well you made it into the ant hill as you look up you notice that the only source of light here is the sun and if you want to go any futher you better go get your own.
+~
+-99 0 1
+D0
+~
+~
+0 -1 5400
+D1
+~
+~
+0 -1 5404
+D3
+~
+~
+0 -1 5403
+S
+#5403
+tunnle~
+Now you are on your way.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5401
+D3
+~
+~
+0 -1 5405
+S
+#5404
+tunnle~
+Now you are on your way.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5406
+D3
+~
+~
+0 -1 5401
+S
+#5405
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5403
+D3
+~
+~
+0 -1 5409
+S
+#5406
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5407
+D3
+~
+~
+0 -1 5404
+S
+#5407
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5408
+D3
+~
+~
+0 -1 5406
+S
+#5408
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D2
+~
+~
+0 -1 5420
+D3
+~
+~
+0 -1 5407
+S
+#5409
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5405
+D3
+~
+~
+0 -1 5410
+S
+#5410
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5409
+D2
+~
+~
+0 -1 5419
+S
+#5411
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D0
+~
+~
+0 -1 5419
+D1
+~
+~
+0 -1 5412
+S
+#5412
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5413
+D3
+~
+~
+0 -1 5411
+S
+#5413
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5414
+D3
+~
+~
+0 -1 5412
+S
+#5414
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5422
+D3
+~
+~
+0 -1 5413
+S
+#5415
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5416
+D3
+~
+~
+0 -1 5422
+S
+#5416
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5417
+D3
+~
+~
+0 -1 5415
+S
+#5417
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D1
+~
+~
+0 -1 5418
+D3
+~
+~
+0 -1 5416
+S
+#5418
+tunnle~
+The ground here is sticky and some what moist.
+~
+-99 0 1
+D0
+~
+~
+0 -1 5420
+D3
+~
+~
+0 -1 5417
+S
+#5419
+tunnle~
+hope you don't fall this time!
+~
+-99 0 1
+D0
+~
+~
+0 -1 5410
+D2
+~
+~
+0 -1 5411
+S
+#5420
+tunnle~
+hope you don't fall this time!
+~
+-99 0 1
+D0
+~
+~
+0 -1 5408
+D1
+~
+~
+0 -1 5421
+D2
+~
+~
+0 -1 5418
+S
+#5421
+Storage~
+This seams to be a food storage area. 
+Yumm this stuff looks good!
+There is also a natural lake here.
+
+(editors note the food and/or water could do something to the char good or bad)
+~
+-99 0 1
+D3
+~
+~
+0 -1 5420
+S
+#5422
+Junction~
+Well looks like we are going down again
+~
+-99 0 1
+D1
+~
+~
+0 -1 5415
+D2
+~
+~
+0 -1 5423
+D3
+~
+~
+0 -1 5414
+S
+#5423
+Check point~
+Two of the biggest, meanest, uglyest creatures you have ever seen are guarding any futher passage
+~
+-99 0 1
+D0
+~
+~
+0 -1 5422
+S
+$~
+#9999

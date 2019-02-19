@@ -1,0 +1,660 @@
+Main Command Help~
+#
+parsing parse interpreter interpreting~
+^gPARSING - ^bHow commands are interpreted
+^C
+One of the things that makes Crimson2 a little nicer than your run of the mill
+mud is a universal command parser. What does this mean in English? Namely that
+all the shortcuts/examples below work for every command in the game, no
+exceptions. One thing you should know is that several words are ignored
+entirely, namely at, in, inside, from, the, of, to, etc. etc. As such: ^glook
+at cryogen ^Cis the same as ^glook cryogen ^Cto the parser. In fact ^glook the
+at in cryogen from inside ^Cis the same as ^glook cryogen ^Cto the parser.....
+
+Anyways, the easiest way to understand how it works is by way of example, so
+heres a few examples.
+
+e.g. ^gget bread      - ^bGet the bread
+     ^gget 2.bread    - ^bGet the second bread
+     ^gget 3rd bread  - ^bGet the third bread
+     ^gget br         - ^bGet the first thing that starts with ^gbr
+     ^gget all        - ^bGet everything you can
+     ^gge all.bread   - ^bGet all the bread
+     ^gge all bread   - ^bGet all the bread
+     ^gge 2 bread     - ^bGet 2 bread
+     ^gge 2 3.bread   - ^bGet 2 bread, starting with the 3rd one
+
+^rSEE ALSO: ^g<Every Command in the Mud>
+~
+#
+north south east west up down moving movement~
+^GNORTH SOUTH EAST WEST UP ^bor ^gDOWN - ^bmove in this direction
+^C
+These are your basic move around the mud type commands. Note that to move you
+must have enough movement points left. If you run out of movement points dont
+panic, simply wait a few minutes and you'll become less tired.
+
+^rSEE ALSO: ^gEXITS GO
+~
+#
+go~
+^gGO - ^bGo through an exit, typically the GO is unnecessary
+^C
+e.g.  go north
+      go n
+      go gate
+
+^rSEE ALSO: ^gNORTH EXITS SCAN
+~
+#
+exits~
+^gEXITS - ^bquickly glance around at the available exits
+^C
+Note: that this will only reveal obvious exits, hidden exits will not show
+up.
+
+^rSEE ALSO: ^gSCAN
+~
+#
+scan~
+^gSCAN - ^bLook into neighboring rooms
+^C
+If you type ^gSCAN^C you will look into all adjacent rooms. However you scan
+in a particular direction you can see farther away.
+
+e.g.   scan
+       scan north
+       scan n
+
+^rSEE ALSO: ^gEXITS
+~
+#
+look~
+^gLOOK - ^blook at an object in the game
+^C
+simply typing look will show you a description of everything in your room.
+But you can also explicitly look at objects within a room (or your inventory).
+
+e.g. look cryogen
+     look guard
+     etc.
+
+^rSEE ALSO: ^gPARSING SCAN EXITS
+~
+#
+open~
+^gOPEN - ^bOpen a closed door or container
+^C
+
+^rSEE ALSO: ^gCLOSE UNLOCK LOCK PICKLOCK HACK
+~
+#
+close~
+^gCLOSE - ^bClose an open door or container
+^C
+
+^rSEE ALSO: ^gOPEN UNLOCK LOCK PICKLOCK HACK
+~
+#
+unlock~
+^gUNLOCK - ^bUnlock a closed door or container
+^C
+
+^rSEE ALSO: ^gOPEN CLOSE LOCK PICKLOCK HACK
+~
+#
+lock~
+^gLOCK - ^bLock a closed door or container
+^C
+
+^rSEE ALSO: ^gOPEN CLOSE UNLOCK PICKLOCK HACK
+~
+#
+stand~
+^gSTAND - ^bStand up
+^C
+This is your normal position.
+
+^rSEE ALSO: ^gSIT REST SLEEP WAKE
+~
+#
+sit~
+^gSIT - ^bSit down
+^C
+While sitting your character regains health and energy at a faster rate.
+
+^rSEE ALSO: ^gSTAND REST SLEEP WAKE
+~
+#
+rest~
+^gREST - ^bLie down and rest
+^C
+While resting your character regains health and energy at a faster rate.
+However if you are attacked you will be unable to fight back until you stand
+up.
+
+^rSEE ALSO: ^gSTAND SIT SLEEP WAKE
+~
+#
+sleeping~
+^gSLEEP - ^bLie down and go to sleep
+^C
+While asleep you do not see or hear what is going on around you. However you
+heal and recover energy at a much accelerated rate. If you are attacked you
+will wake up but will be unable to fight back until you stand up.
+
+^rSEE ALSO: ^gSTAND SIT REST WAKE
+~
+#
+wake~
+^gWAKE - ^bWake up but remain lying down
+^C
+While resting your character regains health and energy at a faster rate.
+However if you are attacked you will be unable to fight back until you stand
+up.
+
+^rSEE ALSO: ^gSTAND SIT REST SLEEP
+~
+#
+hit kill shoot~
+^gKILL - ^bTry to kill that pesky critter
+^C
+You meanie you... Actually killing things is generally a good idea. (Unless
+of course they're tougher than you are) When you kill a creature in the game
+you gain experience points based on their toughness relative to you. (Another
+reason grouping is a good idea ie jointly you can kill tougher creatures). You
+can guesstimate their relative toughness by using the consider command.
+
+^rSEE ALSO: ^gCONSIDER FLEE CONCENTRATE
+~
+#
+group~
+^gGROUP - ^bAdd and remove people from your group
+^C
+This command is used to add and remove followers from your group. People in a
+group share experience from kills. Frankly, grouping is a Good Idea. Note:
+before you can group someone they *MUST* start following you first.
+e.g.
+  ^ggroup              - Look at your group status
+  ^ggroup cryogen      - Add cryogen to your group
+  ^ggroup cryogen      - Changed our mind, ditch that loser cryogen
+
+^rSEE ALSO: ^gFOLLOW
+~
+#
+follow~
+^gFOLLOW - ^bStart following someone
+^C
+This allows you to start following another creature in the game. Typically it
+is used when you are forming up a group. (There's safety in numbers). When you
+are following someone you will automatically move whenever they do. If you try
+to follow someone who is themselves following another person you will instead
+end of following their leader as well.
+e.g.
+  ^gfollow cryogen     - start following cryogen
+  ^gfollow <yourname>  - follow yourself ie stop following other people
+
+^rSEE ALSO: ^gGROUP
+~
+#
+concentrate~
+^gCONCENTRATE - ^bUse a Psionic ability
+^C
+This works best if you choose a psionic ability you have actually practiced.
+e.g.
+  ^gconcentrate ghostfist guard
+  ^gconc endur
+
+^rSEE ALSO: ^gPRACTICE
+~
+#
+practice~
+^gPRACTICE - ^bImprove your skill with this ability.
+^C
+Before you can practice a skill you must first locate someone who can teach
+that skill to you. Unless a trainer is present you can only inspect your
+current skills.
+e.g.
+  ^gpractice        - display the skill categories you can practice skills in
+  ^gpractice *laser - display all the laser skills you can practice
+  ^gpracice flee    - improve your skill at fleeing. (trainer must be present)
+^C
+Reading the skill display:
+^y*Skill(^Y999^y)*^g      - You are as good as you can be at this
+^r*Skill(0/999)*^g    - You cannot practice this skill at this trainer
+^gSkill(^w0/999^g)[1]   - You can practice this skill here up to max.
+^CSkill(^p0/*999^C)[1]^g  - You can practice this skill here but not up to max.
+
+^rSEE ALSO: ^gCONCENTRATE WEAPON-SKILLS <SKILL-NAME>
+~
+#
+drop~
+^gDROP - ^bDrop and object
+^C
+
+^rSEE ALSO: ^gPARSING GET PUT JUNK
+~
+#
+get take~
+^gGET - ^bPickup an object
+^C
+
+^rSEE ALSO: ^gPARSING DROP PUT JUNK
+~
+#
+junk~
+^gJUNK - ^bDestroys an object you no longer want or need
+^C
+e.g.
+  junk needler
+
+^rSEE ALSO: ^gDROP
+~
+#
+put~
+^gPUT - ^bPut an object into another object
+^C
+e.g.
+  put clip needler
+
+^rSEE ALSO: ^gDROP GIVE JUNK GET
+~
+#
+give~
+^gGIVE - ^bGive an object to someone
+^C
+
+^rSEE ALSO: ^gGET DROP PUT
+~
+#
+equip wear wield~
+^gEQUIP - ^bEquip an object
+^C
+This starts you using an object ie starts wearing a jacket, holding a 
+needler etc
+
+e.g.
+  ^gequip needler
+  ^gequip jacket
+
+^rSEE ALSO: ^gINVENTORY UNEQUIP
+~
+#
+unequip remove~
+^gUNEQUIP - ^bUnequips an object
+^C
+This stops using an object and places it in your inventory so that you can
+drop it, sell it etc.
+
+e.g.
+  ^gunequip needler
+  ^gunequip jacket
+
+^rSEE ALSO: ^gINVENTORY EQUIP
+~
+#
+inventory~
+^gINVENTORY - ^bShow what you are carrying
+^C
+This command shows a list of what you are carrying. It does *NOTE* show you
+objects that you are wearing or otherwise equipped with. (See EQUIP for a
+list of those). Note that the amount of weight you can carry is determined
+by your strength, and that is you carry too much weight you will be 
+encumbered. While encumbered movement point costs are doubled.
+
+e.g. 
+  ^ginventory
+  ^ginv
+  ^gi
+
+^rSEE ALSO: ^gEQUIP UNEQUIP GET DROP
+~
+#
+use~
+^gUSE - ^bUse an object
+^C
+This command activates an object. For some types of objects ie medipatches
+and the like, using will destroy the object. For other types ie scanners etc.
+it will merely use up some of the stored energy in its batteries.
+
+e.g.
+  use medipatch
+  use scanner remnants
+  use scanner 2.remnants
+
+^rSEE ALSO: ^g
+~
+#
+eat~
+^gEAT - ^bEat an object (typically food)
+^C
+You can also use the set command to turn AUTOEAT on. Be carefull not to carry
+any poisoned food if you do this.
+
+^rSEE ALSO: ^gDRINK
+~
+#
+drink~
+^gDRINK - ^bDrink from a drink container
+^C
+You can also use the set command to turn AUTODRINK on. Be carefull not to
+carry any poisoned drinks if you do this.
+
+^rSEE ALSO: ^gEAT FILL EMPTY
+~
+#
+fill~
+^gFILL - ^bFill a drink container from another
+^C
+
+^rSEE ALSO: ^gEMPTY
+~
+#
+read~
+^gREAD - ^bRead a note off a bulletin board
+^C
+For example, lets say you wanted to read a note on the Wall Terminal ie
+read terminal     - see the list of notes on the terminal
+read terminal 1   - read note #1
+
+^rSEE ALSO: ^gWRITE REPLY EDIT ERASE
+~
+#
+write~
+^gWRITE - ^bWrite a note on a bulletin board
+^C
+For example, lets say you wanted to leave a note on the Wall Terminal ie
+write terminal <your subject here>
+
+^rSEE ALSO: ^gREAD REPLY EDIT ERASE
+~
+#
+reply~
+^gREPLY - ^bReply to a note on a bulletin board
+^C
+ie. You want to reply to message #4 on the Wall Terminal.
+reply terminal 4
+
+This would create a message with a subject of Re:<Message #4's subject>
+that would be indented immediately after message 4.
+
+^rSEE ALSO: ^gREAD WRITE EDIT ERASE
+~
+#
+edit~
+^gEDIT - ^bEdit a note you wrote on a bulletin board
+^C
+Typically used to correct a typo or something. To edit message #4 on the Wall
+Terminal you would type:
+edit terminal 4
+
+^rSEE ALSO: ^gREAD WRITE REPLY ERASE
+~
+#
+erase~
+^gERASE - ^bErase a note you left on a bulletin board
+^C
+To erase Message#4 on the Wall Terminal you would type:
+erase terminal 4
+
+^rSEE ALSO: ^gREAD WRITE REPLY EDIT
+~
+#
+gossip~
+^gGOSSIP - ^bThis sends a message to everyone in the game
+^C
+This allows you to chat with everyone in the game, no matter where they are.
+If you find all the GOSSIP anoying you can use the SET command to turn it off
+
+^rSEE ALSO: ^gSAY TELL SET
+~
+#
+auction~
+^gAUCTION - ^bSend a message to everyone in the game
+^C
+Typically you would use this command only if you were interested in buying or
+selling an object.
+
+^rSEE ALSO: ^gSAY TELL GOSSIP SET
+~
+#
+emote~
+^gEMOTE - ^bThe all purpose social command
+^C
+This can be used to send arbitrary messages to other people in the same room.
+For example you could type:
+^gemote jumps up and down excitedly^C
+
+and others would see: 
+Cryogen jumps up and down excitedly
+
+You can also type things like:
+^gemote With a happy cry, $n leaps forward and gives everyone a great big hug^C
+
+and others would see:
+With a happy cry, Cryogen leaps forward and gives everyone a great big hug
+
+^rSEE ALSO: ^gSOCIALS
+~
+#
+say~
+^gSAY - ^bThe basic form of communication
+^C
+Depending on what your sentence ends with (ie ? or !) what you say will either
+come out as You say, You ask, or You exclaim. 
+For example: 
+  say hello           - Cryogen says "hello"
+  say Hello Corbin!   - Cryogen exclaims "Hello Corbin!"
+  say anyone here?    - Cryogen asks "anyone here?"
+
+^rSEE ALSO: ^gGOSSIP TELL GTELL
+~
+#
+tell~
+^gTELL - ^bSend a private message
+^C
+You can use this command to send something to a player in another room such
+that nobody else can hear it. If you find that people are allways sending
+you messages that you would rather ignore, you can use the SET command to
+turn them off.
+e.g.
+  tell cryogen can I have a re-imb?
+  tell player sorry I dont do these
+
+^rSEE ALSO: ^gSAY GOSSIP SET
+~
+#
+order~
+^gORDER - ^b
+^C
+
+^rSEE ALSO: ^g
+~
+#
+gtell~
+^gGTELL - ^bSend a message to your group
+^C
+This sends a message to everyone in your group, no matter where they are in
+the game.
+
+e.g.
+  ^ggtell Hey group lets go explore the anomaly
+  ^ggtell Argh I'm getting my butt kicked, help me out here
+
+^rSEE ALSO: ^gSAY TELL GOSSIP
+~
+#
+set~
+^gSET - ^bSets a variety of personal preferences
+^C
+Its a very good idea to go over some of the settings fairly soon after
+creating your character, some of them are quite handy.
+
+^rSEE ALSO: ^g
+~
+#
+score~
+^gSCORE - ^bGive you a status screen on your character
+^C
+Full of handy information, you should do this whenever you feel the burning
+need to check on your characters progress.
+
+^rSEE ALSO: ^g
+~
+#
+title~
+^gTITLE - ^bChange your title
+^C
+
+^rSEE ALSO: ^gWHO
+~
+#
+socials~
+^gSOCIALS - ^bLists the available social
+^C
+Social commands dont actually do anything except send messages. It allows you
+to interact socially with other players. For a complete list type "socials",
+but as a quick list of some popular commands:^g
+  grin            - grin evilly
+  grin cryogen    - grin evilly at cryogen
+  smirk           - smirk
+  smile           - smile happily
+  nod             - nod solemnly
+  chuckle         - chuckle politely
+  wave            - wave goodbye
+
+^rSEE ALSO: ^gEMOTE
+~
+#
+alias~
+^gALIAS - ^bList aliases or Create an alias
+^C
+What is an alias you ask? Aliases are shortcuts to commonly used commands.
+For example, you might find that you are using the psionic power ghost fist
+rather frequently so you might create an alias with:
+alias gf concentrate ghostfist
+
+This way you could just do something like:
+gf <target>
+
+and save yourself some typing. The Crimson2 server also understands variables
+(ie %1 %2 etc) and can execute multiple commands separated by ";". Let us say
+that you are frequently getting a bread out of your bag and eating it:
+alias eb get bread bag; eat bread
+
+Now what if you wanted to keep both bread and meat in the bag you could:
+alias ebm get %1 bag; eat %1
+
+and then type
+"ebm meat" or "ebm bread"
+
+^rSEE ALSO: ^gUNALIAS
+~
+#
+unalias~
+^gUNALIAS - ^bDelete an alias
+^C
+Deletes one of your aliases. e.g.
+unalias       - list aliases
+unalias gf    - delete the alias "gf"
+
+^rSEE ALSO: ^g
+~
+#
+who~
+^gWHO - ^bSee a list of everyone in the game.
+^C
+This command shows you who else in in the game with you. It also shows you
+their title.
+
+^rSEE ALSO: ^gTITLE
+~
+#
+where~
+^gWHERE - ^bWhere is everyone/someone
+^C
+This can be used in either of two ways:
+^gwhere        - ^bwhere are nearby players (players in the same area as you)
+^gwhere <name> - ^bwhere is this person/mob
+
+^rSEE ALSO: ^gWHO
+~
+#
+time~
+^gTIME - ^bDisplays various timing information
+^C
+This can be used to determine how much longer it will be until an area resets.
+It also shows you the uptime of the server.
+
+^rSEE ALSO: ^g
+~
+#
+entermsg~
+^gENTERMSG - ^bChange your entrance message
+^C
+This is the message that is displayed when you enter the game, teleport into
+a room, or otherwise suddenly appear from nowhere.
+
+^rSEE ALSO: ^gEXITMSG
+~
+#
+exitmsg~
+^gEXITMSG - ^bChange your exit message
+^C
+This is the message that is displayed when you exit the game, teleport out of
+a room, or otherwise suddenly abruptly disappear.
+
+^rSEE ALSO: ^gENTERMSG
+~
+#
+finger~
+^gFINGER - ^bCheck another player
+^C
+Using this command you can check how long another player has been idle, how
+long its been since they last signed on, their email address (unless they
+have set it as PRIVATE) and their plan (just a short public message). Unlike
+most commands, you must specify their name in full.
+e.g.
+  finger cryogen
+  finger corbin
+
+^rSEE ALSO: ^gSET
+~
+#
+levels~
+^gLEVELS - ^bDisplay the experience required for the next few levels
+^C
+Shows you how much experience you need to make the next 20 or so levels
+
+^rSEE ALSO: ^gSCORE
+~
+#
+exit quit~
+^gQUIT - ^bas in quit the game, I'm going home....
+^C
+Be aware that if you do this you *WILL* lose your stuff, the better choice
+is to rent a stasis chamber.
+
+(Actually right now you keep your stuff, but eventually you wont, so there!)
+
+^rSEE ALSO: ^g
+~
+#
+c4snoop~
+^Gc4snoop - snoop the C4 execution of an OBJ/MOB/WLD/Area
+^C
+This is mainly a debugging tool for C4 coders and area builders.
+It does not show you a complete C4 execution history, but rather
+just reports what functions were called and with what results.
+
+Type "c4snoop <thing>" to begin c4snooping <thing>. World and
+area scripts are currently un-snoopable. Furthermore, not that
+if you 1) c4snoop an object, and then 2) switch to some other
+mob, then you WILL NOT get c4snoop messages because they are
+BEING SENT TO YOUR REAL BODY. This is not really a bug, but rather
+more of a limitation of the code structure.
+
+^RSEE ALSO: ^gsnoop
+~
+$
+

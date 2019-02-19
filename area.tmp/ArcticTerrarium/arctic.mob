@@ -1,0 +1,32 @@
+#4600
+raphael aptenoid leader~
+Raphael, Leader of the Aptenoids~
+Raphael, Leader of the Aptenoids, is here.~
+Raphael is not particularly impressive physically, but has been elected Aptenoid Leader for his sharp mind and diplomatic demeanor.
+~
+STAYAREA 0 0 S
+1 0 0 1d4+0 1d2+0
+15 0
+STANDING NONE MALE
+#4601
+staleth traitor aptenoid~
+Staleth, the Traitor Aptenoid~
+Staleth, the Traitor Aptenoid, is here looking innocent.~
+Staleth is one of the cuter Aptenoids. He's also one of Raphael's confidantes. He's also been selling maps of the Aptenoid fortresses to the 
+Ursinoids. The money's not that good. He is probably just evil.
+~
+STAYAREA 0 0 S
+1 0 0 1d4+0 1d2+0
+180 0
+STANDING NONE MALE
+#4602
+blank mobile~
+Ulrich, Ursinoid Commander~
+Type ^wMLDESC^c to give this Mob a better LDesc.~
+Type ^wMDESC^c to give this Mob a better Description.
+~
+STAYAREA 0 0 S
+1 0 0 1d4+0 1d2+0
+0 0
+STANDING NONE MALE
+$

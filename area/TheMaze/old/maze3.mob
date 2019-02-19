@@ -1,0 +1,127 @@
+#1800
+albernion hunter-killer killer~
+an Albernion Hunter-Killer~
+An Albernion Hunter-Killer machine is searching for targets here~
+This massive machine looks something like a tank walking around on 
+spider-like legs. Its turret with integrated fire-control suite and 55mm 
+Autocannon slew around with lightning speed as it targets you for potential 
+termination. 
+~
+TRACKER|AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+27 81 64 2d350+800 3d12+9
+200 4200
+STANDING ROBOT SEXLESS
+#1801
+albernion interceptor machine~
+an Albernion interceptor~
+An albernion interceptor machine hovers here, twin lasers glinting ominously~
+Its an albernion interceptor machine. It consists of a helicoptor like 
+rotory lift system carrying a twin laser gun mount and just enough 
+electronics to give it the ability to recognize a Dorion when it sees one. 
+~
+TRACKER|AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+26 78 62 2d300+700 3d11+8
+0 3600
+STANDING ROBOT SEXLESS
+#1802
+sand jorki~
+sand jorki~
+a huge sand jorki is here, coiling for an attack.~
+The jorki looks like a snake with two tails. It's head is about 5 feet 
+accross and 10 feet long. It is red-gold coloured and blends in well with 
+the surroundings. 
+~
+TRACKER|AGGRESSIVE|STAYAREA|HYPERAGGR|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT 0 50 S
+55 165 134 8d1750+3600 3d23+18
+0 21000
+STANDING ANIMAL FEMALE
+#1803
+albino lizard white~
+Albino Lizard~
+a perfectly white lizard lurks in the shadows.~
+The lizard looks white, almost translucent, presumably from its prolonged 
+existance underground. It has four legs and a nasty looking row of teeth. 
+~
+TRACKER|AGGRESSIVE|STAYAREA|HYPERAGGR|RPUNCTURE|RSLASH|RCONCUSSIVE GROUP|DARKVISION|REGENERATION|ENDURANCE|HIDDEN 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING ANIMAL SEXLESS
+#1804
+small Builder aldor~
+Aldor~
+A very small builder is here, whistling and singing to himself.~
+The builder is very small - about a foot high. He seems to be in an 
+exceptionally good mood. 
+~
+SENTINEL|FORGIVING|STAYAREA 0 0 S
+1 3 0 1d3+10 3d1+0
+0 15
+STANDING GALCIV-CITIZEN MALE
+P
+@AFTERCOMMAND~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say Glad to see you made it this far, pupil! Your next challenge is to practice your concentration. For this task you must overcome your instinctual fear. Come to me and say \'ready\' when you wish to begin.");
+    stop;
+  }
+  if(StrIn(COMMAND,"louise")) {
+    CharAction(CODE_THING,"say Ah, Louise, the fair maiden of the gardens. If you see her, tell her Aldor sends his love.");
+    stop;
+  }
+  if(StrIn(COMMAND,"gardens","maiden")) {
+    CharAction(CODE_THING,"say Why yes! The lovely she, who came and caressed me from my loneliness. But alas, she has returned to her world, made empty by malfunctioning minions.");
+    stop;
+  }
+  if(StrIn(COMMAND,"Aldor")) {
+    CharAction(CODE_THING,"say That\'s me! That\'s me! Pupil indeed! For I am the master, you are the slave, I the puppeteer, you stand on the stage!");
+    stop;
+  }
+  if(StrIn(COMMAND,"empty","malfunction","minion")) {
+    CharAction(CODE_THING,"say At least we lessened the blow, to those who would know, from how it was so.");
+    stop;
+  }
+  if(StrIn(COMMAND,"care","lone","pupil","less","blow","master","slave","puppeteer","stage","stand","know")) {
+    SendAction(CODE_THING,CODE_THING,SEND_ROOM,"^b$n dances around and whistles a quickly tune\n");
+    stop;
+  }
+}~
+P
+@COMMAND~
+{
+  thing mob, room, plr;
+  if(StrIn(COMMAND,"ready")) {
+    BLOCK_CMD=TRUE;
+    room=WorldOf(1849);
+    if(ThingGetType(EVENT_THING)!=TTYPE_PLR) {
+      CharAction(CODE_THING,"say You are not permitted in the testing arena. Goodbye.");
+      SendAction(CODE_THING,EVENT_THING,SEND_ROOM,"^w$N suddenly disappears!\n");
+      ThingTo(EVENT_THING,WorldOf(1800));
+      stop;
+    }
+    CharAction(CODE_THING,"say Prepare thyself, questor.");
+    SendAction(CODE_THING,EVENT_THING,SEND_ROOM,"^w$N suddenly disappears!\n");
+    FightStop(EVENT_THING);
+    ThingTo(EVENT_THING,room);
+    mob=MobileCreate(room,1802);
+    FightStart(mob,EVENT_THING);
+  }
+}~
+P
+@DEATH~
+{
+  if(SPARE_THING==CODE_THING) {
+    MobileCreate(BaseGetInside(CODE_THING),1804);
+  }
+}~
+#1805
+field mouse~
+field mouse~
+a field mouse is scurrying about~
+The field mouse is small and brown. It probably isn't really a mouse, in the 
+terran sense, but that's what it looks like.
+~
+SCAVENGER|STAYAREA|WIMPY HIDDEN|SNEAK 0 S
+1 3 0 1d3+10 3d1+0
+0 15
+STANDING ANIMAL FEMALE
+$

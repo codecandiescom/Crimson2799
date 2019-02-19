@@ -1,0 +1,1441 @@
+#1500
+Red Octagon~
+  You are in a heagonal-shaped room. The walls, floor and ceiling are all 
+red and carved with ornate lines. There is a message on the wall.
+~
+7 0 CITY-OUTSIDE
+D2
+Red Glowing Gateway 
+~
+red gateway~
+0 -1 1505
+D1
+~
+~
+0 -1 5007
+S
+#1501
+Dusty Hallway~
+  You are in a dusty hallway. There are strange designs carved into the tan, 
+rock-like walls. These passages look like they were formed with extreme 
+precision and attention to detail. It doesn't look like anyone's been here 
+in a long while. 
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1502
+D2
+~
+~
+0 -1 1511
+S
+#1502
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1503
+D2
+~
+~
+0 -1 1512
+D3
+~
+~
+0 -1 1501
+S
+#1503
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1504
+D3
+~
+~
+0 -1 1502
+S
+#1504
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1505
+D3
+~
+~
+0 -1 1503
+S
+#1505
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the tan-coloured 
+walls. You get the feeling you are being tested. 
+~
+7 NOMOB CITY-OUTSIDE
+D0
+~
+~
+0 -1 1500
+D1
+~
+~
+0 -1 1506
+D2
+~
+~
+0 -1 1515
+D3
+~
+~
+0 -1 1504
+S
+#1506
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1507
+D3
+~
+~
+0 -1 1505
+S
+#1507
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1508
+D3
+~
+~
+0 -1 1506
+S
+#1508
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1509
+D3
+~
+~
+0 -1 1507
+S
+#1509
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1510
+D3
+~
+~
+0 -1 1508
+S
+#1510
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1520
+D3
+~
+~
+0 -1 1509
+S
+#1511
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1501
+S
+#1512
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1502
+D2
+~
+~
+0 -1 1522
+S
+#1513
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1514
+D2
+~
+~
+0 -1 1523
+S
+#1514
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1513
+S
+#1515
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1505
+D2
+~
+~
+0 -1 1525
+S
+#1516
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1517
+D2
+~
+~
+0 -1 1526
+S
+#1517
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1527
+D3
+~
+~
+0 -1 1516
+S
+#1518
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1519
+D2
+~
+~
+0 -1 1528
+S
+#1519
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1529
+D3
+~
+~
+0 -1 1518
+S
+#1520
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1510
+D2
+~
+~
+0 -1 1530
+S
+#1521
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1522
+D2
+~
+~
+0 -1 1531
+S
+#1522
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1512
+D2
+~
+~
+0 -1 1532
+D3
+~
+~
+0 -1 1521
+S
+#1523
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1513
+D2
+~
+~
+0 -1 1533
+S
+#1524
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1525
+D2
+~
+~
+0 -1 1534
+S
+#1525
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1515
+D1
+~
+~
+0 -1 1526
+D3
+~
+~
+0 -1 1524
+S
+#1526
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1516
+D3
+~
+~
+0 -1 1525
+S
+#1527
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1517
+D2
+~
+~
+0 -1 1537
+S
+#1528
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1518
+D2
+~
+~
+0 -1 1538
+S
+#1529
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1519
+D1
+~
+~
+0 -1 1530
+S
+#1530
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1520
+D2
+~
+~
+0 -1 1540
+D3
+~
+~
+0 -1 1529
+S
+#1531
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1521
+D2
+~
+~
+0 -1 1541
+S
+#1532
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1522
+S
+#1533
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1523
+D1
+~
+~
+0 -1 1534
+S
+#1534
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1524
+D1
+~
+~
+0 -1 1535
+D2
+~
+~
+0 -1 1544
+D3
+~
+~
+0 -1 1533
+S
+#1535
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1534
+S
+#1536
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1546
+S
+#1537
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1527
+S
+#1538
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1528
+D1
+~
+~
+0 -1 1539
+D2
+~
+~
+0 -1 1548
+S
+#1539
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1549
+D3
+~
+~
+0 -1 1538
+S
+#1540
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1530
+D2
+~
+~
+0 -1 1550
+S
+#1541
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls. 
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1531
+D1
+~
+~
+HIDDEN -1 1542
+D2
+~
+~
+0 -1 1551
+S
+#1542
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1541
+S
+#1543
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1553
+S
+#1544
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1534
+D1
+~
+~
+0 -1 1545
+D2
+~
+~
+0 -1 1554
+S
+#1545
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls. 
+~
+7 NOMOB CITY-OUTSIDE
+D2
+~
+~
+0 -1 1555
+D3
+~
+~
+0 -1 1544
+S
+#1546
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1536
+D2
+~
+~
+0 -1 1556
+S
+#1547
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1548
+S
+#1548
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls. 
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1538
+D3
+~
+~
+HIDDEN -1 1547
+S
+#1549
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1539
+D2
+~
+~
+0 -1 1559
+S
+#1550
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1540
+D2
+~
+~
+0 -1 1560
+S
+#1551
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1541
+S
+#1552
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1553
+S
+#1553
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1543
+D1
+~
+~
+0 -1 1554
+D2
+~
+~
+0 -1 1563
+D3
+~
+~
+0 -1 1552
+S
+#1554
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1544
+D3
+~
+~
+0 -1 1553
+S
+#1555
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1545
+D1
+~
+~
+0 -1 1556
+D2
+~
+~
+0 -1 1565
+S
+#1556
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1546
+D1
+~
+~
+0 -1 1557
+D3
+~
+~
+0 -1 1555
+S
+#1557
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1558
+D3
+~
+~
+0 -1 1556
+S
+#1558
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1568
+D3
+~
+~
+0 -1 1557
+S
+#1559
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1549
+S
+#1560
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1550
+D2
+~
+~
+0 -1 1570
+S
+#1561
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1562
+S
+#1562
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1572
+D3
+~
+~
+0 -1 1561
+S
+#1563
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1553
+D1
+~
+~
+0 -1 1564
+D2
+~
+~
+0 -1 1573
+S
+#1564
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1574
+D3
+~
+~
+0 -1 1563
+S
+#1565
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1555
+D1
+~
+~
+0 -1 1566
+S
+#1566
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1576
+D3
+~
+~
+0 -1 1565
+S
+#1567
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1568
+S
+#1568
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1558
+D2
+~
+~
+0 -1 1578
+D3
+~
+~
+0 -1 1567
+S
+#1569
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1570
+D2
+~
+~
+0 -1 1579
+S
+#1570
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1560
+D3
+~
+~
+0 -1 1569
+S
+#1571
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+ISDOOR|LOCKED|CLOSED -1 1581
+S
+#1572
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1562
+D1
+~
+~
+0 -1 1573
+S
+#1573
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1563
+D2
+~
+~
+0 -1 1583
+D3
+~
+~
+0 -1 1572
+S
+#1574
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1564
+D1
+~
+~
+0 -1 1575
+S
+#1575
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1574
+S
+#1576
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1566
+D1
+~
+~
+0 -1 1577
+D2
+~
+~
+0 -1 1586
+S
+#1577
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1576
+S
+#1578
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1568
+D2
+~
+~
+0 -1 1588
+S
+#1579
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1569
+D2
+~
+~
+0 -1 1589
+S
+#1580
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1590
+S
+#1581
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls. There is a 
+picture on the wall.
+~
+7 0 CITY-OUTSIDE
+D0
+heavy door built into the wall 
+~
+heavy door~
+ISDOOR|LOCKED|CLOSED -1 1571
+D1
+~
+~
+0 -1 1582
+D2
+~
+~
+0 -1 1591
+E
+picture wall~
+The picture shows three images:
+  - a triangle bucket with a triangle peg inside
+  - a square basket with a square peg inside
+  - a round bowl with a round peg inside~
+S
+#1582
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1581
+S
+#1583
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1573
+D2
+~
+~
+0 -1 1593
+S
+#1584
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1585
+D2
+~
+~
+0 -1 1594
+S
+#1585
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D2
+~
+~
+0 -1 1595
+D3
+~
+~
+0 -1 1584
+S
+#1586
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1576
+D2
+~
+~
+0 -1 1596
+S
+#1587
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1588
+S
+#1588
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1578
+D2
+~
+~
+0 -1 1598
+D3
+~
+~
+0 -1 1587
+S
+#1589
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1579
+S
+#1590
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls. 
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+HIDDEN -1 1580
+D2
+~
+~
+0 -1 1600
+S
+#1591
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1581
+D1
+~
+~
+0 -1 1592
+S
+#1592
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1593
+D3
+~
+~
+0 -1 1591
+S
+#1593
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1583
+D1
+~
+~
+0 -1 1594
+D3
+~
+~
+0 -1 1592
+S
+#1594
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1584
+D3
+~
+~
+0 -1 1593
+S
+#1595
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls. 
+~
+7 NOMOB CITY-OUTSIDE
+D0
+~
+~
+0 -1 1585
+D2
+~
+~
+0 -1 1650
+P
+@afterexit~
+{
+  str state;
+  state="TheMazeLevel1-Solution";
+  if(ExitGetDir(EXIT)==EDIR_SOUTH) {
+    if((PropertyGetInt(EVENT_THING,state)&8)==0) {
+      SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aYou hear joyfull music\n");
+      CharGainExp(EVENT_THING,1000);
+      PropertySetInt(EVENT_THING,state,PropertyGetInt(EVENT_THING,state)|8);
+    }
+  }
+}~
+S
+#1596
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1586
+D1
+~
+~
+0 -1 1597
+S
+#1597
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D3
+~
+~
+0 -1 1596
+S
+#1598
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1588
+D1
+~
+~
+0 -1 1599
+S
+#1599
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D1
+~
+~
+0 -1 1600
+D3
+~
+~
+0 -1 1598
+S
+#1600
+Dusty Hallway~
+  You are in a dusty hallway. Strange designs decorate the walls.
+~
+7 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1590
+D3
+~
+~
+0 -1 1599
+S

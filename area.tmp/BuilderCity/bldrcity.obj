@@ -1,0 +1,43 @@
+#1100
+object statues~
+builder statue~
+Two statues are erected here, each standing on one side of the road.~
+  This is certainly a peculiar statue.  The thing depicted here doesn't even
+look remotely humanoid or siliconoid.  Details of their anatomy is difficult
+to make out for the figures are wearing robes and hoods.  One statue is 
+wearing a ^ggreen ^brobe while the other is wearing a ^ppurple ^brobe. From
+what you can make out, the things represented here either have their
+heads attached to the chest or have very large shoulders.  Each statue
+is holding a beautifully adorned staff.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(StrIsCmd(COMMAND,"south")) {
+    if(CharGetLevel(EVENT_THING)==250) {
+      SendAction(EVENT_THING,TNULL,SEND_SRC,"^cOh alright Q.  You can go through.\n");
+      stop;
+    }
+    BLOCK_CMD=TRUE;
+    CharSetHitP(EVENT_THING,CharGetHitP(EVENT_THING)*7/10);
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"^rZAP!!!!!!  You are shocked by ^bazure ^rbeams that shot out from the staves the\n");
+    SendAction(EVENT_THING,TNULL,SEND_SRC,"statues are carrying.  You feel your life draining away from your body.");
+    SendAction(EVENT_THING,TNULL,SEND_ROOM,"^y$n is shocked by the statues emitting ^bazure ^ybeams at $m.");
+  }
+}~
+#1101
+object medallion~
+a medallion~
+a medallion is left forgotten here.~
+  What a strange artifact.  You cannot determine what it is composed of
+nor which race is responsible for making it.  It looks plain enough,
+but you are drawn to it by some unexplainable force.  There is a symbol
+of X on one side of the medallion.
+~
+ARMOR 0 LARGE-NECK
+0 0 0 0
+0 0 0
+$

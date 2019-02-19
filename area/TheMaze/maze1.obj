@@ -1,0 +1,210 @@
+#1500
+emf field axe~
+EM Field Axe~
+an EM Field Axe has been discarded here~
+The EM Field Axe uses ElectroMagnetic Fields to form the main cutting edge 
+of the blade. The intense, localized EM field is extremely effective at 
+distrupting flesh, armor, and most other physical objects. 
+~
+WEAPON GLOW|HUM|AURA|ANTI-GOOD|ANTI-EVIL TWO-HANDED
+0 22 67111168 84606979
+30 1000 0
+#1501
+shadow dagger~
+Shadow Dagger~
+a shadow dagger is sitting off to one side~
+The shadow dagger appears to not even exist. Very handy when you're trying 
+to look unarmed! 
+~
+WEAPON DARK|INVISIBLE|HIDDEN HELD
+0 512 33555712 0
+1 200 0
+#1502
+large chest armor~
+large chest armor~
+a large metal chest armor is lying here~
+The large metal chest armor is well forged and obviously intended for 
+someone 3 meters tall. 
+~
+ARMOR 0 SHIRT
+10 -32896502 16779526 0
+19 50 5
+#1503
+large bracers~
+large bracers~
+some large bracers are here~
+The bracers look like they belonged to a siliconoid body builder. They're 
+HUGE!
+~
+ARMOR 0 BOTH-ARMS
+2 -16776702 1 0
+3 40 0
+#1504
+round peg~
+Round Peg~
+a round peg is lying here... rolling around~
+The peg is about 10cm long, about 4cm in diameter, dark grey in colour, and 
+feels slightly warm.
+~
+OTHER HUM NOWEAR
+0 0 0 0
+1 0 0
+#1505
+square peg~
+Square Peg~
+a square peg is sitting on the floor~
+The square peg is about 10cm in length, about 4cm accross, and is dark grey 
+in colour. It's slightly warm.
+~
+OTHER HUM NOWEAR
+0 0 0 0
+1 0 0
+#1506
+triangle peg~
+Triangle Peg~
+a triangle peg is on the floor here~
+The triangle peg is about 10cm long, about 4cm wide and dark grey in colour. 
+It's slightly warm. 
+~
+OTHER HUM NOWEAR
+0 0 0 0
+1 0 0
+#1507
+triangle bucket~
+triangle bucket~
+A triangle bucket is here~
+The triangle bucket is about 20cm deep and about 20cm accross. It's a 
+bucket! 
+~
+CONTAINER HUM NOWEAR
+50 0 0 0
+-1 0 0
+P
+@aftercommand~
+{
+  str state;
+  state="TheMazeLevel1-Solution";
+  if(StrIsCmd(CMD_CMD,"put")) {
+    if(ObjectCount(CODE_THING,1506)) {
+      if((ThingGetType(EVENT_THING)==TTYPE_PLR)||(ThingGetType(EVENT_THING)==TTYPE_MOB)) {
+        if((PropertyGetInt(EVENT_THING,state)&1)==0) {
+          PropertySetInt(EVENT_THING,state,PropertyGetInt(EVENT_THING,state)|1);
+          SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aYou hear chimes\n");
+          CharGainExp(EVENT_THING,500);
+          if((PropertyGetInt(EVENT_THING,state)&7)==7) {
+            SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aThe door to the north swings open.\n");
+            ExitSetFlag(ExitDir(WorldOf(1581),EDIR_NORTH),EF_ISDOOR);
+            ExitSetFlag(ExitDir(WorldOf(1571),EDIR_SOUTH),EF_ISDOOR);
+          }
+        }
+        ObjectStrip(CODE_THING,1506,1506,TNULL);
+      }
+    }
+    stop;
+  }
+}~
+#1508
+square basket~
+square basket~
+A square basket is here.~
+It's about 20cm accross and 20cm deep. It's a basket! 
+~
+CONTAINER HUM NOWEAR
+50 0 0 0
+-1 0 0
+P
+@aftercommand~
+{
+  str state;
+  state="TheMazeLevel1-Solution";
+  if(StrIsCmd(CMD_CMD,"put")) {
+    if(ObjectCount(CODE_THING,1505)) {
+      if((ThingGetType(EVENT_THING)==TTYPE_PLR)||(ThingGetType(EVENT_THING)==TTYPE_MOB)) {
+        if((PropertyGetInt(EVENT_THING,state)&2)==0) {
+          PropertySetInt(EVENT_THING,state,PropertyGetInt(EVENT_THING,state)|2);
+          SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aYou hear chimes\n");
+          CharGainExp(EVENT_THING,500);
+          if((PropertyGetInt(EVENT_THING,state)&7)==7) {
+            SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aThe door to the north swings open.\n");
+            ExitSetFlag(ExitDir(WorldOf(1581),EDIR_NORTH),EF_ISDOOR);
+            ExitSetFlag(ExitDir(WorldOf(1571),EDIR_SOUTH),EF_ISDOOR);
+          }
+        }
+        ObjectStrip(CODE_THING,1505,1505,TNULL);
+      }
+    }
+    stop;
+  }
+}~
+#1509
+round bowl~
+round bowl~
+A round bowl is here~
+It's about 20cm in diameter and about 20cm high. It's a bowl! 
+~
+CONTAINER HUM NOWEAR
+50 0 0 0
+-1 0 0
+P
+@aftercommand~
+{
+  str state;
+  state="TheMazeLevel1-Solution";
+  if(StrIsCmd(CMD_CMD,"put")) {
+    if(ObjectCount(CODE_THING,1504)) {
+      if((ThingGetType(EVENT_THING)==TTYPE_PLR)||(ThingGetType(EVENT_THING)==TTYPE_MOB)) {
+        if((PropertyGetInt(EVENT_THING,state)&4)==0) {
+          PropertySetInt(EVENT_THING,state,PropertyGetInt(EVENT_THING,state)|4);
+          SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aYou hear chimes\n");
+          CharGainExp(EVENT_THING,500);
+          if((PropertyGetInt(EVENT_THING,state)&7)==7) {
+            SendAction(EVENT_THING,CODE_THING,SEND_SRC|SEND_ROOM|SEND_AUDIBLE,"^aThe door to the north swings open.\n");
+            ExitSetFlag(ExitDir(WorldOf(1581),EDIR_NORTH),EF_ISDOOR);
+            ExitSetFlag(ExitDir(WorldOf(1571),EDIR_SOUTH),EF_ISDOOR);
+          }
+        }
+        ObjectStrip(CODE_THING,1504,1504,TNULL);
+      }
+    }
+    stop;
+  }
+}~
+#1510
+credits coins pile~
+Pile of credits~
+a huge pile of credits is here~
+The credits are, well, numerous.
+~
+MONEY 0 NOWEAR
+100 0 0 0
+1 0 0
+#1511
+simple necklace~
+Simple Necklace~
+there is a simple necklace lying on the ground~
+The necklace has three shapes attached to it: a cube, a sphere, and a 
+pyramid. Otherwise, the necklace is fairly plain. 
+~
+WORN HUM NECK
+0 0 0 0
+1 300 100
+A
+INT 20
+#1512
+broken pda~
+Broken PDA~
+A broken PDA is lying neglected here~
+The PDA appears to have been dropped, and does not respond to any controls. 
+Fortunately, internal circuits are still powered; you can read the last 
+message entered into the PDA: " Day 47: I am lucky to be alive, though I 
+fear my luck shall run out soon. I can gladly say, however, that at least I 
+will not die in that hell, that 'Maze'. If my life might bring any meaning 
+to this forgotten, merciless world, it will be to serve as a warning: DO NOT 
+ENTER HERE. Nothing lies beyond except misery and death.                     
+G. M. MacGuire                                                               
+                       I'm sorry, Louise... " 
+~
+OTHER CARRY2USE NOWEAR
+0 0 0 0
+1 0 0
+$

@@ -1,0 +1,289 @@
+#2700
+gray gel~
+some gray gel~
+Some gray gel is silently sliding across the floor here~
+Examining it closer you notice that its actually hovering about a half-inch 
+above the ground. It's brandishing multicolored bunches of electrical wiring 
+like tentacles! 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2701
+gray moss large patch~
+the gray moss~
+A large patch of gray moss is silently sliding across the wall here~
+Its a large 5 foot diameter clump of gray moss. Its covered itself with a 
+thick "skin" of woven electrical wiring and bits of plastic piping. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE 0 0 S
+21 63 55 2d50+200 3d9+7
+0 600
+STANDING NONE MALE
+#2702
+gel coated fridge~
+the gel coated fridge~
+A large gel covered fridge spins in mid-air here. It hums ominously~
+Its a large fridge, coated with an odd translucent gel-like fungus. It hums 
+ominously and periodically crackles with electricity. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RSLASH|RCONCUSSIVE 0 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING NONE MALE
+#2703
+psi-moss moss zombie gray~
+a gray Psi-moss zombie~
+A humanoid shaped growth of gray moss slides across the floor here~
+It looks like a humanoid being, except that it moves by levitating just 
+above the floor, and its composed entirely of gray moss. Looking closer you 
+realize that there are little bits of decaying organic tissue here and there 
+throughout the moss. 
+~
+SENTINEL|STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+25 75 59 2d250+600 3d11+8
+0 3000
+STANDING NONE MALE
+#2704
+moss coated cleaner~
+the moss coated cleaner~
+A large moss covered cleaner orbits the room here~
+Its a large washer/dryer cleaner unit, its completely covered with gray psi 
+moss. It crackles with periodic discharges of electricity. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RSLASH|RCONCUSSIVE 0 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING NONE MALE
+#2705
+lv426 gun sentry~
+The Gun Sentry~
+A model LV426 Gun Sentry scans the room for intruders here~
+Its a large tripod mounted flamethrower with a built in AI targeting system, 
+integrated camera and control servo. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RHEAT|RPSYCHIC|RPOISON 0 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING NONE MALE
+#2706
+psi-moss moss zombie gold~
+a gold Psi-moss zombie~
+A humanoid shaped growth of golden moss slides across the floor here~
+It looks like a humanoid being, except that it moves by levitating just 
+above the floor, and its composed entirely of gold moss. Looking closer you 
+realize that there are little bits of decaying organic tissue here and there 
+throughout the moss. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+26 78 62 2d300+700 3d11+8
+0 3600
+STANDING NONE MALE
+#2707
+azure mossy gnarled tree~
+a Mossy Gnarled Tree~
+A large mossy Gnarled Tree has been uprooted here~
+Its a large gnarled tree lying out its side. Its almost completely covered 
+by an azure colored moss. Its roots wave in the air almost like tentacles. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+26 78 62 2d300+700 3d11+8
+0 3600
+STANDING NONE MALE
+#2708
+azure gel small shrubbery~
+a Small Shrubbery~
+A small azure gel-coated shrubbery spins angrily in mid-air here~
+Its a small shrubbery. Its completely coated in an azure colored fungus gel. 
+And did I mention that its spinning in mid-air a good 3 feet of the ground. 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE 0 0 S
+26 78 62 2d300+700 3d11+8
+0 3600
+STANDING NONE MALE
+#2709
+azure slime slimy clump flowers~
+a Slimy Flower~
+A small azure slime covered clump of flowers glides across the floor~
+Its a small clump of flowers. Its hard to tell what they look like exactly 
+because they are so covered in an azure colored slime-like fungus. 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE 0 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2710
+mkii security droid azure infected~
+the infected MKII Security Droid~
+A corroded looking azure MKII Security droid hovers here~
+Its big and roughly humanoid shaped. It floats a few feet off the ground on 
+a repulsor field and its hands terminate in spinning blades. It eyes you 
+threateningly with its single glowing red sensor eye. It looks corroded and 
+its oozing bits of azure colored gel. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+27 81 64 2d350+800 3d12+9
+0 4200
+STANDING NONE MALE
+#2711
+infected repair-bot bot azure~
+the infected Repair-Bot~
+A corroded looking repair-bot slowly oozes azure slime here~
+It looks like a chess pawn on tracks with a *LOT* of arms that end in an 
+assortment of pincers, claws, grapples, cutting torches, welding attachments 
+and the like. It looks corroded and its oozing bits of azure colored slime. 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+25 75 59 2d250+600 3d11+8
+0 3000
+STANDING NONE MALE
+#2712
+infected gardener bot azure~
+the infected Gardener Bot~
+A corroded looking Gardener Bot hovers here~
+It looks like a floating metal beach ball. It has several different arms 
+extending from it, the most menacing of which ends in a large pair of garden 
+shears. It looks corroded and its oozing bits of azure colored slime. 
+~
+AGGRESSIVE|STAYAREA|RSLASH|RCONCUSSIVE|RHEAT|RPSYCHIC|RPOISON 0 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING NONE MALE
+#2713
+azure algae~
+some azure algae~
+Some azure algae is silently floating here~
+Examining it closer you notice that its almost translucent and that its 
+slowly pulsating slightly! 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RHEAT BREATHWATER 0 S
+22 66 52 2d100+300 3d10+7
+0 1200
+STANDING NONE MALE
+#2714
+huge mass azure master colony algae~
+the Azure Master Colony~
+A huge mass of azure algae floats here, pulsating threateningly~
+Examining it closer you notice that its almost translucent and that periodic 
+flashes of color rush through it! 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE|RHEAT|RLASER BREATHWATER|REGENERATION|HIDDEN 0 S
+28 84 67 2d400+900 3d12+9
+0 4800
+STANDING NONE MALE
+P
+@AFTERDEATH~
+{
+  str p;
+  p="OreTransport-AzureMoss";
+  if(PropertyGetInt(EVENT_THING,p)==0) {
+    PropertySetInt(EVENT_THING,p,1);
+    SendThing(EVENT_THING,"^wCongratulations! You have killed the Azure Moss!\n");
+    CharGainExp(EVENT_THING,10000);
+  }
+}~
+#2715
+azure gel~
+some azure gel~
+Some azure gel is silently floating here~
+Examining it closer you notice that its almost translucent and that its 
+slowly pulsating slightly! 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE|RHEAT BREATHWATER|HIDDEN 0 S
+21 63 49 2d50+200 3d9+7
+0 600
+STANDING NONE MALE
+#2716
+repair-bot bot~
+the Repair-Bot~
+A repair-bot searches for a robot to repair here~
+It looks like a chess pawn on tracks with a *LOT* of arms that end in an 
+assortment of pincers, claws, grapples, cutting torches, welding attachments 
+and the like. It looks just like new. 
+~
+STAYAREA|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2717
+mining-bot bot~
+the Mining-Bot~
+A hulking mining-bot hovers ominously here~
+Its a large rugged looking cube with a very large and dangerous high power 
+mining laser for one arm and a large grappling claw for the other. Its 
+sensor eye continually scans the room. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RSLASH|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+22 66 52 2d100+300 3d10+7
+0 1200
+STANDING NONE MALE
+#2718
+slender lab droid~
+the Lab-Droid~
+A slender lab droid waits for an assignment here~
+Its a tall slender humanoid. It looks rather frail, but then looks can be 
+deceiving. 
+~
+SENTINEL|STAYAREA|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2719
+lower half room cleaning robot~
+the Cleaning Robot~
+A lower-half-of-the-room cleaning robot zips around the floor here.~
+Its looks much like a cross between a roller skate and a street cleaner. 
+~
+STAYAREA|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2720
+upper half room cleaning robot~
+the Cleaning Robot~
+An upper-half-of-the-room cleaning robot flits about here.~
+Its looks much like a cross between a rubiks cube with a jetpack and a 
+street cleaner. 
+~
+STAYAREA|RPUNCTURE|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2721
+floyd janitorial-bot bot~
+Floyd the Janitorial-Bot~
+A model FL-0-YD2 Janitorial-Bot cleans the floor here~
+Its a dull gray android with a mop and a bucket. Strange, unlike all the 
+other 'bots on the transport, this one is clearly marked with a military 
+designation. 
+~
+AGGRESSIVE|STAYAREA|RHEAT|RPSYCHIC|RPOISON 0 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING NONE MALE
+#2722
+robot circuit cleaner~
+the Circuit-Cleaner~
+A circuit cleaner flails its electrical arcs randomly here~
+Imagine a shoebox on wheels with 10 or so 3 foot long tentacles that end in 
+an electrical arc and you'd have a pretty good picture. It vaporizes every 
+last bit of dust. 
+~
+AGGRESSIVE|STAYAREA|RHEAT|RPSYCHIC|RPOISON BREATHWATER|VACUUMWALK 0 S
+23 69 54 2d150+400 3d10+7
+0 1800
+STANDING NONE MALE
+#2723
+mkii security droid red~
+the MKII Security Droid~
+A menacing red MKII Security droid hovers here~
+Its big red and roughly humanoid shaped. It floats a few feet off the ground 
+on a repulsor field and its hands terminate in spinning blades. It eyes you 
+threateningly with its single glowing red sensor eye. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RHEAT|RPSYCHIC 0 0 S
+26 78 62 2d300+700 3d11+8
+0 3600
+STANDING NONE MALE
+$

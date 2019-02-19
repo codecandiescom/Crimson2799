@@ -1,0 +1,123 @@
+#2500
+greenish black gel~
+some greenish black gel~
+Some greenish black gel is silently sliding across the floor here~
+It's exactly the same color as the walls of the forward hold! I bet some 
+sort of fungus is slowly metabolizing the walls to form this gel. Examining 
+it closer you notice that its actually hovering about a half-inch above the 
+ground. How strange. 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE DARKVISION 0 S
+17 51 39 1d51+170 3d8+5
+0 255
+STANDING NONE MALE
+#2501
+translucent green gel~
+some translucent green gel~
+Some translucent green gel is floating peacefully here~
+It's another form of that strange gel-like fungus found all over the ore 
+transport. This one seems to have a very high water content, you can almost 
+see right through it. 
+~
+STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+18 54 42 1d54+180 3d8+6
+0 270
+STANDING NONE MALE
+#2502
+gel-covered covered control console~
+a gel-covered console~
+A moss-covered robo-loader control console is hovering in mid-air here~
+It occurs to you that its not normal for control consoles to be a) covered 
+in strange alien metal-eating moss, and b) hovering in mid-air. You wonder 
+how it manages to hover like that. 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE 0 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2503
+psi-moss moss zombie green~
+a green Psi-moss zombie~
+A humanoid shaped growth of green moss slides across the floor here~
+It looks like a humanoid being, except that it moves by levitating just 
+above the floor, and its composed entirely of green moss. Looking closer you 
+realize that there are little bits of decaying organic tissue here and there 
+throughout the moss. 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE 0 0 S
+23 69 54 2d150+400 3d10+7
+0 1800
+STANDING NONE MALE
+#2504
+green sphere spore psi-spore~
+a green psi-spore~
+A spherical green spore of some space-going fungus floats here.~
+It looks just like a featureless green sphere. Its about a foot across and 
+its made of some kind of strange space-going fungus. 
+~
+AGGRESSIVE|STAYAREA|RSLASH|RCONCUSSIVE VACUUMWALK 0 S
+19 57 44 1d57+190 3d8+6
+0 285
+STANDING NONE MALE
+#2505
+red sphere spore psi-spore~
+a red psi-spore~
+A spherical red spore of some space-going fungus floats here.~
+It looks just like a featureless red sphere. Its about a foot across and its 
+made of some kind of strange space-going fungus. 
+~
+AGGRESSIVE|STAYAREA|RSLASH|RCONCUSSIVE VACUUMWALK 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+#2506
+red gel~
+some red gel~
+Some red gel is silently sliding across the floor here~
+Its a fungus that is slowly metabolizing the walls to form this gel. 
+Examining it closer you notice that its actually hovering about a half-inch 
+above the ground. How strange. 
+~
+STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE 0 0 S
+19 57 44 1d57+190 3d8+6
+0 285
+STANDING NONE MALE
+#2507
+huge mass violet master colony moss~
+the Violet Master Colony~
+A huge mass of violet moss clings to the wall here, pulsating threateningly~
+Examining it closer you notice that its almost translucent and that periodic 
+flashes of color rush through it! 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RCONCUSSIVE|RPSYCHIC IMPROVED|INVIS|DARKVISION|SEEINVIS|REGENERATION 0 S
+29 87 69 2d450+1000 3d13+9
+0 5400
+STANDING NONE MALE
+P
+@AFTERDEATH~
+{
+  PlayerSolvedQuest(EVENT_THING,"^wCongratulations! You have killed the Violet Moss!\n",15000,1,"OreTransport-VioletMoss" ,1);
+}~
+#2508
+violet gel~
+some violet gel~
+Some violet gel is silently sliding across the floor here~
+Examining it closer you notice that its actually hovering about a half-inch 
+above the ground. 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE 0 0 S
+24 72 57 2d200+500 3d11+8
+0 2400
+STANDING NONE MALE
+#2509
+crawlway scrubber~
+a crawlway scrubber~
+A small crawlway scrubber is here vacuuming the floor~
+It looks like a motorized skateboard with a small vacuum cleaner strapped on 
+top of it 
+~
+AGGRESSIVE|STAYAREA|RPUNCTURE|RHEAT|RPSYCHIC 0 0 S
+20 60 47 1d60+200 3d9+6
+0 300
+STANDING NONE MALE
+$

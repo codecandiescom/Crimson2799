@@ -1,0 +1,7 @@
+#0
+Put your description here....~
+0 120 RESET-WHEN-EMPTY|AREA-NO-TAKE|AREA-NO-EXPERIENCE|AREA-NO-MONEY
+*
+S
+*
+$

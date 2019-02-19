@@ -1,0 +1,132 @@
+#1650
+gruesome statue~
+Gruesome Statue~
+A gruesome statue rests in the middle of the corridor.~
+The status is of a grotesque four-legged winged creature with a terrible, 
+twisted face. The statue appears to be giving you a warm smile. 
+~
+OTHER DARK NOWEAR
+0 0 0 0
+-1 0 0
+P
+@entry~
+{
+  if(ObjectCount(EVENT_THING,1653)==0) {
+    SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST,"^a$a $n bars your entry into the room.\n");
+    BLOCK_CMD=TRUE;
+  }
+}~
+#1651
+large spindly statue~
+Large spindly statue~
+A large, spindly statue looms ominously in the centre of the corridor.~
+The statue is of a tall, four-limbed creature. The limbs each have 6 joints, 
+and are thin to the point of fragility. The face is adorned by a long, 
+slender beak and bulbous eyes. The beak-face appears to be giving you a warm 
+smile. 
+~
+OTHER DARK NOWEAR
+0 0 0 0
+-1 0 0
+P
+@entry~
+{
+  if(ObjectCount(EVENT_THING,1654)==0) {
+    SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST,"^a$a $n bars your entry into the room.\n");
+    BLOCK_CMD=TRUE;
+  }
+}~
+#1652
+stout blocky statue~
+Stout blocky statue~
+A stout, blocky statue is here, blocking most of the corridor.~
+The statue is of a stout tri-pedal creature. Four horns protrude from the 
+creature's face, which is centred in the middle of what could be considered 
+it's chest. You can just make out a warm smile on its twisted face. 
+~
+OTHER DARK NOWEAR
+0 0 0 0
+-1 0 0
+P
+@entry~
+{
+  if(ObjectCount(EVENT_THING,1655)==0) {
+    SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_CAPFIRST,"^a$a $n bars your entry into the room.\n");
+    BLOCK_CMD=TRUE;
+  }
+}~
+#1653
+gruesome figurine~
+Gruesome figurine~
+A gruesome figurine is lying on the floor~
+The figurine is of a grotesque four-legged winged creature with a terrible, 
+twisted face. The figurine appears to be giving you a look of rage.
+~
+OTHER DARK NOWEAR
+0 0 0 0
+1 0 0
+A
+MOVE 246
+#1654
+large spindly figurine~
+Large spindly figurine~
+A large, spindly figurine is lying on the floor~
+The figurine is of a tall, four-limbed creature. The limbs each have 6 
+joints, and are thin to the point of fragility. The face is adorned by a 
+long, slender beak and bulbous eyes. The beak-face appears to be twisted in 
+rage... at YOU! 
+~
+OTHER DARK NOWEAR
+0 0 0 0
+1 0 0
+A
+POWER 246
+#1655
+stout blocky figurine~
+Stout blocky figurine~
+A stout, blocky figurine is lying on the ground~
+The statue is of a stout tri-pedal creature. Four horns protrude from the 
+creature's face, which is centred in the middle of what could be considered 
+it's chest. You can just make out its face, twisted in rage. 
+~
+OTHER DARK NOWEAR
+0 0 0 0
+0 0 0
+A
+HIT 246
+#1656
+builder couch~
+Builder Couch~
+A builder couch is here... hmmm looks comfortable.~
+The builder couch looks like a long, slender bench covered in nice soft 
+cushioning. Perhaps, by lying on the couch, you could PRACTICE here. (type 
+"practice"). 
+~
+OTHER GLOW NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_APPORTATION,0,60)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#1657
+message pad scratch paper~
+Message Pad~
+an old pad of paper is lying on the ground~
+The pad has a message printed neatly on it: "Day 15. We are newly arrived to 
+the far side of the first 'Maze' at a great cost in time and blood. Our 
+sensors indicate at least two more catacombs lie ahead. Unfortunately, not 
+all of us are fit to carry on. I have decided to split the group; MacGuire 
+and Danfort will return the way we have come, along with the sick or 
+wounded. I will carry on ahead with Tufort, Gumbo, and seven others. God 
+willing, the next catacombs won't be like the last. -- Dr. Mary J. 
+Greenwood"
+~
+OTHER CARRY2USE NOWEAR
+0 0 0 0
+1 0 0
+$

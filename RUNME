@@ -1,0 +1,3 @@
+#!/bin/csh
+# ./at_job &
+nohup nice ./crimson2.bat &

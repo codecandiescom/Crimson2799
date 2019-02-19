@@ -1,0 +1,14 @@
+; MOLE Help Project
+;
+; Copyright (c) 1998 B. Cameron Lesiuk
+[OPTIONS]
+CONTENTS=contents
+TITLE=MOLE Help
+COMPRESS=0
+;ERRORLOG=err.out
+[CONFIG]
+BrowseButtons()
+[FILES]
+mole.rtf
+[MAP]
+#include<..\help.h>

@@ -1,0 +1,3186 @@
+#900
+Terrarium Beta Entrance~
+You are standing before a massive glass dome.  Looking at all the
+dust and cracks, you come to the conclusion that this structure has
+been around for quite some time.  At a closer examination, you
+notice that the glass has been severely scratched on the inside.
+You attempt to peek inside the dome, but your visibility is hindered
+by what appears to be sand being blown around fiercely.  One of
+the cracks in the dome look large enough for you to fit through.
+~
+5 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 5009
+D2
+Terrarium Beta
+~
+~
+0 -1 901
+S
+#901
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D0
+You can barely make out the crack in the dome in which you came
+in through.
+~
+~
+0 -1 900
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 902
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 906
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 908
+S
+#902
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 901
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 902
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 903
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 905
+S
+#903
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 902
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 903
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 903
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 904
+S
+#904
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 903
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 904
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 905
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 915
+S
+#905
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 904
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 902
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 906
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 914
+S
+#906
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 905
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 901
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 907
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 913
+S
+#907
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 906
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 908
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 910
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 912
+S
+#908
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 907
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 901
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 909
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 908
+S
+#909
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 908
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 909
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 909
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 910
+S
+#910
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 909
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 910
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 907
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 911
+S
+#911
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 910
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 911
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 912
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 920
+S
+#912
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 911
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 907
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 913
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 919
+S
+#913
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 912
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 906
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 914
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 918
+S
+#914
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 913
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 905
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 915
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 917
+S
+#915
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 914
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 904
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 915
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 916
+S
+#916
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 915
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 916
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 916
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 917
+S
+#917
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 921
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 916
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 914
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 918
+S
+#918
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 917
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 913
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 918
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 919
+S
+#919
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 918
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 912
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 919
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 920
+S
+#920
+In a blinding sandstorm~
+You are caught in the middle of a fierce sandstorm.  The strong
+winds are constantly changing direction, blasting sand at you from
+all sides.  You can't help but to close your eyes to prevent sand
+from getting into them.  You become disorientated and lose all
+sense of direction.
+~
+5 0 DESERT
+D1
+You can't see through the sandstorm!
+~
+~
+0 -1 919
+D0
+You can't see through the sandstorm!
+~
+~
+0 -1 911
+D2
+You can't see through the sandstorm!
+~
+~
+0 -1 920
+D3
+You can't see through the sandstorm!
+~
+~
+0 -1 920
+S
+#921
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 922
+D0
+Looks a very powerful sandstorm over there.
+~
+~
+0 -1 917
+D2
+You see more sand.
+~
+~
+0 -1 930
+D3
+You see more sand.
+~
+~
+0 -1 932
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#922
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 923
+D3
+You see more sand.
+~
+~
+0 -1 921
+D1
+You see more sand.
+~
+~
+0 -1 925
+D0
+Looks like a very powerful sandstorm over there.
+~
+~
+0 -1 916
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#923
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 952
+D0
+You see more sand.
+~
+~
+0 -1 922
+D1
+You see more sand.
+~
+~
+0 -1 924
+D3
+You see more sand.
+~
+~
+0 -1 930
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#924
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 953
+D3
+You see more sand.
+~
+~
+0 -1 923
+D0
+You see more sand.
+~
+~
+0 -1 925
+D1
+You see more sand.
+~
+~
+0 -1 929
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#925
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 924
+D3
+You see more sand.
+~
+~
+0 -1 922
+D1
+You see more sand.
+~
+~
+0 -1 926
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#926
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D3
+You see more sand.
+~
+~
+0 -1 925
+D1
+You see more sand.
+~
+~
+0 -1 927
+D2
+You see more sand.
+~
+~
+0 -1 929
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#927
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you 
+cannot see through it at all.  
+~
+5 0 INDOORS
+D3
+You see more sand.
+~
+~
+0 -1 926
+D2
+You see more sand.
+~
+~
+0 -1 928
+S
+#928
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you 
+cannot see through it at all.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 957
+D0
+You see more sand.
+~
+~
+0 -1 927
+D3
+You see more sand.
+~
+~
+0 -1 929
+S
+#929
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 956
+D1
+You see more sand.
+~
+~
+0 -1 928
+D0
+You see more sand.
+~
+~
+0 -1 926
+D3
+You see more sand.
+~
+~
+0 -1 924
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#930
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 949
+D1
+You see more sand.
+~
+~
+0 -1 923
+D0
+You see more sand.
+~
+~
+0 -1 921
+D3
+You see more sand.
+~
+~
+0 -1 931
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#931
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 948
+D1
+You see more sand.
+~
+~
+0 -1 930
+D0
+You see more sand.
+~
+~
+0 -1 932
+D3
+You see more sand.
+~
+~
+0 -1 934
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#932
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 931
+D1
+You see more sand.
+~
+~
+0 -1 921
+D0
+Looks like a very powerful sandstorm over there.
+~
+~
+0 -1 918
+D3
+You see more sand.
+~
+~
+0 -1 933
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#933
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 932
+D0
+Looks like a very powerful sandstorm over there.
+~
+~
+0 -1 919
+D2
+You see more sand.
+~
+~
+0 -1 934
+D3
+You see more sand.
+~
+~
+0 -1 936
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#934
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 945
+D0
+You see more sand.
+~
+~
+0 -1 933
+D1
+You see more sand.
+~
+~
+0 -1 931
+D3
+You see more sand.
+~
+~
+0 -1 935
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#935
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 944
+D1
+You see more sand.
+~
+~
+0 -1 934
+D0
+You see more sand.
+~
+~
+0 -1 936
+D3
+You see more sand.
+~
+~
+0 -1 938
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#936
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 935
+D1
+You see more sand.
+~
+~
+0 -1 933
+D0
+Looks like a very powerful sandstorm over there.
+~
+~
+0 -1 920
+D3
+You see more sand.
+~
+~
+0 -1 937
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#937
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you 
+cannot see through it at all.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 936
+D2
+You see more sand.
+~
+~
+0 -1 938
+S
+#938
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you 
+cannot see through it at all.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 939
+D0
+You see more sand.
+~
+~
+0 -1 937
+D1
+You see more sand.
+~
+~
+0 -1 935
+S
+#939
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 944
+D2
+You see more sand.
+~
+~
+0 -1 942
+D3
+You see more sand.
+~
+~
+0 -1 940
+D0
+You see more sand.
+~
+~
+0 -1 938
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#940
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you 
+cannot see through it at all.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 941
+D1
+You see more sand.
+~
+~
+0 -1 939
+S
+#941
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you
+cannot see through it at all.  To the south, you notice a 
+crumbling circle of pillars.
+~
+5 0 INDOORS
+D2
+You see a circle of crumbling pillars.
+~
+~
+0 -1 960
+D1
+You see more sand.
+~
+~
+0 -1 942
+D0
+You see more sand.
+~
+~
+0 -1 940
+S
+#942
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 943
+D0
+You see more sand.
+~
+~
+0 -1 939
+D3
+You see more sand.
+~
+~
+0 -1 941
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#943
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 946
+D0
+You see more sand.
+~
+~
+0 -1 944
+D3
+You see more sand.
+~
+~
+0 -1 942
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#944
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 945
+D0
+You see more sand.
+~
+~
+0 -1 935
+D3
+You see more sand.
+~
+~
+0 -1 939
+D2
+You see more sand.
+~
+~
+0 -1 943
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#945
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 948
+D0
+You see more sand.
+~
+~
+0 -1 934
+D2
+You see more sand.
+~
+~
+0 -1 946
+D3
+You see more sand.
+~
+~
+0 -1 944
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#946
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a
+gigantic ball of bright light radiating endless amounts of
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the south is a massive fortress.
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 947
+D3
+You see more sand.
+~
+~
+0 -1 943
+D0
+You see more sand.
+~
+~
+0 -1 945
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#947
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a
+gigantic ball of bright light radiating endless amounts of
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the south is a massive fortress.
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 950
+D0
+You see more sand.
+~
+~
+0 -1 948
+D3
+You see more sand.
+~
+~
+0 -1 946
+E
+artwork carve~
+The artwork consists of what appears to be the fortress that is 
+standing before you.  Above the fortress is a small hollowed-out
+hole where the artificial sun should be.
+
+~
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+There does not appear to an entrance anywhere.  The only thing of 
+interest is some artwork carved into the walls.
+~
+P
+@command~
+{
+  thing Target, Destination;
+  str LeaveMsg;
+  thing Follower, Leader, SrcRoom;
+  if(StrIsCmd(COMMAND,"put")||StrIsCmd(COMMAND,"place")) {
+    if((StrIn(COMMAND,"stone")||StrIn(COMMAND,"sun"))&&StrIn(COMMAND,"hole")) {
+      BLOCK_CMD=TRUE;
+      if(ObjectContain(EVENT_THING,904)==TNULL) {
+        SendAction(EVENT_THING,TNULL,SEND_SRC,"^rYou have no such thing.\n");
+        stop;
+      }
+      LeaveMsg="^y$N dissolves in a blinding light.\n";
+      Destination=WorldOf(976);
+    }
+    else {
+      stop;
+    }
+    Follower=EVENT_THING;
+    if(CharIsLeader(EVENT_THING)) {
+      Leader=EVENT_THING;
+    }
+    else {
+      Leader=TNULL;
+    }
+    SrcRoom=BaseGetInside(EVENT_THING);
+    while(Follower!=TNULL) {
+      if((Target=CharGetFighting(Follower))!=TNULL) {
+        SendAction(Follower,Target,SEND_SRC|SEND_CAPFIRST|SEND_VISIBLE,"You cannot possibly do anything with a hole while fighting!\n");
+        if(Follower==Leader) {
+          stop;
+        }
+      }
+      else {
+        if(BaseGetInside(Follower)==SrcRoom) {
+          if((CharGetLeader(EVENT_THING)==Follower)||(Follower==EVENT_THING)||(CharGetLeader(Follower)==TNULL)) {
+            ObjectRemove(EVENT_THING,904);
+            SendAction(CODE_THING,Follower,SEND_DST|SEND_CAPFIRST,"^yYou set the sun stone into the perfectly fitting hole in the fortress.\n");
+            SendAction(CODE_THING,Follower,SEND_DST|SEND_CAPFIRST,"^ySuddenly you become dizzy as you are surrounded by a ^wbright white^y\n");
+            SendAction(CODE_THING,Follower,SEND_DST|SEND_CAPFIRST,"^wlight^y.  As your sight returns you find yourself in a different place.\n");
+          }
+          else {
+            SendAction(CODE_THING,Follower,SEND_DST|SEND_CAPFIRST,"^yAs your group leader sets a sun stone into the hole in the fortress,\n");
+            SendAction(CODE_THING,Follower,SEND_DST|SEND_CAPFIRST,"^yyou become dizzy and become surrounded by a ^wbright white\n");
+            SendAction(CODE_THING,Follower,SEND_DST|SEND_CAPFIRST,"^wlight^y.  As your sight returns you find yourself in a different place.\n");
+          }
+          SendAction(CODE_THING,Follower,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,LeaveMsg);
+          ThingTo(Follower,Destination);
+          SendAction(Follower,Follower,SEND_ROOM|SEND_VISIBLE|SEND_CAPFIRST,"^y$n appears suddenly with a bright light.\n");
+          CharAction(Follower,"look");
+        }
+      }
+      if(Leader!=TNULL) {
+        Follower=CharGetFollower(Follower);
+      }
+      else {
+        Follower=TNULL;
+      }
+    }
+  }
+}~
+S
+#948
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 949
+D0
+You see more sand.
+~
+~
+0 -1 931
+D3
+You see more sand.
+~
+~
+0 -1 945
+D2
+You see more sand.
+~
+~
+0 -1 947
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#949
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 952
+D2
+You see more sand.
+~
+~
+0 -1 950
+D0
+You see more sand.
+~
+~
+0 -1 930
+D3
+You see more sand.
+~
+~
+0 -1 948
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#950
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a
+gigantic ball of bright light radiating endless amounts of
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the south is a massive fortress.
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 951
+D3
+You see more sand.
+~
+~
+0 -1 947
+D0
+You see more sand.
+~
+~
+0 -1 949
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#951
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a
+gigantic ball of bright light radiating endless amounts of
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the south is a massive fortress.
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 954
+D0
+You see more sand.
+~
+~
+0 -1 952
+D3
+You see more sand.
+~
+~
+0 -1 950
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#952
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 953
+D0
+You see more sand.
+~
+~
+0 -1 923
+D3
+You see more sand.
+~
+~
+0 -1 949
+D2
+You see more sand.
+~
+~
+0 -1 951
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#953
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 956
+D2
+You see more sand.
+~
+~
+0 -1 954
+D0
+You see more sand.
+~
+~
+0 -1 924
+D3
+You see more sand.
+~
+~
+0 -1 952
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#954
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 975
+D1
+You see more sand.
+~
+~
+0 -1 955
+D3
+You see more sand.
+~
+~
+0 -1 951
+D0
+You see more sand.
+~
+~
+0 -1 953
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#955
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see a large pile of stones.
+~
+~
+0 -1 969
+D1
+You see more sand.
+~
+~
+0 -1 958
+D0
+You see more sand.
+~
+~
+0 -1 956
+D3
+You see more sand.
+~
+~
+0 -1 954
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#956
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D1
+You see more sand.
+~
+~
+0 -1 957
+D0
+You see more sand.
+~
+~
+0 -1 929
+D3
+You see more sand.
+~
+~
+0 -1 953
+D2
+You see more sand.
+~
+~
+0 -1 955
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#957
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you 
+cannot see through it at all.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 958
+D0
+You see more sand.
+~
+~
+0 -1 928
+D3
+You see more sand.
+~
+~
+0 -1 956
+S
+#958
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 970
+D1
+You see more sand.
+~
+~
+0 -1 959
+D3
+You see more sand.
+~
+~
+0 -1 955
+D0
+You see more sand.
+~
+~
+0 -1 957
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#959
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you 
+cannot see through it at all.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 971
+D3
+You see more sand.
+~
+~
+0 -1 958
+S
+#960
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D1
+You see nothing special.
+~
+~
+0 -1 967
+D2
+You see nothing special.
+~
+~
+0 -1 961
+D0
+You see more sand.
+~
+~
+0 -1 941
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#961
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D2
+You see nothing special.
+~
+~
+0 -1 964
+D1
+You see a pedestal.
+~
+~
+0 -1 962
+D0
+You see nothing special.
+~
+~
+0 -1 960
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#962
+An abandoned temple~
+You are standing in an abandoned temple.  Littered all over the 
+floor are bits and fragments of the same pale gray stone that was
+used in constructing the pillars.  There is a pedestal situated
+at the very center of the temple.
+~
+5 0 DESERT
+D0
+You see nothing special.
+~
+~
+0 -1 967
+D1
+You see nothing special.
+~
+~
+0 -1 965
+D2
+You see nothing special.
+~
+~
+0 -1 963
+D3
+You see nothing special.
+~
+~
+0 -1 961
+E
+tablet~
+Carved on the tablet are three pictures.  The first one shows a 
+small, round object sitting on the pedestal.  The second picture
+shows a person uttering some words.  The last picture shows a
+beam coming from above the pedestal, and causing the round object
+to glow.
+~
+E
+floor bits fragments stone~
+You crouch down to examine the fragments of stone on the floor.  
+A tablet hidden beneath a pile of rubble catches your attention.
+~
+E
+engrave words~
+The following is engraved into the pedestal: "thyrak rah gathal"
+~
+E
+pedestal~
+The pedestal stands about 3 feet high and is made of a bright red
+marble.  It appears to have been carved with laser precision.  
+Upon closer examination, you notice some words engraved into it.
+~
+S
+#963
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D1
+You see nothing special.
+~
+~
+0 -1 968
+D0
+You see a pedestal.
+~
+~
+0 -1 962
+D3
+You see nothing special.
+~
+~
+0 -1 964
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#964
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D0
+You see nothing special.
+~
+~
+0 -1 965
+D3
+You see nothing special.
+~
+~
+0 -1 963
+D1
+You see nothing special.
+~
+~
+0 -1 963
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#965
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D2
+You see nothing special.
+~
+~
+0 -1 968
+D0
+You see nothing special.
+~
+~
+0 -1 966
+D3
+You see a pedestal.
+~
+~
+0 -1 962
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#966
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D3
+You see nothing special.
+~
+~
+0 -1 967
+D2
+You see nothing special.
+~
+~
+0 -1 965
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#967
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D3
+You see nothing special.
+~
+~
+0 -1 960
+D2
+You see a pedestal.
+~
+~
+0 -1 962
+D1
+You see nothing special.
+~
+~
+0 -1 966
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#968
+An abandoned temple~
+You find yourself surrounded by massive stone pillars.  Although
+most of the pillars have fallen down, you can tell from the way
+the pillars are located that this once used to be a temple of some
+sort.  You are uncertain of what the purpose of this structure was,
+but considering that it was built in such a way that light is allowed
+to come in freely from up above, it must have something to do with
+the sun.
+~
+5 0 DESERT
+D0
+You see nothing special.
+~
+~
+0 -1 965
+D3
+You see nothing special.
+~
+~
+0 -1 963
+E
+sun light~
+Light from the artificial sun streams in from up above illuminating
+the entire temple.
+~
+E
+massive stone pillars~
+The pillars are constructed of a pale, grey stone.  Each pillar
+is about 5 feet in diameter and 10 feet tall.  You begin to wonder
+how these heavy stones were erected in the first place.
+~
+S
+#969
+Stone pit~
+You have stumbled upon a fairly large pit that is piled up high with small
+round stones.  Now where did all these stones come from to end up sitting
+in the middle of an arid desert?
+~
+5 0 INDOORS
+D3
+You see more sand.
+~
+~
+0 -1 975
+D2
+You see more sand.
+~
+~
+0 -1 973
+D1
+You see more sand.
+~
+~
+0 -1 970
+D0
+You see more sand.
+~
+~
+0 -1 955
+E
+pile stones~
+A HUGE pile of smooth, grey stones.
+~
+P
+!COMMAND~
+{
+  if(StrIsCmd(COMMAND,"get")||StrIsCmd(COMMAND,"take")) {
+    if(StrIn(COMMAND,"stone")) {
+      ObjectCreate(CODE_THING,901);
+    }
+    else {
+      if(StrIn(COMMAND,"pile")) {
+        SendAction(EVENT_THING,TNULL,SEND_SRC,"You aren\'t strong enough to take the whole pile!  Try a stone, you weakling!\n");
+        BLOCK_CMD=TRUE;
+      }
+    }
+  }
+}~
+S
+#970
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life 
+inhabit this kind of climate.  
+~
+5 0 INDOORS
+D2
+You see more sand.
+~
+~
+0 -1 972
+D1
+You see more sand.
+~
+~
+0 -1 971
+D0
+You see more sand.
+~
+~
+0 -1 958
+D3
+You see a large pile of stones.
+~
+~
+0 -1 969
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+S
+#971
+Along the glass wall~
+You are next to the thick glass wall of Terrarium Beta.  The glass
+has been so severely scratched by numerous sandstorms that you
+cannot see through it at all.  To the south is a massive fortress.
+~
+5 0 INDOORS
+D0
+You see more sand.
+~
+~
+0 -1 959
+D3
+You see more sand.
+~
+~
+0 -1 970
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#972
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glow pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the south and east is a massive
+fortress.
+~
+5 0 INDOORS
+D3
+You see more sand.
+~
+~
+0 -1 973
+D0
+You see more sand.
+~
+~
+0 -1 970
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#973
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glows pale yellow.  Looking up, you notice a
+gigantic ball of bright light radiating endless amounts of
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the south is a massive fortress.
+~
+5 0 INDOORS
+D3
+You see more sand.
+~
+~
+0 -1 974
+D0
+You see a large pile of stones.
+~
+~
+0 -1 969
+D1
+You see more sand.
+~
+~
+0 -1 972
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#974
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glow pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the south and west is a massive
+fortress.
+~
+5 0 INDOORS
+D0
+You see more sand.
+~
+~
+0 -1 975
+D1
+You see more sand.
+~
+~
+0 -1 973
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#975
+In a hot and dry desert~
+You find yourself in a very hot and dry desert.  The sand beneath
+your feet faintly glow pale yellow.  Looking up, you notice a 
+gigantic ball of bright light radiating endless amounts of 
+discomforting heat everywhere.  You wonder what kinds of life
+inhabit this kind of climate.  To the west is a massive fortress.
+~
+5 0 INDOORS
+D1
+You see a large pile of stones.
+~
+~
+0 -1 969
+D0
+You see more sand.
+~
+~
+0 -1 954
+D2
+You see more sand.
+~
+~
+0 -1 974
+E
+sand yellow ~
+Upon touching the sand that lies beneath your feet, you notice that
+it has a very stimulating granular feel to it.  It is quite warm
+to the touch -- the result of the blistering hot climate produced
+by the artificial sun up above you.
+~
+E
+gigantic ball bright light artificial sun~
+The massive, artificial sun appears to be suspended near the 
+ceiling by some unknown force.  It glows bright white, hurting 
+your eyes when you look at it.
+~
+E
+fortress massive~
+You gaze at the massive fortress before you.  It looks as though it was
+constructed by intelligent beings using advanced.. builder technology?
+~
+S
+#976
+Entrance corridor~
+You are standing in what appears to be the entrance corridor of
+the fortress.  The walls surrounding you are made from blocks of
+a dull, gray stone.  Along the wall about every ten feet are 
+glowing spheres, lighting up the otherwise dark corridor.
+~
+5 0 INDOORS
+D1
+You see nothing special.
+~
+~
+0 -1 977
+S
+#977
+Entrance corridor~
+You are standing in what appears to be the entrance corridor of
+the fortress.  The walls surrounding you are made from blocks of
+a dull, gray stone.  Along the wall about every ten feet are 
+glowing spheres, lighting up the otherwise dark corridor.
+~
+5 0 INDOORS
+D3
+You see nothing special.
+~
+~
+0 -1 976
+D1
+You see nothing special.
+~
+~
+0 -1 978
+S
+#978
+Entrance corridor~
+You are standing in what appears to be the entrance corridor of
+the fortress.  The walls surrounding you are made from blocks of
+a dull, gray stone.  Along the wall about every ten feet are 
+glowing spheres, lighting up the otherwise dark corridor.
+~
+5 0 INDOORS
+D2
+You see nothing special.
+~
+~
+0 -1 979
+D3
+You see nothing special.
+~
+~
+0 -1 977
+S
+#979
+Entrance corridor~
+You are standing in what appears to be the entrance corridor of
+the fortress.  The walls surrounding you are made from blocks of
+a dull, gray stone.  Along the wall about every ten feet are 
+glowing spheres, lighting up the otherwise dark corridor.
+~
+5 0 INDOORS
+D3
+You see nothing special.
+~
+~
+0 -1 980
+D0
+You see nothing special.
+~
+~
+0 -1 978
+S
+#980
+Entrance corridor~
+You are standing in what appears to be the entrance corridor of
+the fortress.  The walls surrounding you are made from blocks of
+a dull, gray stone.  Along the wall about every ten feet are 
+glowing spheres, lighting up the otherwise dark corridor.
+~
+5 0 INDOORS
+D3
+You see nothing special.
+~
+~
+0 -1 981
+D1
+You see nothing special.
+~
+~
+0 -1 979
+S
+#981
+Entrance corridor~
+You are standing in what appears to be the entrance corridor of
+the fortress.  The walls surrounding you are made from blocks of
+a dull, gray stone.  Along the wall about every ten feet are 
+glowing spheres, lighting up the otherwise dark corridor.
+~
+5 0 INDOORS
+D2
+You see nothing special.
+~
+~
+0 -1 982
+D1
+You see nothing special.
+~
+~
+0 -1 980
+S
+#982
+Corridor Intersection~
+You are standing at an intersection of four distinctly different
+corridors.  Peering down each of the corridors, you are unable to
+determine where take might take you.
+~
+5 0 INDOORS
+D2
+You see nothing special.
+~
+~
+0 -1 988
+D0
+You see nothing special.
+~
+~
+0 -1 981
+D3
+You see nothing special.
+~
+~
+0 -1 983
+S
+#983
+Dusty Corridor~
+You find yourself in a very dusty corridor.  There is so much dust
+that you cannot even see the floor on which you are standing!
+Your lungs and throat protest at every breath of air you take in.
+~
+5 DARK INDOORS
+D1
+You see nothing special.
+~
+~
+0 -1 982
+D0
+You see nothing special.
+~
+~
+0 -1 984
+E
+dust~
+There is so much dust on the floor that your every step leaves a
+deep footprint.
+~
+S
+#984
+Dusty Corridor~
+You find yourself in a very dusty corridor.  There is so much dust
+that you cannot even see the floor on which you are standing!
+Your lungs and throat protest at every breath of air you take in.
+~
+5 DARK INDOORS
+D2
+You see nothing special.
+~
+~
+0 -1 983
+D0
+You see nothing special.
+~
+~
+0 -1 985
+E
+dust~
+There is so much dust on the floor that your every step leaves a
+deep footprint.
+~
+S
+#985
+Dusty Corridor~
+You find yourself in a very dusty corridor.  There is so much dust
+that you cannot even see the floor on which you are standing!
+Your lungs and throat protest at every breath of air you take in.
+~
+5 DARK INDOORS
+D3
+You see nothing special.
+~
+~
+0 -1 986
+D2
+You see nothing special.
+~
+~
+0 -1 984
+E
+dust~
+There is so much dust on the floor that your every step leaves a
+deep footprint.
+~
+S
+#986
+Dusty Corridor~
+You find yourself in a very dusty corridor.  There is so much dust
+that you cannot even see the floor on which you are standing!
+Your lungs and throat protest at every breath of air you take in.
+~
+5 DARK INDOORS
+D3
+You see nothing special.
+~
+~
+0 -1 987
+D1
+You see nothing special.
+~
+~
+0 -1 985
+E
+dust~
+There is so much dust on the floor that your every step leaves a
+deep footprint.
+~
+S
+#987
+Dusty Corridor~
+You find yourself in a very dusty corridor.  There is so much dust
+that you cannot even see the floor on which you are standing!
+Your lungs and throat protest at every breath of air you take in.
+~
+5 DARK INDOORS
+D1
+You see nothing special.
+~
+~
+0 -1 986
+E
+dust~
+There is so much dust on the floor that your every step leaves a
+deep footprint.
+~
+S
+#988
+Circular Corridor~
+You are standing in a circular corridor.  The unusually smooth
+walls are so polished that you can't stop but to admire yourself
+in its gleaming reflection.  
+~
+5 0 INDOORS
+D2
+You see nothing special.
+~
+~
+0 -1 989
+D0
+You see nothing special.
+~
+~
+0 -1 982
+E
+wall~
+These mirror-like walls are completely flawless.  You feel an urge
+to spoil its beauty by scratching it -- but can you resist?
+~
+P
+@command~
+{
+if(StrIsCmd(COMMAND,scratch)) {
+if(StrExact(CMD_SRCKEY, "wall")) {
+BLOCK_CMD=True
+;
+~
+S
+#989
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+D2
+You see nothing special.
+~
+~
+0 -1 990
+D0
+You see nothing special.
+~
+~
+0 -1 988
+S
+#990
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+D0
+You see nothing special.
+~
+~
+0 -1 989
+S
+#991
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#992
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#993
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#994
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#995
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#996
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#997
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#998
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#999
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#1000
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S
+#1001
+Type ^wWNAME^c to give this room a better title.~
+  You are standing in a completely featureless room. It awaits only a creators
+hand to stroke the keyboard spelling out the magic word ^wWDESC^b to breath life
+upon it.
+~
+5 0 INDOORS
+S

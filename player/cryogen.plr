@@ -1,0 +1,87 @@
+Cryogen~
+3coolness~
+$n the Titleless~
+You see nothing special.
+~
+Messages: 
+$n 
+~
+$n 
+~
+~
+~
+Prompt:             ~
+LastLogin:          localhost [127.0.0.1]~
+Level:              250
+Race:               Human
+Class:              Researcher
+Position:           STANDING
+Sex:                MALE
+AutoAction:         A-LOOK|A-EXIT|A-FLEE|A-EAT|A-DRINK|NOEMAIL|HINT|EXPERT|CONSIDER
+System:             CRASHSAVED
+SockPref:           CR|LF|TELNETGA|ANSI|PROMPTHP|PROMPTEX|PROMPTRM|CHANUSUAGE|CHANGOSSIP|CHANGROUP|CHANPRIVATE
+ScreenLines:        23
+ColorPref:          wb CA gA gA GA WA pA wA rA RA pA wA gA 
+Practice:           0
+HitP:               1015
+MoveP:              1080
+PowerP:             1100
+GainPractice:       0
+GainHit:            0
+GainMove:           0
+GainPower:          0
+Fame:               0
+Infamy:             3
+HitPMax:            15
+MovePMax:           80
+PowerPMax:          100
+Hunger:             -1
+Thirst:             -1
+Intox:              -1
+Str:                100
+Dex:                90
+Con:                85
+Wis:                92
+Int:                100
+Money:              0
+Bank:               0
+Exp:                0
+TimeTotal:          87029
+TimeLastOn:         918297986
+Attempts:           0
+StartRoom:          108
+RecallRoom:         -1
+DeathRoom:          157
+
+[Skills]
+Burningfist         150
+Flamestrike         7
+[End of Skills]
+
+[Objects]
+#103   0 512 168756746 17 4096 0 5 Cryogen's Test Weapon
+#112   2 0 0 0 0 0 10 a steroid pill
+A USE-SELF-STRENGTH 0
+#112   2 0 0 0 0 0 10 a steroid pill
+A USE-SELF-STRENGTH 0
+#112   2 0 0 0 0 0 10 a steroid pill
+A USE-SELF-STRENGTH 0
+#112   2 0 0 0 0 0 10 a steroid pill
+A USE-SELF-STRENGTH 0
+#112   2 0 0 0 0 0 10 a steroid pill
+A USE-SELF-STRENGTH 0
+#112   2 0 0 0 0 0 10 a steroid pill
+A USE-SELF-STRENGTH 0
+#112   2 0 0 0 0 0 10 a steroid pill
+A USE-SELF-STRENGTH 0
+#167   1 335610113 673390105 45 0 0 11 a space suit
+A WEAR-VACUUMWALK 0
+#6     0 -50462977 -117835013 247 2048 0 9 Gods Armor
+A WEAR-VACUUMWALK 255
+[End of Objects]
+
+[Affects]
+[End of Affects]
+
+[Properties]
+[End of Properties]

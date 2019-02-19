@@ -1,0 +1,110 @@
+#1100
+The Way Out~
+  You are floating in a void. A hole in space-time floats nearby.
+~
+5 NOWEATHER|PRIVATE INDOORS
+D4
+~
+~
+0 -1 1104
+D3
+~
+~
+0 -1 121
+D1
+To the east you can see a small dark room... it smells a bit!
+
+~
+~
+ISDOOR -1 1101
+D0
+~
+~
+0 -1 0
+S
+#1101
+Privy~
+You are standing inside a quickly assembled shack whose purpose is apparently to
+give you shelter for those few precious minutes when you can contemplate the
+world whizzing peacefully into the hole in the floor.
+
+~
+5 0 INDOORS
+D1
+~
+~
+ISDOOR|HIDDEN -1 1102
+D3
+To the west you see... the way out!
+
+~
+~
+ISDOOR -1 1100
+E
+walls~
+The walls are made of planks and logs. You seem to perceive an outline of a door
+on the eastern wall.
+
+~
+E
+floor~
+The floor is uneven and strewn with bits of whitish tissue... and more than
+that! There is a hole in the middle of it.
+~
+E
+black hole~
+This is the kind of black hole accessible to everyone. No need to 
+reach the stars! It smells grossly, too.
+
+~
+S
+#1102
+Secret passage~
+You're in a dark dump tunnel dug quite recently, judging from the freshness 
+of its earthen walls. To the west, it ends in a wooden sort of wall, 
+constructed without much skill; there is a small hatch in it. The the east, 
+the tunnel continues. 
+~
+5 0 INDOORS
+D3
+You can't see much behind the hatch. 
+~
+~
+ISDOOR -1 1101
+D1
+~
+~
+0 -1 1103
+E
+hatch~
+A hatch. Something you can open and close. And go though, too.
+
+~
+E
+wall~
+It's a crude wall made of planks hammered together by someone to whom the word
+'carpentry' might sound offensive. There is a kind of hatch in it.
+
+~
+S
+#1103
+Squiggle nest~
+This is the lair of the legendary Squiggle.
+
+~
+5 0 INDOORS
+D3
+~
+~
+0 -1 1102
+S
+#1104
+A dark room.~
+This room is really dark. Oy!
+~
+5 DARK INDOORS
+D5
+~
+~
+0 -1 1100
+S

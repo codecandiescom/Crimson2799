@@ -1,0 +1,319 @@
+#1300
+small child girl rebecca newt~
+Rebecca~
+A small lost child is cowering in the corner~
+The small girl has the look of one who has seen her entire family die before 
+her eyes. 
+~
+SENTINEL|WIMPY 0 100 S
+1 3 5 1d10+40 2d2+1
+0 30
+STANDING GALCIV-CITIZEN FEMALE
+P
+@aftercommand~
+{
+  str Quest;
+  Quest="StationConduits-Rebecca";
+  if(Hello(COMMAND)) {
+    if(PropertyGetInt(EVENT_THING,Quest)>2) {
+      SendAction(CODE_THING,EVENT_THING,SEND_DST|SEND_ROOM|SEND_VISIBLE,"^aYou notice the girl\'s eyes turn green...\n");
+      FightStart(CODE_THING,EVENT_THING);
+      stop;
+    }
+    if(PropertyGetInt(EVENT_THING,Quest)==2) {
+      CharActionStr(CODE_THING,"follow %s",ThingGetName(EVENT_THING));
+      stop;
+    }
+    if(PropertyGetInt(EVENT_THING,Quest)) {
+      CharAction(CODE_THING,"say Will you help me\? Say YES or NO\?");
+      stop;
+    }
+    CharAction(CODE_THING,"say I\'m lost and scared. If only someone could help");
+    CharAction(CODE_THING,"say lead me home...");
+    CharAction(CODE_THING,"say Will you help me\? Say YES or NO.");
+    PropertySetInt(EVENT_THING,Quest,1);
+    stop;
+  }
+  if(YesNo(COMMAND)&&(PropertyGetInt(EVENT_THING,Quest)==1)) {
+    if(YesNo(COMMAND)==1) {
+      CharAction(CODE_THING,"say Oh thank you!");
+      PropertySetInt(EVENT_THING,Quest,2);
+      CharActionStr(CODE_THING,"follow %s",ThingGetName(EVENT_THING));
+    }
+    else {
+      CharAction(CODE_THING,"say I hope the rats get you...");
+      PropertySetInt(EVENT_THING,Quest,0);
+    }
+  }
+  if(StrIn(COMMAND,"Rebecca")) {
+    CharAction(CODE_THING,"say Actually, only my parents call me Rebecca.");
+    CharAction(CODE_THING,"say All my friends call me Newt.");
+  }
+}~
+#1301
+green ginera~
+a Green Ginera~
+A ginera is hovering here - emanating a green glow~
+The ginera is emanating a green, pulsating glow. Normally Ginera are fairly 
+doscile; this one looks like it wants your soul! 
+~
+SENTINEL|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RLASER|RACID|RPOISON DARKVISION|SEEINVIS|REGENERATION|ENDURANCE -300 S
+20 70 60 1d60+200 3d10+0
+0 300
+STANDING ANIMAL SEXLESS
+#1302
+green eyed human male possessed~
+a posessed human male~
+A human male with glowing green eyes is staring ominously at you.~
+The human is wearing tattered clothing, and seems oblivious to the numerous 
+scratches and wounds he has all over his body. 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RCONCUSSIVE ENDURANCE -200 S
+19 57 44 3d20+190 1d20+10
+200 285
+STANDING GALCIV-CITIZEN MALE
+#1303
+green eyed articifer female possessed~
+a posessed artificer female~
+An artificer female with glowing green eyes is staring ominously at you.~
+The artificer is wearing tattered clothing, and seems oblivious to the 
+numerous scratches and wounds she has all over her body. 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RPSYCHIC ENDURANCE -200 S
+15 45 35 1d30+150 4d5+2
+100 220
+STANDING GALCIV-CITIZEN FEMALE
+#1304
+mad female human~
+a mad human~
+a mad human is here, looking for blood~
+The human is a middle-aged female. She looks a mess, and doesn't seem to 
+care. She has a faint green glow in her eyes 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RCONCUSSIVE ENDURANCE -200 S
+15 47 42 1d30+20 4d6+0
+87 230
+STANDING GALCIV-CITIZEN FEMALE
+#1305
+mad female siliconoid~
+a mad siliconoid~
+a mad siliconoid is here, feeding on anything living~
+The siliconoid is a young female. She seems to have a faint green glow about 
+her. She looks like she want to share her glow with YOU! 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER ENDURANCE -200 S
+16 49 35 1d30+20 3d6+6
+90 230
+STANDING GALCIV-CITIZEN FEMALE
+#1306
+mad human male~
+a mad human~
+A mad human is here, rooting around for rats or YOU!~
+The human is a young male. His eyes are emitting a faint green glow. He 
+looks like he wants you... in his stomach! 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RCONCUSSIVE ENDURANCE -200 S
+17 55 50 1d100+50 3d6+6
+17 245
+STANDING GALCIV-CITIZEN MALE
+#1307
+mad male siliconoid~
+a mad siliconoid~
+A mad siliconoid is hunting for anything alive~
+The siliconoid is a large, rough male. He is glowing faintly green. He looks 
+like he wants to see your body... ripped in two! 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER ENDURANCE -200 S
+18 57 52 1d40+75 3d5+13
+230 270
+STANDING GALCIV-CITIZEN MALE
+#1308
+mad cat~
+mad cat~
+A mad cat is here, feeding on anything and everything~
+The cat has green-glowing eyes. She looks like it wants you to pet it... 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA ENDURANCE -200 S
+11 29 25 1d40+10 3d4+4
+0 165
+STANDING ANIMAL FEMALE
+#1309
+mad warblie large~
+a mad warblie~
+a large mad warblie is wandering around~
+The warblie has green-glowing eyes. He looks like he is willing to eat 
+anything... including you! 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|STAYAREA ENDURANCE -200 S
+12 38 22 1d50+10 3d4+6
+0 180
+STANDING ANIMAL MALE
+#1310
+mad measlie~
+a mad measlie~
+a mad measlie is here, nibbling on everything it can~
+The measlie has green-glowing eyes. It looks mean, despite its small size. 
+~
+TRACKER|AGGRESSIVE|STAYAREA ENDURANCE -200 S
+10 35 25 1d30+0 2d5+5
+0 150
+STANDING ANIMAL SEXLESS
+#1311
+worried parent person~
+a worried parent~
+A person is here, looking very worried.~
+He is a regular-looking human male. He looks very worried and sad about 
+something. 
+~
+SENTINEL|WIMPY 0 500 S
+5 15 15 2d5+65 3d2+1
+50 75
+STANDING GALCIV-CITIZEN MALE
+P
+@aftercommand~
+{
+  if(Hello(COMMAND)) {
+    CharAction(CODE_THING,"say My poor little Rebecca. She\'s somewhere in");
+    CharAction(CODE_THING,"say that awful maze! She\'s all alone!! WHAT WILL");
+    CharAction(CODE_THING,"say I DO\?! If only someone could get her...");
+  }
+}~
+P
+@afterentry~
+{
+  str Quest;
+  thing t;
+  Quest="StationConduits-Rebecca";
+  if(ThingGetType(EVENT_THING)==TTYPE_MOB) {
+    if(MobileGetVirtual(EVENT_THING)==1300) {
+      CharAction(CODE_THING,"say REBECCA!");
+      CharAction(EVENT_THING,"say DAD!");
+      SendAction(CODE_THING,TNULL,SEND_ROOM|SEND_VISIBLE,"^aThe parent runs to Rebecca and holds her.\n");
+      CharAction(CODE_THING,"say Thank you! Oh thank you!");
+      t=CharGetLeader(EVENT_THING);
+      PlayerSolvedQuest(t,"^wCongratulations! You have saved Rebecca!\n",500,1,Quest,3);
+      CharRemoveFollower(EVENT_THING);
+      ThingTo(EVENT_THING,WorldOf(1423));
+    }
+  }
+}~
+#1312
+old siliconoid~
+an old siliconoid~
+An old siliconoid is here, rocking in her rocking chair~
+She looks a thousand years old. She looks like a loveable grandmother... if 
+siliconoids can be considered loveable. 
+~
+SENTINEL|RCONCUSSIVE|RHEAT|RPSYCHIC|RPOISON 0 600 S
+30 90 75 1d100+300 10d5+0
+300 450
+SITTING GALCIV-CITIZEN FEMALE
+#1313
+perturbed citizen~
+a Perturbed citizen~
+A perturbed citizen is ranting about privacy~
+The station citizen looks very put-out. Well, wouldn't you if a 
+weapon-toting adventurer broke into YOUR living quarters?! 
+~
+SENTINEL 0 500 S
+4 14 12 1d10+40 2d2+1
+10 60
+STANDING GALCIV-CITIZEN FEMALE
+#1314
+scared citizen~
+a Scared citizen~
+A very frightened citizen is here, hoping you don't kill him~
+He looks very frightened - presumably praying you don't hurt him. 
+~
+SENTINEL 0 -1000 S
+2 1 0 1d10+10 2d2+0
+10 30
+STANDING GALCIV-CITIZEN MALE
+#1315
+very annoyed individual~
+a Very annoyed individual~
+A very annoyed individual is here, wishing you'd go away.~
+She looks like she really wants you out of her house! 
+~
+SENTINEL|AGGRESSIVE 0 300 S
+7 18 15 1d10+80 2d4+0
+20 105
+STANDING GALCIV-CITIZEN FEMALE
+#1316
+tothro monk~
+a Tothro Monk~
+A Tothro Monk is here, contemplating the actions of others~
+The monk is wearing a dark blue robe covering all distinguishing marks or 
+features. 
+~
+TRACKER 0 900 S
+18 54 42 1d54+180 3d8+6
+200 270
+STANDING GALCIV-CITIZEN MALE
+#1317
+tothro monk~
+a Tothro Monk~
+A Tothro Monk is here, contemplating the actions of others~
+The monk is wearing a dark blue robe covering all distinguishing marks or 
+features. 
+~
+TRACKER 0 800 S
+16 48 37 1d48+160 3d7+5
+200 240
+STANDING GALCIV-CITIZEN FEMALE
+#1318
+tothro monk~
+the Tothro Monk~
+A Tothro Monk is here, wondering if you need any help~
+The Monk is a tall, imposing character. His robe is large enough to cover 
+his features; however, the fact he's built like a tank defies concealment. 
+~
+SENTINEL|RPUNCTURE|RSLASH|RCONCUSSIVE|RHEAT|RLASER ENDURANCE 900 S
+20 54 43 1d40+180 4d6+5
+200 240
+STANDING GALCIV-CITIZEN MALE
+#1319
+tothro monk administrator~
+a Tothro Monk Administrator~
+A Tothro Monk Administrator is awaiting your questions~
+The monk moves like a cat, and although she's fairly small for a human, you 
+get the feeling she could take on a siliconoid 5 times her size. 
+~
+SENTINEL ENDURANCE 1000 S
+23 69 60 1d70+270 5d4+4
+200 345
+STANDING GALCIV-CITIZEN FEMALE
+#1320
+tothro priest~
+a Tothro Priest~
+A Tothro Priest is here, ready to talk if you so wish~
+The Priest looks hunched and undignified. You sense a great degree of wizdom 
+is hidden beneath his outer fragility. 
+~
+SENTINEL 0 1000 S
+22 67 57 1d60+240 5d4+1
+200 330
+STANDING GALCIV-CITIZEN MALE
+#1321
+mad child~
+a mad child~
+a mad child is here, looking very neglected~
+The child has green-glowing eyes. He looks like he wants to hug you... the 
+better to bite off your ear! 
+~
+TRACKER|AGGRESSIVE|STAYAREA 0 -200 S
+13 42 35 1d40+35 3d4+6
+10 195
+STANDING GALCIV-CITIZEN MALE
+#1322
+mad artificer~
+a mad artificer~
+A mad artificer is here, looking for something to eat~
+The artificer looks wounded and weak. He is, nonetheless, looking for 
+something to feed upon... preferably YOU! 
+~
+TRACKER|SCAVENGER|AGGRESSIVE|RPSYCHIC 0 -200 S
+14 45 37 1d50+40 4d4+6
+100 210
+STANDING GALCIV-CITIZEN MALE
+$

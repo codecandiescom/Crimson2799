@@ -1,0 +1,151 @@
+#1800
+stone stone~
+small stone~
+a small stone is here~
+It's small, round, and made of rock.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+1 0 0
+#1801
+miniature obelisk~
+Miniature Obelisk~
+A miniature obelisk rests on the floor~
+The obelisk is about 60cm tall. It is made of a dark, black stone. 
+~
+OTHER GLOW|AURA NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  int color;
+  str action;
+  color=CharGetExp(EVENT_THING)%4;
+  if(color==0) {
+    action="^r$n glows a bright red\n";
+  }
+  else {
+    if(color==1) {
+      action="^b$n glows a brilliant blue\n";
+    }
+    else {
+      if(color==2) {
+        action="^y$n glows a soothing yellow\n";
+      }
+      else {
+        if(color==3) {
+          action="^g$n glows a pleasant green\n";
+        }
+      }
+    }
+  }
+  SendAction(CODE_THING,EVENT_THING,SEND_VISIBLE|SEND_ROOM|SEND_CAPFIRST,action);
+  SendAction(CODE_THING,EVENT_THING,SEND_VISIBLE|SEND_DST|SEND_CAPFIRST,action);
+  BLOCK_CMD=TRUE;
+  PropertySetInt(EVENT_THING,"TheMazeLevel4-Circle",1);
+}~
+#1802
+strip line printer paper~
+a Strip of line printer paper~
+A strip of line printer paper lies on the floor here.~
+Its the output of some kind of robot. Only a small excerpt of the total text
+remains readable:
+
+Core Memory Corruption Identified location: 0xF19B34D234A233548 (seg. fault)
+System Capabilities reduced -12.34%
+Initiating background Level 2 Diagnostic. 0.0023% System degredation while
+testing in progress.
+VERBAL QUERY: [MGreenwo] "Gumbo, this can't be right, according to this your
+program corruption is *increasing* your capabilities?"
+VERBAL RESPONSE: "Chance of inaccuracy 0.037%, Level 2 Diagnostic in progress,
+expected completion in 317.23 seconds"
+Devoting 0.023 ms interpreting sensor data. Motion detected
+Internal Security Level raised to 7
+Devoting 0.017ms to target scan. Target acquired.
+VERBAL RESPONSE: "Targets detected. Indentification in progress. Primary
+Objective, protect user MGreenwo"
+VERBAL INPUT: [TMorzit] "OhMyGod"
+VERBAL INPUT: [MGreenwo] "Dammit take cover, its some kind of
+
+The rest of the text is unreadable.
+~
+OTHER CARRY2USE NOWEAR
+0 0 0 0
+1 0 0
+#1803
+tail lizard white~
+A white lizard tail~
+a white lizard tail lies here, covered in sharp looking scales~
+Its the tail of some kind of lizard-like creatures. Its covered with rows 
+and rows of incredibly dense and sharp scales. You have to be carefull not 
+to cut yourself. 
+~
+ARMOR 0 TAIL
+10 65793 0 0
+3 0 0
+#1804
+twisted old oak tree~
+Twisted old oak tree~
+There is an old, twisted oak tree near the top of the noll. ~
+The old oak tree is turned and twisted. Its leaves are sparce, but coloured 
+a bold dark green. There are lots of dead branches and acorns among its 
+leaves. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  BLOCK_CMD=TRUE;
+  if(Number(0,1)) {
+    SendAction(CODE_THING,EVENT_THING,SEND_DST,"You break off a branch from $n\n");
+    SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"$N breaks off a branch from $n\n");
+    ObjectCreate(BaseGetInside(CODE_THING),1806);
+  }
+  else {
+    SendAction(CODE_THING,EVENT_THING,SEND_DST,"You pick an acorn from $n\n");
+    SendAction(CODE_THING,EVENT_THING,SEND_ROOM|SEND_VISIBLE,"$N picks an acorn from $n\n");
+    ObjectCreate(BaseGetInside(CODE_THING),1805);
+  }
+}~
+#1805
+acorn small~
+acorn~
+a small acorn is sitting on the ground here.~
+The acorn is small, brown, and has a hard shell.
+~
+FOOD 0 HELD
+1 0 0 1
+0 0 0
+#1806
+dry old oak branch~
+oak branch~
+a dry oak branch is sitting here~
+The oak branch is dry and kinda light. It would probably burn well. 
+~
+LIGHT 0 HELD
+100 0 0 0
+1 0 0
+#1807
+rock pool~
+rock pool~
+there is a small rock pool of water here.~
+The rock pool appears to have been carved out of the living stone. Over the 
+years, water dripping from above has warn the edges to a smooth polish. 
+~
+DRINKCON 0 NOWEAR
+10000 10000 0 0
+-1 0 0
+#1808
+alien fruit food~
+Alien fruit~
+Some pleasant-smelling alien fruit is sitting here.~
+The alien fruit is an orange-red colour and looks like a warped dumbell. It 
+looks and smells very tasty!
+~
+FOOD 0 NOWEAR
+30 0 0 0
+0 0 20
+$

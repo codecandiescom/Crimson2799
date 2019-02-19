@@ -1,0 +1,187 @@
+Monster fields description:
+===========================
+
+#<virtual number><NL> is:
+  The monsters virtual number. Rules are same as for room virtual numbers.
+
+<namelist>~<NL>
+  The space-separated name alias list.
+
+<short description>~<NL>
+  This string will be displayed when the monster take action, for example
+  if it is "The Beastly Fido", and fido leaves south the message will be
+  "The Beastly Fido leaves south."
+
+<long description>~<NL>
+  This description is displayed when the monster is in it's "default"
+  position. When not in the default position, a message like:
+  "<short description> is sleeping here." could be displayed.
+
+<description><NL>~<NL>
+  This will be displayed when a player looks at the monster.
+
+<action flags>[NL]
+
+  This bitvector define how the monster behave.  The bits mean:
+
+  ACT_SPEC         1  This means that there is a special programmed C
+                      procedure connected to the monster. When this bit
+                      is set the monster "function pointer" must be
+                      assigned in the "spec_assign.c" file.
+
+  ACT_SENTINEL     2  When this bit is set the monster will NOT
+                      move around in the world.
+
+  ACT_SCAVENGER    4  When this bit is set, monsters will pick up stuff
+                      lying on the ground. It will pick up the most
+                      expensive items first.
+
+  ACT_ISNPC        8  RESERVED FOR INTERNAL USE
+
+  ACT_NICE_THIEF  16  When this bit is set, a monster will not attack
+                      a thief which has been caught in the act of 
+                      stealing from this monster.
+
+  ACT_AGGRESSIVE  32  When this bit is set, the monster will attack and
+                      attempt to kill any player it can get it's claws on.
+                      It will not attack players it can't see (for example
+                      dark rooms or when player is invisible, unless the
+                      monster can detect invisibility)
+
+  ACT_STAY_ZONE   64  When this bit is set, the monster will never move
+                      into another zone of the world (this is good for
+                      keeping your monsters in your own adventure).
+
+  ACT_WIMPY      128  When this bit is set, the monster will flee when it's
+                      getting percentwise low on hitpoints.
+                      If the monster is both aggressive and wimpy, then it
+                      will only attack players that are NOT awake! (ie. also
+                      suffering players).
+
+<affection flags>[NL]
+
+  This is a bitvector that indicates what the monster is affected by.
+  Puff could for example be able to "detect invisible" or maybe
+  "sanctuary" (1/2 damage). A lot of these bits are meant for players
+  only (in a context with a spell), and should NOT be used when indicated.
+  The bits are:
+
+  AFF_BLIND             1         RESERVED PLAYERS
+  AFF_INVISIBLE         2         The monster is invisible
+  AFF_DETECT_EVIL       4         RESERVED PLAYERS
+  AFF_DETECT_INVISIBLE  8         The monster can see invisible players
+                                  (Especially good for aggressive npc's)
+  AFF_DETECT_MAGIC      16        RESERVED PLAYERS
+  AFF_SENCE_LIFE        32        RESERVED PLAYERS
+  AFF_HOLD              64        ??? DO NOT USE
+  AFF_SANCTUARY         128       The monster has sanctuary (1/2 damage)
+  AFF_GROUP             256       RESERVED PLAYERS
+  AFF_CURSE             1024      ??? DO NOT USE
+  AFF_FLAMING           2048      ??? DO NOT USE
+  AFF_POISON            4096      RESERVED PLAYERS
+  AFF_PROTECT_EVIL      8192      ??? DO NOT USE
+  AFF_PARALYSIS         16384     ??? DO NOT USE
+  AFF_MORDEN_SWORD      32768     ??? DO NOT USE
+  AFF_FLAMING_SWORD     65536     ??? DO NOT USE
+  AFF_SLEEP             131072    RESERVED PLAYERS
+  AFF_DODGE             262144    ??? DO NOT USE
+  AFF_SNEAK             524288    The message "The xxx leaves direction" will
+                                  not be displayed when the monster moves
+                                  out/in to a room.
+  AFF_HIDE              1048576   The monster will be hidden, and can only
+                                  be detected by a "sense life" spell
+  AFF_FEAR              2097152   ??? DO NOT USE   
+  AFF_CHARM             4194304   The monster will act as charmed when a
+                                  "follow <player>" is entered. Note that
+                                  players can't force monsters to follow
+                                  them.
+  AFF_FOLLOW            8388608   RESERVED PLAYERS
+
+
+<Alignment Flag>[NL]
+
+  This is the monsters alignment, read as:
+  +1000 .. +350  Good Alignment
+   +349 .. -349  Neutral Alignment
+   -350 ..-1000 Evil Alignment
+
+<Detailed/Simple flag><NL>
+
+  This flag must be entered as a uppercase "S". S indicates that "Simple"
+  monster data follow. Anything but an S will be interpreted as if
+  "Detailed" monster data is to follow. We will NOT describe detailed
+  monsters as they are VERY detailed.
+
+
+<Level>
+   This is the level of the monster. See "defs.doc" for guidelines when
+   setting the level.
+
+<THAC0>
+   The monsters THAC0.
+   See the file "defs.doc" for an explanation of armour vs. THAC0, and
+   guidelines for THAC0.
+   THAC0 is an abbrevation for "To Hit Armour Class Zero".
+
+<AC>
+   The monsters armour class. See "defs.doc" for guidelines regarding
+   armour.
+
+<Hit Points (format is xdy+z)>
+   This defines the number of hitpoints a given monster has. If this is
+   entered into the file:
+
+   ... ... 3d8+10 ...
+
+   the monster will have 10 hitpoints plus the result of rolling 3 dice
+   with 8 side, and adding their sum. All the numbers (even zero), the
+   plus sign, and the letter 'd' MUST be entered!!! Example:
+
+   ..... 1d6+0 ....
+
+
+<Damage (as HP)><NL>
+   This is the damage a monster will cause when it is using NO weapons
+   (the Bare hand damage). The format is exacly like the one described
+   for hit points. A thing to note about damage:
+   The number after the plus sign, is the "strength bonus". This bonus
+   will apply to any weapons used, and bare hands too. Example:
+
+   ..... 1d4+10
+
+   This monster will damage between 11 and 14 hitpoints each round. If the
+   monster picks up and wields a tiny stick which give 1d2 damage, then the
+   monster will now damage by : 1d2 + 10 points. 
+
+<Gold>
+   The amout of gold carried by the monster.
+
+<Exp><NL>
+   The experience this monster has. Follow guidelines in "defs.doc".
+
+<position>
+   This defines the monster's position when loaded into the game.
+   A position is one of:
+
+   POSITION_DEAD       0  DO NOT USE
+   POSITION_MORTALLYW  1  DO NOT USE
+   POSITION_INCAP      2  DO NOT USE
+   POSITION_STUNNED    3  DO NOT USE
+   POSITION_SLEEPING   4  The monster is sleeping.
+   POSITION_RESTING    5  The monster is resting.
+   POSITION_SITTING    6  The monster is sitting.
+   POSITION_FIGHTING   7  DO NOT USE.
+   POSITION_STANDING   8  The monster is standing.
+
+
+   This position also defines when the <long description>
+   is displayed - other positions result in Name+position string..
+
+<sex><NL>
+   This is the monsters sex, on of:
+
+   SEX_NEUTRAL   0
+   SEX_MALE      1
+   SEX_FEMALE    2
+
+   No further explanation is needed (hopefully).

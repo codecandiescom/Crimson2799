@@ -1,0 +1,31 @@
+
+The help system for the Crimson2 Mud Server works as follows:
+
+there is a help/help.tbl file, in the form:
+<filename> <editor list>~
+
+last line should (just like every other data file really) look like:
+$
+
+(generally speaking though if you leave out the $ it will see the EOF and just
+ go on gracefully)
+
+
+And there are also many XXXXXXX.hlp file, each of which should be listed in
+the tbl file.
+
+each .hlp file is of the form:
+Name of the section e.g. Main Command Help~
+#
+key1 key2 key3... lastkey~
+blah blah blah the 
+help for this command
+goes right about here
+~
+#
+lots more entries, until the last which looks like:
+
+#
+nextkey etc~
+description~
+$

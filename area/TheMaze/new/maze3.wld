@@ -1,0 +1,1473 @@
+#1800
+Green Octagon~
+  You are in a green, octagon-shaped room. You sense this is the start of 
+the fourth test. The walls and floor look rather dusty. 
+~
+5 NOMOB|PRIVATE INDOORS
+D5
+~
+~
+0 -1 1500
+D0
+Yellow Glowing Gateway 
+~
+yellow gateway~
+0 -1 2014
+D2
+Green Glowing Gateway 
+~
+green gateway~
+PICKPROOF|LOCKED|CLOSED|HIDDEN|ELECTRONIC -1 1801
+S
+#1801
+Shimmering Room~
+  You are in a bizarre room; the walls look like they're made of metal foil, 
+shimmering in an unseen wind. However, when you touch a wall, the shimmering 
+stops and the wall appears solid and impervious. 
+~
+5 0 INDOORS
+D0
+~
+~
+0 -1 1800
+D2
+~
+~
+0 -1 1802
+S
+#1802
+Shimmering Room~
+  You are in a room with shimmering walls. There are footprints in the dust 
+leading south. Your first set of footprints come in from the north. Can it 
+be that you just walked right through a wall?! Wow, cool.
+~
+5 0 INDOORS
+D0
+~
+~
+HIDDEN -1 1801
+D2
+~
+~
+HIDDEN -1 1803
+S
+#1803
+Shimmering Room~
+  You are in a room with shimmering walls. There are footprints in the dust 
+leading south. If you have trouble following the footprints, perhaps you 
+could try "look south" followed by "open south" or "open secret" or "open 
+door".
+~
+5 0 INDOORS
+D2
+a secret door 
+~
+secret door~
+ISDOOR|CLOSED|HIDDEN -1 1804
+D0
+~
+~
+HIDDEN -1 1802
+S
+#1804
+Shimmering Room~
+  You are in a room with shimmering walls. Footprints in the dust lead to 
+the middle of the room and then stop. When you look UP, you don't see any 
+apparent way UP. Perhaps you should try UP anyways, just in case UP works. 
+~
+5 0 INDOORS
+D0
+a secret door
+~
+secret door~
+ISDOOR|CLOSED|HIDDEN -1 1803
+D4
+~
+~
+HIDDEN -1 1805
+S
+#1805
+Shimmering Room~
+  You are in a room with shimmering walls. Funny, you can see yourself to 
+the north... and south... and east and west too! Strange. Maybe you should 
+try UP again. 
+~
+5 0 INDOORS
+D5
+~
+~
+HIDDEN -1 1804
+D4
+~
+~
+HIDDEN -1 1806
+D0
+~
+~
+0 -1 1805
+D1
+~
+~
+0 -1 1805
+D2
+~
+~
+0 -1 1805
+D3
+~
+~
+0 -1 1805
+S
+#1806
+Boundless landscape~
+  You are in a boundless landscape. The ground is smooth and grey, but 
+otherwise featureless. You can see clear to infinity in all directions. 
+There is a sign here. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1818
+D1
+~
+~
+0 -1 1807
+D2
+~
+~
+0 -1 1810
+D3
+~
+~
+0 -1 1809
+E
+sign~
+Welcome traveller.
+
+If you get stuck, go DOWN from
+anywhere and you will be returned to the Green Octagon. ~
+S
+#1807
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1819
+D1
+~
+~
+0 -1 1808
+D2
+~
+~
+0 -1 1811
+D3
+~
+~
+0 -1 1806
+S
+#1808
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1820
+D1
+~
+~
+0 -1 1809
+D2
+~
+~
+0 -1 1812
+D3
+~
+~
+0 -1 1807
+D5
+~
+~
+HIDDEN -1 1800
+S
+#1809
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D0
+~
+~
+0 -1 1821
+D1
+~
+~
+0 -1 1806
+D2
+~
+~
+0 -1 1813
+D3
+~
+~
+0 -1 1808
+D5
+~
+~
+HIDDEN -1 1800
+S
+#1810
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1806
+D1
+~
+~
+0 -1 1811
+D2
+~
+~
+0 -1 1814
+D3
+~
+~
+0 -1 1813
+S
+#1811
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1807
+D1
+~
+~
+0 -1 1812
+D2
+~
+~
+0 -1 1815
+D3
+~
+~
+0 -1 1810
+S
+#1812
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1808
+D1
+~
+~
+0 -1 1813
+D2
+~
+~
+0 -1 1816
+D3
+~
+~
+0 -1 1811
+S
+#1813
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1809
+D1
+~
+~
+0 -1 1810
+D2
+~
+~
+0 -1 1817
+D3
+~
+~
+0 -1 1812
+S
+#1814
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1810
+D1
+~
+~
+0 -1 1815
+D2
+~
+~
+0 -1 1818
+D3
+~
+~
+0 -1 1817
+S
+#1815
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1811
+D1
+~
+~
+0 -1 1816
+D2
+~
+~
+0 -1 1819
+D3
+~
+~
+0 -1 1814
+S
+#1816
+Pillar square~
+  Whoah. Like walking from night to day, you walk from the infinite 
+wasteland into a square marked by four pillars. There is a ladder leading 
+up. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1812
+D1
+~
+~
+0 -1 1817
+D2
+~
+~
+0 -1 1820
+D3
+~
+~
+0 -1 1815
+D4
+~
+~
+0 -1 1822
+S
+#1817
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1813
+D1
+~
+~
+0 -1 1814
+D2
+~
+~
+0 -1 1821
+D3
+~
+~
+0 -1 1816
+S
+#1818
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1814
+D1
+~
+~
+0 -1 1819
+D2
+~
+~
+0 -1 1806
+D3
+~
+~
+0 -1 1821
+S
+#1819
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1815
+D1
+~
+~
+0 -1 1820
+D2
+~
+~
+0 -1 1807
+D3
+~
+~
+0 -1 1818
+S
+#1820
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1816
+D1
+~
+~
+0 -1 1821
+D2
+~
+~
+0 -1 1808
+D3
+~
+~
+0 -1 1819
+S
+#1821
+Boundless landscape~
+  You are in a boundless landscape. 
+~
+5 0 CITY-OUTSIDE
+D5
+~
+~
+HIDDEN -1 1800
+D0
+~
+~
+0 -1 1817
+D1
+~
+~
+0 -1 1818
+D2
+~
+~
+0 -1 1809
+D3
+~
+~
+0 -1 1820
+S
+#1822
+Circle of pillars~
+  You are standing amidst a circle of pillars. The area is being lit by a 
+glowing oblisk in the centre of the circle. Outside the circle, all is 
+black.
+~
+5 NOMOB CITY-OUTSIDE
+D5
+~
+~
+0 -1 1816
+D3
+Blue Archway 
+~
+blue~
+0 -1 1826
+D2
+Yellow Archway 
+~
+yellow~
+0 -1 1825
+D1
+Green Archway 
+~
+green~
+0 -1 1824
+D0
+Red Archway 
+~
+red~
+0 -1 1823
+P
+@exit~
+{
+  int color;
+  str action;
+  if(PropertyGetInt(EVENT_THING,"TheMazeLevel4-Circle")) {
+    PropertyFree(EVENT_THING,"TheMazeLevel4-Circle");
+    color=CharGetExp(EVENT_THING)%4;
+    if((color==0)&&(EXIT==ExitDir(CODE_THING,EDIR_NORTH))) {
+      action="^r$N disappears in a flash of red light!\n";
+      ThingTo(EVENT_THING,WorldOf(1827));
+      BLOCK_CMD=TRUE;
+    }
+    else {
+      if((color==1)&&(EXIT==ExitDir(CODE_THING,EDIR_WEST))) {
+        action="^b$N disappears in a blink of blue light!\n";
+        ThingTo(EVENT_THING,WorldOf(1827));
+        BLOCK_CMD=TRUE;
+      }
+      else {
+        if((color==2)&&(EXIT==ExitDir(CODE_THING,EDIR_SOUTH))) {
+          action="^y$N disappears in an explosion of yellow light!\n";
+          ThingTo(EVENT_THING,WorldOf(1827));
+          BLOCK_CMD=TRUE;
+        }
+        else {
+          if((color==3)&&(EXIT==ExitDir(CODE_THING,EDIR_EAST))) {
+            action="^g$N disappears in a pulse of green light!\n";
+            ThingTo(EVENT_THING,WorldOf(1827));
+            BLOCK_CMD=TRUE;
+          }
+        }
+      }
+    }
+    if(BLOCK_CMD) {
+      SendAction(CODE_THING,EVENT_THING,SEND_VISIBLE|SEND_ROOM|SEND_CAPFIRST,action);
+      SendAction(CODE_THING,EVENT_THING,SEND_VISIBLE|SEND_DST|SEND_CAPFIRST,"^wYou see a blinding white light\n");
+      CharAction(EVENT_THING,"look");
+    }
+  }
+}~
+S
+#1823
+Outside a circle of pillars~
+  You are just outside of a circle of pillars. You can see nothing but 
+blackness outside of the pillars. If you try to walk away from the pillars, 
+you find they "follow" you. 
+~
+5 DARK INDOORS
+D1
+~
+~
+0 -1 1824
+D2
+~
+~
+0 -1 1822
+D3
+~
+~
+0 -1 1826
+S
+#1824
+Outside a circle of pillars~
+  You are just outside of a circle of pillars. You can see nothing but 
+blackness outside of the pillars. If you try to walk away from the pillars, 
+you find they "follow" you. 
+~
+5 DARK INDOORS
+D0
+~
+~
+0 -1 1823
+D2
+~
+~
+0 -1 1825
+D3
+~
+~
+0 -1 1822
+S
+#1825
+Outside a circle of pillars~
+  You are just outside of a circle of pillars. You can see nothing but 
+blackness outside of the pillars. If you try to walk away from the pillars, 
+you find they "follow" you. 
+~
+5 DARK INDOORS
+D0
+~
+~
+0 -1 1822
+D1
+~
+~
+0 -1 1824
+D3
+~
+~
+0 -1 1826
+S
+#1826
+Outside a circle of pillars~
+  You are just outside of a circle of pillars. You can see nothing but 
+blackness outside of the pillars. If you try to walk away from the pillars, 
+you find they "follow" you. 
+~
+5 DARK INDOORS
+D0
+~
+~
+0 -1 1823
+D1
+~
+~
+0 -1 1822
+D2
+~
+~
+0 -1 1825
+S
+#1827
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. Oddly, because of the 
+rolling hills, you cannot actually see the horizon... or more than maybe 100 
+meters away. There is a sign here.
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1829
+D1
+~
+~
+0 -1 1830
+D2
+~
+~
+0 -1 1832
+D3
+~
+~
+0 -1 1829
+E
+sign~
+If you wish to leave this place, go down.
+  -- L & A~
+S
+#1828
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1831
+D1
+~
+~
+0 -1 1829
+D2
+~
+~
+0 -1 1827
+D3
+~
+~
+0 -1 1830
+S
+#1829
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1832
+D1
+~
+~
+0 -1 1830
+D2
+~
+~
+0 -1 1832
+D3
+~
+~
+0 -1 1828
+S
+#1830
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1833
+D1
+~
+~
+0 -1 1828
+D2
+~
+~
+0 -1 1833
+D3
+~
+~
+0 -1 1829
+S
+#1831
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1828
+D1
+~
+~
+0 -1 1832
+D2
+~
+~
+0 -1 1828
+D3
+~
+~
+0 -1 1833
+S
+#1832
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1829
+D1
+~
+~
+0 -1 1833
+D2
+~
+~
+0 -1 1829
+D3
+~
+~
+0 -1 1831
+S
+#1833
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1830
+D1
+~
+~
+0 -1 1834
+D2
+~
+~
+0 -1 1830
+D3
+~
+~
+0 -1 1832
+S
+#1834
+Grassy knoll~
+  You are standing beside a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. There is a cave leading 
+down into the noll beside you. 
+~
+5 NOMOB FIELD
+D0
+~
+~
+0 -1 1832
+D1
+~
+~
+0 -1 1831
+D2
+~
+~
+0 -1 1829
+D3
+~
+~
+0 -1 1832
+D5
+~
+~
+0 -1 1835
+S
+#1835
+Rocky Cavern~
+  You are inside a rocky cavern. The air feels moist against your face, and 
+you can hear the gentle dripping of water coming from someplace.
+~
+5 DARK INDOORS
+D2
+~
+~
+0 -1 1836
+D4
+~
+~
+0 -1 1841
+S
+#1836
+Rocky Cavern~
+  You are inside a rocky cavern. The air feels moist against your face, and 
+you can hear the gentle dripping of water coming from someplace. 
+~
+5 DARK INDOORS
+D0
+~
+~
+0 -1 1838
+D2
+~
+~
+0 -1 1840
+S
+#1837
+Rocky Cavern~
+  You are inside a rocky cavern. The air feels moist against your face, and 
+you can hear the gentle dripping of water coming from someplace. 
+~
+5 DARK INDOORS
+D0
+~
+~
+0 -1 1835
+D2
+~
+~
+0 -1 1839
+S
+#1838
+Rocky Cavern~
+  You are inside a rocky cavern. The air feels moist against your face, and 
+you can hear the gentle dripping of water coming from someplace. 
+~
+5 DARK INDOORS
+D2
+~
+~
+0 -1 1837
+D4
+~
+~
+0 -1 1834
+S
+#1839
+Rocky Cavern~
+  You are inside a rocky cavern. The air feels moist against your face. 
+~
+5 DARK INDOORS
+D0
+~
+~
+0 -1 1836
+S
+#1840
+Rocky Cavern~
+  You are inside a rocky cavern. The air feels moist against your face, and 
+you can hear the gentle dripping of water coming from someplace. 
+~
+5 DARK INDOORS
+D0
+~
+~
+0 -1 1837
+S
+#1841
+Grassy knoll~
+  You are standing beside a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. There is a cave leading 
+down into the knoll beside you. 
+~
+5 NOMOB FIELD
+D0
+~
+~
+0 -1 1843
+D1
+~
+~
+0 -1 1844
+D2
+~
+~
+0 -1 1846
+D3
+~
+~
+0 -1 1843
+D5
+~
+~
+0 -1 1838
+S
+#1842
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1845
+D1
+~
+~
+0 -1 1841
+D2
+~
+~
+0 -1 1845
+D3
+~
+~
+0 -1 1843
+S
+#1843
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1846
+D1
+~
+~
+0 -1 1842
+D2
+~
+~
+0 -1 1846
+D3
+~
+~
+0 -1 1844
+S
+#1844
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1847
+D1
+~
+~
+0 -1 1843
+D2
+~
+~
+0 -1 1847
+D3
+~
+~
+0 -1 1842
+S
+#1845
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1842
+D1
+~
+~
+0 -1 1847
+D2
+~
+~
+0 -1 1842
+D3
+~
+~
+0 -1 1846
+S
+#1846
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1843
+D1
+~
+~
+0 -1 1845
+D2
+~
+~
+0 -1 1843
+D3
+~
+~
+0 -1 1847
+S
+#1847
+Grassy knoll~
+  You are standing on a grassy knoll. All around you, green fields 
+pot-marked by flowers flow in gentle rolling hills. 
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1844
+D1
+~
+~
+0 -1 1846
+D2
+~
+~
+0 -1 1848
+D3
+~
+~
+0 -1 1845
+S
+#1848
+Grassy knoll~
+  You are standing on a grassy noll. All around you, green fields pot-marked 
+by flowers flow in gentle rolling hills. Oddly, because of the rolling 
+hills, you cannot actually see the horizon... or more than maybe 100 meters 
+away. There is a sign here.
+~
+5 0 FIELD
+D0
+~
+~
+0 -1 1846
+D1
+~
+~
+0 -1 1845
+D2
+~
+~
+0 -1 1843
+D3
+~
+~
+0 -1 1846
+E
+sign~
+If you wish to leave this place, go down.
+  -- L & A~
+S
+#1849
+Desert of Death~
+  The desert of death stretches off into the distance. It's burning hot and 
+bone dry. You can feel your skin starting to burn and peel. 
+~
+5 DRAINPOWER DESERT
+D0
+~
+~
+0 -1 1800
+D1
+~
+~
+0 -1 1800
+D2
+~
+~
+0 -1 1800
+D3
+~
+~
+0 -1 1800
+P
+@death~
+{
+  if(ThingGetType(SPARE_THING)==TTYPE_PLR) {
+    BLOCK_CMD=TRUE;
+    ThingTo(SPARE_THING,WorldOf(1850));
+    SendAction(SPARE_THING,WorldOf(1850),SEND_ROOM,"^w$n suddenly appears!\n");
+    SendAction(CODE_THING,SPARE_THING,SEND_DST,"^wA voice booms in your head: \'Well done, questor!\'\n");
+    CharSetHitP(SPARE_THING,CharGetHitPMax(SPARE_THING));
+    PlayerSolvedQuest(SPARE_THING,"^wYou hear giggling...\n",1000,1,"TheMazeLevel4-Solution",1);
+    CharAction(SPARE_THING,"look");
+  }
+  else {
+    if(ThingGetType(EVENT_THING)==TTYPE_PLR) {
+      ThingTo(EVENT_THING,WorldOf(1851));
+      SendAction(EVENT_THING,WorldOf(1851),SEND_ROOM,"^w$n suddenly appears!\n");
+      SendAction(CODE_THING,EVENT_THING,SEND_DST,"^wA voice booms in your head: \'Well done, questor!\'\n");
+      CharAction(EVENT_THING,"look");
+    }
+  }
+}~
+P
+@exit~
+{
+  if(ThingGetType(EVENT_THING)==TTYPE_MOB) {
+    FightDamageRaw(TNULL,EVENT_THING,999999999);
+  }
+}~
+S
+#1850
+Recovery chamber~
+  This chamber is filled with silk pillows and plush sofas. There is a 
+pleasant perfume in the air. You get the feeling this is a place to rest and 
+gather your senses before the next test. Someone has left a small sign here. 
+~
+5 0 INDOORS
+D2
+~
+~
+0 -1 1852
+D5
+~
+~
+0 -1 1800
+E
+small sign~
+If you wish to leave this maze, go down.
+     -- L & A~
+S
+#1851
+Victors Court~
+  The victors court is for those mighty characters who beat the jorki! Well 
+Done! (although that wasn't the point...) Nevertheless, to reward your 
+prowess and persistance, this court has been decorated with extravagent 
+pictures and lovely decorations. Too bad there's not even a chair to sit 
+down on, though. There is a sign here. 
+~
+5 0 INDOORS
+D2
+~
+~
+0 -1 1852
+D5
+~
+~
+0 -1 1800
+E
+small sign~
+If you wish to leave this maze, go down.
+     -- L & A~
+S
+#1852
+Checkerboard Entrance~
+  You are in a square room with plain, grey walls. The floor is covered with 
+black and white alternating tiles; there are nine of them (3x3 square). 
+There is a sign here. 
+~
+5 0 INDOORS
+D5
+~
+~
+0 -1 1800
+D2
+~
+~
+0 -1 1854
+E
+sign~
+If you wish to leave this place, go down.
+  -- L & A~
+S
+#1853
+White Room~
+  You are in an all-white square room.... the interior decorator must have 
+been dead. 
+~
+5 0 INDOORS
+D3
+~
+~
+0 -1 1854
+D0
+~
+~
+0 -1 1856
+S
+#1854
+Black Room~
+  You are in an all-black square room. Hmmm... somewhat soothing after those 
+stupid grassy nolls.
+~
+5 0 INDOORS
+D3
+~
+~
+0 -1 1853
+D2
+~
+~
+0 -1 1857
+D1
+~
+~
+0 -1 1855
+D0
+~
+~
+0 -1 1852
+S
+#1855
+White Room~
+  You are in an all-white square room. You suspect some universe-famous 
+painter decorated this room in a flurry of emotion... and got paid big 
+buckazoids.
+~
+5 0 INDOORS
+D1
+~
+~
+0 -1 1854
+D0
+~
+~
+0 -1 1858
+S
+#1856
+Black Room~
+  You are in an all-black square room. You are speechless.
+~
+5 0 INDOORS
+D2
+~
+~
+0 -1 1859
+D1
+~
+~
+0 -1 1857
+D0
+~
+~
+0 -1 1853
+S
+#1857
+White Room~
+  You are in an all-white square room. Whoever painted this place did a very 
+nice job; you can't see a smear, nick, or dent anywhere.
+~
+5 0 INDOORS
+D3
+~
+~
+0 -1 1858
+D2
+~
+~
+0 -1 1854
+D1
+~
+~
+0 -1 1856
+D0
+~
+~
+0 -1 1860
+S
+#1858
+Black Room~
+  You are in an all-black square room. You are unimpressed.
+~
+5 0 INDOORS
+D3
+~
+~
+0 -1 1857
+D2
+~
+~
+0 -1 1861
+D0
+~
+~
+0 -1 1855
+S
+#1859
+White Room~
+  You are in an all-white square room. Strange... not even your dirty feet 
+are leaving any marks!
+~
+5 0 INDOORS
+D3
+~
+~
+0 -1 1860
+D2
+~
+~
+0 -1 1856
+S
+#1860
+Black Room~
+  You are in an all-black square room. Hmf.
+~
+5 0 INDOORS
+D3
+~
+~
+0 -1 1859
+D2
+~
+~
+0 -1 1862
+D1
+~
+~
+0 -1 1861
+D0
+~
+~
+0 -1 1857
+S
+#1861
+White Room~
+  You are in an all-white square room. It's so bright, you wish you had 
+shades!
+~
+5 0 INDOORS
+D2
+~
+~
+0 -1 1858
+D1
+~
+~
+0 -1 1860
+S
+#1862
+Grey Room~
+  You are in an all-grey square room. Finally, something different! 
+~
+5 0 INDOORS
+D2
+~
+~
+0 -1 1950
+D0
+~
+~
+0 -1 1860
+P
+@afterentry~
+{
+  if(ThingGetType(EVENT_THING)==TTYPE_PLR) {
+    PlayerSolvedQuest(EVENT_THING,"^wYou hear giggling...\n",8000,1,"TheMazeLevel4-Solution",2);
+  }
+}~
+S

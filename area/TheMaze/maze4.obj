@@ -1,0 +1,290 @@
+#1950
+builder couch~
+builder couch~
+A dusty old builder couch is humming quietly here~
+The builder couch looks like a long, slender bench covered in nice soft 
+cushioning. Perhaps, by lying on the couch, you could PRACTICE here. (type 
+"practice"). 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_SPIRIT,0,25)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#1951
+builder couch~
+builder couch~
+A dusty old builder couch is humming quietly here~
+The builder couch looks like a long, slender bench covered in nice soft 
+cushioning. Perhaps, by lying on the couch, you could PRACTICE here. (type 
+"practice"). 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  if(CharPractice(EVENT_THING,COMMAND,SF_PYROKINETIC,0,25)) {
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+#1952
+old message pad paper~
+An old message pad~
+An old paper message pad has been left here.~
+The message pad reads: "Day 23. We have made it to the third Octagon, and I 
+am starting to understand this 'Maze'. The catacombs are obviously of 
+builder design, but their intent has till now eluded me. I now believe these 
+rooms compromise a Builder IQ test; builders were fed through these tests to 
+rank and strengthen certain mental abilities. How these rooms were used in 
+the context of their society remain a mystery, however. By the gods, they 
+couldn't have been as brutal as they have become. We have lost Tufort, Smith,
+Lu, and Beaufort. Gumbo is malfunctioning, but repair circuitry seems to be
+compensating. Our equipment is lost, our rations low, our weapons empty or
+broken. We cannot conceivably make it back out the way we came in. Thus we
+have decided to continue on into the next 'test'. Let the log show that I have
+promoted Ensign T. M. Morzit to Captain First Class. 
+
+May the gods have mercy...             -- Dr. Mary J. Greenwood
+                                          Commander, ARF 23
+~
+OTHER 0 NOWEAR
+0 0 0 0
+0 0 0
+#1953
+octagon panel~
+An octagon shaped panel~
+An octagon shaped panel is floating in mid-air here~
+The octagon shaped panel is made of some indeterminate dull-gray metal. There
+is a single large button in the middle of it. Its use seems obvious.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a shrill whistle, followed by a metallic clank\n");
+  BLOCK_CMD=TRUE;
+}~
+#1954
+octagon panel~
+An octagon shaped panel~
+An octagon shaped panel is floating in mid-air here~
+The octagon shaped panel is made of some indeterminate dull-gray metal. There
+is a single large button in the middle of it. Its use seems obvious.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a metallic clank, followed by the sound of machinery\n");
+  BLOCK_CMD=TRUE;
+}~
+#1955
+octagon panel~
+An octagon shaped panel~
+An octagon shaped panel is floating in mid-air here~
+The octagon shaped panel is made of some indeterminate dull-gray metal. There
+is a single large button in the middle of it. Its use seems obvious.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear the sound of machinery followed by a soft chime\n");
+  BLOCK_CMD=TRUE;
+}~
+#1956
+octagon panel~
+An octagon shaped panel~
+An octagon shaped panel is floating in mid-air here~
+The octagon shaped panel is made of some indeterminate dull-gray metal. There
+is a single large button in the middle of it. Its use seems obvious.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a a soft chime, following by a bell ringing\n");
+  BLOCK_CMD=TRUE;
+}~
+#1957
+octagon panel~
+An octagon shaped panel~
+An octagon shaped panel is floating in mid-air here~
+The octagon shaped panel is made of some indeterminate dull-gray metal. There
+is a single large button in the middle of it. Its use seems obvious.
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@use~
+{
+  SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a bell ring, following by a dull thud\n");
+  BLOCK_CMD=TRUE;
+}~
+#1958
+large octagon panel~
+A large octagon shaped panel~
+A large octagon shaped panel is floating in mid-air here~
+The octagon shaped panel is made of some indeterminate dull-gray metal. 
+There six large buttons in a row near the center of the panel. 
+~
+OTHER 0 NOWEAR
+0 0 0 0
+-1 0 0
+P
+@command~
+{
+  int state;
+  state=PropertyGetInt(CODE_THING,"state");
+  if(StrIsCmd(CMD_CMD,"push")) {
+    if(StrIn(COMMAND,"5")) {
+      SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a shrill whistle\n");
+      PropertySetInt(CODE_THING,"state",1);
+    }
+    else {
+      if(StrIn(COMMAND,"1")) {
+        SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a metallic clank\n");
+        if(state==1) {
+          PropertySetInt(CODE_THING,"state",2);
+        }
+        else {
+          PropertySetInt(CODE_THING,"state",0);
+        }
+      }
+      else {
+        if(StrIn(COMMAND,"2")) {
+          SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear the sound of machinery\n");
+          if(state==2) {
+            PropertySetInt(CODE_THING,"state",3);
+          }
+          else {
+            PropertySetInt(CODE_THING,"state",0);
+          }
+        }
+        else {
+          if(StrIn(COMMAND,"6")) {
+            SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a soft chime\n");
+            if(state==3) {
+              PropertySetInt(CODE_THING,"state",4);
+            }
+            else {
+              PropertySetInt(CODE_THING,"state",0);
+            }
+          }
+          else {
+            if(StrIn(COMMAND,"4")) {
+              SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a bell ringing\n");
+              if(state==4) {
+                PropertySetInt(CODE_THING,"state",5);
+              }
+              else {
+                PropertySetInt(CODE_THING,"state",0);
+              }
+            }
+            else {
+              if(StrIn(COMMAND,"3")) {
+                SendAction(BaseGetInside(CODE_THING),TNULL,SEND_ROOM|SEND_AUDIBLE,"^CYou hear a dull thud\n");
+                if(state==5) {
+                  PlayerSolvedQuest(EVENT_THING,"^aYou hear joyfull music\n",6000,1,"TheMazeLevel3-Puzzle",1);
+                }
+                else {
+                  PropertySetInt(CODE_THING,"state",0);
+                }
+              }
+              else {
+                SendThing(EVENT_THING,"^CThere are just the six buttons, perhaps you should try one of them!\n");
+              }
+            }
+          }
+        }
+      }
+    }
+    BLOCK_CMD=TRUE;
+    stop;
+  }
+}~
+P
+@use~
+{
+  SendThing(EVENT_THING,"^CTo use this panel, you must select which button you want to push:\n");
+  SendThing(EVENT_THING,"^CFor example you could type \"push 1\" - simple, no\?\n");
+  BLOCK_CMD=TRUE;
+}~
+#1959
+pistol em field~
+An EM field pistol~
+A Dorian EM field pistol lies discarded here~
+Its an EM field pistol. Although the Dorian EM field axe was a highly 
+successfull weapon. Its ammo use was so prodigious as to limit its 
+usefullness. Dorion engineers used the same technology base to produce this 
+much more efficient pistol when it came time to equip the Guardians. 
+~
+WEAPON 0 HELD
+0 512 33686528 34013193
+5 400 0
+#1960
+builder power cell case plastic red~
+a builder power cell~
+A dull red coloured case made out of plastic is here.~
+There really isnt much to see, its a red box made out of some kind of 
+industrial-grade plastic. The only thing of any interest is that it has two 
+metal contacts at one end. Its about the size and shape of a deck of playing 
+cards 
+~
+AMMO 0 NOWEAR
+11 80 0 512
+1 0 0
+#1961
+blue pill~
+a blue pill~
+A small blue pill has been sitting here for millennia~
+It seems to be a small blue pill. Theres not much more that can be said 
+about it. Maybe it's just alien aspirin. 
+~
+DRUG 0 NOWEAR
+60 0 0 0
+1 200 0
+A
+USE-SELF-REGENERATION 30
+#1962
+blue crystal shard~
+a blue crystal shard~
+A blue crystal shard is here, pulsing softly.~
+Its a broken shard of some kind of crystal. Its looks to be of the same type 
+of crystal as the blue crystal maze. 
+~
+DEVICE 0 BOTH-WRISTS
+0 0 0 0
+2 1000 0
+A
+DAMROLL 20
+#1963
+glass orb~
+a glass orb~
+A small orb of glass has been left here~
+Its a small orb of glass that fits in your hand comfortably. Theres a 
+glittering light at its center, and you can hear the distant sound of music 
+when you hold it. Wonder what its used for. 
+~
+KEY 0 NOWEAR
+1963 0 0 0
+1 0 0
+$

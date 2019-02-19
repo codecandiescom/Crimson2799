@@ -1,0 +1,172 @@
+Introduction / Newbie Help~
+#
+story background~
+THE STORY SO FAR...
+-------------------
+
+The year is 2799AD by Earth chonology.
+
+An uneasy alliance of races and planets, called GalCiv, occupies
+the explored space surrounding Earth and it's neighbours.
+
+Everyone thinks Terrans are crazy.
+
+Two years ago, in 2797, a Human-Silicoid alliance merchant trading ship 
+travelling off-course in the Omega-Phi 12787 sector of uncharted space 
+happened upon a huge meteor orbiting a black hole. (Just more proof as to 
+just how substandard Terran technology is). On closer examination, the 
+meteor exhibited anomalous properties defying most conventional laws of 
+physics. It was also apparent the meteor, or "Anomaly", was 
+artificially constructed by an unknown race with a technology far beyond
+that of GalCiv.
+
+This was enough for everyone to leave it alone. Everyone, that
+is, except for the Terrans. But everyone knows Terrans are crazy.
+
+The Terrans built Space Dock 413.33 next to the Anomaly to facilitate
+exploration.
+
+In early 2798, rumor emerged in the GalCiv community that the 
+Terrans had conducted exploratory missions into the Anomaly.
+Everyone dismissed this as pure madness! But trust the Terrans to
+go playing with stuff they have no comprehension of. Heck, they're
+crazy.
+
+By late 2798, stories about the tragic Terran exploratory missions
+began to circulate throughout GalCiv; of 483 personelle from 57 
+individual reconnaissance missions, two had returned: one died after 
+gouging her own eyes out, and the the other, Morzit, slipped into 
+a deep comma.
+
+Crazy Terrans.
+
+6 months later, Morzit came out of his comma. It was rumored
+he was psychotic.  Nobody was surprised.
+
+A huge and blatant effort by the Terran government to cover up
+Anomaly Station activity was seen by GalCiv as a vain attempt
+to recover some degree of dignity. 
+
+January 1, 2799, it was leaked to the GalCiv community that
+Morzit had mental abilities beyond that of any known lifeform:
+Psychic, Body, Telekinetic, Apportation, Spirit, Pyrokinetic, 
+Telepathy. 
+
+All eyes turned to the Anomaly.
+
+The year is 2799AD by Earth chronology. The Terran-Siliconoid
+alliance maintains a space dock, Anomaly Station, orbiting
+the Anomaly. Military and civilians from every known race and
+region have been flooding to Anomaly Station in the hopes of
+developing mental and spiritual abilities. Extra money from
+finding and selling "Builder" technology is a welcome side benefit.
+Anomaly station is suffering from a sudden overpopulation problem, 
+and a small (illegal) settlement has formed just inside the Anomaly. 
+
+^CSEE ALSO: INTRO
+~
+#
+introduction newbie help~
+INTRODUCTION -- NEW PLAYERS
+---------------------------
+
+You start the game on the space transport vessle Eclipse. The
+space transport had docked at Anomaly Station. 
+
+General movement is made by typing the direction you wish to
+move: north, south, east, west, up, down. 
+
+Talking can be done by the "say" command and the "gossip" command. 
+eg: say hi! This game is so cool!
+eg: gossip how do you get started at this game?
+
+Help on all available commands is available by typing "help".
+
+The first thing you should do is go north and talk with the customs 
+guards. Type "say hi" to get them, or most anyone in the game, into 
+a conversation. Follow the customs guard's instructions carefully, 
+but more importantly, PAY ATTENTION to the messages and events around
+you. 
+
+As you increase your experience, and become more comfortable with the
+various commands available, you should start to go out and explore 
+a little bit. Be adventureous! But try not to bite off more than
+you can chew.
+
+^CSEE ALSO: ^gSTORY CLONES CUSTOMIZATION ENCUMBRANCE TICKS
+~
+#
+death dying clones brain dumps~
+CLUB MED, BRAIN DUMPS, AND CLONES
+---------------------------------
+Anomaly Station Administration maintains a contract with Club Med
+to service the cloning needs of the station and the station 
+occupants. If you die, Club Med will simply make a new clone for you to
+use. 
+
+While this may sound good at the onset, it has some drawbacks. 
+Club Med can only make a clone of you if they know what your genetic
+and mental make-up is. As you progress through the game, this will 
+change. Thus it is important to frequently return to Club Med and
+get a "Brain Dump" so that experience you have gained will transfer
+over to your new clone should you die. 
+
+I'll say it again, GO TO CLUB MED AND HAVE BRAIN DUMPS DONE REGULARLY, or you
+will LOSE things like *LEVELS* and *EXPERIENCE* when you die!
+
+Of course, if you die, there is no way to retrieve your equipment. 
+You will have to do this yourself before somebody else finds you
+corpse and loots it. (Dont worry only one thing can be looted from you corpse
+assuming you get to it before it decays, so you will get most of your stuff
+back anyways)
+
+^CSEE ALSO: ^gCUSTOMIZATION
+~
+#
+customization configuring configuration~
+CUSTOMIZING YOUR CHARACTER AND SETTINGS
+---------------------------------------
+Many, many things can be customized about your character and how the game
+is shown to you. Most of these things can be changed via the SET command.
+
+The things that can be changed include customizing the prompt, its generally a
+good idea to have the prompt display your hit points and move points, these
+things are continually going up and down and you're probably going to want to
+keep a close eye on them. As an example of how SET works, type SET and hit 
+enter to see a list of all the settings (theres lots isnt there...) type SET
+HIT once to turn display of hit points on, type SET HIT again to turn it off
+if you decide you dont like it.
+
+^CSEE ALSO:^gENCUMBRANCE
+~
+#
+carrying encumbrance~
+CARRYING AND ENCUMBRANCE
+------------------------
+Put simply the more you carry, the more movement points you will use up every
+time you move. In fact, you're quickly going to have to make those hard 
+decisions as to just how much equipment you want to carry, and more importantly
+what you're going to have to leave behind.
+
+You can monitor how much weight you are carrying with the INVENTORY command.
+It will also show you what your move point cost is.
+
+^CSEE ALSO:^gTICKS
+~
+#
+recovery point ticks~
+POINT RECOVERY AND TICKS
+------------------------
+Every minute or so the mud server "ticks" and you get some move, hit and power
+points back. How many points you get back exactly depends on a number of things
+but you can watch this happen by turning on the TICK channel (via SET TICK).
+
+You get the most amount of ticks back if you are neither hungry nor thirsty
+and you are sleeping when the tick happens. To goto sleep simply type SLEEP,
+when you are healed up to your satisfaction, type WAKE and then STAND.
+
+Note that when your hunger and thirst become positive you they will decrease
+your ability to recover points. Once both hunger and thirst reach maximum you
+will stop recovering points completely!
+~
+$
